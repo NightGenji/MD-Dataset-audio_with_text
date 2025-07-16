@@ -1,0 +1,8 @@
+// python3 -m venv v_environment //
+-- Comenzi folosite des
+source v_environment/bin/activate
+pip install -r requirements.txt
+deactivate
+
+// pentru scurtarea terminalului
+export PS1="\u@\h:\W\$ "
