@@ -1,4805 +1,3454 @@
 {
   "segments": [
     {
-      "id": 14,
+      "id": 2,
       "start": 38.0,
-      "end": 41.0,
-      "text": " Mă numesc Babaian Ecaterina, am 22 de ani, învăț",
+      "end": 46.0,
+      "text": " Mă numesc Deana Rusu, sunt din orașul Drochea și am revenit acasă după 5 ani de Mare Bretanie.",
+      "id_user": 1
+    },
+    {
+      "id": 3,
+      "start": 46.0,
+      "end": 59.0,
+      "text": " Salut, eu sunt Ștefan. Eu am 9 ani. Eu trăit în Anglia, în Liverpool.",
+      "id_user": 2
+    },
+    {
+      "id": 4,
+      "start": 59.0,
+      "end": 68.0,
+      "text": " Eu am stat la școală și acasă.",
+      "id_user": 2
+    },
+    {
+      "id": 5,
+      "start": 68.0,
+      "end": 76.0,
+      "text": " Sunt Stella Balan, am 61 de ani. Am stat în Italia aproape 20 de ani, îmi mai lipsau vreo 4-5 luni.",
+      "id_user": 3
+    },
+    {
+      "id": 6,
+      "start": 76.0,
+      "end": 79.0,
+      "text": " De 4 ani m-am întors în Moldova.",
+      "id_user": 3
+    },
+    {
+      "id": 7,
+      "start": 79.0,
+      "end": 88.0,
+      "text": " Mă numesc Gnătiuc Victor, am 68 de ani și am trăit o perioadă de 19 ani la Rusie.",
+      "id_user": 4
+    },
+    {
+      "id": 8,
+      "start": 88.0,
+      "end": 97.0,
+      "text": " Am lucrat la un depozit a Unifabreși care îmbala ceaiurile. O întreprindere foarte mare.",
+      "id_user": 4
+    },
+    {
+      "id": 9,
+      "start": 97.0,
+      "end": 104.0,
+      "text": " Numele meu este Laura Baraga, am 25 de ani și am revenit acasă după 6 ani de Amsterdam, Holanda.",
+      "id_user": 5
+    },
+    {
+      "id": 10,
+      "start": 104.0,
+      "end": 111.0,
+      "text": " Sunt oglinda Ion, am 42 de ani, am 3 fetițe și o soție minunată.",
+      "id_user": 6
+    },
+    {
+      "id": 11,
+      "start": 111.0,
+      "end": 123.0,
+      "text": " Am revenit din țările europene, din Italia după 13 ani aproape și în Norvegia încă după 5.",
+      "id_user": 6
+    },
+    {
+      "id": 12,
+      "start": 123.0,
+      "end": 126.0,
+      "text": " Motivul pentru care am decis să mă reîntorc acasă.",
+      "id_user": 1
+    },
+    {
+      "id": 13,
+      "start": 126.0,
+      "end": 129.0,
+      "text": " Spontanitatea de care mereu dau dovadă.",
+      "id_user": 1
+    },
+    {
+      "id": 14,
+      "start": 129.0,
+      "end": 133.0,
+      "text": " Deci la mine toate deciziile importante în viață sunt luate spontan.",
       "id_user": 1
     },
     {
       "id": 15,
-      "start": 41.0,
-      "end": 44.0,
-      "text": " la Amtap, la specialitatea Violoncel.",
+      "start": 133.0,
+      "end": 138.0,
+      "text": " Iar de obicei niciodată chestia asta nu stărmină cu ceva negativ.",
       "id_user": 1
     },
     {
       "id": 16,
-      "start": 44.0,
-      "end": 48.0,
-      "text": " Sunt Daniela Secinschii, sunt fondatoarea companiei proactive și",
-      "id_user": 4
+      "start": 138.0,
+      "end": 143.0,
+      "text": " Deci de obicei deciziile care eu le iau au urmări frumoase, mult mai mărețe.",
+      "id_user": 1
     },
     {
       "id": 17,
-      "start": 48.5,
-      "end": 50.0,
-      "text": " expertă în finanțe personale.",
-      "id_user": 4
+      "start": 143.0,
+      "end": 146.0,
+      "text": " Asta a fost cazul când am plecat.",
+      "id_user": 1
     },
     {
       "id": 18,
-      "start": 50.2,
-      "end": 54.0,
-      "text": " Mă numesc Ioniță Elizabeta, pensionară,",
-      "id_user": 5
+      "start": 146.0,
+      "end": 150.0,
+      "text": " Deci pentru că eu mi-am atins obiectivul când am plecat din Moldova în Marea Britanie.",
+      "id_user": 1
     },
     {
       "id": 19,
-      "start": 54.0,
-      "end": 57.2,
-      "text": " locuiesc în Chișinău, sectorul Ciocana.",
-      "id_user": 5
+      "start": 150.0,
+      "end": 157.0,
+      "text": " Pentru că m-am confrontat cu niște situații care m-au adus la faptul că eu pot tăt.",
+      "id_user": 1
     },
     {
       "id": 20,
-      "start": 57.2,
-      "end": 62.0,
-      "text": " Sunt Viorica Cojocar, din orașul Liova, am patruzeci și trei",
-      "id_user": 2
+      "start": 157.0,
+      "end": 159.0,
+      "text": " Nu există ceva care eu să nu pot.",
+      "id_user": 1
     },
     {
       "id": 21,
-      "start": 62.1,
-      "end": 67.2,
-      "text": " de ani, am lucrat mulți ani în Italia ca badantă",
-      "id_user": 2
+      "start": 159.0,
+      "end": 161.0,
+      "text": " Eu am trecut prin foc și prin gheață.",
+      "id_user": 1
     },
     {
       "id": 22,
-      "start": 67.2,
-      "end": 74.1,
-      "text": " și după cam vreo opt ani, nouă să zicem, am revenit acasă",
-      "id_user": 2
+      "start": 161.0,
+      "end": 162.0,
+      "text": " Eu pot tăt.",
+      "id_user": 1
     },
     {
       "id": 23,
-      "start": 74.1,
-      "end": 79.9,
-      "text": "în țară și iaca peste ani am câștigat patru milioane de lei.",
-      "id_user": 2
+      "start": 162.0,
+      "end": 166.0,
+      "text": " Nu există limit pentru mine și pentru asta eu pe mine mă iubesc.",
+      "id_user": 1
     },
     {
       "id": 24,
-      "start": 79.9,
-      "end": 83.0,
-      "text": " Mă numesc Alexandru Donos, sunt psiholog,",
-      "id_user": 3
+      "start": 166.0,
+      "end": 169.0,
+      "text": " Așa a fost și cu decizia de a reveni înapoi acasă.",
+      "id_user": 1
     },
     {
       "id": 25,
-      "start": 83.0,
-      "end": 88.9,
-      "text": " de 14 ani sunt în domeniul social curat și până atunci încă mai activam",
-      "id_user": 3
+      "start": 169.0,
+      "end": 170.0,
+      "text": " Eu pot tăt.",
+      "id_user": 1
     },
     {
       "id": 26,
-      "start": 88.9,
-      "end": 90.1,
-      "text": "și în calitate de voluntar.",
-      "id_user": 3
+      "start": 170.0,
+      "end": 179.0,
+      "text": " Dacă eu acolo fiind străină am obținut ceva, eu a ieșit la mine acasă deși n-aș obține când îți pentre ani.",
+      "id_user": 1
     },
     {
       "id": 27,
-      "start": 90.1,
-      "end": 101.0,
-      "text": " Au fost ani când n-avem ce mânca, au fost zile când mama cumpăra",
-      "id_user": 2
+      "start": 179.0,
+      "end": 185.0,
+      "text": " Când tu te duci pe stihotare, așa ai o senzație că rădășinele este parcă...",
+      "id_user": 1
     },
     {
       "id": 28,
-      "start": 101.0,
-      "end": 105.0,
-      "text": " pe zi două pâini, cum erau înainte chirpic.",
-      "id_user": 2
+      "start": 185.0,
+      "end": 190.0,
+      "text": " Ele s-au întins, ele nu s-au rupt, dar ele parcă s-au întins, dar s-au întins până la durere.",
+      "id_user": 1
     },
     {
       "id": 29,
-      "start": 105.0,
-      "end": 110.0,
-      "text": " Le împărțea în patru, că noi eram trei copii și mama, mama ne-o crescut singură.",
-      "id_user": 2
+      "start": 190.0,
+      "end": 196.0,
+      "text": " Nu am cum eu să spun ceva concret că ea că nini-a lipsit mămăligă.",
+      "id_user": 1
     },
     {
       "id": 30,
-      "start": 111.0,
-      "end": 116.0,
-      "text": " Și la fiecare câte o bucată de pâine, toată ziua, pentru că ea nu avea.",
-      "id_user": 2
+      "start": 196.0,
+      "end": 198.0,
+      "text": " Eu doar știu a găti.",
+      "id_user": 1
     },
     {
       "id": 31,
-      "start": 116.0,
-      "end": 119.5,
-      "text": " Dar așa am crescut, cu greutăți foarte mari.",
-      "id_user": 2
+      "start": 198.0,
+      "end": 202.0,
+      "text": " Știți că eu mămălig așa ești în Anglia și zam așa ești în Anglia.",
+      "id_user": 1
     },
     {
       "id": 32,
-      "start": 119.5,
-      "end": 125.0,
-      "text": " În familie noi nu aveam bani la vedere sau mulți bani, nu am fost obișnuiți cu sume,",
-      "id_user": 4
+      "start": 202.0,
+      "end": 205.0,
+      "text": " Nu e o problemă în a găti mâncare moldovnească acolo.",
+      "id_user": 1
     },
     {
       "id": 33,
-      "start": 125.2,
-      "end": 129.6,
-      "text": " nici cu abundență financiară, să știu, că părinții sunt bogați.",
-      "id_user": 4
+      "start": 205.0,
+      "end": 209.0,
+      "text": " E problemă însuși în locul ăsta, care el e sfânt.",
+      "id_user": 1
     },
     {
       "id": 34,
-      "start": 129.6,
-      "end": 135.7,
-      "text": " În schimb, mama totdeauna ne spunea un lucru, uite-te, Daniela, noi poate nu avem bani,",
-      "id_user": 4
+      "start": 209.0,
+      "end": 213.0,
+      "text": " Și e o băcată mică de pământ, dar și de dragă.",
+      "id_user": 1
     },
     {
       "id": 35,
-      "start": 135.7,
-      "end": 138.2,
-      "text": " dar noi suntem bogați pentru că avem ce mânca.",
-      "id_user": 4
+      "start": 213.0,
+      "end": 216.0,
+      "text": " Că pur și simplu nu... n-ai cum să nu o iubești.",
+      "id_user": 1
     },
     {
       "id": 36,
-      "start": 138.2,
-      "end": 140.9,
-      "text": " Și noi niciodată nu o să murim de foame.",
-      "id_user": 4
+      "start": 216.0,
+      "end": 223.0,
+      "text": " Italia am ales pentru că sora mea mai mică decât mine Nina deja era acolo.",
+      "id_user": 3
     },
     {
       "id": 37,
-      "start": 140.9,
-      "end": 146.0,
-      "text": " Respectiv, eu m-am simțit întotdeauna bogată prin faptul că am mâncare pe masă.",
-      "id_user": 4
+      "start": 223.0,
+      "end": 230.0,
+      "text": " Nina ne-a trimis 1.500 de euro, de dolari.",
+      "id_user": 3
     },
     {
       "id": 38,
-      "start": 146.0,
-      "end": 148.1,
-      "text": " Deci așa mesaj mi s-a transmis.",
-      "id_user": 4
+      "start": 230.0,
+      "end": 232.0,
+      "text": " Nu încă nu era. În Italia era în căliră.",
+      "id_user": 3
     },
     {
       "id": 39,
-      "start": 148.1,
-      "end": 151.4,
-      "text": " Pot să-mi spun că foarte bine înțelegem și înțeleg, continui",
+      "start": 232.0,
+      "end": 237.0,
+      "text": " Eu nu avem idei cum să-i întorc înapoi dacă nu reușăm să ajung în Italia.",
       "id_user": 3
     },
     {
       "id": 40,
-      "start": 151.4,
-      "end": 156.3,
-      "text": " să înțeleg problemele, nevoile oamenilor, pentru că am trecut și eu în copilărie prin anumite încercări.",
+      "start": 237.0,
+      "end": 241.0,
+      "text": " Am dat banii și ei la o rudă de-a noastră.",
       "id_user": 3
     },
     {
       "id": 41,
-      "start": 156.3,
-      "end": 163.1,
-      "text": " Și de aceea prețul banului și cam tematica despre care noi vorbim astăzi o cunosc.",
+      "start": 241.0,
+      "end": 245.0,
+      "text": " N-am fost mințită cum au fost mințită prin Pruselia multe fete.",
       "id_user": 3
     },
     {
       "id": 42,
-      "start": 163.1,
-      "end": 168.8,
-      "text": " și asta îmi permite mie cumva și să mai exercit cu demnitate atribuțiile de serviciu.",
+      "start": 245.0,
+      "end": 248.0,
+      "text": " Ne-a făcut tăte pașaporte, tăte ne-a făcut.",
       "id_user": 3
     },
     {
       "id": 43,
-      "start": 168.8,
-      "end": 178.0,
-      "text": " în familia mea, situația financiară, n-aș spune că o fost greu, ori o fost un deficit.",
-      "id_user": 5
+      "start": 248.0,
+      "end": 256.0,
+      "text": " Și eu cu un autobus de oameni, femei, ne-am pornit înspre Italia ca turiști.",
+      "id_user": 3
     },
     {
       "id": 44,
-      "start": 178.0,
-      "end": 184.0,
-      "text": " știi așa, Am apucat părinții totdeauna se stăruiau ca în casă să aibă copiii tot timpul.",
-      "id_user": 5
+      "start": 256.0,
+      "end": 263.0,
+      "text": " Ne-a făcut o legendă că ne ducem să vedem peretele din Berlin,",
+      "id_user": 3
     },
     {
       "id": 45,
-      "start": 184.0,
-      "end": 190.8,
-      "text": " N-aș spune că o fost așa de greu pe vremurile când noi socoteam, că atuncea așa trebuie să fie, cred că.",
-      "id_user": 5
+      "start": 263.0,
+      "end": 266.0,
+      "text": " care numai și era dărmat dintre două germanii.",
+      "id_user": 3
     },
     {
       "id": 46,
-      "start": 190.8,
-      "end": 194.0,
-      "text": " Depinde de la om la om, depinde, eu socot.",
-      "id_user": 5
+      "start": 266.0,
+      "end": 271.0,
+      "text": " Și am ajuns turist în Italia și m-am reținut aproape 20 de ani.",
+      "id_user": 3
     },
     {
       "id": 47,
-      "start": 194.0,
-      "end": 202.0,
-      "text": " Pentru că am văzut aceia că era tot timpul și de atâta credem poate toți au așa,",
-      "id_user": 5
+      "start": 271.0,
+      "end": 273.0,
+      "text": " Mă întrebă fetele, tu vrei acasă?",
+      "id_user": 3
     },
     {
       "id": 48,
-      "start": 202.0,
-      "end": 206.0,
-      "text": " ca cum au avut părinții noștri, grijă de noi.",
-      "id_user": 5
+      "start": 273.0,
+      "end": 278.0,
+      "text": " Nu. Atâta timp cât aveam nevoie să fiu în Italia, eu niciodată n-am vrut acasă.",
+      "id_user": 3
     },
     {
       "id": 49,
-      "start": 206.0,
-      "end": 212.0,
-      "text": " N-am suferit nevoia, sărăcia.",
-      "id_user": 5
+      "start": 278.0,
+      "end": 281.0,
+      "text": " Că știem că dacă mă duc acasă s-a terminat.",
+      "id_user": 3
     },
     {
       "id": 50,
-      "start": 212.0,
-      "end": 217.0,
-      "text": " Am fost, o fost bine în vremurile celea, când eram noi.",
-      "id_user": 5
+      "start": 281.0,
+      "end": 284.0,
+      "text": " Eu i-am ajutat pitați, eu i-am susținut pitați.",
+      "id_user": 3
     },
     {
       "id": 51,
-      "start": 217.0,
-      "end": 222.0,
-      "text": " Că nu știam altă altă ceva, cred că de atâta nouă ne părea, că-i bine.",
-      "id_user": 5
+      "start": 284.0,
+      "end": 288.0,
+      "text": " Eu n-am venit bogată cu bani din Italia, dar am venit bogată spiritual.",
+      "id_user": 3
     },
     {
       "id": 52,
-      "start": 222.0,
-      "end": 229.0,
-      "text": " Primii bani de buzunar mi-i dădea caatare tata, așa câte zece lei pe zi,",
-      "id_user": 1
+      "start": 288.0,
+      "end": 291.0,
+      "text": " Eu atât am văzut, atât am învățat eu.",
+      "id_user": 3
     },
     {
       "id": 53,
-      "start": 229.1,
-      "end": 235.0,
-      "text": " dar la un moment dat am deschis un mic business la școală.",
-      "id_user": 1
+      "start": 291.0,
+      "end": 294.0,
+      "text": " Când avem moze liberă, duminica eu mă dușim cu ruczacul în spate",
+      "id_user": 3
     },
     {
       "id": 54,
-      "start": 235.0,
-      "end": 243.0,
-      "text": " Vindeam tartinele pe care mi le dădea bunica și în cazul în care nu se ajungeau la unii colegi,",
-      "id_user": 1
+      "start": 294.0,
+      "end": 297.0,
+      "text": " și descoperim Italia.",
+      "id_user": 3
     },
     {
       "id": 55,
-      "start": 243.0,
-      "end": 246.0,
-      "text": " le tăiam cu rigla în jumătate.",
-      "id_user": 1
+      "start": 297.0,
+      "end": 303.0,
+      "text": " Muzia e... Chiar mă primblam acolo, fiecare stradă e obcăță de istorie.",
+      "id_user": 3
     },
     {
       "id": 56,
-      "start": 246.0,
-      "end": 250.0,
-      "text": " Și iaca așa făceam singură bani de buzunar și cu banii pe care făceam,",
-      "id_user": 1
+      "start": 303.0,
+      "end": 305.0,
+      "text": " Să îngurică.",
+      "id_user": 3
     },
     {
       "id": 57,
-      "start": 250.0,
-      "end": 256.0,
-      "text": " mă duceam jos la bufet și îmi cumpăram, erau un fel de inelușe cu ciocolată.",
-      "id_user": 1
+      "start": 305.0,
+      "end": 308.0,
+      "text": " M-am primplat pe toate străzile Romei.",
+      "id_user": 3
     },
     {
       "id": 58,
-      "start": 256.0,
-      "end": 262.0,
-      "text": " Eu de când am început a lucra, eu nu am mai dus foame, eu nu am mai trăit cum trăiam,",
-      "id_user": 2
+      "start": 308.0,
+      "end": 311.0,
+      "text": " Și asta e o lucru foarte bună.",
+      "id_user": 3
     },
     {
       "id": 59,
-      "start": 262.0,
-      "end": 267.7,
-      "text": " eu încet încet am început să-mi cumpăr haine, nu eram măritată.",
-      "id_user": 2
+      "start": 311.0,
+      "end": 315.0,
+      "text": " Eu când aud cuvântul migrare, la mine se asociază cu experiența mamei mele,",
+      "id_user": 5
     },
     {
       "id": 60,
-      "start": 267.7,
-      "end": 273.1,
-      "text": " Avem 17 ani m-am dus la cules nuci.",
-      "id_user": 2
+      "start": 315.0,
+      "end": 319.0,
+      "text": " care a plecat în Italia în perioada în care toată lumea pleca în Italia,",
+      "id_user": 5
     },
     {
       "id": 61,
-      "start": 273.1,
-      "end": 281.0,
-      "text": " Pe deal, m-am dus la într-un sat la un moș de-a meu, că știam că era sezonul de strâns nuci și se făcea bani buni.",
-      "id_user": 2
+      "start": 319.0,
+      "end": 325.0,
+      "text": " anii 2005-2006, cu greutăți, cu documenti false și tot valul ăla",
+      "id_user": 5
     },
     {
       "id": 62,
-      "start": 281.0,
-      "end": 287.2,
-      "text": " M-am dus acolo, am strâns, să înțelegeți eu de felul meu, sunt hapsână la lucru,",
-      "id_user": 2
+      "start": 325.0,
+      "end": 328.0,
+      "text": " care a migrat în perioada aia.",
+      "id_user": 5
     },
     {
       "id": 63,
-      "start": 287.2,
-      "end": 290.5,
-      "text": " am strâns nucile celea, și mult am strâns.",
-      "id_user": 2
+      "start": 328.0,
+      "end": 333.0,
+      "text": " Și automat, eu când aud cuvântul ăsta, mi se asociază cu tare multe greutăți",
+      "id_user": 5
     },
     {
       "id": 64,
-      "start": 290.5,
-      "end": 296.94,
-      "text": " Ne-o dat trei sute patru sute de lei pe nu patru sute și ceva de lei pe nucile celea, dar erau foarte mulți bani.",
-      "id_user": 2
+      "start": 333.0,
+      "end": 338.0,
+      "text": " și tare multă luptă pentru supraviețuire și eu nu tare mă regăsesc în asta.",
+      "id_user": 5
     },
     {
       "id": 65,
-      "start": 296.94,
-      "end": 303.84,
-      "text": " foarte mulți bani Erau pentru mine, socotiți eu am patruzeci și trei de ani, și atunci avem 17 ani.",
-      "id_user": 2
+      "start": 338.0,
+      "end": 343.0,
+      "text": " Am plecat ca valul de studenți după clasa 12-a.",
+      "id_user": 5
     },
     {
       "id": 66,
-      "start": 303.84,
-      "end": 306.84,
-      "text": " Cu câți ani în urmă, eu am făcut așa mulți bani.",
-      "id_user": 2
+      "start": 343.0,
+      "end": 350.0,
+      "text": " Am terminat liceul în luna mai, iunie, și în august deja eram în Amsterdam.",
+      "id_user": 5
     },
     {
       "id": 67,
-      "start": 306.84,
-      "end": 311.6,
-      "text": " M-am dus de banii ceia ne-am cumpărat, o cămașă de jeans, care era la modă.",
-      "id_user": 2
+      "start": 350.0,
+      "end": 354.0,
+      "text": " În Oanda am făcut facultatea de turism și tot timpul am lucrat la hoteluri,",
+      "id_user": 5
     },
     {
       "id": 68,
-      "start": 311.6,
-      "end": 313.84,
-      "text": " Doamne, să fiu și eu, în rând cu lumea.",
-      "id_user": 2
+      "start": 354.0,
+      "end": 359.0,
+      "text": " am lucrat pentru primărie din Amsterdam, am încercat să dezvoltăm tot felul de proiecte.",
+      "id_user": 5
     },
     {
       "id": 69,
-      "start": 314.5,
-      "end": 321.8,
-      "text": " Și ne-am cumpărat o pereche de jeans, și ne-am cumpărat o pereche de pantofi, de piele naturală, erau tot la modă.",
-      "id_user": 2
+      "start": 359.0,
+      "end": 365.0,
+      "text": " Toți prietenii mei, olandești sau majoritatea ei, soțară oricum individualistă,",
+      "id_user": 5
     },
     {
       "id": 70,
-      "start": 321.75,
-      "end": 326.4,
-      "text": " Pantofii ceia i-am purtat, cred că 15 ani de zile.",
-      "id_user": 2
+      "start": 365.0,
+      "end": 370.0,
+      "text": " majoritatea țărilor din Nord, ei își aveau părinții la o oră distanță,",
+      "id_user": 5
     },
     {
       "id": 71,
-      "start": 326.4,
-      "end": 332.4,
-      "text": " Primii mei bani au fost legate de vânzarea anumitor produse agricole,",
-      "id_user": 3
+      "start": 370.0,
+      "end": 374.0,
+      "text": " dar îți vedeau o dată la jumătate de an sau o dată pe an.",
+      "id_user": 5
     },
     {
       "id": 72,
-      "start": 332.4,
-      "end": 335.3,
-      "text": " când eram la Bunei, la Nordul Moldovei, la Ocnița.",
-      "id_user": 3
+      "start": 374.0,
+      "end": 378.0,
+      "text": " Și noi eram toți moldoveni acolo, care la fiecare Paște, anul nou, fiecare vacanță,",
+      "id_user": 5
     },
     {
       "id": 73,
-      "start": 335.3,
-      "end": 348.52,
-      "text": " pe atunci mergeau mai multe trenuri, și persoanele staționau mult timp în Ocnița, chiar o oră erau, două.",
-      "id_user": 3
+      "start": 378.0,
+      "end": 382.0,
+      "text": " dacă prindeam un avion, vineam acasă pentru că trebuia să văd pe bunica, pe mama,",
+      "id_user": 5
     },
     {
       "id": 74,
-      "start": 348.52,
-      "end": 355.52,
-      "text": " Și toți copiii, și nu doar și vârsnicii, ișeau cu ce aveau, atunci.",
-      "id_user": 3
+      "start": 382.0,
+      "end": 386.0,
+      "text": " pe anul nou, e Paștele cum stăm de sărbători singuri,",
+      "id_user": 5
     },
     {
       "id": 75,
-      "start": 355.52,
-      "end": 359.52,
-      "text": " nu știu De la Prăsade, Mere, până la Miere.",
-      "id_user": 3
+      "start": 386.0,
+      "end": 388.0,
+      "text": " că noi trebuie să stăm cu familia.",
+      "id_user": 5
     },
     {
       "id": 76,
-      "start": 359.52,
-      "end": 363.52,
-      "text": " Avem tot timpul eu banii, pentru că tata meu e un frate,",
+      "start": 388.0,
+      "end": 393.0,
+      "text": " Și asta am început să observ mai mult decât o făceam înainte",
       "id_user": 5
     },
     {
       "id": 77,
-      "start": 363.9,
-      "end": 369.35999999999996,
-      "text": " nu era căsătorit, și tot timpul când venea, îmi arunca câte ceva.",
+      "start": 393.0,
+      "end": 399.0,
+      "text": " și am început să prind drag de nevoia asta noastră,",
       "id_user": 5
     },
     {
       "id": 78,
-      "start": 369.35999999999996,
-      "end": 376.7,
-      "text": " Și de bomboane mâncam și altele de atâta, eu eu nu am suferit nimic.",
+      "start": 399.0,
+      "end": 401.0,
+      "text": " de a sta printre oameni mult mai mult.",
       "id_user": 5
     },
     {
       "id": 79,
-      "start": 376.7,
-      "end": 380.35999999999996,
-      "text": " Cât primeați de obicei, o rublă, două, trei?",
-      "id_user": 6
+      "start": 401.0,
+      "end": 403.0,
+      "text": " Pentru că înainte criticam.",
+      "id_user": 5
     },
     {
       "id": 80,
-      "start": 380.9,
-      "end": 383.35999999999996,
-      "text": " Primea, ei nu, erau pe atuncea copeici.",
+      "start": 403.0,
+      "end": 410.0,
+      "text": " Că noi celebrăm tot timpul sărbătorile alături de rude, alături de prieteni,",
       "id_user": 5
     },
     {
       "id": 81,
-      "start": 383.35999999999996,
-      "end": 386.7,
-      "text": " Atunci era o sută de grame de bomboane, costa zece copeici.",
+      "start": 410.0,
+      "end": 414.0,
+      "text": " să-ți suni bunica, mama, la fiecare sărbătoare, fiecare...",
       "id_user": 5
     },
     {
       "id": 82,
-      "start": 386.7,
-      "end": 392.5,
-      "text": " Prima sumă de bani am făcut-o, cea mai mare, eu ni-am făcut-o.",
+      "start": 414.0,
+      "end": 421.0,
+      "text": " Asta e ceva frumos și mult mai mult apreciez acum decât aprecieam înainte să mă duc în Olandă.",
       "id_user": 5
     },
     {
       "id": 83,
-      "start": 392.8,
-      "end": 398.0,
-      "text": " Toată vara am strâns cireșe și am uscat și acum le-am vândut toamna.",
+      "start": 421.0,
+      "end": 423.0,
+      "text": " După Olandă am plecat în Asia.",
       "id_user": 5
     },
     {
       "id": 84,
-      "start": 398.2,
-      "end": 402.2,
-      "text": " Și tata meu mi-o mai dat o rublă și ne-o cumpărat palton.",
+      "start": 423.0,
+      "end": 430.0,
+      "text": " În Thailand, da, și în Vietnam, Laos, Filipine, Malaisia, astea țări în care am stat,",
       "id_user": 5
     },
     {
       "id": 85,
-      "start": 402.2,
-      "end": 406.2,
-      "text": " treizeci și una de ruble, cum era pe vremea aceea.",
+      "start": 430.0,
+      "end": 435.0,
+      "text": " acolo pe chirie eu plăteam 100 de euro pe lună.",
       "id_user": 5
     },
     {
       "id": 86,
-      "start": 406.2,
-      "end": 410.7,
-      "text": " Pentru mine bogăția nu înseamnă doar bani, dar relația cu banii",
-      "id_user": 4
+      "start": 435.0,
+      "end": 439.0,
+      "text": " Și pe mâncare eu mâncam cu cam 2-3 euro pe zi.",
+      "id_user": 5
     },
     {
       "id": 87,
-      "start": 410.7,
-      "end": 415.8,
-      "text": " oricum s-a creat în timp și din copilărie, pentru că mie îmi plăcea să strâng bani.",
-      "id_user": 4
+      "start": 439.0,
+      "end": 441.0,
+      "text": " Și mâncam bine, tare bine.",
+      "id_user": 5
     },
     {
       "id": 88,
-      "start": 415.8,
-      "end": 422.0,
-      "text": " Deci eu eram acel copil care cinci bănuți, douăzeci de bani, un leu, eu puneam sub covor.",
-      "id_user": 4
+      "start": 441.0,
+      "end": 444.0,
+      "text": " Adică eu pe lună cheltuiam, dacă să vorbim despre bani,",
+      "id_user": 5
     },
     {
       "id": 89,
-      "start": 422.0,
-      "end": 429.7,
-      "text": " Asta era perna mea de siguranță, deci eu strângeam bani sub nici nu sub covor dar dacă stiți sub palas în casă.",
-      "id_user": 4
+      "start": 444.0,
+      "end": 447.0,
+      "text": " eu pe lună cheltuiam câte 300-400 de euro,",
+      "id_user": 5
     },
     {
       "id": 90,
-      "start": 429.7,
-      "end": 436.8,
-      "text": " Și acolo eu îmi adunam economiile, așa mă simțeam eu că am că am bani, voiam să adun.",
-      "id_user": 4
+      "start": 447.0,
+      "end": 450.0,
+      "text": " ceea ce era imposibil eu să fac asta în Europa.",
+      "id_user": 5
     },
     {
       "id": 91,
-      "start": 436.8,
-      "end": 440.5,
-      "text": " Când a fost acel moment, când tu ai simțit că, uite, eu sunt săracă.",
-      "id_user": 6
+      "start": 450.0,
+      "end": 454.0,
+      "text": " Și da, cu banii de acolo eu am putut, cu banii din Olanda eu am putut,",
+      "id_user": 5
     },
     {
       "id": 92,
-      "start": 440.5,
-      "end": 445.03999999999996,
-      "text": " Asta nu a fost în copilărie. Acest moment a fost când eu am venit la Chișinău.",
-      "id_user": 4
+      "start": 454.0,
+      "end": 458.0,
+      "text": " pentru că erau câteva mii de euro care i-am strâns.",
+      "id_user": 5
     },
     {
       "id": 93,
-      "start": 445.03999999999996,
-      "end": 447.5,
-      "text": " Eu nu aveam unde sa trăiesc.",
-      "id_user": 4
+      "start": 458.0,
+      "end": 462.0,
+      "text": " Întotdeauna am avut starea că vreau acasă.",
+      "id_user": 6
     },
     {
       "id": 94,
-      "start": 447.5,
-      "end": 452.2,
-      "text": " deci Noi nu avem rude în Chișinău și am venit la facultate.",
-      "id_user": 4
+      "start": 462.0,
+      "end": 464.0,
+      "text": " Întotdeauna am avut starea asta.",
+      "id_user": 6
     },
     {
       "id": 95,
-      "start": 452.4,
-      "end": 457.5,
-      "text": " Trebuia să locuiesc undeva, pentru că peste o zi eram la facultate și eu nu aveam unde să trăiesc.",
-      "id_user": 4
+      "start": 464.0,
+      "end": 467.0,
+      "text": " Băi, eu aici nu sunt eu.",
+      "id_user": 6
     },
     {
       "id": 96,
-      "start": 457.5,
-      "end": 460.88,
-      "text": " O verișoară m-a primit cu ea să locuiesc doar două săptămâni.",
-      "id_user": 4
+      "start": 467.0,
+      "end": 468.0,
+      "text": " Nu sunt eu.",
+      "id_user": 6
     },
     {
       "id": 97,
-      "start": 460.88,
-      "end": 464.88,
-      "text": " Dar gazda mă întreba în fiecare zi da când pleci, da când îti dă cămin.",
-      "id_user": 4
+      "start": 468.0,
+      "end": 472.0,
+      "text": " Când în 2009, a doua mea venire de Italie,",
+      "id_user": 6
     },
     {
       "id": 98,
-      "start": 464.88,
-      "end": 466.7,
-      "text": " Și mie cămin tot nu îmi dădea.",
-      "id_user": 4
+      "start": 472.0,
+      "end": 477.0,
+      "text": " am fost chiar și la protest la Bolonia cu flagurile Moldovii,",
+      "id_user": 6
     },
     {
       "id": 99,
-      "start": 466.7,
-      "end": 473.45,
-      "text": " Respectiv, vroiam, deci mergeam pe străzile Chișinăului vedeam niște clădiri din astea cu geamuri sparte.",
-      "id_user": 4
+      "start": 477.0,
+      "end": 482.0,
+      "text": " pe mașină de la Veneția până la Bolonia mă sunt disenați tricoloruri.",
+      "id_user": 6
     },
     {
       "id": 100,
-      "start": 473.55,
-      "end": 476.4,
-      "text": " Și mă gândeam, ele oricum sunt valorificate",
-      "id_user": 4
+      "start": 482.0,
+      "end": 485.0,
+      "text": " Eu, soția, când, dacă nu mă greșesc,",
+      "id_user": 6
     },
     {
       "id": 101,
-      "start": 476.4,
-      "end": 480.71999999999997,
-      "text": " dă-mi mie un metru pătrat iată Eu să reușesc aici să-mi pun un pat și-o să dorm.",
-      "id_user": 4
+      "start": 485.0,
+      "end": 492.0,
+      "text": " atunci a fost o schimbare de guvern comuniștii cu...",
+      "id_user": 6
     },
     {
       "id": 102,
-      "start": 480.71999999999997,
-      "end": 486.9,
-      "text": " Pentru că părinții poate mi-ar fi luat gazdă, dar eu înțelegeam că ar fi o povară financiară foarte mare.",
-      "id_user": 4
+      "start": 492.0,
+      "end": 494.0,
+      "text": " 7 aprilie, probabil.",
+      "id_user": 6
     },
     {
       "id": 103,
-      "start": 486.9,
-      "end": 491.0,
-      "text": " Tata meu lucra la Moscova, nu întotdeauna i se achita, mama e profesoară.",
-      "id_user": 4
+      "start": 494.0,
+      "end": 496.0,
+      "text": " Da, da, da, da, da, exact.",
+      "id_user": 6
     },
     {
       "id": 104,
-      "start": 491.1,
-      "end": 494.8,
-      "text": " Nu erau bani disponibili ca mie să mi se achite gazdă.",
-      "id_user": 4
+      "start": 496.0,
+      "end": 501.0,
+      "text": " Eu avem disenat în garaj tricolorul nostru, jos comuniștii,",
+      "id_user": 6
     },
     {
       "id": 105,
-      "start": 494.8,
-      "end": 498.9,
-      "text": " Respectiv pe fundalul colegilor mei, eu eram săracă.",
-      "id_user": 4
+      "start": 501.0,
+      "end": 504.0,
+      "text": " vreau acasă, că acolo era tot a meu.",
+      "id_user": 6
     },
     {
       "id": 106,
-      "start": 498.9,
-      "end": 501.3,
-      "text": " păi Erau fete din Chișinău, care veneau cu mașina.",
-      "id_user": 4
+      "start": 504.0,
+      "end": 509.0,
+      "text": " Eu n-am avut odată cineva să-mi zică vrei acasă.",
+      "id_user": 6
     },
     {
       "id": 107,
-      "start": 501.4,
-      "end": 503.5,
-      "text": " Iar eu nu aveam unde să trăiesc.",
-      "id_user": 4
+      "start": 509.0,
+      "end": 511.0,
+      "text": " Eu odată n-am zis nu.",
+      "id_user": 6
     },
     {
       "id": 108,
-      "start": 503.5,
-      "end": 505.5,
-      "text": " Nu vin dintr-o familie bogată.",
-      "id_user": 3
+      "start": 511.0,
+      "end": 513.0,
+      "text": " Eu întotdeauna vroim acasă.",
+      "id_user": 6
     },
     {
       "id": 109,
-      "start": 505.5,
-      "end": 507.9,
-      "text": " noi Am avut nevoie de bani.",
-      "id_user": 3
+      "start": 513.0,
+      "end": 515.0,
+      "text": " Eu cu toată inima mea vroim acasă.",
+      "id_user": 6
     },
     {
       "id": 110,
-      "start": 507.9,
-      "end": 511.56,
-      "text": " Și avem în continuare nevoie de bani.",
-      "id_user": 3
+      "start": 515.0,
+      "end": 519.0,
+      "text": " Cât de nasoală sau cât de urâtă sau cât de vagabonți ar fi fost cei care ne conduc pe noi,",
+      "id_user": 6
     },
     {
       "id": 111,
-      "start": 511.56,
-      "end": 519.56,
-      "text": " Mama, părinții încercau să creeze o anumită atmosferă în care să să nu punem accentul pe lipsă,",
-      "id_user": 3
+      "start": 519.0,
+      "end": 525.0,
+      "text": " care ne conduc ce țară, dorul de casă.",
+      "id_user": 6
     },
     {
       "id": 112,
-      "start": 519.56,
-      "end": 522.56,
-      "text": " dar să prețuim pe ceea ce avem.",
-      "id_user": 3
+      "start": 525.0,
+      "end": 533.0,
+      "text": " Dorul de casă părintească, dorul de ogradă, dorul de nucul care ne cățăram, dorul de casă.",
+      "id_user": 6
     },
     {
       "id": 113,
-      "start": 522.56,
-      "end": 531.5,
-      "text": " Și eu mi-am dat seama foarte bine că au fost probleme mari legate de bani atunci când deja eu am devenit",
-      "id_user": 3
+      "start": 533.0,
+      "end": 537.0,
+      "text": " Și când a fost nevoie să votăm, întotdeauna am fost la vot,",
+      "id_user": 6
     },
     {
       "id": 114,
-      "start": 531.5,
-      "end": 534.56,
-      "text": " persoană adultă și am venit în Chișinău să învăț.",
-      "id_user": 3
+      "start": 537.0,
+      "end": 542.0,
+      "text": " chiar dacă a fost o distanță de 200 sau chiar de 40 de km, i-am urs și am votat.",
+      "id_user": 6
     },
     {
       "id": 115,
-      "start": 535.4,
-      "end": 542.6,
-      "text": " Pe atunci înțelegem foarte bine că prin care stres și prin care situații dificile o trecut mama mea,",
-      "id_user": 3
+      "start": 542.0,
+      "end": 548.0,
+      "text": " Când au fost președintele temporar, domnul Ghimpu,",
+      "id_user": 6
     },
     {
       "id": 116,
-      "start": 542.6,
-      "end": 548.2,
-      "text": " spre exemplu, când încerca să îmi acopere anumite necesități.",
-      "id_user": 3
+      "start": 548.0,
+      "end": 551.0,
+      "text": " la fel am fost și l-am întâmpinat pe el.",
+      "id_user": 6
     },
     {
       "id": 117,
-      "start": 548.4,
-      "end": 552.4,
-      "text": " Și de atunci încercam eu chiar din primul an de studii, deja lucram.",
-      "id_user": 3
+      "start": 551.0,
+      "end": 557.0,
+      "text": " Chiar am cântat împreună cu cineva, niște artiști, la Cobză.",
+      "id_user": 6
     },
     {
       "id": 118,
-      "start": 552.4,
-      "end": 556.2,
-      "text": "chiar Era o perioadă când învățam și lucram la două job-uri.",
-      "id_user": 3
+      "start": 557.0,
+      "end": 564.0,
+      "text": " Ei erau și eu cu Floirașul și eu m-am sâmpțit în diasporul.",
+      "id_user": 6
     },
     {
       "id": 119,
-      "start": 556.2,
-      "end": 563.4,
-      "text": " Pe atuncea, prin tinerețe noi încă procuram cărți făceam xerox, încă nu era internetul atât de...",
-      "id_user": 3
+      "start": 564.0,
+      "end": 565.0,
+      "text": " Și eu știu ce înseamnă asta.",
+      "id_user": 6
     },
     {
       "id": 120,
-      "start": 564.24,
-      "end": 570.24,
-      "text": " Da, că să pot să-mi descarc să zicem pe un stick toată informația și să fiu liniștit acasă citind.",
-      "id_user": 3
+      "start": 565.0,
+      "end": 573.0,
+      "text": " E când se strâng din toate colțurile Moldoviei într-un oraș din Italia oarecare.",
+      "id_user": 6
     },
     {
       "id": 121,
-      "start": 570.4,
-      "end": 574.24,
-      "text": " nu Noi stăteam cu sacii întregi de xerox pentru asta trebuiau bani.",
-      "id_user": 3
+      "start": 573.0,
+      "end": 575.0,
+      "text": " Veselie și frumos.",
+      "id_user": 6
     },
     {
       "id": 122,
-      "start": 574.9,
-      "end": 576.0,
-      "text": " și De aceea noi lucram",
+      "start": 575.0,
+      "end": 581.0,
+      "text": " Mă ducem în Franța la nepata asta mea care e orfănă, nu născut.",
       "id_user": 3
     },
     {
       "id": 123,
-      "start": 576.0,
-      "end": 580.7,
-      "text": " Pot să fac o listă foarte mare de lucrări pe care am am încercat să le fac.",
+      "start": 581.0,
+      "end": 584.0,
+      "text": " Și mă ducem în Franța cu autobus.",
       "id_user": 3
     },
     {
       "id": 124,
-      "start": 580.7,
-      "end": 590.35,
-      "text": " chelner, paznic, deci lucrător de igienă, pedagog, la diferite taberi.",
+      "start": 584.0,
+      "end": 588.0,
+      "text": " Deja a doua oară cu aceeași agenție mă ducem.",
       "id_user": 3
     },
     {
       "id": 125,
-      "start": 590.5,
+      "start": 588.0,
       "end": 598.0,
-      "text": " Distribuiam pliante, agent comercial, foarte vastă lista.",
+      "text": " Și când la vamă a venit șoferul să-l iei documentele, eu i-am dat permisul de songeonul în care îl aveam italian.",
       "id_user": 3
     },
     {
       "id": 126,
       "start": 598.0,
-      "end": 604.08,
-      "text": " Am terminat școala, care erau prietenele mele mai mari ca mine,",
-      "id_user": 5
+      "end": 605.0,
+      "text": " Și el se uită așa la mine și zice, dar și te duci în Franța și nu te duci la Giovania tău în Italia.",
+      "id_user": 3
     },
     {
       "id": 127,
-      "start": 604.08,
-      "end": 613.9,
-      "text": " se duceau la la normă în Colhoz, că atunci era Colhoz, și veneau și erau bucuroase că o trecut luna și-o primit vreo doi bănuți.",
-      "id_user": 5
+      "start": 605.0,
+      "end": 611.0,
+      "text": " Asta a fost o chestiune foarte grevă.",
+      "id_user": 3
     },
     {
       "id": 128,
-      "start": 613.9,
-      "end": 618.08,
-      "text": " Și când am terminat școala și eu, n-am vrut să mă studiez mai departe.",
-      "id_user": 5
+      "start": 611.0,
+      "end": 624.0,
+      "text": " A fost așa de atât de obișduitor pentru că mentalitatea moldovenilor, că femeile care se duc în Italia, badantele mai ales, toți au amant.",
+      "id_user": 3
     },
     {
       "id": 129,
-      "start": 618.1,
-      "end": 622.0,
-      "text": " Mă duc și eu cu dânsele, că ele spuneau că așa e de bine acolo.",
-      "id_user": 5
+      "start": 624.0,
+      "end": 634.0,
+      "text": " Sunt foarte mulți badante care își găsesc un moment, au un amant sau un italian, sau chiar se căstoresc cu italiani.",
+      "id_user": 3
     },
     {
       "id": 130,
-      "start": 622.0,
-      "end": 630.7,
-      "text": " Și după vreo doi ani de zile m-am dus eu și am studiat eu puțin la Soroca și la școala cooperativă.",
-      "id_user": 5
+      "start": 635.0,
+      "end": 638.0,
+      "text": " Nu de bună zile.",
+      "id_user": 3
     },
     {
       "id": 131,
-      "start": 630.7,
-      "end": 633.4,
-      "text": "am fost și Am terminat școala cooperativă.",
-      "id_user": 5
+      "start": 638.0,
+      "end": 645.0,
+      "text": " Pentru că acum generația asta de băieți tineri din Moldova poate au altă mentalitate.",
+      "id_user": 3
     },
     {
       "id": 132,
-      "start": 633.4,
-      "end": 635.4,
-      "text": " De acolo ne-o trimis în oraș la lucru.",
-      "id_user": 5
+      "start": 645.0,
+      "end": 653.0,
+      "text": " Dar vă asigur, bărbații noștri nu aveau idei ce înseamnă o femeie.",
+      "id_user": 3
     },
     {
       "id": 133,
-      "start": 635.4,
-      "end": 645.9,
-      "text": "eu n-am vrut, eu am vrut în sat că se deschisese pe carne,cum era pe atuncea, de copt pâine și eu de acum avem studiile și m-am dus în sat.",
-      "id_user": 5
+      "start": 653.0,
+      "end": 662.0,
+      "text": " Și ele odată ajuns în Italia și au văzut un pic diversitatea asta dintre un bărbat italian și un bărbat moldovan.",
+      "id_user": 3
     },
     {
       "id": 134,
-      "start": 647.5,
-      "end": 652.76,
-      "text": " Și am lucrat mulți ani acolo lângă părinți. Era bine.",
-      "id_user": 5
+      "start": 662.0,
+      "end": 667.0,
+      "text": " Desigur că se simțău poate pentru prima dată femei.",
+      "id_user": 3
     },
     {
       "id": 135,
-      "start": 654.1,
-      "end": 655.76,
-      "text": " Nu pot să mă jelui, era bine.",
-      "id_user": 5
+      "start": 667.0,
+      "end": 688.0,
+      "text": " Pentru mine cuvântul Italia se asociază cu duritate, cu falsitate, cu lucru greu de acceptat.",
+      "id_user": 6
     },
     {
       "id": 136,
-      "start": 655.76,
-      "end": 660.76,
-      "text": " Pe vremea ceia era undeva, primeam până la șasezeci saptezeci de ruble.",
-      "id_user": 5
+      "start": 688.0,
+      "end": 693.0,
+      "text": " Rasism. Poate l-aș pune deja pe primul plan.",
+      "id_user": 6
     },
     {
       "id": 137,
-      "start": 660.76,
-      "end": 664.0,
-      "text": "era Salariul atunci cel mai mare era șasezeci de ruble.",
-      "id_user": 5
+      "start": 693.0,
+      "end": 702.0,
+      "text": " Mă refer la ceea că tu ești moldovean, tu ești al doilea, al treilea nișă de sub, de jos.",
+      "id_user": 6
     },
     {
       "id": 138,
-      "start": 664.0,
-      "end": 672.76,
-      "text": " Noi de la șasezeci în sus primeam, mașină de spălat ne-a cumpărat aurica, televizor că vroiam.",
-      "id_user": 5
+      "start": 702.0,
+      "end": 710.0,
+      "text": " Ca să mă readaptez la viața de Moldova, mie mi-au luat aproximativ o jumătate de an.",
+      "id_user": 6
     },
     {
       "id": 139,
-      "start": 672.76,
-      "end": 680.0,
-      "text": " Părinții pe atuncea n-aveau nevoie de lucrurile acestea. nu Era de prima necesitate pentru dânșii.",
-      "id_user": 5
+      "start": 710.0,
+      "end": 714.0,
+      "text": " Ca să-mi revin. Cum trebuie de mărs cu mașina corect?",
+      "id_user": 6
     },
     {
       "id": 140,
-      "start": 680.0,
-      "end": 683.0,
-      "text": " Lucruri de așa, mobilă.",
-      "id_user": 5
+      "start": 714.0,
+      "end": 719.0,
+      "text": " Fi unii în spate îi părcat, fi unii nu în spate îi părcat.",
+      "id_user": 6
     },
     {
       "id": 141,
-      "start": 683.0,
-      "end": 685.2,
-      "text": " Mă îmbrăcam puțin.",
-      "id_user": 5
+      "start": 719.0,
+      "end": 724.0,
+      "text": " Să înțeleg mai bine cum sunt lucrurile.",
+      "id_user": 6
     },
     {
       "id": 142,
-      "start": 685.2,
-      "end": 690.4,
-      "text": " N-avem pantaloni la școală,n-avem toată lumea era îmbrăcată frumos.",
-      "id_user": 2
+      "start": 724.0,
+      "end": 730.0,
+      "text": " Deci eu practic am lipsit ăștia 12-13 ani și mi-am pierdut toate legăturile.",
+      "id_user": 6
     },
     {
       "id": 143,
-      "start": 690.4,
-      "end": 695.2,
-      "text": " Dar eu cu o singură păreche de pantaloni tot tot anul.",
-      "id_user": 2
+      "start": 730.0,
+      "end": 737.0,
+      "text": " Eu când m-am reîntors acasă, deci eu acum am mai stat o mașin și poate să iar am plecat.",
+      "id_user": 6
     },
     {
       "id": 144,
-      "start": 695.2,
-      "end": 701.55,
-      "text": " Țin minte odată, n-avem încălțăminte primăvara. și era",
-      "id_user": 2
+      "start": 737.0,
+      "end": 741.0,
+      "text": " Eu nu știam unde să mă urc la un medic.",
+      "id_user": 6
     },
     {
       "id": 145,
-      "start": 701.55,
-      "end": 706.44,
-      "text": " Știți când se dezgheață omătul, când e apă pe drum.",
-      "id_user": 2
+      "start": 741.0,
+      "end": 744.0,
+      "text": " Eu mă aflam ca într-o țară străină.",
+      "id_user": 6
     },
     {
       "id": 146,
-      "start": 706.44,
-      "end": 712.44,
-      "text": " Și tot avem o pereche de încălțăminte când mă udam, totdeauna mă udam.",
-      "id_user": 2
+      "start": 744.0,
+      "end": 747.0,
+      "text": " Dar fenomenal de bine mă simțeam.",
+      "id_user": 6
     },
     {
       "id": 147,
-      "start": 712.44,
-      "end": 721.44,
-      "text": " Și-i spunem lu mama mea, zic, m-am săturat să fiu udă la picioare.",
-      "id_user": 2
+      "start": 747.0,
+      "end": 749.0,
+      "text": " Pentru că eram acasă.",
+      "id_user": 6
     },
     {
       "id": 148,
-      "start": 721.44,
-      "end": 725.0,
-      "text": " Da ea zice, Viorica, avea curci, mama mea.",
-      "id_user": 2
+      "start": 749.0,
+      "end": 751.0,
+      "text": " Eu nu eram în altă parte.",
+      "id_user": 6
     },
     {
       "id": 149,
-      "start": 725.0,
-      "end": 726.3,
-      "text": " Țin minte.",
-      "id_user": 2
+      "start": 751.0,
+      "end": 752.0,
+      "text": " Eram acasă.",
+      "id_user": 6
     },
     {
       "id": 150,
-      "start": 726.3,
-      "end": 732.2800000000001,
-      "text": " Și zice, duminică te duci la piață, vinzi curcile, vinzi curcani, și",
-      "id_user": 2
+      "start": 752.0,
+      "end": 754.0,
+      "text": " Și copacul grăiește cu tine.",
+      "id_user": 6
     },
     {
       "id": 151,
-      "start": 732.2800000000001,
-      "end": 735.2800000000001,
-      "text": " a să cumpărăm ceva de încălțat.",
-      "id_user": 2
+      "start": 754.0,
+      "end": 755.0,
+      "text": " Tu l-auzi.",
+      "id_user": 6
     },
     {
       "id": 152,
-      "start": 735.2800000000001,
-      "end": 738.2800000000001,
-      "text": " Ne-am dus noi atuncea, am vândut.",
-      "id_user": 2
+      "start": 755.0,
+      "end": 758.0,
+      "text": " Eu mergeam într-o zi pe stradă.",
+      "id_user": 6
     },
     {
       "id": 153,
-      "start": 738.2800000000001,
-      "end": 740.2800000000001,
-      "text": " Ea tare s-o stăruit.",
-      "id_user": 2
+      "start": 758.0,
+      "end": 759.0,
+      "text": " Tu înțelegi?",
+      "id_user": 6
     },
     {
       "id": 154,
-      "start": 740.28,
-      "end": 742.7,
-      "text": " Singură așa greu cum era, ea sa stăruit.",
-      "id_user": 2
+      "start": 759.0,
+      "end": 762.0,
+      "text": " Și am văzut un om și-mi întrebam o informație.",
+      "id_user": 6
     },
     {
       "id": 155,
-      "start": 742.7,
-      "end": 748.3,
-      "text": " Din și credea ea că putea să facă, că ar putea să meargă înainte, ea se stăruie.",
-      "id_user": 2
+      "start": 762.0,
+      "end": 768.0,
+      "text": " Și eu pe cât mă apropiam spre dânsul, mă întrebam înșini limbă să-l întreb.",
+      "id_user": 6
     },
     {
       "id": 156,
-      "start": 748.5,
-      "end": 753.12,
-      "text": " Am vândut noi atuncea, curcele celea, țin minte toate.",
-      "id_user": 2
+      "start": 768.0,
+      "end": 771.0,
+      "text": " În engleză, în italiană sau în rusă.",
+      "id_user": 6
     },
     {
       "id": 157,
-      "start": 753.12,
-      "end": 758.4,
-      "text": " Și ne-am dus la un la o tarabă acolo, unde se vinde încălțăminte,",
-      "id_user": 2
+      "start": 771.0,
+      "end": 774.0,
+      "text": " Și după asta stai bă că eu sunt Moldova.",
+      "id_user": 6
     },
     {
       "id": 158,
-      "start": 758.4,
-      "end": 761.12,
-      "text": " erau o păreche de cizme așa înalte.",
-      "id_user": 2
+      "start": 774.0,
+      "end": 780.0,
+      "text": " Și eu când prima dată am început să comunic în țara mea în română,",
+      "id_user": 6
     },
     {
       "id": 159,
-      "start": 761.12,
-      "end": 764.12,
-      "text": " Da, mie mi-o plăcut așa de tare cizmele celea.",
-      "id_user": 2
+      "start": 780.0,
+      "end": 784.0,
+      "text": " eu tocmai zic, ia și de clasnă!",
+      "id_user": 6
     },
     {
       "id": 160,
-      "start": 764.12,
-      "end": 766.6,
-      "text": " Când să le încalț, erau mici.",
-      "id_user": 2
+      "start": 784.0,
+      "end": 786.0,
+      "text": " Aștept acum moșna, știi?",
+      "id_user": 6
     },
     {
       "id": 161,
-      "start": 766.6,
-      "end": 771.5,
-      "text": " Eu, de frică, că n-are să mi le mai ia și a să umblu udă,",
-      "id_user": 2
+      "start": 786.0,
+      "end": 788.0,
+      "text": " Și abici nu zic, ce de faină!",
+      "id_user": 6
     },
     {
       "id": 162,
-      "start": 771.5,
-      "end": 774.12,
-      "text": " iar am zis că mi-s bune.",
-      "id_user": 2
+      "start": 788.0,
+      "end": 792.0,
+      "text": " Senzații tari care nu le sunt, asta ză de ză.",
+      "id_user": 6
     },
     {
       "id": 163,
-      "start": 774.96,
-      "end": 780.96,
-      "text": " Și așa, degetele strânse, așa am umblat cu cizmele celea până s-o rupt.",
-      "id_user": 2
+      "start": 792.0,
+      "end": 799.0,
+      "text": " Dar când tu despai momentan, tu după asta te pupi cu lucrurile astea.",
+      "id_user": 6
     },
     {
       "id": 164,
-      "start": 780.96,
-      "end": 785.2,
-      "text": " Că eu așa de mult eram sătulă, așa de tare eram sătulă,",
-      "id_user": 2
-    },
-    {
-      "id": 165,
-      "start": 785.2,
-      "end": 786.96,
-      "text": " să fiu udă la picioare.",
-      "id_user": 2
-    },
-    {
-      "id": 166,
-      "start": 788.6,
-      "end": 791.0,
-      "text": " Cu toate că pantalonii care",
-      "id_user": 2
-    },
-    {
-      "id": 167,
-      "start": 791.0,
-      "end": 795.96,
-      "text": "i-aveam, erau o pereche de sportivi",
-      "id_user": 2
-    },
-    {
-      "id": 168,
-      "start": 795.96,
-      "end": 799.96,
-      "text": " cum să zic care erau într-o parte așa scris adidas.",
-      "id_user": 2
-    },
-    {
-      "id": 169,
-      "start": 799.96,
-      "end": 803.05,
-      "text": " Eu avem țin minte o pereche de aceia albaștri,",
-      "id_user": 2
-    },
-    {
-      "id": 170,
-      "start": 803.8000000000001,
-      "end": 807.8000000000001,
-      "text": " dungă cu linii așa albe și cu roșu scris adidas,",
-      "id_user": 2
-    },
-    {
-      "id": 171,
-      "start": 807.8000000000001,
-      "end": 811.8000000000001,
-      "text": " și închipuiți-vă cu cizmele celea până la genunchi,",
-      "id_user": 2
-    },
-    {
-      "id": 172,
-      "start": 811.8000000000001,
-      "end": 813.8000000000001,
-      "text": " eu parcă eram un soldat.",
-      "id_user": 2
-    },
-    {
-      "id": 173,
-      "start": 813.8000000000001,
-      "end": 815.8000000000001,
-      "text": " Îmbrăcată parcă eram un soldat.",
-      "id_user": 2
-    },
-    {
-      "id": 174,
-      "start": 815.8000000000001,
-      "end": 817.8000000000001,
-      "text": " Eu îmi dădeam seama că nu stă",
-      "id_user": 2
-    },
-    {
-      "id": 175,
-      "start": 817.8000000000001,
-      "end": 820.8000000000001,
-      "text": "frumos dar eram bucuroasă că eu nu mă ud la picioare.",
-      "id_user": 2
-    },
-    {
-      "id": 176,
-      "start": 820.8000000000001,
-      "end": 823.8000000000001,
-      "text": " Da am fost un copil, știți cum,",
-      "id_user": 2
-    },
-    {
-      "id": 177,
-      "start": 823.8000000000001,
-      "end": 827.8000000000001,
-      "text": " n-am cerut, n-am cerut, că știam că mama n-are.",
-      "id_user": 2
-    },
-    {
-      "id": 178,
-      "start": 828.64,
-      "end": 830.64,
-      "text": " Acum mă scuzați.",
-      "id_user": 2
-    },
-    {
-      "id": 179,
-      "start": 830.64,
-      "end": 835.64,
-      "text": " Și mama și acuma îmi spune,",
-      "id_user": 2
-    },
-    {
-      "id": 180,
-      "start": 835.64,
-      "end": 837.64,
-      "text": " așa de mult țin minte,",
-      "id_user": 2
-    },
-    {
-      "id": 181,
-      "start": 837.64,
-      "end": 842.64,
-      "text": " când tu umblai cu pantalonii ceia tot anul împrejur,",
-      "id_user": 2
-    },
-    {
-      "id": 182,
-      "start": 842.64,
-      "end": 845.64,
-      "text": " numai cu o pereche de pantaloni umblai la școală,",
-      "id_user": 2
-    },
-    {
-      "id": 183,
-      "start": 845.64,
-      "end": 848.64,
-      "text": " și erai fată mare, eram clasa 11.",
-      "id_user": 2
-    },
-    {
-      "id": 184,
-      "start": 848.64,
-      "end": 850.64,
-      "text": " Și eu umblam numai îmbrăcată așa.",
-      "id_user": 2
-    },
-    {
-      "id": 185,
-      "start": 850.64,
-      "end": 853.64,
-      "text": " Avem în minte numai un lucru.",
-      "id_user": 2
-    },
-    {
-      "id": 186,
-      "start": 853.64,
-      "end": 856.64,
-      "text": " Eu cresc mare,",
-      "id_user": 2
-    },
-    {
-      "id": 187,
-      "start": 857.48,
-      "end": 860.48,
-      "text": " și eu n-am să mai trăiesc așa.",
-      "id_user": 2
-    },
-    {
-      "id": 188,
-      "start": 860.48,
-      "end": 863.48,
-      "text": " Cred că momentul cela o fost atunci când",
+      "start": 799.0,
+      "end": 803.0,
+      "text": " La momentul când am decis să mă stabilez cu traiu în Marea Britanie,",
       "id_user": 1
     },
     {
+      "id": 165,
+      "start": 803.0,
+      "end": 807.0,
+      "text": " deja definitiv să plec și am luat și copilul cu mine,",
+      "id_user": 1
+    },
+    {
+      "id": 166,
+      "start": 807.0,
+      "end": 811.0,
+      "text": " am început a opta și pentru niște joburi mai...",
+      "id_user": 1
+    },
+    {
+      "id": 167,
+      "start": 811.0,
+      "end": 813.0,
+      "text": " unii să cer alte aptitudini,",
+      "id_user": 1
+    },
+    {
+      "id": 168,
+      "start": 813.0,
+      "end": 817.0,
+      "text": " deci alt bagaj de aptitudini și de experiență.",
+      "id_user": 1
+    },
+    {
+      "id": 169,
+      "start": 817.0,
+      "end": 823.0,
+      "text": " Am lucrat un an ca și Mortgage and Protection Administrator,",
+      "id_user": 1
+    },
+    {
+      "id": 170,
+      "start": 823.0,
+      "end": 829.0,
+      "text": " după care la un moment dat am decis să merg eu pe altă linie",
+      "id_user": 1
+    },
+    {
+      "id": 171,
+      "start": 829.0,
+      "end": 837.0,
+      "text": " și eu am lucrat ca și Quality Compliance Administrator la o companie de recrutare de acolo din Liverpool.",
+      "id_user": 1
+    },
+    {
+      "id": 172,
+      "start": 837.0,
+      "end": 841.0,
+      "text": " Am lucrat la ei jumătate de an, după care am fost redusă.",
+      "id_user": 1
+    },
+    {
+      "id": 173,
+      "start": 841.0,
+      "end": 851.0,
+      "text": " Mi s-a explicat așa, noi am găsit, ne pare rău, dar noi am găsit o soluție mai ieftină,",
+      "id_user": 1
+    },
+    {
+      "id": 174,
+      "start": 851.0,
+      "end": 855.0,
+      "text": " care a să înlocuiască 50% din jobul tău.",
+      "id_user": 1
+    },
+    {
+      "id": 175,
+      "start": 855.0,
+      "end": 859.0,
+      "text": " Și acel job, deci acea soluție mai ieftină a fost inteligența artificială.",
+      "id_user": 1
+    },
+    {
+      "id": 176,
+      "start": 859.0,
+      "end": 863.0,
+      "text": " Eu așa sunt un pic mai aprinsă la mele.",
+      "id_user": 1
+    },
+    {
+      "id": 177,
+      "start": 863.0,
+      "end": 869.0,
+      "text": " Și când dacă știi că, de exemplu, nu știu, pierzi lucruri pentru că cineva ți-o calcat pe urme,",
+      "id_user": 1
+    },
+    {
+      "id": 178,
+      "start": 869.0,
+      "end": 873.0,
+      "text": " aici tu nici macar n-ai deși pe cine să tragi de păr.",
+      "id_user": 1
+    },
+    {
+      "id": 179,
+      "start": 873.0,
+      "end": 877.0,
+      "text": " Că n-ai pe cine să te descăpi, pe cine, pe robot, pe cod, pe cine.",
+      "id_user": 1
+    },
+    {
+      "id": 180,
+      "start": 877.0,
+      "end": 883.0,
+      "text": " Dar asta e o realitate foarte cruntă. Foarte mulți oameni își pierd jobul din cauza la inteligența artificială.",
+      "id_user": 1
+    },
+    {
+      "id": 181,
+      "start": 883.0,
+      "end": 891.0,
+      "text": " Stăteam cu, bine, liniștiți cu tot gândul că ne-am întoarce mai încolo, mai...",
+      "id_user": 4
+    },
+    {
+      "id": 182,
+      "start": 891.0,
+      "end": 900.0,
+      "text": " Nu ne grăbia nimeni, nu. Dacă, poate și amul eram acolo dacă nu se începează zboiul?",
+      "id_user": 4
+    },
+    {
+      "id": 183,
+      "start": 900.0,
+      "end": 908.0,
+      "text": " Că noi lucram acolo și ne trăiem acolo și ne simțăm în... parcă în conflict cu noi înșine.",
+      "id_user": 4
+    },
+    {
+      "id": 184,
+      "start": 908.0,
+      "end": 910.0,
+      "text": " Că...",
+      "id_user": 4
+    },
+    {
+      "id": 185,
+      "start": 912.0,
+      "end": 914.0,
+      "text": " Cum ar fi? Te afli între dușmani.",
+      "id_user": 4
+    },
+    {
+      "id": 186,
+      "start": 914.0,
+      "end": 920.0,
+      "text": " Păcă nu ne dușmăniem, mai ca cu cine trăiem acolo, dar așa era atmosfera asta de...",
+      "id_user": 4
+    },
+    {
+      "id": 187,
+      "start": 921.0,
+      "end": 926.0,
+      "text": " Debeia acum îmi dau seama că dacă stăteam până la pensie acolo, încă...",
+      "id_user": 4
+    },
+    {
+      "id": 188,
+      "start": 926.0,
+      "end": 931.0,
+      "text": " Poate să durează până atunci, nu o să știe câtea îți durează războiul ăsta e...",
+      "id_user": 4
+    },
+    {
       "id": 189,
-      "start": 863.5,
-      "end": 867.2,
-      "text": " nu aveam telefon profesional sau,",
+      "start": 931.0,
+      "end": 935.0,
+      "text": " Eu, tătă vremea, cumva mă vedeam îmbătrânind acasă.",
       "id_user": 1
     },
     {
       "id": 190,
-      "start": 867.48,
-      "end": 869.1,
-      "text": " nu știu așa, mai mai nou,",
+      "start": 935.0,
+      "end": 939.0,
+      "text": " Tătă vremea eu mă vedeam în Moldova.",
       "id_user": 1
     },
     {
       "id": 191,
-      "start": 869.1,
-      "end": 871.0,
-      "text": " acuma dă-l mai nou pentru că la noi la școală,",
+      "start": 939.0,
+      "end": 940.0,
+      "text": " Și...",
       "id_user": 1
     },
     {
       "id": 192,
-      "start": 871.0,
-      "end": 872.5,
-      "text": " chiar și la gimnaziu,",
+      "start": 940.0,
+      "end": 943.0,
+      "text": " A fost foarte ușor să iei o decizie dată.",
       "id_user": 1
     },
     {
       "id": 193,
-      "start": 872.5,
-      "end": 877.0,
-      "text": " băieții, fetele, mai ales părinții care lucrau peste hotare,",
+      "start": 943.0,
+      "end": 947.0,
+      "text": " Foarte ușor. Pentru că eu nu m-am dus de la rău la bine.",
       "id_user": 1
     },
     {
       "id": 194,
-      "start": 877.0,
-      "end": 880.0,
-      "text": " aveau telefone mai performante.",
+      "start": 947.0,
+      "end": 949.0,
+      "text": " Eu de la bine m-am dus la rău.",
       "id_user": 1
     },
     {
       "id": 195,
-      "start": 880.0,
-      "end": 883.48,
-      "text": " Iar eu am umblat până în clasa 12",
+      "start": 949.0,
+      "end": 951.0,
+      "text": " Eu acasă tot am avut.",
       "id_user": 1
     },
     {
       "id": 196,
-      "start": 884.32,
-      "end": 887.32,
-      "text": " cu telefon cu butoane, așa, mai",
+      "start": 951.0,
+      "end": 956.0,
+      "text": " Nu mi-o trebuit să mă duc acolo și să-mi construiesc asta de la zero.",
       "id_user": 1
     },
     {
       "id": 197,
-      "start": 887.32,
-      "end": 890.32,
-      "text": "simplu deși îi spuneam bunicii, că iaca",
+      "start": 956.0,
+      "end": 959.0,
+      "text": " Eu n-am fugit de război, de foame, de sărăcie.",
       "id_user": 1
     },
     {
       "id": 198,
-      "start": 890.32,
-      "end": 893.32,
-      "text": " deja e timpul, gata, eu sunt mare, ajunge.",
+      "start": 959.0,
+      "end": 961.0,
+      "text": " Eu avem tot acasă, tot este.",
       "id_user": 1
     },
     {
       "id": 199,
-      "start": 893.32,
-      "end": 898.0,
-      "text": " Nu că noi n-avem bani pentru așa",
+      "start": 961.0,
+      "end": 965.0,
+      "text": " Clima bună, curățenie, părienți iubitori, bunei.",
       "id_user": 1
     },
     {
       "id": 200,
-      "start": 898.0,
-      "end": 900.0,
-      "text": " investiții serioase.",
+      "start": 965.0,
+      "end": 971.0,
+      "text": " Eu m-am prins în plin covid când bunelul mi-a murit și nici nu am putut să particip la funerale.",
       "id_user": 1
     },
     {
       "id": 201,
-      "start": 900.0,
-      "end": 903.0,
-      "text": " Până acum țin minte ca atare, la un moment dat,",
+      "start": 971.0,
+      "end": 974.0,
+      "text": " Deci, pentru mine, asta au fost...",
       "id_user": 1
     },
     {
       "id": 202,
-      "start": 903.0,
-      "end": 906.32,
-      "text": " nu știu până în ce clasă,dar",
+      "start": 974.0,
+      "end": 977.0,
+      "text": " Am spus și, și, asta e viață.",
       "id_user": 1
     },
     {
       "id": 203,
-      "start": 906.32,
-      "end": 909.32,
-      "text": "cumpăram încălțăminte de la second.",
+      "start": 977.0,
+      "end": 979.0,
+      "text": " Asta așa e viață.",
       "id_user": 1
     },
     {
       "id": 204,
-      "start": 909.32,
-      "end": 912.5,
-      "text": " Pentru că era cumva mai ieftine, și cumva",
+      "start": 979.0,
+      "end": 982.0,
+      "text": " Asta eu așa am ales să trăiesc.",
       "id_user": 1
     },
     {
       "id": 205,
-      "start": 912.65,
-      "end": 914.5,
-      "text": " deja vedeai că-s de calitate, că mă rog",
+      "start": 982.0,
+      "end": 984.0,
+      "text": " Să nu mă pot duși din grob bunelul.",
       "id_user": 1
     },
     {
       "id": 206,
-      "start": 914.5,
-      "end": 918.1600000000001,
-      "text": " că deja au fost purtate și sunt încă OK.",
+      "start": 984.0,
+      "end": 988.0,
+      "text": " Am și putea plânge.",
       "id_user": 1
     },
     {
       "id": 207,
-      "start": 920.1600000000001,
-      "end": 923.1600000000001,
-      "text": " Eu vroiam un fel de încălțări, bunica vroia",
+      "start": 988.0,
+      "end": 990.0,
+      "text": " Am zis că gata.",
       "id_user": 1
     },
     {
       "id": 208,
-      "start": 923.25,
-      "end": 924.25,
-      "text": " un pic mai ieftine,",
+      "start": 990.0,
+      "end": 992.0,
+      "text": " Aici am pus punct.",
       "id_user": 1
     },
     {
       "id": 209,
-      "start": 924.4,
-      "end": 926.3,
-      "text": " cu model așa mai simplu.",
+      "start": 992.0,
+      "end": 995.0,
+      "text": " S-au terminat experimentele mele în viață.",
       "id_user": 1
     },
     {
       "id": 210,
-      "start": 926.3,
-      "end": 928.4,
-      "text": " Și pentru un moment, atuncea mi se părea că încălțările",
+      "start": 995.0,
+      "end": 998.0,
+      "text": " L-am sunat pentru că soția era la lucru și l-am sunat și am spus așa.",
       "id_user": 1
     },
     {
       "id": 211,
-      "start": 928.4,
-      "end": 930.0,
-      "text": " celela caatare sunt băbești.",
+      "start": 998.0,
+      "end": 1000.0,
+      "text": " Mâine, mă duce acasă.",
       "id_user": 1
     },
     {
       "id": 212,
-      "start": 930.0,
-      "end": 932.15,
-      "text": " Și spuneam lu bunica, bunica, da mie nu-mi plac,",
+      "start": 1000.0,
+      "end": 1005.0,
+      "text": " Ne-am luat bagajul pe pușa și curdele și cu pchelul și am plecat acasă.",
       "id_user": 1
     },
     {
       "id": 213,
-      "start": 932.15,
-      "end": 934.0,
-      "text": " ca acestea vreau altele ca atare.",
+      "start": 1005.0,
+      "end": 1007.0,
+      "text": " Nu mai vreau nici mai mult.",
       "id_user": 1
     },
     {
       "id": 214,
-      "start": 934.0,
-      "end": 937.8,
-      "text": " Și bunica, până la sfârșit,",
+      "start": 1007.0,
+      "end": 1011.0,
+      "text": " A doua zi, pe data de 5 martie, seara, noi ne-am dus acasă.",
       "id_user": 1
     },
     {
       "id": 215,
-      "start": 937.8,
-      "end": 940.5,
-      "text": " mi-o cumpărat ceea ce am vrut eu,",
+      "start": 1011.0,
+      "end": 1013.0,
+      "text": " Ștefan nu a fost la școală.",
       "id_user": 1
     },
     {
       "id": 216,
-      "start": 940.5,
-      "end": 943.7,
-      "text": " deși erau un pic mai scumpe și poate,",
+      "start": 1013.0,
+      "end": 1016.0,
+      "text": " Eu n-am spus nimic la școală.",
       "id_user": 1
     },
     {
       "id": 217,
-      "start": 943.7,
-      "end": 946.5,
-      "text": " nu știu, peste bugetul care",
+      "start": 1016.0,
+      "end": 1018.0,
+      "text": " După lecția am venit și l-am luat.",
       "id_user": 1
     },
     {
       "id": 218,
-      "start": 946.5,
-      "end": 951.0,
-      "text": " a gândit ea că o să, o să-mi cumpere.",
+      "start": 1018.0,
+      "end": 1021.0,
+      "text": " Am trecut pe la directoare și le-am zis, bai, arividerci.",
       "id_user": 1
     },
     {
       "id": 219,
-      "start": 951.0,
-      "end": 953.0,
-      "text": " Am fost destul de bucuroasă că,",
+      "start": 1021.0,
+      "end": 1022.0,
+      "text": " Rămâneți cu bine.",
       "id_user": 1
     },
     {
       "id": 220,
-      "start": 953.0,
-      "end": 955.0,
-      "text": " anume acele încălțări, au",
+      "start": 1022.0,
+      "end": 1024.0,
+      "text": " Mi-a părut bine, îți vă cunosc.",
       "id_user": 1
     },
     {
       "id": 221,
-      "start": 955.0,
-      "end": 956.8,
-      "text": " fost în garderoba mea încă, nu știu",
+      "start": 1024.0,
+      "end": 1026.0,
+      "text": " Noi plecăm în Moldova.",
       "id_user": 1
     },
     {
       "id": 222,
-      "start": 956.8,
-      "end": 959.0,
-      "text": " doi ani undeva.",
+      "start": 1026.0,
+      "end": 1027.0,
+      "text": " Serios, vă dușeți?",
       "id_user": 1
     },
     {
       "id": 223,
-      "start": 959.0,
-      "end": 960.8,
-      "text": " Eu aș vrea, măcar o dată,",
+      "start": 1027.0,
+      "end": 1028.0,
+      "text": " Da, ne ducem. Pa, pa.",
       "id_user": 1
     },
     {
       "id": 224,
-      "start": 960.8,
-      "end": 964.0,
-      "text": " să să-mi cumpăr o pereche de adidas, care",
+      "start": 1028.0,
+      "end": 1032.0,
+      "text": " Și nu imi-o dat, că la ei nu se practică cu documentele,",
       "id_user": 1
     },
     {
       "id": 225,
-      "start": 964.0,
-      "end": 966.15,
-      "text": " costă peste cincizeci de euro.",
+      "start": 1032.0,
+      "end": 1034.0,
+      "text": " cu caracteristici, chestii, dosarii personale,",
       "id_user": 1
     },
     {
       "id": 226,
-      "start": 966.15,
-      "end": 969.0,
-      "text": " Dar la moment,",
+      "start": 1034.0,
+      "end": 1035.0,
+      "text": " dă-o și tot timp baza de date online.",
       "id_user": 1
     },
     {
       "id": 227,
-      "start": 969.0,
-      "end": 970.9,
-      "text": " îmi dau seama că poți să găsești",
+      "start": 1035.0,
+      "end": 1038.0,
+      "text": " I-a spus să-mi transmiteți, vă rog, pe email documentul confirmativ,",
       "id_user": 1
     },
     {
       "id": 228,
-      "start": 970.9,
-      "end": 973.75,
-      "text": " și cu opt sute de lei, și cu șase sute de lei,",
+      "start": 1038.0,
+      "end": 1041.0,
+      "text": " că el o studiat aici ca să întrebească pentru școală în Moldova.",
       "id_user": 1
     },
     {
       "id": 229,
-      "start": 974.1,
-      "end": 975.75,
-      "text": " încălțăminte de calitate,",
+      "start": 1041.0,
+      "end": 1048.0,
+      "text": " Și sara, deci la 10 sara, pe 4 martie, eu am decesc că gata, mă duc înapoi.",
       "id_user": 1
     },
     {
       "id": 230,
-      "start": 975.85,
-      "end": 977.5,
-      "text": " poate și de piele.",
+      "start": 1048.0,
+      "end": 1054.0,
+      "text": " Și la 10 sara, pe 5 martie, noi ne-am urcat în mașină și am pornit înspre Moldova.",
       "id_user": 1
     },
     {
       "id": 231,
-      "start": 977.5,
-      "end": 981.1,
-      "text": " La noi, mereu în clasă, era diferența asta de",
+      "start": 1054.0,
+      "end": 1060.0,
+      "text": " Am ajuns la 6 dimineața și deci în 3 minute am trecut de la români și la moldoveni în 3 minute.",
       "id_user": 1
     },
     {
       "id": 232,
-      "start": 981.1,
-      "end": 984.9,
-      "text": " de haine și cumva simțeam, totuși, diferența,",
+      "start": 1060.0,
+      "end": 1067.0,
+      "text": " Și partea ceilalaltă de hotar, când treci moldoveni, m-a așteptat tata meu deja cu mașină.",
       "id_user": 1
     },
     {
       "id": 233,
-      "start": 984.9,
-      "end": 986.5,
-      "text": " pentru că, spre exemplu,",
+      "start": 1067.0,
+      "end": 1069.0,
+      "text": " Ștefan l-a văzut și...",
       "id_user": 1
     },
     {
       "id": 234,
-      "start": 986.5,
-      "end": 988.9,
-      "text": " bunica mă îmbrăca mai simplu,",
-      "id_user": 1
+      "start": 1069.0,
+      "end": 1076.0,
+      "text": " Ștefan, dar unde îți place ție mai mult să locuiești? Aici sau în Mare Britania?",
+      "id_user": 7
     },
     {
       "id": 235,
-      "start": 989.0,
-      "end": 991.8,
-      "text": " cu un sarafan de la piața centrală,",
-      "id_user": 1
+      "start": 1076.0,
+      "end": 1083.0,
+      "text": " Aici, la Moldova. Eu mă plac la Moldova.",
+      "id_user": 2
     },
     {
       "id": 236,
-      "start": 993.1,
-      "end": 993.7,
-      "text": " bazar",
-      "id_user": 1
+      "start": 1083.0,
+      "end": 1098.0,
+      "text": " Arată frumos, dar nu e gândoi. Și dacă toate bine, mâncare poți să arunc gândoi. Cărădare este tăț de gândoi la jos. Și eu uitat spune la gândoi.",
+      "id_user": 2
     },
     {
       "id": 237,
-      "start": 993.7,
-      "end": 996.4,
-      "text": " și cu un bantik de acesta mare",
-      "id_user": 1
+      "start": 1098.0,
+      "end": 1112.0,
+      "text": " La Moldova e frumos, dar nu e gândoi la jos. Și este foarte bine mâncare. Vezi, vezi limba română.",
+      "id_user": 2
     },
     {
       "id": 238,
-      "start": 996.4,
-      "end": 999.5,
-      "text": " care mă vezi de la un kilometru și știi că asta merg eu.",
-      "id_user": 1
+      "start": 1112.0,
+      "end": 1124.0,
+      "text": " Era luna mai. Eram în Filipine și eu mă uitam pe Instagram la familia mea, adică familia prietenilor meu și prietenii care mi-au pe aici.",
+      "id_user": 5
     },
     {
       "id": 239,
-      "start": 999.5,
-      "end": 1005.4,
-      "text": " Dar, oricum, pentru pentru bunica",
-      "id_user": 1
+      "start": 1124.0,
+      "end": 1133.0,
+      "text": " Totul mi-a început să posteze fructe, legume care a apărut, copaci, verzi, cumva sosirea primăverii.",
+      "id_user": 5
     },
     {
       "id": 240,
-      "start": 1005.4,
-      "end": 1008.1,
-      "text": " pentru familia mea și pentru oamenii care mă mai vedeau",
-      "id_user": 1
+      "start": 1133.0,
+      "end": 1142.0,
+      "text": " Eram în Filipine, în care atunci era sezonul cel mai ploios, cel mai cumva de taifun, că era în mijlocul oceanului.",
+      "id_user": 5
     },
     {
       "id": 241,
-      "start": 1008.1,
-      "end": 1010.6,
-      "text": " și nu știau toată situația din clasă,",
-      "id_user": 1
+      "start": 1142.0,
+      "end": 1149.0,
+      "text": " Acolo se întâmplau diferite chestii la nivel meteorologic. Și eu am început să simt așa, un dor de casă.",
+      "id_user": 5
     },
     {
       "id": 242,
-      "start": 1010.6,
-      "end": 1014.2,
-      "text": " mereu îmi spuneau că-s... sunt frumos îmbrăcată",
-      "id_user": 1
+      "start": 1149.0,
+      "end": 1156.0,
+      "text": " Și am zis că nu, eu vreau acasă, eu vreau acasă acum, eu vreau vara în Moldova. Și eu am început să-mi să căreerul meu,",
+      "id_user": 5
     },
     {
       "id": 243,
-      "start": 1014.2,
-      "end": 1018.5,
-      "text": " și într-un fel cum bunica iubește să spună, inteligentă.",
-      "id_user": 1
+      "start": 1156.0,
+      "end": 1165.0,
+      "text": " ca să mă țin cumva cu dopamină mai sus, eu am început să simt mirosul de casă, mirosul de mâncare, de plăcine.",
+      "id_user": 5
     },
     {
       "id": 244,
-      "start": 1018.5,
-      "end": 1020.9,
-      "text": " După ce am plecat la colegiu,",
-      "id_user": 1
+      "start": 1165.0,
+      "end": 1169.0,
+      "text": " Mi-era dor de mâncarea noastră, că mâncarea n-ase oricum e alta.",
+      "id_user": 5
     },
     {
       "id": 245,
-      "start": 1020.9,
-      "end": 1022.9,
-      "text": " deja diferența asta nu mai era,",
-      "id_user": 1
+      "start": 1169.0,
+      "end": 1176.0,
+      "text": " Mie, când mi-e dor de casă, eu nu pot să exprim asta prin cuvinte. Eu nu pot să exprim ce simt la nivel de emoții și la nivel de suflet.",
+      "id_user": 5
     },
     {
       "id": 246,
-      "start": 1022.9,
-      "end": 1026.6,
-      "text": " pentru că erau copii de absolut de peste",
-      "id_user": 1
+      "start": 1176.0,
+      "end": 1184.0,
+      "text": " Dar eu pot să te uiți în ochii mei și să vezi cum le căresc dacă aud o horă.",
+      "id_user": 5
     },
     {
       "id": 247,
-      "start": 1026.6,
-      "end": 1031.5,
-      "text": " tot din sate, din diferite regiuni ale Moldovei.",
-      "id_user": 1
+      "start": 1184.0,
+      "end": 1188.0,
+      "text": " Și acum zic și mi se ridică părul pe mâine, că dacă mi se ridică părul pe mâine,",
+      "id_user": 5
     },
     {
       "id": 248,
-      "start": 1031.5,
-      "end": 1035.5,
-      "text": " Și, cumva, deja nu mai simțea diferența ",
-      "id_user": 1
+      "start": 1188.0,
+      "end": 1190.0,
+      "text": " asta e deja dorul de casă.",
+      "id_user": 5
     },
     {
       "id": 249,
-      "start": 1035.5,
-      "end": 1038.5,
-      "text": " asta pentru că deja toți eram într-o",
-      "id_user": 1
+      "start": 1190.0,
+      "end": 1196.0,
+      "text": " Sau mirosul plăcintei cu brânză și cum acolo eu salivez și, nu știu,",
+      "id_user": 5
     },
     {
       "id": 250,
-      "start": 1038.5,
-      "end": 1040.5,
-      "text": " așa mai cu mult mai prietenoși.",
-      "id_user": 1
+      "start": 1196.0,
+      "end": 1201.0,
+      "text": " sau mă uit, sunt în piața mare adunări naționale, cum dansează oamenii simpli,",
+      "id_user": 5
     },
     {
       "id": 251,
-      "start": 1040.5,
-      "end": 1045.5,
-      "text": " M-am măritat devreme, la 18 ani și jumate, să zicem așa",
-      "id_user": 2
+      "start": 1201.0,
+      "end": 1207.0,
+      "text": " ne fac o horă și de ziua vinului toată lumea acolo s-adună și așa și tu ești fericit și ești,",
+      "id_user": 5
     },
     {
       "id": 252,
-      "start": 1045.5,
-      "end": 1047.5,
-      "text": " m-am măritat.",
-      "id_user": 2
+      "start": 1207.0,
+      "end": 1213.0,
+      "text": " că asta e, pur și simplu, cum reacționează corpul tău în anumite situații. Asta e dor.",
+      "id_user": 5
     },
     {
       "id": 253,
-      "start": 1047.5,
-      "end": 1050.5,
-      "text": " Eu îmi dădeam seama că sunt prea tânără,",
-      "id_user": 2
+      "start": 1213.0,
+      "end": 1219.0,
+      "text": " Un problem a fost că noi dacă am trăit atâta timp acolo, numaiva cu zel nu aveam,",
+      "id_user": 4
     },
     {
       "id": 254,
-      "start": 1050.5,
-      "end": 1053.5,
-      "text": " da ca când să scăp eu oleacă de casa ",
-      "id_user": 2
+      "start": 1219.0,
+      "end": 1229.0,
+      "text": " dar nu străiești atâția ani acolo și te întoarci pe urmă și asta arunc, asta arunc, asta arunc, asta am acasă,",
+      "id_user": 4
     },
     {
       "id": 255,
-      "start": 1053.5,
-      "end": 1056.5,
-      "text": " mea ca când să să mă duc în altă casă.",
-      "id_user": 2
+      "start": 1229.0,
+      "end": 1242.0,
+      "text": " dar este lucruri care îți pare rău să le arunci și am adunat în atâta, avem vreo zi genți de astea mari cu toate lucrurile noastre.",
+      "id_user": 4
     },
     {
       "id": 256,
-      "start": 1056.5,
-      "end": 1060.5,
-      "text": " Am născut o fetiță peste trei ani.",
-      "id_user": 2
+      "start": 1242.0,
+      "end": 1249.0,
+      "text": " Am ajuns la granița cu Moldova. Să oprește autobusul, nu ne dă jos pe nimeni, stăm pe așa parte la control,",
+      "id_user": 4
     },
     {
       "id": 257,
-      "start": 1060.5,
-      "end": 1064.4,
-      "text": " Da, s-o îmbunătățit ceva, că zicem că avem haine",
-      "id_user": 2
+      "start": 1249.0,
+      "end": 1261.0,
+      "text": " mergem parcă bine. Vine șoferul și spune că trebuie să vie vame șocu și să leagă vreo câteva genți să controleze într-ansele.",
+      "id_user": 4
     },
     {
       "id": 258,
-      "start": 1064.4,
-      "end": 1066.3,
-      "text": " ceea ce îmi lipsea tare mult acasă,",
-      "id_user": 2
+      "start": 1261.0,
+      "end": 1269.0,
+      "text": " Și am ușa să apară întrebări, dacă așa bagaj, că noi nu avem nimeni, niște genți mari.",
+      "id_user": 4
     },
     {
       "id": 259,
-      "start": 1066.3,
-      "end": 1069.1,
-      "text": " aicea o leacă le-am mai multe le aveam.",
-      "id_user": 2
+      "start": 1270.0,
+      "end": 1275.0,
+      "text": " Și zic, mă cobor jos și răspund la întrebări, dacă așa, că nu scoat așa tot hăinăritul celălalt,",
+      "id_user": 4
     },
     {
       "id": 260,
-      "start": 1069.1,
-      "end": 1072.2,
-      "text": " Fetița nu avea nu împlinise încă doi ani.",
-      "id_user": 2
+      "start": 1275.0,
+      "end": 1282.0,
+      "text": " ce avem noi acolo în șirică la piață. Și mă cobor și mă apropiu și îi spun că asta e gența mea, dacă aveți întrebări,",
+      "id_user": 4
     },
     {
       "id": 261,
-      "start": 1072.2,
-      "end": 1074.2,
-      "text": " Eu m-am hotărât să mă duc la Italia.",
-      "id_user": 2
+      "start": 1282.0,
+      "end": 1290.0,
+      "text": " eu vă răspund și intră, însă, că să nu o deschid. Mă întreabă, dar ce aveți încă? Dacă așa...",
+      "id_user": 4
     },
     {
       "id": 262,
-      "start": 1074.2,
-      "end": 1078.5,
-      "text": " Zic, dar eu mă duc tot pentru dânsa.",
-      "id_user": 2
+      "start": 1290.0,
+      "end": 1298.0,
+      "text": " Eu spun, zic, noi ne întoarcem cu traiu acasă, în Moldova. Și avem tăticele atâte lucrurile noastre,",
+      "id_user": 4
     },
     {
       "id": 263,
-      "start": 1078.5,
-      "end": 1082.5,
-      "text": " Ca să nu crească, cum am crescut eu.",
-      "id_user": 2
+      "start": 1298.0,
+      "end": 1304.0,
+      "text": " care am trăit acolo și s-au acumulat de tătăt timp, nu le-am lăsat, dar nu e nici interzis noi.",
+      "id_user": 4
     },
     {
       "id": 264,
-      "start": 1082.5,
-      "end": 1085.5,
-      "text": " Dar să vă spun una cât trăiam",
-      "id_user": 2
+      "start": 1304.0,
+      "end": 1309.0,
+      "text": " Dar el de-am n-avea interes de lucrurile mele, că, dar și vă întoarceți acasă.",
+      "id_user": 4
     },
     {
       "id": 265,
-      "start": 1085.5,
-      "end": 1088.5,
-      "text": " cu soțul, totdeauna parcă eram alungată din casă,",
-      "id_user": 2
+      "start": 1309.0,
+      "end": 1314.0,
+      "text": " Dar, cum, ne întoarcem acasă, că străim acasă.",
+      "id_user": 4
     },
     {
       "id": 266,
-      "start": 1088.5,
-      "end": 1091.5,
-      "text": " că el avea casă, un fel de scoatere de ochi.",
-      "id_user": 2
+      "start": 1314.0,
+      "end": 1319.0,
+      "text": " Dar voi știți cum e de trăit aici? Dar voi știți cât e gazul aici?",
+      "id_user": 4
     },
     {
       "id": 267,
-      "start": 1091.5,
-      "end": 1093.5,
-      "text": " El avea casă și eu n-aveam. Și",
-      "id_user": 2
+      "start": 1319.0,
+      "end": 1327.0,
+      "text": " În loc ateu să zic, o, bine că vă așteptăm, bine că vă întoarcesc.",
+      "id_user": 4
     },
     {
       "id": 268,
-      "start": 1093.5,
-      "end": 1096.3,
-      "text": " ești o sărăntoacă și ești o sărăntoacă.",
-      "id_user": 2
+      "start": 1327.0,
+      "end": 1336.0,
+      "text": " Eu nu cumpăram gaz de la dânsă, dar el mă spărie că noi și așa eram moralul alea,",
+      "id_user": 4
     },
     {
       "id": 269,
-      "start": 1096.3,
-      "end": 1100.3,
-      "text": " Și eu chestia asta n-am putut să o suport,",
-      "id_user": 2
+      "start": 1336.0,
+      "end": 1342.0,
+      "text": " că cum să ne încadrăm noi și cum.",
+      "id_user": 4
     },
     {
       "id": 270,
-      "start": 1100.3,
-      "end": 1102.5,
-      "text": " pentru că eu am mâini am picioare, eu sunt tânără,",
-      "id_user": 2
+      "start": 1342.0,
+      "end": 1350.0,
+      "text": " Și încă și asta cu poarta țării și așa îți spune că gazul e așa și așa și așa și toți o să-ți conchizi.",
+      "id_user": 4
     },
     {
       "id": 271,
-      "start": 1102.5,
-      "end": 1106.5,
-      "text": " și eu în mintea mea avem că eu trebuie să muncesc și eu trebuie să-mi fac.",
-      "id_user": 2
+      "start": 1350.0,
+      "end": 1353.0,
+      "text": " Și conducerea asta și e ca așa niște.",
+      "id_user": 4
     },
     {
       "id": 272,
-      "start": 1106.5,
-      "end": 1110.8,
-      "text": " Nu trebuie să aștept eu de la cineva și să mă înjosească",
-      "id_user": 2
+      "start": 1353.0,
+      "end": 1357.0,
+      "text": " Dar asta nu e treaba vamei și l-o să-ți spui țăi că la noi e răa.",
+      "id_user": 4
     },
     {
       "id": 273,
-      "start": 1110.9,
-      "end": 1112.25,
-      "text": " și să mă... Nu.",
-      "id_user": 2
+      "start": 1357.0,
+      "end": 1363.0,
+      "text": " Conduserea și îi spriat să le marșe. Și de-ați acolo și nu știeți că roșie gazul e ieftin și ce e.",
+      "id_user": 4
     },
     {
       "id": 274,
-      "start": 1112.25,
-      "end": 1116.949,
-      "text": " Când am deschis afacerea, a mai fost o etapă",
+      "start": 1363.0,
+      "end": 1368.0,
+      "text": " Dar el nu se duce, el știe de aici, mă trimite pe mine înapoi cașcum.",
       "id_user": 4
     },
     {
       "id": 275,
-      "start": 1116.994,
-      "end": 1119.5,
-      "text": " destul de complicată în viața noastră,",
-      "id_user": 4
+      "start": 1368.0,
+      "end": 1373.0,
+      "text": " Când am venit din Filipină, asta era ultima țară, am avut zbor în București.",
+      "id_user": 5
     },
     {
       "id": 276,
-      "start": 1119.5,
-      "end": 1122.5,
-      "text": " pentru că noi banii îi investeam în afacere,",
-      "id_user": 4
+      "start": 1373.0,
+      "end": 1376.0,
+      "text": " Și din București am luat trenul spre Chișinău.",
+      "id_user": 5
     },
     {
       "id": 277,
-      "start": 1122.5,
-      "end": 1126.5,
-      "text": " iar noi nu aveam, de fapt, bani să să trăim, hai să zic așa.",
-      "id_user": 4
+      "start": 1376.0,
+      "end": 1381.0,
+      "text": " Și noaptea la vame ne-a întrebat de unde venim.",
+      "id_user": 5
     },
     {
       "id": 278,
-      "start": 1126.5,
-      "end": 1130.903,
-      "text": " Respectiv mergeam cu soțul în parc și vrem cafea.",
-      "id_user": 4
+      "start": 1381.0,
+      "end": 1387.0,
+      "text": " Și mă îngândeți să-i povestesc ce am mai făcut. Și și și bagaje ai din Filipină.",
+      "id_user": 5
     },
     {
       "id": 279,
-      "start": 1130.903,
-      "end": 1132.552,
-      "text": " Dar noi nu aveam bani de acea cafea.",
-      "id_user": 4
+      "start": 1387.0,
+      "end": 1395.0,
+      "text": " Iar altă rugzacul și acolo 5 hainii în cruși care am călătorit 8 luni rupte, vai de capul murăcului.",
+      "id_user": 5
     },
     {
       "id": 280,
-      "start": 1132.552,
-      "end": 1137.795,
-      "text": " Deci chiar era o perioadă grea în care noi trebuia să să dăm",
-      "id_user": 4
+      "start": 1395.0,
+      "end": 1397.0,
+      "text": " Erau și o sticlă de apă.",
+      "id_user": 5
     },
     {
       "id": 281,
-      "start": 1137.795,
-      "end": 1141.748,
-      "text": " toți toți banii pentru afacere, dar nu ne rămânea nouă pentru trai.",
-      "id_user": 4
+      "start": 1397.0,
+      "end": 1400.0,
+      "text": " Dar și cauți în Moldova, dar dacă nu ați să mi-a întors în Filipină.",
+      "id_user": 5
     },
     {
       "id": 282,
-      "start": 1141.748,
-      "end": 1145.942,
-      "text": " Și a fost un moment în care soțul de la Chia account manager,",
-      "id_user": 4
+      "start": 1400.0,
+      "end": 1402.0,
+      "text": " Și cumva era o curiozitate deja personală.",
+      "id_user": 5
     },
     {
       "id": 283,
-      "start": 1145.942,
-      "end": 1151.5,
-      "text": " trebuit să meargă în taxi ca să avem lichidități deci bani pentru cheltuială.",
-      "id_user": 4
+      "start": 1402.0,
+      "end": 1408.0,
+      "text": " El nu înțelegea cum adică rugzacul ăsta, tu vii din colă, vii la București.",
+      "id_user": 5
     },
     {
       "id": 284,
-      "start": 1151.5,
-      "end": 1154.12,
-      "text": " Eu cred că acela a fost moment greu",
-      "id_user": 4
+      "start": 1408.0,
+      "end": 1414.0,
+      "text": " Adică ecuația nu avea o soluție și era foarte ciudată pentru el.",
+      "id_user": 5
     },
     {
       "id": 285,
-      "start": 1154.5,
-      "end": 1158.5,
-      "text": " și în care am înțeles ce un valoros am alături.",
-      "id_user": 4
+      "start": 1414.0,
+      "end": 1420.0,
+      "text": " Am ajuns dimineața, era 8 dimineața. Am venit acasă, m-am schimbat și m-am dus și am mâncat.",
+      "id_user": 5
     },
     {
       "id": 286,
-      "start": 1158.5,
-      "end": 1161.0,
-      "text": " Când lucram în sat, când lucram în sat",
+      "start": 1420.0,
+      "end": 1426.0,
+      "text": " Plăcinte, am botul vin, brânză, smântână, toată lista mea de mâncare.",
       "id_user": 5
     },
     {
       "id": 287,
-      "start": 1162.5,
-      "end": 1164.5,
-      "text": " tot eram activă.",
+      "start": 1426.0,
+      "end": 1431.0,
+      "text": " Eu peste 2-3 ore după așa am ajuns, deja mâncam la loc al din Chișină.",
       "id_user": 5
     },
     {
       "id": 288,
-      "start": 1164.5,
-      "end": 1169.853,
-      "text": " O lună, ori două luni de zile am umblat la Comitetul Comsomolului din raion",
+      "start": 1431.0,
+      "end": 1434.0,
+      "text": " Nu știu, parcă am ajuns pe un rai.",
       "id_user": 5
     },
     {
       "id": 289,
-      "start": 1169.915,
-      "end": 1177.5,
-      "text": " până am văzut o foaie turistică, pe vreme ceea, în anii șaptezeci și șase, le spun.",
+      "start": 1434.0,
+      "end": 1437.0,
+      "text": " Eu atât de tare eram într-o stare romantică.",
       "id_user": 5
     },
     {
       "id": 290,
-      "start": 1177.5,
-      "end": 1180.5,
-      "text": " Până am văzut o foaie turistică la România.",
+      "start": 1437.0,
+      "end": 1440.0,
+      "text": " Toată lumea se uita la mine ca la ciudată.",
       "id_user": 5
     },
     {
       "id": 291,
-      "start": 1180.5,
-      "end": 1185.195,
-      "text": " Când am ajuns la hotare, mai mult de treizeci de ruble,",
+      "start": 1440.0,
+      "end": 1444.0,
+      "text": " Gen, tu ești în Moldova, adică și te bucuri așa de mult.",
       "id_user": 5
     },
     {
       "id": 292,
-      "start": 1185.195,
-      "end": 1188.781,
-      "text": " nici nu dădea voie să... ori treizeci ori șasezeci de ruble.",
+      "start": 1444.0,
+      "end": 1448.0,
+      "text": " Tu vii din așa locuri frumoase, plajă, palmieri.",
       "id_user": 5
     },
     {
       "id": 293,
-      "start": 1188.781,
-      "end": 1192.5,
-      "text": " Să lăsăm tot aurul inele, cercei tot la hotare.",
+      "start": 1448.0,
+      "end": 1454.0,
+      "text": " Eram bronzată, eram așa, venită, tropical cumva.",
       "id_user": 5
     },
     {
       "id": 294,
-      "start": 1192.5,
-      "end": 1195.5,
-      "text": " ei ce am cumpărat din România rochie.",
+      "start": 1454.0,
+      "end": 1461.0,
+      "text": " Dar eu mă simțeam, eu vroiam să mă duc, să mă joc cu copiii la țară, la bunica.",
       "id_user": 5
     },
     {
       "id": 295,
-      "start": 1197.5,
-      "end": 1205.033,
-      "text": " Pe atuncea, la noi era un deficit mare de de material.",
+      "start": 1461.0,
+      "end": 1464.0,
+      "text": " Vream brânză, vream smântână. Eu căutam.",
       "id_user": 5
     },
     {
       "id": 296,
-      "start": 1205.5,
-      "end": 1212.13,
-      "text": " Trebuie să s-ai mari buni prieteni, undeva la vreo bază de asta care aduce material,",
+      "start": 1464.0,
+      "end": 1468.0,
+      "text": " Eu am început să le spun, prietenii mei poți să confirm, eu toată lumea.",
       "id_user": 5
     },
     {
       "id": 297,
-      "start": 1212.13,
-      "end": 1213.5,
-      "text": " s-ai o bucată de material.",
+      "start": 1468.0,
+      "end": 1470.0,
+      "text": " Vă vedeți și decorat în Chișinău.",
       "id_user": 5
     },
     {
       "id": 298,
-      "start": 1213.65,
-      "end": 1217.01,
-      "text": " Dar iaca în România, când m-am dus și când am intrat în magazinele lor",
+      "start": 1470.0,
+      "end": 1472.0,
+      "text": " Pentru că în Asia despre nu este nici curățenia.",
       "id_user": 5
     },
     {
       "id": 299,
-      "start": 1217.01,
-      "end": 1219.856,
-      "text": " și când am văzut toate culorile și rochii de care vrei,",
+      "start": 1472.0,
+      "end": 1474.0,
+      "text": " Nu e atât de... e mult plastic.",
       "id_user": 5
     },
     {
       "id": 300,
-      "start": 1220.002,
-      "end": 1222.5,
-      "text": " îmi fugeau ochii de bani nu erau.",
+      "start": 1474.0,
+      "end": 1478.0,
+      "text": " Eu am început, uitați-vă, și decorat la voi. Câte restaurante voi aveți.",
       "id_user": 5
     },
     {
       "id": 301,
-      "start": 1222.5,
-      "end": 1225.85,
-      "text": " Când am cumpărat, mi le-a pus într-o sacoșă de asta,",
+      "start": 1478.0,
+      "end": 1486.0,
+      "text": " Și eu am început așa să romanticizez Moldova și Chișinău și festivalurile și tot ce se întâmpla în vară.",
       "id_user": 5
     },
     {
       "id": 302,
-      "start": 1225.85,
-      "end": 1228.757,
-      "text": " cu toartă de... cerofar, cum se cheamă.",
+      "start": 1486.0,
+      "end": 1492.0,
+      "text": " Că lumea se uită la mine, că la... nu știu, ceva foarte ciudat.",
       "id_user": 5
     },
     {
       "id": 303,
-      "start": 1228.757,
-      "end": 1232.876,
-      "text": " Dar eu am spus că oare o să țină până afară.",
-      "id_user": 5
+      "start": 1492.0,
+      "end": 1504.0,
+      "text": " Eu mi-asum consiciențele. Chiar și în cazul băietului, că l-am adus înapoi de acolo, că el a fost aici inițial, apoi a fost acolo, pe urmă iar a venit aici, pe urmă iar a fost încolo.",
+      "id_user": 1
     },
     {
       "id": 304,
-      "start": 1232.876,
-      "end": 1234.5,
-      "text": " Știi, sacoșa ceia?",
-      "id_user": 5
+      "start": 1504.0,
+      "end": 1509.0,
+      "text": " Pentru că prima lui experiență cu Marea Britanie a fost în 2021, pe jumătate de an.",
+      "id_user": 1
     },
     {
       "id": 305,
-      "start": 1234.5,
-      "end": 1237.075,
-      "text": " Măcar că vorbeam, tot moldovenește,",
-      "id_user": 5
+      "start": 1509.0,
+      "end": 1514.0,
+      "text": " Atunci și-a fost prima dată la școală acolo în clasa, spre mea, în clasa 1.",
+      "id_user": 1
     },
     {
       "id": 306,
-      "start": 1237.075,
-      "end": 1239.292,
-      "text": " da doamna o cunoscut că nu suntem de acolo,",
-      "id_user": 5
+      "start": 1514.0,
+      "end": 1523.0,
+      "text": " După care, peste jumătate de anuare, a venit acasă. Eu mi-am terminat chestiunele acolo și am spus că ok, hai până acasă.",
+      "id_user": 1
     },
     {
       "id": 307,
-      "start": 1239.292,
-      "end": 1242.676,
-      "text": " și-mi spune că o să țină doamna, o să țină, că nu sunt rusești.",
-      "id_user": 5
+      "start": 1523.0,
+      "end": 1534.0,
+      "text": " Și am venit acasă și am început a lucra Mortgage Protection Administrator, deci primul job în 2021 l-am luat, ăsta care e în rol de slujbaj, hai să spunem.",
+      "id_user": 1
     },
     {
       "id": 308,
-      "start": 1242.676,
-      "end": 1245.5,
-      "text": " Noi cu dumneavoastră vorbeam despre sărăcie.",
-      "id_user": 3
+      "start": 1534.0,
+      "end": 1543.0,
+      "text": " Și el a fost dat la școală în Moldova și iarăși a fost clasa 1. După care el iar a mers deja în 2022, când eu mi-am găsit plătatea,",
+      "id_user": 1
     },
     {
       "id": 309,
-      "start": 1245.5,
-      "end": 1248.5,
-      "text": " da Și atunci, asta este un proces,",
-      "id_user": 3
+      "start": 1543.0,
+      "end": 1554.0,
+      "text": " El a mers iar acolo, am spus că ok, eu trebuie să înțin copilul lângă mine. Pentru că copiii trebuie să crească cu părință.",
+      "id_user": 1
     },
     {
       "id": 310,
-      "start": 1248.5,
-      "end": 1250.5,
-      "text": " asta este un fenomen",
-      "id_user": 3
+      "start": 1554.0,
+      "end": 1562.0,
+      "text": " Eu asta așa văd, eu văd așa lucrurile. El are nevoie, da, el are nevoie de bunei, dar el are nevoie și de părință.",
+      "id_user": 1
     },
     {
       "id": 311,
-      "start": 1250.5,
-      "end": 1254.5,
-      "text": " care acoperă un număr foarte mare de persoane.",
-      "id_user": 3
+      "start": 1562.0,
+      "end": 1567.0,
+      "text": " Și în educația unui copil, părintele ăsta e pilonul cel mai important.",
+      "id_user": 1
     },
     {
       "id": 312,
-      "start": 1254.5,
-      "end": 1257.67,
-      "text": " Și atunci, când vii dintr-un mediu în care să zici",
-      "id_user": 3
+      "start": 1567.0,
+      "end": 1571.0,
+      "text": " În așii șapte ani de acasă. Bunei e timp mai alintă, că-s bunei.",
+      "id_user": 1
     },
     {
       "id": 313,
-      "start": 1257.67,
-      "end": 1260.5,
-      "text": " n-ai avut tari mari posibilități,",
-      "id_user": 3
+      "start": 1571.0,
+      "end": 1576.0,
+      "text": " Dar părintele poate să fie strict la necesitate, că bunei ăsta nu poți să facă.",
+      "id_user": 1
     },
     {
       "id": 314,
-      "start": 1260.5,
-      "end": 1262.35,
-      "text": " tu primești anumite încercări,",
-      "id_user": 3
+      "start": 1576.0,
+      "end": 1584.0,
+      "text": " Și iată, eu niciodată n-am regretat. Pentru că asta, metoda mea de eu am adaptat și a fi flexibil în viață,",
+      "id_user": 1
     },
     {
       "id": 315,
-      "start": 1262.025,
-      "end": 1264.5,
-      "text": " că ca ceva obișnuit.",
-      "id_user": 3
+      "start": 1584.0,
+      "end": 1589.0,
+      "text": " pe mine m-a ajutat și asta am dezvoltat și la dânsul. El tot a devenit flexibil și adaptabil.",
+      "id_user": 1
     },
     {
       "id": 316,
-      "start": 1264.5,
-      "end": 1268.25,
-      "text": " Eu îmi dau foarte bine seama că ar putea fi un stres destructiv",
-      "id_user": 3
+      "start": 1589.0,
+      "end": 1594.0,
+      "text": " Căi când ne-a spus că noi plecăm în Moldova astăzi, el, YES!",
+      "id_user": 1
     },
     {
       "id": 317,
-      "start": 1268.275,
-      "end": 1270.742,
-      "text": " pentru persoane care au avut un nivel de trăi înalt.",
-      "id_user": 3
-    },
-    {
-      "id": 318,
-      "start": 1270.742,
-      "end": 1273.138,
-      "text": " Și atunci, într-o situație critică,",
-      "id_user": 3
+      "start": 1594.0,
+      "end": 1601.0,
+      "text": " Și s-a dus, a început a alerga pe la colegii care a ieșit să după lecții și s-au spus că eu azi plec în Moldova, eu azi plec în Moldova.",
+      "id_user": 1
     },
     {
       "id": 319,
-      "start": 1273.5,
-      "end": 1275.5,
-      "text": " trebuie să înceapă de la zero.",
-      "id_user": 3
+      "start": 1602.0,
+      "end": 1606.0,
+      "text": " Și ce ai făcut primul lucru când ai venit aici în Moldova, din Italia?",
+      "id_user": 7
     },
     {
       "id": 320,
-      "start": 1275.5,
-      "end": 1277.5,
-      "text": " Iată cum acum, spre exemplu,",
-      "id_user": 3
+      "start": 1606.0,
+      "end": 1614.0,
+      "text": " Mi-a deschis compania care se numește Art Music și încă n-a făcut nici, cu doi o să încăși așa și așa.",
+      "id_user": 6
     },
     {
       "id": 321,
-      "start": 1277.5,
-      "end": 1279.633,
-      "text": " unii din persoane strămutate,",
+      "start": 1614.0,
+      "end": 1628.0,
+      "text": " Am utărât să vin acasă atunci când s-a început pandemia. Pe data de 20 martie s-a închis aeroportul, granițele, pandemia.",
       "id_user": 3
     },
     {
       "id": 322,
-      "start": 1279.633,
-      "end": 1282.856,
-      "text": " dar refugiate din din alte țări, să zicem.",
+      "start": 1628.0,
+      "end": 1637.0,
+      "text": " Eu am stat închisă martie, februarie, martie, aprilie. Bătrâna au împlinit pe data de 14 aprilie, au împlinit 100 de ani.",
       "id_user": 3
     },
     {
       "id": 323,
-      "start": 1282.856,
-      "end": 1284.5,
-      "text": " Practic încep de la început.",
+      "start": 1637.0,
+      "end": 1645.0,
+      "text": " Eu i-am făcut ziua de naștere cu ușă închisă, i-am făcut un tort mic, i-am pus o lumânărică, am făcut live numai cu cine nu vreți.",
       "id_user": 3
     },
     {
       "id": 324,
-      "start": 1284.5,
-      "end": 1287.5,
-      "text": " Iată, asta este un stres foarte major.",
+      "start": 1645.0,
+      "end": 1655.0,
+      "text": " S-o felicite. Aprilie. Bătrânică au murit. 14 aprilie au împlinit 100 de ani și două săptămâni.",
       "id_user": 3
     },
     {
       "id": 325,
-      "start": 1287.5,
-      "end": 1291.5,
-      "text": " pe Atunci eu am venit, dintr-un mediu, destul de modest.",
+      "start": 1655.0,
+      "end": 1664.0,
+      "text": " Eu i-am decedat. Și eu după și o decedat am mai stat încă vreo 45 de zile când am vot cu și vin în Moldova.",
       "id_user": 3
     },
     {
       "id": 326,
-      "start": 1291.61,
-      "end": 1295.752,
-      "text": " Și zicem și pentru mine nu era atât de mare stresul respectiv.",
+      "start": 1664.0,
+      "end": 1672.0,
+      "text": " Aici a fost clopoțelul de alarmă. Cu primul autobuz am venit în Italia și m-am întors acasă.",
       "id_user": 3
     },
     {
       "id": 327,
-      "start": 1295.752,
-      "end": 1299.023,
-      "text": " Altceva este că eu foarte bine îmi dădeam seama",
+      "start": 1672.0,
+      "end": 1677.0,
+      "text": " Și am făcut foarte bine, că am doi nipuțăi aici la Chișnau de la Fiul.",
       "id_user": 3
     },
     {
       "id": 328,
-      "start": 1299.023,
-      "end": 1300.5,
-      "text": " că unii colegi de-a mei,",
+      "start": 1677.0,
+      "end": 1682.0,
+      "text": " Dar vadimul ăla că e mai mare, e clasa șasea.",
       "id_user": 3
     },
     {
       "id": 329,
-      "start": 1300.5,
-      "end": 1302.733,
-      "text": " își petreceau timpul liber",
+      "start": 1682.0,
+      "end": 1690.0,
+      "text": " Eu avem doi anișori. Eu am venit în Moldova, el mi-a înșel să-mi spui mima, mima, mima. Bunică nu-mi spune, îmi spune mima.",
       "id_user": 3
     },
     {
       "id": 330,
-      "start": 1302.733,
-      "end": 1305.5,
-      "text": " pentru a studia, pentru a investi",
+      "start": 1690.0,
+      "end": 1698.0,
+      "text": " Și noi așa de tare. Atâta dragoste îmi dă copilul ăsta și îl mai trebuie.",
       "id_user": 3
     },
     {
       "id": 331,
-      "start": 1305.5,
-      "end": 1308.33,
-      "text": " în viitorul acestei profesii.",
+      "start": 1698.0,
+      "end": 1704.0,
+      "text": " Noi mergem pe drum și învățăm poezii. Noi mergem pe străzi și ne jucăm de-aș toc de cagda.",
       "id_user": 3
     },
     {
       "id": 332,
-      "start": 1308.5,
-      "end": 1310.5,
-      "text": " eu, pe atunci, am dat foarte bine seama că",
+      "start": 1704.0,
+      "end": 1707.0,
+      "text": " E o poveste, îi arăt ceva și zic pentru și asta.",
       "id_user": 3
     },
     {
       "id": 333,
-      "start": 1310.5,
-      "end": 1312.5,
-      "text": " eu trebuie să fiu atent",
+      "start": 1707.0,
+      "end": 1715.0,
+      "text": " Noi observăm arhitectura caselor vechi. Noi facem 20.000 de pași pe zi.",
       "id_user": 3
     },
     {
       "id": 334,
-      "start": 1312.5,
-      "end": 1315.31,
-      "text": " cu anumite responsabilități pe care o să mi le iau",
+      "start": 1715.0,
+      "end": 1721.0,
+      "text": " Ne ducem pe jos, la izvor, la Valea Morilor, la Valea Trandafirilor.",
       "id_user": 3
     },
     {
       "id": 335,
-      "start": 1315.43,
-      "end": 1318.32,
-      "text": " atunci când o să primesc această diplomă în mână.",
+      "start": 1721.0,
+      "end": 1725.0,
+      "text": " Noi numai unde nu am făcut. Muzeile toate din Chișnau, noi le-am vizitat.",
       "id_user": 3
     },
     {
       "id": 336,
-      "start": 1318.5,
-      "end": 1321.71,
-      "text": " Pentru că nu eram la nivel cu acele persoane",
+      "start": 1725.0,
+      "end": 1728.0,
+      "text": " Uite, asta-i noroc, uite, asta-i fericere, uite, asta-i dragoste.",
       "id_user": 3
     },
     {
       "id": 337,
-      "start": 1321.71,
-      "end": 1323.371,
-      "text": " care aveau timp suficient,",
+      "start": 1728.0,
+      "end": 1732.0,
+      "text": " Ea pură, curată, care n-a să se străgeze niciodată.",
       "id_user": 3
     },
     {
       "id": 338,
-      "start": 1323.33,
-      "end": 1326.5,
-      "text": " spre exemplu, să particie la diferite cursuri, să le procure",
-      "id_user": 3
+      "start": 1732.0,
+      "end": 1737.0,
+      "text": " Primul lucru care l-am făcut când am ajuns în Moldova, am inspirat adânc în suflet.",
+      "id_user": 1
     },
     {
       "id": 339,
-      "start": 1326.5,
-      "end": 1329.83,
-      "text": " să meargă în diferite țări, să facă practică,",
-      "id_user": 3
+      "start": 1737.0,
+      "end": 1742.0,
+      "text": " Așa, am tras aer în chept, adânc, adânc din tot sufletul.",
+      "id_user": 1
     },
     {
       "id": 340,
-      "start": 1329.87,
-      "end": 1333.556,
-      "text": "să zicem să beneficieze de anumite seminarii contra plată.",
-      "id_user": 3
+      "start": 1742.0,
+      "end": 1744.0,
+      "text": " Shapirul m-a mâncat o zamă moldovnească.",
+      "id_user": 1
     },
     {
       "id": 341,
-      "start": 1333.556,
-      "end": 1334.777,
-      "text": " Eu toate acestea nu le aveam.",
-      "id_user": 3
+      "start": 1745.0,
+      "end": 1751.0,
+      "text": " Dragostea asta față de mâncarea noastră tradițională, eu cred că nișodată asta n-am să o putem scoate din noi,",
+      "id_user": 1
     },
     {
       "id": 342,
-      "start": 1334.777,
-      "end": 1338.644,
-      "text": " Și înțelegem foarte bine că nu mă pot compara, să zicem, da?",
-      "id_user": 3
+      "start": 1751.0,
+      "end": 1754.0,
+      "text": " pentru că asta e cei mai gustoase bucătăriei care pot să o întâmpin.",
+      "id_user": 1
     },
     {
       "id": 343,
-      "start": 1338.644,
-      "end": 1342.053,
-      "text": " Dar în schimb am am am o practică de viață",
-      "id_user": 3
+      "start": 1754.0,
+      "end": 1759.0,
+      "text": " Chiar este și-o fost în 2023, la sfârșit de anul 2023,",
+      "id_user": 1
     },
     {
       "id": 344,
-      "start": 1342.053,
-      "end": 1344.938,
-      "text": " care acum, la moment, îmi ajută.",
-      "id_user": 3
+      "start": 1759.0,
+      "end": 1762.0,
+      "text": " a fost un concurs internațional la cea mai gustoasă supă.",
+      "id_user": 1
     },
     {
       "id": 345,
-      "start": 1344.938,
-      "end": 1348.036,
-      "text": " Pentru că eu mi-am ales, conștient, domeniul social.",
-      "id_user": 3
+      "start": 1762.0,
+      "end": 1768.0,
+      "text": " Și, deci, zamă moldovenească, anume, a ocupat a doilea loc, la nivel global.",
+      "id_user": 1
     },
     {
       "id": 346,
-      "start": 1348.036,
-      "end": 1351.126,
-      "text": " Plecat eu la Italia, cam greu am ajuns,",
-      "id_user": 2
+      "start": 1769.0,
+      "end": 1774.0,
+      "text": " Eu cred că n-ați fi un moldovean sau un moldovean care n-ați fi de corpminic,",
+      "id_user": 1
     },
     {
       "id": 347,
-      "start": 1351.126,
-      "end": 1353.63,
-      "text": " tare greu am ajuns, pe timpurile acelea.",
-      "id_user": 2
+      "start": 1774.0,
+      "end": 1778.0,
+      "text": " dragostea pentru mâncarea noastră tu nu o scoți.",
+      "id_user": 1
     },
     {
       "id": 348,
-      "start": 1353.63,
-      "end": 1356.5,
-      "text": " Eram și optimistă, curajoasă,",
-      "id_user": 2
+      "start": 1778.0,
+      "end": 1785.0,
+      "text": " Pentru plășintii, pentru jen, pentru, eu nu știu, pentru o mămăligă, asta e imposibil.",
+      "id_user": 1
     },
     {
       "id": 349,
-      "start": 1356.5,
-      "end": 1360.262,
-      "text": " pentru că știam problemele din urmă, care le-am lăsat.",
-      "id_user": 2
+      "start": 1785.0,
+      "end": 1788.0,
+      "text": " Iată asta, eu cred că asta nu scoți din om.",
+      "id_user": 1
     },
     {
       "id": 350,
-      "start": 1360.38,
-      "end": 1363.28,
-      "text": " Pe mine asta mă făcea să fiu, mai curajoasă, mai",
-      "id_user": 2
+      "start": 1788.0,
+      "end": 1792.0,
+      "text": " Eu mi-am dat seama, știu, vreo două săptămâni.",
+      "id_user": 3
     },
     {
       "id": 351,
-      "start": 1364.24,
-      "end": 1366.17,
-      "text": " să nu mă gândesc la nimic de rău.",
-      "id_user": 2
+      "start": 1792.0,
+      "end": 1796.0,
+      "text": " Când am venit în Moldova, am început să fac plășinte,",
+      "id_user": 3
     },
     {
       "id": 352,
-      "start": 1366.11,
-      "end": 1369.05,
-      "text": " M-am dus cu un scop să-mi schimb viața.",
-      "id_user": 2
+      "start": 1796.0,
+      "end": 1800.0,
+      "text": " să coc pâine, sarmale.",
+      "id_user": 3
     },
     {
       "id": 353,
-      "start": 1369.0,
-      "end": 1370.833,
-      "text": " Și așa și am făcut.",
-      "id_user": 2
+      "start": 1800.0,
+      "end": 1809.0,
+      "text": " Era teman în perioada asta, vară, că dulceață, cam potrupii de iarnă, borcani,",
+      "id_user": 3
     },
     {
       "id": 354,
-      "start": 1370.917,
-      "end": 1373.167,
-      "text": " Eu nu mă ducem să cheltui banii,",
-      "id_user": 2
+      "start": 1809.0,
+      "end": 1813.0,
+      "text": " cu o lăcomie, cu o lăcomie, cu o lăcomie, cu o lăcomie, cu o lăcomie, cu o lăcomie, cu o lăcomie, cu o lăcomie.",
+      "id_user": 3
     },
     {
       "id": 355,
-      "start": 1373.217,
-      "end": 1374.717,
-      "text": " eu strângem bani la bani.",
-      "id_user": 2
+      "start": 1813.0,
+      "end": 1817.0,
+      "text": " Fiecare zâmbă cel la piat, cumpăram și șeie, șeie, fășem, închidem pentru iarnă.",
+      "id_user": 3
     },
     {
       "id": 356,
-      "start": 1374.933,
-      "end": 1376.375,
-      "text": " Nu mă ducem să mănânc o înghețată.",
-      "id_user": 2
+      "start": 1817.0,
+      "end": 1823.0,
+      "text": " Marina într-un timp, în ora menză și m-am dat și vine, iar vă pandemie, de atâta rezervă faci.",
+      "id_user": 3
     },
     {
       "id": 357,
-      "start": 1377.258,
-      "end": 1378.875,
-      "text": " stăteam și mă gândeam, zic",
-      "id_user": 2
+      "start": 1823.0,
+      "end": 1829.0,
+      "text": " Dar eu, atunci ne-am dat seama, pentru că eu eram dorită să fac lucrurile astea,",
+      "id_user": 3
     },
     {
       "id": 358,
-      "start": 1378.84,
-      "end": 1381.7,
-      "text": " eu am greșit că nu ne-am cumpărat o înghețată.",
-      "id_user": 2
+      "start": 1829.0,
+      "end": 1831.0,
+      "text": " care acolo în Italia, tu nu le fășeai.",
+      "id_user": 3
     },
     {
       "id": 359,
-      "start": 1381.658,
-      "end": 1383.5,
-      "text": " Eu munceam și sâmbăta și duminica,",
-      "id_user": 2
+      "start": 1831.0,
+      "end": 1837.0,
+      "text": " Eu unicul lucru care l-am făcut în Italia și îți fășeai la noi,",
+      "id_user": 3
     },
     {
       "id": 360,
-      "start": 1383.47,
-      "end": 1386.78,
-      "text": " ieșiam de la un post de muncă care îl făceam toată săptămâna.",
-      "id_user": 2
+      "start": 1837.0,
+      "end": 1841.0,
+      "text": " și nu întăci familie, pentru că ea sunt tradiționaliști, ea nu îți predau voie,",
+      "id_user": 3
     },
     {
       "id": 361,
-      "start": 1386.77,
-      "end": 1389.29,
-      "text": " Repede, luam autobuzul mă ducem la altul.",
-      "id_user": 2
+      "start": 1841.0,
+      "end": 1845.0,
+      "text": " ea sunt tradiționaliști, ea la sărbătorii lor, ajunge de Crășiun mănâncă asta,",
+      "id_user": 3
     },
     {
       "id": 362,
-      "start": 1389.29,
-      "end": 1393.5,
-      "text": " Primul lucru, mi-o găsit prietena mea, un",
-      "id_user": 2
+      "start": 1845.0,
+      "end": 1851.0,
+      "text": " de Paști mănâncă asta, ea la două sau la trei familie ne-au dat voie să fac.",
+      "id_user": 3
     },
     {
       "id": 363,
-      "start": 1393.5,
-      "end": 1397.227,
-      "text": " printr-o altcineva, un lucru într-un sat,",
-      "id_user": 2
+      "start": 1851.0,
+      "end": 1856.0,
+      "text": " Olivier, că ea îi zic că e salata rusă și eu le spunem că nu e salata rusă,",
+      "id_user": 3
     },
     {
       "id": 364,
-      "start": 1398.24,
-      "end": 1400.15,
-      "text": " la vârful muntei, în munte.",
-      "id_user": 2
+      "start": 1856.0,
+      "end": 1859.0,
+      "text": " Olivier, zic că l-a inventat un franțuz.",
+      "id_user": 3
     },
     {
       "id": 365,
-      "start": 1400.5,
-      "end": 1405.107,
-      "text": " Stăpâna la casă era rusoaică, de origine rusă,",
-      "id_user": 2
+      "start": 1859.0,
+      "end": 1863.0,
+      "text": " Și șubă, se le odcă în șubă.",
+      "id_user": 3
     },
     {
       "id": 366,
-      "start": 1405.31,
-      "end": 1408.03,
-      "text": " dar el era italian, barbatul era italian.",
-      "id_user": 2
+      "start": 1863.0,
+      "end": 1869.0,
+      "text": " Și un an, o italiană ne-au zis, mai cu este la rinca, s-o tola pe licea.",
+      "id_user": 3
     },
     {
       "id": 367,
-      "start": 1407.975,
-      "end": 1409.617,
-      "text": " Aveau împreună două fetițe.",
-      "id_user": 2
+      "start": 1869.0,
+      "end": 1872.0,
+      "text": " Ei se le odcă în șubă și eu am rămas așa, zic, dar tu de unde știi?",
+      "id_user": 3
     },
     {
       "id": 368,
-      "start": 1409.79,
-      "end": 1412.99,
-      "text": " Vreau să vă spun așa, am fost tratată foarte rău",
-      "id_user": 2
+      "start": 1872.0,
+      "end": 1876.0,
+      "text": " A zis, eu am mâncat. Numai o italiană și-a dat seama și ei.",
+      "id_user": 3
     },
     {
       "id": 369,
-      "start": 1413.033,
-      "end": 1414.04,
-      "text": " în casa ceia",
-      "id_user": 2
+      "start": 1876.0,
+      "end": 1880.0,
+      "text": " Dar când am venit acasă am început să fac, și aici n-am făcut atâți ani.",
+      "id_user": 3
     },
     {
       "id": 370,
-      "start": 1414.233,
-      "end": 1416.483,
-      "text": " Eu așa de obosită eram și toată ziua,",
-      "id_user": 2
+      "start": 1880.0,
+      "end": 1885.0,
+      "text": " Și până îți oadează, chiar și pe noră și fiul, zici, dar mamă, dar nu se duci înapoi în Italia?",
+      "id_user": 3
     },
     {
       "id": 371,
-      "start": 1416.442,
-      "end": 1418.5,
-      "text": " în picioare și toată ziua lucram.",
-      "id_user": 2
+      "start": 1885.0,
+      "end": 1890.0,
+      "text": " Toți se întreabă și fetele din Italia, când le-au spus că plec,",
+      "id_user": 3
     },
     {
       "id": 372,
-      "start": 1418.5,
-      "end": 1421.5,
-      "text": " Era ora 11 zece noaptea într-o seară.",
-      "id_user": 2
+      "start": 1890.0,
+      "end": 1893.0,
+      "text": " ai stai o lună-n două și ai să te duci înapoi.",
+      "id_user": 3
     },
     {
       "id": 373,
-      "start": 1421.5,
-      "end": 1424.5,
-      "text": " Eu cu legheanul cu rufe din mașina de spălat,",
-      "id_user": 2
+      "start": 1893.0,
+      "end": 1903.0,
+      "text": " Nici o dată n-au mai vrut. Și e curios lucru că eu în Italia ne-au plăcut tătă mâncarea lor.",
+      "id_user": 3
     },
     {
       "id": 374,
-      "start": 1424.5,
-      "end": 1426.925,
-      "text": " ridicam scările la doilea etaj,",
-      "id_user": 2
+      "start": 1903.0,
+      "end": 1908.0,
+      "text": " Tătă mâncarea, mai ales verdeața asta, carciofie și fel de fel de salaturi.",
+      "id_user": 3
     },
     {
       "id": 375,
-      "start": 1426.889,
-      "end": 1428.056,
-      "text": " că era casă cu două etaje,",
-      "id_user": 2
+      "start": 1908.0,
+      "end": 1915.0,
+      "text": " Eu am venit în Moldova, nu ne lipsești nimic. Nu sunt dorință și ai.",
+      "id_user": 3
     },
     {
       "id": 376,
-      "start": 1428.175,
-      "end": 1429.825,
-      "text": " și nu mai putem să mai merg.",
-      "id_user": 2
+      "start": 1915.0,
+      "end": 1921.0,
+      "text": " Dacă vreau un capucin și un cornet, mă duc aici la ele, în scoară de la Eminescu.",
+      "id_user": 3
     },
     {
       "id": 377,
-      "start": 1431.123,
-      "end": 1434.752,
-      "text": " Și zic, hai cenușăreasa, hai c-ai să poți,",
-      "id_user": 2
+      "start": 1921.0,
+      "end": 1927.0,
+      "text": " Dacă vreau un farfurie de spaghete, îmi cumpăr un brocol și niște ce spaghete și îmi fac.",
+      "id_user": 3
     },
     {
       "id": 378,
-      "start": 1434.752,
-      "end": 1437.5,
-      "text": " ai vrut la Italia.",
-      "id_user": 2
+      "start": 1927.0,
+      "end": 1938.0,
+      "text": " Dar eu atât de tare am nepoței, am fiu și noră, eu, borșuri, sărmăluți, chestiul de este.",
+      "id_user": 3
     },
     {
       "id": 379,
-      "start": 1437.5,
-      "end": 1440.5,
-      "text": " Așa am suferit două luni acolo.",
-      "id_user": 2
+      "start": 1938.0,
+      "end": 1940.0,
+      "text": " Eu nu simțesc lipsa Italiei.",
+      "id_user": 3
     },
     {
       "id": 380,
-      "start": 1441.31,
-      "end": 1445.23,
-      "text": " Doamne, maltratată de una care o făcut lucru ca mine.",
-      "id_user": 2
+      "start": 1940.0,
+      "end": 1946.0,
+      "text": " Când am ajuns acasă, apă, că moral, noi am ajuns mult mai târziu.",
+      "id_user": 4
     },
     {
       "id": 381,
-      "start": 1445.23,
-      "end": 1448.903,
-      "text": " Dacă într-o bună zi eu rămân pe zero și nu mai am niciun leu,",
+      "start": 1946.0,
+      "end": 1952.0,
+      "text": " Dar fizic când am ajuns acasă, am primit încă un șoc.",
       "id_user": 4
     },
     {
       "id": 382,
-      "start": 1448.903,
-      "end": 1452.911,
-      "text": " eu o să renasc, pentru că am mai făcut asta de multe ori.",
+      "start": 1952.0,
+      "end": 1957.0,
+      "text": " Dacă ani de zile venim la sărbătorile de iarnă, îmi concede, dar aici a venit în august.",
       "id_user": 4
     },
     {
       "id": 383,
-      "start": 1452.911,
-      "end": 1454.761,
-      "text": " Nu este greu să faci bani.",
+      "start": 1957.0,
+      "end": 1965.0,
+      "text": " Și am văzut împrejurul casă, iarna era nință, era ometă, ori nu era, dar era una.",
       "id_user": 4
     },
     {
       "id": 384,
-      "start": 1454.761,
-      "end": 1457.5,
-      "text": " Banii în genere sunt o consecință,",
+      "start": 1965.0,
+      "end": 1973.0,
+      "text": " Dar aici am ajuns, burien decât gardul de mari, casa arăta, cum și mult arată,",
       "id_user": 4
     },
     {
       "id": 385,
-      "start": 1457.393,
-      "end": 1458.5,
-      "text": " adică un rezultat.",
+      "start": 1973.0,
+      "end": 1979.0,
+      "text": " casa fără stăpân, fără nimic absolut.",
       "id_user": 4
     },
     {
       "id": 386,
-      "start": 1458.5,
-      "end": 1461.41,
-      "text": " Tu ai dat munca ta și ai primit banii.",
+      "start": 1979.0,
+      "end": 1985.0,
+      "text": " Dacă deprinderea asta de acasă era, în primul rând, întrai și făși eu un cățel din coadă,",
       "id_user": 4
     },
     {
       "id": 387,
-      "start": 1461.333,
-      "end": 1463.175,
-      "text": " În general să faci bani nu e greu.",
+      "start": 1985.0,
+      "end": 1995.0,
+      "text": " dar am un nică și primele două zile și după așa am venit, apă, am încurățat înainte acasă,",
       "id_user": 4
     },
     {
       "id": 388,
-      "start": 1463.28,
-      "end": 1465.92,
-      "text": " Și eu vorbesc nu din perspectiva Danielei,",
+      "start": 1995.0,
+      "end": 2003.0,
+      "text": " burienile, am curățit odată și le-am strâns și pe urma a doua oară cu motocoasa de două ori ca să faci.",
       "id_user": 4
     },
     {
       "id": 389,
-      "start": 1465.993,
-      "end": 1467.5,
-      "text": " care a ajuns undeva,",
+      "start": 2003.0,
+      "end": 2011.0,
+      "text": " Și era parcă o rușine de te uitai la vicin care trăiește aici și care nu a lăsat să ducă.",
       "id_user": 4
     },
     {
       "id": 390,
-      "start": 1467.5,
-      "end": 1470.5,
-      "text": " dar în contextul social moldovenesc chiar.",
+      "start": 2011.0,
+      "end": 2016.0,
+      "text": " Și te uitai că la dânsul e așa și e curat și e dat la noi.",
       "id_user": 4
     },
     {
       "id": 391,
-      "start": 1470.5,
-      "end": 1474.063,
-      "text": " intrați pe orice site în care sunt job-uri,",
+      "start": 2016.0,
+      "end": 2023.0,
+      "text": " Tata vremea mea a fost în grădină, era curat și a trecut o perioadă bună până și ne-am început să-mi țâca acasă.",
       "id_user": 4
     },
     {
       "id": 392,
-      "start": 1474.18,
-      "end": 1476.96,
-      "text": " acolo posturi vacante sunt foarte multe.",
-      "id_user": 4
+      "start": 2023.0,
+      "end": 2025.0,
+      "text": " Știi că timp ați început?",
+      "id_user": 7
     },
     {
       "id": 393,
-      "start": 1477.09,
-      "end": 1480.55,
-      "text": " Respectiv dacă chiar nu o să pot să fiu o antreprenoare,",
+      "start": 2025.0,
+      "end": 2043.0,
+      "text": " Nu a fost jumătate de an perioada asta, dar a trecut de un an de când m-am întors, de aproape de un an de zile am început asta ca cum când ții foame.",
       "id_user": 4
     },
     {
       "id": 394,
-      "start": 1480.525,
-      "end": 1481.5,
-      "text": " pot să mă angajez.",
+      "start": 2043.0,
+      "end": 2060.0,
+      "text": " Nu că avem nevoie urgent să mă angajez, dar de-am, a venit perioada așa că am început catalog de angajare, că e timpul că să te deprins cu lucrul aici,",
       "id_user": 4
     },
     {
       "id": 395,
-      "start": 1481.5,
-      "end": 1487.5,
-      "text": " Deci e destul de simplu astăzi să fii angajat și să acumulezi bani.",
+      "start": 2060.0,
+      "end": 2068.0,
+      "text": " să nu mai ieșesc cu gândul acolo, că este un moment că angajatorii sunt deprins cu asta, că lumea vine și se duce.",
       "id_user": 4
     },
     {
       "id": 396,
-      "start": 1487.447,
-      "end": 1491.518,
-      "text": " noi Chiar avem o insuficiență de angajați la moment și acum oamenii",
+      "start": 2068.0,
+      "end": 2084.0,
+      "text": " Eu când am stat de vorba la interviu cu angajatorul, el tot m-a întrebat cum, ce-i lucrat, unde, cum, și i-am spus că zic că eu sunt de categoria și e că eu nu mă duc nicăieri.",
       "id_user": 4
     },
     {
       "id": 397,
-      "start": 1491.518,
-      "end": 1493.09,
-      "text": " te pot angaja și fără diplomă.",
+      "start": 2084.0,
+      "end": 2095.0,
+      "text": " Nu știu cu gândul de duc în Germania sau alt parte. Mă angajez, dacă mă aranjează, lucrez și nu stie el cu gândul că e, mă, și-a să lep de ce ați duc undeva, și ați duc.",
       "id_user": 4
     },
     {
       "id": 398,
-      "start": 1493.207,
-      "end": 1494.327,
-      "text": " Deci nu e o problemă.",
+      "start": 2095.0,
+      "end": 2104.0,
+      "text": " De acum, așa de tare am revenit că nu m-ar interesa nicăieri să mai...",
       "id_user": 4
     },
     {
       "id": 399,
-      "start": 1494.367,
-      "end": 1496.558,
-      "text": " sunt studiile superioare, dacă nu vorbim de medicină,",
+      "start": 2104.0,
+      "end": 2111.0,
+      "text": " Chiar nici de leafă, nici de... dar să lești, te mai duci odată, asta de a mai iei este egal cu moartea.",
       "id_user": 4
     },
     {
       "id": 400,
-      "start": 1496.558,
-      "end": 1499.5,
-      "text": " dacă nu vorbim da de jurisprudiență.",
-      "id_user": 4
+      "start": 2111.0,
+      "end": 2120.0,
+      "text": " Acum eu am un job și am un salariu, dar când am venit, am venit așa, doar ca un copil care vreau acasă și mine nu mă interesează salariul.",
+      "id_user": 5
     },
     {
       "id": 401,
-      "start": 1499.5,
-      "end": 1504.227,
-      "text": " De aceea sunt studiile de scurtă durată,",
-      "id_user": 4
+      "start": 2120.0,
+      "end": 2133.0,
+      "text": " Și era o tranziție tare interesantă că când m-am mutat din Olanda în Asia, viniesc în un background în care salariul trebuie să fie minim 2.000-3.000 de euro pe lună,",
+      "id_user": 5
     },
     {
       "id": 402,
-      "start": 1504.227,
-      "end": 1507.97,
-      "text": " exemplu contabil sau human resources.",
-      "id_user": 4
+      "start": 2133.0,
+      "end": 2142.0,
+      "text": " că acesta era salariul în Olanda, trebuie să știi, olandeji îți calculați, fiecare lună, cât ai, cum ai, pui deoparte.",
+      "id_user": 5
     },
     {
       "id": 403,
-      "start": 1507.97,
-      "end": 1510.5,
-      "text": " Ai putea să te califici, în al doilea rând.",
-      "id_user": 4
+      "start": 2142.0,
+      "end": 2155.0,
+      "text": " M-am dus în Asia, care lumea pur și simplu se roagă la Buddha și toată lumea e doar recunoscătoare că trăiești, nimeni nu îți gândește la bani și la cumva partea asta materială.",
+      "id_user": 5
     },
     {
       "id": 404,
-      "start": 1510.5,
-      "end": 1512.5,
-      "text": " Poți crește în carieră.",
-      "id_user": 4
+      "start": 2155.0,
+      "end": 2166.8,
+      "text": " Eu nu puteam să înțeleg nici asta primele luni și după aia când am cheltuit toți banii, mi-am dat seama că ok, eu oricum o să-i fac, adică nu o să am... de murit nu o să mor.",
+      "id_user": 5
     },
     {
       "id": 405,
-      "start": 1512.5,
-      "end": 1515.5,
-      "text": "da Deci tu poți să te angajezi astăzi chelner",
-      "id_user": 4
+      "start": 2166.88,
+      "end": 2170.44,
+      "text": " Și a stăunit în Moldova și a rămâșat, eu îți găsesc, eu îți pot.",
+      "id_user": 5
     },
     {
       "id": 406,
-      "start": 1515.5,
-      "end": 1518.81,
-      "text": " și să dai din coate și să ajungi manager vânzări",
-      "id_user": 4
+      "start": 2170.44,
+      "end": 2174.44,
+      "text": " Eram foarte zen când am venit și toată lumea spirituală.",
+      "id_user": 5
     },
     {
       "id": 407,
-      "start": 1518.81,
-      "end": 1520.5,
-      "text": " sau manager de restaurant.",
-      "id_user": 4
+      "start": 2174.44,
+      "end": 2186.44,
+      "text": " Eu când m-am întors acasă, eu îi sunt pe domnii potențial clienți, domnilor și domnilor, Ion Oglindo a venit plin de forță ca să s-a pus și de casele noastre.",
+      "id_user": 6
     },
     {
       "id": 408,
-      "start": 1520.5,
-      "end": 1523.55,
-      "text": " Și sunt cazuri care oamenii nu depun, dar ei",
-      "id_user": 4
+      "start": 2186.44,
+      "end": 2195.44,
+      "text": " Da, Ion, felicitări, mă bucur foarte mult pentru tine că ai revenit acasă. Bine ai venit în Moldova, dar noi deocamdată am decis să facem o pauză.",
+      "id_user": 6
     },
     {
       "id": 409,
-      "start": 1523.55,
-      "end": 1524.5,
-      "text": " sunt acolo.",
-      "id_user": 4
+      "start": 2195.44,
+      "end": 2201.44,
+      "text": " Nu știm ce se întâmplă cu situația asta cu Covid-ul, cu toate bolile astea, înțelegi tu.",
+      "id_user": 6
     },
     {
       "id": 410,
-      "start": 1524.71,
-      "end": 1528.09,
-      "text": " La noi era tot dificil.",
-      "id_user": 5
+      "start": 2201.44,
+      "end": 2209.44,
+      "text": " Ok, sunt pe a doua, exact așa, mai puțin sau mai mult politicos, fix același răspuns.",
+      "id_user": 6
     },
     {
       "id": 411,
-      "start": 1528.09,
-      "end": 1531.59,
-      "text": " la noi era tot dificil Nu puteai să un lucru mai frumos.",
-      "id_user": 5
+      "start": 2209.44,
+      "end": 2215.44,
+      "text": " Să zică ok, acum sunt aici, acum sunt asta, acum ce fac?",
+      "id_user": 6
     },
     {
       "id": 412,
-      "start": 1532.423,
-      "end": 1536.932,
-      "text": " Îl vedeai numai la cei care lucrau în magazine, la bază.",
-      "id_user": 5
+      "start": 2215.44,
+      "end": 2223.44,
+      "text": " Iubirea, vindem tot ce avem pe jurul căsăi, bus, mașini, tătătăt și construim casa noastră.",
+      "id_user": 6
     },
     {
       "id": 413,
-      "start": 1536.932,
-      "end": 1539.079,
-      "text": " Da toți doreau ceva frumos.",
-      "id_user": 5
+      "start": 2223.44,
+      "end": 2231.44,
+      "text": " Ba piciorul. Ierinuța când a auzut din bucurie, au zis că tot vindim, fără nicio problemă. Asta am făcut.",
+      "id_user": 6
     },
     {
       "id": 414,
-      "start": 1539.657,
-      "end": 1541.5,
-      "text": " Li se duceau ochii, mai ales când ești tânăr.",
-      "id_user": 5
+      "start": 2231.44,
+      "end": 2241.44,
+      "text": " BMW a intrat în temelia casei, după asta a microbusul care l-am avut, a fost o parte din pereț, alt microbus iară și așa e treabă și încă am avut cât ceva bănuți.",
+      "id_user": 6
     },
     {
       "id": 415,
-      "start": 1541.5,
-      "end": 1545.425,
-      "text": " Am venit la Chișinău, m-am aranjat la o grădiniță de copii",
-      "id_user": 5
+      "start": 2241.44,
+      "end": 2252.44,
+      "text": " Deci casa care am construit-o eu, în colonița, am construit un duplex. Împreună eu, soția mea și încă un băiat care ne ajuta.",
+      "id_user": 6
     },
     {
       "id": 416,
-      "start": 1545.47,
-      "end": 1549.23,
-      "text": " pentru că n-avem înscriere în oraș și n-o puteai face.",
-      "id_user": 5
+      "start": 2252.44,
+      "end": 2260.44,
+      "text": " Deci avem și filmulețul cu prima casă care noi o construiam. Dimineața la orele 6 noi eram în operă deja.",
+      "id_user": 6
     },
     {
       "id": 417,
-      "start": 1549.025,
-      "end": 1550.5,
-      "text": " Și pe atunci era un deficit.",
-      "id_user": 5
+      "start": 2260.44,
+      "end": 2269.44,
+      "text": " Și sara, ne ducem după ce a pune sara-le. Că avem un priveliște extraordinar de frumoasă, deci un apus stupend.",
+      "id_user": 6
     },
     {
       "id": 418,
-      "start": 1550.5,
-      "end": 1553.5,
-      "text": " Cum era? Era greu să-ți faci o înscriere în oraș.",
-      "id_user": 5
+      "start": 2269.44,
+      "end": 2284.44,
+      "text": " Și am construit casa, după temelie doar schiletul casei, în trei persoane, eu, soția și încă un băiat, am început-o undeva în sfârșitul lunii iunie sau chiar începutul lunii iulie.",
+      "id_user": 6
     },
     {
       "id": 419,
-      "start": 1553.5,
-      "end": 1555.5,
-      "text": " Noi, oameni de la țară.",
-      "id_user": 5
+      "start": 2284.44,
+      "end": 2290.44,
+      "text": " Și am făcut iulie, august și la mijlocul de septembrie era ridicată sus cu acoperișul pus.",
+      "id_user": 6
     },
     {
       "id": 420,
-      "start": 1555.5,
-      "end": 1558.5,
-      "text": " Numai la grădiniță primeau fără înscriere.",
-      "id_user": 5
+      "start": 2293.44,
+      "end": 2295.44,
+      "text": " Duplex de 500 de metri pătrați.",
+      "id_user": 6
     },
     {
       "id": 421,
-      "start": 1559.555,
-      "end": 1563.008,
-      "text": " El lucra șofer și eu m-am aranjat la o grădiniță.",
-      "id_user": 5
+      "start": 2295.44,
+      "end": 2302.44,
+      "text": " Când spun de dor de casă, eu automat mă gândesc la bunica mea, la care încă cu Doamne Jiu,",
+      "id_user": 1
     },
     {
       "id": 422,
-      "start": 1563.008,
-      "end": 1564.7,
-      "text": " patruzeci și cinci de ruble",
-      "id_user": 5
+      "start": 2302.44,
+      "end": 2310.44,
+      "text": " și slavă Domnul, încă este în viață. La locul neîncopilărit. La casa mea, pentru că am a mea casă.",
+      "id_user": 1
     },
     {
       "id": 423,
-      "start": 1566.5,
-      "end": 1571.5,
-      "text": " Atunci era patruzeci și cinci de ruble, te descurcai, mai plăteai chiria.",
-      "id_user": 5
+      "start": 2310.44,
+      "end": 2317.44,
+      "text": " Și la casa mea. La orașul meu. Când vă spun dor de casă, pentru mine asta e dor de casă.",
+      "id_user": 1
     },
     {
       "id": 424,
-      "start": 1571.5,
-      "end": 1576.207,
-      "text": " Dar nu era scumpă. Chiria era un puțini ședeau atunci cu chiria ",
-      "id_user": 5
+      "start": 2317.44,
+      "end": 2323.44,
+      "text": " Vreau acolo. Plânge sufletul. Vreau acolo. Vreau lângă dânșul. Vreau lângă oamenii ăștia.",
+      "id_user": 1
     },
     {
       "id": 425,
-      "start": 1576.207,
-      "end": 1578.994,
-      "text": " Și sărăcia poate fi abordată individual.",
-      "id_user": 3
+      "start": 2323.44,
+      "end": 2326.44,
+      "text": " Ce este dorul de casă?",
+      "id_user": 7
     },
     {
       "id": 426,
-      "start": 1578.994,
-      "end": 1581.332,
-      "text": " Pentru cineva sărăcia asta este,",
-      "id_user": 3
+      "start": 2326.44,
+      "end": 2329.44,
+      "text": " Dorul de casă, familia, prietenii care au rămas aici.",
+      "id_user": 4
     },
     {
       "id": 427,
-      "start": 1581.332,
-      "end": 1585.363,
-      "text": " spre exemplu, lipsa unei bucate de pâini, apă, pe masă,",
-      "id_user": 3
+      "start": 2329.44,
+      "end": 2333.44,
+      "text": " Cu toate cu timpul, acolo tot nu trăiești campadorii.",
+      "id_user": 4
     },
     {
       "id": 428,
-      "start": 1585.5,
-      "end": 1590.2,
-      "text": " pentru altul, spre exemplu, că iată astăzi nu am internet, să zicem,",
-      "id_user": 3
+      "start": 2333.44,
+      "end": 2341.44,
+      "text": " Că zici că ai ieșit la loc, nu mă duc acasă. Dar nu te duci acasă. Nu simti că ai venit acasă.",
+      "id_user": 4
     },
     {
       "id": 429,
-      "start": 1590.2,
-      "end": 1594.88,
-      "text": " sau nu-mi pot cumpăra o haină care o are vecinul meu.",
-      "id_user": 3
+      "start": 2341.44,
+      "end": 2354.44,
+      "text": " Acasă e aici. Și astea s-a întipărit în subconștiință, într-atât că pe urmă când ne-am întors acasă,",
+      "id_user": 4
     },
     {
       "id": 430,
-      "start": 1594.88,
-      "end": 1596.5,
-      "text": " Foarte diferit.",
-      "id_user": 3
+      "start": 2354.44,
+      "end": 2363.44,
+      "text": " a ne furat un timp destul de bun ca să ne încadrăm, să ne zâmțăm acasă de acum acasă.",
+      "id_user": 4
     },
     {
       "id": 431,
-      "start": 1596.5,
-      "end": 1598.558,
-      "text": " Și cum am mai spus eu,",
-      "id_user": 3
+      "start": 2363.44,
+      "end": 2369.44,
+      "text": " Avem închipuiri diferite de acum. După atâta trai acolo, te gândeai cum e aici.",
+      "id_user": 4
     },
     {
       "id": 432,
-      "start": 1598.558,
-      "end": 1605.658,
-      "text": " și important să fim foarte responsabili atunci când vorbim despre sărăcie.",
-      "id_user": 3
+      "start": 2369.44,
+      "end": 2379.44,
+      "text": " Așa o închipuire că aici e rău de tot, de trăit. Și nu am să ne putem, nu am să ne descurcăm, dar nu e așa.",
+      "id_user": 4
     },
     {
       "id": 433,
-      "start": 1605.658,
-      "end": 1614.737,
-      "text": " Pentru cei care ne aud, mai ales, cresc și se educă cu percepția că eu trăiesc într-o țară săracă,",
-      "id_user": 3
+      "start": 2379.44,
+      "end": 2388.44,
+      "text": " La momentul ăla îmi pare că altfel, altă ieșire nu era. Vorbim încă acolo cu un cunoscut că zic că",
+      "id_user": 4
     },
     {
       "id": 434,
-      "start": 1615.158,
-      "end": 1617.156,
-      "text": " toți pe lângă mine sunt săraci,",
-      "id_user": 3
+      "start": 2388.44,
+      "end": 2393.44,
+      "text": " băi, e că noi am venit aici și munșim, ne limităm la una alta, că munșim să făcem să...",
+      "id_user": 4
     },
     {
       "id": 435,
-      "start": 1617.233,
-      "end": 1619.433,
-      "text": " păi asta eu a să cresc cu așa o percepere.",
-      "id_user": 3
+      "start": 2393.44,
+      "end": 2399.44,
+      "text": " Dar zic că eu mă duc acasă și am un vecin care nu s-a dus nicăieri. A stat acasă și zic că",
+      "id_user": 4
     },
     {
       "id": 436,
-      "start": 1619.433,
-      "end": 1623.5,
-      "text": " Și atunci când o să vin și eu adult, eu o să fiu absolut convins că așa este.",
-      "id_user": 3
+      "start": 2399.44,
+      "end": 2404.44,
+      "text": " văd că tot trăiește și leafa mic și...",
+      "id_user": 4
     },
     {
       "id": 437,
-      "start": 1623.5,
-      "end": 1624.892,
-      "text": " Pentru că toți vorbesc despre asta.",
-      "id_user": 3
+      "start": 2404.44,
+      "end": 2410.44,
+      "text": " dar dacă mă duc eu la o cumă trebuie, este și el. Nu moare de fame, tot.",
+      "id_user": 4
     },
     {
       "id": 438,
-      "start": 1624.957,
-      "end": 1629.5,
-      "text": " Acuma eu trăiesc separat de bunica, trăiesc la cămin.",
-      "id_user": 1
+      "start": 2410.44,
+      "end": 2418.44,
+      "text": " Și că asta mă ne-mi băgată în conștiință că nu e chip, că nu e, dar dacă...",
+      "id_user": 4
     },
     {
       "id": 439,
-      "start": 1629.5,
-      "end": 1634.053,
-      "text": " Toate cheltuielele mele sunt pe cont propriu,",
-      "id_user": 1
+      "start": 2418.44,
+      "end": 2420.44,
+      "text": " este chip.",
+      "id_user": 4
     },
     {
       "id": 440,
-      "start": 1634.902,
-      "end": 1638.658,
-      "text": " lucrez la compania de la Radio Moldova ca instrumentist,",
-      "id_user": 1
+      "start": 2420.44,
+      "end": 2426.44,
+      "text": " Cea mai des întâlnită întrebare pe care ți-o dau ție cunoscuție când a aflat că tu revii în Moldova.",
+      "id_user": 7
     },
     {
       "id": 441,
-      "start": 1638.779,
-      "end": 1643.693,
-      "text": " și la moment salariul pe care îl am este de ajuns,",
-      "id_user": 1
+      "start": 2426.44,
+      "end": 2428.44,
+      "text": " Și cât timp?",
+      "id_user": 5
     },
     {
       "id": 442,
-      "start": 1643.693,
-      "end": 1648.5,
-      "text": " fiind student și lucrând jumătate de zi.",
-      "id_user": 1
+      "start": 2428.44,
+      "end": 2434.44,
+      "text": " Nu, oamenii când auz, și asta e tare stran, o să înțeleg, oamenii nu...",
+      "id_user": 5
     },
     {
       "id": 443,
-      "start": 1648.5,
-      "end": 1653.5,
-      "text": " Primii, primii bani, prima lună am primit șase sute de euro.",
-      "id_user": 2
+      "start": 2434.44,
+      "end": 2443.44,
+      "text": " nu iau informația asta ca o decizie, dar automat asum că asta e doar pe perioadă de timp și o îți plec.",
+      "id_user": 5
     },
     {
       "id": 444,
-      "start": 1654.5,
-      "end": 1659.5,
-      "text": " țin minte, m-am dus de acuma, sara era,",
-      "id_user": 2
+      "start": 2443.44,
+      "end": 2451.44,
+      "text": " Care e cea mai des întâlnită întrebare care ți-o puneau cunoscuții tăi când te vedeau că gata, tu ai revenit în Moldova? Ce te întrebau?",
+      "id_user": 7
     },
     {
       "id": 445,
-      "start": 1659.5,
-      "end": 1663.5,
-      "text": " i-am înșirat pe pat, erau de cincizeci, i-am înșirat pe pat",
-      "id_user": 2
+      "start": 2451.44,
+      "end": 2453.44,
+      "text": " Și iară.",
+      "id_user": 6
     },
     {
       "id": 446,
-      "start": 1664.09,
-      "end": 1666.99,
-      "text": " stătem și mă uitam la banii ceia, banii aceștia-s a mei,",
-      "id_user": 2
+      "start": 2453.44,
+      "end": 2457.44,
+      "text": " Și iară.",
+      "id_user": 6
     },
     {
       "id": 447,
-      "start": 1667.291,
-      "end": 1670.145,
-      "text": " eu i-am lucrat banii aceștia, eu.",
-      "id_user": 2
+      "start": 2457.44,
+      "end": 2468.44,
+      "text": " Dar eu nu mă uitam, eu nu sunt de fia lor care să mă uit în gura lumei sau să văd, da, într-adevăr, vorbile te afectează, dar după asta fac ce-mi trebuie mie.",
+      "id_user": 6
     },
     {
       "id": 448,
-      "start": 1671.217,
-      "end": 1673.067,
-      "text": " Și zic, uite cu cât greu i-am făcut,",
-      "id_user": 2
+      "start": 2468.44,
+      "end": 2482.44,
+      "text": " Plecarea asta îndelungată peste hotare o făcut, o meritat toate zilele mele de chin, toate zilele mele de bucurie, de veselie, pentru că văd un piculeț altfel lumea.",
+      "id_user": 6
     },
     {
       "id": 449,
-      "start": 1673.067,
-      "end": 1678.5,
-      "text": " câte o trebuit eu ca să trec, ca să câștig banii aceștia.",
-      "id_user": 2
+      "start": 2482.44,
+      "end": 2489.44,
+      "text": " Am văzut multe exemple frumoase pe care pot să le implementez la noi în Moldova.",
+      "id_user": 6
     },
     {
       "id": 450,
-      "start": 1679.5,
-      "end": 1685.08,
-      "text": " Erau mulți bani,că la Moldova nu câștigau atâția bani.",
-      "id_user": 2
+      "start": 2489.44,
+      "end": 2500.44,
+      "text": " Și încurajez absolut toți tinerii să plece, să guste și să revină acasă ca să facem o Moldova mai nouă, mai frumoasă, mai înnoită.",
+      "id_user": 6
     },
     {
       "id": 451,
-      "start": 1685.08,
-      "end": 1686.5,
-      "text": " I-am trimis acasă.",
-      "id_user": 2
+      "start": 2500.44,
+      "end": 2511.44,
+      "text": " Și am mai des întrebare care am primit-o de la cunoscuț când am revenit și te-ai gândit cu ce ai să te ocupi? De ce ai venit înapoi? Cu ce ai să te ocupi?",
+      "id_user": 1
     },
     {
       "id": 452,
-      "start": 1686.5,
-      "end": 1690.5,
-      "text": " Perioada când eu nu avem acte și nu putem să vin în țară,",
-      "id_user": 2
+      "start": 2511.44,
+      "end": 2513.44,
+      "text": " Iată asta a fost.",
+      "id_user": 1
     },
     {
       "id": 453,
-      "start": 1691.027,
-      "end": 1695.48,
-      "text": " să-mi văd fata, numai un gând, numai un gând.",
-      "id_user": 2
+      "start": 2513.44,
+      "end": 2518.44,
+      "text": " Ce nu spun niciodată Moldovenii care au revenit acasă?",
+      "id_user": 7
     },
     {
       "id": 454,
-      "start": 1695.5,
-      "end": 1700.5,
-      "text": " Era zic principalul că e sănătoasă și eu odată a să o văd.",
-      "id_user": 2
+      "start": 2518.44,
+      "end": 2526.44,
+      "text": " Ce nu spun Moldovenii care au revenit acasă?",
+      "id_user": 5
     },
     {
       "id": 455,
-      "start": 1701.368,
-      "end": 1704.787,
-      "text": " Numai asta, iaca eu cu vorba asta mă alinam.",
-      "id_user": 2
+      "start": 2526.44,
+      "end": 2552.44,
+      "text": " Îți dispuși să sacrifici anumite lucruri doar pentru sentimentul de casă, adică la sfârșit de zi sau la sfârșit de viață ei o să fie fericiți cu puținul pe care l-au avut acasă sau cu mai puține avantaje pe care le oferă Moldova, dar totuși au fost fericiți pentru că corpul lor simțea mai în siguranță aici.",
+      "id_user": 5
     },
     {
       "id": 456,
-      "start": 1705.035,
-      "end": 1709.5,
-      "text": " Eu odată a să o văd pe dânsa, dar principalul că e sănătoasă.",
-      "id_user": 2
+      "start": 2552.44,
+      "end": 2558.44,
+      "text": " Să faci o afașere în Moldova nu este cel mai strălușit.",
+      "id_user": 6
     },
     {
       "id": 457,
-      "start": 1710.475,
-      "end": 1717.772,
-      "text": " Nu știu dacă toate mamele așa s-alinau,",
-      "id_user": 2
+      "start": 2558.44,
+      "end": 2569.44,
+      "text": " Da, noi de aici ne învățăm, da, noi de aici începem să luăm toate lecțiile, dar nu prea avem susținere din partea statului, nu avem susținere deloc absolut.",
+      "id_user": 6
     },
     {
       "id": 458,
-      "start": 1717.772,
-      "end": 1722.5,
-      "text": " dar iaca eu anume așa și poate nici nu plângeam,",
-      "id_user": 2
+      "start": 2569.44,
+      "end": 2574.44,
+      "text": " Noi suntem o nișă de afașere care dacă s-a întâmplat ceva cu tine, problema ta.",
+      "id_user": 6
     },
     {
       "id": 459,
-      "start": 1722.925,
-      "end": 1726.5,
-      "text": " nu plângeam, pentru că nu avea rost.",
-      "id_user": 2
+      "start": 2574.44,
+      "end": 2585.44,
+      "text": " Pe când în alte părți ale Europei toți sunt cumva securizați din partea statului.",
+      "id_user": 6
     },
     {
       "id": 460,
-      "start": 1726.5,
-      "end": 1728.167,
-      "text": " zic pentru ce să plângi.",
-      "id_user": 2
+      "start": 2585.44,
+      "end": 2591.44,
+      "text": " E greu la noi să deschizi o afașere și mai ales să vii cu un produs nou și să ii duci piața și aici mă ocup eu astăzi.",
+      "id_user": 6
     },
     {
       "id": 461,
-      "start": 1728.5,
-      "end": 1732.227,
-      "text": " Eu trebuie să lucrez până în ziua când eu a să mă duc.",
-      "id_user": 2
+      "start": 2591.44,
+      "end": 2604.44,
+      "text": " Eu practic ii duc casa. Eu n-am născut și bicicleta pentru că știm destul de bine la ruși să fac case de genul din lemn pe cadrul de lemn sau la dânși le spun că arca să ne dăm încă de sutii de ani și tot Nordul,",
+      "id_user": 6
     },
     {
       "id": 462,
-      "start": 1732.42,
-      "end": 1735.5,
-      "text": " după ce ai primit actele, ai revenit în Moldova?",
+      "start": 2604.44,
+      "end": 2615.44,
+      "text": " toată Siberia Rusiei e plină cu așa tipuri de case. Norvegia, Finlandia, Suedia și alte zonii, Canada, America, parte din Germania și parțial Italia acum mai nou.",
       "id_user": 6
     },
     {
       "id": 463,
-      "start": 1735.5,
-      "end": 1738.5,
-      "text": " Da, de odată, de odată.",
-      "id_user": 2
+      "start": 2615.44,
+      "end": 2628.44,
+      "text": " La fel se construiește cu cadrul de lemn. Eu am adus dar produsul ăla, l-am adaptat cu normativele de construcție moldovenești și uite aici e și bune el iesă.",
+      "id_user": 6
     },
     {
       "id": 464,
-      "start": 1739.04,
-      "end": 1742.72,
-      "text": " Avem bani strânși, mulți avem bani, de-un apartament.",
-      "id_user": 2
+      "start": 2628.44,
+      "end": 2641.44,
+      "text": " În perioada asta cât noi n-am fost, nu ne-am dus culcați pe orechi că e și așa. Dar totodată cum ne flam noi acolo, mergeau, erau schimbări și aici.",
+      "id_user": 4
     },
     {
       "id": 465,
-      "start": 1743.7,
-      "end": 1745.825,
-      "text": " S-o primit că am luat și apartament.",
-      "id_user": 2
+      "start": 2641.44,
+      "end": 2651.44,
+      "text": " Și e clar că noi ceva mai vedem, ceva mai... dar s-o simți așa de aproape, s-o simți numai întorcând de casă.",
+      "id_user": 4
     },
     {
       "id": 466,
-      "start": 1745.933,
-      "end": 1749.007,
-      "text": " Eu știam că eram fugărită totdeauna că asta-i casa mea,",
-      "id_user": 2
+      "start": 2651.44,
+      "end": 2660.44,
+      "text": " Moldova, care am lăsat-o cu 5 ani în urmă, se deosebiește de Moldova de astăzi și foarte mult și cu pași foarte rapizi.",
+      "id_user": 1
     },
     {
       "id": 467,
-      "start": 1748.933,
-      "end": 1749.737,
-      "text": " asta-i casa mea.",
-      "id_user": 2
+      "start": 2660.44,
+      "end": 2666.44,
+      "text": " Eu nu m-am așteptat la chiar o evoluție, frumoasă evoluție.",
+      "id_user": 1
     },
     {
       "id": 468,
-      "start": 1750.004,
-      "end": 1752.5,
-      "text": " Eu în primul rând am zis, casă îmi cumpăr",
-      "id_user": 2
+      "start": 2666.44,
+      "end": 2678.44,
+      "text": " Nu e uimicuț. El s-a schimbat foarte frumos. S-au mai câștigat, primăria, au mai câștigat niște proiecte de restabilirea drumurilor prin USAID,",
+      "id_user": 1
     },
     {
       "id": 469,
-      "start": 1753.115,
-      "end": 1758.77,
-      "text": "sincer eu Sunt fericită pentru că am am acoperire deasupra capului",
+      "start": 2678.44,
+      "end": 2687.44,
+      "text": " îmi pare că nici nu am atât ceva de american, nu m-am tras atenția. Deci vizuală, e frumos, e curată, infrastructura s-a mai dezvoltat cât de cât.",
       "id_user": 1
     },
     {
       "id": 470,
-      "start": 1758.77,
-      "end": 1762.273,
-      "text": " am unde mă întoarce de fiecare dată și unde dormi în locușor cald",
+      "start": 2687.44,
+      "end": 2696.44,
+      "text": " S-au mai deschis și diferite amenități. Mă scuzați, amenități, amenități și eu de-o vorbesc un pic. S-au deschis diferite chestii în drochea.",
       "id_user": 1
     },
     {
       "id": 471,
-      "start": 1762.5,
-      "end": 1764.91,
-      "text": " am unde mânca, am ce mânca.",
+      "start": 2696.44,
+      "end": 2705.44,
+      "text": " Mă-mi place și ideea cu digitalizarea, că nu mai trebuie să pierzi timpul acuz stând în rânduri pentru, nu știu, documenti sau chestii de genul.",
       "id_user": 1
     },
     {
       "id": 472,
-      "start": 1765.5,
-      "end": 1768.01,
-      "text": " Și unicul minus îi că nu-i a meu.",
+      "start": 2705.44,
+      "end": 2713.44,
+      "text": " Cu toate că mai este de lucrat foarte mult, dar este o schimbare pozitivă.",
       "id_user": 1
     },
     {
       "id": 473,
-      "start": 1768.093,
-      "end": 1773.107,
-      "text": " Dacă ar fi fost a meu și știam că anume asta e proprietatea mea,",
+      "start": 2713.44,
+      "end": 2723.44,
+      "text": " Dar evident că sunt și laturi negative. Dacă am avea, de exemplu, toți niște salarii sau pensii decente, oamenii n-ar avea motiv să stai încruntați.",
       "id_user": 1
     },
     {
       "id": 474,
-      "start": 1774.0,
-      "end": 1776.01,
-      "text": " cum poate un pic mai altfel.",
-      "id_user": 1
+      "start": 2723.44,
+      "end": 2736.44,
+      "text": " Când m-am întors și, vă spun, drept, m-am îndrăgostit de Chișinău. Îmi place la nebunie Chișinău. Îmi place locuitorii lui. Îmi place tot în Chișinău.",
+      "id_user": 3
     },
     {
       "id": 475,
-      "start": 1776.1,
-      "end": 1779.62,
-      "text": " La perioadele în care nu aveam bani, atunci când investeam în proactive",
-      "id_user": 4
+      "start": 2736.44,
+      "end": 2747.44,
+      "text": " Îmi plac străzile că sunt curate. Îmi place clădirile. Tot îmi place în Chișinău. E mai bine în Moldova. E mai bine în Moldova că am copiii mei.",
+      "id_user": 3
     },
     {
       "id": 476,
-      "start": 1779.62,
-      "end": 1784.674,
-      "text": " nu m-a afectat foarte tare, adică nu am deveni nu am fost în depresie,",
-      "id_user": 4
+      "start": 2747.44,
+      "end": 2760.44,
+      "text": " Eu v-am spus ea că durerea cei mai mari care o avem eu, că nu mă putem să mă duc la cimiter. Da, și acum nu că mă duc în fiecare zi, că toți sunt la Cantimiri, eu sunt la Chișinău.",
+      "id_user": 3
     },
     {
       "id": 477,
-      "start": 1784.674,
-      "end": 1790.5,
-      "text": " dar am avut o stare destul de încordată și iată atunci",
-      "id_user": 4
+      "start": 2760.44,
+      "end": 2769.44,
+      "text": " Dar e că eu acum sunt în Moldova. Eu acum mă pot duce la de Blășeni. Eu acum de 8 martie am fost și le-am dus la de mama și la surorile mele flori.",
+      "id_user": 3
     },
     {
       "id": 478,
-      "start": 1790.5,
-      "end": 1793.5,
-      "text": " mi-era greu să-mi imaginez cum să ies.",
-      "id_user": 4
+      "start": 2769.44,
+      "end": 2778.44,
+      "text": " Dar când eu eram în Italia și vinia Blășeni, vinia Paștele, eu nu putem să mă duc. Sau chiar și aniversariul la moarte la vreo unu. Eram îndurirată.",
+      "id_user": 3
     },
     {
       "id": 479,
-      "start": 1793.5,
-      "end": 1798.533,
-      "text": " pentru că noi Deja acumulasem ceva datorii, bani nu aveam,",
-      "id_user": 4
+      "start": 2778.44,
+      "end": 2786.44,
+      "text": " Eu acum chiar dacă nu mă pot să mă duc de-o pildă, chiar parcă și când era pandemia, eu fac o lecuță cât de mâncăric și o chem pe vecină.",
+      "id_user": 3
     },
     {
       "id": 480,
-      "start": 1798.533,
-      "end": 1803.5,
-      "text": " respectiv trebuia să deci creditul cel puțin pe mașină să-l dăm,",
-      "id_user": 4
+      "start": 2786.44,
+      "end": 2796.44,
+      "text": " Sau peșeia. Acolo tu în Italia, nu știi, dar acolo pomada nu se place. Ea nu știu ce înseamnă pomada. Și ea că lucrul ăsta era cel mai tare care mă apăsa,",
+      "id_user": 3
     },
     {
       "id": 481,
-      "start": 1803.5,
-      "end": 1808.5,
-      "text": " și respectiv eu am făcut un excel, un buget în care eu am scris acolo",
-      "id_user": 4
+      "start": 2796.44,
+      "end": 2800.44,
+      "text": " că nu mă putem să mă duc la cimitirlaniei sau nu putem să-i pomenesc.",
+      "id_user": 3
     },
     {
       "id": 482,
-      "start": 1808.5,
-      "end": 1812.5,
-      "text": "tac noi avem aceste datorii, avem aceste cheltuieli în fiecare lună.",
-      "id_user": 4
+      "start": 2800.44,
+      "end": 2804.44,
+      "text": " Și așa pe urmă de a mă vine eu. Fiul și șelanță.",
+      "id_user": 3
     },
     {
       "id": 483,
-      "start": 1812.5,
-      "end": 1818.5,
-      "text": " Și venituri trebuie sau nu ca să le planificăm, ca să acoperim datoriile și cheltuielele.",
-      "id_user": 4
+      "start": 2804.44,
+      "end": 2809.44,
+      "text": " Străinătatea m-a schimbat numai pozitiv. Deci m-a schimbat pozitiv.",
+      "id_user": 3
     },
     {
       "id": 484,
-      "start": 1818.5,
-      "end": 1823.12,
-      "text": " Și iată, eu atunci am făcut metoda inversă de planificare a veniturilor.",
-      "id_user": 4
+      "start": 2809.44,
+      "end": 2821.44,
+      "text": " Pe general nu este nimic rău în faptul de a călături și de a vedea alte culturi, de a interacționa cu alte persoane, de altă cultură, de altă limbă, naționalitate, religie, nu are importanță.",
+      "id_user": 3
     },
     {
       "id": 485,
-      "start": 1823.213,
-      "end": 1827.542,
-      "text": " Respectiv a fost atât de greu încât eu a trebuit un instrument să-l nasc,",
-      "id_user": 4
+      "start": 2821.44,
+      "end": 2831.44,
+      "text": " Eu sunt absolut ok cu toate. Naționalitățile religie, eu iubesc să discut cu oameni cât mai diverși pentru că asta te dezvoltă.",
+      "id_user": 3
     },
     {
       "id": 486,
-      "start": 1827.542,
-      "end": 1831.11,
-      "text": " să văd cum eu să ies din această situație, dar mai întâi da, a fost greu.",
-      "id_user": 4
+      "start": 2831.44,
+      "end": 2838.44,
+      "text": " Tu nu te mai întorci acasă așa lași care ai fost. Tu accepti alți oameni, cred că și-i ok să fie alți oameni diferiți de tine.",
+      "id_user": 3
     },
     {
       "id": 487,
-      "start": 1831.86,
-      "end": 1834.96,
-      "text": " bine Eu și deja mai citisem cărți de educație financiară",
-      "id_user": 4
+      "start": 2838.44,
+      "end": 2851.44,
+      "text": " Cumva asta e o creștere, eu asta o văd numai pozitiv. Chiar și lecția negativă, eu atât de mult m-a schimbat că orice situație cât de dramatic în viața mine nu s-ar întâmpla, eu asta o iau ca o lecție pozitivă.",
+      "id_user": 3
     },
     {
       "id": 488,
-      "start": 1834.96,
-      "end": 1837.938,
-      "text": " dar am făcut un tabel simplu de buget și acolo jos,",
-      "id_user": 4
+      "start": 2851.44,
+      "end": 2861.44,
+      "text": " Eu vreau să fie aici. Eu am povestit Ștefa cel mare poezie. Vreau să le spun?",
+      "id_user": 2
     },
     {
       "id": 489,
-      "start": 1837.938,
-      "end": 1841.327,
-      "text": " noi scriem scopurile noastre și vreau laptop, vreau iPhone,",
-      "id_user": 4
+      "start": 2861.44,
+      "end": 2866.44,
+      "text": " Tu mă întrebi pe mine dacă vrei să spui o poezie? Da! Hai, spune-o!",
+      "id_user": 7
     },
     {
       "id": 490,
-      "start": 1842.0,
-      "end": 1846.24,
-      "text": "încetișor visam, dar nu nu era realizabil la la momentul acela.",
-      "id_user": 4
+      "start": 2866.44,
+      "end": 2888.44,
+      "text": " Mi-a fost dat în asta lumie ca să port în mântru lumie. Sunt cu dragoste de neam că-s urmașul lui Ștefan. Ce-ai lăsat, poruncă mare, să fim straje la hotare. Țara, senior, apărăm și credință să păstrăm.",
+      "id_user": 2
     },
     {
       "id": 491,
-      "start": 1846.5,
-      "end": 1851.747,
-      "text": " uite așa pe urmă scriam tot ce cheltuim, tot ce încasăm în acel tabel.",
-      "id_user": 4
+      "start": 2888.44,
+      "end": 2902.92,
+      "text": " Moldova rămâne baza personalității mele. Vorba aia că poți scoate omul din Moldova, dar nu poți scoate Moldova din om. Eu nu o să fug niciodată de rădăcinele mele și de cine-s eu.",
+      "id_user": 5
     },
     {
       "id": 492,
-      "start": 1851.747,
-      "end": 1857.118,
-      "text": " Și iată, așa am reușit cumva să ne aducem situația noastră financiară vizibilă,",
-      "id_user": 4
+      "start": 2902.92,
+      "end": 2924.92,
+      "text": " Și Moldova e fundamentul meu, temelia casei mele. Iar Chișinău e... Nu știu, Chișinău e așa e un... E un sat mare, în sensul bun a cuvântului, în care dacă eu deja mă simt aici acasă, eu mă simt că...",
+      "id_user": 5
     },
     {
       "id": 493,
-      "start": 1857.187,
-      "end": 1862.12,
-      "text": " și pentru noi clară și transparentă, și apoi să majorăm veniturile.",
-      "id_user": 4
+      "start": 2924.92,
+      "end": 2939.92,
+      "text": " Mie-mi place să, nu știu, să cunosc oameni pe stradă, să... Eu văd Chișinău ca un loc în care eu mă simt că aparțin cuiva. Adică, nu știu, mi se pare...",
+      "id_user": 5
     },
     {
       "id": 494,
-      "start": 1862.167,
-      "end": 1865.702,
-      "text": " înainte de două mii undeva, când mulți au pierdut lucru,",
+      "start": 2939.92,
+      "end": 2952.06,
+      "text": " Când eu mă simt rău, eu pot să vin aici și o să mă simt aici mai bine, nefăcând nimic. Pur și simplu că aud limba mea, am mâncarea mea, am confortul ăla emoțional.",
       "id_user": 5
     },
     {
       "id": 495,
-      "start": 1868.403,
-      "end": 1871.017,
-      "text": " banii economisiți mulți nu i-au văzut,",
-      "id_user": 5
-    },
-    {
-      "id": 496,
-      "start": 1871.5,
-      "end": 1873.71,
-      "text": " pentru că băncile nu dădeau.",
-      "id_user": 5
-    },
-    {
-      "id": 497,
-      "start": 1874.33,
-      "end": 1878.565,
-      "text": " Băncile au dat atuncea, acolo câte două, trei sute de ruble și gata,",
-      "id_user": 5
-    },
-    {
-      "id": 498,
-      "start": 1878.944,
-      "end": 1881.13,
-      "text": " nu dădeau băncile, n-o mai dat băncile.",
-      "id_user": 5
-    },
-    {
-      "id": 499,
-      "start": 1881.26,
-      "end": 1883.31,
-      "text": " Pe urmă au dispărut și băncile cu totul.",
-      "id_user": 5
-    },
-    {
-      "id": 500,
-      "start": 1886.5,
-      "end": 1889.5,
-      "text": " Atuncea o fost mai aceasta ea.",
-      "id_user": 5
-    },
-    {
-      "id": 501,
-      "start": 1889.5,
-      "end": 1894.452,
-      "text": " Pe urmă am plecat la lucru, când așa, dar și nici nu m-am așteptat drept să vă spun",
-      "id_user": 5
-    },
-    {
-      "id": 502,
-      "start": 1894.452,
-      "end": 1898.284,
-      "text": " așa pe neprins de veste și de atâta n-am simțit nevoia.",
-      "id_user": 5
-    },
-    {
-      "id": 503,
-      "start": 1898.284,
-      "end": 1901.5,
-      "text": " Printre anii ceia primii era foarte greu peste hotare.",
-      "id_user": 5
-    },
-    {
-      "id": 504,
-      "start": 1901.855,
-      "end": 1904.83,
-      "text": " Când am ajuns acolo de acum am văzut unde am nimerit,",
-      "id_user": 5
-    },
-    {
-      "id": 505,
-      "start": 1904.81,
-      "end": 1908.5,
-      "text": " dar am mers înainte. Cum o fost în Italia?",
-      "id_user": 5
-    },
-    {
-      "id": 506,
-      "start": 1908.89,
-      "end": 1912.448,
-      "text": " Am nimerit la cunoscuți deodată, care erau acolo, mai tineri,",
-      "id_user": 5
-    },
-    {
-      "id": 507,
-      "start": 1912.5,
-      "end": 1914.83,
-      "text": " care s-au dus deci tineretul.",
-      "id_user": 5
-    },
-    {
-      "id": 508,
-      "start": 1915.05,
-      "end": 1918.433,
-      "text": " Și a nimerit la dânșii, m-au ajutat să învăț limba",
-      "id_user": 5
-    },
-    {
-      "id": 509,
-      "start": 1919.19,
-      "end": 1923.11,
-      "text": " cât am căutat de lucru, pe vremea ceia de lucru se găsea mai greu, nu ca acuma",
-      "id_user": 5
-    },
-    {
-      "id": 510,
-      "start": 1923.5,
-      "end": 1927.273,
-      "text": " Că nu era, erau puțini puțini moldoveni erau în anii două mii.",
-      "id_user": 5
-    },
-    {
-      "id": 511,
-      "start": 1927.5,
-      "end": 1931.11,
-      "text": " A stat aproape zece ani, da m-am dus, am venit, m-am dus, am venit, n-am",
-      "id_user": 5
-    },
-    {
-      "id": 512,
-      "start": 1931.5,
-      "end": 1932.858,
-      "text": " stat permanent.",
-      "id_user": 5
-    },
-    {
-      "id": 513,
-      "start": 1932.933,
-      "end": 1935.125,
-      "text": " Cu banii din Italia, ce ați făcut?",
-      "id_user": 6
-    },
-    {
-      "id": 514,
-      "start": 1936.8,
-      "end": 1939.5,
-      "text": " casa de construit. Am construit casa.",
-      "id_user": 5
-    },
-    {
-      "id": 515,
-      "start": 1939.68,
-      "end": 1942.27,
-      "text": " Când nu am bani, eu...",
-      "id_user": 1
-    },
-    {
-      "id": 516,
-      "start": 1943.26,
-      "end": 1946.59,
-      "text": " duc pe la bunica. Știu că de fiecare dată",
-      "id_user": 1
-    },
-    {
-      "id": 517,
-      "start": 1946.54,
-      "end": 1951.603,
-      "text": " o să-mi dea acolo un kilogram de cartofi, ciapă ceva, de fiecare dată",
-      "id_user": 1
-    },
-    {
-      "id": 518,
-      "start": 1951.54,
-      "end": 1955.896,
-      "text": " o să spună, o, da eu ieri am fost la piață, dă eu să-ți dau ceva produse carne,",
-      "id_user": 1
-    },
-    {
-      "id": 519,
-      "start": 1955.896,
-      "end": 1960.682,
-      "text": " sau acelea și pelimene, pește, sau nu știu, de fiecare dată,",
-      "id_user": 1
-    },
-    {
-      "id": 520,
-      "start": 1960.682,
-      "end": 1964.5,
-      "text": " eu știu că și sunt sigură că ea o să mă ajute pe mine cu ceva",
-      "id_user": 1
-    },
-    {
-      "id": 521,
-      "start": 1964.5,
-      "end": 1969.5,
-      "text": " în caz că nu o să nu o să am posibilitatea să mă ajut singură mine.",
-      "id_user": 1
-    },
-    {
-      "id": 522,
-      "start": 1969.5,
-      "end": 1978.88,
-      "text": " Eu pe lună am în jur la cinci mii de lei, plus minus mai apar uneori",
-      "id_user": 1
-    },
-    {
-      "id": 523,
-      "start": 1978.88,
-      "end": 1984.5,
-      "text": " niște cântări cu, mă rog, achitate.",
-      "id_user": 1
-    },
-    {
-      "id": 524,
-      "start": 1985.75,
-      "end": 1988.05,
-      "text": "suficient ca să-ți acoperi cu brio,",
-      "id_user": 6
-    },
-    {
-      "id": 525,
-      "start": 1988.05,
-      "end": 1989.85,
-      "text": " toate cheltuieli lunare.",
-      "id_user": 6
-    },
-    {
-      "id": 526,
-      "start": 1989.85,
-      "end": 1996.5,
-      "text": " Cred că m-ar face fericită pe în jur la poate vreo zece mii de lei la moment.",
-      "id_user": 1
-    },
-    {
-      "id": 527,
-      "start": 1996.5,
-      "end": 2000.623,
-      "text": " Banii întotdeauna ei lipsesc. Niciodată nu sunt în plus.",
-      "id_user": 5
-    },
-    {
-      "id": 528,
-      "start": 2000.895,
-      "end": 2005.293,
-      "text": " Dacă ai cerință mare, și bani trebuie mai mare.",
-      "id_user": 5
-    },
-    {
-      "id": 529,
-      "start": 2005.5,
-      "end": 2014.5,
-      "text": " Dacă nu ai cerințele mai mici, te limitiezi la ceea ce ai, mergi înainte.",
-      "id_user": 5
-    },
-    {
-      "id": 530,
-      "start": 2015.02,
-      "end": 2017.72,
-      "text": " sunt de acord că-s mici pensiile, dar la cine sunt mici?",
-      "id_user": 5
-    },
-    {
-      "id": 531,
-      "start": 2017.72,
-      "end": 2020.028,
-      "text": " Sunt mici la oameni care o lucrat în colhoz.",
-      "id_user": 5
-    },
-    {
-      "id": 532,
-      "start": 2020.028,
-      "end": 2023.5,
-      "text": " Da, sunt până la două mii, la sate, oamenii primesc două mii,",
-      "id_user": 5
-    },
-    {
-      "id": 533,
-      "start": 2023.5,
-      "end": 2027.098,
-      "text": " au lucrat greu în colhoz, ei au ieșit cu pensii mici.",
-      "id_user": 5
-    },
-    {
-      "id": 534,
-      "start": 2027.5,
-      "end": 2029.858,
-      "text": " Cum se descurcă pensionarii? Scutesc, da.",
-      "id_user": 5
-    },
-    {
-      "id": 535,
-      "start": 2029.858,
-      "end": 2032.552,
-      "text": " Da din strâng capecă cu capecă",
-      "id_user": 5
-    },
-    {
-      "id": 536,
-      "start": 2032.552,
-      "end": 2035.731,
-      "text": " Pentru că ei socot în primul rând să aibă lemne de iarnă,",
-      "id_user": 5
-    },
-    {
-      "id": 537,
-      "start": 2035.731,
-      "end": 2040.5,
-      "text": " să aibă cu ce plăti lumina, aceasta gazul, pentru dânșii.",
-      "id_user": 5
-    },
-    {
-      "id": 538,
-      "start": 2040.5,
-      "end": 2042.5,
-      "text": " Și medicamentele azi sunt scumpe tare.",
-      "id_user": 5
-    },
-    {
-      "id": 539,
-      "start": 2042.5,
-      "end": 2046.5,
-      "text": " la ceea ce-i La pensionarii săracii mai mult cu medicamente trăiesc astăzi.",
-      "id_user": 5
-    },
-    {
-      "id": 540,
-      "start": 2046.747,
-      "end": 2051.5,
-      "text": " Speranța lor e să ajungă mai înainte cu medicamentele.",
-      "id_user": 5
-    },
-    {
-      "id": 541,
-      "start": 2051.65,
-      "end": 2054.67,
-      "text": " Eu cred că noi ne luăm în mâini atunci când avem o criză.",
-      "id_user": 4
-    },
-    {
-      "id": 542,
-      "start": 2055.046,
-      "end": 2057.09,
-      "text": " Și mie foarte tare îmi plac crizele, apropo.",
-      "id_user": 4
-    },
-    {
-      "id": 543,
-      "start": 2057.09,
-      "end": 2059.629,
-      "text": " Și eu mi le creez singură, acum sunt într-o altă criză,",
-      "id_user": 4
-    },
-    {
-      "id": 544,
-      "start": 2059.6,
-      "end": 2060.794,
-      "text": " special mi-am creat-o.",
-      "id_user": 4
-    },
-    {
-      "id": 545,
-      "start": 2061.079,
-      "end": 2065.96,
-      "text": " Noi în vremuri liniștite suntem nu prea productivi.",
-      "id_user": 4
-    },
-    {
-      "id": 546,
-      "start": 2065.96,
-      "end": 2068.44,
-      "text": " A noi noi nu suntem motivați.",
-      "id_user": 4
-    },
-    {
-      "id": 547,
-      "start": 2068.44,
-      "end": 2072.051,
-      "text": " O, super, merge foarte bine, deci totul este bine.",
-      "id_user": 4
-    },
-    {
-      "id": 548,
-      "start": 2072.051,
-      "end": 2076.622,
-      "text": " Cu zece mii de lei înseamnă că doar cinci mii o să dau acolo și încă patru mii.",
-      "id_user": 4
-    },
-    {
-      "id": 549,
-      "start": 2076.622,
-      "end": 2079.146,
-      "text": " O să le cheltui și o mie o să strâng.",
-      "id_user": 4
-    },
-    {
-      "id": 550,
-      "start": 2079.146,
-      "end": 2083.121,
-      "text": " da Noi nu evoluăm, noi nu progresăm, noi nu cumpăram casă,",
-      "id_user": 4
-    },
-    {
-      "id": 551,
-      "start": 2083.121,
-      "end": 2085.826,
-      "text": " noi nu cumpăram mașină, nu ne ducem în călătorii.",
-      "id_user": 4
-    },
-    {
-      "id": 552,
-      "start": 2085.826,
-      "end": 2093.194,
-      "text": " Dar când îți asumi provocări, financiare chiar, atunci tu o să dai din coate de două ori mai mult.",
-      "id_user": 4
-    },
-    {
-      "id": 553,
-      "start": 2093.194,
-      "end": 2098.796,
-      "text": " Când s-o deschis loteria, când loteria are acuma câțiva ani, cinci ani,",
-      "id_user": 2
-    },
-    {
-      "id": 554,
-      "start": 2098.796,
-      "end": 2103.87,
-      "text": " eu am început și să joc și la loterie la Moldova strângem bilet cu bilet.",
-      "id_user": 2
-    },
-    {
-      "id": 555,
-      "start": 2103.87,
-      "end": 2108.5,
-      "text": " Bilet cu bilet, eu le strângem așa într-o cutie ca să văd eu cât a să cheltui.",
-      "id_user": 2
-    },
-    {
-      "id": 556,
-      "start": 2108.9,
-      "end": 2111.82,
-      "text": " M-am dus la distribuitorul ăsta de benzină și-i spun",
-      "id_user": 2
-    },
-    {
-      "id": 557,
-      "start": 2111.82,
-      "end": 2116.065,
-      "text": " dă-mi te rog niște bilete, da te rog frumos, să nu îi spui lu fratele meu,",
-      "id_user": 2
-    },
-    {
-      "id": 558,
-      "start": 2116.065,
-      "end": 2119.5,
-      "text": " să nu îi spui deloc, că eu am cumpărat așa de multe bilete ca să mă ocărască.",
-      "id_user": 2
-    },
-    {
-      "id": 559,
-      "start": 2120.595,
-      "end": 2125.5,
-      "text": " Eu când cumpăram, doream să nu mă vadă nimeni, că parcă îmi era și rușine",
-      "id_user": 2
-    },
-    {
-      "id": 560,
-      "start": 2125.5,
-      "end": 2129.5,
-      "text": " da și lumea ce-o să zică, ia uite asta cheltuie bani pe bilete.",
-      "id_user": 2
-    },
-    {
-      "id": 561,
-      "start": 2129.5,
-      "end": 2136.5,
-      "text": " Mă duc acasă și încep a răzui și făcem așa cu un bănuț.",
-      "id_user": 2
-    },
-    {
-      "id": 562,
-      "start": 2136.98,
-      "end": 2142.5,
-      "text": " După șapte bilete rasă, a optălea, să zicem așa, a optălea a nouălea, era acesta cu patru milioane.",
-      "id_user": 2
-    },
-    {
-      "id": 563,
-      "start": 2143.325,
-      "end": 2149.055,
-      "text": " Ei, când am văzut mai bine, Doamne, știți, în momentul cela...",
-      "id_user": 2
-    },
-    {
-      "id": 564,
-      "start": 2150.5,
-      "end": 2158.083,
-      "text": " Parcă și durere, da bucurie, îți vine în cap tot ce-ai trecut tu.",
-      "id_user": 2
-    },
-    {
-      "id": 565,
-      "start": 2158.533,
-      "end": 2160.5,
-      "text": " Doamne, când am început să plâng.",
-      "id_user": 2
-    },
-    {
-      "id": 566,
-      "start": 2161.31,
-      "end": 2167.13,
-      "text": " Eu scăp de datorie, eu scăp de credit, eu fac tot ce-mi trebuie, eu îmi cumpăr mașină.",
-      "id_user": 2
-    },
-    {
-      "id": 567,
-      "start": 2167.13,
-      "end": 2168.849,
-      "text": " Doamne, zic să...",
-      "id_user": 2
-    },
-    {
-      "id": 568,
-      "start": 2169.569,
-      "end": 2176.115,
-      "text": " Sărăcia se moștenește, tu poți să te naști sărac, dar depinde de tine dacă mori sărac, eu așa a-și spune.",
-      "id_user": 4
-    },
-    {
-      "id": 569,
-      "start": 2176.034,
-      "end": 2183.754,
-      "text": " Și o să vă dau pilda a doi frați care sunt întrebați ambii de ce au ajuns, unde au ajuns.",
-      "id_user": 4
-    },
-    {
-      "id": 570,
-      "start": 2183.754,
-      "end": 2187.5,
-      "text": " Unul era în închisoare, s-a dus și l-a întrebat, păi, de ce ai ajuns în închisoare?",
-      "id_user": 4
-    },
-    {
-      "id": 571,
-      "start": 2187.5,
-      "end": 2191.5,
-      "text": " Și el spune, pentru că tata a fost alcoolic, ce am văzut, aceea am făcut și eu.",
-      "id_user": 4
-    },
-    {
-      "id": 572,
-      "start": 2191.867,
-      "end": 2198.333,
-      "text": " Și al doilea, frate, era bogat, era om de succes și l-a întrebat, de ce ai ajuns, unde ai ajuns?",
-      "id_user": 4
-    },
-    {
-      "id": 573,
-      "start": 2198.23,
-      "end": 2201.24,
-      "text": " Și-a spus, pentru că tata a fost alcoolic, eu nu vreau să fiu la fel.",
-      "id_user": 4
-    },
-    {
-      "id": 574,
-      "start": 2201.5,
-      "end": 2205.5,
-      "text": " Deci, de noi depinde unde ajungem și de decizia noastră.",
-      "id_user": 4
-    },
-    {
-      "id": 575,
-      "start": 2206.13,
-      "end": 2210.99,
-      "text": " De obicei, suntem motivați de lipsuri, mai mult decât de dorință.",
-      "id_user": 4
-    },
-    {
-      "id": 576,
-      "start": 2211.5,
-      "end": 2214.89,
-      "text": " Adică, pe noi lipsurile ne duc înainte.",
-      "id_user": 4
-    },
-    {
-      "id": 577,
-      "start": 2214.89,
-      "end": 2220.5,
-      "text": " Și atunci, când omul simte lipsă, când ai real nevoie de bani, tu o să lucrezi dublu mai mult.",
-      "id_user": 4
-    },
-    {
-      "id": 578,
-      "start": 2220.5,
-      "end": 2228.167,
-      "text": " Sau o să cauți soluții mai ingenioase, mai creative, o să te apuci de orice, ca tu să nu fii sărac.",
-      "id_user": 4
-    },
-    {
-      "id": 579,
-      "start": 2228.167,
-      "end": 2235.881,
-      "text": " Am moștenit o tradiție de la bunica să nu împrumut, să mă strădui de fiecare dată să nu am datorii.",
-      "id_user": 1
-    },
-    {
-      "id": 580,
-      "start": 2235.881,
-      "end": 2243.5,
-      "text": " Și dacă am posibilitate să pun niște bani deoparte, deși asta mi se dă câteodată foarte greu, recunosc.",
-      "id_user": 1
-    },
-    {
-      "id": 581,
-      "start": 2243.83,
-      "end": 2249.86,
-      "text": " Dar totuși, mă strădui să să mai pun așa pe la ciorap, din când în când.",
-      "id_user": 1
-    },
-    {
-      "id": 582,
-      "start": 2250.221,
-      "end": 2252.637,
-      "text": " Și acuma am făcut un pas foarte important în viața mea.",
-      "id_user": 1
-    },
-    {
-      "id": 583,
-      "start": 2252.637,
-      "end": 2255.808,
-      "text": " Mi-am cumpărat pușculiță care nu se desface.",
-      "id_user": 1
-    },
-    {
-      "id": 584,
-      "start": 2256.828,
-      "end": 2263.031,
-      "text": " Și știu că dacă acolo am pus douăzeci sau vreo cincizeci de lei, știu că de acolo nu mai iese.",
-      "id_user": 1
-    },
-    {
-      "id": 585,
-      "start": 2263.8,
-      "end": 2265.177,
-      "text": " se moștenește?",
-      "id_user": 6
-    },
-    {
-      "id": 586,
-      "start": 2266.783,
-      "end": 2272.367,
-      "text": " Da. Cred că da. Da.",
-      "id_user": 3
-    },
-    {
-      "id": 587,
-      "start": 2272.5,
-      "end": 2281.62,
-      "text": " Da, pentru că, cum v-am mai spus eu, deci tot depinde cum interpretăm noi realitatea cu care ne confruntăm.",
-      "id_user": 3
-    },
-    {
-      "id": 588,
-      "start": 2281.62,
-      "end": 2288.996,
-      "text": " Pentru că dacă vorbim despre un fenomen și vorbim despre sărăcie din punct de vedere psihologic,",
-      "id_user": 3
-    },
-    {
-      "id": 589,
-      "start": 2288.996,
-      "end": 2297.62,
-      "text": " deci eu cred că nu o să fiu cumva aici nu o să deschid ceva nou când vorbesc despre faptul că asta este un mod de a gândi,",
-      "id_user": 3
-    },
-    {
-      "id": 590,
-      "start": 2297.62,
-      "end": 2304.5,
-      "text": " da anume punând accentul pe ceva negativ, pe lipsă, pe situații,",
-      "id_user": 3
-    },
-    {
-      "id": 591,
-      "start": 2304.5,
-      "end": 2308.145,
-      "text": " pe anumite circumstanțe.",
-      "id_user": 3
-    },
-    {
-      "id": 592,
-      "start": 2308.5,
-      "end": 2313.5,
-      "text": " la urma cărora eu conștientizez foarte bine că eu nu am",
-      "id_user": 3
-    },
-    {
-      "id": 593,
-      "start": 2313.845,
-      "end": 2319.875,
-      "text": " și cumva nici nu am forță pentru a depune un efort.",
-      "id_user": 3
-    },
-    {
-      "id": 594,
-      "start": 2320.21,
-      "end": 2321.589,
-      "text": " N-am o perspectivă.",
-      "id_user": 3
-    },
-    {
-      "id": 595,
-      "start": 2321.589,
-      "end": 2325.5,
-      "text": " Mă gândesc că nici nu este real să am.",
-      "id_user": 3
-    },
-    {
-      "id": 596,
-      "start": 2325.62,
-      "end": 2328.81,
-      "text": " Cam cam cam în linii generale, despre asta este.",
-      "id_user": 3
-    },
-    {
-      "id": 597,
-      "start": 2329.005,
-      "end": 2337.831,
-      "text": " Și atunci, când eu, având un astfel de percepere despre sine, despre rolul meu în tot ce se întâmplă, despre viitor,",
-      "id_user": 3
-    },
-    {
-      "id": 598,
-      "start": 2338.376,
-      "end": 2341.84,
-      "text": " și îmi asum responsabilitatea și cresc alături un copil,",
-      "id_user": 3
-    },
-    {
-      "id": 599,
-      "start": 2342.5,
-      "end": 2347.787,
-      "text": " ei care îmi dau acest model de percepere negativă a realității,",
-      "id_user": 3
-    },
-    {
-      "id": 600,
-      "start": 2347.787,
-      "end": 2356.926,
-      "text": " atunci copilul, deci neavând altă susă, el înțelege și cumva preea acest model.",
-      "id_user": 3
-    },
-    {
-      "id": 601,
-      "start": 2357.224,
-      "end": 2365.172,
-      "text": " Și cu mult mai mare șansa că, având în viitor anumite situații dificile, ar putea să repete modelele mele.",
-      "id_user": 3
-    },
-    {
-      "id": 602,
-      "start": 2365.61,
-      "end": 2370.23,
-      "text": " În care eu, spre exemplu, n-am putut face față la anumite lucruri.",
-      "id_user": 3
-    },
-    {
-      "id": 603,
-      "start": 2370.23,
-      "end": 2378.486,
-      "text": " Eu nu mai sunt săracă, dar deși am momente în care mai pun la colțun",
-      "id_user": 1
-    },
-    {
-      "id": 604,
-      "start": 2379.029,
-      "end": 2385.624,
-      "text": " și îmi dau seama că ar trebui în unele momente să mai economisesc puțin și să...",
-      "id_user": 1
-    },
-    {
-      "id": 605,
-      "start": 2385.946,
-      "end": 2388.5,
-      "text": " Nu știu, că, totuși, mai sunt priorități.",
-      "id_user": 1
-    },
-    {
-      "id": 606,
-      "start": 2389.6,
-      "end": 2391.99,
-      "text": " Nu pot să-mi permit chiar tot ce vreau eu.",
-      "id_user": 1
-    },
-    {
-      "id": 607,
-      "start": 2392.67,
-      "end": 2395.79,
-      "text": " Eu acuma, organizez banii în felul următor.",
-      "id_user": 1
-    },
-    {
-      "id": 608,
-      "start": 2395.79,
-      "end": 2402.576,
-      "text": " Pun bani deoparte pentru mâncare, pentru că asta este strictul necesar, deja igienă și haine.",
-      "id_user": 1
-    },
-    {
-      "id": 609,
-      "start": 2402.861,
-      "end": 2408.87,
-      "text": " În ultimul timp haine, deja înțeleg că e full, garderoba și ajunge.",
-      "id_user": 1
-    },
-    {
-      "id": 610,
-      "start": 2409.264,
-      "end": 2415.925,
-      "text": " Și acuma-i pe, uneori, și ieșirile cu prietenii deja în oraș.",
-      "id_user": 1
-    },
-    {
-      "id": 611,
-      "start": 2415.925,
-      "end": 2422.42,
-      "text": " Da asta, deja atunci când îmi dau seama că bani sunt în plus și pot să-mi permit.",
-      "id_user": 1
-    },
-    {
-      "id": 612,
-      "start": 2422.5,
-      "end": 2430.5,
-      "text": " Cred că eu încep să-mi permit să ies cu prietenii în oraș atunci când simt că am vreo cinci sute de lei în plus",
-      "id_user": 1
-    },
-    {
-      "id": 613,
-      "start": 2430.933,
-      "end": 2437.5,
-      "text": " și îmi dau seama că evenimente luna asta nu mai am, cadouri la nimeni nu trebuie să cumpăr.",
-      "id_user": 1
-    },
-    {
-      "id": 614,
-      "start": 2437.5,
-      "end": 2440.89,
-      "text": " Tot normal, pot să pot să ies.",
-      "id_user": 1
-    },
-    {
-      "id": 615,
-      "start": 2440.89,
-      "end": 2447.847,
-      "text": " Mai ales că am am prietenii care, hai gata să ieșim o dată, hai și zic nu pot acuma să-mi permit.",
-      "id_user": 1
-    },
-    {
-      "id": 616,
-      "start": 2448.549,
-      "end": 2455.828,
-      "text": " Și zice că, da hai, măcar să ieșim, măcar nu știu, să bem o cafea, ceva, zic că nu acum.",
-      "id_user": 1
-    },
-    {
-      "id": 617,
-      "start": 2456.298,
-      "end": 2457.723,
-      "text": " Am alte priorități.",
-      "id_user": 1
-    },
-    {
-      "id": 618,
-      "start": 2457.723,
-      "end": 2460.681,
-      "text": " Sărăcia dacă ar putea fi o rușine.",
-      "id_user": 3
-    },
-    {
-      "id": 619,
-      "start": 2461.863,
-      "end": 2464.613,
-      "text": " Desigur că nu, părerea mea.",
-      "id_user": 3
-    },
-    {
-      "id": 620,
-      "start": 2465.419,
-      "end": 2468.078,
-      "text": " Pentru că nu poate nici ca cum fi o rușine.",
-      "id_user": 3
-    },
-    {
-      "id": 621,
-      "start": 2468.078,
-      "end": 2472.219,
-      "text": " O situație în care eu m-am pomenit și uneori nu este alegerea mea.",
-      "id_user": 3
-    },
-    {
-      "id": 622,
-      "start": 2472.219,
-      "end": 2476.653,
-      "text": " Eu nu știu o persoană care ar vrea să aleagă sau alege conștient să fie sărac.",
-      "id_user": 3
-    },
-    {
-      "id": 623,
-      "start": 2476.653,
-      "end": 2485.875,
-      "text": " Dacă ne întoarcem la experiența buneilor noștri, dacă și comparăm cu nivelul de trai pe care noi îl avem acum, nici nu se compară.",
-      "id_user": 3
-    },
-    {
-      "id": 624,
-      "start": 2485.875,
-      "end": 2488.067,
-      "text": " Deci, au trăit absolut alte situații.",
-      "id_user": 3
-    },
-    {
-      "id": 625,
-      "start": 2488.067,
-      "end": 2489.5,
-      "text": " Le putem numi săraci.",
-      "id_user": 3
-    },
-    {
-      "id": 626,
-      "start": 2490.228,
-      "end": 2493.938,
-      "text": " Alții ar spune că da, pentru că n-au avut nimica, ceea ce am eu acum.",
-      "id_user": 3
-    },
-    {
-      "id": 627,
-      "start": 2494.5,
-      "end": 2501.4,
-      "text": " Dar dacă le întrebăm noi pe ei, dacă ei se considerau pe atunci săraci, categoric nu.",
-      "id_user": 3
-    },
-    {
-      "id": 628,
-      "start": 2501.5,
-      "end": 2506.88,
-      "text": " Pentru că munceau, aveau un venit și trăiau ca oamenii.",
-      "id_user": 3
-    },
-    {
-      "id": 629,
-      "start": 2506.88,
-      "end": 2515.5,
-      "text": " Altceva este că poate că atunci când eu mă aflu într-o comunitate în care mai mulți oameni au anumite probleme cu care le am și eu.",
-      "id_user": 3
-    },
-    {
-      "id": 630,
-      "start": 2516.32,
-      "end": 2520.265,
-      "text": " Și eu nu sunt supus anumitui stres cumva din exterior.",
-      "id_user": 3
-    },
-    {
-      "id": 631,
-      "start": 2520.228,
-      "end": 2528.5,
-      "text": " da În momentul în care eu trăiesc într-o situație de vulnerabilitate, în momentul în care marea majoritate a oamenilor nu au astfel de situații,",
-      "id_user": 3
-    },
-    {
-      "id": 632,
-      "start": 2529.007,
-      "end": 2539.857,
-      "text": " e mare riscul că eu o să încep să gândesc negativ și să încep să caut exemple la fel de triste",
-      "id_user": 3
-    },
-    {
-      "id": 633,
-      "start": 2539.857,
-      "end": 2546.779,
-      "text": " sau, spre exemplu, să nimeresc în anumite situații asociate cu stări depresive.",
-      "id_user": 3
-    },
-    {
-      "id": 634,
-      "start": 2550.5,
-      "end": 2557.727,
-      "text": " niciodată bani. Știam că ea nu o să-mi refuze, dar știam că ea prea mult face și cumva...",
-      "id_user": 1
-    },
-    {
-      "id": 635,
-      "start": 2560.387,
-      "end": 2570.413,
-      "text": " Nu știu... Eu mă duceam la tata meu și-i spuneam, tată, dă te rog, acolo, nu știu, o sută de lei sau spuneam deci de cât am nevoie.",
-      "id_user": 1
-    },
-    {
-      "id": 636,
-      "start": 2570.697,
-      "end": 2579.075,
-      "text": " Și el deja îmi dădea, dar de la bunica bunelul mai ales mi-era rușine pentru că ei investeau absolut tot în mine.",
-      "id_user": 1
-    },
-    {
-      "id": 637,
-      "start": 2579.66,
-      "end": 2582.29,
-      "text": " Și eu, încă, hai bunica mai dă-mi, că mai vreau...",
-      "id_user": 1
-    },
-    {
-      "id": 638,
-      "start": 2583.017,
-      "end": 2589.267,
-      "text": " Toți vrem să fim bogați. Asta trebuie să știm. Noi toți vrem să trăim mai bine.",
-      "id_user": 4
-    },
-    {
-      "id": 639,
-      "start": 2590.26,
-      "end": 2598.94,
-      "text": " Dar nu toți vom face acțiuni. Hai și haideți să recunoaștem cineva din lene, cineva din necunoștere, cineva din rușine.",
-      "id_user": 4
-    },
-    {
-      "id": 640,
-      "start": 2598.94,
-      "end": 2606.14,
-      "text": " Dacă noi am avut o copilărie mai grea și eu inclusiv... Deci eu o mi-amintesc în clasa opt.",
-      "id_user": 4
-    },
-    {
-      "id": 641,
-      "start": 2606.878,
-      "end": 2611.148,
-      "text": " Foarte tare vream să merg la școala muzicală și",
-      "id_user": 4
-    },
-    {
-      "id": 642,
-      "start": 2611.937,
-      "end": 2618.786,
-      "text": "pentru părinți ar fi fost o povară financiară să mă dea la muzică,",
-      "id_user": 4
-    },
-    {
-      "id": 643,
-      "start": 2619.5,
-      "end": 2629.678,
-      "text": " dar mătușa mea mi-a spus, hai, măcar hai la examen, că dacă o să mergi tu și verșorul tău o să mergă și măcar pe dânsul să-l primească.",
-      "id_user": 4
-    },
-    {
-      "id": 644,
-      "start": 2629.678,
-      "end": 2635.662,
-      "text": " Și eu m-am dus așa, cumva de cârd, să mă duc la școala muzicală și am venit acasă și...",
-      "id_user": 4
-    },
-    {
-      "id": 645,
-      "start": 2635.662,
-      "end": 2638.823,
-      "text": " Deci nu toți au dat examenul, da eu am susținut examenul de intrare.",
-      "id_user": 4
-    },
-    {
-      "id": 646,
-      "start": 2639.081,
-      "end": 2645.5,
-      "text": " Dar, pe drum m-am uitat deja că am intrat, pentru că eu nu nu vream să-i spun mamei că am intrat la școală,",
-      "id_user": 4
-    },
-    {
-      "id": 647,
-      "start": 2645.5,
-      "end": 2651.71,
-      "text": " pentru că știam că nu are bani de școala muzicală, acolo trebuia în fiecare lună să platească șaptezeci și cinci de lei,",
-      "id_user": 4
-    },
-    {
-      "id": 648,
-      "start": 2651.71,
-      "end": 2657.5,
-      "text": " plus de trei ori în săptămână să merg la Ungheni, asta însemna cheltuieli.",
-      "id_user": 4
-    },
-    {
-      "id": 649,
-      "start": 2657.5,
-      "end": 2663.875,
-      "text": " Și am venit acasă, nu știu ce am mai făcut și pe urmă mama mea întreabă, păi ce ai făcut? Ai dat examenul?",
-      "id_user": 4
-    },
-    {
-      "id": 650,
-      "start": 2664.057,
-      "end": 2669.62,
-      "text": " da, l-am dat. Și vrei să mergi? Da, vreau să merg, dar noi dor n-avem bani.",
-      "id_user": 4
-    },
-    {
-      "id": 651,
-      "start": 2669.894,
-      "end": 2672.716,
-      "text": " Și ea a fost și-a, achitat cinci ani pentru mine pe an.",
-      "id_user": 4
-    },
-    {
-      "id": 652,
-      "start": 2673.175,
-      "end": 2680.814,
-      "text": " Și eu mergeam la școală și mă gândeam cât de nepotrivit am făcut,",
-      "id_user": 4
-    },
-    {
-      "id": 653,
-      "start": 2680.814,
-      "end": 2687.5,
-      "text": " pentru că am pus această povară pe umerii părinților, că ei trebuie să achite peste o sută de lei pentru mine.",
-      "id_user": 4
-    },
-    {
-      "id": 654,
-      "start": 2687.733,
-      "end": 2692.68,
-      "text": " De exemplu, fratele meu nu mergea și mie mi-era rușine, că, de exemplu, ei s-au cheltuit doar cu mine",
-      "id_user": 4
-    },
-    {
-      "id": 655,
-      "start": 2692.694,
-      "end": 2698.207,
-      "text": " și pentru mine asta a fost un fel de vinovăție, dacă vreți să vă spun așa.",
-      "id_user": 4
-    },
-    {
-      "id": 656,
-      "start": 2698.5,
-      "end": 2704.14,
-      "text": " eu am simțit aceste momente de lipsuri de bani sau de vinovăție că mie mi s-au oferit,",
-      "id_user": 4
-    },
-    {
-      "id": 657,
-      "start": 2704.5,
-      "end": 2708.5,
-      "text": " că mie îmi dădeau și chiar în facultate, când îmi dădeau bani pe săptămână,",
-      "id_user": 4
-    },
-    {
-      "id": 658,
-      "start": 2708.545,
-      "end": 2715.115,
-      "text": " eu știam că mama nu mii dădea din dintr-un sac mare de bani.",
-      "id_user": 4
-    },
-    {
-      "id": 659,
-      "start": 2715.115,
-      "end": 2718.159,
-      "text": " Poate îmi dădea din ultimii ei bani, eu nu știu.",
-      "id_user": 4
-    },
-    {
-      "id": 660,
-      "start": 2718.213,
-      "end": 2723.16,
-      "text": " Chiar dacă mama este foarte economicoasă și totdeauna pune bani deoparte, dar eu îmi dau seama că era o povară.",
-      "id_user": 4
-    },
-    {
-      "id": 661,
-      "start": 2723.192,
-      "end": 2731.277,
-      "text": " De aceea? Noi noi vedem aceste lucruri și toți tinerii asta văd, dar din motivația lui,",
-      "id_user": 4
-    },
-    {
-      "id": 662,
-      "start": 2731.302,
-      "end": 2739.185,
-      "text": " dacă vrea să fie să iasă iată din sărăcie, el va ieși, pentru că modalități sunt de a ieși.",
-      "id_user": 4
-    },
-    {
-      "id": 663,
-      "start": 2739.5,
-      "end": 2740.725,
-      "text": " Pur și simplu se duce să lucreze.",
-      "id_user": 4
-    },
-    {
-      "id": 664,
-      "start": 2740.92,
-      "end": 2746.5,
-      "text": " Foarte plăcut să câștigi foarte, foarte plăcut, îți schimbă tot",
-      "id_user": 2
-    },
-    {
-      "id": 665,
-      "start": 2748.5,
-      "end": 2751.11,
-      "text": " că Trebuie să treci ca să ca să simți.",
-      "id_user": 2
-    },
-    {
-      "id": 666,
-      "start": 2751.5,
-      "end": 2758.5,
-      "text": " țin minte la o săptămână de la câștig, că eu câștigasem mai înainte, dar nimeni nu știa, până nu o apărut în presă.",
-      "id_user": 2
-    },
-    {
-      "id": 667,
-      "start": 2758.7,
-      "end": 2765.5,
-      "text": " După ce o apărut în presă, eu am m-am îmbonăvit. Am stat în pat, răcită, nu că cu influență.",
-      "id_user": 2
-    },
-    {
-      "id": 668,
-      "start": 2766.182,
-      "end": 2773.625,
-      "text": " Și zic, oi, sunt liniştită chiar dacă sunt cu influență, sunt liniştită că n-am datorii.",
-      "id_user": 2
-    },
-    {
-      "id": 669,
-      "start": 2774.778,
-      "end": 2784.967,
-      "text": " ca Să înțelegeți starea la la un om care care n-are datorii, care n-are bătae de cap, gata, eu nu mai am.",
-      "id_user": 2
-    },
-    {
-      "id": 670,
-      "start": 2785.185,
-      "end": 2791.08,
-      "text": " Poate din generația mea, le vine mai greu.",
-      "id_user": 5
-    },
-    {
-      "id": 671,
-      "start": 2792.0,
-      "end": 2797.7,
-      "text": " Dar acești tineri, poate dintre dânsii sunt, dar lor le s-o deschis multe drumuri.",
-      "id_user": 5
-    },
-    {
-      "id": 672,
-      "start": 2798.278,
-      "end": 2806.84,
-      "text": " și ei au, Noi atuncea nu am avut drumurile acestea, noi am fost ținuți ca într-o cletcă, să-i spun",
-      "id_user": 5
-    },
-    {
-      "id": 673,
-      "start": 2808.5,
-      "end": 2815.183,
-      "text": " Noi nu cunoșteam multe lucruri, noi nu n-auzeam de multe lucruri, nu le vedem multe lucruri.",
-      "id_user": 5
-    },
-    {
-      "id": 674,
-      "start": 2815.95,
-      "end": 2821.5,
-      "text": " Și lumea s-o învățat așa ia. Azi când le văd, deacum vor și ei, ca și ceilalți.",
-      "id_user": 5
-    },
-    {
-      "id": 675,
-      "start": 2821.762,
-      "end": 2825.227,
-      "text": " Dar eu cum să spun de tineretul azi? Tineretul azi îi lenos.",
-      "id_user": 5
-    },
-    {
-      "id": 676,
-      "start": 2825.9,
-      "end": 2834.78,
-      "text": " Drept să vă spun c-am ascultând televizorul și acestea un lucrător social spune că a treilea, ori a patrulea,",
-      "id_user": 5
-    },
-    {
-      "id": 677,
-      "start": 2834.78,
-      "end": 2840.5,
-      "text": " nici nu vrea să învețe, să studieze, nu vrea nici să lucreze, nu vor nimic.",
-      "id_user": 5
-    },
-    {
-      "id": 678,
-      "start": 2841.12,
-      "end": 2844.893,
-      "text": " Nu știu de ce cum să-i spun, că lui e greu dacă el nu vrea nimic să facă.",
-      "id_user": 5
-    },
-    {
-      "id": 679,
-      "start": 2846.193,
-      "end": 2848.947,
-      "text": " Eu nu văd la dânșii greutate nimic, scuzați-mă.",
-      "id_user": 5
-    },
-    {
-      "id": 680,
-      "start": 2849.5,
-      "end": 2858.0,
-      "text": " Azi sunt multe drumuri deschise care vrea să lucreze, lucrează, poate să-și procure și o mașină, și un apartament, numai să lucreze.",
-      "id_user": 5
-    },
-    {
-      "id": 681,
-      "start": 2859.23,
-      "end": 2861.01,
-      "text": " Are libertate peste tot",
-      "id_user": 5
-    },
-    {
-      "id": 682,
-      "start": 2861.5,
-      "end": 2875.073,
-      "text": " În cazul oamenilor care au așa mai mulți bani, au și alt nivel de de oameni lângă ei și din cauza asta cumva le este mai ușor să meargă mai sus și mai sus.",
-      "id_user": 1
-    },
-    {
-      "id": 683,
-      "start": 2875.5,
-      "end": 2889.5,
-      "text": " În cazul nostru oamenilor așa care un pic mai jos suntem decât decât acești oameni, nouă ne este mai greu mai greu pentru că noi n-avem oamenii ceia care să ne poată să ne tragă.",
-      "id_user": 1
-    },
-    {
-      "id": 684,
-      "start": 2889.5,
-      "end": 2894.133,
-      "text": " Noi ne motivăm unul pe altul și doar iaca așa mergem înainte.",
-      "id_user": 1
-    },
-    {
-      "id": 685,
-      "start": 2894.133,
-      "end": 2911.5,
-      "text": " În momentul în care eu din cauza sărăciei nu am putut să ajut părinții sau frații care erau mai mici, sau, spre exemplu, am avut un potențial și din cauza săraciei nu am putut să mi-l dezvolt.",
-      "id_user": 3
-    },
-    {
-      "id": 686,
-      "start": 2911.5,
-      "end": 2923.5,
-      "text": " Iata, asta este anumite sentimente legate de vinovăție care ar putea să ne cauzeze mie un descomfort destul de mare chiar fiind deja bine de punct de vedere economic.",
-      "id_user": 3
-    },
-    {
-      "id": 687,
-      "start": 2925.173,
-      "end": 2928.5,
-      "text": " Pentru că lucrurile nu le poți întoarce înapoi.",
-      "id_user": 3
-    },
-    {
-      "id": 688,
-      "start": 2928.5,
-      "end": 2943.5,
-      "text": " Și deja, spre exemplu, mama nu mai este, să zicem, frații au crescut, poate că deja nu mai sunt valabile acele idei pe care am vrut să le dezvolt cândva.",
-      "id_user": 3
-    },
-    {
-      "id": 689,
-      "start": 2943.5,
-      "end": 2954.9,
-      "text": " Și cumva eu mă întorc la ideea că poate că dacă nu ar fi fost aceea sărăcie care am trăit-o eu, ar putea fi lucrurile altfel.",
-      "id_user": 3
-    },
-    {
-      "id": 690,
-      "start": 2955.5,
-      "end": 2965.83,
-      "text": " iaca eu vă spun un numit model de a gândi atunci când eu sufăr din cauza sărăciei, care deja nu mai este în viața mea, dar care cândva a fost.",
-      "id_user": 3
-    },
-    {
-      "id": 691,
-      "start": 2965.984,
-      "end": 2967.864,
-      "text": " Dorință trebuie să fie la toate cele.",
-      "id_user": 5
-    },
-    {
-      "id": 692,
-      "start": 2968.6,
-      "end": 2971.18,
-      "text": " Ori și lucru, dacă dorești, îl înveți.",
-      "id_user": 5
-    },
-    {
-      "id": 693,
-      "start": 2971.5,
-      "end": 2979.5,
-      "text": " Eu la cincizeci de ani m-am dus în Italia în timp de două săptămâni de zile eu am învățat limba italiană, pentru că ea mie îmi trebuia.",
-      "id_user": 5
-    },
-    {
-      "id": 694,
-      "start": 2979.74,
-      "end": 2989.54,
-      "text": " E trebuie să comunic. Eu am învățat-o limba italiană și să declină încă substantivul și predicatul de la de la tineret de ăștia am învățat tot.",
-      "id_user": 5
-    },
-    {
-      "id": 695,
-      "start": 2989.54,
-      "end": 2993.5,
-      "text": " Să vorbesc corect, am vrut, încă, cu dânșii cu italienii.",
-      "id_user": 5
-    },
-    {
-      "id": 696,
-      "start": 2993.99,
-      "end": 2996.76,
-      "text": " M-am dus, trebuiau oamenii să-i stimezi, trebuie să-nveți toate celea.",
-      "id_user": 5
-    },
-    {
-      "id": 697,
-      "start": 2996.76,
-      "end": 2998.5,
-      "text": " Dorință să ai tot faci.",
-      "id_user": 5
-    },
-    {
-      "id": 698,
-      "start": 2998.5,
-      "end": 3004.5,
-      "text": " Azi îmi pare rău că memoria nu îmi permite să învăț și azi multe lucruri, că le mai uit deatâta.",
-      "id_user": 5
-    },
-    {
-      "id": 699,
-      "start": 3004.5,
-      "end": 3006.882,
-      "text": " Da dacă este dorință, toate celea faci.",
+      "start": 2952.06,
+      "end": 2962.14,
+      "text": " Nu, dacă tu te-ai născut și ai lăcuit în copilărie, într-un loc, tu vrei, nu vrei, în locul ăla, creierul, simt confortabil, pentru că ăsta e locul în care tu te-ai dezvoltat.",
       "id_user": 5
     }
   ]

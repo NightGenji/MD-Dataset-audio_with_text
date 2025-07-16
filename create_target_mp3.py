@@ -1,7 +1,9 @@
 import csv
 import json
 import os
+import shutil
 import subprocess
+import sys
 
 import whisper
 import yt_dlp
@@ -17,7 +19,7 @@ TEMP_VIDEO = "temp_video/"
 TEMP_SUB = "temp_subtitles/"
 REGISTER = "register.tsv"
 
-URL_NOW = "https://www.youtube.com/watch?v=mUf8-mQjje4"
+URL_NOW = "https://www.youtube.com/watch?v=PduZkR9j79E"
 
 def download_video():
     if len(os.listdir(MY_DATA + TEMP_VIDEO)) != 0:
@@ -42,7 +44,7 @@ def get_subtitles():
 
     use_gpu = torch.cuda.is_available()
     device = "cuda" if use_gpu else "cpu"
-    model = whisper.load_model("medium", device=device)
+    model = whisper.load_model("large-v3-turbo", device=device)
 
     result = model.transcribe(audio_path,
                               task="transcribe",
@@ -146,6 +148,8 @@ def create_Register():
                                 .replace("?", " ")
                                 .replace("  ", " ")
             ])
+    
+    shutil.copy(MY_DATA + TEMP_SUB + "subtitles.json", data_path + "subtitles.json")
 
 def choose_users():
     with open(MY_DATA + TEMP_SUB + "subtitles.json", "r", encoding="utf-8") as file:
@@ -155,7 +159,9 @@ def choose_users():
     for seg in data["segments"]:
         if seg["id_user"] == -1:
             print(f"Segment ID: {seg['id']}")
-            print(f"Text: {seg['text']}")
+            yellow = "\033[93m"
+            reset = "\033[0m"
+            print(f"{yellow}Text: {seg['text']}{reset}")
             read_value = input(f"New ID or -1(exit) or ENTER for {new_value}: ")
             if len(read_value) != 0:
                 new_value = int(read_value)
@@ -210,7 +216,7 @@ if __name__ == "__main__":
     # TODO with GUI_mp3_edit.py i make time be acceptable
 
     # --Create mp3's based on subtitles
-    take_subtitles_and_crop_mp3()
+    # take_subtitles_and_crop_mp3()
 
     # TODO correct words manually
 
