@@ -216,7 +216,7 @@ if __name__ == "__main__":
     # TODO with GUI_mp3_edit.py i make time be acceptable
 
     # --Create mp3's based on subtitles
-    # take_subtitles_and_crop_mp3()
+    take_subtitles_and_crop_mp3()
 
     # TODO correct words manually
 

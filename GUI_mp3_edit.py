@@ -9,7 +9,9 @@ import os
 MY_DATA = "my_data/"
 TEMP_VIDEO = "temp_video/"
 TEMP_SUB = "temp_subtitles/"
-MARGIN = 1.5  # seconds of margin around each segment
+
+MARGIN = 1.5        # seconds of margin around each segment
+START_EDITING = 495 # from wich ID to start editing
 
 def brain():
     # Load subtitles
@@ -21,12 +23,11 @@ def brain():
     audio_path = MY_DATA + TEMP_VIDEO + files[0]
     audio = AudioSegment.from_mp3(audio_path)
     total_duration = audio.duration_seconds
-    start_editing = 0
     last_time = -1
     last_edited_id = -1
 
     for item in data["segments"]:
-        if item["id"] < start_editing:
+        if item["id"] < START_EDITING:
             continue
 
         segment_start = max(item["start"], last_time)
