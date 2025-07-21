@@ -143,7 +143,8 @@ def create_Register():
             writer.writerow([
                 padd_ID(seg["id_user"], 6),
                 padd_ID(seg["id"], 7) + ".mp3",
-                str(seg["text"]).replace(",", " ")
+                str(seg["text"]).replace("\n", " ")
+                                .replace(",", " ")
                                 .replace(".", " ")
                                 .replace("?", " ")
                                 .replace("  ", " ")
@@ -206,9 +207,32 @@ def check_users_ifGood():
             clip = VideoFileClip("video.mp4.webm").subclipped(start, start + 1.5)
             clip.preview()  
 
+def text_to_list_from_tempFolder():
+    with open(MY_DATA + TEMP_SUB + "subtitles.json", "r", encoding="utf-8") as file:
+        data = json.load(file)
+
+    if type(data["segments"][0]["text"]) is list:
+        for seg in data["segments"]:
+            seg["text"] = "".join(seg["text"])
+    else:
+        for seg in data["segments"]:
+            text_list = []
+            chunk = seg["text"]
+            while len(chunk) > 80:
+                ind = 80
+                while chunk[ind] != " ":
+                    ind -= 1
+                text_list.append(chunk[:ind])
+                chunk = chunk[ind:]
+            text_list.append(chunk)
+            seg["text"] = text_list
+
+    with open(MY_DATA + TEMP_SUB + "subtitles.json", "w", encoding="utf-8") as file:
+        json.dump(data, file, ensure_ascii=False, indent=2)
+
 if __name__ == "__main__":
     # --Download mp3 from URL and make subtitles in the temporar folders in MY_DATA
-    # download_and_makeSubtitles()
+    download_and_makeSubtitles()
 
     # --HELPER in assigning which user said which segment(you assign it manually)
     # choose_users()
@@ -216,9 +240,10 @@ if __name__ == "__main__":
     # TODO with GUI_mp3_edit.py i make time be acceptable
 
     # --Create mp3's based on subtitles
-    take_subtitles_and_crop_mp3()
+    # take_subtitles_and_crop_mp3()
 
-    # TODO correct words manually
+    # TODO correct words manually TODO pentru usurinta de corectat
+    # text_to_list_from_tempFolder()
 
     # After correcting times and words DO THIS
     # --HELPER in checking if users are assigned good, you can listen to the segments

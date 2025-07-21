@@ -7,10 +7,12 @@ deactivate
 // pentru scurtarea terminalului
 export PS1="\u@\h:\W\$ "
 
-// Videos USED
+// Video folosite si notite
 "https://www.youtube.com/watch?v=mUf8-mQjje4"
-
+-- utilizator 6 e prezentator
 "https://www.youtube.com/watch?v=PduZkR9j79E"
+-- utilizatorul 2 poate avea vorbirea neclara
+-- utilizator 7 e prezentator
 "https://www.youtube.com/watch?v=KSuqabzhxjg"
 "https://www.youtube.com/watch?v=7YSXISrL2rs"
 "https://www.youtube.com/watch?v=j8Z8vvKg5bA"
@@ -22,3 +24,16 @@ export PS1="\u@\h:\W\$ "
 "https://www.youtube.com/watch?v=ggaVblGO-ZI"
 "https://www.youtube.com/watch?v=A5Ssdoq3fXk"
 "https://www.youtube.com/watch?v=TOFItbQPJvc"
+
+// â ă ț î ș
+
+// PROBLEME
+1. pronunție MD - cuvânt
+----------: sâ - se / să (doua cuvine pentru aceasi pronuntare in MD)
+solutie la: și - și / ce (selectez pur dupa ce se aude)
+
+2. Poate fi asemanator 'mergem' si 'merjem', și mai multe cuvinte așa situatie
+   mergeam - mergem (românește)
+   merjem  - merjim (MD pronunție)
+
+3. exemplu cu aceleasi audio: din 'i-au' și 'iau' fac numai 'iau' (si asa se aude la fel)
