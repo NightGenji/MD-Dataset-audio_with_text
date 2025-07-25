@@ -1,0 +1,4008 @@
+{
+  "segments": [
+    {
+      "id": 27,
+      "start": 57.54,
+      "end": 58.047,
+      "text": " Mă numesc",
+      "id_user": 1
+    },
+    {
+      "id": 28,
+      "start": 58.683,
+      "end": 60.104,
+      "text": " Zuicov Eugen",
+      "id_user": 1
+    },
+    {
+      "id": 29,
+      "start": 60.142,
+      "end": 62.45,
+      "text": " Sunt comandant detașament salvatori și pompieri",
+      "id_user": 1
+    },
+    {
+      "id": 30,
+      "start": 62.45,
+      "end": 63.384,
+      "text": " Sectorul Centru",
+      "id_user": 1
+    },
+    {
+      "id": 31,
+      "start": 63.392,
+      "end": 66.55,
+      "text": " Mă numesc Pascaru Sergiu, sunt șef serviciu scafandrii",
+      "id_user": 2
+    },
+    {
+      "id": 32,
+      "start": 66.55,
+      "end": 68.128,
+      "text": " Al Direcției Regionale Căutare",
+      "id_user": 2
+    },
+    {
+      "id": 33,
+      "start": 68.128,
+      "end": 69.478,
+      "text": " Salvare numărul unu",
+      "id_user": 2
+    },
+    {
+      "id": 34,
+      "start": 69.492,
+      "end": 72.158,
+      "text": " A Inspectoratului General pentru Situații de Urgență",
+      "id_user": 2
+    },
+    {
+      "id": 35,
+      "start": 72.401,
+      "end": 73.7,
+      "text": " Mă numesc Serghei Olari",
+      "id_user": 4
+    },
+    {
+      "id": 36,
+      "start": 73.925,
+      "end": 76.575,
+      "text": " Și activez la moment ca șofer pe ambulanță",
+      "id_user": 4
+    },
+    {
+      "id": 37,
+      "start": 76.575,
+      "end": 77.826,
+      "text": " Mă numesc Mitreanu Oleg",
+      "id_user": 3
+    },
+    {
+      "id": 38,
+      "start": 78.333,
+      "end": 80.0,
+      "text": " Sunt șef SAMU Anenii Noi",
+      "id_user": 3
+    },
+    {
+      "id": 39,
+      "start": 80.192,
+      "end": 82.0,
+      "text": " Activez și ca medic urgentist",
+      "id_user": 3
+    },
+    {
+      "id": 40,
+      "start": 82.517,
+      "end": 84.567,
+      "text": " Pe echipa generalizată din anenii noi",
+      "id_user": 3
+    },
+    {
+      "id": 42,
+      "start": 84.7,
+      "end": 87.4,
+      "text": " Mai fac și gărzi",
+      "id_user": 3
+    },
+    {
+      "id": 43,
+      "start": 87.417,
+      "end": 90.133,
+      "text": " în unitatea primiri urgente, Institutul Mamei și a Copilului",
+      "id_user": 3
+    },
+    {
+      "id": 44,
+      "start": 90.133,
+      "end": 93.454,
+      "text": " Primul a meu incendiu, n-a să-l uit niciodată",
+      "id_user": 1
+    },
+    {
+      "id": 45,
+      "start": 93.454,
+      "end": 97.0,
+      "text": " Dar până la incendiu, vă spun altceva",
+      "id_user": 1
+    },
+    {
+      "id": 46,
+      "start": 97.017,
+      "end": 99.692,
+      "text": " Am trecut mai întâi cursul de instruire primară undeva",
+      "id_user": 1
+    },
+    {
+      "id": 47,
+      "start": 99.699,
+      "end": 102.188,
+      "text": " trei luni de zile, am terminat cu nota nouă",
+      "id_user": 1
+    },
+    {
+      "id": 48,
+      "start": 102.26,
+      "end": 104.489,
+      "text": " Mă simțeam specialist în domeniu",
+      "id_user": 1
+    },
+    {
+      "id": 49,
+      "start": 104.707,
+      "end": 107.113,
+      "text": " Nota nouă, unul din cei mai buni",
+      "id_user": 1
+    },
+    {
+      "id": 50,
+      "start": 107.113,
+      "end": 109.433,
+      "text": " Și când am venit la prima intervenție",
+      "id_user": 1
+    },
+    {
+      "id": 51,
+      "start": 109.433,
+      "end": 112.201,
+      "text": " Era chiar incendiu, ardea o casă",
+      "id_user": 1
+    },
+    {
+      "id": 52,
+      "start": 112.355,
+      "end": 116.775,
+      "text": " Colegii când au ieșit repede din mașină și fiecare știa ce să facă dar eu am rămas",
+      "id_user": 1
+    },
+    {
+      "id": 53,
+      "start": 116.775,
+      "end": 119.429,
+      "text": " în mijloc, stăteam și nu înțelegeam ce trebuie să fac",
+      "id_user": 1
+    },
+    {
+      "id": 54,
+      "start": 119.557,
+      "end": 124.074,
+      "text": " Și atunci eu mă înțeles că practica întotdeauna bate teoria",
+      "id_user": 1
+    },
+    {
+      "id": 55,
+      "start": 124.074,
+      "end": 129.0,
+      "text": " Da, tu cunoști niște reguli, tu cunoști diferite",
+      "id_user": 1
+    },
+    {
+      "id": 56,
+      "start": 129.0,
+      "end": 134.805,
+      "text": " momente dar nici un incendiu nu-i la fel, toate incendiurile sunt diferite și atunci trebuie să reacționezi prompt",
+      "id_user": 1
+    },
+    {
+      "id": 57,
+      "start": 134.82,
+      "end": 140.433,
+      "text": " Și reieșind din situația care e creată la incendiu, trebuie să întreprinzi oarecare măsuri, nu poți",
+      "id_user": 1
+    },
+    {
+      "id": 58,
+      "start": 140.575,
+      "end": 143.285,
+      "text": " spui că uite știu pe nouă, știu pe zece",
+      "id_user": 1
+    },
+    {
+      "id": 59,
+      "start": 143.509,
+      "end": 146.538,
+      "text": " Cum am pățit și eu, am venit și nu știam ce să fac deja",
+      "id_user": 1
+    },
+    {
+      "id": 60,
+      "start": 146.707,
+      "end": 150.369,
+      "text": " în procesul de lucru, la incendiu băieții ne-o spus",
+      "id_user": 1
+    },
+    {
+      "id": 61,
+      "start": 150.369,
+      "end": 156.157,
+      "text": " fă aceea, fă aceea, pune scara aici, dați dați să intrăm pe aici, hai pe acoperiș să nu se răspândească focul, atunci",
+      "id_user": 1
+    },
+    {
+      "id": 62,
+      "start": 156.334,
+      "end": 160.359,
+      "text": " deja am început să acționăm, dar primele minute nu știam ce să fac",
+      "id_user": 1
+    },
+    {
+      "id": 63,
+      "start": 160.359,
+      "end": 166.348,
+      "text": " Cu opt ani în urmă asta o fost într-o vară când m-am urcat la volan la ambulanță",
+      "id_user": 4
+    },
+    {
+      "id": 64,
+      "start": 166.348,
+      "end": 172.447,
+      "text": " Avem dubii, avem ca prima dată când te sui la o ambulanță și nu știi cum ai să te isprăvești",
+      "id_user": 4
+    },
+    {
+      "id": 65,
+      "start": 172.829,
+      "end": 177.918,
+      "text": " Dar tot o mers bine, am făcut solicitarea tare bine împreună cu",
+      "id_user": 4
+    },
+    {
+      "id": 66,
+      "start": 178.0,
+      "end": 184.675,
+      "text": " echipa care medicii mă ajutau ca primă primă zi, e tare greu, felcerii m-a ajutat cu adresele mai greu da",
+      "id_user": 4
+    },
+    {
+      "id": 67,
+      "start": 184.839,
+      "end": 193.836,
+      "text": " la moment orașul știu la nivel normal, care mă bucur de ceea ce știu și tot lucrul care îl fac",
+      "id_user": 4
+    },
+    {
+      "id": 68,
+      "start": 194.0,
+      "end": 200.93,
+      "text": " Mă simt obligat cât mai repede să ajungem la spital ca să dăm ajutorul care trebuie că",
+      "id_user": 4
+    },
+    {
+      "id": 69,
+      "start": 201.071,
+      "end": 207.419,
+      "text": " Mașinile sunt dotate cu tot ce trebuie, dar totuși din mers nu se poate de ajutat bolnavul așa cum când la spital",
+      "id_user": 4
+    },
+    {
+      "id": 71,
+      "start": 207.64,
+      "end": 215.005,
+      "text": " Când făceam rezidențiatul eram îndreptat la practică la serviciu de asistență medicală de de urgență la Căușeni",
+      "id_user": 3
+    },
+    {
+      "id": 72,
+      "start": 215.005,
+      "end": 226.24,
+      "text": " Dacă sincer nu este un caz cam de râs, e un caz destul de așa remarcat și destul de plin emoțional și plină de stres",
+      "id_user": 3
+    },
+    {
+      "id": 73,
+      "start": 226.24,
+      "end": 233.703,
+      "text": " Am avut eu o solicitare noaptea, pe la vreo unu două de noapte, un accident rutier da nu era clar",
+      "id_user": 3
+    },
+    {
+      "id": 74,
+      "start": 233.703,
+      "end": 236.863,
+      "text": " Sunt implicate automobile sau este implicat altceva la calea ferată",
+      "id_user": 3
+    },
+    {
+      "id": 75,
+      "start": 236.85,
+      "end": 243.42,
+      "text": " La momentul sosirii era un bolnav care cu părere de rău a fost trecut de tren",
+      "id_user": 3
+    },
+    {
+      "id": 76,
+      "start": 243.659,
+      "end": 245.938,
+      "text": " Picioarele erau amputate",
+      "id_user": 3
+    },
+    {
+      "id": 77,
+      "start": 246.75,
+      "end": 252.45,
+      "text": " M-a remarcat foarte tare având în vedere că experiența de dată eu n-am avut niciodată",
+      "id_user": 3
+    },
+    {
+      "id": 78,
+      "start": 252.674,
+      "end": 257.065,
+      "text": " Și acționând repejor îți aduci aminte absolut tot",
+      "id_user": 3
+    },
+    {
+      "id": 79,
+      "start": 257.065,
+      "end": 260.323,
+      "text": " ce Înveți la universitate, ce înveți la rezidențiat, că eram anul doi",
+      "id_user": 3
+    },
+    {
+      "id": 80,
+      "start": 260.806,
+      "end": 265.489,
+      "text": " Am acordat ajutorul medical, da, noi l-am transportat la spital cu succes",
+      "id_user": 3
+    },
+    {
+      "id": 81,
+      "start": 265.489,
+      "end": 272.945,
+      "text": " Dar având în vedere că era o traumă destul de complicată și având în vedere că era de-o vârstă mai înaintată",
+      "id_user": 3
+    },
+    {
+      "id": 82,
+      "start": 273.209,
+      "end": 274.419,
+      "text": " Până la urma a decedat",
+      "id_user": 3
+    },
+    {
+      "id": 83,
+      "start": 274.419,
+      "end": 282.601,
+      "text": " Prima misiune a fost în raionul Ștefan Vodă, în satul Crocmaz",
+      "id_user": 2
+    },
+    {
+      "id": 84,
+      "start": 282.809,
+      "end": 289.332,
+      "text": " Acolo s-a s-a înnecat tot un scafandru, el nu activa la noi în inspectorat dar",
+      "id_user": 2
+    },
+    {
+      "id": 85,
+      "start": 289.57,
+      "end": 294.0,
+      "text": " avea plăcerea să facă scufundări și să prindă ceva pești sub apă",
+      "id_user": 2
+    },
+    {
+      "id": 86,
+      "start": 294.435,
+      "end": 300.0,
+      "text": " Deoarece el a făcut scufundări scufundarea în Nistru, adâncimea era de 13 metri acolo",
+      "id_user": 2
+    },
+    {
+      "id": 87,
+      "start": 300.0,
+      "end": 302.93,
+      "text": " Utilajul și echipamentul lui nu era performant",
+      "id_user": 2
+    },
+    {
+      "id": 88,
+      "start": 302.917,
+      "end": 310.583,
+      "text": " El n-o luat în calcul că cu cât adâncimea este mai mare, cu atât consumul din butelie se consumă mai mai rapid",
+      "id_user": 2
+    },
+    {
+      "id": 89,
+      "start": 310.583,
+      "end": 316.378,
+      "text": " Când l-am depistat sub apă, el era agățat de diferite saule, plase, ațe",
+      "id_user": 2
+    },
+    {
+      "id": 90,
+      "start": 316.524,
+      "end": 324.774,
+      "text": " Din cauza că nu i-a ajuns aer în butelie, n-o avut posibilitatea ca să iasă la suprafață",
+      "id_user": 2
+    },
+    {
+      "id": 91,
+      "start": 325.029,
+      "end": 332.273,
+      "text": " Când l-am depistat, atunci sub apă am tăiat toate saulele, plasele și încetișor l-am extras la mal",
+      "id_user": 2
+    },
+    {
+      "id": 92,
+      "start": 332.454,
+      "end": 340.678,
+      "text": " Era luna lui februarie, bucățile de gheață erau pe pe apă, apa era rece",
+      "id_user": 2
+    },
+    {
+      "id": 93,
+      "start": 341.027,
+      "end": 347.49,
+      "text": " De multe ori chiar detentorul, adică aparatul cu aer comprimat nu lucra așa cum trebuiește",
+      "id_user": 2
+    },
+    {
+      "id": 94,
+      "start": 347.905,
+      "end": 352.862,
+      "text": " Dar misiunea până în final s-a fost cu succes din partea noastră",
+      "id_user": 2
+    },
+    {
+      "id": 95,
+      "start": 352.998,
+      "end": 356.072,
+      "text": " Victima a fost extrasă la suprafață",
+      "id_user": 2
+    },
+    {
+      "id": 96,
+      "start": 356.072,
+      "end": 363.606,
+      "text": " Prima solicitare, în general când am ieșit eu la serviciu oficial, deja după rezidențiat cu actele în regulă",
+      "id_user": 3
+    },
+    {
+      "id": 97,
+      "start": 363.606,
+      "end": 366.0,
+      "text": " La Mereni s-a adresat o mămică c-un copil",
+      "id_user": 3
+    },
+    {
+      "id": 98,
+      "start": 366.667,
+      "end": 375.918,
+      "text": " Copilul avea vreo trei anișori, patru anișori, o vârstă care, mă rog, sunt buni des de diferite năzbâtii",
+      "id_user": 3
+    },
+    {
+      "id": 99,
+      "start": 376.645,
+      "end": 382.0,
+      "text": " Și mama îmi spune că iată întâmplător i-a intrat o mărgică în nas",
+      "id_user": 3
+    },
+    {
+      "id": 100,
+      "start": 382.0,
+      "end": 387.233,
+      "text": " Păi mă uit eu examinez și chiar mă gândeam, pentru o mărgică eu să-l transport la spital",
+      "id_user": 3
+    },
+    {
+      "id": 101,
+      "start": 387.233,
+      "end": 394.767,
+      "text": " De obicei, așa pacienți, neavând instrumentarul necesar, le transportăm la spital dar",
+      "id_user": 3
+    },
+    {
+      "id": 102,
+      "start": 394.767,
+      "end": 398.0,
+      "text": " cu părere de bine, instrumentarul atunci era în prezent și s-o primit",
+      "id_user": 3
+    },
+    {
+      "id": 103,
+      "start": 398.067,
+      "end": 399.458,
+      "text": " Foarte frumos o fost, dacă sincer",
+      "id_user": 3
+    },
+    {
+      "id": 104,
+      "start": 399.767,
+      "end": 406.733,
+      "text": " Sunt niște momente care te fac așa mai mai domol, mai liniștit la suflet",
+      "id_user": 3
+    },
+    {
+      "id": 105,
+      "start": 407.0,
+      "end": 413.0,
+      "text": " Pentru că când acorzi un ajutor medical și vezi reacția că este bine și mai ales rudele",
+      "id_user": 3
+    },
+    {
+      "id": 106,
+      "start": 413.0,
+      "end": 420.0,
+      "text": " Văzând în ce stare era sau sunt pacienții, e de nescris, dacă sincer",
+      "id_user": 3
+    },
+    {
+      "id": 107,
+      "start": 420.0,
+      "end": 427.318,
+      "text": " la noi medicul ne strigă pe selectorul care este și ne spune de urgență și noi suntem datori cât",
+      "id_user": 4
+    },
+    {
+      "id": 108,
+      "start": 427.487,
+      "end": 433.76,
+      "text": " timp de două minute să fim de acum echipa să fie pornită de la stațiune și din mers îmi spune adresa noi de acum din mers",
+      "id_user": 4
+    },
+    {
+      "id": 109,
+      "start": 433.792,
+      "end": 436.343,
+      "text": " adresa și mergem, nu n-avem când să discutăm",
+      "id_user": 4
+    },
+    {
+      "id": 110,
+      "start": 436.473,
+      "end": 438.336,
+      "text": " E tare mare responsabilitatea",
+      "id_user": 4
+    },
+    {
+      "id": 111,
+      "start": 439.045,
+      "end": 444.431,
+      "text": " Fiindcă medicul încoace retrăiește în partea aceea, dar noi în partea aceasta trebuie să fim ochi și urechi",
+      "id_user": 4
+    },
+    {
+      "id": 112,
+      "start": 444.595,
+      "end": 448.318,
+      "text": " Că traficul e tare încărcat în oraș și e tare greu de mers",
+      "id_user": 4
+    },
+    {
+      "id": 113,
+      "start": 448.873,
+      "end": 454.849,
+      "text": " Când nu te mai aud șoferii, dacă merg cu muzică tare și nu te aud și nu cedează trecerea, e tare greu de",
+      "id_user": 4
+    },
+    {
+      "id": 114,
+      "start": 454.849,
+      "end": 456.109,
+      "text": " ajuns unde trebuie",
+      "id_user": 4
+    },
+    {
+      "id": 115,
+      "start": 456.557,
+      "end": 458.457,
+      "text": " La noi e greu orașul e de circulat",
+      "id_user": 4
+    },
+    {
+      "id": 116,
+      "start": 458.457,
+      "end": 460.584,
+      "text": " Medicul de urgență a devenit altfel de medic",
+      "id_user": 3
+    },
+    {
+      "id": 117,
+      "start": 460.7,
+      "end": 463.498,
+      "text": " Acum suntem dotați, slava Domnului cu toate absolut",
+      "id_user": 3
+    },
+    {
+      "id": 118,
+      "start": 463.776,
+      "end": 465.322,
+      "text": " Mașinile noastre sunt dotate",
+      "id_user": 3
+    },
+    {
+      "id": 119,
+      "start": 465.322,
+      "end": 468.2,
+      "text": " Luăm o mașină simplă, un autosanitară simplă și",
+      "id_user": 3
+    },
+    {
+      "id": 120,
+      "start": 471.223,
+      "end": 472.486,
+      "text": " Ele sunt practic identice",
+      "id_user": 3
+    },
+    {
+      "id": 121,
+      "start": 472.973,
+      "end": 475.65,
+      "text": " Diferă numai prin aparatul de respirație artificială la",
+      "id_user": 3
+    },
+    {
+      "id": 122,
+      "start": 476.588,
+      "end": 479.796,
+      "text": " acestea care sunt dotate, mai ales acum partida asta nouă",
+      "id_user": 3
+    },
+    {
+      "id": 123,
+      "start": 479.796,
+      "end": 481.386,
+      "text": " Ele sunt dotate la nivel",
+      "id_user": 3
+    },
+    {
+      "id": 124,
+      "start": 481.462,
+      "end": 485.761,
+      "text": " Noi putem să acordăm ajutor medical la oricine și la orice nivel",
+      "id_user": 3
+    },
+    {
+      "id": 125,
+      "start": 485.886,
+      "end": 486.79,
+      "text": " Asta îmi bucura",
+      "id_user": 3
+    },
+    {
+      "id": 126,
+      "start": 487.0,
+      "end": 491.647,
+      "text": " foarte bucura pentru că eu țin minte când am început acolo în general era era rău",
+      "id_user": 3
+    },
+    {
+      "id": 127,
+      "start": 492.28,
+      "end": 493.0,
+      "text": " Spunem așa",
+      "id_user": 3
+    },
+    {
+      "id": 128,
+      "start": 493.447,
+      "end": 498.473,
+      "text": " Dacă cunoașteți UAZ-urile acestea care erau vechi, ele nu erau dotate",
+      "id_user": 3
+    },
+    {
+      "id": 129,
+      "start": 498.382,
+      "end": 501.0,
+      "text": " într-ânsele să transporți oameni, cam e periculos",
+      "id_user": 3
+    },
+    {
+      "id": 130,
+      "start": 501.69,
+      "end": 504.32,
+      "text": " Asta spunând așa mai gingaș",
+      "id_user": 3
+    },
+    {
+      "id": 131,
+      "start": 504.855,
+      "end": 509.425,
+      "text": " Ceea ce este acum în prezent și cum se dezvoltă serviciu este chiar îmbucurător",
+      "id_user": 3
+    },
+    {
+      "id": 132,
+      "start": 509.984,
+      "end": 512.355,
+      "text": " Și chiar o mândrie dacă sincer, Îmbrăcând",
+      "id_user": 3
+    },
+    {
+      "id": 133,
+      "start": 512.804,
+      "end": 517.786,
+      "text": " uniforma de medic de urgență, te simți că într-adevăr ai valoare",
+      "id_user": 3
+    },
+    {
+      "id": 134,
+      "start": 517.929,
+      "end": 519.531,
+      "text": " Uite, eu vă vă spun așa cum este",
+      "id_user": 3
+    },
+    {
+      "id": 135,
+      "start": 519.531,
+      "end": 525.385,
+      "text": " Noi facem lucruri frumoase, lucruri care se termină cu cu ceva frumos, cu ceva",
+      "id_user": 3
+    },
+    {
+      "id": 136,
+      "start": 525.553,
+      "end": 531.447,
+      "text": " extraordinar mă refer acum și chiar și la o naștere prespitalicească în automobil sau acasă",
+      "id_user": 3
+    },
+    {
+      "id": 137,
+      "start": 531.447,
+      "end": 536.329,
+      "text": " Mă refer și la un infarct cu stop cardiorespirator și dăm speranță și viață altui om",
+      "id_user": 3
+    },
+    {
+      "id": 138,
+      "start": 537.192,
+      "end": 539.0,
+      "text": " E ceva extraordinar dacă sincer",
+      "id_user": 3
+    },
+    {
+      "id": 139,
+      "start": 539.0,
+      "end": 545.555,
+      "text": " Plecând la intervenție noi, echipa de trebuie să fie formată minimum din trei scafandre da",
+      "id_user": 2
+    },
+    {
+      "id": 140,
+      "start": 545.555,
+      "end": 551.515,
+      "text": " Scafandrul numărul unu este scafandrul care el nemijlocit efectuează lucrările subacvatice",
+      "id_user": 2
+    },
+    {
+      "id": 141,
+      "start": 551.625,
+      "end": 555.344,
+      "text": " El trebuie să fie la curent cu misiunea care trebuie s-o facă",
+      "id_user": 2
+    },
+    {
+      "id": 142,
+      "start": 555.344,
+      "end": 558.095,
+      "text": " El trebuie să fie la curent ce trebuie să facă",
+      "id_user": 2
+    },
+    {
+      "id": 143,
+      "start": 558.505,
+      "end": 563.156,
+      "text": " Scafandrul numărul doi este tot scafandrul care el e gata echipat stă și așteaptă În caz",
+      "id_user": 2
+    },
+    {
+      "id": 144,
+      "start": 563.156,
+      "end": 567.0,
+      "text": " că va avea nevoie de ajutor scafandrul numărul unu da",
+      "id_user": 2
+    },
+    {
+      "id": 145,
+      "start": 567.075,
+      "end": 571.0,
+      "text": " Posibil să s-agațe de ceva sub apă sau să aibă nevoie de ajutor",
+      "id_user": 2
+    },
+    {
+      "id": 146,
+      "start": 571.0,
+      "end": 577.717,
+      "text": " Scafandrul numărul doi mereu intervine sub apă și ajută scafandrul numărul unu",
+      "id_user": 2
+    },
+    {
+      "id": 147,
+      "start": 577.76,
+      "end": 584.105,
+      "text": " Dar scafandrul numărul trei este scafandrul care stă de la suprafață cu funia de semnalizare în mână",
+      "id_user": 2
+    },
+    {
+      "id": 148,
+      "start": 584.105,
+      "end": 588.934,
+      "text": " Și celălalt capăt e agățat de scafandrul numărul unu",
+      "id_user": 2
+    },
+    {
+      "id": 149,
+      "start": 589.0,
+      "end": 597.72,
+      "text": " Scafandrul numărul trei îl ghidează pe funii dreapta, stânga, cât aer ai în butelie, stai pe loc și multe alte lucruri",
+      "id_user": 2
+    },
+    {
+      "id": 150,
+      "start": 597.86,
+      "end": 603.0,
+      "text": " Tot așa și scafandrul din apă care îndeplinește misiunea tot îi dă semnale la scafandrul numărul trei",
+      "id_user": 2
+    },
+    {
+      "id": 151,
+      "start": 603.0,
+      "end": 608.685,
+      "text": " Ca de exemplu am atât aer în butelie, m-am agățat, am nevoie de ajutor",
+      "id_user": 2
+    },
+    {
+      "id": 152,
+      "start": 608.69,
+      "end": 613.345,
+      "text": " Dacă este fum în încăpere, cel mai bine evacuarea se face jos",
+      "id_user": 1
+    },
+    {
+      "id": 153,
+      "start": 613.345,
+      "end": 619.794,
+      "text": " Jos nu este fum, tot fumul se ridică în sus, jos este o așa o pătură de aer",
+      "id_user": 1
+    },
+    {
+      "id": 154,
+      "start": 620.32,
+      "end": 624.427,
+      "text": " Și când căutăm focarul incendiului, întotdeauna pompierii merg jos",
+      "id_user": 1
+    },
+    {
+      "id": 155,
+      "start": 624.465,
+      "end": 630.39,
+      "text": " jos Necătând la faptul că avem aparate cu aer, și măști și noi putem răsufla",
+      "id_user": 1
+    },
+    {
+      "id": 156,
+      "start": 630.52,
+      "end": 633.671,
+      "text": " Dar în fum vizibilitatea e la jumătate de metru",
+      "id_user": 1
+    },
+    {
+      "id": 157,
+      "start": 633.867,
+      "end": 640.75,
+      "text": " de aceea, întotdeauna pompierul care intră într-o casă sau într-un apartament care e cuprins în flăcări și e plin de fum",
+      "id_user": 1
+    },
+    {
+      "id": 158,
+      "start": 641.0,
+      "end": 649.473,
+      "text": " Propagarea se face jos și ca să nu nimerim într-o gaură sau undeva, întotdeauna se face cu piciorul, se uită",
+      "id_user": 1
+    },
+    {
+      "id": 159,
+      "start": 649.55,
+      "end": 655.178,
+      "text": " și atunci când propagăm încet câte încet, mergem într-o linie ca rățuștele",
+      "id_user": 1
+    },
+    {
+      "id": 160,
+      "start": 655.178,
+      "end": 661.574,
+      "text": " Așa în genunchi și mergem unul după altul și ne ținem unul pe altul de mâna pe umăr",
+      "id_user": 1
+    },
+    {
+      "id": 161,
+      "start": 661.574,
+      "end": 668.658,
+      "text": " Așa simțim colegul și chiar dacă se întâmplă ceva că podeaua este o gaură sau ceva",
+      "id_user": 1
+    },
+    {
+      "id": 162,
+      "start": 668.757,
+      "end": 679.742,
+      "text": " în podea noi întotdeauna ne ținem de furtun unul de la altul și colegii ne țin pe noi de de umăr și atunci e mai suntem mai în siguranță când înaintăm",
+      "id_user": 1
+    },
+    {
+      "id": 163,
+      "start": 679.863,
+      "end": 684.75,
+      "text": " Dar iarăși, este tot o regulă, cel mai încă primul care merge, merge cel mai experimentat",
+      "id_user": 1
+    },
+    {
+      "id": 164,
+      "start": 684.75,
+      "end": 690.07,
+      "text": " și el ține minte calea, cel care merge al doilea în mijloc e mai puțin experimentat",
+      "id_user": 1
+    },
+    {
+      "id": 165,
+      "start": 690.07,
+      "end": 695.139,
+      "text": " Și care merge din urmă tot e un băiat, un angajat care are experiență",
+      "id_user": 1
+    },
+    {
+      "id": 166,
+      "start": 695.139,
+      "end": 701.626,
+      "text": " Un băiat tânăr care numai ce a finisat cursurile de instruire niciodată n-a să meargă sau primul sau ultimul",
+      "id_user": 1
+    },
+    {
+      "id": 167,
+      "start": 701.86,
+      "end": 706.753,
+      "text": " Deoarece când noi ne evacuăm, acela care era primul devine deja ultimul",
+      "id_user": 1
+    },
+    {
+      "id": 168,
+      "start": 707.0,
+      "end": 711.62,
+      "text": " Noi ne întoarcem și tot așa cum am intrat, tot așa și ne evacuăm",
+      "id_user": 1
+    },
+    {
+      "id": 169,
+      "start": 711.748,
+      "end": 716.613,
+      "text": " toți șoferii se străduiesc cât mai repede și la care spital, mai aproape fiindcă",
+      "id_user": 4
+    },
+    {
+      "id": 170,
+      "start": 716.985,
+      "end": 718.893,
+      "text": " când e viața în pericol noi trebuie să ajungem",
+      "id_user": 4
+    },
+    {
+      "id": 171,
+      "start": 718.893,
+      "end": 722.262,
+      "text": " cât mai repede să ajutăm bolnavii multe cazuri sunt așa",
+      "id_user": 4
+    },
+    {
+      "id": 172,
+      "start": 722.7,
+      "end": 723.958,
+      "text": " Un caz de la Ciocana",
+      "id_user": 4
+    },
+    {
+      "id": 173,
+      "start": 723.958,
+      "end": 728.631,
+      "text": " când copilul își pierde cunoștința și de la Ciocana la centrul mamei trebuia de urgență",
+      "id_user": 4
+    },
+    {
+      "id": 174,
+      "start": 728.631,
+      "end": 735.513,
+      "text": " Când tăticul o ajuns din urma mea cu mașina și m-a mulțumit și numai nu știa ce să spună că eu tare repede am",
+      "id_user": 4
+    },
+    {
+      "id": 175,
+      "start": 735.73,
+      "end": 741.925,
+      "text": " mers am ajuns la moment, mă suiam pe borduri, numai că să ajung cu copilul cela chiar era greu de tot",
+      "id_user": 4
+    },
+    {
+      "id": 176,
+      "start": 741.917,
+      "end": 743.575,
+      "text": " Și am ajuns la timp cum o trebuit",
+      "id_user": 4
+    },
+    {
+      "id": 177,
+      "start": 743.71,
+      "end": 747.19,
+      "text": " Nu ne grăbim încet, graba strică treaba",
+      "id_user": 1
+    },
+    {
+      "id": 178,
+      "start": 747.8,
+      "end": 757.603,
+      "text": " cădem undeva, putem să nimerim într-o situație să ne traumăm și atunci deja lăsăm tot și trebuie să scoatem pompierul traumat dar asta durează",
+      "id_user": 1
+    },
+    {
+      "id": 179,
+      "start": 757.826,
+      "end": 763.856,
+      "text": " timp și efort, mai ales dacă este o persoană care ne așteaptă undeva în altă cameră să fie evacuată",
+      "id_user": 1
+    },
+    {
+      "id": 180,
+      "start": 764.0,
+      "end": 774.0,
+      "text": " Dacă avem posibilitate să-l evacuăm imediat, atunci două persoane îl apucă aici așa și-l trag pe jos nu-l ridică în sus",
+      "id_user": 1
+    },
+    {
+      "id": 181,
+      "start": 774.0,
+      "end": 777.04,
+      "text": " că sus e fum și evacuăm câte un picuț, dacă",
+      "id_user": 1
+    },
+    {
+      "id": 182,
+      "start": 777.532,
+      "end": 783.923,
+      "text": " persoana este blocată într-o cameră, este s-o închis într-o cameră care nu arde focul",
+      "id_user": 1
+    },
+    {
+      "id": 183,
+      "start": 784.0,
+      "end": 790.48,
+      "text": " Dar trebuie să trecem printr-o zonă unde arde, atunci noi mai bine lăsăm persoana acolo și începem stingerea focarului",
+      "id_user": 1
+    },
+    {
+      "id": 184,
+      "start": 790.48,
+      "end": 797.326,
+      "text": " Dacă este posibilitate, ne întoarcem și mai luăm un aparat cu aer comprimat pentru persoana care așteaptă să fie evacuată",
+      "id_user": 1
+    },
+    {
+      "id": 185,
+      "start": 797.326,
+      "end": 807.211,
+      "text": " Iarăși, dacă e la etajul superior, cinci patru, chemăm autoscara de intervenție, putem evacua pe la balcon, pe la fereastră",
+      "id_user": 1
+    },
+    {
+      "id": 186,
+      "start": 807.331,
+      "end": 809.327,
+      "text": " Ești medic, da, da nu ești Dumnezeu",
+      "id_user": 3
+    },
+    {
+      "id": 187,
+      "start": 810.425,
+      "end": 820.224,
+      "text": " Nu poți face tu chiar tot, da, noi ne străduim, da, noi acționăm rapid, da, noi implementăm toate cunoștințele noastre care ne s-o oferit pe parcursul învățăturii",
+      "id_user": 3
+    },
+    {
+      "id": 188,
+      "start": 820.409,
+      "end": 824.673,
+      "text": " Dar din păcate lucrurile acestea nu permanent depinde de medic",
+      "id_user": 3
+    },
+    {
+      "id": 189,
+      "start": 825.06,
+      "end": 832.02,
+      "text": " Pentru că sunt cazuri în profesia mea am întâlnit grav, extrem de grav În timpul transportării poate să dea",
+      "id_user": 3
+    },
+    {
+      "id": 190,
+      "start": 832.02,
+      "end": 834.716,
+      "text": " și complicații, chiar și până la stop să ajungă",
+      "id_user": 3
+    },
+    {
+      "id": 191,
+      "start": 835.22,
+      "end": 839.1,
+      "text": " resuscităm cu succes și trăiește mai departe dar sunt cazuri",
+      "id_user": 3
+    },
+    {
+      "id": 192,
+      "start": 840.147,
+      "end": 841.769,
+      "text": " când îți pare că el nu este grav",
+      "id_user": 3
+    },
+    {
+      "id": 193,
+      "start": 842.465,
+      "end": 848.0,
+      "text": " Așa și așa, da ajungem la spital, da îl înmânăm medicilor în primire",
+      "id_user": 3
+    },
+    {
+      "id": 194,
+      "start": 848.5,
+      "end": 850.63,
+      "text": " Și când afli că peste o zi, două, el a decedat",
+      "id_user": 3
+    },
+    {
+      "id": 195,
+      "start": 851.0,
+      "end": 854.24,
+      "text": " Sunt niște lucruri care nu se lămuresc din păcate",
+      "id_user": 3
+    },
+    {
+      "id": 196,
+      "start": 854.24,
+      "end": 859.9,
+      "text": " Noi, medicii de urgență, medicii reanimatologi, cam am auzit eu o vorbă așa de la un medic mai",
+      "id_user": 3
+    },
+    {
+      "id": 197,
+      "start": 859.9,
+      "end": 862.558,
+      "text": " experimentat mi-a spus că noi suntem foarte aproape de Dumnezeu",
+      "id_user": 3
+    },
+    {
+      "id": 198,
+      "start": 862.836,
+      "end": 869.178,
+      "text": " Și lucrurile acestea care se întâmplă cu noi, nu numai depind de noi, ele parcă te mai dirijează cineva",
+      "id_user": 3
+    },
+    {
+      "id": 199,
+      "start": 869.384,
+      "end": 873.192,
+      "text": " În cazurile acestea care sunt grele, simți că este cineva din spate",
+      "id_user": 3
+    },
+    {
+      "id": 200,
+      "start": 873.269,
+      "end": 878.25,
+      "text": " Ce ține de salvare, noi mai mult avem posibilitatea de a salva persoanele anume",
+      "id_user": 2
+    },
+    {
+      "id": 201,
+      "start": 878.25,
+      "end": 883.247,
+      "text": " când bazinele acvatice sunt înghețate, atunci victima a căzut",
+      "id_user": 2
+    },
+    {
+      "id": 202,
+      "start": 884.1,
+      "end": 889.625,
+      "text": " agațe de gheață, un timp oarecare până a parveni hipotermia ea este conștientă",
+      "id_user": 2
+    },
+    {
+      "id": 203,
+      "start": 889.625,
+      "end": 894.136,
+      "text": " Noi am reușit să salvăm chiar și persoanele de la Ghidighici",
+      "id_user": 2
+    },
+    {
+      "id": 204,
+      "start": 894.546,
+      "end": 898.173,
+      "text": " Și care o fost agățate de gheață și de la strada mesagerului",
+      "id_user": 2
+    },
+    {
+      "id": 205,
+      "start": 898.173,
+      "end": 904.676,
+      "text": " Cum am ajuns la victimă? Ce ține de dotare, noi la moment într-adevăr suntem dotați cu echipament și utilaj de",
+      "id_user": 2
+    },
+    {
+      "id": 206,
+      "start": 904.676,
+      "end": 909.731,
+      "text": " ultimă generație, costumele am îmbrăcat tot tot lucrul acesta, se petrece din mers",
+      "id_user": 2
+    },
+    {
+      "id": 207,
+      "start": 909.731,
+      "end": 913.309,
+      "text": " Până ajunge la fața locului, deja suntem echipați",
+      "id_user": 2
+    },
+    {
+      "id": 208,
+      "start": 913.793,
+      "end": 919.196,
+      "text": " În utilajul nostru avem o sanie de salvare specială pentru salvarea persoanelor de pe gheață",
+      "id_user": 2
+    },
+    {
+      "id": 209,
+      "start": 919.591,
+      "end": 926.389,
+      "text": " Sania se pune pe gheață se împinge în direcția punctului unde trebuie să ajungem de-a de-a salva",
+      "id_user": 2
+    },
+    {
+      "id": 210,
+      "start": 926.389,
+      "end": 935.629,
+      "text": " Doi salvatori stau pe sanie, au luat victima, au ridicat-o pe sanie, se dă semnalul la persoanele care stau pe mal la salvatori",
+      "id_user": 2
+    },
+    {
+      "id": 211,
+      "start": 935.629,
+      "end": 938.667,
+      "text": " Și se extrage de urgență la la mal",
+      "id_user": 2
+    },
+    {
+      "id": 212,
+      "start": 938.803,
+      "end": 942.972,
+      "text": " Ajungând la mal, îl dezbrăcăm complet deja în mașină",
+      "id_user": 2
+    },
+    {
+      "id": 213,
+      "start": 942.972,
+      "end": 953.61,
+      "text": " Începem să-i facem careva elemente, ca cum ar fi frecarea da a pielei, îi dăm băuturi călduroase",
+      "id_user": 2
+    },
+    {
+      "id": 214,
+      "start": 953.878,
+      "end": 960.749,
+      "text": " Într-același timp, sunăm și la unu unu doi pentru a transmite și o ambulanță",
+      "id_user": 2
+    },
+    {
+      "id": 215,
+      "start": 960.749,
+      "end": 968.0,
+      "text": " Atunci, într-adevăr, ești mândru și echipa e mândră de de sine că a făcut un lucru",
+      "id_user": 2
+    },
+    {
+      "id": 216,
+      "start": 968.0,
+      "end": 970.0,
+      "text": " bun, am salvat viața cuiva",
+      "id_user": 2
+    },
+    {
+      "id": 217,
+      "start": 970.165,
+      "end": 976.0,
+      "text": " În casa cuiva, din nou, va fi bucurie și fericire cu toți acasă împreună",
+      "id_user": 2
+    },
+    {
+      "id": 218,
+      "start": 976.165,
+      "end": 982.195,
+      "text": " Recent, poate vreo trei ani în urmă, un caz care m-a făcut să mă uită altfel la profesie",
+      "id_user": 3
+    },
+    {
+      "id": 219,
+      "start": 982.195,
+      "end": 989.405,
+      "text": " Un domn de șaizeci și trei șaizeci și patru de ani cu dureri toracice, vreo două trei ore suporta dureri toracice",
+      "id_user": 3
+    },
+    {
+      "id": 220,
+      "start": 989.405,
+      "end": 991.84,
+      "text": " Soția nu vroia să cheme urgența",
+      "id_user": 3
+    },
+    {
+      "id": 221,
+      "start": 992.0,
+      "end": 995.913,
+      "text": " Spunea, mă rog, stomacul, poate nu știu, poate pancreasul",
+      "id_user": 3
+    },
+    {
+      "id": 222,
+      "start": 996.617,
+      "end": 998.342,
+      "text": " Ceva numai nu genul de inimă",
+      "id_user": 3
+    },
+    {
+      "id": 223,
+      "start": 998.342,
+      "end": 1002.688,
+      "text": " Până la urmă, feciorul aflându-se în alt oraș, nu era în Moldova",
+      "id_user": 3
+    },
+    {
+      "id": 224,
+      "start": 1003.173,
+      "end": 1004.267,
+      "text": " A solicitat urgența",
+      "id_user": 3
+    },
+    {
+      "id": 225,
+      "start": 1004.47,
+      "end": 1012.062,
+      "text": " La fața locului, clasic, sudoare reci, dureri retrosternale, poziție pe șezut",
+      "id_user": 3
+    },
+    {
+      "id": 226,
+      "start": 1012.062,
+      "end": 1015.823,
+      "text": " Ținându-se de piept, cardiograma, evident, infarct",
+      "id_user": 3
+    },
+    {
+      "id": 227,
+      "start": 1016.0,
+      "end": 1020.0,
+      "text": " Momental a fost acordat ajutor medical, tensiune era țin minte era joasă",
+      "id_user": 3
+    },
+    {
+      "id": 228,
+      "start": 1020.117,
+      "end": 1021.633,
+      "text": " În șoc cardiogen era domnul",
+      "id_user": 3
+    },
+    {
+      "id": 229,
+      "start": 1022.72,
+      "end": 1025.2,
+      "text": " vreo jumătate de oră, treizeci patruzeci minute s-o lucrat acasă",
+      "id_user": 3
+    },
+    {
+      "id": 230,
+      "start": 1025.2,
+      "end": 1029.163,
+      "text": " Până și să fie transportați, să nu apară careva complicații în timpul transportării",
+      "id_user": 3
+    },
+    {
+      "id": 231,
+      "start": 1029.327,
+      "end": 1032.352,
+      "text": " Transportat cu succes la Med Parc, era într-o duminică",
+      "id_user": 3
+    },
+    {
+      "id": 232,
+      "start": 1032.448,
+      "end": 1036.17,
+      "text": " o făcut intervenția tot bine și până în ziua de azi el trăiește",
+      "id_user": 3
+    },
+    {
+      "id": 233,
+      "start": 1036.332,
+      "end": 1040.874,
+      "text": " Am salvat mai mulți oameni, nu chiar așa ca în filme, o fost cazuri",
+      "id_user": 1
+    },
+    {
+      "id": 234,
+      "start": 1040.874,
+      "end": 1045.401,
+      "text": " când persoanele se aflau la balcon și aveau nevoie să fie",
+      "id_user": 1
+    },
+    {
+      "id": 235,
+      "start": 1045.655,
+      "end": 1049.657,
+      "text": " salvate deoarece ardea o cameră și bucătăria",
+      "id_user": 1
+    },
+    {
+      "id": 236,
+      "start": 1049.817,
+      "end": 1057.3,
+      "text": " Și atunci am decis să echipăm persoanele câte un aparat cu aer comprimat și mască",
+      "id_user": 1
+    },
+    {
+      "id": 237,
+      "start": 1057.3,
+      "end": 1059.686,
+      "text": " Și să-i scoatem din încăpere",
+      "id_user": 1
+    },
+    {
+      "id": 238,
+      "start": 1060.0,
+      "end": 1064.952,
+      "text": " Colegii care erau cu mine se ocupau cu stingerea incendiilor, eu am intrat",
+      "id_user": 1
+    },
+    {
+      "id": 239,
+      "start": 1064.952,
+      "end": 1067.087,
+      "text": " la balcon unde se aflau persoanele",
+      "id_user": 1
+    },
+    {
+      "id": 240,
+      "start": 1067.087,
+      "end": 1073.815,
+      "text": " I-am îmbrăcat masca, i-am îmbrăcat aparatul și am scos mai întâi pe doamna în coridor",
+      "id_user": 1
+    },
+    {
+      "id": 241,
+      "start": 1074.0,
+      "end": 1076.71,
+      "text": " Și pe urmă m-am întors și l-am evacuat și pe bărbat",
+      "id_user": 1
+    },
+    {
+      "id": 242,
+      "start": 1077.0,
+      "end": 1081.555,
+      "text": " La ce, când am scos aparatul de pe domn, doamna o spus că",
+      "id_user": 1
+    },
+    {
+      "id": 243,
+      "start": 1081.555,
+      "end": 1088.401,
+      "text": " Îmi cer scuze, dar puteți să mai intrați o dată în apartament, în cameră și să-mi scoateți niște haine, că era afară frig",
+      "id_user": 1
+    },
+    {
+      "id": 244,
+      "start": 1088.543,
+      "end": 1091.595,
+      "text": " da ei erau cum erau îmbrăcați în casă și zic nici o problemă",
+      "id_user": 1
+    },
+    {
+      "id": 245,
+      "start": 1091.65,
+      "end": 1097.006,
+      "text": " Colegii mei stângeau bucătăria, stângeau o cameră și eu m-am dus în camera ceea care erau lângă balcon",
+      "id_user": 1
+    },
+    {
+      "id": 246,
+      "start": 1097.006,
+      "end": 1100.915,
+      "text": " Am luat care haine i-am găsit și i-am scos în scară",
+      "id_user": 1
+    },
+    {
+      "id": 247,
+      "start": 1101.0,
+      "end": 1106.82,
+      "text": " Am avut un caz chiar pe Izmail, la orele opt seara, era noapte de acum",
+      "id_user": 4
+    },
+    {
+      "id": 248,
+      "start": 1106.85,
+      "end": 1113.95,
+      "text": " Când am ajuns doamna din ăștia, eu când am ajuns cu cu luminile de la mașină, am văzut-o de acum unde-i și",
+      "id_user": 4
+    },
+    {
+      "id": 249,
+      "start": 1114.0,
+      "end": 1120.435,
+      "text": " Noi, repede, am stopat și toți, toată echipa am ajutat, am primit nașterea ușurel și bine",
+      "id_user": 4
+    },
+    {
+      "id": 250,
+      "start": 1120.951,
+      "end": 1122.511,
+      "text": " Și am dus-o la spital mai departe",
+      "id_user": 4
+    },
+    {
+      "id": 251,
+      "start": 1122.597,
+      "end": 1124.535,
+      "text": " Dar nașterea am primit-o afară, pe iarbă",
+      "id_user": 4
+    },
+    {
+      "id": 252,
+      "start": 1124.496,
+      "end": 1125.235,
+      "text": " Pe strada Izmail?",
+      "id_user": 7
+    },
+    {
+      "id": 253,
+      "start": 1125.342,
+      "end": 1131.0,
+      "text": " Pe strada Izmail, după podul, acolo la oprire, ea o născut pe iarbă",
+      "id_user": 4
+    },
+    {
+      "id": 254,
+      "start": 1131.0,
+      "end": 1133.91,
+      "text": " Toată echipa nu știam care și cum mai repede să ajutăm",
+      "id_user": 4
+    },
+    {
+      "id": 255,
+      "start": 1134.0,
+      "end": 1138.532,
+      "text": " Noi suntem echipă, nu suntem șoferi și gata, noi suntem echipă care lucrăm împreună",
+      "id_user": 4
+    },
+    {
+      "id": 256,
+      "start": 1138.899,
+      "end": 1142.869,
+      "text": " Cum spune medicul, noi trebuie să facem după ce spune medicul, ascultăm medicul",
+      "id_user": 4
+    },
+    {
+      "id": 257,
+      "start": 1143.0,
+      "end": 1149.15,
+      "text": " De ghidigici am vorbit, vorbim de doi adolescenți care au fost salvați de pe strada mesagerului",
+      "id_user": 2
+    },
+    {
+      "id": 258,
+      "start": 1149.15,
+      "end": 1155.276,
+      "text": " Asta o fost prin două mii 17, am primit un apel la orele 11, undeva noaptea",
+      "id_user": 2
+    },
+    {
+      "id": 259,
+      "start": 1155.359,
+      "end": 1160.895,
+      "text": " Atunci am intervenit cu echipa, nu avem încă sanie de salvare, dar avem costume, eram dotați",
+      "id_user": 2
+    },
+    {
+      "id": 260,
+      "start": 1160.895,
+      "end": 1168.523,
+      "text": " costume tip uscat, am ajuns la timp, copiii ei strigau ajutor, ei stăteau agățați de gheață da",
+      "id_user": 2
+    },
+    {
+      "id": 261,
+      "start": 1168.793,
+      "end": 1172.73,
+      "text": " Picioarele erau în apă, practic numai capul era la suprafață",
+      "id_user": 2
+    },
+    {
+      "id": 262,
+      "start": 1172.73,
+      "end": 1178.805,
+      "text": " Eu cred că să mai întârziat acolo cu un minut, deja nu mai era o șansă să salvăm acești copii",
+      "id_user": 2
+    },
+    {
+      "id": 263,
+      "start": 1178.86,
+      "end": 1187.7,
+      "text": " Dar noi am reușit în timp, i-am extras, i-am acordat primul ajutor medical, i-am băgat la noi în mașină, da i-am încălzit",
+      "id_user": 2
+    },
+    {
+      "id": 264,
+      "start": 1188.62,
+      "end": 1193.273,
+      "text": " După aceea o venit ambulanța și i-a luat la la spital",
+      "id_user": 2
+    },
+    {
+      "id": 265,
+      "start": 1193.603,
+      "end": 1204.219,
+      "text": " Atunci, într-adevăr, noi am fost mândri cu cu echipa, prima intervenție a noastră, unde, într-adevăr, noi am salvat acești copii, doi copii și este o bucurie",
+      "id_user": 2
+    },
+    {
+      "id": 266,
+      "start": 1204.313,
+      "end": 1208.37,
+      "text": " Era un caz, vreo patru ani în urmă era, dar să vă spun că tot e bine",
+      "id_user": 3
+    },
+    {
+      "id": 267,
+      "start": 1208.859,
+      "end": 1212.196,
+      "text": " E o resuscitare cu succes, doamna de vreo șaptezeci de ani era",
+      "id_user": 3
+    },
+    {
+      "id": 268,
+      "start": 1212.493,
+      "end": 1219.373,
+      "text": " patologie cardiacă cronică, că statea la evidență la medicul de familie foarte exemplară, primea tratament, adică n-ai de ce te anini",
+      "id_user": 3
+    },
+    {
+      "id": 269,
+      "start": 1219.373,
+      "end": 1227.172,
+      "text": " Mi-a solicitat la faptul că acuză și disconfort în regiunea toracică, la cardiogramă se depistează infarct",
+      "id_user": 3
+    },
+    {
+      "id": 270,
+      "start": 1227.379,
+      "end": 1233.308,
+      "text": " Peste zece 15 minute, ea în fața noastră, în fața echipei, face stop cardiorespirator",
+      "id_user": 3
+    },
+    {
+      "id": 271,
+      "start": 1233.394,
+      "end": 1243.0,
+      "text": " Evident, prompt intervenim la stop cardiorespirator, începem masajul, resuscităm douăzeci și cinci treizeci de minute, nu, nu se pornește inima",
+      "id_user": 3
+    },
+    {
+      "id": 272,
+      "start": 1243.0,
+      "end": 1252.0,
+      "text": " În așa caz, medicul care este răspunzător de echipă și care este capul echipei, evident spune stop, resuscitare, constatăm decesul",
+      "id_user": 3
+    },
+    {
+      "id": 273,
+      "start": 1252.36,
+      "end": 1258.09,
+      "text": " Și nici nu am dovedit să spun stop că a apărut ritmul, ritm pe monitor, era într-adevăr un miracol",
+      "id_user": 3
+    },
+    {
+      "id": 274,
+      "start": 1258.816,
+      "end": 1269.0,
+      "text": " Cum a fost, nu știu. Eu până în ziua de azi îmi dau întrebarea, întâmplător? Nu știu. Înseamnă că cel de sus avea zile de trăit",
+      "id_user": 3
+    },
+    {
+      "id": 275,
+      "start": 1269.405,
+      "end": 1274.94,
+      "text": " Cazurile acestea din fericire sunt foarte multe la noi în profesia noastră, nu numai legate de mine, dar și de alți colegi",
+      "id_user": 3
+    },
+    {
+      "id": 276,
+      "start": 1275.24,
+      "end": 1281.405,
+      "text": " Pentru că ne mai întâlnim, vă dați seama, ne mai întâlnim la o cafea, la o perfecționare, chiar și discutăm cazuri de acestea, ieșite din comun",
+      "id_user": 3
+    },
+    {
+      "id": 277,
+      "start": 1282.6,
+      "end": 1289.07,
+      "text": " chiar m-a m-a impresionat și chiar m-a remarcat pentru că stai și te gândești, vezi într-adevăr, nu chiar tot depinde de tine",
+      "id_user": 3
+    },
+    {
+      "id": 278,
+      "start": 1289.359,
+      "end": 1292.0,
+      "text": " Da, faci tot ce e posibil, dar nu depinde chiar tot de tine",
+      "id_user": 3
+    },
+    {
+      "id": 279,
+      "start": 1292.16,
+      "end": 1295.0,
+      "text": " Nu e chiar ca în filme, dar se aseamănă",
+      "id_user": 1
+    },
+    {
+      "id": 280,
+      "start": 1295.24,
+      "end": 1304.62,
+      "text": " Ca să înțelegeți, pentru mine când când eram mai mic și mă uitam la filme, că sunt mai multe filme despre pompieri, sunt filme despre incendii cum",
+      "id_user": 1
+    },
+    {
+      "id": 281,
+      "start": 1304.933,
+      "end": 1311.281,
+      "text": " fuge pompierul cu persoana în mână și aici tot arde în flăcări, nu-i chiar așa",
+      "id_user": 1
+    },
+    {
+      "id": 282,
+      "start": 1311.281,
+      "end": 1319.0,
+      "text": " Când arde nu se vede nimic, e fum, tot plin cu fum și atunci nu poți așa să fugi cu persoana în mâini",
+      "id_user": 1
+    },
+    {
+      "id": 283,
+      "start": 1320.488,
+      "end": 1327.657,
+      "text": " Dacă, elementar să ne gândim că echipamentul nostru cântărește cel puțin douăzeci ceva de kilograme, numai echipamentul",
+      "id_user": 1
+    },
+    {
+      "id": 284,
+      "start": 1327.657,
+      "end": 1336.593,
+      "text": " Și plus persoana aceea care mai are optzeci de kilograme, cam nu prea ți-a fugi sau ți-a face efort",
+      "id_user": 1
+    },
+    {
+      "id": 285,
+      "start": 1336.593,
+      "end": 1343.465,
+      "text": " Metodele de evacuare sunt un pic mai altfel, cum am mai spus pe jos, evacuăm câte două persoane, facem tot posibilul",
+      "id_user": 1
+    },
+    {
+      "id": 286,
+      "start": 1343.465,
+      "end": 1352.154,
+      "text": " Am avut momente când poliția se afla alături și că o văzut că nu ne cedează nouă și ... se implicau ei și cu sirena lor și ne faceau drumul ca să",
+      "id_user": 4
+    },
+    {
+      "id": 287,
+      "start": 1352.154,
+      "end": 1353.65,
+      "text": " trecem mai repede ambuteajul",
+      "id_user": 4
+    },
+    {
+      "id": 288,
+      "start": 1354.0,
+      "end": 1361.517,
+      "text": " Știți, am avut caz când un copil se pierdea cunoștința și eram nevoit să merg pe contrasens",
+      "id_user": 4
+    },
+    {
+      "id": 289,
+      "start": 1361.517,
+      "end": 1370.734,
+      "text": " Că medicul spunea cât mai repede, da am ajuns cât mai repede la spitalul numărul trei de copii Ignatenco și o fost salvat acolo copilul",
+      "id_user": 4
+    },
+    {
+      "id": 290,
+      "start": 1370.734,
+      "end": 1379.0,
+      "text": " fiindcă că noi în mașină nu dovedeam să-l, Era mai greu, din mers cu viteză o sută la oră, cam medicul nu poate face nimic în mașină",
+      "id_user": 4
+    },
+    {
+      "id": 291,
+      "start": 1379.133,
+      "end": 1383.485,
+      "text": " de acum când am ajuns la spitalul o venit mai mulți medici și o fost tot bine, copilul s-o salvat",
+      "id_user": 4
+    },
+    {
+      "id": 292,
+      "start": 1383.485,
+      "end": 1389.776,
+      "text": " L-am luat pe tata cu mine chiar în mașină, fiindcă el retrăia tare, dar nu i-am dat voie de urmă cu medicii ca să nu se",
+      "id_user": 4
+    },
+    {
+      "id": 293,
+      "start": 1389.963,
+      "end": 1397.87,
+      "text": " vâre el acolo să. Da sunt cazuri când părinții stau împrejurul mașinii, dar noi medicul își face lucrul în mașină Și apoi eu mă dau jos",
+      "id_user": 4
+    },
+    {
+      "id": 294,
+      "start": 1397.87,
+      "end": 1402.359,
+      "text": " să-i calmez, să-i liniștesc, să-i se primește, știți? ei încep a",
+      "id_user": 4
+    },
+    {
+      "id": 295,
+      "start": 1402.546,
+      "end": 1409.0,
+      "text": " A se liniști dacă începi a vorbi cu dânșii mai le lămurești, stați așa, iată acum așa, că medicul e bun, medicul așa",
+      "id_user": 4
+    },
+    {
+      "id": 296,
+      "start": 1409.0,
+      "end": 1416.777,
+      "text": " medicul a să facă tot posibilul și îi pot calma, că altfel trag de ușă, sunt cazuri, da, ei vor să vadă ce face medicul",
+      "id_user": 4
+    },
+    {
+      "id": 297,
+      "start": 1417.0,
+      "end": 1421.24,
+      "text": " Da nu-i normal să vadă el ce face medicul, medicul își face lucrul care trebuie",
+      "id_user": 4
+    },
+    {
+      "id": 298,
+      "start": 1421.24,
+      "end": 1431.023,
+      "text": " Din trei mii patru sute de bazine acvatice din Republica Moldova, așa sunt aproximativ, vizibilitatea e zero în toate",
+      "id_user": 2
+    },
+    {
+      "id": 299,
+      "start": 1431.282,
+      "end": 1436.0,
+      "text": " bazinele adică tot lucru care se face sub apă se face pe pipăite",
+      "id_user": 2
+    },
+    {
+      "id": 300,
+      "start": 1436.25,
+      "end": 1440.322,
+      "text": " Nu știu de din ce considerente, apa așa e murdară",
+      "id_user": 2
+    },
+    {
+      "id": 301,
+      "start": 1440.322,
+      "end": 1446.0,
+      "text": " Numai în Nistru când temperatura apei se începe da a răci, atunci apare vizibilitate",
+      "id_user": 2
+    },
+    {
+      "id": 302,
+      "start": 1446.08,
+      "end": 1449.12,
+      "text": " deoarece mor toate moleculele, algele și care sunt",
+      "id_user": 2
+    },
+    {
+      "id": 303,
+      "start": 1449.12,
+      "end": 1452.422,
+      "text": " Dar în bazine, vizibilitatea e zero",
+      "id_user": 2
+    },
+    {
+      "id": 304,
+      "start": 1452.852,
+      "end": 1457.813,
+      "text": " De aceea și foloseam coarda de semnalizare pentru a da semnale?",
+      "id_user": 2
+    },
+    {
+      "id": 305,
+      "start": 1458.117,
+      "end": 1459.492,
+      "text": " Voi înotați sau mergeți?",
+      "id_user": 7
+    },
+    {
+      "id": 306,
+      "start": 1459.64,
+      "end": 1463.0,
+      "text": " Întrebarea e foarte bună dacă înotăm sau mergem",
+      "id_user": 2
+    },
+    {
+      "id": 307,
+      "start": 1463.2,
+      "end": 1471.84,
+      "text": " Dacă vizibilitatea este, atunci luăm labele de de înot, regulăm flotabilitatea undeva să fim o jumătate de metru de la fundul apei",
+      "id_user": 2
+    },
+    {
+      "id": 308,
+      "start": 1472.0,
+      "end": 1477.73,
+      "text": " Și pe labe încetişor ne deplasăm în direcțiile unde unde trebuie să ne ducem, da",
+      "id_user": 2
+    },
+    {
+      "id": 309,
+      "start": 1478.0,
+      "end": 1492.48,
+      "text": " Dacă vizibilitatea e e zero, cum de obicei la noi, atunci noi fără de labe mergem pur și simplu practic pe burtă, ne punem în picioare, da, așezați și pipăim cu mâinile înainte",
+      "id_user": 2
+    },
+    {
+      "id": 310,
+      "start": 1492.48,
+      "end": 1505.258,
+      "text": " De ce nu luăm labele de înot când vizibilitatea e zero? Deoarece este riscul să intrăm într-o plasă sau să intrăm în careva copaci care-s înecați sub apă și să ne creăm careva probleme însuși nouă",
+      "id_user": 2
+    },
+    {
+      "id": 311,
+      "start": 1505.258,
+      "end": 1512.25,
+      "text": " Mai sunt cazuri destul de haioase și destul de concomitent să spunem, haios trist pentru că",
+      "id_user": 3
+    },
+    {
+      "id": 312,
+      "start": 1512.545,
+      "end": 1518.1,
+      "text": " vine doamna la unitatea primiri urgente da ea deja știe ce vrea ea vrea analiza de sânge",
+      "id_user": 3
+    },
+    {
+      "id": 313,
+      "start": 1518.1,
+      "end": 1522.569,
+      "text": " analiza de urină, radiografie și picurat obligator să fie copilul meu picurat",
+      "id_user": 3
+    },
+    {
+      "id": 314,
+      "start": 1522.569,
+      "end": 1524.281,
+      "text": " Zic, unde ați văzut dumneavoastră acestea?",
+      "id_user": 3
+    },
+    {
+      "id": 315,
+      "start": 1524.281,
+      "end": 1530.454,
+      "text": " Pentru că el trebuiește mai întâi examinat să-și facă o părere oarecare medicul despre starea sănătății a lui pe Google",
+      "id_user": 3
+    },
+    {
+      "id": 316,
+      "start": 1530.454,
+      "end": 1533.178,
+      "text": " Eu am pus simptomele și ne-o spus ce trebuie să facem",
+      "id_user": 3
+    },
+    {
+      "id": 317,
+      "start": 1533.462,
+      "end": 1540.158,
+      "text": " Păi bine, dacă în cazul de față, dumneavoastră, vă dați mai mare încredere la Google, tratați-l acasă",
+      "id_user": 3
+    },
+    {
+      "id": 318,
+      "start": 1540.46,
+      "end": 1544.497,
+      "text": " Noi învățăm câte nouă, zece ani, 11 ani învățăm",
+      "id_user": 3
+    },
+    {
+      "id": 319,
+      "start": 1545.518,
+      "end": 1555.15,
+      "text": " Și noi nu le știm pe toate, dar alte persoane, adică consultând careva surse necredibile, se dau cu părerea",
+      "id_user": 3
+    },
+    {
+      "id": 320,
+      "start": 1555.15,
+      "end": 1562.121,
+      "text": " Este destul de alarmant situația asta pentru că, mă rog, el ceea ce știe, știe",
+      "id_user": 3
+    },
+    {
+      "id": 321,
+      "start": 1562.121,
+      "end": 1568.153,
+      "text": " Sunt cazuri la noi la urgență, se pun în fața autosanitarei și noi nu vrem încolo, noi vrem acolo să plecăm",
+      "id_user": 3
+    },
+    {
+      "id": 322,
+      "start": 1568.388,
+      "end": 1571.292,
+      "text": " pierd zece, 15, douăzeci de minute pentru a convinge bolnavul",
+      "id_user": 3
+    },
+    {
+      "id": 323,
+      "start": 1571.653,
+      "end": 1578.998,
+      "text": " Este oarecare protocol, este oarecare spital care este de gardă, el ne primește, lămurim dar asta",
+      "id_user": 3
+    },
+    {
+      "id": 324,
+      "start": 1578.998,
+      "end": 1586.5,
+      "text": " tot este o resursă, resursă atât psihologică a medicului să lămurească, resursă de timp, în cazul de față că este vorba de o urgență",
+      "id_user": 3
+    },
+    {
+      "id": 325,
+      "start": 1586.647,
+      "end": 1593.0,
+      "text": " Dacă ai solicitat urgența, tu n-ai în contro să te duci, tu soliciți urgența și în așa caz conformează-te",
+      "id_user": 3
+    },
+    {
+      "id": 326,
+      "start": 1593.0,
+      "end": 1603.0,
+      "text": " Cel mai greu incendiu din punct de vedere psihologic o fost în anul două mii 16, când la pe strada uzinelor am stins un depozit",
+      "id_user": 1
+    },
+    {
+      "id": 327,
+      "start": 1603.0,
+      "end": 1614.683,
+      "text": " Initial când mergeam spre locul incendiului, am văzut un fum negru și dens și atunci eu deja mi-am dat seama că aici avem foarte mult de lucru",
+      "id_user": 1
+    },
+    {
+      "id": 328,
+      "start": 1614.683,
+      "end": 1620.114,
+      "text": " Când am ajuns deja ieșea fum foarte negru pe jumătate de încăpere",
+      "id_user": 1
+    },
+    {
+      "id": 329,
+      "start": 1620.336,
+      "end": 1624.375,
+      "text": " Era ceva strașnic, dar am început să stingem",
+      "id_user": 1
+    },
+    {
+      "id": 330,
+      "start": 1625.185,
+      "end": 1631.698,
+      "text": " Poate și era să stingem incendiul mai repede dacă construcția era să facă față",
+      "id_user": 1
+    },
+    {
+      "id": 331,
+      "start": 1631.698,
+      "end": 1639.958,
+      "text": " Dar la așa temperatură și mult foc cât o fost acolo, construcția a început să se miște",
+      "id_user": 1
+    },
+    {
+      "id": 332,
+      "start": 1640.01,
+      "end": 1647.54,
+      "text": " să se modifice și atunci noi am decis să nu ne expunem noi riscului oamenii noștri să nu se prăbușească în orice moment construcția",
+      "id_user": 1
+    },
+    {
+      "id": 333,
+      "start": 1647.54,
+      "end": 1655.14,
+      "text": " Toți salvatorii și pompierii au fost evacuați din clădire și stingerea incendiului era doar din exterior de pe autoscări",
+      "id_user": 1
+    },
+    {
+      "id": 334,
+      "start": 1655.14,
+      "end": 1663.704,
+      "text": " După o perioadă oarecare nici un pompier nu se afla înăuntru și asta nu ne dădea posibilitate să acționăm nemijlocit în locul unde arde",
+      "id_user": 1
+    },
+    {
+      "id": 335,
+      "start": 1663.786,
+      "end": 1665.863,
+      "text": " De asta și-o durat mai multe zile",
+      "id_user": 1
+    },
+    {
+      "id": 336,
+      "start": 1665.863,
+      "end": 1675.873,
+      "text": " Dacă construcția era să reziste la foc și temperatură, atunci noi era să fim nemijlocit la focar și îl lichidam cred că până seara era să fie lichidat da",
+      "id_user": 1
+    },
+    {
+      "id": 337,
+      "start": 1675.873,
+      "end": 1688.076,
+      "text": " Atunci a decedat colegul nostru Ivan și fiind la fața locului și auzind convorbirile pe stația radio toate momentele când băiatul s-a pierdut în fum",
+      "id_user": 1
+    },
+    {
+      "id": 338,
+      "start": 1688.076,
+      "end": 1697.586,
+      "text": " Atunci din punct de vedere psihologic era foarte greu, dar n-am avut încotro și trebuia să înaintăm să continuăm lichidarea focarelor",
+      "id_user": 1
+    },
+    {
+      "id": 339,
+      "start": 1697.586,
+      "end": 1705.632,
+      "text": " Noaptea noi n-am dormit, că noi am rămas acolo până până dimineața, dimineața deja am fost schimbați cu alți colegi",
+      "id_user": 1
+    },
+    {
+      "id": 340,
+      "start": 1705.832,
+      "end": 1717.566,
+      "text": " incendiul o fost de câteva zile, dar după asta nu așa de ușor am putut să revenim la un regim normal de activitate știind că la o sută două sute de metri de tine o decedat colegul tău",
+      "id_user": 1
+    },
+    {
+      "id": 341,
+      "start": 1717.566,
+      "end": 1725.491,
+      "text": " În general într-o activitate de mai mult de douăzeci de ani sunt momente când le înțelegi altfel",
+      "id_user": 3
+    },
+    {
+      "id": 342,
+      "start": 1725.848,
+      "end": 1733.659,
+      "text": " Sunt cazuri care te dezice absolut, uite tot știindu-mă că ești medic",
+      "id_user": 3
+    },
+    {
+      "id": 343,
+      "start": 1733.785,
+      "end": 1738.887,
+      "text": " Și cazurile acestea care dumneavoastră le vreți ca eu să le enumerez, ele sunt multe",
+      "id_user": 3
+    },
+    {
+      "id": 344,
+      "start": 1739.0,
+      "end": 1747.968,
+      "text": " sunt chiar multe unul care mi s-a întipărit foarte tare a fost într-adevăr un accident rutier cu o hemoragie masivă în artera femurală",
+      "id_user": 3
+    },
+    {
+      "id": 345,
+      "start": 1747.968,
+      "end": 1754.401,
+      "text": " Norocul pacientului până la urmă era faptul că prin apropiere se afla și un lucrător medical",
+      "id_user": 3
+    },
+    {
+      "id": 346,
+      "start": 1754.401,
+      "end": 1760.0,
+      "text": " Și a compresat vasul până la sosirea ambulanței noi deja",
+      "id_user": 3
+    },
+    {
+      "id": 347,
+      "start": 1760.273,
+      "end": 1764.637,
+      "text": " eram pregătiți ... s-o comunicat pe telefon că este vorba de o hemoragie destul de masivă",
+      "id_user": 3
+    },
+    {
+      "id": 348,
+      "start": 1764.637,
+      "end": 1769.786,
+      "text": " Am acționat prompt, adică ceea ce-i legat de problema pacientului dat",
+      "id_user": 3
+    },
+    {
+      "id": 349,
+      "start": 1770.19,
+      "end": 1780.0,
+      "text": " Și a scăpat, slava Domnului, e în viață, bine mersi, ne vedem, da, ne mulțumește, da, servim și câte o cafea",
+      "id_user": 3
+    },
+    {
+      "id": 350,
+      "start": 1780.075,
+      "end": 1786.18,
+      "text": " Practic, am rămas prieteni, vedeți de la o întâmplare care e nefericită pentru un om, te leagă pe toată viața",
+      "id_user": 3
+    },
+    {
+      "id": 351,
+      "start": 1786.18,
+      "end": 1794.418,
+      "text": " Am plecat în sub apă fără de cuțit, dar cuțitul, asta e o piesă care obligatoriu, trebuie să fie pe scafandru",
+      "id_user": 2
+    },
+    {
+      "id": 352,
+      "start": 1794.418,
+      "end": 1804.0,
+      "text": " Atunci era iarnă, era frig, cuțitul din dotare, îl puneam în teacă, că am vrut să-l iau cu mine, dar cuțitul cădea din din teacă",
+      "id_user": 2
+    },
+    {
+      "id": 353,
+      "start": 1804.132,
+      "end": 1812.0,
+      "text": " Că pe teacă s-o pus o poșghiță de gheață și cum nu-i dai bunul statului, costă bani și să nu-l pierd sub apă",
+      "id_user": 2
+    },
+    {
+      "id": 354,
+      "start": 1812.517,
+      "end": 1819.0,
+      "text": " L-am lăsat pe mal, am plecat în misiune sub apă, căutat dreapta, stânga, dreapta, stânga",
+      "id_user": 2
+    },
+    {
+      "id": 355,
+      "start": 1819.0,
+      "end": 1826.0,
+      "text": " Până am depistat o o plasă și am vrut atunci, în momentul cela să i-au plasa, s-o ridic, s-o trec în partea ceea de mine",
+      "id_user": 2
+    },
+    {
+      "id": 356,
+      "start": 1826.22,
+      "end": 1835.2,
+      "text": " Și să plec mai departe și în timpul când am ridicat plasa și am dat-o în partea aceea, depasându-se mai departe, am agățat în alt plasă, încă mai puternică",
+      "id_user": 2
+    },
+    {
+      "id": 357,
+      "start": 1836.2,
+      "end": 1843.474,
+      "text": " i-am dat plasa din partea stângă, care deja am trecut ea pe sub eu pe sub ea, m-am aninat și de asta bine și de asta bine",
+      "id_user": 2
+    },
+    {
+      "id": 358,
+      "start": 1843.474,
+      "end": 1853.477,
+      "text": " Am tras ca să rup plasa, dar plasa nu era posibil s-o rup, atunci am tăiat mănușele, chiar și am tăiat și degetele, curgea sânge",
+      "id_user": 2
+    },
+    {
+      "id": 359,
+      "start": 1853.622,
+      "end": 1864.621,
+      "text": " Am vrut să ies la suprafață, că noi este vesta de salvare care o umfli da, chiar e el tot e în componența aparatului cu aer ... comprimat, butelia și-i vesta, atunci",
+      "id_user": 2
+    },
+    {
+      "id": 360,
+      "start": 1864.621,
+      "end": 1873.033,
+      "text": " am apăsat-o, ea s-o umflat și am ridicat, am simțit că am ajuns aproape la suprafața apei, cu mâna eram la suprafață, dar",
+      "id_user": 2
+    },
+    {
+      "id": 361,
+      "start": 1873.033,
+      "end": 1881.769,
+      "text": " Capul era sub apă, m-am liniștit, am desumflat vesta, m-am dus sub apă, am dezbrăcat sub apă din aparatul cu cu aer comprimat",
+      "id_user": 2
+    },
+    {
+      "id": 362,
+      "start": 1881.769,
+      "end": 1891.338,
+      "text": " Detentorul, a doua treaptă o țineam în gură, am întors butelia cum cum avem nevoie, puțin vizibilitate era, m-am liniștit",
+      "id_user": 2
+    },
+    {
+      "id": 363,
+      "start": 1891.338,
+      "end": 1906.911,
+      "text": " Era tot ok că butelia era plină cu cu aer, încetișor am luat și-am descâlcit toate plasele, tot ce mă încurca acolo, am luat butelia cu mine, nici n-am îmbrăcat-o pe spate și am ieșit la suprafață",
+      "id_user": 2
+    },
+    {
+      "id": 364,
+      "start": 1906.911,
+      "end": 1914.525,
+      "text": " Acela o rămas, până la urmă, secretul nostru, dar deja le spun și la alți scafandri acest lucru să nu mai facă",
+      "id_user": 2
+    },
+    {
+      "id": 365,
+      "start": 1914.525,
+      "end": 1924.523,
+      "text": " Deoarece eu sunt secretar în Comisia de Calificare a Scafandrierilor, deja eu instruiesc scafandri pe Republică care vor să vie să facă serviciul la noi",
+      "id_user": 2
+    },
+    {
+      "id": 366,
+      "start": 1924.523,
+      "end": 1931.157,
+      "text": " Chiar dau exemplu pe pe mine, pentru că cuțitul trebuie să fie mereu cu tine",
+      "id_user": 2
+    },
+    {
+      "id": 367,
+      "start": 1931.157,
+      "end": 1939.687,
+      "text": " Cuțit este și în teacă obligatoriu și încă un cuțit este pe mână, adică dublăm lucrurile astea ia , nu unul, dar două cuțite trebuie să fie cu tine",
+      "id_user": 2
+    },
+    {
+      "id": 368,
+      "start": 1939.687,
+      "end": 1949.248,
+      "text": " Conform regulamentului circulației rutiere, noi dacă am inclus girofarul și sunetele sonore, noi suntem obligați ca să ajungem",
+      "id_user": 4
+    },
+    {
+      "id": 369,
+      "start": 1949.248,
+      "end": 1957.622,
+      "text": " ne ducem la o chemare unde pacientul e în pericol, noi trebuie să ajungem cât mai repede, să ajutăm pacientul, că ori și minută contează acum",
+      "id_user": 4
+    },
+    {
+      "id": 370,
+      "start": 1957.622,
+      "end": 1970.142,
+      "text": " Sunt momente când vor să cedeze, da n-au unde să dea într-o parte, e blocat traseul, atunci noi ne gândim cum s-o ies pe partea din față, fac ocolire numai ca să ajungem cât mai repede",
+      "id_user": 4
+    },
+    {
+      "id": 371,
+      "start": 1970.142,
+      "end": 1984.095,
+      "text": " Sunt momente când pe hartă este drum, când ajungem acolo sunt construcții, drumul nu-i mai este și suntem nevoiți cu echipa împreună să luăm tot echipamentul, să plecăm pe jos",
+      "id_user": 4
+    },
+    {
+      "id": 372,
+      "start": 1984.095,
+      "end": 1995.86,
+      "text": " Și la moment când șoferul trebuie să ajute, rămâne mașina, nesupravegheată, ajut ducem echipamentul, pe urmă mă întorc la mașină și caut pe unde să pot ajunge la bolnav",
+      "id_user": 4
+    },
+    {
+      "id": 373,
+      "start": 1996.0,
+      "end": 2004.253,
+      "text": " Da în primul rând trebuie să ajungem să-l salvăm, să-i facem primul ajutor, apoi eu mă întorc și caut loc pe unde să mă vâr cu mașina să ajung la bolnav",
+      "id_user": 4
+    },
+    {
+      "id": 374,
+      "start": 2004.253,
+      "end": 2015.286,
+      "text": " Un domn o uitat mâncarea pe aragaz și-a adormit, vecinii o chemat salvatorii, am intrat în apartament, apartamentul plin cu fum, domnul dormea",
+      "id_user": 1
+    },
+    {
+      "id": 375,
+      "start": 2015.286,
+      "end": 2023.268,
+      "text": " Am început să-l trezim zic, domnule, sculați-vă, sculați-vă, dar noi cum eram în cască, în mască, în haine de luptă, el deschide ochii, ne-a văzut s-a speriat ...",
+      "id_user": 1
+    },
+    {
+      "id": 376,
+      "start": 2023.268,
+      "end": 2028.366,
+      "text": " cine sunteți, cine sunteți, dar eu zic cosmonauții, hai, zburăm de aici",
+      "id_user": 1
+    },
+    {
+      "id": 377,
+      "start": 2028.366,
+      "end": 2035.781,
+      "text": " Și două, trei secunde, domnul n-a înțeles ce-o fost pe urmă o dat seama că-i fum și-o uitat mâncarea și s-o pornit la bucătărie",
+      "id_user": 1
+    },
+    {
+      "id": 378,
+      "start": 2036.11,
+      "end": 2039.727,
+      "text": " zic, gata, hai, hai ieșim din bucătărie, avem grijă noi de mâncarea ta",
+      "id_user": 1
+    },
+    {
+      "id": 379,
+      "start": 2040.383,
+      "end": 2047.167,
+      "text": " Și am evacuat domnul, am deconectat aragazul, am deschis ferestrele să iasă tot fumul, dar o fost vesel",
+      "id_user": 1
+    },
+    {
+      "id": 380,
+      "start": 2047.511,
+      "end": 2058.739,
+      "text": " Au fost cazuri când un dulap cu ... cu oglindă și dacă noi toți suntem echipați în haine de luptă identice, căști identice, mască",
+      "id_user": 1
+    },
+    {
+      "id": 381,
+      "start": 2058.739,
+      "end": 2068.0,
+      "text": " Am intrat în apartament și eu m-am dus în dreapta să caut focarul, da colegul s-o dus în partea stângă și se uită la reflecția lui în oglindă și a crezut că sunt eu",
+      "id_user": 1
+    },
+    {
+      "id": 382,
+      "start": 2068.0,
+      "end": 2076.3,
+      "text": " Și mă întreabă, Eugen, ce ai găsit ce arde? Eugen tăcea, vorbea singur cu el, eu eram în altă cameră, Eugen, de ce taci?",
+      "id_user": 1
+    },
+    {
+      "id": 383,
+      "start": 2076.3,
+      "end": 2078.0,
+      "text": " Eugen, eugen",
+      "id_user": 1
+    },
+    {
+      "id": 384,
+      "start": 2079.0,
+      "end": 2082.847,
+      "text": " zic, uite că sunt aici, da eu o da păi asta e oglindă",
+      "id_user": 1
+    },
+    {
+      "id": 385,
+      "start": 2082.747,
+      "end": 2091.272,
+      "text": " Și atunci ne-am ne-am râs o leacă, am găsit focarul, ardeau niște hârtii într-un colț, tot era bine",
+      "id_user": 1
+    },
+    {
+      "id": 386,
+      "start": 2091.474,
+      "end": 2097.0,
+      "text": " Doar atunci, după asta, și acum ne aducem aminte cum eugen, de ce taci? De ce de ce nu vorbești?",
+      "id_user": 1
+    },
+    {
+      "id": 387,
+      "start": 2097.0,
+      "end": 2107.0,
+      "text": " Am avut totodată o misiune neobișnuită, am plecat la fața locului, acolo era poliția la fața locului, sătenii",
+      "id_user": 2
+    },
+    {
+      "id": 388,
+      "start": 2107.22,
+      "end": 2116.3,
+      "text": " Dar mai mult am vorbit cu poliția, că la data de ieri s-a înecat o o persoană gen feminin",
+      "id_user": 2
+    },
+    {
+      "id": 389,
+      "start": 2116.3,
+      "end": 2121.832,
+      "text": " Mi-au spus aproximativ înălțimea, mi-au spus aproximativ cum arată ea",
+      "id_user": 2
+    },
+    {
+      "id": 390,
+      "start": 2121.91,
+      "end": 2127.88,
+      "text": " Noi avem să suntem dotați cu sonor acustic, de multe ori el nouă ne ușurează, adică intervențiile",
+      "id_user": 2
+    },
+    {
+      "id": 391,
+      "start": 2128.0,
+      "end": 2136.7,
+      "text": " Controlam bazinul acvatic pe suprafața apei, da mi-am luat orientire, am făcut zonele de căutare, am găsit careva obiecte acolo",
+      "id_user": 2
+    },
+    {
+      "id": 392,
+      "start": 2136.7,
+      "end": 2142.487,
+      "text": " interesante care ar trebui de făcut scufundare ca să concretizăm e cadavru sau nu-i cadavru",
+      "id_user": 2
+    },
+    {
+      "id": 393,
+      "start": 2142.487,
+      "end": 2150.0,
+      "text": " În timpul acesta când noi făcem aceste căutări, din partea opusă a bazinului, iese o doamnă",
+      "id_user": 2
+    },
+    {
+      "id": 394,
+      "start": 2150.0,
+      "end": 2158.0,
+      "text": " Ce căutați voi aici? nouă ne întreabă pe noi, Salvatorii, dar noi zic păi avem informații, s-o s-o înecat o persoană, genul feminin",
+      "id_user": 2
+    },
+    {
+      "id": 395,
+      "start": 2158.0,
+      "end": 2162.205,
+      "text": " Da am un un coleg de-a meu, păi dar noi nu pe ea o căutăm",
+      "id_user": 2
+    },
+    {
+      "id": 396,
+      "start": 2162.205,
+      "end": 2167.409,
+      "text": " Am plecat în partea aceea, am luat polițistul, l-am luat în barcă, am trecut în partea asta zic domnul polițist",
+      "id_user": 2
+    },
+    {
+      "id": 397,
+      "start": 2167.409,
+      "end": 2170.0,
+      "text": " îmi pare să mie că noi pe dumneaei o căutăm",
+      "id_user": 2
+    },
+    {
+      "id": 398,
+      "start": 2170.26,
+      "end": 2178.18,
+      "text": " Da, așa într-adevăr și-o fost, noi o căutam pe ea, ea ea a trecut noaptea din compania ceea, a trecut iazul în partea aceea",
+      "id_user": 2
+    },
+    {
+      "id": 399,
+      "start": 2178.18,
+      "end": 2187.16,
+      "text": " Înotând da și înapoi nu s-a nu s-a întors în companie, a dormit undeva prin stufărișuri pe acolo, nu știu",
+      "id_user": 2
+    },
+    {
+      "id": 400,
+      "start": 2187.16,
+      "end": 2197.747,
+      "text": " S-o primit că am avut o o misiune da, o intervenție, dar până la urmă cu final bucurător, adică persoana, uite, a stat în este în viață",
+      "id_user": 2
+    },
+    {
+      "id": 401,
+      "start": 2197.887,
+      "end": 2203.0,
+      "text": " Tot am avut un caz când copilul o înghițit leul, de un leu",
+      "id_user": 4
+    },
+    {
+      "id": 402,
+      "start": 2203.0,
+      "end": 2209.233,
+      "text": " o înghițit, Și l-am dus la centrul mamei și al copilului, că acolo trebuie să-i facă investigație de acum",
+      "id_user": 4
+    },
+    {
+      "id": 403,
+      "start": 2209.325,
+      "end": 2218.675,
+      "text": " ca să-l scoată, majoritatea merg din urma ambulanțelor, părinții care cu copiii, retrăiesc toți, fiind că ca un copil și mai este",
+      "id_user": 4
+    },
+    {
+      "id": 404,
+      "start": 2218.675,
+      "end": 2226.037,
+      "text": " Eu le spun, băi, n-a să ajuți, că n-ai să intri cu copilul acolo, intră numai mămica, pentru și mergi tu la roșu la, poți să rămâi fără permis",
+      "id_user": 4
+    },
+    {
+      "id": 405,
+      "start": 2226.037,
+      "end": 2233.387,
+      "text": " Evident că avem și cazuri neobișnuite în profesia noastră, pentru că apelurile care care le primim de la unu unu doi, pe telefon se primesc",
+      "id_user": 3
+    },
+    {
+      "id": 406,
+      "start": 2233.387,
+      "end": 2237.21,
+      "text": " Oamenii care primesc apeluri nu văd cine este în fața telefonului",
+      "id_user": 3
+    },
+    {
+      "id": 407,
+      "start": 2237.21,
+      "end": 2241.0,
+      "text": " Și trimit autosanitarele pentru a deservi populația",
+      "id_user": 3
+    },
+    {
+      "id": 408,
+      "start": 2241.0,
+      "end": 2249.492,
+      "text": " Și-a fost un caz tot legat cu un copilaș, un an, un an și vreo două luni, mama a telefonat la o serviciul unu unu doi pentru că copilul este neliniștit",
+      "id_user": 3
+    },
+    {
+      "id": 409,
+      "start": 2249.492,
+      "end": 2259.0,
+      "text": " intrăm în casă, da într-adevăr copilul era neliniștit, examinăm copilul, luăm temperatura, examinăm urechiușile, frecvent fac otite și",
+      "id_user": 3
+    },
+    {
+      "id": 410,
+      "start": 2259.273,
+      "end": 2262.633,
+      "text": " Asta și duce la neliniștea copilului",
+      "id_user": 3
+    },
+    {
+      "id": 411,
+      "start": 2262.847,
+      "end": 2268.393,
+      "text": " Burtica parcă nu vedem nimic așa ieșit din comun și întrebăm mama, de când e copilul neliniștit?",
+      "id_user": 3
+    },
+    {
+      "id": 412,
+      "start": 2268.667,
+      "end": 2270.379,
+      "text": " de vreo două, trei ore, maxim",
+      "id_user": 3
+    },
+    {
+      "id": 413,
+      "start": 2270.614,
+      "end": 2279.252,
+      "text": " Având în vedere că deja în spate este o careva experiență, dați să vedem până la urmă ceea ce este adică îl punem pe copil și",
+      "id_user": 3
+    },
+    {
+      "id": 414,
+      "start": 2279.539,
+      "end": 2280.207,
+      "text": " scot pampersul",
+      "id_user": 3
+    },
+    {
+      "id": 415,
+      "start": 2281.303,
+      "end": 2282.342,
+      "text": " Pampersul era plin",
+      "id_user": 3
+    },
+    {
+      "id": 416,
+      "start": 2282.814,
+      "end": 2290.754,
+      "text": " Schimbăm pampersul da, facem procedurile corespunzătoare la sanarea feselor, mămică",
+      "id_user": 3
+    },
+    {
+      "id": 417,
+      "start": 2291.253,
+      "end": 2295.084,
+      "text": " Punem alt pampers, copilul peste cinci minute s-o liniștit, mai era un caz",
+      "id_user": 3
+    },
+    {
+      "id": 418,
+      "start": 2295.084,
+      "end": 2302.0,
+      "text": " eu începeam atunci taman activitatea, fost un apel la unu unu doi că copilul la fel este neliniștit",
+      "id_user": 3
+    },
+    {
+      "id": 419,
+      "start": 2302.0,
+      "end": 2307.0,
+      "text": " Mergem cu asistenta medicală, ne uităm, vedem, copilul n-are nimic",
+      "id_user": 3
+    },
+    {
+      "id": 420,
+      "start": 2307.0,
+      "end": 2312.54,
+      "text": " Ceea ce țin de o patologie careva, noi nu o suspectăm, nici nu o putem s-o depistăm",
+      "id_user": 3
+    },
+    {
+      "id": 421,
+      "start": 2312.54,
+      "end": 2319.0,
+      "text": " Ș-o întrebăm pe mama, care este problema totuși? Știți, el el are o suzetă a lui preferată",
+      "id_user": 3
+    },
+    {
+      "id": 422,
+      "start": 2319.2,
+      "end": 2322.18,
+      "text": " Și iată noi nu putem s-o găsim pe dânsa și de asta el e neliniștit",
+      "id_user": 3
+    },
+    {
+      "id": 423,
+      "start": 2322.271,
+      "end": 2325.0,
+      "text": " Vă dați seama, noi cum să răspunem la întrebarea dată?",
+      "id_user": 3
+    },
+    {
+      "id": 424,
+      "start": 2325.17,
+      "end": 2328.18,
+      "text": " Zic, dați s-o, vedem unde este și era suzeta sub pat, era",
+      "id_user": 3
+    },
+    {
+      "id": 425,
+      "start": 2328.335,
+      "end": 2333.0,
+      "text": " S-o găsit, mă rog, o spălat-o, i-o dat-o și copilul s-o s-o calmat",
+      "id_user": 3
+    },
+    {
+      "id": 426,
+      "start": 2333.0,
+      "end": 2338.46,
+      "text": " Câteodată ne întâlnim la intervenție când persoanele încearcă să te învețe cum corect să faci",
+      "id_user": 1
+    },
+    {
+      "id": 427,
+      "start": 2339.0,
+      "end": 2342.29,
+      "text": " Dar asta este peste tot, așa, sunt oamenii",
+      "id_user": 1
+    },
+    {
+      "id": 428,
+      "start": 2342.547,
+      "end": 2348.774,
+      "text": " Învață pe medici cum să lecuiască, învață pe pompieri cum să stângă un incendiu",
+      "id_user": 1
+    },
+    {
+      "id": 429,
+      "start": 2348.774,
+      "end": 2356.563,
+      "text": " Că ați venit târziu, că omul când se întâmplă ceva, situație de urgență, pentru dânsul timpul merge foarte încet",
+      "id_user": 1
+    },
+    {
+      "id": 430,
+      "start": 2356.563,
+      "end": 2361.558,
+      "text": " că el crede el trece două, trei minute, dar lui i se pare că am fost jumătate de oră",
+      "id_user": 1
+    },
+    {
+      "id": 431,
+      "start": 2361.654,
+      "end": 2364.14,
+      "text": " Câteodată oamenii spun că am venit fără apă",
+      "id_user": 1
+    },
+    {
+      "id": 432,
+      "start": 2364.456,
+      "end": 2370.0,
+      "text": " Dar peste douăzeci de ani lucrez niciodată n-a fost așa ceva ca pompierul să vie fără apă",
+      "id_user": 1
+    },
+    {
+      "id": 433,
+      "start": 2370.117,
+      "end": 2377.017,
+      "text": " Chiar dacă suntem la o intervenție și chiar suntem fără apă, niciodată dispecerii n-a să ne trimită pe noi",
+      "id_user": 1
+    },
+    {
+      "id": 434,
+      "start": 2377.017,
+      "end": 2386.0,
+      "text": " În alte parte, ei a să trimită altă mașină din alt sector, dar noi, până ce cisterna nu este plină cu apă pe noi, nu ne trimit la intervenție",
+      "id_user": 1
+    },
+    {
+      "id": 435,
+      "start": 2386.0,
+      "end": 2395.24,
+      "text": " Dacă apa se termină repede, e altă întrebare, că pompile noastre poate să dea și patruzeci și cincizeci de litri pe secundă",
+      "id_user": 1
+    },
+    {
+      "id": 436,
+      "start": 2395.24,
+      "end": 2403.0,
+      "text": " Da rezervorul de patru sau două tone, apa se termină în cinci și-n șapte minute, dacă la maxim să lucrezi",
+      "id_user": 1
+    },
+    {
+      "id": 437,
+      "start": 2403.0,
+      "end": 2409.533,
+      "text": " Și atunci, la om se pare că iată o venit pompierii, au dat două minute trei minute cu apă și gata, s-a terminat apa",
+      "id_user": 1
+    },
+    {
+      "id": 438,
+      "start": 2409.74,
+      "end": 2415.113,
+      "text": " Diferite se întâmplă, dar principalul să ne păstrăm calmul, să arătăm că suntem profesioniști",
+      "id_user": 1
+    },
+    {
+      "id": 439,
+      "start": 2415.113,
+      "end": 2423.737,
+      "text": " Să nu ne sfădim cu oamenii, că atâta timp cât au oamenii nevoie de noi, ne facem meseria, după asta putem să discutăm",
+      "id_user": 1
+    },
+    {
+      "id": 440,
+      "start": 2423.713,
+      "end": 2434.563,
+      "text": " Ajungând la fața locului, părinții, de acum stau indisperați, cu lacrimi, psihologic, acolo, situația, atmosfera, la general, nu-i plăcută",
+      "id_user": 2
+    },
+    {
+      "id": 441,
+      "start": 2434.74,
+      "end": 2444.64,
+      "text": " Totodată mai sunt vecini, neamuri, săteni, care de multe ori, acuș sunt pe mal și ei vor să ne înveță pe noi cum să lucrăm sau",
+      "id_user": 2
+    },
+    {
+      "id": 442,
+      "start": 2444.64,
+      "end": 2452.827,
+      "text": " ne spun că voi ați venit, voi nici oxigen, n-aveți în aparatele cu aer comprimat, voi nu puteți lucra, vouă statul",
+      "id_user": 2
+    },
+    {
+      "id": 443,
+      "start": 2452.827,
+      "end": 2460.194,
+      "text": " degeaba vă plătește, dar noi suntem conștienți că noi știm ce facem și noi știm cum trebuie să facem corect",
+      "id_user": 2
+    },
+    {
+      "id": 444,
+      "start": 2460.323,
+      "end": 2466.575,
+      "text": " Sunt unele momente așa mai mai puțin plăcute în profesia noastră, anume iată anume la solicitările acestea care nu țin de noi",
+      "id_user": 3
+    },
+    {
+      "id": 445,
+      "start": 2466.575,
+      "end": 2474.961,
+      "text": " niște solicitări care parcă e o urgență, parcă nu-i urgență, din punct de vedere a pacientului e o urgență, din punct de vedere a nostru medical nu e ... urgență",
+      "id_user": 3
+    },
+    {
+      "id": 446,
+      "start": 2474.961,
+      "end": 2484.457,
+      "text": " În general eu am așa o o o vorbă că când văd că pacientul solicită des asistență medicală de urgență le spun așa uitați-vă",
+      "id_user": 3
+    },
+    {
+      "id": 447,
+      "start": 2484.556,
+      "end": 2492.411,
+      "text": " urgența este pentru aceea, voi sara v-ați culcat sănătoși, v-ați trezit cu o durere ceva undeva, asta e pentru o urgență",
+      "id_user": 3
+    },
+    {
+      "id": 448,
+      "start": 2492.411,
+      "end": 2500.0,
+      "text": " Pentru că este acut, ceea ce se întâmplă în șase, opt, maxim 12 ore, dar nu ceea ce se întâmplă două, trei, patru, cinci zile",
+      "id_user": 3
+    },
+    {
+      "id": 449,
+      "start": 2500.25,
+      "end": 2504.322,
+      "text": " La o doamnă, eu m-am solicitat așa bucuros, mândru că eu v-am solicitat feciorul",
+      "id_user": 3
+    },
+    {
+      "id": 450,
+      "start": 2504.632,
+      "end": 2513.176,
+      "text": " Nouă ne-o prescris medicul de familie, niște tratament, puteți să vă uitați cum să beau, cum să de luat pastilele acestea, cum să reacționezi",
+      "id_user": 3
+    },
+    {
+      "id": 451,
+      "start": 2513.51,
+      "end": 2520.0,
+      "text": " Paradoxal, nu poți să te enervezi, n-ai dreptul să te enervezi, să-i faci observație, n-a să te înțeleagă",
+      "id_user": 3
+    },
+    {
+      "id": 452,
+      "start": 2520.94,
+      "end": 2523.0,
+      "text": " Făcând așa apel, evident că n-a să te înțeleagă",
+      "id_user": 3
+    },
+    {
+      "id": 453,
+      "start": 2523.247,
+      "end": 2527.78,
+      "text": " Luăm în inima în dinți, răbdare, cât mai multă și lămurim",
+      "id_user": 3
+    },
+    {
+      "id": 454,
+      "start": 2528.0,
+      "end": 2536.583,
+      "text": " Știți, ne enervează când ne ducem la pacient și sunt părinți, acolo prin prejur și noi vrem să facem ajutor și ei spun și să facem",
+      "id_user": 4
+    },
+    {
+      "id": 455,
+      "start": 2536.583,
+      "end": 2543.48,
+      "text": " Sau tăticul, copilul ia lui el da el retrăiește, da începe să ne învețe cei primul ajutor cum să-l facem",
+      "id_user": 4
+    },
+    {
+      "id": 456,
+      "start": 2543.48,
+      "end": 2552.29,
+      "text": " și Începe a ridica vocea la medic la și ne străduim ca să-l calmăm, să-i lămurim, ca să să nu ajungem la conflict",
+      "id_user": 4
+    },
+    {
+      "id": 457,
+      "start": 2552.29,
+      "end": 2559.442,
+      "text": " Că-i tare greu să-l liniștești pe un părinte când copilul e bolnav grav și el vrea, noi minuni să facem momental să-i treacă",
+      "id_user": 4
+    },
+    {
+      "id": 458,
+      "start": 2560.221,
+      "end": 2562.203,
+      "text": " boala, s-o luăm, că cu mâna n-o să putem",
+      "id_user": 4
+    },
+    {
+      "id": 459,
+      "start": 2562.353,
+      "end": 2567.525,
+      "text": " sunt momente, când ne cheamă și a doua oară, două ori pe noapte, nu vor la spital se refuză de spitalizare",
+      "id_user": 4
+    },
+    {
+      "id": 460,
+      "start": 2567.525,
+      "end": 2572.279,
+      "text": " Da de încoace salvarea să vie să le facă primul ajutor și gata, să refuze",
+      "id_user": 4
+    },
+    {
+      "id": 461,
+      "start": 2572.383,
+      "end": 2580.095,
+      "text": " Și de genul taxiserviciu o fost, cheamă la o solicitare că-i fractură, fractură la brațul superior ora zece seara",
+      "id_user": 3
+    },
+    {
+      "id": 462,
+      "start": 2580.095,
+      "end": 2586.0,
+      "text": " ajungem la solicitare, acordăm ajutorul medical, punem mobilizare, tinerel, stabil",
+      "id_user": 3
+    },
+    {
+      "id": 463,
+      "start": 2586.262,
+      "end": 2590.053,
+      "text": " bine adică n-are n-are o fractură deschisă, e o fractură simplă, la loc tipic",
+      "id_user": 3
+    },
+    {
+      "id": 464,
+      "start": 2590.248,
+      "end": 2595.0,
+      "text": " Facem imobilizare în ceea ce avem acolo provizorii pentru ca, mă rog, să deplaseze",
+      "id_user": 3
+    },
+    {
+      "id": 465,
+      "start": 2595.23,
+      "end": 2598.19,
+      "text": " Ulterior la un traumatolog să-și facă o radiografie",
+      "id_user": 3
+    },
+    {
+      "id": 466,
+      "start": 2598.62,
+      "end": 2601.775,
+      "text": " Și el îmi spune, voi sunteți datori să mă duceți la spital",
+      "id_user": 3
+    },
+    {
+      "id": 467,
+      "start": 2601.847,
+      "end": 2607.98,
+      "text": " Am încărcat pacientul, l-am îmbarcat în mașină, l-am transportat la înspre spitalul raional Anenii noi spunem așa",
+      "id_user": 3
+    },
+    {
+      "id": 468,
+      "start": 2608.329,
+      "end": 2612.541,
+      "text": " și pe drum opriți, vă rog, aici că n-am nimic la mână eu am",
+      "id_user": 3
+    },
+    {
+      "id": 469,
+      "start": 2612.753,
+      "end": 2616.65,
+      "text": " Și până la urmă am înțeles că el o, lui trebuie din punctul A să deplaseze în punctul B numai",
+      "id_user": 3
+    },
+    {
+      "id": 470,
+      "start": 2616.65,
+      "end": 2621.719,
+      "text": " ca să folosească serviciul unu unu doi ca mijloc de taxi",
+      "id_user": 3
+    },
+    {
+      "id": 471,
+      "start": 2621.717,
+      "end": 2629.6,
+      "text": " Au fost cazuri când persoanele iarăși o venit după un act, după un document și cunoșteau angajații colegii",
+      "id_user": 1
+    },
+    {
+      "id": 472,
+      "start": 2629.802,
+      "end": 2634.0,
+      "text": " el A, da dumneavoastră ați fost la mine acasă și mi-ați stins, da, da mulțumesc, mulțumesc",
+      "id_user": 1
+    },
+    {
+      "id": 473,
+      "start": 2634.0,
+      "end": 2647.807,
+      "text": " Sunt cazuri de deseori când persoanele după aceste cazuri vin special în schimbul care o fost la ei acasă și au salvat și au stins incendiul și întreabă da când a să fie băieții",
+      "id_user": 1
+    },
+    {
+      "id": 474,
+      "start": 2647.807,
+      "end": 2658.0,
+      "text": " care o stins pe data cutare la și atunci vin și spun mulțumesc, mai fac fotografii, mai fac postări pe Facebook unde exprimă mulțumiri",
+      "id_user": 1
+    },
+    {
+      "id": 475,
+      "start": 2658.0,
+      "end": 2670.2,
+      "text": " Am salvat un pictor dintr-un incendiu și atunci el ca-n semn de recunoștință o primit domnul arsuri, era într-o stare mai gravă",
+      "id_user": 1
+    },
+    {
+      "id": 476,
+      "start": 2670.415,
+      "end": 2676.7,
+      "text": " Dar s-a lecuit și undeva peste un an de zile a venit la noi și cadou mi-a ne-a făcut gravură la ",
+      "id_user": 1
+    },
+    {
+      "id": 477,
+      "start": 2677.7,
+      "end": 2683.0,
+      "text": " Avem un monument de pompieri și a făcut gravura, a scris acolo niște versuri foarte frumoase",
+      "id_user": 1
+    },
+    {
+      "id": 478,
+      "start": 2683.0,
+      "end": 2686.878,
+      "text": " Care în semn de recunoștință pentru că i-am salvat viața atunci",
+      "id_user": 1
+    },
+    {
+      "id": 479,
+      "start": 2687.0,
+      "end": 2692.367,
+      "text": " Am avut așa un caz când de la noi, că noi suntem pe teritoriu la Spitalul de Urgență",
+      "id_user": 4
+    },
+    {
+      "id": 480,
+      "start": 2692.367,
+      "end": 2698.0,
+      "text": " o fost solicitare din spital că trebuie cu un insult, tare greu era pacientul",
+      "id_user": 4
+    },
+    {
+      "id": 481,
+      "start": 2698.267,
+      "end": 2705.317,
+      "text": " Dar l-am dus tare repede, eu pe dânsul nu l-am văzut la față, știam numai că-i din satul Horotca Ialoveni",
+      "id_user": 4
+    },
+    {
+      "id": 482,
+      "start": 2705.317,
+      "end": 2709.848,
+      "text": " Când ne-am întâlnit am înțeles că iată el e omul în cauza care eu l-am dus și l-am salvat atunci",
+      "id_user": 4
+    },
+    {
+      "id": 483,
+      "start": 2709.85,
+      "end": 2713.3,
+      "text": " Emoții unul în față de altul am avut când i-am văzut",
+      "id_user": 4
+    },
+    {
+      "id": 484,
+      "start": 2713.3,
+      "end": 2718.088,
+      "text": " La orele șase dimineața noi am fost solicitați la o gravidă",
+      "id_user": 3
+    },
+    {
+      "id": 485,
+      "start": 2718.431,
+      "end": 2722.21,
+      "text": " Da nu ne-o spus că este vorba de travaliu, nu ne-o spus că este vorba de naștere",
+      "id_user": 3
+    },
+    {
+      "id": 486,
+      "start": 2722.21,
+      "end": 2726.786,
+      "text": " Ajungem acolo, doamna de acum era cu gențile pregătite pentru transportarea la spital",
+      "id_user": 3
+    },
+    {
+      "id": 487,
+      "start": 2726.913,
+      "end": 2732.153,
+      "text": " Nu, dați întâi să vă examinez, să vedem care-i situația, ce și cum și pe urmă mergem",
+      "id_user": 3
+    },
+    {
+      "id": 488,
+      "start": 2732.153,
+      "end": 2734.0,
+      "text": " Și-o întreb, de când sunt contracțiile?",
+      "id_user": 3
+    },
+    {
+      "id": 489,
+      "start": 2734.402,
+      "end": 2737.738,
+      "text": " Ea îmi spune, vreo jumătate de ori în urmă, a câta naștere?",
+      "id_user": 3
+    },
+    {
+      "id": 490,
+      "start": 2737.847,
+      "end": 2742.567,
+      "text": " A treia, nu, a treia naștere de acum ca medic îți dai seama că e pe aici",
+      "id_user": 3
+    },
+    {
+      "id": 491,
+      "start": 2742.793,
+      "end": 2747.82,
+      "text": " O examinăm, vedem abdomenul și brusc, oi oi, eu mătincă nasc",
+      "id_user": 3
+    },
+    {
+      "id": 492,
+      "start": 2748.0,
+      "end": 2751.54,
+      "text": " Când ne uităm, da, într-adevăr, de acum o apărut căpușorul",
+      "id_user": 3
+    },
+    {
+      "id": 493,
+      "start": 2751.63,
+      "end": 2755.15,
+      "text": " Bine că e acasă, bine că e în pat",
+      "id_user": 3
+    },
+    {
+      "id": 494,
+      "start": 2755.581,
+      "end": 2758.349,
+      "text": " Vă dați seama când se întâmplă lucrurile acestea în autosanitare",
+      "id_user": 3
+    },
+    {
+      "id": 495,
+      "start": 2758.349,
+      "end": 2761.097,
+      "text": " E cu mult mai greu, e extraordinar de greu",
+      "id_user": 3
+    },
+    {
+      "id": 496,
+      "start": 2761.403,
+      "end": 2765.407,
+      "text": " Tata chiar i-o spus că iată doctorul ți-o primit nașterea, cum vă cheamă?",
+      "id_user": 3
+    },
+    {
+      "id": 497,
+      "start": 2765.522,
+      "end": 2769.104,
+      "text": " zic Oleg îmi spune, a să-l chemăm Oleg și recent l-am văzut",
+      "id_user": 3
+    },
+    {
+      "id": 498,
+      "start": 2769.489,
+      "end": 2773.0,
+      "text": " E mare deja, are vreo cinci șase anișori, asta a fost, de mult a fost",
+      "id_user": 3
+    },
+    {
+      "id": 499,
+      "start": 2773.26,
+      "end": 2782.0,
+      "text": " Am avut o perioadă când nu mi-era frică de nimic și acum gândindu-mă la asta pot să spun că asta e cel mai rău",
+      "id_user": 1
+    },
+    {
+      "id": 500,
+      "start": 2782.0,
+      "end": 2788.0,
+      "text": " Când nu te temi de nimic, când nu ai frică, atunci poți să faci niște lucruri negândite",
+      "id_user": 1
+    },
+    {
+      "id": 501,
+      "start": 2788.0,
+      "end": 2794.09,
+      "text": " Poți să pui în pericol și viața ta și viața colegilor, asta cred că e cel mai strașnic lucru",
+      "id_user": 1
+    },
+    {
+      "id": 502,
+      "start": 2794.09,
+      "end": 2795.479,
+      "text": " Ți-a fost vreodată frică?",
+      "id_user": 7
+    },
+    {
+      "id": 503,
+      "start": 2795.48,
+      "end": 2799.365,
+      "text": " Eu cred că nu sunt oameni care să nu aibă frică, noi toți avem frică",
+      "id_user": 2
+    },
+    {
+      "id": 504,
+      "start": 2799.753,
+      "end": 2805.247,
+      "text": " Poți să fii cel mai bun scafandru, poți să fii cel mai bun pompier, cel mai bun salvator dar",
+      "id_user": 2
+    },
+    {
+      "id": 505,
+      "start": 2805.247,
+      "end": 2811.858,
+      "text": " frica undeva trebuie să predomine, unde predomină frica, puțin, acolo predomină și atenția",
+      "id_user": 2
+    },
+    {
+      "id": 506,
+      "start": 2811.923,
+      "end": 2815.388,
+      "text": " Au fost cazuri când m-am gândit că prea tare m-am expus riscului",
+      "id_user": 1
+    },
+    {
+      "id": 507,
+      "start": 2816.658,
+      "end": 2818.245,
+      "text": " Am avut și traume, am avut",
+      "id_user": 1
+    },
+    {
+      "id": 508,
+      "start": 2820.26,
+      "end": 2829.042,
+      "text": " Odată am căzut de pe acoperiș la o casă și după asta te gândești că posibil nu merita așa riscuri dar",
+      "id_user": 1
+    },
+    {
+      "id": 509,
+      "start": 2831.0,
+      "end": 2831.707,
+      "text": " sănătos",
+      "id_user": 1
+    },
+    {
+      "id": 510,
+      "start": 2831.707,
+      "end": 2840.656,
+      "text": " Mergeam pe pe strașina casei, ardea acoperișul și era întuneric noaptea și casa era din lut",
+      "id_user": 1
+    },
+    {
+      "id": 511,
+      "start": 2841.7,
+      "end": 2849.0,
+      "text": " Parcă am călcat pe perete, dar lutul era moale de la apă și piciorul s-a ... și am căzut jos",
+      "id_user": 1
+    },
+    {
+      "id": 512,
+      "start": 2849.345,
+      "end": 2854.4,
+      "text": " În timpul cât cădeam știam că acolo sunt ținte lemne diferite și zic",
+      "id_user": 1
+    },
+    {
+      "id": 513,
+      "start": 2855.0,
+      "end": 2860.0,
+      "text": " acuș a să cad cu o țintă în cap și ca mâța în aer m-am întors și am cazut pe picioare",
+      "id_user": 1
+    },
+    {
+      "id": 514,
+      "start": 2860.15,
+      "end": 2866.33,
+      "text": " Am aterizat, dar oricum de la viteză m-am rostogolit încă o dată și iarăși ca ca gimnastul",
+      "id_user": 1
+    },
+    {
+      "id": 515,
+      "start": 2866.33,
+      "end": 2870.45,
+      "text": " Iar m-am sculat pe picioare și colegii, tot normal tot normal, zic, da, tot e bine, tot e frumos",
+      "id_user": 1
+    },
+    {
+      "id": 516,
+      "start": 2870.45,
+      "end": 2876.657,
+      "text": " Și am continuat mai departe stingerea, asta așa ca printre urechile acului mi-o mi-a mers",
+      "id_user": 1
+    },
+    {
+      "id": 517,
+      "start": 2876.736,
+      "end": 2887.566,
+      "text": " câteodată te gândești, da posibil nu trebuia așa de tare să acționezi, să te bagi în foc, dar parcă tot e bine",
+      "id_user": 1
+    },
+    {
+      "id": 518,
+      "start": 2887.566,
+      "end": 2894.494,
+      "text": " E prima intervenție a ta, când intri în apă, atunci inima din piept îți pare ca să sară",
+      "id_user": 2
+    },
+    {
+      "id": 519,
+      "start": 2894.494,
+      "end": 2896.885,
+      "text": " Bătăile sunt foarte puternice",
+      "id_user": 2
+    },
+    {
+      "id": 520,
+      "start": 2897.675,
+      "end": 2903.585,
+      "text": " Deplasându-ți în direcția da, unde aproximativ s-o s-o înecat persoana",
+      "id_user": 2
+    },
+    {
+      "id": 521,
+      "start": 2903.585,
+      "end": 2912.301,
+      "text": " Deja când ești sub apă, tot e întuneric, tot legat, ca cum ai fi legat cu ceva, da cu batistă la ochi și nu vezi nimic",
+      "id_user": 2
+    },
+    {
+      "id": 522,
+      "start": 2912.405,
+      "end": 2917.512,
+      "text": " Atunci emoțiile sunt, nu pot să le redau",
+      "id_user": 2
+    },
+    {
+      "id": 523,
+      "start": 2917.656,
+      "end": 2927.48,
+      "text": " Acest lucru și aceea ce spun eu pot să înțeleagă numai persoanele care ei sunt scafandri și care s-au întâlnit cu cu așa ceva",
+      "id_user": 2
+    },
+    {
+      "id": 524,
+      "start": 2927.48,
+      "end": 2935.0,
+      "text": " Prezența arderii profesionale la noi, la medicii de urgență, este foarte prezentă și foarte accentuată",
+      "id_user": 3
+    },
+    {
+      "id": 525,
+      "start": 2935.117,
+      "end": 2942.183,
+      "text": " Având în vedere că personalul este într-adevăr foarte puțin, având în vedere că noi activăm și peste două și peste una se întâmplă cazuri",
+      "id_user": 3
+    },
+    {
+      "id": 526,
+      "start": 2942.565,
+      "end": 2948.455,
+      "text": " E dificil, e dificil, da, nu ne controlăm, da, sunt cazuri când ne ieșim",
+      "id_user": 3
+    },
+    {
+      "id": 527,
+      "start": 2948.525,
+      "end": 2951.217,
+      "text": " din sărite dar lucrurile acestea nu trebuie să manifeste la serviciu",
+      "id_user": 3
+    },
+    {
+      "id": 528,
+      "start": 2951.478,
+      "end": 2958.929,
+      "text": " Lucrurile acestea trebuie să fie cântărite, lucrurile acestea trebuie să fie aplanate, lucrurile trebuie să fie aranjate din start",
+      "id_user": 3
+    },
+    {
+      "id": 529,
+      "start": 2958.929,
+      "end": 2961.266,
+      "text": " Ai intrat în serviciu, tu trebuie să uiți de toate problemele care le ai",
+      "id_user": 3
+    },
+    {
+      "id": 530,
+      "start": 2961.455,
+      "end": 2966.301,
+      "text": " Noi ca șoferi răspundem de toată echipa și de bolnav când mergem la volan",
+      "id_user": 4
+    },
+    {
+      "id": 531,
+      "start": 2966.532,
+      "end": 2969.892,
+      "text": " Dacă doamne ferește se întâmplă ceva, eu răspund nu ei",
+      "id_user": 4
+    },
+    {
+      "id": 532,
+      "start": 2970.0,
+      "end": 2975.327,
+      "text": " Medicul deodată spune, bolnavul este stabil, nu ne grăbim, mergem normal",
+      "id_user": 4
+    },
+    {
+      "id": 533,
+      "start": 2975.327,
+      "end": 2981.199,
+      "text": " Dar când medicul spune, te rog, mergem mai repede, ne străduim cât mai repede să ajungem, scăpăm bolnavul",
+      "id_user": 4
+    },
+    {
+      "id": 534,
+      "start": 2981.199,
+      "end": 2984.856,
+      "text": " Domnule Oleg ați plâns din cauza că nu v-o reușit sau ceva?",
+      "id_user": 7
+    },
+    {
+      "id": 535,
+      "start": 2985.0,
+      "end": 2993.363,
+      "text": " Eu, în practica mea, am un caz din păcate care am resucitare nereușită",
+      "id_user": 3
+    },
+    {
+      "id": 536,
+      "start": 2993.795,
+      "end": 3001.0,
+      "text": " Este vorba de o doamnă, destul de tânără doamna, pare mi se vreo patruzeci de ani",
+      "id_user": 3
+    },
+    {
+      "id": 537,
+      "start": 3001.0,
+      "end": 3009.785,
+      "text": " Noi am intervenit prompt, foarte repede, nu suspectam absolut nici o patologie legată cu aparatul cardiovascular",
+      "id_user": 3
+    },
+    {
+      "id": 538,
+      "start": 3009.785,
+      "end": 3014.67,
+      "text": " Unica acuză care avea ea, așa, niște dureri în regiunea cordului",
+      "id_user": 3
+    },
+    {
+      "id": 539,
+      "start": 3014.67,
+      "end": 3017.407,
+      "text": " La cardiogramă, nicio suspecție, nimic absolut",
+      "id_user": 3
+    },
+    {
+      "id": 540,
+      "start": 3017.637,
+      "end": 3019.153,
+      "text": " Brusc îmi face stop",
+      "id_user": 3
+    },
+    {
+      "id": 541,
+      "start": 3020.369,
+      "end": 3023.804,
+      "text": " Noi a resucitat-o, țin minte, am resucitat-o cu succes prima dată",
+      "id_user": 3
+    },
+    {
+      "id": 542,
+      "start": 3023.804,
+      "end": 3030.682,
+      "text": " Două minute, început terapia post-resucitară, două minute a trăit, iarăși a făcut stop",
+      "id_user": 3
+    },
+    {
+      "id": 543,
+      "start": 3031.0,
+      "end": 3038.0,
+      "text": " Iarăși am resucitat-o cu succes și a treia oară când a făcut stop, din păcate, n-am putut s-o mai resuscităm",
+      "id_user": 3
+    },
+    {
+      "id": 544,
+      "start": 3038.0,
+      "end": 3046.492,
+      "text": " M-o remarcat foarte tare pentru că știți, când stai deasupra pacientei și că vezi că apare ritmul și îți deschide ochii",
+      "id_user": 3
+    },
+    {
+      "id": 545,
+      "start": 3046.989,
+      "end": 3052.662,
+      "text": " Și când îți spune că domnul doctor dați-mi pace că eu a să plec, doare",
+      "id_user": 3
+    },
+    {
+      "id": 546,
+      "start": 3053.59,
+      "end": 3061.0,
+      "text": " Orice deces în prezență sau orice deces chiar și până la sosire, orice naștere e un stres, e un stres extraordinar",
+      "id_user": 3
+    },
+    {
+      "id": 547,
+      "start": 3061.0,
+      "end": 3067.33,
+      "text": " Și când postăm noi activitatea noastră cu cazurile acestea reușite, nu e o simplă postare",
+      "id_user": 3
+    },
+    {
+      "id": 548,
+      "start": 3067.465,
+      "end": 3070.29,
+      "text": " Acolo e extraordinar ce de multă muncă e",
+      "id_user": 3
+    },
+    {
+      "id": 549,
+      "start": 3070.401,
+      "end": 3076.614,
+      "text": " Pentru că lucrurile acestea, un om care le suferă și un om care trece prin ele, numai acela poate să înțeleagă",
+      "id_user": 3
+    },
+    {
+      "id": 550,
+      "start": 3076.614,
+      "end": 3080.67,
+      "text": " Avem psihologi în cadrul inspectoratului nostru",
+      "id_user": 1
+    },
+    {
+      "id": 551,
+      "start": 3080.67,
+      "end": 3088.173,
+      "text": " Chiar dacă nu avem nevoie, oricum vin o dată de două ori pe an și fac diferite lecții cu noi",
+      "id_user": 1
+    },
+    {
+      "id": 552,
+      "start": 3088.173,
+      "end": 3095.294,
+      "text": " Sunt persoane mai închiși în sine și atunci el poate să aibă o problemă, dar nimeni din colegi n-a să-și dea seama Și atunci",
+      "id_user": 1
+    },
+    {
+      "id": 553,
+      "start": 3095.651,
+      "end": 3101.1,
+      "text": " psihologii lucrează cu noi, cu fiecare colectiv, în grup, pe urmă cu fiecare separați",
+      "id_user": 1
+    },
+    {
+      "id": 554,
+      "start": 3101.1,
+      "end": 3104.827,
+      "text": " Sunt diferite teste și atunci ei vede dacă este o problemă",
+      "id_user": 1
+    },
+    {
+      "id": 555,
+      "start": 3105.0,
+      "end": 3112.333,
+      "text": " Una din cele mai eficiente metode este discuția, discuția cu colegii, discuția cu familia",
+      "id_user": 1
+    },
+    {
+      "id": 556,
+      "start": 3112.333,
+      "end": 3117.312,
+      "text": " Dar despre cazuri mai grele eu mă stărui să nu, familia să nu cunoască",
+      "id_user": 1
+    },
+    {
+      "id": 557,
+      "start": 3117.542,
+      "end": 3122.0,
+      "text": " că atunci retrăiesc și ei și asta nu trebuie la nimeni",
+      "id_user": 1
+    },
+    {
+      "id": 558,
+      "start": 3122.12,
+      "end": 3125.19,
+      "text": " Visezi vreodată că participi la misiuni?",
+      "id_user": 7
+    },
+    {
+      "id": 559,
+      "start": 3125.19,
+      "end": 3132.584,
+      "text": " Nu, acum la moment nu, la primele intervenții, când am avut intervenția da și când am extras cadavre atunci",
+      "id_user": 2
+    },
+    {
+      "id": 560,
+      "start": 3134.097,
+      "end": 3139.0,
+      "text": " era mai mai greu, chiar erau zile că putem să nu mănânc, o zi două",
+      "id_user": 2
+    },
+    {
+      "id": 561,
+      "start": 3139.0,
+      "end": 3146.45,
+      "text": " Avem grețuri, avem disconfort pe pe suflet, poate și undeva și-i visam",
+      "id_user": 2
+    },
+    {
+      "id": 562,
+      "start": 3146.45,
+      "end": 3154.463,
+      "text": " Dar acum nu, acum de acum emoțional noi scafandrii ne putem însuși pe noi să să ne liniștim",
+      "id_user": 2
+    },
+    {
+      "id": 563,
+      "start": 3154.463,
+      "end": 3159.75,
+      "text": " Facem un lucru că trebuie să-l facem, dacă n-a să-l facem noi, cine a să-l facă?",
+      "id_user": 2
+    },
+    {
+      "id": 564,
+      "start": 3159.64,
+      "end": 3169.34,
+      "text": " Și eu cred că cu timpul de acum îți întărește psihologia însuși a ta și lucrurile vin mai ușor",
+      "id_user": 2
+    },
+    {
+      "id": 565,
+      "start": 3169.34,
+      "end": 3177.345,
+      "text": " Mi-e frică când merg la volan de accidente, fiindcă e tare mare pericolul, că la noi oamenii nu cedează, e greu de mers",
+      "id_user": 4
+    },
+    {
+      "id": 566,
+      "start": 3177.792,
+      "end": 3183.649,
+      "text": " Sunt dacă merg cu muzica sau scriu în telefoane, asta-i cel mai rău că el nu n-aude salvarea el e, sunt ocupați cu telefonul",
+      "id_user": 4
+    },
+    {
+      "id": 567,
+      "start": 3183.781,
+      "end": 3186.198,
+      "text": " Asta mi-i cea mai mari frică să nu fac un accident",
+      "id_user": 4
+    },
+    {
+      "id": 568,
+      "start": 3186.342,
+      "end": 3189.272,
+      "text": " N-am avut așa cazuri ca să mă pierd cu firea încă",
+      "id_user": 4
+    },
+    {
+      "id": 569,
+      "start": 3189.459,
+      "end": 3195.104,
+      "text": " Acolo noi n-ai când să te pierzi, că dacă te-ai pierdut putem să pierdem pacientul",
+      "id_user": 4
+    },
+    {
+      "id": 570,
+      "start": 3195.282,
+      "end": 3198.546,
+      "text": " Trebuie să fii curajos și să mergi cu capul în sus înainte",
+      "id_user": 4
+    },
+    {
+      "id": 572,
+      "start": 3200.425,
+      "end": 3212.375,
+      "text": " avem superstiții când cineva îmbracă o formă nouă sau o haină nouă, atunci o dacă e ceva nou, atunci precis ca s-avem ceva intervenții",
+      "id_user": 1
+    },
+    {
+      "id": 573,
+      "start": 3212.375,
+      "end": 3225.328,
+      "text": " Plus la toate, când persoanele care predau schimbul și se duc acasă la odihnă sau alți colegi care o venit în vizită și se duc, întotdeauna spun furtunuri uscate",
+      "id_user": 1
+    },
+    {
+      "id": 574,
+      "start": 3225.328,
+      "end": 3231.0,
+      "text": " Furtunurile dacă sunt uscate înseamnă că printr-însele nu trece apa, dacă nu trece apa înseamnă că nu-s intervenții",
+      "id_user": 1
+    },
+    {
+      "id": 575,
+      "start": 3231.0,
+      "end": 3241.525,
+      "text": " La noi, când scafandrul vine la serviciu, dar asta așa și ... de multe ori și s-o întâmplat când era în lingeria de corp roșu, anume roșu, culoarea roșu",
+      "id_user": 2
+    },
+    {
+      "id": 576,
+      "start": 3241.525,
+      "end": 3247.497,
+      "text": " Deseori se se primea cineva care venea cu lingerie de corp culoarea roșu, atunci avem intervenții",
+      "id_user": 2
+    },
+    {
+      "id": 577,
+      "start": 3247.497,
+      "end": 3260.0,
+      "text": " Nu cred că am superstiții, nu-s om superstițios, unica ce am observat eu, prima solicitare, de exemplu, dacă vine cu nu știu cu o fractură, a păi ultima tot a să fie cu fractură",
+      "id_user": 3
+    },
+    {
+      "id": 578,
+      "start": 3260.242,
+      "end": 3267.887,
+      "text": " Nu știu de ce, dar deseori se întâmplă așa, sau altă solicitare, adică începutul ca sfârșitul",
+      "id_user": 3
+    },
+    {
+      "id": 579,
+      "start": 3267.853,
+      "end": 3272.205,
+      "text": " Dacă ar fi s-o luați de la început, tot șofer de ambulanță ați deveni?",
+      "id_user": 7
+    },
+    {
+      "id": 580,
+      "start": 3272.378,
+      "end": 3280.0,
+      "text": " Nici o problemă. Îmi iubesc lucrul și îmi place să lucrez ca șofer pe ambulanță, m-aș întoarce de la început",
+      "id_user": 4
+    },
+    {
+      "id": 581,
+      "start": 3280.125,
+      "end": 3290.178,
+      "text": " Pericolul întotdeauna persistă dacă să vorbim de butelii de gaz care persoanele mai folosesc",
+      "id_user": 1
+    },
+    {
+      "id": 582,
+      "start": 3290.178,
+      "end": 3297.452,
+      "text": " că despre care noi nu putem să cunoaștem atunci când intervenim să stingem un incendiu într-un apartament sau într-o casă",
+      "id_user": 1
+    },
+    {
+      "id": 583,
+      "start": 3297.452,
+      "end": 3307.496,
+      "text": " Pericolul de electrocutare care permanent există, sunt lucruri care noi nu nu putem să noi putem să ne gândim că ele pot fi acolo",
+      "id_user": 1
+    },
+    {
+      "id": 584,
+      "start": 3307.496,
+      "end": 3316.6,
+      "text": " dar noi nu știm cu siguranță și nu spun că uite eu nu intru în focar că acolo este pericolul că-i butelie de gaz.",
+      "id_user": 1
+    },
+    {
+      "id": 585,
+      "start": 3316.6,
+      "end": 3326.0,
+      "text": " Noi oricum intrăm dar butelia ceea de gaz sau altceva poate să se întâmple în orice moment și atunci nimeni nu este asigurat că n-a se întâmple nimic",
+      "id_user": 1
+    },
+    {
+      "id": 586,
+      "start": 3326.0,
+      "end": 3335.3,
+      "text": " Orice intervenție prezintă un oarecare pericol, de asta venim noi. Lucrul e specific, e mult diferit, nu-i nu-i nu-i rutina ceea care e zi de zi.",
+      "id_user": 1
+    },
+    {
+      "id": 587,
+      "start": 3335.3,
+      "end": 3347.52,
+      "text": " Astăzi ninge, sunt automobile blocate care trebuie să-i tractăm. Mâine plouă, inundă niște apartamente, case, trebuie să ne ducem să pompăm apă.",
+      "id_user": 1
+    },
+    {
+      "id": 588,
+      "start": 3347.52,
+      "end": 3357.855,
+      "text": " Suflă vântul e cald, arșiță, ard arde vegetație, mergem și stângem vegetație, se începe sezonul de încălzire, ard sobele, casele, iarăși e",
+      "id_user": 1
+    },
+    {
+      "id": 589,
+      "start": 3357.855,
+      "end": 3368.0,
+      "text": " diferit, e ani de zile, una și aceeași, dar mereu e diferit de asta. E foarte interesant și nu ardem profesional.",
+      "id_user": 1
+    },
+    {
+      "id": 590,
+      "start": 3368.0,
+      "end": 3376.82,
+      "text": " La noi sunt toți eroi, da hai să vorbim așa, care activează în inspectorat, sunt toți eroi. Pompierii, salvatorii, scafandre.",
+      "id_user": 2
+    },
+    {
+      "id": 591,
+      "start": 3377.0,
+      "end": 3385.0,
+      "text": " De atâta că ei fac lucruri care nu toți le pot face. Și ei fac lucruri, dar nu-i cunosc pe toți eroii noștri.",
+      "id_user": 2
+    },
+    {
+      "id": 592,
+      "start": 3385.0,
+      "end": 3393.82,
+      "text": " Pur și simplu nu-i cunosc. sunt foarte bun bine pregătiți, sunt băieți controlați. Eu vorbesc de toți colegii mei că mi-s colegi toți.",
+      "id_user": 2
+    },
+    {
+      "id": 593,
+      "start": 3394.0,
+      "end": 3403.44,
+      "text": " Trebuie să faci lucrul, dar să nu vorbești. Că îl fac, dar nu-l poți face. Trebuie să taci, dar să faci. Și atunci e cel mai bine.",
+      "id_user": 2
+    },
+    {
+      "id": 594,
+      "start": 3403.44,
+      "end": 3414.438,
+      "text": " Lucrul nostru e chiar eroic. Vă dați seama, asta e o organizație care e cea mai mare, cea mai numeroasă din toate organizațiile spitalicești din Republica Moldova.",
+      "id_user": 3
+    },
+    {
+      "id": 595,
+      "start": 3415.032,
+      "end": 3424.474,
+      "text": " Vă dați seama câte cazuri, câți pacienți noi deservim, cât e de complexă deservirea, cât e de diversificată abordarea problemelor.",
+      "id_user": 3
+    },
+    {
+      "id": 596,
+      "start": 3424.474,
+      "end": 3436.507,
+      "text": " Eu dacă ne-aș chema pe noi medicii de urgență din Republica Moldova la Hollywood, eu cred c-aș face un serial destul de bun și destul de cu-n rating, destul de mare, dacă sincer și",
+      "id_user": 3
+    },
+    {
+      "id": 597,
+      "start": 3436.507,
+      "end": 3446.858,
+      "text": " cu-n buget, să spunem așa, destul de mare. Pentru că noi avem medici foarte buni. Avem asistenți medicali buni și pentru asta chiar îi mulțumesc absolut.",
+      "id_user": 3
+    },
+    {
+      "id": 598,
+      "start": 3447.0,
+      "end": 3454.1,
+      "text": " Asistentul medical este mâinile medicului, infermierul este mâinile medicului și șoferul la fel. Pentru că este o echipă unită.",
+      "id_user": 3
+    },
+    {
+      "id": 599,
+      "start": 3454.385,
+      "end": 3464.21,
+      "text": " Când se întâmplă un caz dificil, un caz ieșit din comun, se implică absolut toți. Nu este că eu sunt șofer, eu stau la locul meu, tu ești feldșer, tu ești asistent medical, ești medic, ocupă-te. Nu.",
+      "id_user": 3
+    },
+    {
+      "id": 600,
+      "start": 3464.21,
+      "end": 3478.605,
+      "text": " Toți se implică absolut. Și anume, îmbinarea asta de o echipă unită aduce așa rezultate frumoase și așa niște cazuri care, la prima vedere, îți pare că băi el nu trebuia să trăiască.",
+      "id_user": 3
+    },
+    {
+      "id": 601,
+      "start": 3478.605,
+      "end": 3479.405,
+      "text": " Da iată el trăiește.",
+      "id_user": 3
+    }
+  ]
+}

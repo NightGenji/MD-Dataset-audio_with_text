@@ -19,7 +19,7 @@ TEMP_VIDEO = "temp_video/"
 TEMP_SUB = "temp_subtitles/"
 REGISTER = "register.tsv"
 
-URL_NOW = "https://www.youtube.com/watch?v=PduZkR9j79E"
+URL_NOW = "https://www.youtube.com/watch?v=KSuqabzhxjg"
 
 def download_video():
     if len(os.listdir(MY_DATA + TEMP_VIDEO)) != 0:
@@ -232,7 +232,7 @@ def text_to_list_from_tempFolder():
 
 if __name__ == "__main__":
     # --Download mp3 from URL and make subtitles in the temporar folders in MY_DATA
-    download_and_makeSubtitles()
+    # download_and_makeSubtitles()
 
     # --HELPER in assigning which user said which segment(you assign it manually)
     # choose_users()
@@ -242,7 +242,7 @@ if __name__ == "__main__":
     # --Create mp3's based on subtitles
     # take_subtitles_and_crop_mp3()
 
-    # TODO correct words manually TODO pentru usurinta de corectat
+    # TODO correct words manually --- pentru usurinta de corectat
     # text_to_list_from_tempFolder()
 
     # After correcting times and words DO THIS

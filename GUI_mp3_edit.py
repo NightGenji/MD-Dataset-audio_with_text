@@ -11,7 +11,7 @@ TEMP_VIDEO = "temp_video/"
 TEMP_SUB = "temp_subtitles/"
 
 MARGIN = 1.5        # seconds of margin around each segment
-START_EDITING = 495 # from wich ID to start editing
+START_EDITING = 0 # from wich ID to start editing
 
 def brain():
     # Load subtitles
