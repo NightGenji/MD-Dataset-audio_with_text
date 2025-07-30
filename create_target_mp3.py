@@ -19,7 +19,7 @@ TEMP_VIDEO = "temp_video/"
 TEMP_SUB = "temp_subtitles/"
 REGISTER = "register.tsv"
 
-URL_NOW = "https://www.youtube.com/watch?v=KSuqabzhxjg"
+URL_NOW = "https://www.youtube.com/watch?v=j8Z8vvKg5bA"
 
 def download_video():
     if len(os.listdir(MY_DATA + TEMP_VIDEO)) != 0:
@@ -230,6 +230,31 @@ def text_to_list_from_tempFolder():
     with open(MY_DATA + TEMP_SUB + "subtitles.json", "w", encoding="utf-8") as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
 
+def append_and_remove_skipped_ids():
+    with open(MY_DATA + TEMP_SUB + "subtitles.json", "r", encoding="utf-8") as file:
+        data = json.load(file)
+    
+    my_id = 0
+    id_skipped = -1
+    if type(data["segments"][my_id]["text"]) is list:
+        print("oopsie, you have list in place of string, change it up")
+        return
+    while len(data["segments"]) > my_id:
+        if data["segments"][my_id]["text"].startswith("SKIPPED-- ") and id_skipped == -1:
+            id_skipped = my_id - 1
+        elif not data["segments"][my_id]["text"].startswith("SKIPPED-- "):
+            id_skipped = -1
+
+        if id_skipped != -1:
+            text = data["segments"][my_id]["text"].replace("SKIPPED-- ", "")
+            data["segments"][id_skipped]["text"] += text
+            data["segments"].pop(my_id)
+            my_id -= 1
+        my_id += 1
+    
+    with open(MY_DATA + TEMP_SUB + "subtitles.json", "w", encoding="utf-8") as file:
+        json.dump(data, file, ensure_ascii=False, indent=2)
+
 if __name__ == "__main__":
     # --Download mp3 from URL and make subtitles in the temporar folders in MY_DATA
     # download_and_makeSubtitles()
@@ -238,6 +263,9 @@ if __name__ == "__main__":
     # choose_users()
 
     # TODO with GUI_mp3_edit.py i make time be acceptable
+
+    # TODO remove useless skipped parts
+    # append_and_remove_skipped_ids()
 
     # --Create mp3's based on subtitles
     # take_subtitles_and_crop_mp3()

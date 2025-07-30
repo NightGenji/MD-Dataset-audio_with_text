@@ -1,3 +1,4 @@
+import time
 import tkinter as tk
 from pydub import AudioSegment
 import numpy as np
@@ -10,7 +11,7 @@ MY_DATA = "my_data/"
 TEMP_VIDEO = "temp_video/"
 TEMP_SUB = "temp_subtitles/"
 
-MARGIN = 1.5        # seconds of margin around each segment
+MARGIN = 1.5         # seconds of margin around each segment
 START_EDITING = 0 # from wich ID to start editing
 
 def brain():
@@ -32,6 +33,10 @@ def brain():
 
         segment_start = max(item["start"], last_time)
         segment_end = item["end"]
+        if segment_start > segment_end:
+            item["text"] = str(item["text"]).replace("SKIPPED-- ", "")
+            item["text"] = "SKIPPED-- " + item["text"]
+            continue
         text = item["text"]
         id_user = item["id_user"]
         segment_id = item["id"]
@@ -44,10 +49,10 @@ def brain():
             # Info
             tk.Label(win, text=f"ID: {segment_id} | User: {id_user}\n{text}", justify='left').pack(pady=5)
 
-            canvas_width, canvas_height = 600, 120
             disp_start = max(segment_start - MARGIN, 0)
             disp_end = min(segment_end + MARGIN, total_duration)
             duration = disp_end - disp_start
+            canvas_width, canvas_height = min(1900, int((duration / 0.5) * 40)), 140
 
             # Variables
             start_var = tk.DoubleVar(value=segment_start)
@@ -133,6 +138,27 @@ def brain():
                 subprocess.run(["ffplay", "-nodisp", "-autoexit", "-loglevel", "quiet", path])
                 os.remove(path)
 
+            def play_short():
+                if end_var.get() - start_var.get() < 3:
+                    play()
+                    return
+                second = 1000
+                seg = audio[int(start_var.get() * 1000):int(start_var.get() * 1000) + second]
+                with tempfile.NamedTemporaryFile(delete=False, suffix='.wav') as tmp:
+                    path = tmp.name
+                seg.export(path, format='wav')
+                subprocess.run(["ffplay", "-nodisp", "-autoexit", "-loglevel", "quiet", path])
+                os.remove(path)
+
+                time.sleep(0.5)
+
+                seg = audio[int(end_var.get() * 1000) - second:int(end_var.get() * 1000)]
+                with tempfile.NamedTemporaryFile(delete=False, suffix='.wav') as tmp:
+                    path = tmp.name
+                seg.export(path, format='wav')
+                subprocess.run(["ffplay", "-nodisp", "-autoexit", "-loglevel", "quiet", path])
+                os.remove(path)
+
             def save_and_close():
                 item["start"] = round(start_var.get(), 3)
                 item["end"] = round(end_var.get(), 3)
@@ -152,9 +178,18 @@ def brain():
                 print(f"last_edited_id: {last_edited_id}")
                 raise SystemExit("Editing stopped by user.")
 
+            def extend_end_by_2_sec():
+                new_end = min(end_var.get() + 2.0, disp_end)
+                nonlocal segment_end
+                segment_end = round(new_end, 3)
+                win.destroy()
+                launch_gui()
+
             tk.Button(win, text="Play", command=play).pack(pady=2)
+            tk.Button(win, text="Play SHORT", command=play_short).pack(pady=2)
             tk.Button(win, text="Save and Next", command=save_and_close).pack(pady=2)
             tk.Button(win, text="Leave Editing Mode", fg="red", command=leave).pack(pady=2)
+            tk.Button(win, text="+2 sec", command=extend_end_by_2_sec).pack(pady=2)
             win.mainloop()
 
         launch_gui()
