@@ -19,7 +19,7 @@ TEMP_VIDEO = "temp_video/"
 TEMP_SUB = "temp_subtitles/"
 REGISTER = "register.tsv"
 
-URL_NOW = "https://www.youtube.com/watch?v=j8Z8vvKg5bA"
+URL_NOW = "https://www.youtube.com/watch?v=epFAoR1RKo8"
 
 def download_video():
     if len(os.listdir(MY_DATA + TEMP_VIDEO)) != 0:
@@ -236,9 +236,13 @@ def append_and_remove_skipped_ids():
     
     my_id = 0
     id_skipped = -1
-    if type(data["segments"][my_id]["text"]) is list:
-        print("oopsie, you have list in place of string, change it up")
+
+    if isinstance(data["segments"][my_id]["text"], list):
+        print(" <><><><> oopsie, you have list in place of string, change it up <><><><>")
         return
+    
+    print(len(data["segments"]))
+    
     while len(data["segments"]) > my_id:
         if data["segments"][my_id]["text"].startswith("SKIPPED-- ") and id_skipped == -1:
             id_skipped = my_id - 1
@@ -250,14 +254,17 @@ def append_and_remove_skipped_ids():
             data["segments"][id_skipped]["text"] += text
             data["segments"].pop(my_id)
             my_id -= 1
+        
         my_id += 1
+
+    print(len(data["segments"]))
     
     with open(MY_DATA + TEMP_SUB + "subtitles.json", "w", encoding="utf-8") as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
     # --Download mp3 from URL and make subtitles in the temporar folders in MY_DATA
-    # download_and_makeSubtitles()
+    download_and_makeSubtitles()
 
     # --HELPER in assigning which user said which segment(you assign it manually)
     # choose_users()
