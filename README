@@ -9,23 +9,29 @@ export PS1="\u@\h:\W\$ "
 
 // Video folosite si notite
 // Prezentatorul poate fi mai multe persoane aparte
-"https://www.youtube.com/watch?v=mUf8-mQjje4"
+"https://www.youtube.com/watch?v=mUf8-mQjje4" - Noi toți vrem să fim bogați
 -- utilizator 6 e prezentator
-"https://www.youtube.com/watch?v=PduZkR9j79E"
--- utilizatorul 2 poate avea vorbirea neclara
+
+"https://www.youtube.com/watch?v=PduZkR9j79E" - Voi știți cum e de trăit aici?
 -- utilizator 7 e prezentator
-"https://www.youtube.com/watch?v=KSuqabzhxjg"
+-- utilizatorul 2 poate avea vorbirea neclara
+
+"https://www.youtube.com/watch?v=KSuqabzhxjg" - Sunt cei mai bravi - ei fac, dar tac.
 -- utilizator 7 e prezentator
 iaslantă -> aceasta : 111
 aceslante -> acestea : 122
-"https://www.youtube.com/watch?v=7YSXISrL2rs"
+
+"https://www.youtube.com/watch?v=7YSXISrL2rs" - De ce ne schimbăm religia?
 -- utilizator 7 e prezentator
-"https://www.youtube.com/watch?v=j8Z8vvKg5bA"
+
+"https://www.youtube.com/watch?v=j8Z8vvKg5bA" - Dacă faci o afacere pentru oameni...
 -- utilizator 7 e prezentator
--- utilizatorul 6 e de origine francez cu putine probleme la vorbire
+-- utilizatorul 6 poate avea vorbirea neclara
 1167 : întrâmpat
-"https://www.youtube.com/watch?v=epFAoR1RKo8"
+
+"https://www.youtube.com/watch?v=epFAoR1RKo8" - Bătaia nu e ruptă din rai.
 -- utilizator 7 e prezentator
+
 "https://www.youtube.com/watch?v=zGREIEtFMa0"
 "https://www.youtube.com/watch?v=_hXoNrJ1CMk"
 "https://www.youtube.com/watch?v=d_J17CMh6wM"
@@ -40,9 +46,11 @@ aceslante -> acestea : 122
 1. pronunție MD - cuvânt
 ----------: sâ - se / să (doua cuvine pentru aceasi pronuntare in MD)
 solutie la: și - și / ce (selectez pur dupa ce se aude)
+TODO -- idee introduc "-word"
+cuvant_cum_se_aude -cuvant_cum_se_subintelege_in_functie_de_context
+FEATURE exemplu.. pentru cuvinte ca _și_ care mai inseamna pe alocuri _ce_ dar tot se pronunta _și_
 
 2. Poate fi asemanator 'mergem' si 'merjem', și mai multe cuvinte așa situatie
    mergeam - mergem (românește)
    merjem  - merjim (MD pronunție)
-
-3. exemplu cu aceleasi audio: din 'i-au' și 'iau' fac numai 'iau' (si asa se aude la fel)
+TODO cam ar merge varianta de la subpunctul 1.

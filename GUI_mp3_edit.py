@@ -12,7 +12,7 @@ TEMP_VIDEO = "temp_video/"
 TEMP_SUB = "temp_subtitles/"
 
 MARGIN = 1.5         # seconds of margin around each segment
-START_EDITING = 0 # from wich ID to start editing
+START_EDITING = 0  # from wich ID to start editing
 
 def brain():
     # Load subtitles
@@ -184,12 +184,23 @@ def brain():
                 segment_end = round(new_end, 3)
                 win.destroy()
                 launch_gui()
+            
+            def mark_skipped():
+                val = input("Wanna mark SKIPPED-- ???? yes/no: ")
+                if val == "no" or val != "yes":
+                    return
+                val = input("YOU SURE ???? yes/no: ")
+                if val == "no" or val != "yes":
+                    return
+                item["text"] = "SKIPPED-- " + item["text"].replace("SKIPPED-- ", "")
+                print("Done")
 
             tk.Button(win, text="Play", command=play).pack(pady=2)
             tk.Button(win, text="Play SHORT", command=play_short).pack(pady=2)
             tk.Button(win, text="Save and Next", command=save_and_close).pack(pady=2)
             tk.Button(win, text="Leave Editing Mode", fg="red", command=leave).pack(pady=2)
             tk.Button(win, text="+2 sec", command=extend_end_by_2_sec).pack(pady=2)
+            tk.Button(win, text="Mark SKIPPED", fg="red", command=mark_skipped).pack(pady=2, side='right')
             win.mainloop()
 
         launch_gui()
