@@ -255,6 +255,12 @@ def take_subtitles_and_crop_mp3(folder: str):
         except subprocess.CalledProcessError as e:
             print(f"Failed to create clip {seg_id}: {e}")
 
+def delete_clips(folder: str):
+    clip_path = MY_DATA + folder + '/' + MP3_CLIPS
+    if os.path.exists(clip_path):
+        for file in os.listdir(clip_path):
+            os.remove(os.path.join(clip_path, file))
+        os.rmdir(clip_path)
 
 if __name__ == "__main__":
     # TODO - recommend to check the code beforehand, it is not tested
@@ -290,6 +296,9 @@ if __name__ == "__main__":
 
     # STEP 8: Create register.tsv
     # create_Register(name)
+
+    # STEP 9: Delete clips if needed
+    # delete_clips(name)
 
 #--------------------------------------------------------------------------------------- AFTER TODO
     # OPTIONALLY: After correcting times and words DO THIS

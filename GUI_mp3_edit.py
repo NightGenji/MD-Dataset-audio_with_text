@@ -6,22 +6,39 @@ import tempfile
 import subprocess
 import json
 import os
-
+# TODO - recommended to check the code beforehand, it is not tested
 MY_DATA = "my_data/"
-TEMP_VIDEO = "temp_video/"
-TEMP_SUB = "temp_subtitles/"
+SUBTITLES = "subtitles.json"
 
-MARGIN = 1.5         # seconds of margin around each segment
+WORKING_DIR_NUMBER = 0
+MARGIN = 1.5       # seconds of margin around each segment
 START_EDITING = 0  # from wich ID to start editing
 
-def brain():
-    # Load subtitles
-    with open(MY_DATA + TEMP_SUB + "subtitles.json", "r", encoding="utf-8") as file:
+def get_the_data_in_subtitle_json(folder: str):
+    with open(MY_DATA + folder + '/' + SUBTITLES, "r", encoding="utf-8") as file:
         data = json.load(file)
+    return data
+
+def write_the_data_in_subtitle_json(folder: str, data):
+    with open(MY_DATA + folder + '/' + SUBTITLES, "w", encoding="utf-8") as file:
+        json.dump(data, file, ensure_ascii=False, indent=2)
+
+def get_working_folder_name(folder_id: int) -> str | None:
+    for file in os.listdir(MY_DATA):
+        if file.startswith(str(folder_id) + "."):
+            return file
+    return None
+
+def brain():
+    name = get_working_folder_name(WORKING_DIR_NUMBER)
+    print("Working with: " + name)
+    if name is None:
+        print(" <><><><><><><> Bad Working Folder Nr <><><><><><><>")
+        exit(1)
+    data = get_the_data_in_subtitle_json(name)
 
     # Load audio
-    files = os.listdir(MY_DATA + TEMP_VIDEO)
-    audio_path = MY_DATA + TEMP_VIDEO + files[0]
+    audio_path = MY_DATA + name + '/' + ".".join(name.split(".")[1:]) + ".mp3"
     audio = AudioSegment.from_mp3(audio_path)
     total_duration = audio.duration_seconds
     last_time = -1
@@ -170,13 +187,11 @@ def brain():
                 win.destroy()
 
             def leave():
-                # Save current state before exiting
-                with open(MY_DATA + TEMP_SUB + "subtitles.json", "w", encoding="utf-8") as f:
-                    json.dump(data, f, ensure_ascii=False, indent=2)
+                write_the_data_in_subtitle_json(name, data)
                 win.destroy()
                 nonlocal last_edited_id
                 print(f"last_edited_id: {last_edited_id}")
-                raise SystemExit("Editing stopped by user.")
+                exit(0)
 
             def extend_end_by_2_sec():
                 new_end = min(end_var.get() + 2.0, disp_end)
@@ -207,9 +222,7 @@ def brain():
         if not done[0]:
             break
 
-    # Final save
-    with open(MY_DATA + TEMP_SUB + "subtitles.json", "w", encoding="utf-8") as file:
-        json.dump(data, file, ensure_ascii=False, indent=2)
+    write_the_data_in_subtitle_json(name, data)
 
 if __name__ == "__main__":
     brain()
