@@ -10,9 +10,9 @@ import os
 MY_DATA = "my_data/"
 SUBTITLES = "subtitles.json"
 
-WORKING_DIR_NUMBER = 0
+WORKING_DIR_NUMBER = 1
 MARGIN = 1.5       # seconds of margin around each segment
-START_EDITING = 0  # from wich ID to start editing
+START_EDITING = 316  # from wich ID to start editing
 
 def get_the_data_in_subtitle_json(folder: str):
     with open(MY_DATA + folder + '/' + SUBTITLES, "r", encoding="utf-8") as file:
@@ -44,15 +44,19 @@ def brain():
     last_time = -1
     last_edited_id = -1
 
-    for item in data["segments"]:
-        if item["id"] < START_EDITING:
-            continue
+    ind_el = 0
+    while ind_el < len(data["segments"]) and data["segments"][ind_el]["id"] < START_EDITING:
+        ind_el += 1
+
+    while ind_el < len(data["segments"]):
+        item = data["segments"][ind_el]
 
         segment_start = max(item["start"], last_time)
         segment_end = item["end"]
         if segment_start > segment_end:
             item["text"] = str(item["text"]).replace("SKIPPED-- ", "")
             item["text"] = "SKIPPED-- " + item["text"]
+            ind_el += 1
             continue
         text = item["text"]
         id_user = item["id_user"]
@@ -184,6 +188,8 @@ def brain():
                 last_edited_id = item["id"]
                 last_time = item["end"]
                 done[0] = True
+                nonlocal ind_el
+                ind_el += 1
                 win.destroy()
 
             def leave():
@@ -209,13 +215,22 @@ def brain():
                     return
                 item["text"] = "SKIPPED-- " + item["text"].replace("SKIPPED-- ", "")
                 print("Done")
+            
+            def back():
+                done[0] = True
+                nonlocal ind_el
+                nonlocal last_time
+                ind_el -= 1
+                last_time = -1
+                win.destroy()
 
             tk.Button(win, text="Play", command=play).pack(pady=2)
             tk.Button(win, text="Play SHORT", command=play_short).pack(pady=2)
             tk.Button(win, text="Save and Next", command=save_and_close).pack(pady=2)
-            tk.Button(win, text="Leave Editing Mode", fg="red", command=leave).pack(pady=2)
             tk.Button(win, text="+2 sec", command=extend_end_by_2_sec).pack(pady=2)
+            tk.Button(win, text="Leave Editing Mode", fg="red", command=leave).pack(pady=2, side='right')
             tk.Button(win, text="Mark SKIPPED", fg="red", command=mark_skipped).pack(pady=2, side='right')
+            tk.Button(win, text="Back", command=back).pack(pady=2, side='left')
             win.mainloop()
 
         launch_gui()

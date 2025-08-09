@@ -16,7 +16,7 @@ MY_DATA = "my_data/"
 REGISTER = "register.tsv"
 SUBTITLES = "subtitles.json"
 
-WORKING_DIR_NUMBER = 0
+WORKING_DIR_NUMBER = 1
 DIR_NAME_LEN = 30
 URL_NOW = ["..."]
 
@@ -232,8 +232,7 @@ def take_subtitles_and_crop_mp3(folder: str):
     for seg in data["segments"]:
         seg_id    = seg["id"]
         start     = seg["start"]
-        end       = seg["end"]
-        duration  = end - start
+        duration  = seg["end"] - start
 
         out_path = clip_path + padd_ID(seg_id, 7) + ".mp3"
         if os.path.exists(out_path):
@@ -289,7 +288,7 @@ if __name__ == "__main__":
     # append_and_remove_skipped_ids(name)
 
     # STEP 5/7: helping in correcting words manually: text in Json from str to list
-    # text_to_list_from_tempFolder(name)
+    text_to_list_from_tempFolder(name)
 
     # STEP 6: Create mp3's based on subtitles
     # take_subtitles_and_crop_mp3(name)
