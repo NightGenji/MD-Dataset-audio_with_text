@@ -1,0 +1,3 @@
+torch
+yt_dlp
+openai-whisper

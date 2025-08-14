@@ -1,0 +1,62 @@
+// python3 -m venv v_environment //
+-- Comenzi folosite des
+source v_environment/bin/activate
+pip install -r requirements.txt
+deactivate
+
+// pentru scurtarea terminalului
+export PS1="\u@\h:\W\$ "
+
+// Video folosite si notite
+// Prezentatorul poate fi mai multe persoane aparte
+"https://www.youtube.com/watch?v=mUf8-mQjje4" - Noi toți vrem să fim bogați
+-- utilizator 6 e prezentator
+!!!!!!! cuvinte de revizuit in toate folderele existente !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Cuvinte de revizuit: copeică, Prăsade, copeici, vroiam, vroia, vroiau, Colhoz, lu, bantik, cerofar
+                     anumitui, nimica, taică, cletcă, colțun, îi_este
+de revizuit: 414, 424, 681,
+
+"https://www.youtube.com/watch?v=PduZkR9j79E" - Voi știți cum e de trăit aici?
+-- utilizator 7 e prezentator
+-- utilizatorul 2 poate avea vorbirea neclara
+Cuvinte de revizuit: hăinăritul, sileotcă, 
+
+"https://www.youtube.com/watch?v=KSuqabzhxjg" - Sunt cei mai bravi - ei fac, dar tac.
+-- utilizator 7 e prezentator
+iaslantă -> aceasta : 111
+aceslante -> acestea : 122
+
+"https://www.youtube.com/watch?v=7YSXISrL2rs" - De ce ne schimbăm religia?
+-- utilizator 7 e prezentator
+
+"https://www.youtube.com/watch?v=j8Z8vvKg5bA" - Dacă faci o afacere pentru oameni...
+-- utilizator 7 e prezentator
+-- utilizatorul 6 poate avea vorbirea neclara
+1167 : întrâmpat
+
+"https://www.youtube.com/watch?v=epFAoR1RKo8" - Bătaia nu e ruptă din rai.
+-- utilizator 7 e prezentator
+
+"https://www.youtube.com/watch?v=zGREIEtFMa0"
+"https://www.youtube.com/watch?v=_hXoNrJ1CMk"
+"https://www.youtube.com/watch?v=d_J17CMh6wM"
+"https://www.youtube.com/watch?v=m8aXzMhFooc"
+"https://www.youtube.com/watch?v=ggaVblGO-ZI"
+"https://www.youtube.com/watch?v=A5Ssdoq3fXk"
+"https://www.youtube.com/watch?v=TOFItbQPJvc"
+
+// PROBLEME
+1. pronunție MD - cuvânt
+probleme: și - și/ce, li - li/le, ni - li/le, da - da/dar, sâ(pronuntia) - se/să etc.
+nemarcate: li - li/le, ni - li/le
+
+-- idee introduc "word[word]"
+----------/ cum_se_aude[cum_se_subintelege] \---------------
+FEATURE exemple: cum se aude vs cum se subintelege
+   1. _și_ care mai inseamna pe alocuri _ce_ dar tot se pronunta _și_ : și[ce]
+
+2. Poate fi asemanator 'mergem' si 'merjem', și mai multe cuvinte așa situatie
+   mergeam - mergem (românește)
+   merjem  - merjim (MD pronunție)
+--rezolvare: la multe pronuntia o dă de gol si e buna de scris corect gramatical
+      la restul marchez cum se aude si scriu varianta subînțeleasă
