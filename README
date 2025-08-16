@@ -11,31 +11,40 @@ export PS1="\u@\h:\W\$ "
 // Prezentatorul poate fi mai multe persoane aparte
 "https://www.youtube.com/watch?v=mUf8-mQjje4" - Noi toți vrem să fim bogați
 -- utilizator 6 e prezentator
-!!!!!!! cuvinte de revizuit in toate folderele existente !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-Cuvinte de revizuit: copeică, Prăsade, copeici, vroiam, vroia, vroiau, Colhoz, lu, bantik, cerofar
+!!!!!!! TODO -- cuvinte de revizuit de cautat in toate folderele existente !!!!!!!!!!!!!!!!!
+Cuvinte de revizuit: copeică, Prăsade, copeici, vroiam, vroia, vroiau, lu, bantik, cerofar
                      anumitui, nimica, taică, cletcă, colțun, îi_este
 de revizuit: 414, 424, 681,
 
 "https://www.youtube.com/watch?v=PduZkR9j79E" - Voi știți cum e de trăit aici?
 -- utilizator 7 e prezentator
 -- utilizatorul 2 poate avea vorbirea neclara
-Cuvinte de revizuit: hăinăritul, sileotcă, 
+Cuvinte de revizuit: hăinăritul, sileotcă, ieie, șade, șezi, șed, ședeai, a-de(ex: adi mama), 
+de revizuit: 228, 
 
 "https://www.youtube.com/watch?v=KSuqabzhxjg" - Sunt cei mai bravi - ei fac, dar tac.
 -- utilizator 7 e prezentator
 iaslantă -> aceasta : 111
 aceslante -> acestea : 122
+Cuvinte de revizuit:
+de revizuit:
 
 "https://www.youtube.com/watch?v=7YSXISrL2rs" - De ce ne schimbăm religia?
 -- utilizator 7 e prezentator
+Cuvinte de revizuit:
+de revizuit:
 
 "https://www.youtube.com/watch?v=j8Z8vvKg5bA" - Dacă faci o afacere pentru oameni...
 -- utilizator 7 e prezentator
 -- utilizatorul 6 poate avea vorbirea neclara
 1167 : întrâmpat
+Cuvinte de revizuit:
+de revizuit:
 
 "https://www.youtube.com/watch?v=epFAoR1RKo8" - Bătaia nu e ruptă din rai.
 -- utilizator 7 e prezentator
+Cuvinte de revizuit:
+de revizuit:
 
 "https://www.youtube.com/watch?v=zGREIEtFMa0"
 "https://www.youtube.com/watch?v=_hXoNrJ1CMk"
@@ -47,8 +56,10 @@ aceslante -> acestea : 122
 
 // PROBLEME
 1. pronunție MD - cuvânt
-probleme: și - și/ce, li - li/le, ni - li/le, da - da/dar, sâ(pronuntia) - se/să etc.
+probleme: și - și/ce, li - li/le, ni - li/le, da - da/dar, etc.
 nemarcate: li - li/le, ni - li/le
+ sâ(pronuntia) - se/să
+ câ(pronuntia) - ca/că
 
 -- idee introduc "word[word]"
 ----------/ cum_se_aude[cum_se_subintelege] \---------------
@@ -59,4 +70,4 @@ FEATURE exemple: cum se aude vs cum se subintelege
    mergeam - mergem (românește)
    merjem  - merjim (MD pronunție)
 --rezolvare: la multe pronuntia o dă de gol si e buna de scris corect gramatical
-      la restul marchez cum se aude si scriu varianta subînțeleasă
+      la restul marchez cum se aude si scriu varianta subînțeleasă -> word[word]
