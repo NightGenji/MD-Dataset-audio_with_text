@@ -16,7 +16,7 @@ MY_DATA = "my_data/"
 REGISTER = "register.tsv"
 SUBTITLES = "subtitles.json"
 
-WORKING_DIR_NUMBER = 0
+WORKING_DIR_NUMBER = 3
 DIR_NAME_LEN = 30
 URL_NOW = ["..."]
 
@@ -360,8 +360,8 @@ if __name__ == "__main__":
     # text_to_list_from_tempFolder(name)
 
     # STEP 6/9: Create mp3's based on subtitles
-    take_subtitles_and_crop_mp3(name)
-    # delete_clips(name) # to delete clips after using them to free space
+    # take_subtitles_and_crop_mp3(name)
+    delete_clips(name) # to delete clips after using them to free space
 
     # STEP 8: Create register.tsv
     # create_Register(name)

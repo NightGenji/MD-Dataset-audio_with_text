@@ -104,7 +104,7 @@
       "start": 83.0,
       "end": 88.9,
       "text": [
-        " de 14 ani sunt în domeniu -domeniul social curat și până atunci încă mai",
+        " de 14 ani sunt în domeniu[domeniul] social curat și până atunci încă mai",
         " activam"
       ],
       "id_user": 3
@@ -123,7 +123,7 @@
       "start": 90.396,
       "end": 101.162,
       "text": [
-        " Au fost ani când n-avem -n-aveam ce mânca, au fost zile când mama cumpăra"
+        " Au fost ani când n-avem[n-aveam] ce mânca, au fost zile când mama cumpăra"
       ],
       "id_user": 2
     },
@@ -141,7 +141,7 @@
       "start": 105.762,
       "end": 110.287,
       "text": [
-        " Le împărțea în patru, că noi eram trei copii și mama, mama ne-o -ne-a crescut",
+        " li[le] împărțea în patru, că noi eram trei copii și mama, mama ne-o[ne-a] crescut",
         " singură."
       ],
       "id_user": 2
@@ -160,7 +160,7 @@
       "start": 116.0,
       "end": 119.5,
       "text": [
-        " Da -dar așa am crescut, cu greutăți foarte mari."
+        " Da[dar] așa am crescut, cu greutăți foarte mari."
       ],
       "id_user": 2
     },
@@ -188,7 +188,7 @@
       "start": 130.065,
       "end": 135.7,
       "text": [
-        " În schimb, mama totdeauna ne spunea un lucru, uite-te, Daniela, noi poate nu",
+        " În schimb, mama totdeauna ni[ne] spunea un lucru, uite-te, Daniela, noi poate nu",
         " avem bani,"
       ],
       "id_user": 4
@@ -198,7 +198,7 @@
       "start": 135.837,
       "end": 138.3,
       "text": [
-        " da -dar noi suntem bogați pentru că avem ce mânca."
+        " da[dar] noi suntem bogați pentru că avem ce mânca."
       ],
       "id_user": 4
     },
@@ -273,7 +273,7 @@
       "start": 169.15,
       "end": 178.05,
       "text": [
-        " în familia mea, situația financiară, n-aș spune c-o -c-a fost grea, ori o -a",
+        " în familia mea, situația financiară, n-aș spune c-o[c-a] fost grea, ori o[a]",
         " fost un deficit."
       ],
       "id_user": 5
@@ -293,7 +293,7 @@
       "start": 184.499,
       "end": 190.8,
       "text": [
-        " N-aș spune c-o -c-a fost așa de greu pe vremurile când noi socoteam, că atunci",
+        " N-aș spune c-o[c-a] fost așa de greu pe vremurile când noi socoteam, că atunci",
         " așa trebuia să fie, cred că."
       ],
       "id_user": 5
@@ -340,7 +340,7 @@
       "start": 212.175,
       "end": 217.0,
       "text": [
-        " Am fost, o -a fost bine în vremurile celea, când eram noi."
+        " Am fost, o[a] fost bine în vremurile celea, când eram noi."
       ],
       "id_user": 5
     },
@@ -349,7 +349,7 @@
       "start": 217.825,
       "end": 222.25,
       "text": [
-        " Că nu știam altă altă ceva, cred că de atâta nouă ne părea, că-i bine."
+        " Că nu știam altă altă ceva, cred că de atâta nouă ni[ne] părea, că-i bine."
       ],
       "id_user": 5
     },
@@ -376,7 +376,7 @@
       "start": 235.602,
       "end": 243.198,
       "text": [
-        " Vindeam tartinele pe care mi le dădea bunica și în cazul în care nu se ajungeau",
+        " Vindeam tartinele pe care mi li[le] dădea bunica și în cazul în care nu se ajungeau",
         " la unii colegi,"
       ],
       "id_user": 1
@@ -386,7 +386,7 @@
       "start": 243.636,
       "end": 246.0,
       "text": [
-        " le tăiam cu rigla în jumătate."
+        " li[le] tăiam cu rigla în jumătate."
       ],
       "id_user": 1
     },
@@ -432,7 +432,7 @@
       "start": 267.775,
       "end": 273.3,
       "text": [
-        " Avem -aveam 17 ani m-am dus la cules nuci."
+        " Avem[aveam] 17 ani m-am dus la cules nuci."
       ],
       "id_user": 2
     },
@@ -470,7 +470,7 @@
       "start": 290.5,
       "end": 297.09,
       "text": [
-        " Ne-o -mi-o dat trei sute patru sute de lei pe nu patru sute și ceva de lei pe",
+        " Ne-o[mi-a] dat trei sute patru sute de lei pe nu patru sute și ceva de lei pe",
         " nucile celea, dar erau foarte mulți bani."
       ],
       "id_user": 2
@@ -481,7 +481,7 @@
       "end": 304.052,
       "text": [
         " foarte mulți bani Erau pentru mine, socotiți eu am patruzeci și trei de ani, și",
-        " atunci avem -aveam 17 ani."
+        " atunci avem[aveam] 17 ani."
       ],
       "id_user": 2
     },
@@ -499,7 +499,7 @@
       "start": 307.318,
       "end": 311.711,
       "text": [
-        " M-am dus de banii ceia ne-am -mi-am cumpărat, o cămașă de jeans, care era la",
+        " M-am dus de banii ceia ne-am[mi-am] cumpărat, o cămașă de jeans, care era la",
         " modă."
       ],
       "id_user": 2
@@ -518,7 +518,7 @@
       "start": 314.5,
       "end": 322.0,
       "text": [
-        " Și ne-am -mi-am cumpărat o pereche de jeans, și ne-am -mi-am cumpărat o pereche",
+        " Și ne-am[mi-am] cumpărat o pereche de jeans, și ne-am[mi-am] cumpărat o pereche",
         " de pantofi, de piele naturală, erau tot la modă."
       ],
       "id_user": 2
@@ -583,7 +583,7 @@
       "start": 359.52,
       "end": 363.245,
       "text": [
-        " Avem -aveam tot timpul eu banii, pentru că tata meu avea un frate,"
+        " Avem[aveam] tot timpul eu banii, pentru că tata meu avea un frate,"
       ],
       "id_user": 5
     },
@@ -637,7 +637,7 @@
       "start": 387.162,
       "end": 392.737,
       "text": [
-        " Prima sumă de bani am făcut-o, cea mai mare, eu ne-am -mi-am făcut-o."
+        " Prima sumă de bani am făcut-o, cea mai mare, eu ne-am[mi-am] făcut-o."
       ],
       "id_user": 5
     },
@@ -655,7 +655,7 @@
       "start": 398.2,
       "end": 401.9,
       "text": [
-        " Și tata meu ne-o -mi-a mai dat o rublă și ne-o -mi-a cumpărat palton."
+        " Și tata meu ne-o[mi-a] mai dat o rublă și ne-o[mi-a] cumpărat palton."
       ],
       "id_user": 5
     },
@@ -777,7 +777,7 @@
       "start": 460.88,
       "end": 464.88,
       "text": [
-        " Dar gazda mă întreba în fiecare zi da -dar când pleci, da -dar când îti dă",
+        " Dar gazda mă întreba în fiecare zi da[dar] când pleci, da[dar] când îti dă",
         " cămin."
       ],
       "id_user": 4
@@ -946,7 +946,7 @@
       "end": 542.663,
       "text": [
         " fiind că atunci înțelegeam foarte bine că prin care stres și prin care situații",
-        " dificile o -a trecut mama mea,"
+        " dificile o[a] trecut mama mea,"
       ],
       "id_user": 3
     },
@@ -1020,7 +1020,7 @@
       "start": 576.0,
       "end": 580.85,
       "text": [
-        " Pot să fac o listă foarte mare de de lucrări pe care am am încercat să le fac."
+        " Pot să fac o listă foarte mare de de lucrări pe care am am încercat să li[le] fac."
       ],
       "id_user": 3
     },
@@ -1057,7 +1057,7 @@
       "end": 613.9,
       "text": [
         " se duceau la la normă în Colhoz, că atunci era Colhoz, și veneau și erau",
-        " bucuroase că o -a trecut luna și-o -și-au primit vreo doi bănuți."
+        " bucuroase că o[a] trecut luna și-o[și-au] primit vreo doi bănuți."
       ],
       "id_user": 5
     },
@@ -1075,7 +1075,7 @@
       "start": 618.1,
       "end": 621.283,
       "text": [
-        " Mă duc și eu cu dânsele, că ele spuneau că așa îi -e de bine acolo."
+        " Mă duc și eu cu dânsele, că ele spuneau că așa îi[e] de bine acolo."
       ],
       "id_user": 5
     },
@@ -1103,7 +1103,7 @@
       "start": 633.55,
       "end": 635.95,
       "text": [
-        " De acolo ne-o -ne-a trimis în oraș la lucru eu n-am vrut"
+        " De acolo ne-o[ne-a] trimis în oraș la lucru eu n-am vrut"
       ],
       "id_user": 5
     },
@@ -1196,7 +1196,7 @@
       "start": 685.127,
       "end": 690.022,
       "text": [
-        " N-avem -n-aveam pantaloni la școală, n-avem -n-aveam, toată lumea era îmbrăcată",
+        " N-avem[n-aveam] pantaloni la școală, n-avem[n-aveam] toată lumea era îmbrăcată",
         " frumos."
       ],
       "id_user": 2
@@ -1206,7 +1206,7 @@
       "start": 690.4,
       "end": 693.712,
       "text": [
-        " Da -dar eu c-o singură păreche de pantaloni tot tot anul."
+        " Da[dar] eu c-o singură păreche de pantaloni tot tot anul."
       ],
       "id_user": 2
     },
@@ -1215,7 +1215,7 @@
       "start": 695.44,
       "end": 701.911,
       "text": [
-        " Țin minte odată, n-avem -n-aveam încălțăminte primăvara. și era"
+        " Țin minte odată, n-avem[n-aveam] încălțăminte primăvara. și era"
       ],
       "id_user": 2
     },
@@ -1233,7 +1233,7 @@
       "start": 707.453,
       "end": 711.853,
       "text": [
-        " Și tot avem -aveam o pereche de încălțăminte când mă udam, totdeauna mă udam."
+        " Și tot avem[aveam] o pereche de încălțăminte când mă udam, totdeauna mă udam."
       ],
       "id_user": 2
     },
@@ -1251,7 +1251,7 @@
       "start": 721.44,
       "end": 725.0,
       "text": [
-        " Da -dar ea zicea, Viorica, avea curci, mama mea."
+        " Da[dar] ea zicea, Viorica, avea curci, mama mea."
       ],
       "id_user": 2
     },
@@ -1278,7 +1278,7 @@
       "start": 732.492,
       "end": 734.242,
       "text": [
-        " a -o să cumpărăm ceva de încălțat."
+        " a[o] să cumpărăm ceva de încălțat."
       ],
       "id_user": 2
     },
@@ -1296,7 +1296,7 @@
       "start": 738.43,
       "end": 740.168,
       "text": [
-        " Ea tare s-o -s-a stăruit."
+        " Ea tare s-o[s-a] stăruit."
       ],
       "id_user": 2
     },
@@ -1314,7 +1314,7 @@
       "start": 743.036,
       "end": 748.55,
       "text": [
-        " Din și -ce credea ea că putea să facă, c-ar putea să meargă înainte, ea se",
+        " Din și[ce] credea ea că putea să facă, c-ar putea să meargă înainte, ea se",
         " stăruia."
       ],
       "id_user": 2
@@ -1351,7 +1351,7 @@
       "start": 761.12,
       "end": 763.795,
       "text": [
-        " Da -dar mie mi-o -mi-a plăcut așa de tare cizmele celea."
+        " Da[dar] mie mi-o[mi-a] plăcut așa de tare cizmele celea."
       ],
       "id_user": 2
     },
@@ -1360,7 +1360,7 @@
       "start": 764.397,
       "end": 766.148,
       "text": [
-        " Când să le încalț, erau mici."
+        " Când să li[le] încalț, erau mici."
       ],
       "id_user": 2
     },
@@ -1369,7 +1369,7 @@
       "start": 766.6,
       "end": 772.211,
       "text": [
-        " Eu, de frică, că n-a -n-o să ne -mi le mai ieie și-a să umblu udă iar"
+        " Eu, de frică, că n-a[n-o] să ne[mi] li[le] mai ieie și-a[și-o] să umblu udă iar"
       ],
       "id_user": 2
     },
@@ -1387,7 +1387,7 @@
       "start": 774.96,
       "end": 780.96,
       "text": [
-        " Și așa, degetele strânse, așa am umblat cu cizmele celea până s-o -s-au rupt."
+        " Și așa, degetele strânse, așa am umblat cu cizmele celea până s-o[s-au] rupt."
       ],
       "id_user": 2
     },
@@ -1441,7 +1441,7 @@
       "start": 800.773,
       "end": 803.475,
       "text": [
-        " Eu avem -aveam țin minte o pereche de ceia albaștri,"
+        " Eu avem[aveam] țin minte o pereche de ceia albaștri,"
       ],
       "id_user": 2
     },
@@ -1495,7 +1495,7 @@
       "start": 818.349,
       "end": 820.8,
       "text": [
-        " da -dar eu eram bucuroasă că eu nu mă ud la picioare."
+        " da[dar] eu eram bucuroasă că eu nu mă ud la picioare."
       ],
       "id_user": 2
     },
@@ -1504,7 +1504,7 @@
       "start": 821.088,
       "end": 823.625,
       "text": [
-        " Da -dar am fost un copil, știți cum,"
+        " Da[dar] am fost un copil, știți cum,"
       ],
       "id_user": 2
     },
@@ -1585,7 +1585,7 @@
       "start": 851.244,
       "end": 853.64,
       "text": [
-        " Avem -aveam în minte numai un lucru."
+        " Avem[aveam] în minte numai un lucru."
       ],
       "id_user": 2
     },
@@ -1603,7 +1603,7 @@
       "start": 857.48,
       "end": 860.48,
       "text": [
-        " și eu n-a -n-o să mai trăiesc așa."
+        " și eu n-a[n-o] să mai trăiesc așa."
       ],
       "id_user": 2
     },
@@ -1612,7 +1612,7 @@
       "start": 860.48,
       "end": 863.955,
       "text": [
-        " Cred că momentul cela o -a fost atunci când"
+        " Cred că momentul cela o[a] fost atunci când"
       ],
       "id_user": 1
     },
@@ -1756,7 +1756,7 @@
       "start": 909.608,
       "end": 912.586,
       "text": [
-        " Pentru că era -erau cumva mai ieftine, și cumva"
+        " Pentru că era[erau] cumva mai ieftine, și cumva"
       ],
       "id_user": 1
     },
@@ -1820,7 +1820,7 @@
       "start": 930.0,
       "end": 932.196,
       "text": [
-        " Și spuneam lu bunica, bunica, da -dar păi mie nu-mi plac,"
+        " Și spuneam lu bunica, bunica, da[dar] păi mie nu-mi plac,"
       ],
       "id_user": 1
     },
@@ -1847,7 +1847,7 @@
       "start": 937.861,
       "end": 940.5,
       "text": [
-        " mi-o -mi-a cumpărat ceea ce am vrut eu,"
+        " mi-o[mi-a] cumpărat ceea ce am vrut eu,"
       ],
       "id_user": 1
     },
@@ -2189,7 +2189,7 @@
       "start": 1050.5,
       "end": 1053.9,
       "text": [
-        " da -dar ca când să scap eu oleacă de casa mea"
+        " da[dar] ca când să scap eu oleacă de casa mea"
       ],
       "id_user": 2
     },
@@ -2216,7 +2216,7 @@
       "start": 1060.5,
       "end": 1064.4,
       "text": [
-        " Da, s-o -s-a îmbunătățit ceva, că zicem că avem haine"
+        " Da, s-o[s-a] îmbunătățit ceva, că zicem că avem haine"
       ],
       "id_user": 2
     },
@@ -2252,7 +2252,7 @@
       "start": 1072.2,
       "end": 1075.112,
       "text": [
-        " Eu m-am hotărât să mă duc la Italia. Zic, da -dar"
+        " Eu m-am hotărât să mă duc la Italia. Zic, da[dar]"
       ],
       "id_user": 2
     },
@@ -2279,7 +2279,7 @@
       "start": 1083.237,
       "end": 1086.388,
       "text": [
-        " Da -dar să vă spun una cât trăiam cu soțul,"
+        " Da[dar] să vă spun una cât trăiam cu soțul,"
       ],
       "id_user": 2
     },
@@ -2342,7 +2342,7 @@
       "start": 1103.066,
       "end": 1106.5,
       "text": [
-        " și eu în mintea mea avem -aveam că eu trebuie să muncesc și eu trebuie să-mi",
+        " și eu în mintea mea avem[aveam] că eu trebuie să muncesc și eu trebuie să-mi",
         " fac."
       ],
       "id_user": 2
@@ -2505,8 +2505,8 @@
       "start": 1170.192,
       "end": 1177.186,
       "text": [
-        " până am văzut o foaie turistică, pe vremea ceea, în anii șaptezeci și",
-        " șase, le spun."
+        " până am văzut o foaie turistică, pe vremea ceea, în anii șaptezeci și șase, li[le]",
+        " spun."
       ],
       "id_user": 5
     },
@@ -2588,7 +2588,7 @@
       "start": 1213.76,
       "end": 1217.172,
       "text": [
-        " Da -dar iată în România, când m-am dus și când am intrat în magazinele lor"
+        " Da[dar] iată în România, când m-am dus și când am intrat în magazinele lor"
       ],
       "id_user": 5
     },
@@ -2606,7 +2606,7 @@
       "start": 1220.142,
       "end": 1222.5,
       "text": [
-        " îmi fugeau ochii da -dar bani nu erau."
+        " îmi fugeau ochii da[dar] bani nu erau."
       ],
       "id_user": 5
     },
@@ -2615,7 +2615,7 @@
       "start": 1222.5,
       "end": 1225.897,
       "text": [
-        " Când am cumpărat, mi le-o -le-a pus într-o sacoșă de asta,"
+        " Când am cumpărat, mi le-o[le-a] pus într-o sacoșă de asta,"
       ],
       "id_user": 5
     },
@@ -2633,7 +2633,7 @@
       "start": 1229.408,
       "end": 1232.937,
       "text": [
-        " Da -dar eu am spus că oare o să țină până afară."
+        " Da[dar] eu am spus că oare o să țină până afară."
       ],
       "id_user": 5
     },
@@ -2660,7 +2660,7 @@
       "start": 1237.264,
       "end": 1240.116,
       "text": [
-        " da -dar doamna o -a cunoscut că nu suntem de acolo, și-mi spune că"
+        " da[dar] doamna o[a] cunoscut că nu suntem de acolo, și-mi spune că"
       ],
       "id_user": 5
     },
@@ -2904,7 +2904,7 @@
       "start": 1312.5,
       "end": 1316.057,
       "text": [
-        " cu anumite responsabilități pe care o să mi le iau atunci când o să"
+        " cu anumite responsabilități pe care o să mi li[le] iau atunci când o să"
       ],
       "id_user": 3
     },
@@ -2940,7 +2940,7 @@
       "start": 1323.371,
       "end": 1326.5,
       "text": [
-        " spre exemplu, să particie la diferite cursuri, să le procure"
+        " spre exemplu, să particie la diferite cursuri, să li[le] procure"
       ],
       "id_user": 3
     },
@@ -2967,7 +2967,7 @@
       "start": 1333.631,
       "end": 1334.937,
       "text": [
-        " Eu toate acestea nu le aveam."
+        " Eu toate acestea nu li[le] aveam."
       ],
       "id_user": 3
     },
@@ -3003,7 +3003,7 @@
       "start": 1345.061,
       "end": 1348.174,
       "text": [
-        " Pentru că eu mi-am ales, conștient, domeniu -domeniul social."
+        " Pentru că eu mi-am ales, conștient, domeniu[domeniul] social."
       ],
       "id_user": 3
     },
@@ -3120,7 +3120,7 @@
       "start": 1378.875,
       "end": 1381.7,
       "text": [
-        " eu am greșit că nu ne-am -mi-am cumpărat o înghețată."
+        " eu am greșit că nu ne-am[mi-am] cumpărat o înghețată."
       ],
       "id_user": 2
     },
@@ -3156,7 +3156,7 @@
       "start": 1389.29,
       "end": 1393.5,
       "text": [
-        " Primul lucru, mi-o -mi-a găsit prietena mea, un"
+        " Primul lucru, mi-o[mi-a] găsit prietena mea, un"
       ],
       "id_user": 2
     },
@@ -3192,7 +3192,7 @@
       "start": 1405.31,
       "end": 1408.091,
       "text": [
-        " da -dar el era italian, bărbatul era italian."
+        " da[dar] el era italian, bărbatul era italian."
       ],
       "id_user": 2
     },
@@ -3264,7 +3264,7 @@
       "start": 1424.65,
       "end": 1426.925,
       "text": [
-        " ridicam scările la a -al doilea etaj,"
+        " ridicam scările la a[al] doilea etaj,"
       ],
       "id_user": 2
     },
@@ -3318,7 +3318,7 @@
       "start": 1441.31,
       "end": 1445.291,
       "text": [
-        " Doamne, maltratată de una care o -a făcut lucru ca mine."
+        " Doamne, maltratată de una care o[a] făcut lucru ca mine."
       ],
       "id_user": 2
     },
@@ -3615,7 +3615,7 @@
       "start": 1537.068,
       "end": 1539.079,
       "text": [
-        " Da -dar toți vroiau ceva frumos."
+        " Da[dar] toți vroiau ceva frumos."
       ],
       "id_user": 5
     },
@@ -3642,7 +3642,7 @@
       "start": 1545.95,
       "end": 1549.254,
       "text": [
-        " n-avem -n-aveam înscriere în oraș și n-o puteai face."
+        " n-avem[n-aveam] înscriere în oraș și n-o puteai face."
       ],
       "id_user": 5
     },
@@ -3714,7 +3714,7 @@
       "start": 1571.737,
       "end": 1576.318,
       "text": [
-        " Da -dar nu era scumpă. Chiria era, puțin ședeau atunci cu chiria"
+        " Da[dar] nu era scumpă. Chiria era, puțin ședeau atunci cu chiria"
       ],
       "id_user": 5
     },
@@ -3787,7 +3787,7 @@
       "end": 1606.983,
       "text": [
         " să fim foarte responsabili atunci când vorbim despre sărăcie. Pentru cei care",
-        " ne aud,"
+        " ni[ne] aud,"
       ],
       "id_user": 3
     },
@@ -3814,7 +3814,7 @@
       "start": 1617.233,
       "end": 1619.47,
       "text": [
-        " păi asta eu a -o să cresc cu așa o percepere."
+        " păi asta eu a[o] să cresc cu așa o percepere."
       ],
       "id_user": 3
     },
@@ -3940,7 +3940,7 @@
       "start": 1673.138,
       "end": 1678.5,
       "text": [
-        " câte o trebuit eu ca să trec, ca să câștig banii aceștia."
+        " câte o[a] trebuit eu ca să trec, ca să câștig banii aceștia."
       ],
       "id_user": 2
     },
@@ -3967,7 +3967,7 @@
       "start": 1686.911,
       "end": 1690.787,
       "text": [
-        " Perioada când eu nu avem -aveam acte și nu putem -puteam să vin în țară,"
+        " Perioada când eu nu avem[aveam] acte și nu putem[puteam] să vin în țară,"
       ],
       "id_user": 2
     },
@@ -3985,7 +3985,7 @@
       "start": 1696.72,
       "end": 1700.849,
       "text": [
-        " principalul că ea îi -e sănătoasă și eu odată a -o s-o văd."
+        " principalul că ea îi[e] sănătoasă și eu odată a[o] s-o văd."
       ],
       "id_user": 2
     },
@@ -4003,7 +4003,7 @@
       "start": 1705.236,
       "end": 1709.5,
       "text": [
-        " Eu eu odată a -o s-o văd pe dânsa, dar principalul că-i sănătoasă."
+        " Eu eu odată a[o] s-o văd pe dânsa, dar principalul că-i sănătoasă."
       ],
       "id_user": 2
     },
@@ -4021,7 +4021,7 @@
       "start": 1717.772,
       "end": 1722.5,
       "text": [
-        " da -dar iată eu anume așa și poate nici nu plângeam,"
+        " da[dar] iată eu anume așa și poate nici nu plângeam,"
       ],
       "id_user": 2
     },
@@ -4048,7 +4048,7 @@
       "start": 1728.663,
       "end": 1732.227,
       "text": [
-        " Eu trebuie să lucrez până în ziua când eu a -o să mă duc."
+        " Eu trebuie să lucrez până în ziua când eu a[o] să mă duc."
       ],
       "id_user": 2
     },
@@ -4075,7 +4075,7 @@
       "start": 1739.04,
       "end": 1742.72,
       "text": [
-        " Avem -aveam bani strânși, mulți avem -aveam bani, de-un apartament."
+        " Avem[aveam] bani strânși, mulți avem[aveam] bani, de-un apartament."
       ],
       "id_user": 2
     },
@@ -4084,7 +4084,7 @@
       "start": 1743.7,
       "end": 1745.987,
       "text": [
-        " S-o -s-a primit că am luat și apartament."
+        " S-o[s-a] primit că am luat și apartament."
       ],
       "id_user": 2
     },
@@ -4138,7 +4138,7 @@
       "start": 1765.5,
       "end": 1768.082,
       "text": [
-        " Și unicul minus îi -e că nu-i a meu."
+        " Și unicul minus îi[e] că nu-i a meu."
       ],
       "id_user": 1
     },
@@ -4147,7 +4147,7 @@
       "start": 1768.093,
       "end": 1773.107,
       "text": [
-        " Dacă ar fi fost a meu și știam că anume asta îi -e proprietatea mea,"
+        " Dacă ar fi fost a meu și știam că anume asta îi[e] proprietatea mea,"
       ],
       "id_user": 1
     },
@@ -4237,7 +4237,7 @@
       "start": 1812.5,
       "end": 1818.263,
       "text": [
-        " Și venituri trebuie sau nu că -ca să le planificăm, ca să acoperim datoriile și",
+        " Și venituri trebuie sau nu că[ca] să li[le] planificăm, ca să acoperim datoriile și",
         " cheltuielile."
       ],
       "id_user": 4
@@ -4346,7 +4346,7 @@
       "start": 1868.403,
       "end": 1871.017,
       "text": [
-        " banii economisiți mulți nu i-o -i-a văzut,"
+        " banii economisiți mulți nu i-o[i-a] văzut,"
       ],
       "id_user": 5
     },
@@ -4373,7 +4373,7 @@
       "start": 1879.089,
       "end": 1881.13,
       "text": [
-        " nu dădeau băncile, n-o -n-a mai dat băncile."
+        " nu dădeau băncile, n-o[n-au] mai dat băncile."
       ],
       "id_user": 5
     },
@@ -4391,7 +4391,7 @@
       "start": 1886.5,
       "end": 1889.5,
       "text": [
-        " atunci o -a fost mai, aceasta"
+        " atunci o[a] fost mai, aceasta"
       ],
       "id_user": 5
     },
@@ -4437,7 +4437,7 @@
       "start": 1904.83,
       "end": 1908.5,
       "text": [
-        " da -dar am mers înainte. Cum o -a fost în Italia?"
+        " da[dar] am mers înainte. Cum o[a] fost în Italia?"
       ],
       "id_user": 5
     },
@@ -4464,7 +4464,7 @@
       "start": 1915.05,
       "end": 1918.433,
       "text": [
-        " Și-am nimerit la dânșii, m-o -m-au ajutat să învăț limba"
+        " Și-am nimerit la dânșii, m-o[m-au] ajutat să învăț limba"
       ],
       "id_user": 5
     },
@@ -4491,7 +4491,7 @@
       "start": 1927.5,
       "end": 1931.11,
       "text": [
-        " A -am stat aproape zece ani, da -dar m-am dus, am venit, m-am dus, am venit,",
+        " A[am] stat aproape zece ani, da[dar] m-am dus, am venit, m-am dus, am venit,",
         " n-am"
       ],
       "id_user": 5
@@ -4555,7 +4555,7 @@
       "start": 1951.628,
       "end": 1956.108,
       "text": [
-        " spună, oi da -dar eu ieri am fost la piață, dă eu să-ți dau ceva produse carne,"
+        " spună, oi da[dar] eu ieri am fost la piață, dă eu să-ți dau ceva produse carne,"
       ],
       "id_user": 1
     },
@@ -4618,7 +4618,7 @@
       "start": 1988.05,
       "end": 1989.85,
       "text": [
-        " toate cheltuieli -cheltuielile lunare."
+        " toate cheltuieli[cheltuielile] lunare."
       ],
       "id_user": 6
     },
@@ -4663,7 +4663,7 @@
       "start": 2015.02,
       "end": 2017.72,
       "text": [
-        " sunt de acord că-s mici pensiile, da -dar la cine sunt mici?"
+        " sunt de acord că-s mici pensiile, da[dar] la cine sunt mici?"
       ],
       "id_user": 5
     },
@@ -4672,7 +4672,7 @@
       "start": 2017.72,
       "end": 2020.028,
       "text": [
-        " Sunt mici la oamenii care o -au lucrat în colhoz."
+        " Sunt mici la oamenii care o[au] lucrat în colhoz."
       ],
       "id_user": 5
     },
@@ -4708,7 +4708,7 @@
       "start": 2029.858,
       "end": 2032.552,
       "text": [
-        " Da -dar din... strâng copeică cu copeică"
+        " Da[dar] din... strâng copeică cu copeică"
       ],
       "id_user": 5
     },
@@ -4762,7 +4762,7 @@
       "start": 2051.65,
       "end": 2054.67,
       "text": [
-        " Eu cred că noi ne luăm în mâini atunci când avem o criză."
+        " Eu cred că noi ni[ne] luăm în mâini atunci când avem o criză."
       ],
       "id_user": 4
     },
@@ -4843,7 +4843,7 @@
       "start": 2079.146,
       "end": 2083.121,
       "text": [
-        " da -dar noi nu evoluăm, noi nu progresăm, noi nu cumpărăm casă,"
+        " da[dar] noi nu evoluăm, noi nu progresăm, noi nu cumpărăm casă,"
       ],
       "id_user": 4
     },
@@ -4871,7 +4871,7 @@
       "start": 2093.194,
       "end": 2098.796,
       "text": [
-        " Când s-o deschis loteria, când loteria are acum câțiva ani, cinci ani,"
+        " Când s-o[s-a] deschis loteria, când loteria are acum câțiva ani, cinci ani,"
       ],
       "id_user": 2
     },
@@ -4889,7 +4889,8 @@
       "start": 2103.87,
       "end": 2108.5,
       "text": [
-        " Bilet cu bilet, eu le strângeam așa într-o cutie că -ca să văd eu cât a -o să cheltui."
+        " Bilet cu bilet, eu li[le] strângeam așa într-o cutie ca să văd eu cât a[o] să",
+        " cheltui."
       ],
       "id_user": 2
     },
@@ -4907,7 +4908,7 @@
       "start": 2111.82,
       "end": 2116.065,
       "text": [
-        " dă-mi te rog niște bilete, da -dar te rog frumos, să nu îi spui lu fratele meu,"
+        " dă-mi te rog niște bilete, da[dar] te rog frumos, să nu îi spui lu fratele meu,"
       ],
       "id_user": 2
     },
@@ -4934,7 +4935,7 @@
       "start": 2125.5,
       "end": 2129.5,
       "text": [
-        " da -dar și, lumea ce-a să zică, ia uite asta cheltuie bani pe bilete."
+        " da[dar] și, lumea ce-a să zică, ia uite asta cheltuie bani pe bilete."
       ],
       "id_user": 2
     },
@@ -4952,8 +4953,8 @@
       "start": 2136.98,
       "end": 2142.5,
       "text": [
-        " După șapte bilete roasă -roase, a optălea, să zicem așa, a -al optălea a -al nouălea, era",
-        " acesta cu patru milioane."
+        " După șapte bilete roasă[roase] a optălea, să zicem așa, a[al] optălea a[al]",
+        " nouălea, era acesta cu patru milioane."
       ],
       "id_user": 2
     },
@@ -5189,7 +5190,7 @@
       "end": 2281.62,
       "text": [
         " Da, pentru că, cum v-am mai spus eu, deci tot depinde cum interpretăm noi",
-        " realitatea cu care ne confruntăm."
+        " realitatea cu care ni[ne] confruntăm."
       ],
       "id_user": 3
     },
@@ -5393,7 +5394,7 @@
       "start": 2402.861,
       "end": 2408.87,
       "text": [
-        " În ultimul timp haine, deja înțeleg că îi -e full garderoba și ajunge."
+        " În ultimul timp haine, deja înțeleg că îi[e] full garderoba și ajunge."
       ],
       "id_user": 1
     },
@@ -5402,7 +5403,7 @@
       "start": 2409.264,
       "end": 2415.925,
       "text": [
-        " Și acum îi -e pe, uneori, și ieșirile cu prietenii deja în oraș."
+        " Și acum îi[e] pe, uneori, și ieșirile cu prietenii deja în oraș."
       ],
       "id_user": 1
     },
@@ -5524,7 +5525,7 @@
       "start": 2476.653,
       "end": 2485.875,
       "text": [
-        " Dacă ne întoarcem la experiența buneilor noștri, dacă și comparăm cu nivelul de",
+        " Dacă ni[ne] întoarcem la experiența buneilor noștri, dacă și comparăm cu nivelul de",
         " trai pe care noi îl avem acum, nici nu se compară."
       ],
       "id_user": 3
@@ -5543,7 +5544,7 @@
       "start": 2488.067,
       "end": 2489.5,
       "text": [
-        " Le putem numi săraci."
+        " li[le] putem numi săraci."
       ],
       "id_user": 3
     },
@@ -5561,7 +5562,7 @@
       "start": 2494.5,
       "end": 2501.4,
       "text": [
-        " Dar dacă le întrebăm noi pe ei, dacă ei se considerau pe atunci săraci,",
+        " Dar dacă li[le] întrebăm noi pe ei, dacă ei se considerau pe atunci săraci,",
         " categoric nu."
       ],
       "id_user": 3
@@ -5581,7 +5582,7 @@
       "end": 2515.5,
       "text": [
         " Altceva este că poate că atunci când eu mă aflu într-o comunitate în care mai",
-        " mulți oameni au anumite probleme cu care le am și eu."
+        " mulți oameni au anumite probleme cu care li[le] am și eu."
       ],
       "id_user": 3
     },
@@ -5599,7 +5600,7 @@
       "start": 2520.228,
       "end": 2528.5,
       "text": [
-        " da -dar În momentul în care eu trăiesc într-o situație de vulnerabilitate, în",
+        " da[dar] În momentul în care eu trăiesc într-o situație de vulnerabilitate, în",
         " momentul în care marea majoritate a oamenilor nu au astfel de situații,"
       ],
       "id_user": 3
@@ -5734,7 +5735,7 @@
       "start": 2635.662,
       "end": 2638.823,
       "text": [
-        " Deci nu toți au dat examenul, da -dar eu am susținut examenul de intrare."
+        " Deci nu toți au dat examenul, da[dar] eu am susținut examenul de intrare."
       ],
       "id_user": 4
     },
@@ -5782,8 +5783,8 @@
       "start": 2664.057,
       "end": 2669.62,
       "text": [
-        " da, l-am dat. Și vrei să mergi? Da -dar eu, da vreau să merg, da -dar noi dor -doar",
-        " n-avem bani."
+        " da, l-am dat. Și vrei să mergi? Da[dar] eu, da vreau să merg, da[dar] noi",
+        " dor[doar] n-avem bani."
       ],
       "id_user": 4
     },
@@ -5820,8 +5821,8 @@
       "start": 2687.733,
       "end": 2692.68,
       "text": [
-        " da -dar De exemplu, fratele meu nu mergea și mie mi-era rușine, că, de exemplu, ei s-au",
-        " cheltuit doar cu mine"
+        " da[dar] De exemplu, fratele meu nu mergea și mie mi-era rușine, că, de exemplu,",
+        " ei s-au cheltuit doar cu mine"
       ],
       "id_user": 4
     },
@@ -5933,8 +5934,8 @@
       "start": 2751.5,
       "end": 2758.5,
       "text": [
-        " țin minte la o săptămână de la câștig, că eu câștigasem mai înainte, da -dar",
-        " nimeni nu știa, până n-o -n-a apărut în presă."
+        " țin minte la o săptămână de la câștig, că eu câștigasem mai înainte, da[dar]",
+        " nimeni nu știa, până n-o[n-a] apărut în presă."
       ],
       "id_user": 2
     },
@@ -5943,8 +5944,8 @@
       "start": 2758.7,
       "end": 2765.5,
       "text": [
-        " După ce-o -ce-a apărut în presă, eu am m-am îmbonăvit. Am stat în pat, răcită, nu că",
-        " cu influență."
+        " După ce-o[ce-a] apărut în presă, eu am m-am îmbonăvit. Am stat în pat, răcită,",
+        " nu că cu influență."
       ],
       "id_user": 2
     },
@@ -5973,7 +5974,7 @@
       "start": 2785.185,
       "end": 2791.08,
       "text": [
-        " Poate din generația mea, le vine mai greu."
+        " Poate din generația mea, li[le] vine mai greu."
       ],
       "id_user": 5
     },
@@ -5982,7 +5983,7 @@
       "start": 2792.0,
       "end": 2797.7,
       "text": [
-        " Da -dar acești tineri, poate dintr-ânșii sunt, da -dar lor li s-o -s-a deschis",
+        " Da[dar] acești tineri, poate dintr-ânșii sunt, da[dar] lor li s-o[s-a] deschis",
         " multe drumuri."
       ],
       "id_user": 5
@@ -6002,7 +6003,7 @@
       "start": 2808.5,
       "end": 2815.183,
       "text": [
-        " Noi nu cunoșteam multe lucruri, noi n-auzeam de multe lucruri, nu le vedeam",
+        " Noi nu cunoșteam multe lucruri, noi n-auzeam de multe lucruri, nu li[le] vedeam",
         " multe lucruri."
       ],
       "id_user": 5
@@ -6012,7 +6013,7 @@
       "start": 2815.95,
       "end": 2821.5,
       "text": [
-        " Și lumea s-o -s-a învățat așa ia. Azi când li -le văd, de acum vor și ei, ca și",
+        " Și lumea s-o[s-a] învățat așa ia. Azi când li[le] văd, de acum vor și ei, ca și",
         " ceilalți."
       ],
       "id_user": 5
@@ -6022,7 +6023,7 @@
       "start": 2821.762,
       "end": 2825.227,
       "text": [
-        " Da -dar eu cum să spun de tineretul azi? Tineretul azi îi -e lenos."
+        " Da[dar] eu cum să spun de tineretul azi? Tineretul azi îi[e] lenos."
       ],
       "id_user": 5
     },
@@ -6032,7 +6033,7 @@
       "end": 2834.78,
       "text": [
         " Drept să vă spun c-am, ascultând televizorul și acestea un lucrător social",
-        " spune că a -al treilea, ori a -al patrulea,"
+        " spune că a[al] treilea, ori a[al] patrulea,"
       ],
       "id_user": 5
     },
@@ -6089,7 +6090,7 @@
       "end": 2875.073,
       "text": [
         " În cazul oamenilor care au așa mai mulți bani, au și alt nivel de de oameni",
-        " lângă ei și din cauza asta cumva le este mai ușor să meargă mai sus și mai sus."
+        " lângă ei și din cauza asta cumva li[le] este mai ușor să meargă mai sus și mai sus."
       ],
       "id_user": 1
     },
@@ -6099,8 +6100,8 @@
       "end": 2889.5,
       "text": [
         " În cazul nostru oamenilor așa care un pic mai jos suntem decât decât acești",
-        " oameni, nouă ne este mai greu mai greu pentru că noi n-avem oamenii ceia care",
-        " să ne poată să ne tragă."
+        " oameni, nouă ni[ne] este mai greu mai greu pentru că noi n-avem oamenii ceia care",
+        " să ni[ne] poată să ni[ne] tragă."
       ],
       "id_user": 1
     },
@@ -6109,7 +6110,7 @@
       "start": 2889.5,
       "end": 2894.133,
       "text": [
-        " Noi ne motivăm unul pe altul și doar iată așa mergem înainte."
+        " Noi ni[ne] motivăm unul pe altul și doar iată așa mergem înainte."
       ],
       "id_user": 1
     },
@@ -6129,7 +6130,7 @@
       "start": 2911.5,
       "end": 2923.5,
       "text": [
-        " Iată, asta este anumite sentimente legate de vinovăție care ar putea să ne",
+        " Iată, asta este anumite sentimente legate de vinovăție care ar putea să ni[ne]",
         " cauzeze mie un descomfort destul de mare chiar fiind deja bine din punct de",
         " vedere economic."
       ],
@@ -6140,7 +6141,7 @@
       "start": 2925.173,
       "end": 2928.5,
       "text": [
-        " Pentru că lucrurile nu le poți întoarce înapoi."
+        " Pentru că lucrurile nu li[le] poți întoarce înapoi."
       ],
       "id_user": 3
     },
@@ -6150,7 +6151,7 @@
       "end": 2943.5,
       "text": [
         " Și deja, spre exemplu, mama nu mai este, să zicem, frații au crescut, poate că",
-        " deja nu mai sunt valabile acele idei pe care am vrut să le dezvolt cândva."
+        " deja nu mai sunt valabile acele idei pe care am vrut să li[le] dezvolt cândva."
       ],
       "id_user": 3
     },
@@ -6188,7 +6189,7 @@
       "start": 2968.6,
       "end": 2971.18,
       "text": [
-        " Ori și și -ce lucru, dacă dorești, îl, îl înveți."
+        " Ori și și[ce] lucru, dacă dorești, îl, îl înveți."
       ],
       "id_user": 5
     },
@@ -6244,7 +6245,7 @@
       "start": 2998.5,
       "end": 3004.5,
       "text": [
-        " Azi îmi pare rău că memoria nu îmi permite să învăț și azi multe lucruri, că le",
+        " Azi îmi pare rău că memoria nu îmi permite să învăț și azi multe lucruri, că li[le]",
         " mai uit de atâta."
       ],
       "id_user": 5
@@ -6254,7 +6255,7 @@
       "start": 3004.5,
       "end": 3006.882,
       "text": [
-        " Da -dar dacă este dorință, toate celea faci."
+        " Da[dar] dacă este dorință, toate celea faci."
       ],
       "id_user": 5
     }

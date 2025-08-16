@@ -10,9 +10,9 @@ import os
 MY_DATA = "my_data/"
 SUBTITLES = "subtitles.json"
 
-WORKING_DIR_NUMBER = 2
+WORKING_DIR_NUMBER = 1
 MARGIN = 1.5       # seconds of margin around each segment
-START_EDITING = 415  # from wich ID to start editing
+START_EDITING = 259  # from wich ID to start editing
 
 def get_the_data_in_subtitle_json(folder: str):
     with open(MY_DATA + folder + '/' + SUBTITLES, "r", encoding="utf-8") as file:
@@ -73,7 +73,7 @@ def brain():
             disp_start = max(segment_start - MARGIN, 0)
             disp_end = min(segment_end + MARGIN, total_duration)
             duration = disp_end - disp_start
-            canvas_width, canvas_height = min(1900, int((duration / 0.5) * 40)), 140
+            canvas_width, canvas_height = min(1900, int((duration / 0.5) * 50)), 140
 
             # Variables
             start_var = tk.DoubleVar(value=segment_start)
