@@ -7,6 +7,14 @@ deactivate
 // pentru scurtarea terminalului
 export PS1="\u@\h:\W\$ "
 
+Atentie-----------------------------
+cuvintele de TIP: "word[word]" -> cum_se_aude[cum_se_subintelege]
+exemplu: pronuntat _și_ cu sens de _ce_ rezulta in: și[ce]
+--probleme poate ramase nerezolvate complet:
+1. 'ce' cu audio de 'ci'
+2. 'ce' cu audio de 'și'
+------------------------------------
+
 // Video folosite si notite
 // Prezentatorul poate fi mai multe persoane aparte - deci nu-i bun pentru speaker recognition teaching
 "https://www.youtube.com/watch?v=mUf8-mQjje4" - Noi toți vrem să fim bogați
@@ -78,11 +86,6 @@ probleme: și - și/ce, li - li/le, ni - li/le, da - da/dar, li - li/le, ni - li
  sâ(pronuntia) - se/să
  câ(pronuntia) - ca/că
 
--- idee introduc "word[word]"
-----------/ cum_se_aude[cum_se_subintelege] \---------------
-FEATURE exemple: cum se aude vs cum se subintelege
-   1. _și_ care mai inseamna pe alocuri _ce_ dar tot se pronunta _și_ : și[ce]
-
 2. Poate fi asemanator 'mergem' si 'merjem', și mai multe cuvinte așa situatie
    mergeam - mergem (românește)
    merjem  - merjim (MD pronunție)
@@ -94,7 +97,3 @@ FEATURE exemple: cum se aude vs cum se subintelege
 
 4. Poate contine greseli de vorbire (eroare din factorul uman)
 --ex: daca cineva spune 's-a fost' dar corect e 'a fost', se pastreaza versiunea 's-a fost'
-
-probleme poate ramase nerezolvate complet:
-1. 'ce' cu audio de 'ci'
-2. 'ce' cu audio de 'și'
