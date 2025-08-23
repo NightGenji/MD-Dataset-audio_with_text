@@ -2,6 +2,7 @@ import csv
 import json
 import os
 import subprocess
+import time
 
 import whisper
 import yt_dlp
@@ -147,16 +148,17 @@ def choose_users(folder: str):
 def check_users_ifGood(folder: str):
     data = get_the_data_in_subtitle_json(folder)
 
-    # url = URL_NOW
-    # opts = {
-    #     "format": "bestvideo[height<=480]+bestaudio/best[height<=480]",
-    #     "quiet": True,
-    #     "outtmpl": "video.mp4",
-    # }
-    # with yt_dlp.YoutubeDL(opts) as ydl:
-    #     ydl.download([url])
-    # print("Download OK")
-    # return
+    output_file = "vid_" + folder[:min(10, DIR_NAME_LEN)]
+    if not os.path.exists(output_file + ".mp4"):
+        url = URL_NOW
+        opts = {
+            "format": "bestvideo[height<=480]+bestaudio/best[height<=480]",
+            "quiet": True,
+            "outtmpl": output_file,
+        }
+        with yt_dlp.YoutubeDL(opts) as ydl:
+            ydl.download(url)
+        print(f"<><><> Downloaded {output_file} <><><><>")
 
     # sort users
     dict_data: dict[int, list] = {}
@@ -166,14 +168,16 @@ def check_users_ifGood(folder: str):
             dict_data[key] = []
         dict_data[key].append(seg)
 
+    video = VideoFileClip(output_file + ".mp4")
     for key, value in dict_data.items():
         print(f" <><><><><><><> Process user {key} <><><><><><><>")
+        time.sleep(4)
         i = 0
         for seg in value:
             start = seg["start"]
             print(f"Segment ID: {seg['id']}" + "-" * (i % 5))
             i += 1
-            clip = VideoFileClip("video.mp4.webm").subclipped(start, start + 1.5)
+            clip = video.subclipped(start, start + 1.5)
             clip.preview()  
 
 def text_to_list_from_tempFolder(folder: str):
@@ -338,15 +342,14 @@ if __name__ == "__main__":
 
     # ALWAYS active segment of code------------!!!!!!!!!
     name = get_working_folder_name(WORKING_DIR_NUMBER)
-    print("Working with: " + name)
+    print("Working with: " + str(name))
     if name is None:
         print(" <><><><><><><> Bad Working Folder Nr <><><><><><><>")
         exit(1)
     # ALWAYS active segment of code------------!!!!!!!!!
     
     # STEP 1.5: make subtitles
-    # result = get_subtitles(name)
-    # process_data_from_whisper(result, name)
+    # process_data_from_whisper(get_subtitles(name), name)
 
     # STEP 2: HELPER in assigning who said what segmets of text
     # choose_users(name)
@@ -376,7 +379,9 @@ if __name__ == "__main__":
     # create_clips_for_specified_folder(name)
 
     # text_to_list_from_tempFolder(name)
+    #---
     # print_all_other_meanings(name)
     # get_ids_that_contain_given_words(name, ["aceia", "acelea", "acela"])
     # from_Bara_Word_to_SquarePharanteses(name)
+    #---
     # text_to_list_from_tempFolder(name)
