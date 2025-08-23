@@ -13,7 +13,7 @@ export PS1="\u@\h:\W\$ "
 -- utilizator 6 e prezentator
 !!!!!!! TODO -- cuvinte de revizuit de cautat in toate folderele existente nu numai unde sunt mentionate !!!!!!!!!!!!!!!!!
 Cuvinte de revizuit: copeică, Prăsade, copeici, vroiam, vroia, vroiau, lu, bantik, cerofar
-                     anumitui, nimica, taică, cletcă, colțun, îi_este
+                     anumitui, nimica, cletcă, colțun, îi_este
 de revizuit: 414, 424, 681, 
 
 "https://www.youtube.com/watch?v=PduZkR9j79E" - Voi știți cum e de trăit aici?
@@ -33,19 +33,20 @@ aceslante -> acestea : 122
 "https://www.youtube.com/watch?v=7YSXISrL2rs" - De ce ne schimbăm religia?
 -- utilizator 7 e prezentator
 Cuvinte de revizuit: olecuțică, 
-de revizuit:
 259 - spuie -> spună
 
 "https://www.youtube.com/watch?v=j8Z8vvKg5bA" - Dacă faci o afacere pentru oameni...
 -- utilizator 7 e prezentator
 -- utilizatorul 6 poate avea vorbirea neclara
-Cuvinte de revizuit:
 de revizuit: 1167 - întrâmpat, 
 
 "https://www.youtube.com/watch?v=epFAoR1RKo8" - Bătaia nu e ruptă din rai.
 -- utilizator 7 e prezentator
-Cuvinte de revizuit:
+Cuvinte de revizuit: 
 de revizuit:
+149 - spuie -> spună
+155 - puie  -> pună
+161 - dezgaiber -> debarasez
 
 "https://www.youtube.com/watch?v=zGREIEtFMa0"
 "https://www.youtube.com/watch?v=_hXoNrJ1CMk"
@@ -79,6 +80,6 @@ FEATURE exemple: cum se aude vs cum se subintelege
 4. Poate contine greseli de vorbire (eroare din factorul uman)
 --ex: daca cineva spune 's-a fost' dar corect e 'a fost', se pastreaza versiunea 's-a fost'
 
---------
-nici un/o -> niciun/o
-a_păi     -> păi
+probleme poate ramase nerezolvate complet:
+1. 'ce' cu audio de 'ci'
+2. 'ce' cu audio de 'și'
