@@ -9,6 +9,7 @@ import yt_dlp
 import torch
 
 from moviepy.video.io.VideoFileClip import VideoFileClip
+from moviepy.video.compositing.CompositeVideoClip import concatenate_videoclips
 
 # DATA_PATH = "cv-corpus-22.0-2025-06-20/ro/"
 MP3_CLIPS = "clips/"
@@ -17,7 +18,7 @@ MY_DATA = "my_data/"
 REGISTER = "register.tsv"
 SUBTITLES = "subtitles.json"
 
-WORKING_DIR_NUMBER = 0
+WORKING_DIR_NUMBER = 6
 DIR_NAME_LEN = 30
 URL_NOW = ["..."]
 
@@ -146,8 +147,6 @@ def choose_users(folder: str):
     write_the_data_in_subtitle_json(folder, data)
 
 def check_users_ifGood(folder: str):
-    data = get_the_data_in_subtitle_json(folder)
-
     output_file = "vid_" + folder[:min(10, DIR_NAME_LEN)]
     if not os.path.exists(output_file + ".mp4"):
         url = URL_NOW
@@ -160,6 +159,8 @@ def check_users_ifGood(folder: str):
             ydl.download(url)
         print(f"<><><> Downloaded {output_file} <><><><>")
 
+    data = get_the_data_in_subtitle_json(folder)
+
     # sort users
     dict_data: dict[int, list] = {}
     for seg in data["segments"]:
@@ -171,14 +172,29 @@ def check_users_ifGood(folder: str):
     video = VideoFileClip(output_file + ".mp4")
     for key, value in dict_data.items():
         print(f" <><><><><><><> Process user {key} <><><><><><><>")
-        time.sleep(4)
+        command = input(" <><><> Press ENTER or 'iAmStupid()' <><><> :")
+        if command != '':
+            continue
+        list_clips = []
+        nr_per_clip = 5
         i = 0
         for seg in value:
             start = seg["start"]
-            print(f"Segment ID: {seg['id']}" + "-" * (i % 5))
+            end = min(seg["end"], start + 1)
+            print(f"{seg['id']} ", end='')
+            clip = video.subclipped(start, end)
+            list_clips.append(clip)
             i += 1
-            clip = video.subclipped(start, start + 1.5)
-            clip.preview()  
+            if i == nr_per_clip:
+                print()
+                new_clip = concatenate_videoclips(list_clips)
+                new_clip.preview()
+                list_clips = []
+                i = 0
+        if list_clips:
+            print()
+            new_clip = concatenate_videoclips(list_clips)
+            new_clip.preview()
 
 def text_to_list_from_tempFolder(folder: str):
     data = get_the_data_in_subtitle_json(folder)
@@ -359,25 +375,20 @@ if __name__ == "__main__":
     # STEP 4: remove/append useless skipped parts
     # append_and_remove_skipped_ids(name)
 
-    # STEP 5/7: helping in correcting words manually: text in Json from str to list
+    # STEP 5/7: from string to list with str's of ~80 length, and back
     # text_to_list_from_tempFolder(name)
 
     # STEP 6/9: Create mp3's based on subtitles
     # take_subtitles_and_crop_mp3(name)
     # delete_clips(name) # to delete clips after using them to free space
 
-    # STEP 8: Create register.tsv
-    # create_Register(name)
-
-#--------------------------------------------------------------------------------------- AFTER TODO
-    # OPTIONALLY: After correcting times and words DO THIS
-    # --HELPER in checking if users are assigned good, you can listen to the segments
-    # --First it downloads the video again
+    # STEP Finally: HELPER in checking if users are assigned good
+    # --First it downloads the video(it may take a while)
     # check_users_ifGood(name)
 
-    # --Crop from original to smaller mp3's for specified folder
-    # create_clips_for_specified_folder(name)
-
+    # OPTIONALLY: Create register.tsv
+    # create_Register(name)
+#--------------------------------------------------------------------------------------- AFTER TODO
     # text_to_list_from_tempFolder(name)
     #---
     # print_all_other_meanings(name)
