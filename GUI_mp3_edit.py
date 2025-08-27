@@ -1,18 +1,20 @@
 import time
 import tkinter as tk
+from tkinter import messagebox
 from pydub import AudioSegment
 import numpy as np
 import tempfile
 import subprocess
 import json
 import os
-# TODO - recommended to check the code beforehand, it is not tested
+# TODO - recommended to check the code beforehand, it is not tested(too much)
 MY_DATA = "my_data/"
 SUBTITLES = "subtitles.json"
 
-WORKING_DIR_NUMBER = 0
-MARGIN = 1.5       # seconds of margin around each segment
-START_EDITING = 0  # from wich ID to start editing
+WORKING_DIR_NUMBER = 7
+MARGIN = 1.5            # seconds of margin around each segment
+LENGTH_PER_05_SEC = 50  # how many pixels per 0.5 seconds
+START_EDITING = 2155    # from wich ID to start editing
 
 def get_the_data_in_subtitle_json(folder: str):
     with open(MY_DATA + folder + '/' + SUBTITLES, "r", encoding="utf-8") as file:
@@ -51,10 +53,15 @@ def brain():
     while ind_el < len(data["segments"]):
         item = data["segments"][ind_el]
 
-        segment_start = max(item["start"], last_time)
+        if last_time != -1:
+            segment_start = last_time
+        else:
+            segment_start = item["start"]
         segment_end = item["end"]
+        if str(item["text"]).startswith("SKIPPED-- "):
+            ind_el += 1
+            continue
         if segment_start > segment_end:
-            item["text"] = str(item["text"]).replace("SKIPPED-- ", "")
             item["text"] = "SKIPPED-- " + item["text"]
             ind_el += 1
             continue
@@ -73,7 +80,7 @@ def brain():
             disp_start = max(segment_start - MARGIN, 0)
             disp_end = min(segment_end + MARGIN, total_duration)
             duration = disp_end - disp_start
-            canvas_width, canvas_height = min(1900, int((duration / 0.5) * 40)), 140
+            canvas_width, canvas_height = min(1900, int((duration / 0.5) * LENGTH_PER_05_SEC)), 140
 
             # Variables
             start_var = tk.DoubleVar(value=segment_start)
@@ -119,7 +126,7 @@ def brain():
             def on_press(event):
                 for tag in ('start_line', 'end_line'):
                     coords = canvas.coords(tag)
-                    if coords and abs(event.x - coords[0]) < 5:
+                    if coords and abs(event.x - coords[0]) < 15:
                         dragging['line'] = tag
                         break
 
@@ -160,11 +167,12 @@ def brain():
                 os.remove(path)
 
             def play_short():
-                if end_var.get() - start_var.get() < 3:
+                if end_var.get() - start_var.get() < 2.4:
                     play()
                     return
                 second = 1000
-                seg = audio[int(start_var.get() * 1000):int(start_var.get() * 1000) + second]
+                tick = 1
+                seg = audio[int(start_var.get() * 1000):int(start_var.get() * 1000) + (tick * second)]
                 with tempfile.NamedTemporaryFile(delete=False, suffix='.wav') as tmp:
                     path = tmp.name
                 seg.export(path, format='wav')
@@ -173,7 +181,17 @@ def brain():
 
                 time.sleep(0.5)
 
-                seg = audio[int(end_var.get() * 1000) - second:int(end_var.get() * 1000)]
+                seg = audio[int(end_var.get() * 1000) - (tick * second):int(end_var.get() * 1000)]
+                with tempfile.NamedTemporaryFile(delete=False, suffix='.wav') as tmp:
+                    path = tmp.name
+                seg.export(path, format='wav')
+                subprocess.run(["ffplay", "-nodisp", "-autoexit", "-loglevel", "quiet", path])
+                os.remove(path)
+
+            def play_last(sec_bonus):
+                second = 1000
+                start = max(int(end_var.get() * 1000) - second, int(start_var.get() * 1000))
+                seg = audio[start : int(end_var.get() * 1000) + (sec_bonus * 1000)]
                 with tempfile.NamedTemporaryFile(delete=False, suffix='.wav') as tmp:
                     path = tmp.name
                 seg.export(path, format='wav')
@@ -207,30 +225,64 @@ def brain():
                 launch_gui()
             
             def mark_skipped():
-                val = input("Wanna mark SKIPPED-- ???? yes/no: ")
-                if val == "no" or val != "yes":
+                if not messagebox.askyesno("Mark SKIPPED", "Mark this segment as SKIPPED-- ?"):
                     return
-                val = input("YOU SURE ???? yes/no: ")
-                if val == "no" or val != "yes":
+                if not messagebox.askyesno("Confirm", "Are you really really really SURE?"):
                     return
                 item["text"] = "SKIPPED-- " + item["text"].replace("SKIPPED-- ", "")
                 print("Done")
+                nonlocal last_time
+                nonlocal last_edited_id
+                dek_time    = last_time
+                dek_last_id = last_edited_id
+                save_and_close()
+                last_edited_id = dek_last_id
+                last_time      = dek_time
             
             def back():
                 done[0] = True
                 nonlocal ind_el
                 nonlocal last_time
                 ind_el -= 1
+                while str(data["segments"][ind_el]["text"]).startswith("SKIPPED-- "):
+                    ind_el -= 1
                 last_time = -1
                 win.destroy()
 
-            tk.Button(win, text="Play", command=play).pack(pady=2)
-            tk.Button(win, text="Play SHORT", command=play_short).pack(pady=2)
+            def move_marker(marker_id, amount):
+                if marker_id == 1:
+                    new = start_var.get() + amount
+                    new = max(disp_start, min(new, end_var.get() - 0.1))
+                    start_var.set(round(new, 3))
+                else:
+                    new = end_var.get() + amount
+                    new = min(disp_end, max(new, start_var.get() + 0.1))
+                    end_var.set(round(new, 3))
+                draw_markers()
+
+            frame_butt_up = tk.Frame(win)
+            frame_butt_up.pack(side="top")
+            frame_butt_down = tk.Frame(win)
+            frame_butt_down.pack(side="bottom")
+            frame_sec_row = tk.Frame(win)
+            frame_sec_row.pack(side="top")
+
+            tk.Button(frame_butt_up, text="-0.01_s", command=lambda: move_marker(1, -0.01)).pack(pady=2, side='left')
+            tk.Button(frame_butt_up, text="+0.01_s", command=lambda: move_marker(1, 0.01)).pack(pady=2, side='left')
+            tk.Button(frame_butt_up, text="Play", command=play).pack(pady=2, side='left')
+            tk.Button(frame_butt_up, text="-0.01_e", command=lambda: move_marker(2, -0.01)).pack(pady=2, side='left')
+            tk.Button(frame_butt_up, text="+0.01_e", command=lambda: move_marker(2, 0.01)).pack(pady=2, side='left')
+
+            tk.Button(frame_sec_row, text="Play_last 1", command=lambda: play_last(0)).pack(pady=2, side='left')
+            tk.Button(frame_sec_row, text="Play SHORT", command=play_short).pack(pady=2, side='left')
+            tk.Button(frame_sec_row, text="Play_last 1.1", command=lambda: play_last(0.1)).pack(pady=2, side='left')
+
             tk.Button(win, text="Save and Next", command=save_and_close).pack(pady=2)
             tk.Button(win, text="+2 sec", command=extend_end_by_2_sec).pack(pady=2)
-            tk.Button(win, text="Leave Editing Mode", fg="red", command=leave).pack(pady=2, side='right')
-            tk.Button(win, text="Mark SKIPPED", fg="red", command=mark_skipped).pack(pady=2, side='right')
-            tk.Button(win, text="Back", command=back).pack(pady=2, side='left')
+
+            tk.Button(frame_butt_down, text="Leave Editing Mode", fg="red", command=leave).pack(pady=2, side='right')
+            tk.Button(frame_butt_down, text="Mark SKIPPED", fg="red", command=mark_skipped).pack(pady=2, side='right')
+            tk.Button(frame_butt_down, text="Back", command=back).pack(pady=2, side='left')
             win.mainloop()
 
         launch_gui()

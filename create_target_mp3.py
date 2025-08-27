@@ -220,21 +220,36 @@ def text_to_list_from_tempFolder(folder: str):
 def append_and_remove_skipped_ids(folder: str):
     data = get_the_data_in_subtitle_json(folder)
     my_id = 0
-    id_skipped = -1
+    user_id = 0
+    id_head_for_skip = -1
     if isinstance(data["segments"][my_id]["text"], list):
         print(" <><><><> oopsie, you have list in place of string, change it up <><><><>")
         return
     print(len(data["segments"]))
     
     while len(data["segments"]) > my_id:
-        if data["segments"][my_id]["text"].startswith("SKIPPED-- ") and id_skipped == -1:
-            id_skipped = my_id - 1
-        elif not data["segments"][my_id]["text"].startswith("SKIPPED-- "):
-            id_skipped = -1
+        # after skipped segments - RESET
+        if id_head_for_skip != -1 and not data["segments"][my_id]["text"].startswith("SKIPPED-- "):
+            id_head_for_skip = -1
+        # when it disoveres the first Skipped segment
+        elif id_head_for_skip == -1 and data["segments"][my_id]["text"].startswith("SKIPPED-- "):
+            id_head_for_skip = my_id - 1
+            user_id = data["segments"][id_head_for_skip]["id_user"]
+            user_id_curr = data["segments"][my_id]["id_user"]
+            # if past user is different than current user, no point to unite
+            if user_id != user_id_curr:
+                id_head_for_skip = -1
+                text = data["segments"][my_id]["text"].replace("SKIPPED-- ", "")
+                data["segments"][my_id]["text"] = text
+                continue
 
-        if id_skipped != -1:
+        if id_head_for_skip != -1:
             text = data["segments"][my_id]["text"].replace("SKIPPED-- ", "")
-            data["segments"][id_skipped]["text"] += text
+            # if users no longer match
+            if user_id != data["segments"][my_id]["id_user"]:
+                data["segments"][my_id]["text"] = text
+                continue
+            data["segments"][id_head_for_skip]["text"] += text
             data["segments"].pop(my_id)
             my_id -= 1
         
@@ -265,7 +280,7 @@ def take_subtitles_and_crop_mp3(folder: str):
             "-ss", f"{start:.3f}",
             "-t", f"{duration:.3f}",
             "-i", MY_DATA + folder + '/' + ".".join(folder.split(".")[1:]) + ".mp3",
-            "-c", "copy",
+            # "-c", "copy",
             out_path
         ]
 
