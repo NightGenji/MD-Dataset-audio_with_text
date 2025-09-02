@@ -11,10 +11,10 @@ import os
 MY_DATA = "my_data/"
 SUBTITLES = "subtitles.json"
 
-WORKING_DIR_NUMBER = 7
+WORKING_DIR_NUMBER = 0
 MARGIN = 1.5            # seconds of margin around each segment
 LENGTH_PER_05_SEC = 50  # how many pixels per 0.5 seconds
-START_EDITING = 2155    # from wich ID to start editing
+START_EDITING = 0    # from wich ID to start editing
 
 def get_the_data_in_subtitle_json(folder: str):
     with open(MY_DATA + folder + '/' + SUBTITLES, "r", encoding="utf-8") as file:

@@ -18,7 +18,7 @@ MY_DATA = "my_data/"
 REGISTER = "register.tsv"
 SUBTITLES = "subtitles.json"
 
-WORKING_DIR_NUMBER = 6
+WORKING_DIR_NUMBER = 0
 DIR_NAME_LEN = 30
 URL_NOW = ["..."]
 
@@ -147,8 +147,9 @@ def choose_users(folder: str):
     write_the_data_in_subtitle_json(folder, data)
 
 def check_users_ifGood(folder: str):
+    vid_extens = ".webm"
     output_file = "vid_" + folder[:min(10, DIR_NAME_LEN)]
-    if not os.path.exists(output_file + ".mp4"):
+    if not os.path.exists(output_file + vid_extens):
         url = URL_NOW
         opts = {
             "format": "bestvideo[height<=480]+bestaudio/best[height<=480]",
@@ -169,7 +170,7 @@ def check_users_ifGood(folder: str):
             dict_data[key] = []
         dict_data[key].append(seg)
 
-    video = VideoFileClip(output_file + ".mp4")
+    video = VideoFileClip(output_file + vid_extens)
     for key, value in dict_data.items():
         print(f" <><><><><><><> Process user {key} <><><><><><><>")
         command = input(" <><><> Press ENTER or 'iAmStupid()' <><><> :")
@@ -196,7 +197,7 @@ def check_users_ifGood(folder: str):
             new_clip = concatenate_videoclips(list_clips)
             new_clip.preview()
 
-def text_to_list_from_tempFolder(folder: str):
+def convert_text_to_list(folder: str):
     data = get_the_data_in_subtitle_json(folder)
 
     if type(data["segments"][0]["text"]) is list:
@@ -217,7 +218,7 @@ def text_to_list_from_tempFolder(folder: str):
 
     write_the_data_in_subtitle_json(folder, data)
 
-def append_and_remove_skipped_ids(folder: str):
+def process_skipped_ids(folder: str):
     data = get_the_data_in_subtitle_json(folder)
     my_id = 0
     user_id = 0
@@ -296,6 +297,7 @@ def delete_clips(folder: str):
             os.remove(os.path.join(clip_path, file))
         os.rmdir(clip_path)
 
+# print sentence id and the words like: word[word]
 def print_all_other_meanings(folder: str):
     data = get_the_data_in_subtitle_json(folder)
     for seg in data["segments"]:
@@ -316,9 +318,9 @@ def print_all_other_meanings(folder: str):
             print(" <><><><> Change from list to string to work <><><><>")
             return
 
+# given a list of words, print the id of the sentence
+# that contain at least one of those words
 def get_ids_that_contain_given_words(folder: str, words: list):
-    # i give a list of words and it gives me the id of the sentence
-    # that contain at least one of those words
     data = get_the_data_in_subtitle_json(folder)
     for seg in data["segments"]:
         if isinstance(seg["text"], str):
@@ -330,6 +332,7 @@ def get_ids_that_contain_given_words(folder: str, words: list):
             print(" <><><><> Change from list to string to work <><><><>")
             return
 
+# Mostly useless code right now... useful in past
 def from_Bara_Word_to_SquarePharanteses(folder: str):
     data = get_the_data_in_subtitle_json(folder)
 
@@ -365,6 +368,46 @@ def from_Bara_Word_to_SquarePharanteses(folder: str):
 
     write_the_data_in_subtitle_json(folder, data)
 
+# Reassign id's to every sentence from 1
+def re_assign_ids(folder: str):
+    data = get_the_data_in_subtitle_json(folder)
+
+    id_nr = 1
+    for seg in data["segments"]:
+        seg["id"] = id_nr
+        id_nr += 1
+
+    write_the_data_in_subtitle_json(folder, data)
+
+# TODO
+def find_segments_to_shorten(folder: str):
+    data = get_the_data_in_subtitle_json(folder)
+
+    if isinstance(data["segments"][0]["text"], list):
+        convert_text_to_list(folder)
+
+    for seg in data["segments"]:
+        # find segment based on time length or size of text
+        limit_dur = 7
+        limit_text = 100
+        duration = seg["end"] - seg["start"]
+        size_text = len(seg["text"])
+
+        # if needs split
+        if duration > limit_dur or size_text > limit_text:
+            print(f"time: {duration}, nr_chars: {size_text}")
+            while True:
+                try:
+                    nr_splits = int(input("Write The Number Of Splits: "))
+                    break
+                except Exception:
+                    continue
+
+            # confirm the split number or write your own
+            # dublicate that segment (splits - 1) times
+            # with GUI_mp3_... set the time for each
+
+
 if __name__ == "__main__":
     # TODO - recommend to check the code beforehand, it is not tested
 
@@ -388,10 +431,10 @@ if __name__ == "__main__":
     # STEP 3: with GUI_mp3_edit.py i repair the time
 
     # STEP 4: remove/append useless skipped parts
-    # append_and_remove_skipped_ids(name)
+    # process_skipped_ids(name)
 
     # STEP 5/7: from string to list with str's of ~80 length, and back
-    # text_to_list_from_tempFolder(name)
+    # convert_text_to_list(name)
 
     # STEP 6/9: Create mp3's based on subtitles
     # take_subtitles_and_crop_mp3(name)
@@ -401,7 +444,7 @@ if __name__ == "__main__":
     # --First it downloads the video(it may take a while)
     # check_users_ifGood(name)
 
-    # OPTIONALLY: Create register.tsv
+    # OPTIONALLY and TODO: Create register.tsv
     # create_Register(name)
 #--------------------------------------------------------------------------------------- AFTER TODO
     # text_to_list_from_tempFolder(name)
@@ -411,3 +454,7 @@ if __name__ == "__main__":
     # from_Bara_Word_to_SquarePharanteses(name)
     #---
     # text_to_list_from_tempFolder(name)
+
+
+# TODO NOTES - i need code to split 6-7 sec or more segments to make them shorter
+# also code that checks if each word will be delimited good for ai processing
