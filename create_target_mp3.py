@@ -1,15 +1,21 @@
+import copy
 import csv
 import json
+import math
 import os
+import re
 import subprocess
-import time
 
+from moviepy import ColorClip
 import whisper
 import yt_dlp
 import torch
 
 from moviepy.video.io.VideoFileClip import VideoFileClip
 from moviepy.video.compositing.CompositeVideoClip import concatenate_videoclips
+
+import whisperx
+from pydub import AudioSegment
 
 # DATA_PATH = "cv-corpus-22.0-2025-06-20/ro/"
 MP3_CLIPS = "clips/"
@@ -18,7 +24,15 @@ MY_DATA = "my_data/"
 REGISTER = "register.tsv"
 SUBTITLES = "subtitles.json"
 
-WORKING_DIR_NUMBER = 0
+SEGMENTS  = "segments"
+ID_SEG    = "id"
+START_SEG = "start"
+END_SEG   = "end"
+TEXT_SEG  = "text"
+ID_USER   = "id_user"
+LIST_TIME = "list_time"
+
+WORKING_DIR_NUMBER = 7
 DIR_NAME_LEN = 30
 URL_NOW = ["..."]
 
@@ -31,11 +45,17 @@ def write_the_data_in_subtitle_json(folder: str, data):
     with open(MY_DATA + folder + '/' + SUBTITLES, "w", encoding="utf-8") as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
 
-def get_working_folder_name(folder_id: int) -> str | None:
+def get_working_folder_name(folder_id: int) -> str:
+    name = None
     for file in os.listdir(MY_DATA):
         if file.startswith(str(folder_id) + "."):
-            return file
-    return None
+            name = file
+            break
+    if name is None:
+        print("<><><> Bad Working Folder Nr <><><>")
+        exit(1)
+    print("Working with: " + name)
+    return name
 
 def next_free_working_folder_number() -> int:
     max_number = 0
@@ -91,8 +111,8 @@ def process_data_from_whisper(result: dict, folder: str):
     result.pop("text", None)
     result.pop("language", None)
 
-    for segment in result["segments"]:
-        segment["id_user"] = -1  # Default value, will be set later manually
+    for segment in result[SEGMENTS]:
+        segment[ID_USER] = -1  # Default value, will be set later manually
         segment.pop("seek", None)
         segment.pop("tokens", None)
         segment.pop("temperature", None)
@@ -104,7 +124,7 @@ def process_data_from_whisper(result: dict, folder: str):
 
 def padd_ID(id, length: int) -> str:
     return "0"*(length - len(str(id))) + str(id)
-
+# Not quite that useful for now
 def create_Register(folder: str):
     data = get_the_data_in_subtitle_json(folder)
 
@@ -123,79 +143,9 @@ def create_Register(folder: str):
                                 .replace(",", " ")
                                 .replace(".", " ")
                                 .replace("?", " ")
+                                .replace("!", " ")
                                 .replace("  ", " ")
             ])
-
-def choose_users(folder: str):
-    data = get_the_data_in_subtitle_json(folder)
-
-    new_value = -1
-    for seg in data["segments"]:
-        if seg["id_user"] == -1:
-            print(f"Segment ID: {seg['id']}")
-            yellow = "\033[93m"
-            reset = "\033[0m"
-            print(f"{yellow}Text: {seg['text']}{reset}")
-            read_value = input(f"New ID or -1(exit) or ENTER for {new_value}: ")
-            if len(read_value) != 0:
-                new_value = int(read_value)
-                if new_value == -1:
-                    print(" <><><><><><><> Exiting PROTOCOL <><><><><><><>")
-                    break
-            seg["id_user"] = new_value
-
-    write_the_data_in_subtitle_json(folder, data)
-
-def check_users_ifGood(folder: str):
-    vid_extens = ".webm"
-    output_file = "vid_" + folder[:min(10, DIR_NAME_LEN)]
-    if not os.path.exists(output_file + vid_extens):
-        url = URL_NOW
-        opts = {
-            "format": "bestvideo[height<=480]+bestaudio/best[height<=480]",
-            "quiet": True,
-            "outtmpl": output_file,
-        }
-        with yt_dlp.YoutubeDL(opts) as ydl:
-            ydl.download(url)
-        print(f"<><><> Downloaded {output_file} <><><><>")
-
-    data = get_the_data_in_subtitle_json(folder)
-
-    # sort users
-    dict_data: dict[int, list] = {}
-    for seg in data["segments"]:
-        key = int(seg["id_user"])
-        if key not in dict_data:
-            dict_data[key] = []
-        dict_data[key].append(seg)
-
-    video = VideoFileClip(output_file + vid_extens)
-    for key, value in dict_data.items():
-        print(f" <><><><><><><> Process user {key} <><><><><><><>")
-        command = input(" <><><> Press ENTER or 'iAmStupid()' <><><> :")
-        if command != '':
-            continue
-        list_clips = []
-        nr_per_clip = 5
-        i = 0
-        for seg in value:
-            start = seg["start"]
-            end = min(seg["end"], start + 1)
-            print(f"{seg['id']} ", end='')
-            clip = video.subclipped(start, end)
-            list_clips.append(clip)
-            i += 1
-            if i == nr_per_clip:
-                print()
-                new_clip = concatenate_videoclips(list_clips)
-                new_clip.preview()
-                list_clips = []
-                i = 0
-        if list_clips:
-            print()
-            new_clip = concatenate_videoclips(list_clips)
-            new_clip.preview()
 
 def convert_text_to_list(folder: str):
     data = get_the_data_in_subtitle_json(folder)
@@ -296,7 +246,7 @@ def delete_clips(folder: str):
         for file in os.listdir(clip_path):
             os.remove(os.path.join(clip_path, file))
         os.rmdir(clip_path)
-
+#---------------------------------------------------------------------
 # print sentence id and the words like: word[word]
 def print_all_other_meanings(folder: str):
     data = get_the_data_in_subtitle_json(folder)
@@ -332,95 +282,216 @@ def get_ids_that_contain_given_words(folder: str, words: list):
             print(" <><><><> Change from list to string to work <><><><>")
             return
 
-# Mostly useless code right now... useful in past
-def from_Bara_Word_to_SquarePharanteses(folder: str):
-    data = get_the_data_in_subtitle_json(folder)
+# TODO regulate the start/end Time within LIST_TIME
+def regulate_times(folder: str):
+    pass
 
-    for seg in data["segments"]:
-        if isinstance(seg["text"], str):
-            words = str(seg["text"]).split(" ")
+def strip_naked(string: str) -> str:
+    string = re.sub(r'[.,!?]', ' ', string)
+    string = re.sub(r'\s+', ' ', string)
+    return string.strip()
+
+def check_correctness_words():
+    # TODO use libraries to check corectness of words
+    pass
+
+
+class Assign_Voices:
+    @staticmethod
+    def choose_users(folder: str):  # TODO can be improved
+        data = get_the_data_in_subtitle_json(folder)
+
+        # TODO Every time you get one wrong, make it so that
+        # you don't need to exit to correct manually, make a go back option
+
+        new_value = -1
+        for seg in data[SEGMENTS]:
+            if seg[ID_USER] == -1:
+                print(f"Segment ID: {seg[ID_SEG]}")
+                yellow = "\033[93m"
+                reset = "\033[0m"
+                print(f"{yellow}Text: {seg[TEXT_SEG]}{reset}")
+                read_value = input(f"INSERT: New ID || -1 for exit || ENTER for {new_value}: ")
+                if len(read_value) != 0:
+                    new_value = int(read_value)
+                    if new_value == -1:
+                        print(" <><><> Exiting PROTOCOL <><><>")
+                        break
+                seg[ID_USER] = new_value
+
+        write_the_data_in_subtitle_json(folder, data)
+
+    @staticmethod
+    def check_users_ifGood(folder: str):  # TODO not tested after upgrade, the green frames need to be seen
+        vid_extens = ".webm"  # !!! May be prone to changing !!!
+        output_file = "vid_" + folder[:min(10, DIR_NAME_LEN)]
+        if not os.path.exists(output_file + vid_extens):
+            url = URL_NOW
+            opts = {
+                "format": "bestvideo[height<=480]+bestaudio/best[height<=480]",
+                "quiet": True,
+                "outtmpl": output_file,
+            }
+            with yt_dlp.YoutubeDL(opts) as ydl:
+                ydl.download(url)
+            print(f"<><><> Downloaded {output_file} <><><><>")
+
+        data = get_the_data_in_subtitle_json(folder)
+
+        # sort users
+        dict_data: dict[int, list] = {}
+        for seg in data[SEGMENTS]:
+            key = seg[ID_USER]
+            if key not in dict_data:
+                dict_data[key] = []
+            dict_data[key].append(seg)
+
+        video = VideoFileClip(output_file + vid_extens)
+        green_clip = ColorClip(size=video.size, color=(0, 255, 0), duration=0.2)
+        for key, value in dict_data.items():
+            print(f"<><><><><><><> Process user {key} <><><><><><><>")
+            command = input("<><><> Press ENTER or 'iAmStupid()' to skip user <><><> :")
+            if command != '':
+                continue
+
+            list_clips = []
+            NR_PER_CLIP = 5
             i = 0
-            found = False
-            if words[0].startswith("-"):
-                print("bugs")
-                return
-            while i < len(words):
-                if words[i].startswith("-"):
-                    if not found:
-                        found = True
-                    # get ind of words[i - 1]
-                    ind = i - 1
-                    # get them both out of the list
-                    word2 = words.pop(i)
-                    word1 = words.pop(i - 1)
-                    # process them into the new look/style
-                    final_word = word1 + '[' + word2[1:].replace('.', '').replace(',', '') + ']'
-                    # put them back at the ind
-                    words.insert(ind, final_word)
-                    i -= 1
+            for seg in value:
+                start = seg[START_SEG]
+                end = min(seg[END_SEG], start + 1)
+                print(f"{seg[ID_SEG]} ", end='')
+                clip = video.subclipped(start, end)
+                list_clips.append(clip)
+                list_clips.append(green_clip)
                 i += 1
-            seg["text"] = ' '.join(words)
-            if found:
+                if i == NR_PER_CLIP:
+                    print()
+                    list_clips.pop()
+                    new_clip = concatenate_videoclips(list_clips)
+                    new_clip.preview()
+                    list_clips = []
+                    i = 0
+            if list_clips:
                 print()
-        else:
-            print(" <><><><> Change from list to string to work <><><><>")
-            return
+                list_clips.pop()
+                new_clip = concatenate_videoclips(list_clips)
+                new_clip.preview()
 
-    write_the_data_in_subtitle_json(folder, data)
 
-# Reassign id's to every sentence from 1
-def re_assign_ids(folder: str):
-    data = get_the_data_in_subtitle_json(folder)
+class Shorten_Segments:
+    @staticmethod
+    def find_segments_to_shorten(folder: str):  # TODO test
+        data = get_the_data_in_subtitle_json(folder)
+        if isinstance(data[SEGMENTS][0][TEXT_SEG], list): # i need str
+            convert_text_to_list(folder)
+            data = get_the_data_in_subtitle_json(folder)
 
-    id_nr = 1
-    for seg in data["segments"]:
-        seg["id"] = id_nr
-        id_nr += 1
-
-    write_the_data_in_subtitle_json(folder, data)
-
-# TODO
-def find_segments_to_shorten(folder: str):
-    data = get_the_data_in_subtitle_json(folder)
-
-    if isinstance(data["segments"][0]["text"], list):
-        convert_text_to_list(folder)
-
-    for seg in data["segments"]:
-        # find segment based on time length or size of text
-        limit_dur = 7
-        limit_text = 100
-        duration = seg["end"] - seg["start"]
-        size_text = len(seg["text"])
-
-        # if needs split
-        if duration > limit_dur or size_text > limit_text:
-            print(f"time: {duration}, nr_chars: {size_text}")
-            while True:
-                try:
-                    nr_splits = int(input("Write The Number Of Splits: "))
-                    break
-                except Exception:
+        idx = 0
+        while idx < len(data[SEGMENTS]):
+            seg = data[SEGMENTS][idx]
+            # find segment based on time length or size of text
+            limit_text = 110
+            size_text = len(seg[TEXT_SEG])
+            # if needs split
+            if size_text > limit_text:
+                print(f"\nid:{seg[ID_SEG]}, nr_ch:{size_text}, recommend:{math.ceil(size_text/80)} parts, text:\n{seg[TEXT_SEG]}")
+                while True:
+                    try:
+                        nr_splits = int(input("Input nr<=1 for skip, -1->exit. SPLIT IN ... PARTS: nr="))
+                        break
+                    except Exception: continue
+                if nr_splits <= 1:
+                    if nr_splits < 0:
+                        exit(0)
+                    idx += 1
                     continue
+                # dublicate that segment (splits - 1) times
+                for i in range(nr_splits-1):
+                    data[SEGMENTS].insert(idx+1, copy.deepcopy(seg))
+                write_the_data_in_subtitle_json(folder, data)
+                
+                # with GUI_mp3_... set the time for each
+                subprocess.run(["python3", "GUI_mp3_edit.py", str(WORKING_DIR_NUMBER), str(seg[ID_SEG])])
+                data = get_the_data_in_subtitle_json(folder)
+                idx += nr_splits
+                continue
+            idx += 1
 
-            # confirm the split number or write your own
-            # dublicate that segment (splits - 1) times
-            # with GUI_mp3_... set the time for each
+    @staticmethod
+    def reassign_ids_roundTime_3(folder: str):
+        data = get_the_data_in_subtitle_json(folder)
+
+        for idx, seg in enumerate(data[SEGMENTS]):
+            seg[ID_SEG] = idx
+            seg[START_SEG] = round(seg[START_SEG], 3)
+            seg[END_SEG] = round(seg[END_SEG], 3)
+
+        write_the_data_in_subtitle_json(folder, data)
+
+
+class Whisper_use:
+    @staticmethod
+    def find_time_per_each_word(folder: str):
+        Shorten_Segments.reassign_ids_roundTime_3(folder)
+        data = get_the_data_in_subtitle_json(folder)
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+        align_model, metadata = whisperx.load_align_model(language_code="ro", device=device)
+        clip_path = MY_DATA + folder + '/' + ".".join(folder.split(".")[1:]) + ".mp3"
+
+        segments = []
+        for seg in data[SEGMENTS]:
+            new_dict = {}
+            new_dict[TEXT_SEG]  = strip_naked(seg[TEXT_SEG])
+            new_dict[START_SEG] = seg[START_SEG]
+            new_dict[END_SEG]   = seg[END_SEG]
+            segments.append(new_dict)
+        
+        aligned = whisperx.align(segments, align_model, metadata, clip_path, device=device)
+
+        list_options = list(range(len(data[SEGMENTS])))
+        for idx in range(len(data[SEGMENTS])):
+            list_result = []
+            for w in aligned[SEGMENTS][idx].get("words", []):
+                # print(f'word: {w.get("word")}, start: {w.get(START_SEG)}, end: {w.get(END_SEG)}')
+                list_result.append([float(w.get(START_SEG)), float(w.get(END_SEG))])
+
+            target_id = -1
+            st_word = float(aligned[SEGMENTS][idx].get(START_SEG))
+            end_word = float(aligned[SEGMENTS][idx].get(END_SEG))
+            text_word = aligned[SEGMENTS][idx].get(TEXT_SEG)
+            for elem in list_options:
+                st_orig = data[SEGMENTS][elem][START_SEG]
+                end_orig = data[SEGMENTS][elem][END_SEG]
+                text_orig = strip_naked(data[SEGMENTS][elem][TEXT_SEG])
+
+                st_both = max(st_orig, st_word)
+                end_both = min(end_orig, end_word)
+                # if elem == 2:
+                #     print(f'"{text_orig}"')
+                #     print(f'"{text_word}"')
+                #     print(f'{st_both} {end_both}')
+                if st_both < end_both and text_orig == text_word:
+                    target_id = elem
+                    break
+            if target_id == -1:
+                print("<><><> Stuff Happens <><><>")
+                print(f"st:{st_word} end:{end_word} text:'{text_word}'")
+                exit(-1)
+            data[SEGMENTS][target_id][LIST_TIME] = list_result
+            list_options.remove(target_id)
+        
+        write_the_data_in_subtitle_json(folder, data)
 
 
 if __name__ == "__main__":
-    # TODO - recommend to check the code beforehand, it is not tested
-
     # STEP 1: Download mp3 from URL 
     # download_audio()
 
     # ALWAYS active segment of code------------!!!!!!!!!
     name = get_working_folder_name(WORKING_DIR_NUMBER)
-    print("Working with: " + str(name))
-    if name is None:
-        print(" <><><><><><><> Bad Working Folder Nr <><><><><><><>")
-        exit(1)
-    # ALWAYS active segment of code------------!!!!!!!!!
+    
+    # Whisper_use.find_time_per_each_word(name)
     
     # STEP 1.5: make subtitles
     # process_data_from_whisper(get_subtitles(name), name)
@@ -455,6 +526,4 @@ if __name__ == "__main__":
     #---
     # text_to_list_from_tempFolder(name)
 
-
-# TODO NOTES - i need code to split 6-7 sec or more segments to make them shorter
-# also code that checks if each word will be delimited good for ai processing
+    # re_assign_ids(name)

@@ -1,3 +1,4 @@
+import sys
 import time
 import tkinter as tk
 from tkinter import messagebox
@@ -11,10 +12,22 @@ import os
 MY_DATA = "my_data/"
 SUBTITLES = "subtitles.json"
 
-WORKING_DIR_NUMBER = 0
+SEGMENTS  = "segments"
+ID_SEG    = "id"
+START_SEG = "start"
+END_SEG   = "end"
+TEXT_SEG  = "text"
+ID_USER   = "id_user"
+LIST_TIME = "list_time"
+
+WORKING_DIR_NUMBER = 7
 MARGIN = 1.5            # seconds of margin around each segment
 LENGTH_PER_05_SEC = 50  # how many pixels per 0.5 seconds
 START_EDITING = 0    # from wich ID to start editing
+
+"""this script takes a WORKING_DIR_NUMBER value as first argument if any"""
+"""then it takes a START_EDITING value as a second argument if any"""
+# TODO and make it able edit the text as well
 
 def get_the_data_in_subtitle_json(folder: str):
     with open(MY_DATA + folder + '/' + SUBTITLES, "r", encoding="utf-8") as file:
@@ -25,18 +38,26 @@ def write_the_data_in_subtitle_json(folder: str, data):
     with open(MY_DATA + folder + '/' + SUBTITLES, "w", encoding="utf-8") as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
 
-def get_working_folder_name(folder_id: int) -> str | None:
+def get_working_folder_name(folder_id: int) -> str:
+    name = None
     for file in os.listdir(MY_DATA):
         if file.startswith(str(folder_id) + "."):
-            return file
-    return None
+            name = file
+            break
+    if name is None:
+        print("<><><> Bad Working Folder Nr <><><>")
+        exit(1)
+    print("Working with: " + name)
+    return name
 
 def brain():
-    name = get_working_folder_name(WORKING_DIR_NUMBER)
-    print("Working with: " + name)
-    if name is None:
-        print(" <><><><><><><> Bad Working Folder Nr <><><><><><><>")
-        exit(1)
+    if len(sys.argv) == 1:
+        start_edit_nr = START_EDITING
+        working_dirNr = WORKING_DIR_NUMBER
+    else:
+        working_dirNr = int(sys.argv[1])
+        start_edit_nr = int(sys.argv[2])
+    name = get_working_folder_name(working_dirNr)
     data = get_the_data_in_subtitle_json(name)
 
     # Load audio
@@ -47,7 +68,7 @@ def brain():
     last_edited_id = -1
 
     ind_el = 0
-    while ind_el < len(data["segments"]) and data["segments"][ind_el]["id"] < START_EDITING:
+    while ind_el < len(data["segments"]) and data["segments"][ind_el]["id"] < start_edit_nr:
         ind_el += 1
 
     while ind_el < len(data["segments"]):
@@ -85,6 +106,7 @@ def brain():
             # Variables
             start_var = tk.DoubleVar(value=segment_start)
             end_var = tk.DoubleVar(value=segment_end)
+            text_var = tk.StringVar(value=text)
             dragging = {'line': None}
 
             # Draw canvas
@@ -109,16 +131,39 @@ def brain():
                 t = disp_start + i * 0.5
                 x = int(((t - disp_start) / duration) * canvas_width)
                 canvas.create_line(x, 0, x, canvas_height, fill='gray', dash=(2, 2))
-                canvas.create_text(x + 2, canvas_height - 10, text=f"{t:.1f}", anchor='nw', font=("Arial", 6))
+                canvas.create_text(x + 2, canvas_height - 10, text=f"{t:.3f}", anchor='nw', font=("Arial", 6))
 
             # Draw markers
             def draw_markers():
+                # remove previous markers and selection
                 canvas.delete('marker')
+                canvas.delete('selection')
+
+                # compute pixel positions
+                s_t = start_var.get()
+                e_t = end_var.get()
+                # clamp times to displayed range
+                s_t = max(disp_start, min(s_t, disp_end))
+                e_t = max(disp_start, min(e_t, disp_end))
+                x_s = int(((s_t - disp_start) / duration) * canvas_width)
+                x_e = int(((e_t - disp_start) / duration) * canvas_width)
+
+                try:
+                    canvas.create_rectangle(x_s, 0, x_e, canvas_height,
+                                            fill='skyblue', stipple='gray25', width=0,
+                                            tags=('selection',))
+                except Exception:
+                    canvas.create_rectangle(x_s, 0, x_e, canvas_height,
+                                            fill='lightblue', width=0, tags=('selection',))
+
+                # Draw the vertical marker lines and labels on top
                 for var, tag in ((start_var, 'start_line'), (end_var, 'end_line')):
                     t = var.get()
+                    # clamp
+                    t = max(disp_start, min(t, disp_end))
                     x = int(((t - disp_start) / duration) * canvas_width)
                     canvas.create_line(x, 0, x, canvas_height, width=2, tag=('marker', tag))
-                    canvas.create_text(x + 4, 4, text=f"{t:.2f}s", anchor='nw', tag='marker')
+                    canvas.create_text(x + 4, 4, text=f"{t:.3f}s", anchor='nw', tag='marker')
 
             draw_markers()
 
@@ -201,6 +246,9 @@ def brain():
             def save_and_close():
                 item["start"] = round(start_var.get(), 3)
                 item["end"] = round(end_var.get(), 3)
+                if txt.get("1.0", "end-1c") != item[TEXT_SEG]:
+                    if messagebox.askyesno("Unsaved Text", "You Modified the Text, Wanna save it?"):
+                        save_edited_text()
                 nonlocal last_time
                 nonlocal last_edited_id
                 last_edited_id = item["id"]
@@ -260,6 +308,9 @@ def brain():
                     end_var.set(round(new, 3))
                 draw_markers()
 
+            def save_edited_text():
+                item["text"] = txt.get("1.0", "end-1c")
+
             frame_butt_up = tk.Frame(win)
             frame_butt_up.pack(side="top")
             frame_butt_down = tk.Frame(win)
@@ -283,6 +334,14 @@ def brain():
             tk.Button(frame_butt_down, text="Leave Editing Mode", fg="red", command=leave).pack(pady=2, side='right')
             tk.Button(frame_butt_down, text="Mark SKIPPED", fg="red", command=mark_skipped).pack(pady=2, side='right')
             tk.Button(frame_butt_down, text="Back", command=back).pack(pady=2, side='left')
+
+            text_frame = tk.Frame(win)
+            text_frame.pack(side="bottom")
+            txt = tk.Text(text_frame, height=8, width=80, wrap="word")
+            txt.pack()
+            txt.insert(tk.END, text_var.get())
+
+            tk.Button(text_frame, text="Save Text", command=save_edited_text, fg="green").pack(padx=5)
             win.mainloop()
 
         launch_gui()

@@ -1,13 +1,14 @@
+from queue import Queue
 from threading import Thread, Semaphore, Event
-import threading
 from tkinter import messagebox
 from pydub import AudioSegment
 import tkinter as tk
 import tkinter.font as tkfont
 import numpy as np
 import tempfile
-import subprocess
 import os, re, sys, time, json
+
+import pygame
 
 MY_DATA = "my_data/"
 SUBTITLES = "subtitles.json"
@@ -62,24 +63,61 @@ def strip_naked(string: str) -> str:
     return string.strip()
 
 class Task_Audio_process(Thread):
-    def __init__(self, list_tasks: list, semaph_pass: Semaphore, suicide: Event):
+    def __init__(self,
+                 list_tasks: Queue,
+                 play: Semaphore,
+                 done: Event,
+                 suicide: Event,
+                 stop_play: Event,
+                 audio: AudioSegment):
         super().__init__()
         self.list_tasks = list_tasks
-        self.semaph_pass = semaph_pass
-        self.suicide = suicide
+        self.play = play  # in main release after puting tasks in Queue
+        self.done = done  # signals that i can modify Queue - add new tasks
+        self.suicide = suicide  # in main at leave() function play.release() + activate suicide
+        self.audio = audio
+        self.stop_play = stop_play  # flag to stop audio play
+        self.current_time = -1
+
+        pygame.mixer.init()
     
     def run(self):
         while True:
-            self.semaph_pass.acquire()
-            if self.suicide.is_set():
-                break
-            # TODO
+            self.play.acquire()
+            self.stop_play.clear()
 
-    def play_seg(self):
-        pass  # TODO
+            if self.suicide.is_set(): break
+            while not self.list_tasks.empty():
+                elem = self.list_tasks.get()
+                self.play_seg(elem[0], elem[1], elem[2])
 
+            self.current_time = -1
+            self.done.set()
 
-# TODO button to activate TEXT editing and disable it(green - active, red -...)
+    def play_seg(self, t1, t2, t_between):
+        segment = self.audio[t1 * 1000 : t2 * 1000]
+        with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as tmp:
+            path = tmp.name
+        segment.export(path, format="wav")
+
+        pygame.mixer.music.load(path)
+        pygame.mixer.music.play()
+        while pygame.mixer.music.get_busy():
+            if self.stop_play.is_set():
+                self.stop_playing()
+                os.remove(path)
+                return
+            self.current_time = round(t1 + pygame.mixer.music.get_pos() / 1000, 3)
+            time.sleep(0.05)
+        os.remove(path)
+        time.sleep(t_between)  # time between plays
+
+    def stop_playing(self):
+        while not self.list_tasks.empty(): # Empty tasks
+            self.list_tasks.get_nowait()
+        if pygame.mixer.music.get_busy(): # Stop audio
+            pygame.mixer.music.stop()
+
 class Repair_Audio:
     def __init__(self, root: tk.Tk, data, audio: AudioSegment, folder, start_id):
         self.root = root
@@ -119,12 +157,14 @@ class Repair_Audio:
         self.upload_widgets()
 
         # Play threads
-        # self.list_tasks = []
-        # self.semaph_pass = Semaphore(0)  # TODO need to be released after filling list with tasks
-        # self.suicide = Event()
-        # self.play_thread = Task_Audio_process(self.list_tasks, self.semaph_pass, self.suicide)
-        # self.play_thread.start()
-        self.play_thread = None
+        self.list_tasks = Queue()
+        self.play = Semaphore(0) # Needs to be released after filling Queue with tasks
+        self.done = Event()  # Sygnals that PLAY Queue is free to use
+        self.done.set()
+        self.suicide = Event()   # Kill thread signal
+        self.stop_play = Event() # Stop playing audio
+        self.play_thread = Task_Audio_process(self.list_tasks, self.play, self.done, self.suicide, self.stop_play, self.audio)
+        self.play_thread.start()
 
         self.load_segment()
 
@@ -181,7 +221,7 @@ class Repair_Audio:
         tk.Button(frame_butt_up, text="-0.04",  command=lambda: self.move_marker(-0.04)).pack(pady=2, side='left')
         tk.Button(frame_butt_up, text="-0.01",  command=lambda: self.move_marker(-0.01)).pack(pady=2, side='left')
         tk.Button(frame_butt_up, text="-0.005", command=lambda: self.move_marker(-0.005)).pack(pady=2, side='left')
-        tk.Button(frame_butt_up, text="Play",   command=self.play).pack(pady=2, side='left')
+        tk.Button(frame_butt_up, text="Play",   command=self.play_all).pack(pady=2, side='left')
         tk.Button(frame_butt_up, text=" ■ ",    command=self.stop_playing).pack(pady=2, side='left')
         tk.Button(frame_butt_up, text="+0.005", command=lambda: self.move_marker(0.005)).pack(pady=2, side='left')
         tk.Button(frame_butt_up, text="+0.01",  command=lambda: self.move_marker(0.01)).pack(pady=2, side='left')
@@ -249,7 +289,6 @@ class Repair_Audio:
         self.select_mark.set(-1)
         self.info_text.set(f'ID: {item[ID_SEG]} | User: {item[ID_USER]} | Text: {item[TEXT_SEG]}')
         self.list_time_real.set(str(item[LIST_TIME]))
-        self.play_thread = None
 
         self.disp_start = max(min(self.start_var.get(), item[LIST_TIME][0][0]) - MARGIN, 0)
         self.disp_end = min(max(self.end_var.get(), item[LIST_TIME][-1][-1]) + MARGIN, self.audio.duration_seconds)
@@ -441,50 +480,57 @@ class Repair_Audio:
         self.draw_markers()
 
     # --- Button functions ---
-# TODO
-    def _play_seg(self, start_ms, end_ms):
-        segment = self.audio[start_ms : end_ms]
-        with tempfile.NamedTemporaryFile(delete=False, suffix='.wav') as tmp:
-            path = tmp.name
-        segment.export(path, format='wav')
-        subprocess.run(["ffplay", "-nodisp", "-autoexit", "-loglevel", "quiet", path])
-        os.remove(path)
-    # TODO later, not now
     def stop_playing(self):
-        pass
-# TODO
-    def play(self):
-        def play_all():
-            for idx, _ in enumerate(self.dyn_buttons):
-                self.play_word(idx)
-                time.sleep(0.3)
-            self.play_thread = None
-        Thread(target=play_all).start()
-# TODO
-    def play_short(self):
-        if self.select_mark.get() == -1:
+        self.stop_play.set()
+
+    def play_all(self):
+        if not self.done.is_set():
             return
+        self.done.clear()
+        idx = 1
+        while idx < len(self.markers):
+            obj      = self.markers[idx]
+            obj_back = self.markers[idx - 1]
 
-        def play_helper():
-            tick = 0.5  # how many seconds to play at margins
-            idx_mid = self.select_mark.get()
-            time_mid = self.markers[idx_mid][0].get()
-            if idx_mid == 0:
-                time_first = time_mid - tick
-                time_last = self.markers[idx_mid + 1][0].get()
-            elif idx_mid == len(self.markers) - 1:
-                time_first = self.markers[idx_mid - 1][0].get()
-                time_last = time_mid + tick
-            else:
-                time_first = self.markers[idx_mid - 1][0].get()
-                time_last = self.markers[idx_mid + 1][0].get()
+            if idx == len(self.markers) - 1: tm_between = 0
+            else:                            tm_between = 0.3
 
-            self._play_seg(time_first * 1000, time_mid * 1000)
-            time.sleep(0.5)
-            self._play_seg(time_mid * 1000, time_last * 1000)
-        Thread(target=play_helper).start()
-# TODO
+            self.list_tasks.put((obj_back[0].get(), obj[0].get(), tm_between))
+            if obj[1] == self.END_MRK:
+                idx += 1
+            idx += 1
+        self.play.release()
+        self.draw_moving_mark()
+
+    def play_short(self):
+        if self.select_mark.get() == -1 or not self.done.is_set():
+            return
+        self.done.clear()
+
+        tick = 0.5  # how many seconds to play at margins
+        idx_mid = self.select_mark.get()
+        time_mid = self.markers[idx_mid][0].get()
+        if idx_mid == 0:
+            time_first = time_mid - tick
+            time_last = self.markers[idx_mid + 1][0].get()
+        elif idx_mid == len(self.markers) - 1:
+            time_first = self.markers[idx_mid - 1][0].get()
+            time_last = time_mid + tick
+        else:
+            time_first = self.markers[idx_mid - 1][0].get()
+            time_last = self.markers[idx_mid + 1][0].get()
+
+        self.list_tasks.put((time_first, time_mid, 0.5))
+        self.list_tasks.put((time_mid, time_last, 0))
+
+        self.play.release()
+        self.draw_moving_mark()
+
     def play_word(self, nr_word):
+        if not self.done.is_set():
+            return
+        self.done.clear()
+
         idx_word = -1  # index pointing to start mrk for word
         my_nr_word = 0
         for idx, mrk in enumerate(self.markers):
@@ -495,10 +541,13 @@ class Repair_Audio:
                 break
             my_nr_word += 1
         if idx_word == -1 or idx_word >= len(self.markers) - 1:
+            self.done.set()
             return
 
-        self._play_seg(self.markers[idx_word][0].get() * 1000,
-                       self.markers[idx_word + 1][0].get() * 1000)
+        self.list_tasks.put((self.markers[idx_word][0].get(),
+                             self.markers[idx_word + 1][0].get(), 0))
+        self.play.release()
+        self.draw_moving_mark()
 
     def _save(self):
         item = self.data[SEGMENTS][self.id_curr_seg]
@@ -514,6 +563,10 @@ class Repair_Audio:
         self.load_segment()
 
     def leave(self):
+        self.stop_playing() # kill Thread
+        self.suicide.set()
+        self.play.release()
+
         write_the_data_in_subtitle_json(self.folder, self.data)
         print(f"Last edited ID: {self.last_saved_id}")
         self.root.destroy()
@@ -715,6 +768,17 @@ class Repair_Audio:
         else:
             self.txt.config(state="disabled")
             self.text_butt_access.config(text="NOT  EDITING", bg="#49C826", activebackground="green")
+
+    def draw_moving_mark(self):
+        self.canvas.delete('moving_marker')
+        if self.done.is_set():
+            return
+        
+        if self.play_thread.current_time != -1:
+            x = int(((self.play_thread.current_time - self.disp_start) / (self.disp_end - self.disp_start)) * self.canvas.winfo_width())
+            self.canvas.create_line(x, 0, x, self.canvas.winfo_height(), width=2, tags='moving_marker', fill="#9727FF")
+
+        self.root.after(40, self.draw_moving_mark)
 
 def main():
     if len(sys.argv) == 1:  # TODO needs improvements i think like: (1)-folder_nr (2)7

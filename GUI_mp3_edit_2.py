@@ -2,6 +2,7 @@ import sys
 from threading import Thread
 import time
 import tkinter as tk
+import tkinter.font as tkfont
 from tkinter import messagebox
 from pydub import AudioSegment
 import numpy as np
@@ -23,7 +24,7 @@ LIST_TIME = "list_time"
 
 SKIPPED = "SKIPPED-- "
 
-WORKING_DIR_NUMBER = 5
+WORKING_DIR_NUMBER = 1
 MARGIN = 1.5            # seconds of margin around each segment
 LENGTH_PER_05_SEC = 50  # how many pixels per 0.5 seconds
 START_EDITING = 0    # from wich ID to start editing
@@ -52,6 +53,7 @@ def get_working_folder_name(folder_id: int) -> str:
     print("Working with: " + name)
     return name
 
+# TODO play system is kind of trash, needs to be reworked and maybe some animations when playing(a moving marker)
 class Repair_Audio:
     def __init__(self, root: tk.Tk, data, audio: AudioSegment, folder, start_id):
         self.root = root
@@ -80,47 +82,52 @@ class Repair_Audio:
         self.dragging = {'line': None}
 
         # Play threads
-        self.play_thread: Thread = None
+        self.play_thread: Thread
 
         self.upload_widgets()
-        self.load_segment()
+        self.brain()
 
     # --- Main functions ---
     def upload_widgets(self):
+        # self.root.attributes('-zoomed', True)
         self.root.title("Editing Segment Time")
         self.root.protocol("WM_DELETE_WINDOW", self.leave) # Calls leave() when i press X
-        tk.Label(self.root, textvariable=self.info_text, justify='left').pack(pady=5)
+        self.root.bind('<Right>', self.sel_next_mrk)
+        self.root.bind('<Left>',  self.sel_past_mrk)
+        self.root.configure(bg="#1e1e1e")
+        label_style = {"bg": "#1e1e1e", "fg": "#ffb347"}
+        tk.Label(self.root, textvariable=self.info_text, justify='left', **label_style).pack(pady=5)
 
-        self.canvas = tk.Canvas(self.root, height=140, bg='white')
+        self.canvas = tk.Canvas(self.root, height=140, bg="#7b7b7b")
         self.canvas.pack()
         self.canvas.bind('<Button-1>', self.on_press)
         self.canvas.bind('<B1-Motion>', self.on_motion)
         self.canvas.bind('<ButtonRelease-1>', self.on_release)
 
-        frame = tk.Frame(self.root)
+        frame = tk.Frame(self.root, bg="#1e1e1e")
         frame.pack(pady=5)
-        tk.Label(frame, text="Start (s):")            .grid(row=0, column=0)
-        tk.Label(frame, textvariable=self.start_var)  .grid(row=0, column=1, padx=5)
-        tk.Label(frame, text="End (s):")              .grid(row=0, column=2, padx=10)
-        tk.Label(frame, textvariable=self.end_var)    .grid(row=0, column=3, padx=5)
-        tk.Label(frame, text="Idx_Mrk:")              .grid(row=0, column=4, padx=10)
-        tk.Label(frame, textvariable=self.select_mark).grid(row=0, column=5, padx=5)
+        tk.Label(frame, text="Start (s):", **label_style)            .grid(row=0, column=0)
+        tk.Label(frame, textvariable=self.start_var, **label_style)  .grid(row=0, column=1, padx=5)
+        tk.Label(frame, text="End (s):", **label_style)              .grid(row=0, column=2, padx=10)
+        tk.Label(frame, textvariable=self.end_var, **label_style)    .grid(row=0, column=3, padx=5)
+        tk.Label(frame, text="Idx_Mrk:", **label_style)              .grid(row=0, column=4, padx=10)
+        tk.Label(frame, textvariable=self.select_mark, **label_style).grid(row=0, column=5, padx=5)
 
-        frame_butt_up = tk.Frame(self.root)
+        frame_butt_up = tk.Frame(self.root, bg="#1e1e1e")
         frame_butt_up.pack(side="top")
-        frame_sec_row = tk.Frame(self.root)
+        frame_sec_row = tk.Frame(self.root, bg="#1e1e1e")
         frame_sec_row.pack(side="top")
-        frame_butt_down = tk.Frame(self.root)
+        frame_butt_down = tk.Frame(self.root, bg="#1e1e1e")
         frame_butt_down.pack(side="bottom")
 
-        tk.Button(frame_butt_up, text="-0.04",   command=lambda: self.move_marker(-0.04)).pack(pady=2, side='left')
-        tk.Button(frame_butt_up, text="-0.01",   command=lambda: self.move_marker(-0.01)).pack(pady=2, side='left')
-        tk.Button(frame_butt_up, text="-0.005",  command=lambda: self.move_marker(-0.005)).pack(pady=2, side='left')
-        tk.Button(frame_butt_up, text="Play",    command=self.play).pack(pady=2, side='left')
-        tk.Button(frame_butt_up, text=" ■ ",     command=self.stop_playing).pack(pady=2, side='left')
-        tk.Button(frame_butt_up, text="+0.005",  command=lambda: self.move_marker(0.005)).pack(pady=2, side='left')
-        tk.Button(frame_butt_up, text="+0.01",   command=lambda: self.move_marker(0.01)).pack(pady=2, side='left')
-        tk.Button(frame_butt_up, text="+0.04",   command=lambda: self.move_marker(0.04)).pack(pady=2, side='left')
+        tk.Button(frame_butt_up, text="-0.04",  command=lambda: self.move_marker(-0.04)).pack(pady=2, side='left')
+        tk.Button(frame_butt_up, text="-0.01",  command=lambda: self.move_marker(-0.01)).pack(pady=2, side='left')
+        tk.Button(frame_butt_up, text="-0.005", command=lambda: self.move_marker(-0.005)).pack(pady=2, side='left')
+        tk.Button(frame_butt_up, text="Play",   command=self.play).pack(pady=2, side='left')
+        tk.Button(frame_butt_up, text=" ■ ",    command=self.stop_playing).pack(pady=2, side='left')
+        tk.Button(frame_butt_up, text="+0.005", command=lambda: self.move_marker(0.005)).pack(pady=2, side='left')
+        tk.Button(frame_butt_up, text="+0.01",  command=lambda: self.move_marker(0.01)).pack(pady=2, side='left')
+        tk.Button(frame_butt_up, text="+0.04",  command=lambda: self.move_marker(0.04)).pack(pady=2, side='left')
 
         tk.Button(frame_sec_row, text="Play_last 1",   command=lambda: self.play_last(0)).pack(pady=2, side='left')
         tk.Button(frame_sec_row, text="Play SHORT",    command=self.play_short).pack(pady=2, side='left')
@@ -129,17 +136,35 @@ class Repair_Audio:
         tk.Button(self.root, text="Save and Next", command=self.save_and_next, fg="green").pack(pady=2)
         tk.Button(self.root, text="+2 sec",        command=self.extend_end_by_2_sec).pack(pady=2)
 
-        tk.Button(frame_butt_down, text="Leave Editing Mode", command=self.leave, fg="red").pack(pady=2, side='right')
-        tk.Button(frame_butt_down, text="Mark SKIPPED",       command=self.mark_skipped, fg="red").pack(pady=2, side='right')
-        tk.Button(frame_butt_down, text="Back",               command=self.back).pack(pady=2, side='left')
+        tk.Button(frame_butt_down, text="Leave(exit)",  command=self.leave, fg="red").pack(pady=2, side='right')
+        tk.Button(frame_butt_down, text="Mark SKIPPED", command=self.mark_skipped, fg="red").pack(pady=2, side='right')
+        tk.Button(frame_butt_down, text="    ҉",         command=self.brain).pack(pady=2, side='left')
+        tk.Button(frame_butt_down, text="Back",         command=self.back).pack(pady=2, side='left')
+
+        text_buttons = tk.Frame(self.root)
+        text_buttons.pack(side='bottom')
+        tk.Button(text_buttons, text="Save Text", command=self.save_edited_text, fg="green").pack(side='right')
+        self.text_butt_access = tk.Button(text_buttons, text="NOT  EDITING", command=self.swich_text_access, bg="#49C826", activebackground="green")
+        self.text_butt_access.pack(side='right')
 
         text_frame = tk.Frame(self.root)
         text_frame.pack(side="bottom")
-        self.txt = tk.Text(text_frame, height=8, width=80, wrap="word")
+        big_font = tkfont.Font(family="Consolas", size=14)
+        self.txt = tk.Text(text_frame, height=8, width=80, wrap="word", font=big_font,
+                           bg="#1e1e1e", fg="#d4a373", insertbackground="#d7c9bb")
         self.txt.pack()
         self.txt.insert(tk.END, self.data[SEGMENTS][self.id_curr_seg][TEXT_SEG])
+        self.txt.config(state="disabled")
 
-        tk.Button(text_frame, text="Save Text", command=self.save_edited_text, fg="green").pack(padx=5)
+    def brain(self):
+        self.load_segment()
+
+    def load_segment_cut_long_segments(self):
+        # find segment, if last_saved == -1 , search from begining else from last_saved + 1, take in consideration list_idx-es if empty or not
+        # if i agree to cut, i specify how many similar dubs to exist
+        # i put the dubs idx in a list and loop through them to edit them all
+        # when list is empty i continue with the process until end
+        pass
 
     def load_segment(self):
         """This function dictates wich segments to edit, can be modified to suit the user's needs"""
@@ -159,8 +184,9 @@ class Repair_Audio:
         # Variables
         self.start_var.set(item[START_SEG] if self.last_end_time == -1 else self.last_end_time)
         self.end_var.set(item[END_SEG])
-        self.info_text.set(f'ID: {item[ID_SEG]} | User: {item[ID_USER]}')
+        self.info_text.set(f'ID: {item[ID_SEG]} | User: {item[ID_USER]} | Text: {item[TEXT_SEG]}')
         self.select_mark.set(-1)
+        self.play_thread = None
 
         self.disp_start = max(self.start_var.get() - MARGIN, 0)
         self.disp_end = min(self.end_var.get() + MARGIN, self.audio.duration_seconds)
@@ -202,7 +228,7 @@ class Repair_Audio:
             self.canvas.create_line(x, 0, x, canv_height, width=2, tags=('marker', f'marker_{idx}'))
             self.canvas.create_text(x + 4, 4, text=f"{tk_sec.get():.3f}s", anchor='nw', tags='marker_text')
         
-        self.canvas.itemconfig('marker', fill='#006400')
+        self.canvas.itemconfig('marker', fill="#49E949")
         if self.select_mark.get() != -1:
             self.canvas.itemconfig(f'marker_{self.select_mark.get()}', fill='red')
 
@@ -234,24 +260,28 @@ class Repair_Audio:
         for i in range(int(duration / 0.5) + 1):
             t = self.disp_start + i * 0.5
             x = int(((t - self.disp_start) / duration) * canvas_width)
-            self.canvas.create_line(x, 0, x, canvas_height, fill='gray', dash=(2, 2), tags='drawing')
-            self.canvas.create_text(x + 2, canvas_height - 10, text=f"{t:.3f}", anchor='nw', tags='drawing')
+            self.canvas.create_line(x, 0, x, canvas_height, fill="#BDF7B8", dash=(2, 2), tags='drawing')
+            self.canvas.create_text(x + 2, canvas_height - 10, text=f"{t:.3f}", anchor='nw', tags='drawing', font=("Arial", 6))
         
         self.draw_markers()
 
     # --- Mouse Events ---
     def on_press(self, event: tk.Event):
+        min_val = 15  # min distance from marker to be selected
+        idx_target = -1
         for idx, _ in enumerate(self.markers):
             coords = self.canvas.coords(f'marker_{idx}')
-            if coords and abs(event.x - coords[0]) < 15:
-                self.dragging['line'] = f'marker_{idx}'
-
-                if self.select_mark.get() != -1:
-                    self.canvas.itemconfig(f'marker_{self.select_mark.get()}', fill='#006400')
-                self.select_mark.set(idx)
-                self.canvas.itemconfig(f'marker_{idx}', fill='red')
-
-                break
+            distance = abs(event.x - coords[0])
+            if distance < min_val:
+                min_val = distance
+                idx_target = idx
+        
+        if idx_target == -1: return
+        self.dragging['line'] = f'marker_{idx_target}'
+        if self.select_mark.get() != -1:
+            self.canvas.itemconfig(f'marker_{self.select_mark.get()}', fill="#49E949")
+        self.select_mark.set(idx_target)
+        self.canvas.itemconfig(f'marker_{idx_target}', fill='red')
 
     def on_motion(self, event: tk.Event):
         if not (0 <= event.x <= self.canvas.winfo_width()):
@@ -260,7 +290,7 @@ class Repair_Audio:
         if not tag: return
 
         duration = self.disp_end - self.disp_start
-        t = self.disp_start + (event.x / self.canvas.winfo_width()) * duration
+        t = round(self.disp_start + (event.x / self.canvas.winfo_width()) * duration, 3)
         idx = int(tag.replace('marker_', ''))
         obj = self.markers[idx]
 
@@ -278,12 +308,24 @@ class Repair_Audio:
             if t >= up_obj.get() or down_obj.get() >= t:
                 return
 
-        obj.set(round(t, 3))
+        obj.set(t)
         self.draw_markers()
 
     def on_release(self, event: tk.Event):
         self.dragging['line'] = None
-        self.canvas.itemconfig(f'marker_{self.select_mark.get()}', fill='red')
+
+    # --- Keyboard Events ---
+    def sel_past_mrk(self, event):
+        self.select_mark.set(self.select_mark.get() - 1)
+        if self.select_mark.get() < 0:
+            self.select_mark.set(len(self.markers) - 1)
+        self.draw_markers()
+
+    def sel_next_mrk(self, event):
+        self.select_mark.set(self.select_mark.get() + 1)
+        if self.select_mark.get() == len(self.markers):
+            self.select_mark.set(0)
+        self.draw_markers()
 
     # --- Button functions ---
     def _play_seg(self, start_ms, end_ms, end_flag: bool):
@@ -333,8 +375,7 @@ class Repair_Audio:
         item[START_SEG] = round(self.start_var.get(), 3)
         item[END_SEG] = round(self.end_var.get(), 3)
         if self.txt.get("1.0", "end-1c") != item[TEXT_SEG]:
-            if messagebox.askyesno("Unsaved Text", "You Modified the Text, Wanna save it?"):
-                self.save_edited_text()
+            self.save_edited_text()
         self.last_saved_id = item[ID_SEG]
 
     def save_and_next(self):
@@ -343,7 +384,7 @@ class Repair_Audio:
         self.last_end_time = item[END_SEG]
 
         self.id_curr_seg += 1
-        self.load_segment()
+        self.brain()
 
     def leave(self):
         write_the_data_in_subtitle_json(self.folder, self.data)
@@ -364,14 +405,14 @@ class Repair_Audio:
             item = self.data[SEGMENTS][self.id_curr_seg]
             item[TEXT_SEG] = SKIPPED + item[TEXT_SEG].replace(SKIPPED, "")
             self.id_curr_seg += 1
-            self.load_segment()
+            self.brain()
     
     def back(self):
         self.id_curr_seg -= 1
         while str(self.data[SEGMENTS][self.id_curr_seg][TEXT_SEG]).startswith(SKIPPED):
             self.id_curr_seg -= 1
         self.last_end_time = -1
-        self.load_segment()
+        self.brain()
 
     def move_marker(self, amount):
         if self.select_mark.get() == -1:
@@ -379,7 +420,7 @@ class Repair_Audio:
 
         idx = self.select_mark.get()
         obj = self.markers[idx]
-        t = obj.get() + amount
+        t = round(obj.get() + amount, 3)
 
         if idx == 0:
             up_obj = self.markers[idx + 1]
@@ -395,12 +436,21 @@ class Repair_Audio:
             if t >= up_obj.get() or down_obj.get() >= t:
                 return
 
-        obj.set(round(t, 3))
+        obj.set(t)
         self.draw_markers()
 
     def save_edited_text(self):
-        if messagebox.askyesno("Modify Text", "You sure you want to modify TEXT?"):
-            self.data[SEGMENTS][self.id_curr_seg][TEXT_SEG] = self.txt.get("1.0", "end-1c")
+        item = self.data[SEGMENTS][self.id_curr_seg]
+        item[TEXT_SEG] = self.txt.get("1.0", "end-1c")
+        self.info_text.set(f'ID: {item[ID_SEG]} | User: {item[ID_USER]} | Text: {item[TEXT_SEG]}')
+
+    def swich_text_access(self):
+        if self.txt['state'] == 'disabled':
+            self.txt.config(state="normal")
+            self.text_butt_access.config(text="EDITING TEXT", bg="red", activebackground="#D23A3A")
+        else:
+            self.txt.config(state="disabled")
+            self.text_butt_access.config(text="NOT  EDITING", bg="#49C826", activebackground="green")
 
 def main():
     if len(sys.argv) == 1:  # TODO needs improvements i think like: (1)-folder_nr (2)7

@@ -24,20 +24,27 @@
     {
       "id": 5,
       "start": 68.0,
-      "end": 76.272,
-      "text": " Sunt Stela Balan, am șaizeci și una de ani. Am stat în Italia aproape douăzeci de ani, îmi mai lipseau vreo patru cinci luni.",
+      "end": 72.481,
+      "text": " Sunt Stela Balan, am șaizeci și una de ani. Am stat în Italia",
+      "id_user": 3
+    },
+    {
+      "id": 5,
+      "start": 72.971,
+      "end": 76.362,
+      "text": " aproape douăzeci de ani, îmi mai lipseau vreo patru cinci luni.",
       "id_user": 3
     },
     {
       "id": 6,
-      "start": 76.729,
+      "start": 76.742,
       "end": 79.202,
       "text": " De patru ani m-am întors în Moldova.",
       "id_user": 3
     },
     {
       "id": 7,
-      "start": 79.452,
+      "start": 79.633,
       "end": 88.0,
       "text": " Mă numesc Gnatiuc Victor, am cincizeci și opt de ani și am trăit o perioadă de 19 ani la Rusia.",
       "id_user": 4
@@ -52,14 +59,21 @@
     {
       "id": 9,
       "start": 97.338,
-      "end": 104.488,
-      "text": " Numele meu este Laura Baraga, am douăzeci și cinci de ani și am revenit acasă după șase ani de Amsterdam, Olanda.",
+      "end": 100.888,
+      "text": " Numele meu este Laura Baraga, am douăzeci și cinci de ani și am",
+      "id_user": 5
+    },
+    {
+      "id": 9,
+      "start": 100.888,
+      "end": 104.626,
+      "text": " revenit acasă după șase ani de Amsterdam, Olanda.",
       "id_user": 5
     },
     {
       "id": 10,
-      "start": 104.488,
-      "end": 111.0,
+      "start": 104.626,
+      "end": 111.319,
       "text": " Sunt Oglindă Ion, am patruzeci și doi de ani, am trei fetițe și o soție minunată.",
       "id_user": 6
     },
@@ -171,13 +185,20 @@
     {
       "id": 26,
       "start": 170.802,
-      "end": 178.568,
-      "text": " Dacă eu acolo fiind străină am obținut ceva, eu aici la mine acasă de și[ce] n-aș obține când sunt printre ai mei.",
+      "end": 174.905,
+      "text": " Dacă eu acolo fiind străină am obținut ceva,",
+      "id_user": 1
+    },
+    {
+      "id": 26,
+      "start": 175.276,
+      "end": 178.717,
+      "text": " eu aici la mine acasă de și[ce] n-aș obține când sunt printre ai mei.",
       "id_user": 1
     },
     {
       "id": 27,
-      "start": 179.27,
+      "start": 179.219,
       "end": 185.345,
       "text": " Când tu te duci peste hotare, așa ai o senzație că rădăcinele acestea parcă",
       "id_user": 1
@@ -185,8 +206,15 @@
     {
       "id": 28,
       "start": 185.618,
+      "end": 188.081,
+      "text": " Ele s-o[s-au] întins, ele nu s-o[s-au] rupt, da[dar] ele parcă",
+      "id_user": 1
+    },
+    {
+      "id": 28,
+      "start": 188.081,
       "end": 190.084,
-      "text": " Ele s-o[s-au] întins, ele nu s-o[s-au] rupt, da[dar] ele parcă s-o[s-au] întins, da[dar] s-o[s-au] întins până la durere.",
+      "text": " s-o[s-au] întins, da[dar] s-o[s-au] întins până la durere.",
       "id_user": 1
     },
     {
@@ -857,15 +885,29 @@
     {
       "id": 125,
       "start": 588.862,
+      "end": 592.995,
+      "text": " Și când la vamă o[a] venit șoferul să-mi ieie",
+      "id_user": 3
+    },
+    {
+      "id": 125,
+      "start": 593.766,
       "end": 598.438,
-      "text": " Și când la vamă o[a] venit șoferul să-mi ieie documentele, eu i-am dat permisul de soggiorno care îl avem[aveam] italiană.",
+      "text": " documentele, eu i-am dat permisul de soggiorno care îl avem[aveam] italiană.",
       "id_user": 3
     },
     {
       "id": 126,
       "start": 598.882,
+      "end": 602.267,
+      "text": " Și el se uită așa la mine și zice, da[dar] și[ce] te duci",
+      "id_user": 3
+    },
+    {
+      "id": 126,
+      "start": 602.267,
       "end": 605.512,
-      "text": " Și el se uită așa la mine și zice, da[dar] și[ce] te duci în Franța și[ce] nu te duci la Giovani a[al] tău în Italia.",
+      "text": " în Franța și[ce] nu te duci la Giovani a[al] tău în Italia.",
       "id_user": 3
     },
     {
@@ -878,8 +920,15 @@
     {
       "id": 128,
       "start": 611.0,
+      "end": 617.03,
+      "text": " mi-o[mi-a] fost așa de atât de obijduitor pentru că mentalitatea moldovenilor,",
+      "id_user": 3
+    },
+    {
+      "id": 128,
+      "start": 618.17,
       "end": 624.0,
-      "text": " mi-o[mi-a] fost așa de atât de obijduitor pentru că mentalitatea moldovenilor, că femeile care se duc în Italia, badantele mai ales, toate au amanți.",
+      "text": " că femeile care se duc în Italia, badantele mai ales, toate au amanți.",
       "id_user": 3
     },
     {
