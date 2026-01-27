@@ -62,6 +62,7 @@ def strip_naked(string: str) -> str:
     string = re.sub(r'\s+', ' ', string)
     return string.strip()
 
+
 class Task_Audio_process(Thread):
     def __init__(self,
                  list_tasks: Queue,
@@ -117,6 +118,7 @@ class Task_Audio_process(Thread):
             self.list_tasks.get_nowait()
         if pygame.mixer.music.get_busy(): # Stop audio
             pygame.mixer.music.stop()
+
 
 class Repair_Audio:
     def __init__(self, root: tk.Tk, data, audio: AudioSegment, folder, start_id):
@@ -780,6 +782,7 @@ class Repair_Audio:
 
         self.root.after(40, self.draw_moving_mark)
 
+
 def main():
     if len(sys.argv) == 1:  # TODO needs improvements i think like: (1)-folder_nr (2)7
         nr_working_folder = WORKING_DIR_NUMBER
@@ -801,6 +804,7 @@ def main():
     root = tk.Tk()
     Repair_Audio(root, data, audio, name, start_id)
     root.mainloop()
+
 
 if __name__ == "__main__":
     main()
