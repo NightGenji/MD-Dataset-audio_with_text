@@ -1,3 +1,4 @@
+import io
 import os
 import sys
 import json
@@ -30,10 +31,12 @@ LIST_TIME = "list_time"
 
 SKIPPED = "SKIPPED-- "
 
+# visual audio drawing parameters
+MARGIN = 1.5
+LENGTH_PER_05_SEC = 50  # pixels per 0.5 sec
+# from wich ID to start editing
 WORKING_DIR_NUMBER = 1
-MARGIN = 1.5            # seconds of margin around each segment
-LENGTH_PER_05_SEC = 50  # how many pixels per 0.5 seconds
-START_EDITING = 123     # from wich ID to start editing
+START_EDITING = 294
 
 """first arg  -> takes a WORKING_DIR_NUMBER value"""
 """second arg -> takes a START_EDITING value"""
@@ -101,7 +104,7 @@ class Task_Audio_process(Thread):
             self.done.set()
 
     def play_seg(self, t1, t2, t_between, speed: float = 1.0):
-        segment = self.audio[t1 * 1000 : t2 * 1000]
+        segment = self.audio[int(t1 * 1000) : int(t2 * 1000)]
 
         if speed != 1.0:
             samples = np.array(segment.get_array_of_samples()).astype(np.float32) / 32768.0
@@ -122,20 +125,20 @@ class Task_Audio_process(Thread):
                 channels=segment.channels
             )
 
-        with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as tmp:
-            path = tmp.name
-            segment.export(path, format="wav")
+        wav_io = io.BytesIO()
+        segment.export(wav_io, format="wav")
+        wav_io.seek(0)  # Rewind to start of virtual file
 
-        pygame.mixer.music.load(path)
+        pygame.mixer.music.load(wav_io)
         pygame.mixer.music.play()
+
         while pygame.mixer.music.get_busy():
             if self.stop_play.is_set():
                 self.stop_playing()
-                os.remove(path)
                 return
             self.current_time = round(t1 + pygame.mixer.music.get_pos() * speed / 1000, 3)
             time.sleep(0.05)
-        os.remove(path)
+        
         time.sleep(t_between)  # time between plays
 
     def stop_playing(self):
@@ -338,7 +341,9 @@ class Repair_Audio:
             break
 
         # Variables
-        self.start_var.set(item[START_SEG] if self.last_end_time == -1 else self.last_end_time)
+        # self.start_var.set(item[START_SEG] if self.last_end_time == -1 else self.last_end_time)
+        self.start_var.set(item[START_SEG])
+
         self.end_var.set(item[END_SEG])
         self.info_text.set(f'ID: {item[ID_SEG]} | User: {item[ID_USER]} | Text: {item[TEXT_SEG]}')
         self.select_mark.set(-1)

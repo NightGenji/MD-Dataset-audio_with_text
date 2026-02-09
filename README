@@ -10,11 +10,6 @@ export PS1="\u@\h:\W\$ "   // pentru scurtarea terminalului
 
 ======================== Warning ====================================
 cuvintele de TIP: "word[word]" -> cum_se_aude[cum_se_subintelege]
---probleme poate ramase nerezolvate complet:
-1. 'ce' cu audio de 'ci'
-2. 'ce' cu audio de 'și'
-
-() - used to tell that this segment of text is not completed properly
 ... - may mean word dublication like - eu am... am fost
 
 
@@ -26,11 +21,9 @@ The ID of the host will be specified here - All those persons under one specific
 
 ========= Video 1 - ONE ==========
 == Data : "https://www.youtube.com/watch?v=mUf8-mQjje4" - Noi toți vrem să fim bogați
-Problem ID: 102/6, 136/7, 169, 193, 270, 319
-Rusisme: tac=>deci, cletcă=>cușcă
-Words: iaca, deie, ieie, oi->of, lu
-
-Cuvinte de revizuit: anumitui, nimica, cletcă, colțun, îi_este
+Problem ID: 
+Rusisme: tac=>deci, cletcă=>cușcă, pâcarne=>brutărie
+Words: oi->of
 
 ========= Video 2 - TWO ==========
 == Data : "https://www.youtube.com/watch?v=PduZkR9j79E" - Voi știți cum e de trăit aici?
@@ -104,22 +97,8 @@ de revizuit:
 
 ======================== Problems ===================================
 0. DO I have permision to use 14 or to write it in words?
-1. pronunție MD - cuvânt
-probleme: și - și/ce, li - li/le, ni - li/le, da - da/dar, li - li/le, ni - li/le
------- ci - ce/ci -> mai putin spre deloc clasificat in mod: ci[ce]
- sâ(pronuntia) - se/să
- câ(pronuntia) - ca/că
 
-2. Poate fi asemanator 'mergem' si 'merjem', și mai multe cuvinte așa situatie
-   mergeam - mergem (românește)
-   merjem  - merjim (MD pronunție)
---rezolvare: la multe pronuntia o dă de gol si e buna de scris corect gramatical
-      la restul marchez cum se aude si scriu varianta subînțeleasă -> word[word]
-   
-3. NEREZOLVATA(in totalitate): -u in loc de -ul 
-   ex: se spune -domnu in loc de -domnul
-
-4. Poate contine greseli de vorbire (eroare din factorul uman)
+1. Poate contine greseli de vorbire (eroare din factorul uman)
 --ex: daca cineva spune 's-a fost' dar corect e 'a fost', se pastreaza versiunea 's-a fost'
 
 
