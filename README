@@ -1,6 +1,7 @@
 ======================== Set Up =====================================
 sudo apt update
 sudo apt install python3-tk
+sudo apt install ffmpeg             // for ffmpeg - pydub
 python3 -m venv v_environment
 source v_environment/bin/activate
 pip install -r requirements.txt
@@ -12,6 +13,15 @@ export PS1="\u@\h:\W\$ "   // pentru scurtarea terminalului
 cuvintele de TIP: "word[word]" -> cum_se_aude[cum_se_subintelege]
 ... - may mean word dublication like - eu am... am fost
 
+======================== General Changes ============================
+acuma -> acum
+oi[oftat] -> of
+
+======================== General Keeps ==============================
+atuncea
+nimica
+
+
 
 ======================== Used Video and Notes =======================
 ???
@@ -21,9 +31,8 @@ The ID of the host will be specified here - All those persons under one specific
 
 ========= Video 1 - ONE ==========
 == Data : "https://www.youtube.com/watch?v=mUf8-mQjje4" - Noi toți vrem să fim bogați
-Problem ID: 
-Rusisme: tac=>deci, cletcă=>cușcă, pâcarne=>brutărie
-Words: oi->of
+Problem ID: 297 - atuncea, 377 - too much of nothing, 391, 
+Rusisme: 301 tac=>deci, cletcă=>cușcă, pâcarne=>brutărie
 
 ========= Video 2 - TWO ==========
 == Data : "https://www.youtube.com/watch?v=PduZkR9j79E" - Voi știți cum e de trăit aici?

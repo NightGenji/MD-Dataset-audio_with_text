@@ -5,7 +5,6 @@ import json
 import copy
 import time
 import pygame
-import tempfile
 import pedalboard
 import numpy as np
 import tkinter as tk
@@ -36,7 +35,7 @@ MARGIN = 1.5
 LENGTH_PER_05_SEC = 50  # pixels per 0.5 sec
 # from wich ID to start editing
 WORKING_DIR_NUMBER = 1
-START_EDITING = 294
+START_EDITING = 438
 
 """first arg  -> takes a WORKING_DIR_NUMBER value"""
 """second arg -> takes a START_EDITING value"""
@@ -193,6 +192,7 @@ class Repair_Audio:
 
     # --- Main functions ---
     def upload_widgets(self):
+        self.root.update()
         self.root.attributes('-zoomed', True)
         self.root.title("Editing Segment Time")
         self.root.protocol("WM_DELETE_WINDOW", self.leave) # Calls leave() when i press X
@@ -202,12 +202,29 @@ class Repair_Audio:
         label_style = {"bg": "#1e1e1e", "fg": "#ffb347"}
         tk.Label(self.root, textvariable=self.info_text, justify='left', **label_style).pack(pady=5)
 
-        self.canvas = tk.Canvas(self.root, height=140, bg="#7b7b7b")
+        # Canvas stuff
+        canv_frame = tk.Frame(self.root, bg="#383333")
+        canv_frame.pack(pady=5)
+        canv_fr_left = tk.Frame(canv_frame, bg="#383333")
+        canv_fr_left.pack(side='left', padx=4, fill='y', expand=True)
+        canv_fr_right = tk.Frame(canv_frame, bg="#383333")
+        canv_fr_right.pack(side='right', padx=4, fill='y', expand=True)
+
+        tk.Button(canv_fr_left, text="-0.04 ", command=lambda: self.move_marker(-0.04)).pack(pady=2)
+        tk.Button(canv_fr_left, text="-0.01 ", command=lambda: self.move_marker(-0.01)).pack(pady=2)
+        tk.Button(canv_fr_left, text="-0.005", command=lambda: self.move_marker(-0.005)).pack(pady=2)
+
+        self.canvas = tk.Canvas(canv_frame, height=140, bg="#7b7b7b")
         self.canvas.pack()
         self.canvas.bind('<Button-1>', self.on_press)
         self.canvas.bind('<B1-Motion>', self.on_motion)
         self.canvas.bind('<ButtonRelease-1>', self.on_release)
 
+        tk.Button(canv_fr_right, text="+0.04 ", command=lambda: self.move_marker(0.04)).pack(pady=2)
+        tk.Button(canv_fr_right, text="+0.01 ", command=lambda: self.move_marker(0.01)).pack(pady=2)
+        tk.Button(canv_fr_right, text="+0.005", command=lambda: self.move_marker(0.005)).pack(pady=2)
+
+        # Some other stuff
         frame = tk.Frame(self.root, bg="#1e1e1e")
         frame.pack(pady=5)
         tk.Label(frame, text="Start (s):", **label_style)            .grid(row=0, column=0)
@@ -228,14 +245,11 @@ class Repair_Audio:
         frame_butt_down = tk.Frame(self.root, bg="#1e1e1e")
         frame_butt_down.pack(side="bottom")
 
-        tk.Button(frame_butt_up, text="-0.04",  command=lambda: self.move_marker(-0.04)).pack(pady=2, side='left')
-        tk.Button(frame_butt_up, text="-0.01",  command=lambda: self.move_marker(-0.01)).pack(pady=2, side='left')
-        tk.Button(frame_butt_up, text="-0.005", command=lambda: self.move_marker(-0.005)).pack(pady=2, side='left')
-        tk.Button(frame_butt_up, text="Play",   command=self.play_full).pack(pady=2, side='left')
-        tk.Button(frame_butt_up, text=" ■ ",    command=self.stop_playing).pack(pady=2, side='left')
-        tk.Button(frame_butt_up, text="+0.005", command=lambda: self.move_marker(0.005)).pack(pady=2, side='left')
-        tk.Button(frame_butt_up, text="+0.01",  command=lambda: self.move_marker(0.01)).pack(pady=2, side='left')
-        tk.Button(frame_butt_up, text="+0.04",  command=lambda: self.move_marker(0.04)).pack(pady=2, side='left')
+        tk.Button(frame_butt_up, text=" ▶ ", command=self.play_full).pack(pady=2, side='left')
+        tk.Button(frame_butt_up, text=" ■ ", command=self.stop_playing).pack(pady=2, side='left')
+
+        # Speed , percentage to skip from begining, 
+        # Keep play short and last buttons
 
         tk.Button(frame_sec_row, text="Play_last 1",   command=lambda: self.play_last(0)).pack(pady=2, side='left')
         tk.Button(frame_sec_row, text="Play x0.7",     command=lambda: self.play_full(0.7)).pack(pady=2, side='left')
@@ -317,13 +331,6 @@ class Repair_Audio:
 
     def brain(self):
         self.load_segment()
-
-    def load_segment_cut_long_segments(self):
-        # find segment, if last_saved == -1 , search from begining else from last_saved + 1, take in consideration list_idx-es if empty or not
-        # if i agree to cut, i specify how many similar dubs to exist
-        # i put the dubs idx in a list and loop through them to edit them all
-        # when list is empty i continue with the process until end
-        pass
 
     def load_segment(self):
         """This function dictates wich segments to edit, can be modified to suit the user's needs"""

@@ -4,3 +4,4 @@ openai-whisper
 whisperx
 pygame-ce
 pedalboard  # for speed-up/slowed audio
+pydub
