@@ -1,0 +1,81 @@
+# inceput inregistrea de undeva Video 2 ID ~200
+
+------------------------ Schimb -------------------------------------
+adi       -> alde  :: cum e corect gramatical
+amuș      -> acum
+iaslantă  -> aceasta
+iasta     -> asta
+ieslante  -> acestea
+iestea    -> acestea
+ieștia    -> aceștia
+ista      -> acesta
+îi        -> e  :: cand e cazul
+fibă      -> fie
+luia      -> lui
+jumate    -> jumătate
+orientire -> orientări
+pân       -> până
+pipăindea -> pipăite
+spuie     -> spună
+trebu     -> trebuie
+
+
+
+------------------------ Rusisme ------------------------------------
+clasna  => fain
+cletcă  => cușcă
+pâcarne => brutărie
+tak     => deci
+
+
+
+------------------------ Păstrez ------------------------------------
+acuma   <= acum
+aicea   <= aici
+atuncea <= atunci
+ăla     <= acela
+ăsta    <= acesta
+cică    <= 
+deie    <= dea
+iaca    <= iată
+iară    <= iar
+ieie    <= ia
+lu      <= ex: lu mama
+ș-a     <= și a
+ș-o     <= și o
+ședeai  <= stăteai
+șezute  <= șezut
+ți-a    <= îți a (ții a)
+vie     <= vină
+vroiam  <= voiam
+
+
+
+------------------------ Alte Limbi/Ciudate -------------------------
+amenities
+background
+broccoli
+cappuccino
+ok
+
+
+
+
+# TODO code based on this list to show in a frame if any associasions exist
+
+# TODO next run through videos - check grammar like ne-o -> ne-a,
+        check missing/wrong letters,
+        mark good or bad like: ready: 1/0 in the subs.json,
+        sa se agate -> sa s-agate :: short forms where needed
+
+# TODO sa fac acest .txt in ceva .json si sa fac in GUI_... ferestre sa
+        arate legaturi catre aceste cuvinte daca sunt.
+        :: in o fereastra de afisat pe toate dar in 3 culori diferite
+        care reprezinta past/present/future text. -> alfabetic
+
+# TODO chestia cu bun/rau segment de facut in GUI_...
+
+# TODO sistema de adaugat noi Pastrez/Schimb... din GUI...
+
+# TODO poate si un sistem care iti arata din cuvintele care le ai,
+        cate cuvinte asemenea exista in trecut

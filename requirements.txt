@@ -1,0 +1,6 @@
+torch
+yt-dlp
+openai-whisper
+whisperx
+moviepy
+pydub

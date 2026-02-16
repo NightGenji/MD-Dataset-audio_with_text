@@ -1,0 +1,5 @@
+v_environment
+.vscode
+*.webm
+my_data/*/clips
+my_data/*/*.mp3

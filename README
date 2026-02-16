@@ -1,0 +1,138 @@
+======================== Set Up =====================================
+sudo apt update
+sudo apt install python3-tk ffmpeg python3-venv python3-pip
+python3 -m venv v_environment
+source v_environment/bin/activate
+pip install -r requirements.txt
+
+export PS1="\u@\h:\W\$ "   // pentru scurtarea terminalului
+
+
+======================== Warning ====================================
+cuvintele de TIP: "word[word]" -> cum_se_aude[cum_se_subintelege]
+... - may mean word dublication like - eu am... am fost
+
+======================== General Changes ============================
+acuma -> acum
+oi[oftat] -> of
+
+======================== General Keeps ==============================
+atuncea
+nimica
+
+
+
+======================== Used Video and Notes =======================
+???
+In All videos there are many persons that acts like the host of the show
+The ID of the host will be specified here - All those persons under one specific ID -> 7
+???
+
+========= Video 1 - ONE ==========
+== Data : "https://www.youtube.com/watch?v=mUf8-mQjje4" - Noi toți vrem să fim bogați
+Problem ID: 297 - atuncea, 377 - too much of nothing, 391, 447, 
+Rusisme: 301 tac=>deci, cletcă=>cușcă, pâcarne=>brutărie
+
+========= Video 2 - TWO ==========
+== Data : "https://www.youtube.com/watch?v=PduZkR9j79E" - Voi știți cum e de trăit aici?
+-- USER 2 poate avea vorbirea neclara
+Problem ID: 6, 77, 87 with [], 98, 111, 131 - unfinished word, 156, 176/7/8, 244, 258, 271, 333, 
+Rusisme: 118 clasna=>fain, 
+
+========= Video 3 - THREE ========
+== Data : "https://www.youtube.com/watch?v=KSuqabzhxjg" - Sunt cei mai bravi - ei fac, dar tac.
+Cuvinte de revizuit: orișice, orișicine, îmbucură, minimum, să_se, ș-a(și a), ș-o(și o), mătincă, 
+de revizuit: 98, 110, 
+iaslantă -> aceasta : 111
+aceslante -> acestea : 122
+174 - spuie -> spună
+
+========= Video 4 - FOUR =========
+== Data : "https://www.youtube.com/watch?v=7YSXISrL2rs" - De ce ne schimbăm religia?
+Cuvinte de revizuit: olecuțică, 
+259 - spuie -> spună
+
+========= Video 5 - FIVE =========
+== Data : "https://www.youtube.com/watch?v=j8Z8vvKg5bA" - Dacă faci o afacere pentru oameni...
+-- utilizatorul 6 poate avea vorbirea neclara
+de revizuit: 1167 - întrâmpat, 
+
+========= Video 6 - SIX ==========
+== Data : "https://www.youtube.com/watch?v=epFAoR1RKo8" - Bătaia nu e ruptă din rai.
+Cuvinte de revizuit: 
+de revizuit:
+149 - spuie -> spună
+155 - puie  -> pună
+161 - dezgaiber -> debarasez
+
+========= Video 7 - SEVEN ========
+== Data : "https://www.youtube.com/watch?v=zGREIEtFMa0" - Wow,ceexperieninteresant,eusun
+Cuvinte de revizuit: stagierea, 
+de revizuit: 140, 199, 232, 
+167 - stăi -> stai
+
+========= Video 8 - EIGHT ========
+== Data : "https://www.youtube.com/watch?v=_hXoNrJ1CMk" - Corupția nu distruge atât material, cât moral
+Cuvinte de revizuit: 
+de revizuit: 
+
+========= Video 9 - NINE =========
+== Data : "https://www.youtube.com/watch?v=d_J17CMh6wM" - 
+Cuvinte de revizuit: 
+de revizuit: 
+
+========= Video 10 - TEN =========
+== Data : "https://www.youtube.com/watch?v=m8aXzMhFooc" - 
+Cuvinte de revizuit: 
+de revizuit: 
+
+========= Video 11 - ELEVEN ======
+== Data : "https://www.youtube.com/watch?v=ggaVblGO-ZI" - 
+Cuvinte de revizuit: 
+de revizuit: 
+
+========= Video 12 - TWELVE ======
+== Data : "https://www.youtube.com/watch?v=A5Ssdoq3fXk" - 
+Cuvinte de revizuit: 
+de revizuit: 
+
+========= Video 13 - THIRTEEN ====
+== Data : "https://www.youtube.com/watch?v=TOFItbQPJvc" - 
+Cuvinte de revizuit: 
+de revizuit: 
+
+
+======================== Problems ===================================
+0. Folosesc '14' sau trebuie 'paisprezece'? si restul numerelor.
+la video 8 incolo, la numere 0-9 si le schimb pe urma daca e nevoie
+
+1. Poate contine greseli de vorbire (eroare din factorul uman)
+--ex: daca cineva spune 's-a fost' dar corect e 'a fost', ce pastrez?
+(persupun ca varianta gramatical corecta)
+
+2. Cat de gramatic corect sa fie scris. Cum se aude sau cum se subintelege sau cum ar fi corect gramatical? ex: a meu ->(un fel corect) al meu ??, ne-o dat -> ???
+
+3. [silence]/[laugh] - should i add this kind of stuff?(zgomote, etc.)
+
+4. Ce fac cu cuvintele neterminate din mijlocul propozitiei? ex: încrun... încruntați ??
+(presupun ca nu le atrag atentia)
+
+5. Ce fac cu cuvintele din alte limbi?
+
+6. păi - ei spun 'a păi', ce sa fac?  (las doar păi presupun)
+    Medicul e bun sau cum se aude -> Medicu-i bun ?
+    câte-o cafea  ::  câte o cafea ??
+    245 Video 3
+
+7. Ce fac cu cuvintele dublicate ex: 'ce... ce fac'?
+
+8. Timp min/max pe segment?
+
+
+======================== Use Instructions ===========================
+-- TODO
+
+
+==== TODO
+-- play button customisation
+-- add a list for each video to list the bad ID's that may be with problems and maybe a small description of the problem
