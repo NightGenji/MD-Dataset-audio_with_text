@@ -4,3 +4,4 @@ openai-whisper
 whisperx
 moviepy
 pydub
+youtube-transcript-api

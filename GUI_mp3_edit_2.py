@@ -13,7 +13,6 @@ import tkinter as tk
 import tkinter.font as tkfont
 
 from queue import Queue
-from threading import Thread
 from tkinter import messagebox
 from pydub import AudioSegment
 from threading import Thread, Semaphore, Event
@@ -26,10 +25,11 @@ SEGMENTS  = "segments"
 ID_SEG    = "id"
 START_SEG = "start"
 END_SEG   = "end"
-TEXT_SEG  = "text"
+TEXT_SEG  = "text"          # How i hear it format TODO in future some modifications
 ID_USER   = "id_user"
-INFO_SEG  = "info"
+INFO_SEG  = "info"          # How good is it
 LIST_TIME = "list_time"
+# ALT_TEXT_SEG  = "alt_text"  # The correct grammatically more or less format
 
 SKIPPED = "SKIPPED-- "
 
@@ -37,13 +37,18 @@ SKIPPED = "SKIPPED-- "
 MARGIN = 1.5
 LENGTH_PER_05_SEC = 50  # pixels per 0.5 sec
 # from wich ID to start editing
-# WORKING_DIR_NUMBER = 3
-# START_EDITING = 319
-WORKING_DIR_NUMBER = 8
-START_EDITING = 8
+
+# WORKING_DIR_NUMBER = 8
+# START_EDITING = 281
+WORKING_DIR_NUMBER = 6
+START_EDITING = 115
+
+# Video 6 is full of Unclean speech
+# Done : 1, 2, 4, 5, 
 
 """first arg  -> takes a WORKING_DIR_NUMBER value"""
 """second arg -> takes a START_EDITING value"""
+# TODO frame where it shows problems that chatGPT pinpoints
 
 
 def get_the_data_in_subtitle_json(folder: str):
@@ -76,7 +81,8 @@ def rewrite_id_segments(data):
     for idx in range(len(data[SEGMENTS])):
         data[SEGMENTS][idx][ID_SEG] = idx
 
-
+# TODO maybe pinpoint and color the exact word i have from a list
+# TODO do not keep dublicate values at the same key
 class Changes_Words:
     FOREIGN  = "Foreign"
     KEEPING  = "Keeping"
@@ -105,21 +111,45 @@ class Changes_Words:
         key   = normalize_romanian(txt_key.casefold())
         value = normalize_romanian(txt_value.casefold())
 
-        self.file_data[category][key] = value
+        if key in self.file_data[category]:
+            if isinstance(self.file_data[category][key], list):
+                self.file_data[category][key].append(value)
+            else:
+                new_value = [self.file_data[category][key], value]
+                self.file_data[category][key] = new_value
+        else:
+            self.file_data[category][key] = value
         self.save_to_disk()
 
     def get_related_links(self, txt_curr: str):
         # based on the text find links in keys/values
         # return ordered alphabetically by key
         results = []
-        clean_text = re.sub(r'[^\w\s\-]', '', normalize_romanian(txt_curr.casefold()))
-        search_words = set(clean_text.split())
+        clean_text = re.sub(r'[^\w\s\-]', ' ', normalize_romanian(txt_curr.casefold()))
+        clean_text = re.sub(r'\s+', ' ', clean_text).strip()
+
+        def is_whole_word_match(word):
+            return bool(re.search(rf'\b{re.escape(word)}\b', clean_text))
 
         for category, data in self.file_data.items():
             for key, value in data.items():
-                if key in search_words:
+                key_match = is_whole_word_match(key)
+                if isinstance(value, list):
+                    val_match = False
+                    for v in value:
+                        val_check = v.split('::')[0].strip()
+                        val_match = (val_check and is_whole_word_match(val_check)) or val_match
+                else:
+                    val_check = value.split('::')[0].strip()
+                    val_match = val_check and is_whole_word_match(val_check)
+
+                if key_match:
+                    if val_match:
+                        results.append((category, key, value, 3))
+                        continue
                     results.append((category, key, value, 1))
-                if value in search_words:
+
+                if val_match:
                     results.append((category, key, value, 2))
         
         return sorted(results, key=lambda x: (x[0], x[1]))
@@ -217,6 +247,11 @@ class Repair_Audio:
         self.txt_changes: tk.Text
         self.change_type = None
 
+        # Buttons for Info view
+        self.button_0: tk.Button
+        self.button_1: tk.Button
+        self.button_2: tk.Button
+
         # Position Tracking
         self.id_curr_seg = start_id
         self.last_saved_id = -1
@@ -224,10 +259,11 @@ class Repair_Audio:
 
         # Info/Variables
         self.start_var = tk.DoubleVar()
-        self.end_var = tk.DoubleVar()
+        self.end_var   = tk.DoubleVar()
         self.info_text = tk.StringVar()
         self.txt_past: tk.Text  # used to modify TEXT for segments
         self.txt_curr: tk.Text
+        # self.txt_curr_alt: tk.Text
         self.txt_next: tk.Text
         self.last_focused_text = None
 
@@ -316,7 +352,7 @@ class Repair_Audio:
 
         tk.Button(frame_sec_row, text="Play_last 1",   command=lambda: self.play_last(0)).pack(pady=2, side='left')
         tk.Button(frame_sec_row, text="Play x0.7",     command=lambda: self.play_full(0.7)).pack(pady=2, side='left')
-        tk.Button(frame_sec_row, text="Play SHORT",    command=self.play_short).pack(pady=2, side='left')
+        tk.Button(frame_sec_row, text="Play x0.5",     command=lambda: self.play_full(0.5)).pack(pady=2, side='left')
         tk.Button(frame_sec_row, text="Play 50%",      command=lambda: self.play_percent(0.5)).pack(pady=2, side='left')
         tk.Button(frame_sec_row, text="Play x1.5",     command=lambda: self.play_full(1.5)).pack(pady=2, side='left')
         tk.Button(frame_sec_row, text="Play_last 1.1", command=lambda: self.play_last(0.1)).pack(pady=2, side='left')
@@ -349,30 +385,30 @@ class Repair_Audio:
         
         # Top section - 3 buttons
         left_top_frame = tk.Frame(left_frame, bg="#2a2a2a")
-        left_top_frame.pack(side='top', pady=4, padx=4)
+        left_top_frame.pack(side='top')
         self.changing_butt = tk.Button(left_top_frame, text=Changes_Words.CHANGING, command=self.changing_word_links, width=10)
-        self.changing_butt.pack(pady=3, side="left")
+        self.changing_butt.pack(side="left")
         self.keeping_butt = tk.Button(left_top_frame,  text=Changes_Words.KEEPING,  command=self.keeping_word_links,  width=10)
-        self.keeping_butt.pack(pady=3, side="left")
+        self.keeping_butt.pack(side="left")
         self.foreign_butt = tk.Button(left_top_frame,  text=Changes_Words.FOREIGN,  command=self.foreign_word_links,  width=10)
-        self.foreign_butt.pack(pady=3, side="left")
+        self.foreign_butt.pack(side="left")
 
         # Middle section - 2 text inputs and submit button
         left_mid_frame = tk.Frame(left_frame, bg="#2a2a2a")
-        left_mid_frame.pack(side='top', pady=5, padx=5)
+        left_mid_frame.pack(side='top', pady=2, padx=5)
         
         # Input 1 row
         input1_row = tk.Frame(left_mid_frame, bg="#2a2a2a")
         input1_row.pack(pady=2, fill='x', side="left")
         self.left_input1 = tk.Entry(input1_row, bg="#A3A0A0")
-        self.left_input1.pack(side='left', padx=5, fill='x')
+        self.left_input1.pack(side='left', padx=2, fill='x')
         self._add_placeholder(self.left_input1, "key:")
         
         # Input 2 row
         input2_row = tk.Frame(left_mid_frame, bg="#2a2a2a")
         input2_row.pack(pady=2, fill='x', side="left")
         self.left_input2 = tk.Entry(input2_row, bg="#A3A0A0")
-        self.left_input2.pack(side='left', padx=5, fill='x')
+        self.left_input2.pack(side='left', padx=2, fill='x')
         self._add_placeholder(self.left_input2, "value:")
 
         tk.Button(left_mid_frame, text="Submit", command=self.submit_word_links, fg="green", activeforeground="green").pack(pady=5, side="left")
@@ -425,6 +461,64 @@ class Repair_Audio:
         self.txt_next.config(state="disabled")
         self.txt_next.bind("<FocusIn>", self._on_text_focus)
 
+        # INFO_SEG Frame - Upper Left Corner--------------------------------------------------------------------------------
+        info_seg_frame = tk.Frame(left_frame, bg="#2a2a2a")
+        info_seg_frame.pack(side='bottom', pady=2, padx=2, fill='x')
+
+        butt_conf = [
+            "0 - Unfinished",
+            "1 - Perfect",
+            "2 - Second Sort"
+        ]
+            
+        self.button_0 = tk.Button(info_seg_frame, text=butt_conf[0])
+        self.button_0.grid(row=0, column=0, sticky="ew")
+        self.button_0.config(command=lambda: self.button_toggle(self.button_0))
+
+        self.button_1 = tk.Button(info_seg_frame, text=butt_conf[1])
+        self.button_1.grid(row=0, column=1, sticky="ew")
+        self.button_1.config(command=lambda: self.button_toggle(self.button_1))
+
+        self.button_2 = tk.Button(info_seg_frame, text=butt_conf[2])
+        self.button_2.grid(row=1, column=0, sticky="ew")
+        self.button_2.config(command=lambda: self.button_toggle(self.button_2))
+
+        # 6th button that spans both columns
+        clear_btn = tk.Button(
+            info_seg_frame,
+            text="Set INFO",
+            command=lambda: self.set_segment_info(),
+            bg="#3a3a3a",
+            fg="#65aa5d",
+            activebackground="#4a4a4a"
+        )
+        clear_btn.grid(row=2, column=0, columnspan=2, sticky="ew")
+
+        desc_text = tk.Text(
+            info_seg_frame,
+            height=4,
+            width=40,
+            wrap=tk.WORD,
+            bg="#1e1e1e",
+            fg="#d4a373",
+            relief=tk.FLAT,
+            state=tk.NORMAL
+        )
+        desc_text.grid(row=3, column=0, columnspan=2, sticky="ew")
+
+        # Insert description text
+        descriptions = ["-- Put '::' for comments in value",
+                        "0 - Unfinished",
+                        "1 - Finished",
+                        "2 - Not Perfect"]
+
+        desc_text.insert("1.0", "\n".join(descriptions))
+        desc_text.config(state=tk.DISABLED)
+
+        # Configure column weights for even distribution
+        info_seg_frame.grid_columnconfigure(0, weight=1)
+        info_seg_frame.grid_columnconfigure(1, weight=1)
+
     def _add_placeholder(self, entry: tk.Entry, placeholder: str):
         """Add placeholder text to an Entry widget"""
         entry.placeholder = placeholder
@@ -476,13 +570,14 @@ class Repair_Audio:
             break
 
         self.reset_button_sink()
+        self.reset_button_setup()
 
         # Variables
-        self.start_var.set(item[START_SEG] if self.last_end_time == -1 else self.last_end_time)
-        # self.start_var.set(item[START_SEG])
+        # self.start_var.set(item[START_SEG] if self.last_end_time == -1 else self.last_end_time)
+        self.start_var.set(item[START_SEG])
 
         self.end_var.set(item[END_SEG])
-        self.info_text.set(f'ID: {item[ID_SEG]} | User: {item[ID_USER]} | Text: {item[TEXT_SEG]}')
+        self.info_text.set(f'ID: {item[ID_SEG]}/{len(self.data[SEGMENTS])} | User: {item[ID_USER]} | INFO: {item[INFO_SEG]}')
         self.select_mark.set(-1)
 
         self.disp_start = max(self.start_var.get() - MARGIN, 0)
@@ -645,7 +740,7 @@ class Repair_Audio:
         
         self.play.release()
         self.draw_moving_mark()
-
+    # NOT USED ANYMORE
     def play_short(self):
         if not self.done.is_set():
             return
@@ -700,6 +795,7 @@ class Repair_Audio:
         self._save()
         item = self.data[SEGMENTS][self.id_curr_seg]
         self.last_end_time = item[END_SEG]
+        self.set_segment_info()
 
         self.id_curr_seg += 1
         self.brain()
@@ -770,7 +866,9 @@ class Repair_Audio:
         item = self.data[SEGMENTS][self.id_curr_seg]
         item[TEXT_SEG] = " ".join((self.txt_curr.get("1.0", "end-1c")).split())
 
-        self.info_text.set(f'ID: {item[ID_SEG]} | User: {item[ID_USER]} | Text: {item[TEXT_SEG]}')
+        self.update_word_links()
+
+        self.info_text.set(f'ID: {item[ID_SEG]}/{len(self.data[SEGMENTS])} | User: {item[ID_USER]} | INFO: {item[INFO_SEG]}')
 
     def swich_text_access(self):
         if self.txt_curr['state'] == 'disabled':
@@ -846,6 +944,7 @@ class Repair_Audio:
 
         self.root.after(40, self.draw_moving_mark)
 
+    # For the frame left from Text editing frame
     def update_word_links(self):
         # Reload the possible linked words
         self.txt_changes.config(state="normal")
@@ -859,21 +958,29 @@ class Repair_Audio:
         else:
             # Display results grouped by category
             current_category = None
+            arrows = {Changes_Words.FOREIGN : "==",
+                      Changes_Words.CHANGING: "=>",
+                      Changes_Words.KEEPING : "<="}
             for category, key, value, match_type in results:
                 if category != current_category:
                     if current_category is not None:
                         self.txt_changes.insert(tk.END, "\n")
                     self.txt_changes.insert(tk.END, f"=== {category} ===\n", "category")
                     current_category = category
+                    actual_str = arrows[category]
                 
                 if match_type == 1:
-                    self.txt_changes.insert(tk.END, f"{key}",     "word_match")
-                    self.txt_changes.insert(tk.END, f" → ",       "arrow")
-                    self.txt_changes.insert(tk.END, f"{value}\n", "basic")
-                else:
-                    self.txt_changes.insert(tk.END, f"{key}",     "basic")
-                    self.txt_changes.insert(tk.END, f" → ",       "arrow")
-                    self.txt_changes.insert(tk.END, f"{value}\n", "word_match")
+                    self.txt_changes.insert(tk.END, f"{key}",         "word_match")
+                    self.txt_changes.insert(tk.END, f" {actual_str} ","arrow")
+                    self.txt_changes.insert(tk.END, f"{value}\n",     "basic")
+                elif match_type == 2:
+                    self.txt_changes.insert(tk.END, f"{key}",         "basic")
+                    self.txt_changes.insert(tk.END, f" {actual_str} ","arrow")
+                    self.txt_changes.insert(tk.END, f"{value}\n",     "word_match")
+                elif match_type == 3:
+                    self.txt_changes.insert(tk.END, f"{key}",         "word_match")
+                    self.txt_changes.insert(tk.END, f" {actual_str} ","arrow")
+                    self.txt_changes.insert(tk.END, f"{value}\n",     "word_match")
         
         # Configure tags for better visibility
         self.txt_changes.tag_config("category",   foreground="#FFB347", font=("Consolas", 10, "bold"))
@@ -915,32 +1022,68 @@ class Repair_Audio:
         self.update_word_links()
 
     def changing_word_links(self):
-        self.changing_butt.config(relief=tk.SUNKEN)
-        self.keeping_butt.config(relief=tk.RAISED)
-        self.foreign_butt.config(relief=tk.RAISED)
+        self.changing_butt.config(relief=tk.SUNKEN, bg="#7C4B4B", activebackground="#9B5D5D")
+        self.keeping_butt.config(relief=tk.RAISED,  bg="#DBDBDB", activebackground="#ECECEC")
+        self.foreign_butt.config(relief=tk.RAISED,  bg="#DBDBDB", activebackground="#ECECEC")
 
         self.change_type = Changes_Words.CHANGING
 
     def keeping_word_links(self):
-        self.changing_butt.config(relief=tk.RAISED)
-        self.keeping_butt.config(relief=tk.SUNKEN)
-        self.foreign_butt.config(relief=tk.RAISED)
+        self.changing_butt.config(relief=tk.RAISED, bg="#DBDBDB", activebackground="#ECECEC")
+        self.keeping_butt.config(relief=tk.SUNKEN,  bg="#7C4B4B", activebackground="#9B5D5D")
+        self.foreign_butt.config(relief=tk.RAISED,  bg="#DBDBDB", activebackground="#ECECEC")
 
         self.change_type = Changes_Words.KEEPING
 
     def foreign_word_links(self):
-        self.changing_butt.config(relief=tk.RAISED)
-        self.keeping_butt.config(relief=tk.RAISED)
-        self.foreign_butt.config(relief=tk.SUNKEN)
+        self.changing_butt.config(relief=tk.RAISED, bg="#DBDBDB", activebackground="#ECECEC")
+        self.keeping_butt.config(relief=tk.RAISED,  bg="#DBDBDB", activebackground="#ECECEC")
+        self.foreign_butt.config(relief=tk.SUNKEN,  bg="#7C4B4B", activebackground="#9B5D5D")
 
         self.change_type = Changes_Words.FOREIGN
 
     def reset_button_sink(self):
-        self.changing_butt.config(relief=tk.RAISED)
-        self.keeping_butt.config(relief=tk.RAISED)
-        self.foreign_butt.config(relief=tk.RAISED)
+        self.changing_butt.config(relief=tk.RAISED, bg="#DBDBDB", activebackground="#ECECEC")
+        self.keeping_butt.config(relief=tk.RAISED,  bg="#DBDBDB", activebackground="#ECECEC")
+        self.foreign_butt.config(relief=tk.RAISED,  bg="#DBDBDB", activebackground="#ECECEC")
 
         self.change_type = None
+
+    # For view of the segment information status
+    def set_segment_info(self):
+        item = self.data[SEGMENTS][self.id_curr_seg]
+        item[INFO_SEG] = ""
+
+        buttons = {self.button_0 : "0",
+                   self.button_1 : "1",
+                   self.button_2 : "2"}
+        for butt, value in buttons.items():
+            if butt.cget('relief') == tk.SUNKEN:
+                item[INFO_SEG] += value
+            
+        if item[INFO_SEG] == "":
+            item[INFO_SEG] += "0"
+        self.info_text.set(f'ID: {item[ID_SEG]}/{len(self.data[SEGMENTS])} | User: {item[ID_USER]} | INFO: {item[INFO_SEG]}')
+
+    def reset_button_setup(self):
+        data: str = self.data[SEGMENTS][self.id_curr_seg][INFO_SEG]
+        others = {
+            self.button_0 : '0',
+            self.button_1 : '1',
+            self.button_2 : '2'
+        }
+        for butt in others:
+            if others[butt] in data:
+                butt.config(relief=tk.SUNKEN, bg="#7C4B4B", activebackground="#9B5D5D")
+            else:
+                butt.config(relief=tk.RAISED, bg="#DBDBDB", activebackground="#ECECEC")
+
+    def button_toggle(self, button: tk.Button):
+        self.button_0.config(relief=tk.RAISED, bg="#DBDBDB", activebackground="#ECECEC")
+        self.button_1.config(relief=tk.RAISED, bg="#DBDBDB", activebackground="#ECECEC")
+        self.button_2.config(relief=tk.RAISED, bg="#DBDBDB", activebackground="#ECECEC")
+
+        button.config(relief=tk.SUNKEN, bg="#7C4B4B", activebackground="#9B5D5D")
 
 
 def main():
@@ -973,6 +1116,8 @@ def main():
     for segment in data[SEGMENTS]:
         if INFO_SEG not in segment:
             segment[INFO_SEG] = "0"
+        # if ALT_TEXT_SEG not in segment:
+        #     segment[ALT_TEXT_SEG] = segment[TEXT_SEG]
 
     root = tk.Tk()
     Repair_Audio(root, data, audio, name, start_id)

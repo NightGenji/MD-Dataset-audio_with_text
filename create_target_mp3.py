@@ -15,7 +15,7 @@ from moviepy.video.io.VideoFileClip import VideoFileClip
 from moviepy.video.compositing.CompositeVideoClip import concatenate_videoclips
 
 import whisperx
-from pydub import AudioSegment
+from youtube_transcript_api import YouTubeTranscriptApi
 
 MP3_CLIPS = "clips/"
 
@@ -31,9 +31,9 @@ TEXT_SEG  = "text"
 ID_USER   = "id_user"
 LIST_TIME = "list_time"
 
-WORKING_DIR_NUMBER = 8
+WORKING_DIR_NUMBER = 11
 DIR_NAME_LEN = 30
-URL_NOW = ["https://www.youtube.com/watch?v=_hXoNrJ1CMk"]
+URL_NOW = ["..."]
 
 def get_the_data_in_subtitle_json(folder: str):
     with open(MY_DATA + folder + '/' + SUBTITLES, "r", encoding="utf-8") as file:
@@ -501,6 +501,31 @@ class Whisper_use:
         write_the_data_in_subtitle_json(folder, data)
 
 
+def get_youtube_subs(folder, full_url):
+    output_filename = "subs_youtube.json"
+    api = YouTubeTranscriptApi()
+
+    video_id = full_url.split("v=")[1].split("&")[0]
+        
+    transcript_list = api.list(video_id)
+    transcript_obj = transcript_list.find_manually_created_transcript(['ro'])
+    transcript_data = transcript_obj.fetch()
+
+    dataset = {"segments": []}
+
+    for index, entry in enumerate(transcript_data):
+        segment = {
+            ID_SEG:    index,
+            START_SEG: round(entry.start, 3),
+            END_SEG:   round(entry.start + entry.duration, 3),
+            TEXT_SEG:  entry.text
+        }
+        dataset["segments"].append(segment)
+
+    with open(MY_DATA + folder + '/' + output_filename, "w", encoding="utf-8") as f:
+        json.dump(dataset, f, ensure_ascii=False, indent=2)
+
+
 if __name__ == "__main__":
     # STEP 1: Download mp3 from URL 
     # download_audio()
@@ -512,6 +537,8 @@ if __name__ == "__main__":
     
     # STEP 1.5: make subtitles
     # process_data_from_whisper(get_subtitles(name), name)
+    # ---------- OR ----------
+    # get_youtube_subs(name, URL_NOW[0])
 
     # STEP 2: HELPER in assigning who said what segmets of text
     # Assign_Voices.choose_users(name)
@@ -530,7 +557,7 @@ if __name__ == "__main__":
 
     # STEP Finally: HELPER in checking if users are assigned good
     # --First it downloads the video(it may take a while)
-    Assign_Voices.check_users_ifGood(name)
+    # Assign_Voices.check_users_ifGood(name)
 
     # OPTIONALLY and TODO: Create register.tsv
     # create_Register(name)
