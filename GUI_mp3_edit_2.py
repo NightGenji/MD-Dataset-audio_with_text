@@ -25,11 +25,11 @@ SEGMENTS  = "segments"
 ID_SEG    = "id"
 START_SEG = "start"
 END_SEG   = "end"
-TEXT_SEG  = "text"          # How i hear it format TODO in future some modifications
+TEXT_SEG  = "text"          # The correct grammatically more or less format
 ID_USER   = "id_user"
 INFO_SEG  = "info"          # How good is it
 LIST_TIME = "list_time"
-# ALT_TEXT_SEG  = "alt_text"  # The correct grammatically more or less format
+# ALT_TEXT_SEG  = "alt_text"  # How i hear it format TODO in future some modifications
 
 SKIPPED = "SKIPPED-- "
 
@@ -40,11 +40,10 @@ LENGTH_PER_05_SEC = 50  # pixels per 0.5 sec
 
 # WORKING_DIR_NUMBER = 8
 # START_EDITING = 281
-WORKING_DIR_NUMBER = 6
-START_EDITING = 115
+WORKING_DIR_NUMBER = 7
+START_EDITING = 0
 
-# Video 6 is full of Unclean speech
-# Done : 1, 2, 4, 5, 
+# Done : 1, 2, 3, 4, 5, 6, 
 
 """first arg  -> takes a WORKING_DIR_NUMBER value"""
 """second arg -> takes a START_EDITING value"""
@@ -573,8 +572,8 @@ class Repair_Audio:
         self.reset_button_setup()
 
         # Variables
-        # self.start_var.set(item[START_SEG] if self.last_end_time == -1 else self.last_end_time)
-        self.start_var.set(item[START_SEG])
+        self.start_var.set(item[START_SEG] if self.last_end_time == -1 else self.last_end_time)
+        # self.start_var.set(item[START_SEG])
 
         self.end_var.set(item[END_SEG])
         self.info_text.set(f'ID: {item[ID_SEG]}/{len(self.data[SEGMENTS])} | User: {item[ID_USER]} | INFO: {item[INFO_SEG]}')
