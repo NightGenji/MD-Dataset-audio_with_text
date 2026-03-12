@@ -38,12 +38,11 @@ MARGIN = 1.5
 LENGTH_PER_05_SEC = 50  # pixels per 0.5 sec
 # from wich ID to start editing
 
-# WORKING_DIR_NUMBER = 8
+WORKING_DIR_NUMBER = 8
 # START_EDITING = 281
-WORKING_DIR_NUMBER = 7
-START_EDITING = 0
+START_EDITING = 261
 
-# Done : 1, 2, 3, 4, 5, 6, 
+# Done : 1, 2, 3, 4, 5, 6, 7, 
 
 """first arg  -> takes a WORKING_DIR_NUMBER value"""
 """second arg -> takes a START_EDITING value"""
