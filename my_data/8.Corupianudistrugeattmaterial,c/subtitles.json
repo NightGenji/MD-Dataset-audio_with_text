@@ -2098,23 +2098,23 @@
     },
     {
       "id": 262,
-      "start": 1801.649,
+      "start": 1801.717,
       "end": 1808.222,
       "text": "Sau tu ești în cercul celor de comitet părintesc care te lingușește.",
       "id_user": 3,
-      "info": "02"
+      "info": "1"
     },
     {
       "id": 263,
       "start": 1808.222,
       "end": 1817.231,
-      "text": "În rest, cei care dau bani, așa, la grămadă, ca turma, nu îți garantează nimic. Deci sunteți tratați ca o turmă de oi.",
+      "text": "În rest, cei care dau bani, așa, la grămadă, ca turma, nu-ți garantează nimic. Deci sunteți tratați ca o turmă de oi.",
       "id_user": 3,
       "info": "1"
     },
     {
       "id": 264,
-      "start": 1817.687,
+      "start": 1817.635,
       "end": 1819.913,
       "text": "Voi faceți ce vi se spune.",
       "id_user": 3,
@@ -2124,84 +2124,116 @@
       "id": 265,
       "start": 1819.913,
       "end": 1825.872,
-      "text": "Și vă zic de ce am început să nu mai accept să dau bani.",
-      "id_user": 3,
-      "info": "02"
-    },
-    {
-      "id": 266,
-      "start": 1826.07,
-      "end": 1834.52,
-      "text": "Din considerentul că, deci la ultima grădiniță, soțul a venit să ia copilul și copilul era pălmuit pe obraz.",
+      "text": "Și vă zic de ce am început să, să nu mai accept să dau bani.",
       "id_user": 3,
       "info": "1"
     },
     {
+      "id": 266,
+      "start": 1826.18,
+      "end": 1834.52,
+      "text": "Din considerentul că, deci la ultima grădiniță, soțul a venit să ia copilul și copilul era pălmuit pe obraz.",
+      "id_user": 3,
+      "info": "0"
+    },
+    {
       "id": 267,
-      "start": 1834.908,
-      "end": 1839.622,
-      "text": "Soțul a întrebat de ce, educătoarea și-a cerut scuze, uite, nu o să se întâmple.",
+      "start": 1834.906,
+      "end": 1836.911,
+      "text": "Soțul a întrebat de ce.",
       "id_user": 3,
       "info": "1"
     },
     {
       "id": 268,
-      "start": 1839.622,
-      "end": 1843.912,
-      "text": "Și atuncea mi-am dat seama că pe banii mei copilul meu și e maltratat.",
+      "start": 1836.911,
+      "end": 1839.622,
+      "text": "Educătoarea și-a cerut scuze, uite, n-o să se întâmple.",
       "id_user": 3,
       "info": "1"
     },
     {
       "id": 269,
-      "start": 1843.912,
-      "end": 1854.841,
-      "text": "Eu pot să zic că în prima instituție de educație timpurie, unde au frecventat copiii mei și ulterior am lucrat și eu,",
-      "id_user": 1,
+      "start": 1839.622,
+      "end": 1843.912,
+      "text": "Și atunci eu mi-am dat seama că pe banii mei copilul meu și-i maltratat.",
+      "id_user": 3,
       "info": "1"
     },
     {
       "id": 270,
-      "start": 1854.841,
-      "end": 1862.941,
-      "text": "am avut parte de un manager, cum rar întâlnești în zilele noastre, care să se opună vehement colectării ilegale de bani.",
+      "start": 1844.051,
+      "end": 1854.841,
+      "text": "Eu pot să zic că în prima instituție de educație timpurie, unde au frecventat copiii mei și ulterior am lucrat și eu.",
       "id_user": 1,
       "info": "1"
     },
     {
       "id": 271,
-      "start": 1862.941,
-      "end": 1881.817,
-      "text": "Doar că, iarăși, era una împotriva la o echipă mare de educatori, de lucrători auxiliari, care erau perfect, se simțeau foarte bine cu această practică a colectării de bani.",
+      "start": 1854.841,
+      "end": 1862.941,
+      "text": "Am avut parte de un manager, cum rar întâlnești în zilele noastre, care să se opună vehement colectării ilegale de bani.",
       "id_user": 1,
       "info": "1"
     },
     {
       "id": 272,
-      "start": 1881.817,
-      "end": 1893.812,
-      "text": "Anul acesta eu nu am contribuit cu bani, din simplul motiv că tot, erau două fete în clasă care cereau așa, nu că sumă mare.",
-      "id_user": 4,
-      "info": "02"
+      "start": 1862.941,
+      "end": 1876.292,
+      "text": "Doar că, iarăși, era una împotriva la o echipă mare de educatori, de lucrători auxiliari, care erau perfect.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 273,
-      "start": 1893.812,
-      "end": 1906.571,
-      "text": "Dar la moment eu nu aveam banii ceia și ele voiau așa, le-am propus că ori facem un cadou așa simbolic, că e totuși ziua profesorului, ori nu mai facem nimic și nu ne mai rușinăm toată școala.",
-      "id_user": 4,
-      "info": "02"
+      "start": 1877.367,
+      "end": 1881.817,
+      "text": "Se simțeau foarte bine cu această practică a colectării de bani.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 274,
-      "start": 1907.089,
-      "end": 1916.52,
-      "text": "Tot așa a rămas, au făcut niște cadouri, mi-a fost rușine, s-au împărțit câte doi elevi la fiecare profesor și mie mi-a fost rușine să mă duc în fața profesorului.",
+      "start": 1881.817,
+      "end": 1886.331,
+      "text": "Anul acesta eu nu am contribuit cu cu bani.",
       "id_user": 4,
       "info": "1"
     },
     {
       "id": 275,
+      "start": 1886.331,
+      "end": 1893.812,
+      "text": "Din simplul motiv că tot, erau două fete în clasă care cereau așa, nu că sumă mare.",
+      "id_user": 4,
+      "info": "1"
+    },
+    {
+      "id": 276,
+      "start": 1893.812,
+      "end": 1906.571,
+      "text": "Dar la moment eu nu aveam banii ceia și ele voiau așa, le-am propus că ori facem un cadou așa simbolic, că e totuși ziua profesorului, ori nu mai facem nimic și nu ne mai rușinăm toată școala.",
+      "id_user": 4,
+      "info": "0"
+    },
+    {
+      "id": 277,
+      "start": 1907.037,
+      "end": 1910.896,
+      "text": "Tot așa a rămas, a făcut niște cadouri, mi-a fost rușine.",
+      "id_user": 4,
+      "info": "1"
+    },
+    {
+      "id": 278,
+      "start": 1910.896,
+      "end": 1916.52,
+      "text": "S-au împărțit câte doi elevi la fiecare profesor și mie mi-a fost rușine să mă duc în fața profesorului.",
+      "id_user": 4,
+      "info": "1"
+    },
+    {
+      "id": 279,
       "start": 1916.52,
       "end": 1917.267,
       "text": "De ce?",
@@ -2209,31 +2241,39 @@
       "info": "1"
     },
     {
-      "id": 276,
-      "start": 1917.864,
+      "id": 280,
+      "start": 1917.914,
       "end": 1926.262,
-      "text": "Pentru că nu era un cadou specific pentru profesor, dar profesorul a refuzat cadoul.",
+      "text": "Pentru că nu, nu era un cadou specific pentru profesor, dar profesorul a refuzat cadoul.",
       "id_user": 4,
-      "info": "02"
+      "info": "2"
     },
     {
-      "id": 277,
+      "id": 281,
       "start": 1926.262,
       "end": 1936.971,
-      "text": "Am nimerit la profesorul care nu primește cadouri, care nu dorește, el a spus că asta e datoria mea de profesor și tot ce aveți în pungă, să folosiți voi.",
-      "id_user": 4,
-      "info": "02"
-    },
-    {
-      "id": 278,
-      "start": 1936.971,
-      "end": 1948.561,
-      "text": "Eu l-am văzut pe dumnealui că e profesor aparte, se deosebește față de alți profesori, dar nu m-am așteptat să refuze cadoul, chiar nu m-am așteptat.",
+      "text": "Am nimerit la profesorul care nu, nu primește cadouri, care nu, nu dorește, el a, el a spus că asta-i datoria mea de profesor și tot ce aveți în pungă, să folosiți voi.",
       "id_user": 4,
       "info": "1"
     },
     {
-      "id": 279,
+      "id": 282,
+      "start": 1936.971,
+      "end": 1943.815,
+      "text": "Eu l-am văzut pe dumnealui că e profesor aparte, se deosebește față de alți profesori.",
+      "id_user": 4,
+      "info": "1"
+    },
+    {
+      "id": 283,
+      "start": 1944.481,
+      "end": 1948.561,
+      "text": "Dar nu m-am așteptat să refuze cadoul, chiar nu m-am așteptat.",
+      "id_user": 4,
+      "info": "1"
+    },
+    {
+      "id": 284,
       "start": 1948.561,
       "end": 1949.993,
       "text": "Mi-a plăcut foarte mult.",
@@ -2241,31 +2281,31 @@
       "info": "1"
     },
     {
-      "id": 280,
-      "start": 1950.181,
+      "id": 285,
+      "start": 1950.931,
       "end": 1958.801,
-      "text": "M-am simțit așa un pic, că am crezut că e vina mea, că poate eu nu sunt o elevă cumsecade și a refuzat cadoul, dar nu.",
+      "text": "M-am simțit așa un pic, că am crezut că-i vina mea, că poate eu nu, nu sunt o elevă cumsecade și a refuzat cadoul, dar nu.",
       "id_user": 4,
-      "info": "02"
+      "info": "1"
     },
     {
-      "id": 281,
-      "start": 1958.807,
+      "id": 286,
+      "start": 1958.801,
       "end": 1960.793,
       "text": "Avut o situație în general foarte frumoasă.",
       "id_user": 5,
-      "info": "02"
+      "info": "2"
     },
     {
-      "id": 282,
-      "start": 1960.851,
+      "id": 287,
+      "start": 1960.881,
       "end": 1966.132,
       "text": "Am pescuit timp de vreo două săptămâni unul din părinții unui copil.",
       "id_user": 5,
       "info": "1"
     },
     {
-      "id": 283,
+      "id": 288,
       "start": 1966.132,
       "end": 1970.522,
       "text": "Știam că copilul ăsta are părinții peste hotare și unul din ei uneori mai vine.",
@@ -2273,23 +2313,23 @@
       "info": "1"
     },
     {
-      "id": 284,
+      "id": 289,
       "start": 1970.522,
       "end": 1973.093,
       "text": "L-am pescuit eu foarte mult pe unul din părinți până a apărut tata.",
       "id_user": 5,
-      "info": "02"
+      "info": "2"
     },
     {
-      "id": 285,
-      "start": 1978.265,
+      "id": 290,
+      "start": 1978.236,
       "end": 1981.012,
       "text": "Deci până la urmă, discuția a fost în felul următor.",
       "id_user": 5,
       "info": "1"
     },
     {
-      "id": 286,
+      "id": 291,
       "start": 1981.012,
       "end": 1987.101,
       "text": "Uitați media copilului, uitați reușita lui, uitați sizările de la șase profesori.",
@@ -2297,7 +2337,7 @@
       "info": "1"
     },
     {
-      "id": 287,
+      "id": 292,
       "start": 1987.101,
       "end": 1997.471,
       "text": "Vedeți dumneavoastră, haideți să discutăm, să încercăm să negociem un anumit tip de comportament și eu și dumneavoastră, ca să putem să-l orientăm, să-i oferim copilului un vector.",
@@ -2305,63 +2345,63 @@
       "info": "1"
     },
     {
-      "id": 288,
+      "id": 293,
       "start": 1997.471,
-      "end": 1999.353,
+      "end": 1999.393,
       "text": "El o să meargă înainte, zice tata.",
       "id_user": 5,
       "info": "1"
     },
     {
-      "id": 289,
-      "start": 1999.353,
+      "id": 294,
+      "start": 1999.393,
       "end": 2001.056,
       "text": "Zic, dați să vedem unde mergem înainte.",
       "id_user": 5,
-      "info": "02"
+      "info": "2"
     },
     {
-      "id": 290,
-      "start": 2002.711,
+      "id": 295,
+      "start": 2002.662,
       "end": 2008.092,
       "text": "Dați să vedem ce fac eu, ce faceți dumneavoastră, ca împreună să putem să ridicăm copilul.",
+      "id_user": 5,
+      "info": "2"
+    },
+    {
+      "id": 296,
+      "start": 2010.252,
+      "end": 2012.342,
+      "text": "Și tata a zis o frază fenomenală.",
       "id_user": 5,
       "info": "1"
     },
     {
-      "id": 291,
-      "start": 2010.196,
-      "end": 2012.342,
-      "text": "Și tata a zis o frază fenomenală.",
-      "id_user": 5,
-      "info": "0"
-    },
-    {
-      "id": 292,
-      "start": 2012.648,
+      "id": 297,
+      "start": 2012.805,
       "end": 2014.743,
-      "text": "Zice, eu știu ce fac.",
+      "text": "Zice, eu, eu știu ce fac.",
       "id_user": 5,
-      "info": "02"
+      "info": "1"
     },
     {
-      "id": 293,
+      "id": 298,
       "start": 2014.743,
       "end": 2019.712,
       "text": "Noi acuma cu dumneavoastră ieșim, ne ducem, dumneavoastră vă cumpărați, ori vă alegeți ori ce cadou vreți.",
       "id_user": 5,
-      "info": "02"
+      "info": "1"
     },
     {
-      "id": 294,
-      "start": 2021.565,
+      "id": 299,
+      "start": 2021.731,
       "end": 2022.793,
       "text": "Dar e tentant.",
       "id_user": 5,
       "info": "1"
     },
     {
-      "id": 295,
+      "id": 300,
       "start": 2022.793,
       "end": 2030.272,
       "text": "Eu locuiam cu copil mic atunci, la un cămin în care locuiau foarte mulți profesori. Apropo, am stat la cămin. Șapte ani am stat într-un cămin.",
@@ -2369,15 +2409,15 @@
       "info": "1"
     },
     {
-      "id": 296,
-      "start": 2031.53,
+      "id": 301,
+      "start": 2031.51,
       "end": 2043.081,
       "text": "Și pe urmă, peste ani, cineva din părinții copiilor, pe care i-am învățat atunci în perioada aceea, zicea, Mămăligă, chiar erai tare proastă.",
       "id_user": 5,
       "info": "1"
     },
     {
-      "id": 297,
+      "id": 302,
       "start": 2043.081,
       "end": 2048.492,
       "text": "Atâta lume avea serios intenția să te ajute și zice treceai pe lângă.",
@@ -2385,7 +2425,7 @@
       "info": "1"
     },
     {
-      "id": 298,
+      "id": 303,
       "start": 2048.492,
       "end": 2055.052,
       "text": "Dar știți că prostia tinereții m-a salvat, iată, de situația în care astăzi aș fi avut reproșuri.",
@@ -2393,15 +2433,15 @@
       "info": "1"
     },
     {
-      "id": 299,
-      "start": 2056.549,
+      "id": 304,
+      "start": 2056.697,
       "end": 2062.735,
       "text": "Cunoașteți cazuri de corupție să fi fost, să zicem, raportate și chiar să fi fost soluționate?",
       "id_user": 7,
       "info": "1"
     },
     {
-      "id": 300,
+      "id": 305,
       "start": 2062.735,
       "end": 2065.603,
       "text": "Adică să fi fost cineva tras la răspundere pentru ele legal?",
@@ -2409,7 +2449,7 @@
       "info": "1"
     },
     {
-      "id": 301,
+      "id": 306,
       "start": 2065.603,
       "end": 2074.881,
       "text": "Eu personal nu cunosc astfel de cazuri în care cineva în urma unui act de corupție a fost pedepsit într-un fel sau altul.",
@@ -2417,55 +2457,55 @@
       "info": "1"
     },
     {
-      "id": 302,
+      "id": 307,
       "start": 2074.881,
       "end": 2088.601,
-      "text": "La finele anului, când n-am dat să ies din colegiu, doamna de o profesie din domeniu nu a vrut să mă admită la examen, din simplul motiv că nu aveam un conspect din toată mapa.",
+      "text": "La finele anului, când n-am dat să ies din colegiu, doamna de o, de o profesie din domeniu nu a vrut să mă admită la examen, din simplul motiv că nu aveam un conspect din toată mapa.",
       "id_user": 4,
-      "info": "02"
+      "info": "1"
     },
     {
-      "id": 303,
-      "start": 2088.601,
+      "id": 308,
+      "start": 2088.786,
       "end": 2091.952,
       "text": "Și în ziua respectivă era examenul și nu m-a admis.",
       "id_user": 4,
       "info": "1"
     },
     {
-      "id": 304,
-      "start": 2092.169,
+      "id": 309,
+      "start": 2092.239,
       "end": 2095.342,
       "text": "Și mama mi-a spus că poate încerci să-i dai vreo două sute de lei.",
       "id_user": 4,
       "info": "1"
     },
     {
-      "id": 305,
-      "start": 2095.507,
+      "id": 310,
+      "start": 2095.342,
       "end": 2096.803,
       "text": "Zic eu nu dau nimic.",
       "id_user": 4,
       "info": "1"
     },
     {
-      "id": 306,
-      "start": 2098.01,
+      "id": 311,
+      "start": 2097.121,
       "end": 2104.372,
-      "text": "A doua zi eu mi-am luat actele și am spus că eu oricum ies din colegiu, nu cred că mai este nevoie să mai scriu examenul.",
+      "text": "Și nu am dat nimic, a doua zi eu mi-am luat actele și am spus că eu oricum ies din colegiu, nu cred că mai este nevoie să mai scriu examenul.",
       "id_user": 4,
-      "info": "1"
+      "info": "0"
     },
     {
-      "id": 307,
-      "start": 2104.609,
+      "id": 312,
+      "start": 2104.827,
       "end": 2109.492,
       "text": "Tu cum crezi de unde pornesc actele astea de corupție în instituțiile de învățământ?",
       "id_user": 7,
       "info": "1"
     },
     {
-      "id": 308,
+      "id": 313,
       "start": 2109.492,
       "end": 2112.582,
       "text": "Eu întotdeauna m-am întrebat de chestia asta.",
@@ -2473,1948 +2513,1692 @@
       "info": "1"
     },
     {
-      "id": 309,
-      "start": 2112.9399999999996,
-      "end": 2120.02,
+      "id": 314,
+      "start": 2112.8,
+      "end": 2120.321,
       "text": "Eu cred că din lipsa, din salariul minim care l-au profesorii, numai și de la astea se pornește, probabil.",
       "id_user": 4,
-      "info": "0"
-    },
-    {
-      "id": 310,
-      "start": 2120.3199999999997,
-      "end": 2123.0,
-      "text": " Dar de când există corupție, să zicem, în Moldova?",
-      "id_user": 7,
-      "info": "0"
-    },
-    {
-      "id": 311,
-      "start": 2123.2,
-      "end": 2126.2599999999998,
-      "text": " Credeți că are legătură cu Uniunea Sovietică sau cu anii 90?",
-      "id_user": 7,
-      "info": "0"
-    },
-    {
-      "id": 312,
-      "start": 2126.66,
-      "end": 2130.2799999999997,
-      "text": " Sau de unde, în general, credeți că au pornit aceste practici?",
-      "id_user": 7,
-      "info": "0"
-    },
-    {
-      "id": 313,
-      "start": 2130.28,
-      "end": 2136.5600000000004,
-      "text": " Eu cred că totuși această practică se trace într-un fel sau altul din trecutul nostru istoric,",
-      "id_user": 1,
-      "info": "0"
-    },
-    {
-      "id": 314,
-      "start": 2136.6800000000003,
-      "end": 2140.5800000000004,
-      "text": " anume faptul că noi am fost partea Uniunii Sovietice.",
-      "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 315,
-      "start": 2141.98,
-      "end": 2149.42,
-      "text": " Eu nu am trăit în acea perioadă, însă eu mereu aud istorii a oamenilor care s-au născut,",
-      "id_user": 1,
-      "info": "0"
+      "start": 2120.321,
+      "end": 2123.193,
+      "text": "Dar de când există corupție, să zicem, în Moldova?",
+      "id_user": 7,
+      "info": "1"
     },
     {
       "id": 316,
-      "start": 2149.42,
-      "end": 2152.56,
-      "text": " au trăit, au învățat, au activat în acea perioadă.",
-      "id_user": 1,
-      "info": "0"
+      "start": 2123.193,
+      "end": 2126.553,
+      "text": "Credeți că are legătură cu Uniunea Sovietică sau cu anii 90?",
+      "id_user": 7,
+      "info": "1"
     },
     {
       "id": 317,
-      "start": 2152.96,
-      "end": 2160.04,
-      "text": " Mai în glumă, mai în serios, cineva din prietenii părinților mei avea el o vorbă că",
-      "id_user": 1,
-      "info": "0"
+      "start": 2126.553,
+      "end": 2130.403,
+      "text": "Sau de unde, în general, credeți că au pornit aceste practici?",
+      "id_user": 7,
+      "info": "1"
     },
     {
       "id": 318,
-      "start": 2160.04,
-      "end": 2165.02,
-      "text": " părinții au sacrificat vitelul ca să învețe bou.",
+      "start": 2130.403,
+      "end": 2140.991,
+      "text": "Eu cred că totuși această practică se trage într-un fel sau altul din trecutul nostru istoric, anume faptul că noi am fost parte a Uniunii Sovietice.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 319,
-      "start": 2165.58,
-      "end": 2168.9,
-      "text": " Ce motive, de ce ei spun că trebuie să strângem aceste fonduri?",
-      "id_user": 7,
-      "info": "0"
+      "start": 2140.991,
+      "end": 2152.811,
+      "text": "Eu nu am trăit în acea perioadă, însă eu mereu aud istorii a oamenilor care s-au născut, au trăit, au învățat, au activat în acea perioadă.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 320,
-      "start": 2169.2000000000003,
-      "end": 2174.42,
-      "text": " Motivul este că statul nu dă bani sau că nu trebuie să deranjăm statul,",
-      "id_user": 2,
-      "info": "0"
+      "start": 2152.811,
+      "end": 2165.271,
+      "text": "Mai în glumă, mai în serios, cineva din prietenii părinților mei avea el o vorbă că părinții au sacrificat vițelul ca să învețe boul.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 321,
-      "start": 2174.42,
-      "end": 2182.36,
-      "text": " fiindcă este riscul să facă presiune asupra directoare, asupra profesorilor",
-      "id_user": 2,
-      "info": "0"
+      "start": 2165.628,
+      "end": 2169.022,
+      "text": "Ce motive, de ce ei spun că trebuie să strângem aceste fonduri?",
+      "id_user": 7,
+      "info": "1"
     },
     {
       "id": 322,
-      "start": 2182.36,
-      "end": 2186.1,
-      "text": " și profesorilor o să plece din sistem și o să rămână copilul tău fără profesor, educator.",
+      "start": 2169.022,
+      "end": 2175.181,
+      "text": "Motivul este că statul nu dă bani sau că nu trebuie să deranjăm statul.",
       "id_user": 2,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 323,
-      "start": 2186.38,
-      "end": 2195.4,
-      "text": " Și în momentul când ne-am spus, eu aș putea să întreb de ce sau să le amintesc celor responsabili",
+      "start": 2175.181,
+      "end": 2186.291,
+      "text": "Fiindcă este riscul să facă presiune asupra directoarei, asupra profesorilor și profesorii o să plece din sistem și o să rămână copilul tău fără profesor, educator.",
       "id_user": 2,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 324,
-      "start": 2195.4,
-      "end": 2200.66,
-      "text": " prin toți scrisoare, fiindcă am timp și dorință să fac asta, dați să vă ajut.",
+      "start": 2186.291,
+      "end": 2200.796,
+      "text": "Și în momentul când ne-a spus, eu aș putea să, să întreb de ce sau să le amintesc celor responsabili printr-o scrisoare, fiindcă am timp și dorință să fac asta, dați să vă ajut.",
       "id_user": 2,
-      "info": "0"
+      "info": "2"
     },
     {
       "id": 325,
-      "start": 2200.66,
-      "end": 2207.94,
-      "text": " Și doar mi s-a spus că tu nu înțelegi unde te afli, tu crezi că ești în Canada ta.",
+      "start": 2200.923,
+      "end": 2208.082,
+      "text": "Și doar mi s-a spus că tu nu înțelegi unde te afli, tu crezi că ești în Canada ta.",
       "id_user": 2,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 326,
-      "start": 2208.14,
-      "end": 2213.66,
-      "text": " Corupția mare s-a făcut în școlă atunci când profesorii nu aveau suficient cât să trăiască decent.",
+      "start": 2208.082,
+      "end": 2213.902,
+      "text": "Corupția mare s-a făcut în școli atunci când profesorii nu aveau suficient cât să trăiască decent.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 327,
-      "start": 2214.2999999999997,
-      "end": 2217.7799999999997,
-      "text": " Înțelegeți? Și atunci oamenii mergeau prin ce pe fiecare zicurc cum poate.",
+      "start": 2214.119,
+      "end": 2217.932,
+      "text": "Înțelegeți? Și atunci oamenii, mergeau pe principiul fiecare se descurcă cum poate.",
       "id_user": 5,
-      "info": "0"
+      "info": "2"
     },
     {
       "id": 328,
-      "start": 2218.3599999999997,
-      "end": 2221.2,
-      "text": " Unul făcea particulare pe care le făcea, nu le făcea și lua ore.",
+      "start": 2218.338,
+      "end": 2221.412,
+      "text": "Unul făcea particulare pe care le făcea, nu le făcea și lua ore.",
       "id_user": 5,
       "info": "0"
     },
     {
       "id": 329,
-      "start": 2221.72,
-      "end": 2228.92,
-      "text": " Altul a făcut contact foarte bun cu colegii și știa să comercializeze orice punct la notă și să putea înțelege.",
+      "start": 2221.59,
+      "end": 2228.972,
+      "text": "Altul, făcuse contact foarte bun cu colegii și știa să comercializeze orice punct la notă și se putea înțelege.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 330,
-      "start": 2228.92,
+      "start": 2228.972,
       "end": 2233.12,
-      "text": " Și părinții erau foarte buni negociaturi și profesori sunt foarte buni negociaturi.",
+      "text": "Și părinții erau foarte buni negociatori și profesori sunt foarte buni negociatori.",
       "id_user": 5,
-      "info": "0"
+      "info": "2"
     },
     {
       "id": 331,
-      "start": 2233.38,
-      "end": 2242.2400000000002,
-      "text": " Mi se pare că sistemul în sine formează uneori pe locuri goale tentații.",
+      "start": 2233.247,
+      "end": 2242.502,
+      "text": "Mie mi se pare că sistemul în sine formează uneori pe locuri goale tentații.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 332,
-      "start": 2242.78,
+      "start": 2242.502,
       "end": 2245.0,
-      "text": " Părinții consideră că trebuie să stea departe.",
+      "text": "Părinții consideră că trebuie să stea departe.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 333,
-      "start": 2245.48,
+      "start": 2245.384,
       "end": 2247.92,
-      "text": " Să nu decidă să dăruiască, nu dăruieți.",
+      "text": "Să nu decidă să dăruiască, nu dăruiți.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 334,
-      "start": 2248.46,
-      "end": 2249.2000000000003,
-      "text": " Nu este nevoie.",
+      "start": 2248.271,
+      "end": 2249.575,
+      "text": "Nu este nevoie.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 335,
-      "start": 2249.2,
-      "end": 2254.14,
-      "text": " Iată mai bine părinții ar decide să facă o discuție, dezbateri publice.",
+      "start": 2249.575,
+      "end": 2254.542,
+      "text": "Iată mai bine părinții ar decide să facă o discuție, dezbateri publice.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 336,
-      "start": 2254.54,
-      "end": 2259.5,
-      "text": " Profesori sunt diverse randamente la nivel de calitate.",
+      "start": 2254.542,
+      "end": 2259.892,
+      "text": "Profesorii iată sunt de diverse randamente la nivel de calitate.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 337,
-      "start": 2259.9399999999996,
-      "end": 2261.64,
-      "text": " Să negociem cu tare.",
+      "start": 2259.892,
+      "end": 2261.803,
+      "text": "Să negociem cu cutare.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 338,
-      "start": 2262.2,
-      "end": 2266.8199999999997,
-      "text": " Un specialist să iasă să spună că un profesor are nevoie de atâta timp de lucru.",
+      "start": 2263.478,
+      "end": 2270.864,
+      "text": "Un specialist să iasă să spună că un profesor are nevoie de atâta timp de lucru și atâta timp să se recreeze și atâta timp să verifice și să se pregătească.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 339,
-      "start": 2267.2599999999998,
-      "end": 2270.2,
-      "text": " Și atâta timp să se recrieze și atâta timp să verifice și să se pregătească.",
+      "start": 2270.864,
+      "end": 2279.362,
+      "text": "Atunci micșorați numărul orelor și dați oamenilor suficient salariu cât să nu alerge la trei servicii, și omul o să-și facă calitativ lucrul.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 340,
-      "start": 2270.2,
-      "end": 2276.3199999999997,
-      "text": " Atunci micșorați numărul orilor și dați oamenilor suficient salariu cât sunt alergii la trei servicii.",
+      "start": 2279.362,
+      "end": 2289.071,
+      "text": "Eu nu știu profesori care au salariul decent, făcându-și decent lucru, să aibă nevoie de să-i vină o mamă cu cafeluța.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 341,
-      "start": 2277.1,
-      "end": 2279.3199999999997,
-      "text": " Și omul o să-și facă calitativ lucru.",
+      "start": 2289.458,
+      "end": 2292.852,
+      "text": "... își cumpără cafea suficient de bună.",
       "id_user": 5,
       "info": "0"
     },
     {
       "id": 342,
-      "start": 2279.3799999999997,
-      "end": 2288.8999999999996,
-      "text": " Eu nu știu profesori care au salariul decent, făcându-și decent lucru, să aibă nevoie de să-i vină o mamă cu cafeluța.",
+      "start": 2292.852,
+      "end": 2295.093,
+      "text": "Își poate permite să-și ia în fiecare zi o cafea.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 343,
-      "start": 2289.64,
-      "end": 2292.7,
-      "text": " Oamă își cumpără cafea suficient de bună.",
-      "id_user": 5,
-      "info": "0"
+      "start": 2295.093,
+      "end": 2303.082,
+      "text": "Dar ați avut experiențe cu cadre didactice calificate sau care erau categoric împotriva oricăror strângeri sau colectări?",
+      "id_user": 7,
+      "info": "1"
     },
     {
       "id": 344,
-      "start": 2293.06,
-      "end": 2294.98,
-      "text": " Deci poate permit și am fiecare zi o cafea.",
-      "id_user": 5,
-      "info": "0"
+      "start": 2303.346,
+      "end": 2303.974,
+      "text": "Nu.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 345,
-      "start": 2294.98,
-      "end": 2302.94,
-      "text": " Dar ați avut experiențe cu cadri didactice calificate sau care erau categoric împotriva oricăror strângeri sau colectări?",
-      "id_user": 7,
-      "info": "0"
+      "start": 2304.977,
+      "end": 2306.094,
+      "text": "Nu, n-am întâlnit.",
+      "id_user": 3,
+      "info": "2"
     },
     {
       "id": 346,
-      "start": 2303.42,
-      "end": 2303.6,
-      "text": " Nu.",
+      "start": 2306.102,
+      "end": 2311.932,
+      "text": "Și am patru grupe cu fetița am, am frecventat, cu băiețelul două.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 347,
-      "start": 2304.9,
-      "end": 2306.04,
-      "text": " Nu, n-am întâlnit.",
+      "start": 2313.177,
+      "end": 2315.203,
+      "text": "Și la școală, nu.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 348,
-      "start": 2306.22,
-      "end": 2311.72,
-      "text": " Și am patru grupe cu fetița mea frecventat, cu băițelul două.",
-      "id_user": 3,
-      "info": "0"
+      "start": 2315.469,
+      "end": 2317.404,
+      "text": "E totuși o problemă de moralitate.",
+      "id_user": 5,
+      "info": "1"
     },
     {
       "id": 349,
-      "start": 2313.3,
-      "end": 2315.0,
-      "text": " Și la școală, nu.",
-      "id_user": 3,
-      "info": "0"
+      "start": 2317.404,
+      "end": 2324.502,
+      "text": "Și credeți-mă, eu știu oameni care au făcut o singură dată lucrul ăsta în viață și suferă până acum.",
+      "id_user": 5,
+      "info": "1"
     },
     {
       "id": 350,
-      "start": 2315.48,
-      "end": 2317.34,
-      "text": " E totuși o problemă de moralitate.",
+      "start": 2324.502,
+      "end": 2328.242,
+      "text": "Pentru că și înțeleg foarte bine că a fost o problemă de moralitate.",
       "id_user": 5,
-      "info": "0"
+      "info": "2"
     },
     {
       "id": 351,
-      "start": 2317.34,
-      "end": 2324.32,
-      "text": " Și credeți-mă, eu știu oameni care au făcut o singură dată lucrul ăsta în viață și suferă până acum.",
+      "start": 2328.242,
+      "end": 2333.492,
+      "text": "E o problemă pe care o creează sistemul, dar nu din interior, dar cu factorii care vin din extern.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 352,
-      "start": 2324.32,
-      "end": 2328.02,
-      "text": " Pentru că își înțeleg foarte bine că a fost o problemă de moralitate.",
+      "start": 2333.492,
+      "end": 2345.151,
+      "text": "În lumea în care profesorii sunt cu venituri decente, nimeni nu a spus că profesorul în trei zile de vacanță de toamnă trebuie să meargă să privească peștișorii pe litoralul Maldivelor.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 353,
-      "start": 2328.44,
-      "end": 2333.32,
-      "text": " E o problemă pe care o creează sistemul, dar nu din interior, dar cu factorii care vin în extern.",
+      "start": 2345.151,
+      "end": 2354.391,
+      "text": "Nu despre asta este vorba, dar dacă sistemul are grijă ca profesorul să trăiască decent și profesorul este din cei care au venit în sistem pe bune să lucreze.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 354,
-      "start": 2333.6000000000004,
-      "end": 2345.1000000000004,
-      "text": " În lumea în care profesorii sunt cuvenitori decente, nimeni nu a spus că profesorul în trei zile de vacanță de toamnă trebuie să meargă să privească peștișorii pe litoralul Maldivilor.",
+      "start": 2354.819,
+      "end": 2363.461,
+      "text": "Nu din ăștia care au venit să-și liniștească complexele pe contul copiilor, dar chiar pe bune să lucreze și are un salariu decent, șansele de al corupe sunt foarte mici.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 355,
-      "start": 2345.1,
-      "end": 2346.46,
-      "text": " Nu despre asta este vorba.",
-      "id_user": 5,
-      "info": "0"
+      "start": 2364.239,
+      "end": 2371.781,
+      "text": "Eu nu sunt de acord că statul nu acoperă cheltuielile necesare.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 356,
-      "start": 2346.56,
-      "end": 2354.24,
-      "text": " Dar dacă sistemul are grijă ca profesorul să trăiască decent și profesorul este din cei care au venit în sistem pe bunii să lucreze,",
-      "id_user": 5,
-      "info": "0"
+      "start": 2371.8,
+      "end": 2382.851,
+      "text": "Bune desfășurări a procesului de învățământ, începând de la dotarea logistică, reparații, până la dotarea pe alocuri cu materiale didactice și educative.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 357,
-      "start": 2354.58,
-      "end": 2363.1,
-      "text": " nu din aștia care au venit să-și liniștească complexele pe contul copiilor, dar chiar pe bunii să lucreze și are un salariu decent, șansele de al corupe sunt foarte mici.",
-      "id_user": 5,
-      "info": "0"
+      "start": 2382.851,
+      "end": 2404.621,
+      "text": "Și eu aici o să fac o paralelă dintre instituțiile de învățământ din municipiul orașul Chișinău, cu spre exemplu o instituție de învățământ, fie ea preșcolară sau ciclu primar, gimnaziu, dintr-un sătuc foarte îndepărtat și eu nu mă duc departe, dar în satul meu de baștină.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 358,
-      "start": 2363.1,
-      "end": 2371.5,
-      "text": " Eu nu sunt de acord că statul nu acoperă cheltuielile necesare.",
+      "start": 2404.621,
+      "end": 2414.981,
+      "text": "Acolo părinții nu colectează niciun ban, dar condițiile și reparația din grădinița ceea din satul meu, gata, gata.",
       "id_user": 1,
-      "info": "0"
+      "info": "2"
     },
     {
       "id": 359,
-      "start": 2372.02,
-      "end": 2382.68,
-      "text": " Bună disfășurarea procesului de învățământ, începând de la dotarea logistică, reparației, până la dotarea pe alocuri cu materiale didactice și educative.",
+      "start": 2414.981,
+      "end": 2424.201,
+      "text": "Depășesc condițiile a ceea ce reprezintă grădinițele din orașul Chișinău, dar acolo nu există așa practică.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 360,
-      "start": 2382.68,
-      "end": 2393.2799999999997,
-      "text": " Și eu aici o să fac o paralelă dintre instituțiile de învățământ din municipiu orașul Chișinău, cu spre exemplu o instituție de învățământ,",
+      "start": 2424.329,
+      "end": 2431.421,
+      "text": "Deci aici lucrurile depind, să zic așa, de doi factori.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 361,
-      "start": 2393.4199999999996,
-      "end": 2404.3199999999997,
-      "text": " fie ea preșcolar sau ciclu primar, gimnaziu, dintr-un sătuc foarte îndepărtat și eu nu mă duc departe, dar în satul meu de Baștenă.",
+      "start": 2431.51,
+      "end": 2440.581,
+      "text": "De capacitatea de administrare a managerului, pe de o parte, iar pe de alta, de întreg sistemul.",
       "id_user": 1,
-      "info": "0"
+      "info": "2"
     },
     {
       "id": 362,
-      "start": 2404.32,
-      "end": 2414.86,
-      "text": " Acolo părinții nu colectează niciun ban, dar condițiile și reparația din grădinița ce e din satul meu, gata, gata,",
+      "start": 2443.148,
+      "end": 2459.932,
+      "text": "Pentru că mulți sunt cei care spun că atunci când un administrator este numit în funcție, el oarecum față de cei care l-au ajutat să ajungă acolo, are o datorie.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 363,
-      "start": 2415.28,
-      "end": 2424.06,
-      "text": " depășesc condițiile a ceea ce reprezintă grădinițele din orașul Chișinău, dar acolo nu există așa practică.",
+      "start": 2459.932,
+      "end": 2471.391,
+      "text": "Iar datoria aceasta e, e întoarsă prin faptul să nu ceară bani în plus, să nu, dacă deloc, să nu ceară bani în genere e perfect.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 364,
-      "start": 2424.06,
-      "end": 2431.06,
-      "text": " Deci aici lucrurile depind, să zic așa, de doi factori.",
+      "start": 2471.391,
+      "end": 2489.898,
+      "text": "Sunt lucruri care eu nu le pot argumenta, nu le pot demonstra, dar odată ce ele se vehiculează, prin, de către oameni, de către părinții solidari, apropo, o resursă foarte bună și de susținere pentru părinți.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 365,
-      "start": 2431.06,
-      "end": 2440.34,
-      "text": " De capacitatea de administrare a managerului, pe de o parte, iar pe de alta, de întreg sistemul.",
+      "start": 2489.898,
+      "end": 2497.412,
+      "text": "Vorbesc de lucrurile acestea și la fel cum stăi situația, eu tin să cred că așa și este.",
       "id_user": 1,
       "info": "0"
     },
     {
       "id": 366,
-      "start": 2442.96,
-      "end": 2452.2599999999998,
-      "text": " Pentru că mulți sunt cei care spun că atunci când un administrator este numit în funcție,",
-      "id_user": 1,
-      "info": "0"
+      "start": 2497.412,
+      "end": 2505.181,
+      "text": "Noi am fost plecați un an peste hotare și noi am înțeles că nu este problema în noi, pentru că ne-am adaptat, este foarte ok.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 367,
-      "start": 2452.2599999999998,
-      "end": 2459.64,
-      "text": " el oarecum față de cei care l-au ajutat să ajungă acolo, are o datorie.",
-      "id_user": 1,
+      "start": 2505.181,
+      "end": 2518.961,
+      "text": "Pur și simplu, noi suntem o minoritate care încercăm lucrurile schimbă, însă restul părinților cred că așa trebuie, că sistemul nu are bani, dar știți aici eu aș dori să pun o întrebare.",
+      "id_user": 3,
       "info": "0"
     },
     {
       "id": 368,
-      "start": 2459.64,
-      "end": 2471.2799999999997,
-      "text": " Iar datoria aceasta îi întoarsă prin faptul să nu ceară bani în plus, să nu, dacă deloc, să nu ceară bani în generii perfect.",
-      "id_user": 1,
-      "info": "0"
+      "start": 2518.961,
+      "end": 2522.145,
+      "text": "Deci iată, voi mergeți prin parcurile care se fac în Chișinău.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 369,
-      "start": 2471.28,
-      "end": 2479.44,
-      "text": " Sunt lucruri care eu nu le pot argumenta, nu le pot demonstra, dar odată ce ele se vehiculează,",
-      "id_user": 1,
-      "info": "0"
+      "start": 2522.49,
+      "end": 2524.564,
+      "text": "Foarte wow, foarte frumoase.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 370,
-      "start": 2479.44,
-      "end": 2489.6800000000003,
-      "text": " de către oameni, de către părinții solidari, apropo, o resursă foarte bună și de susținere pentru părinți,",
-      "id_user": 1,
-      "info": "0"
+      "start": 2524.564,
+      "end": 2527.803,
+      "text": "Deci, cum la dumneavoastră apar întrebarea că nu sunt bani?",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 371,
-      "start": 2490.1600000000003,
-      "end": 2497.26,
-      "text": " vorbesc de lucrurile acestea și la fel cum stăi situația, eu tin să cred că așa și este.",
-      "id_user": 1,
-      "info": "0"
+      "start": 2527.803,
+      "end": 2534.872,
+      "text": "De ce pentru parcuri să ajungă bani, dar pentru, pentru instituții nu se ajung bani?",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 372,
-      "start": 2497.26,
-      "end": 2504.7200000000003,
-      "text": " Noi am fost plecați un an pe stihotare și noi am înțeles că nu este problema noi, pentru că ne-am adaptat, este foarte ok.",
+      "start": 2534.872,
+      "end": 2537.753,
+      "text": "De ce vă duceți așa ușor manipulați?",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 373,
-      "start": 2505.5600000000004,
-      "end": 2513.46,
-      "text": " Pur și simplu, noi suntem o minoritate care încercăm lucrurile schimbă, însă restul părinților cred că așa trebuie,",
+      "start": 2537.753,
+      "end": 2545.722,
+      "text": "Asta și e problema, e o problemă în societate, că noi, ca părinți, noi trebuie să avem grijă de tot, și școală, dar e, e reparată clasa ceea sau nu.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 374,
-      "start": 2513.5800000000004,
-      "end": 2518.78,
-      "text": " că sistemul nu are bani, dar știți aici eu aș dureș să pun o întrebare.",
+      "start": 2545.722,
+      "end": 2549.692,
+      "text": "Adică nu-s niște delimitări de obligații. Asta nu-i obligația mea, ca părinte.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 375,
-      "start": 2519.0800000000004,
-      "end": 2524.4,
-      "text": " Deci, atunci, voi mergeți prin parcurile care se fac în Chișinău. Foarte wow, foarte frumoase.",
+      "start": 2549.692,
+      "end": 2555.292,
+      "text": "Eu am obligația acasă să-mi fac ce am de făcut, să creez acasă copilului o atmosferă.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 376,
-      "start": 2524.4,
-      "end": 2527.58,
-      "text": " Deci, cum la dumneavoastră apar întrebarea că nu sunt bani?",
+      "start": 2555.292,
+      "end": 2557.943,
+      "text": "În grădiniță este obligația directorului.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 377,
-      "start": 2527.94,
-      "end": 2534.78,
-      "text": " De ce pentru parcurile să ajungă bani? Dar pentru instituții nu să ajungă bani?",
+      "start": 2558.061,
+      "end": 2562.053,
+      "text": "Directorul are grijă clasa ceea să fie reparată sau, știți?",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 378,
-      "start": 2534.86,
-      "end": 2537.6600000000003,
-      "text": " De ce vă duceți așa ușor manipulați?",
+      "start": 2562.053,
+      "end": 2568.79,
+      "text": "Și alta e că corupția asta aduce atâta haos, mizerie.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 379,
-      "start": 2537.7400000000002,
-      "end": 2542.64,
-      "text": " Asta și e problema, e o problemă în societate, că noi, că părinți, nu trebuie să avem greși de tot.",
+      "start": 2568.79,
+      "end": 2574.883,
+      "text": "Și pentru că educătorul cela nu este axat strict pe educația copilului.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 380,
-      "start": 2542.7400000000002,
-      "end": 2545.38,
-      "text": " Și școală, dar e reparată clasa C sau nu.",
+      "start": 2574.883,
+      "end": 2576.514,
+      "text": "Dar el trebuie să aibă grijă.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 381,
-      "start": 2545.86,
-      "end": 2549.5,
-      "text": " Adică nu sunt niște delimitări de obligații. Asta nu e obligația mea, că părinte.",
+      "start": 2576.514,
+      "end": 2578.923,
+      "text": "Ce părinte a dat bani? El e și contabil.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 382,
-      "start": 2549.5,
-      "end": 2555.1,
-      "text": " Eu am obligația acasă să-mi fac ce am de făcut, să creez acasă copilului o atmosferă.",
+      "start": 2578.923,
+      "end": 2581.673,
+      "text": "El face pliante de curând.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 383,
-      "start": 2555.56,
-      "end": 2557.72,
-      "text": " În grădiniță este obligația directorului.",
+      "start": 2581.673,
+      "end": 2588.572,
+      "text": "Educatorii stau în stradă și împrăștie pliante electorale.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 384,
-      "start": 2558.26,
-      "end": 2561.94,
-      "text": " Directorul are grijă clasa C să fie reparată sau, știți?",
+      "start": 2589.859,
+      "end": 2595.721,
+      "text": "Deci e, știți, e, e așa, e așa un absurd și așa o, ți-e groază.",
       "id_user": 3,
       "info": "0"
     },
     {
       "id": 385,
-      "start": 2562.1,
-      "end": 2568.8,
-      "text": " Și alta e că corupția asta duce atât de haos, mizerie.",
+      "start": 2596.198,
+      "end": 2599.422,
+      "text": "Corupția aceasta dă libertate fiecăruia să facă ce vrea.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 386,
-      "start": 2568.8,
-      "end": 2574.6800000000003,
-      "text": " Și pentru că educatorul acela nu este axat strict pe educația copilului.",
+      "start": 2599.422,
+      "end": 2607.311,
+      "text": "Deci, educătorul, pentru că a colectat și a dat directorului, el are o marjă de manevră, de libertate, face ce vrea.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 387,
-      "start": 2575.1600000000003,
-      "end": 2576.38,
-      "text": " Dar el trebuie să aibă grijă.",
+      "start": 2607.311,
+      "end": 2614.922,
+      "text": "Directorul, respectiv, la direcție la fel, pentru că el a colectat sau, spre exemplu, a reparat ceea ce trebuia să repare direcția, să dea bani.",
       "id_user": 3,
       "info": "0"
     },
     {
       "id": 388,
-      "start": 2576.5800000000004,
-      "end": 2578.6400000000003,
-      "text": " Ce părinte a dat bani? El ești contabil?",
+      "start": 2614.922,
+      "end": 2618.293,
+      "text": "Și respectiv, la fel, i se dă o marjă de libertate de a face.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 389,
-      "start": 2579.1800000000003,
-      "end": 2581.4,
-      "text": " El face pleante de curând.",
+      "start": 2618.529,
+      "end": 2620.863,
+      "text": "Și haosul ăsta, deci nu este clar.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 390,
-      "start": 2581.8,
-      "end": 2588.36,
-      "text": " Educătorii stau în stradă și împrăște pleante electorale.",
+      "start": 2621.469,
+      "end": 2625.182,
+      "text": "Tu, ca părinte, azi e o regulă, mâine o regulă.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 391,
-      "start": 2588.36,
-      "end": 2595.42,
-      "text": " Deci, știți, e așa un absurd și așa ții groază.",
-      "id_user": 3,
-      "info": "0"
+      "start": 2625.25,
+      "end": 2633.841,
+      "text": "Voiam să întreb, când putem considera un act de corupție, de exemplu, floarea sau o cutie de ciocolată către educator, poate fi considerată corupție?",
+      "id_user": 7,
+      "info": "1"
     },
     {
       "id": 392,
-      "start": 2596.4,
-      "end": 2599.1800000000003,
-      "text": " Corupția aceasta dă libertate fiecare să facă ce vrea.",
-      "id_user": 3,
-      "info": "0"
+      "start": 2633.841,
+      "end": 2640.0,
+      "text": "Floarea nu consider că poate fi un act de corupție.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 393,
-      "start": 2599.7200000000003,
-      "end": 2607.06,
-      "text": " Deci, educatorul, pentru că a colectat și a dat directorului, el are o marjă de manevră, de libertate, face ce vrea.",
-      "id_user": 3,
-      "info": "0"
+      "start": 2641.316,
+      "end": 2651.642,
+      "text": "Din timpuri există această practică la anumite sărbători oficiale, gen întâi septembrie, ziua lucrătorului în educație.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 394,
-      "start": 2607.48,
-      "end": 2614.88,
-      "text": " Directorul, respectiv, la direcție la fel, pentru că el a colectat sau, spre exemplu, a reparat ceea ce trebuia să repare direcția, să dea bani.",
-      "id_user": 3,
-      "info": "0"
+      "start": 2651.642,
+      "end": 2659.741,
+      "text": "Opt martie mereu s-a practicat acest obicei de a dărui flori.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 395,
-      "start": 2614.88,
-      "end": 2618.2200000000003,
-      "text": " Și respectiv, la fel, îi se dă o marjă de libertate de face.",
-      "id_user": 3,
-      "info": "0"
+      "start": 2659.741,
+      "end": 2664.712,
+      "text": "Cutia de ciocolată însoțită de o floare la astfel de ocazii, tot nu o consider.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 396,
-      "start": 2618.62,
-      "end": 2620.76,
-      "text": " Și haosul ăsta, deci nu este clar.",
-      "id_user": 3,
-      "info": "0"
+      "start": 2664.712,
+      "end": 2682.864,
+      "text": "Deja tot ceea ce e în afară, care vine, spre exemplu, ca condiție sau e impunere din partea părintelui pentru educator, că eu îți dau o cutie de ciocolată sau una de cafea, dar tu cumva să-mi favorizezi copilul sau nu știu cum.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 397,
-      "start": 2621.36,
-      "end": 2625.0,
-      "text": " Tu, ca părinții, azi e o regulă, mâini o regulă.",
-      "id_user": 3,
-      "info": "0"
+      "start": 2682.864,
+      "end": 2694.931,
+      "text": "Asta deja e cu totul altceva pentru că cadrul didactic trebuie să țină cont de etica profesională și să trateze toți copiii, egal, indiferent, că primește sau ar putea primi careva favoruri de la părinți.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 398,
-      "start": 2625.44,
-      "end": 2633.6400000000003,
-      "text": " Voi am să întreb, când putem considera un act de corupție, de exemplu, floarea sau o cătit de ciocolată către educator, poate fi considerată corupție?",
+      "start": 2694.931,
+      "end": 2699.672,
+      "text": "Dar în cazul copiilor care merg la școală, care este situația acolo?",
       "id_user": 7,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 399,
-      "start": 2634.06,
-      "end": 2640.0,
-      "text": " Floarea nu consider că poate fi un act de corupție.",
+      "start": 2699.672,
+      "end": 2702.842,
+      "text": "Aici e, e și mai interesantă situația.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 400,
-      "start": 2640.0,
-      "end": 2651.4,
-      "text": " Din timpuri există această practică la anumite sărbători oficiale, gen 1 septembrie, ziua lucrătorului în educație.",
+      "start": 2702.842,
+      "end": 2706.402,
+      "text": "Deja al patrulea an eu sunt mamă de școlar.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 401,
-      "start": 2652.1,
-      "end": 2659.54,
-      "text": " 8 martie mereu s-a practicat acest obicei de a dărui flori.",
+      "start": 2706.402,
+      "end": 2714.661,
+      "text": "Colectările continuă și la școală și ele sunt exact argumentate ca și cele de la grădiniță.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 402,
-      "start": 2659.54,
-      "end": 2664.42,
-      "text": " Cutie de ciocolată însoțită de o floare la astfel de ocazii, tot nu o consider.",
+      "start": 2714.988,
+      "end": 2719.572,
+      "text": "Anul acesta nu am reușit să intrăm bine în vacanța mare.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 403,
-      "start": 2664.88,
-      "end": 2673.54,
-      "text": " Deja tot ceea ce e în afară, care vine, spre exemplu, ca condiții sau o impunere din partea părintelui pentru educator,",
+      "start": 2719.572,
+      "end": 2729.941,
+      "text": "Deja în prima săptămână de vacanță la noi, chat-urile din grupurile Viber, WhatsApp, indiferent, care sunt ele.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 404,
-      "start": 2673.54,
-      "end": 2682.48,
-      "text": " că eu ți dau o cutie de ciocolată sau una de cafea, dar tu cumva să-mi favorizezi copilul sau nu știu cum,",
+      "start": 2729.941,
+      "end": 2735.202,
+      "text": "Nu încetau să tacă pentru că s-a început colectarea de bani pentru reparație.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 405,
-      "start": 2683.08,
-      "end": 2690.04,
-      "text": " asta deja e cu totul altceva pentru că cadrul didactic trebuie să ține o dietică profesională și să trăceze toți copiii,",
+      "start": 2735.202,
+      "end": 2738.793,
+      "text": "Și aici când zic reparații, reparație capitală.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 406,
-      "start": 2690.12,
-      "end": 2694.54,
-      "text": " egal, indiferent, când primești sau ar putea primi careva favoruri de la părinții.",
+      "start": 2738.793,
+      "end": 2747.891,
+      "text": "Că a dat jos tot de pe pereți, pus înapoi, schimbat pardoseala, mobilierul și așa mai departe, da.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 407,
-      "start": 2695.16,
-      "end": 2699.5,
-      "text": " Dar în cazul copiilor care merg la școală, care este situația acolo?",
-      "id_user": 7,
-      "info": "0"
+      "start": 2747.891,
+      "end": 2754.101,
+      "text": "Aici merge vorba de colectări de sume care depășesc câteva mii de lei.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 408,
-      "start": 2699.5,
-      "end": 2706.28,
-      "text": " Aici e și mai interesantă situația. Deja al patrulea an eu sunt mamă de școlar.",
+      "start": 2754.896,
+      "end": 2756.66,
+      "text": "Eu nu am participat.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 409,
-      "start": 2706.6,
-      "end": 2714.36,
-      "text": " Colectările continuă și la școală și ele sunt exact argumentate ca și cele de la grădiniță.",
+      "start": 2757.685,
+      "end": 2764.692,
+      "text": "Am rămas oarecum indiferentă la toate replicile acelea a părinților că nu-mi iubesc copiii.",
       "id_user": 1,
       "info": "0"
     },
     {
       "id": 410,
-      "start": 2715.6,
-      "end": 2719.34,
-      "text": " Anul acesta nu am reușit să intrăm bine în vacanța mare.",
+      "start": 2764.692,
+      "end": 2773.471,
+      "text": "Plecând de la această replică, eu în ultimul timp tot mai mult cochetez cu ideea că copiii mei să frecventeze o școală privată.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 411,
-      "start": 2719.74,
-      "end": 2727.32,
-      "text": " Deja în prima săptămână de vacanță la noi, ceatorile din grupurile Viber, WhatsApp, indiferent,",
+      "start": 2773.714,
+      "end": 2792.575,
+      "text": "Financiar eu înțeleg că-mi asum o responsabilitate foarte mare și o greutate, dar cel puțin eu ca părinte îmi voi îndeplini acea misiune de a cultiva în copiii mei principii și moralitate.",
       "id_user": 1,
-      "info": "0"
+      "info": "2"
     },
     {
       "id": 412,
-      "start": 2727.32,
-      "end": 2735.1000000000004,
-      "text": " care sunt ele, nu încetau stacă pentru că s-a început colectarea de bani pentru reparație.",
+      "start": 2792.575,
+      "end": 2795.973,
+      "text": "Pentru că nu se poate continua așa la nesfârșit.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 413,
-      "start": 2735.1000000000004,
-      "end": 2738.6800000000003,
-      "text": " Și aici când zic reparații, reparații capitală.",
+      "start": 2796.301,
+      "end": 2802.572,
+      "text": "Eu copilului îi spun una, dar în realitate, cum am mai menționat, fac alt lucru.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 414,
-      "start": 2739.2000000000003,
-      "end": 2747.4,
-      "text": " O dat jos tot de pe pereți, pus înapoi, schimbat partoseala, mobilierul și așa mai departe.",
+      "start": 2802.97,
+      "end": 2810.112,
+      "text": "Și asta oarecum îl derutează pe copil și în final ajungem să creștem oameni lipsiți de caracter.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 415,
-      "start": 2747.6400000000003,
-      "end": 2753.7400000000002,
-      "text": " Aici merge vorba de colectări de sume care depășesc câteva mii de lei.",
+      "start": 2810.2,
+      "end": 2817.882,
+      "text": "Poate da, cu cunoștințe, poate profesional, dar tot ce reprezintă omul profesionist cu cunoștințe dacă nu are caracter.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 416,
-      "start": 2753.74,
-      "end": 2756.66,
-      "text": " Eu nu am participat.",
+      "start": 2817.882,
+      "end": 2823.142,
+      "text": "Și pentru bani în orice moment e, e capabil să trădeze.",
       "id_user": 1,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 417,
-      "start": 2757.8399999999997,
-      "end": 2764.5,
-      "text": " Am rămas oarecum indiferentă la toate replicile acei de a părinților că nu-mi iubesc copii.",
-      "id_user": 1,
-      "info": "0"
+      "start": 2823.142,
+      "end": 2828.792,
+      "text": "Corupția nu corupe atât material și financiar, cât corupe moral.",
+      "id_user": 5,
+      "info": "1"
     },
     {
       "id": 418,
-      "start": 2764.7,
-      "end": 2773.3199999999997,
-      "text": " Plecând de la această replică, eu în ultimul timp tot mai mult cochetez cu ideea că copiii mei se frecventeze o școală privată.",
-      "id_user": 1,
-      "info": "0"
+      "start": 2828.99,
+      "end": 2838.321,
+      "text": "Și copiii cresc mutilați și-n conștiința lor nu are loc ideea că ceea ce se întâmplă cu ei azi este ceea ce au meritat sau ceea ce au permis.",
+      "id_user": 5,
+      "info": "1"
     },
     {
       "id": 419,
-      "start": 2773.32,
-      "end": 2779.42,
-      "text": " Financiar eu înțeleg că mi-o sumă responsabilitate foarte mare și o greutate,",
-      "id_user": 1,
-      "info": "0"
+      "start": 2838.399,
+      "end": 2848.521,
+      "text": "Cineva odată mi-a spus că atunci când merge la un restaurant bun și este foarte bine servit, este din, gen de bon ton să lași bacșiș chelnerului, da?",
+      "id_user": 5,
+      "info": "1"
     },
     {
       "id": 420,
-      "start": 2779.42,
-      "end": 2792.34,
-      "text": " dar cel puțin eu ca părinte îmi voi îndeplini acea misiune de a cultiva în copiii mei principii și moralitate.",
-      "id_user": 1,
-      "info": "0"
+      "start": 2848.521,
+      "end": 2858.061,
+      "text": "Și zice, dar de ce după ce am avut eu o operație foarte serioasă, de ce nu este de bon ton să post-factum să ofer și eu un cadou medicului meu?",
+      "id_user": 5,
+      "info": "1"
     },
     {
       "id": 421,
-      "start": 2792.8,
-      "end": 2795.84,
-      "text": " Pentru că nu se poate continua așa la nesfârșit.",
-      "id_user": 1,
-      "info": "0"
+      "start": 2858.387,
+      "end": 2860.383,
+      "text": "Eu nu știu să răspund la întrebarea asta.",
+      "id_user": 5,
+      "info": "1"
     },
     {
       "id": 422,
-      "start": 2795.84,
-      "end": 2802.54,
-      "text": " Eu copilul îi spun una, dar în realitate, cum am mai menționat, fac alt lucru.",
-      "id_user": 1,
-      "info": "0"
+      "start": 2860.871,
+      "end": 2869.072,
+      "text": "Eu, de exemplu, după câțiva ani în care pot să fiu lipsită de modestie, primeam flori foarte frumoase.",
+      "id_user": 5,
+      "info": "2"
     },
     {
       "id": 423,
-      "start": 2802.54,
-      "end": 2809.96,
-      "text": " Și asta oarecum îl derutează pe copil și în final ajungem să creștem oameni lipsiți de caracter.",
-      "id_user": 1,
-      "info": "0"
+      "start": 2869.072,
+      "end": 2879.123,
+      "text": "Știți? Foarte frumoase. Și într-o bună zi, plimblându-mă pe Bănulescu Bodoni, am intrat pe la căsuțele astea cu povești și m-am uitat cât costă florile, și m-am îngrozit.",
+      "id_user": 5,
+      "info": "1"
     },
     {
       "id": 424,
-      "start": 2810.3,
-      "end": 2817.7200000000003,
-      "text": " Poate da, cu cunoștință, poate profesional, dar poate reprezintă omul profesionist cu cunoștință dacă nu are caracter.",
-      "id_user": 1,
-      "info": "0"
+      "start": 2879.766,
+      "end": 2890.682,
+      "text": "Și erau flori foarte multe și eu înțeleg că copiii au încercat să fie la final de an maximum bine dispuși și eu apreciez foarte mult atitudinea lor.",
+      "id_user": 5,
+      "info": "1"
     },
     {
       "id": 425,
-      "start": 2818.0,
-      "end": 2822.94,
-      "text": " Și pentru bani în orice moment e capabil să trăgeze.",
-      "id_user": 1,
-      "info": "0"
+      "start": 2890.682,
+      "end": 2907.095,
+      "text": "Dar mi se părea, mi se părea atât de dureros că florile astea mor peste trei zile și am spus odată că aș prefera în loc de buchetul ăsta enorm cu 60 de trandafiri să mi se dea o carte.",
+      "id_user": 5,
+      "info": "1"
     },
     {
       "id": 426,
-      "start": 2822.94,
-      "end": 2828.66,
-      "text": " Corupția nu corupe atât material și financiar, cât corupe moral.",
+      "start": 2907.095,
+      "end": 2912.152,
+      "text": "Eu la finalul fiecărui, fiecărui an primesc mită, da? Și iată ea arată în felul următor.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 427,
-      "start": 2829.14,
-      "end": 2838.18,
-      "text": " Și copiii cresc mutilați și în conștiința lor nu are loc ideea că cei ce se întâmplă cu ei azi este cei ce au meritat sau cei ce au permis.",
+      "start": 2912.152,
+      "end": 2918.422,
+      "text": "Sunt cadouri care o să rămână cu mine și o să rămână și copiilor mei, dacă ăștia o să rămână în țară.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 428,
-      "start": 2838.42,
-      "end": 2848.06,
-      "text": " Cineva odată mi-a spus că atunci când merge la un restaurant bun și este foarte bine servit, este de bun ton să lași baxiș chelnerului.",
+      "start": 2918.422,
+      "end": 2924.512,
+      "text": "Iată de exemplu, iată așa, vedeți? Nu știu cui s-o arăt. Și aici scrie aici mită pentru doamna Diana.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 429,
-      "start": 2848.06,
-      "end": 2857.82,
-      "text": " Și zice, dar de ce după ce am avut eu o operație foarte serioasă, de ce nu este de bun ton să post-factum să ofer și eu un cadou medicului meu?",
+      "start": 2924.512,
+      "end": 2930.651,
+      "text": "Îmi scrie copilul, în ce an a absolvit, cine este. Ăsta de exemplu este... Eu am, am ore și la colegiu, da?",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 430,
-      "start": 2858.56,
-      "end": 2860.24,
-      "text": " Eu nu știu să răspund la întrebarea asta.",
+      "start": 2931.187,
+      "end": 2934.472,
+      "text": "Și iată scrie mită pentru doamna Diana, da?",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 431,
-      "start": 2861.06,
-      "end": 2869.06,
-      "text": " Eu, de exemplu, după câțiva ani în care pot să fiu lipsită de modestie, primeam flori foarte frumoase.",
+      "start": 2934.6,
+      "end": 2941.262,
+      "text": "Și la mine în bibliotecă sunt cărți, cumpărate de mine, sigur că sunt substanțe al mai multe, dar scrie mită.",
       "id_user": 5,
       "info": "0"
     },
     {
       "id": 432,
-      "start": 2869.06,
-      "end": 2877.62,
-      "text": " Știți? Foarte frumoase. Și într-o bună zi, primblându-me pe Bănulescu Bodoni, am intrat pe la căsuțele astea cu povești și m-am uitat cât costă florele.",
+      "start": 2941.528,
+      "end": 2944.243,
+      "text": "Și aici numele copilului, ca să știi foarte clar.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 433,
-      "start": 2878.02,
-      "end": 2890.46,
-      "text": " Și m-am îngrozit. Și erau flori foarte multe și eu înțeleg că copiii au încercat să fie la final de an maximum bine dispuși și eu apreciez foarte mult atitudinea lor.",
+      "start": 2944.243,
+      "end": 2946.343,
+      "text": "Deci am făcut din asta un fel de haz.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 434,
-      "start": 2890.46,
-      "end": 2906.9,
-      "text": " Dar mi se părea atât de dureros că florele astea mor peste trei zile și am spus odată că aș prefera în loc de buchetul ăsta enorm cu 60 de trandafiri să mi se dea o carte.",
+      "start": 2946.343,
+      "end": 2955.401,
+      "text": "Dar este un lucru atât de frumos, că astăzi când eu recent mi-am mutat locul de trai și ei mă căutau o vreme.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 435,
-      "start": 2907.18,
-      "end": 2911.96,
-      "text": " Eu la finalul fiecărui an primesc mită și iată îi arată în felul următor.",
+      "start": 2955.401,
+      "end": 2965.031,
+      "text": "Și mi-a sunat cineva din absolvenți, care este acuma cântăreț, care are curând un concert și a venit acuma din... stă în România și a venit.",
       "id_user": 5,
       "info": "0"
     },
     {
       "id": 436,
-      "start": 2911.96,
-      "end": 2918.42,
-      "text": " Sunt cadouri care o să rămână cu mine și o să rămână și copiilor mei, dacă aștia o să rămână în țară.",
+      "start": 2965.448,
+      "end": 2969.222,
+      "text": "Și mă sună și zice, eu am venit și nu ești.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 437,
-      "start": 2918.5,
-      "end": 2924.34,
-      "text": " Iată de exemplu, iată așa, vedeți? Nu știu cui să o arăt. Și aici scrie aici mită pentru doamna Diana.",
+      "start": 2969.222,
+      "end": 2971.923,
+      "text": "Zice, nu răspunde nimeni aici. Zic, dar eu sunt la altă casă.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 438,
-      "start": 2924.6,
-      "end": 2930.2400000000002,
-      "text": " Îi scrie copilul, în ce an absolvit, cine este. Asta de exemplu este Amoreșul la colegiu.",
+      "start": 2972.429,
+      "end": 2975.872,
+      "text": "Și el zice, atunci vino fuguța, cel puțin să vorbim puțin.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 439,
-      "start": 2930.9,
-      "end": 2933.96,
-      "text": " Și iată scrie mită pentru doamna Diana.",
+      "start": 2976.268,
+      "end": 2979.233,
+      "text": "Și zice, și da, ți-am adus mită.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 440,
-      "start": 2934.52,
-      "end": 2941.06,
-      "text": " Și la mine în bibliotecă sunt cărții cumpărate de mine, sigur că sunt substanțe al mai multe, dar scrie mită.",
+      "start": 2979.233,
+      "end": 2983.153,
+      "text": "Zice, am găsit ceva eu acolo și eram sigur c-o să-ți placă și vin cu mită.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 441,
-      "start": 2941.06,
-      "end": 2944.08,
-      "text": " Și aici numele copilului, ca să știi foarte clar.",
+      "start": 2983.153,
+      "end": 2984.394,
+      "text": "Și era o chestie frumoasă.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 442,
-      "start": 2944.36,
-      "end": 2946.12,
-      "text": " Deci am făcut din asta un fel de haz.",
+      "start": 2984.769,
+      "end": 2986.744,
+      "text": "Dacă o dai pe metaforă, e frumoasă.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 443,
-      "start": 2946.62,
-      "end": 2954.94,
-      "text": " Dar este un lucru atât de frumos, că astăzi când eu recentă mi-am mutat locul de trai și ei mă căutau o vreme.",
+      "start": 2986.744,
+      "end": 2989.993,
+      "text": "Iată în așa mod, de ce nu.",
       "id_user": 5,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 444,
-      "start": 2955.9,
-      "end": 2964.7799999999997,
-      "text": " Și mi-a sunat cineva din absolvenți, care este acum cântăreț, care are curând un concert și a venit acum, stă în România și a venit.",
-      "id_user": 5,
-      "info": "0"
+      "start": 2989.993,
+      "end": 2996.532,
+      "text": "Dacă e să facem comparația între atunci și acum, s-a mai diminuat această tendință.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 445,
-      "start": 2965.48,
-      "end": 2969.14,
-      "text": " Și mă sună și zice, eu am venit și nu ești.",
-      "id_user": 5,
-      "info": "0"
+      "start": 2996.532,
+      "end": 3009.801,
+      "text": "Părinții nu sunt atât presați, pentru că totuși trăim în era dezvoltării tehnologiilor informaționale, a căilor de comunicare.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 446,
-      "start": 2969.14,
-      "end": 2971.7599999999998,
-      "text": " Și zice, nu răspând nimeni aici. Zic, dar eu sunt la altă casă.",
-      "id_user": 5,
-      "info": "0"
+      "start": 3009.801,
+      "end": 3012.343,
+      "text": "Părinții au acces la informație.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 447,
-      "start": 2972.6,
-      "end": 2975.6,
-      "text": " Și el zice, atunci vin o fuguță, cel puțin să vorbim puțin.",
-      "id_user": 5,
-      "info": "0"
+      "start": 3012.343,
+      "end": 3026.38,
+      "text": "Sectorul civic își face lucrul său, informează, ajută, susține, oferă suport în cazurile în care sunt acte de corupție.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 448,
-      "start": 2976.98,
-      "end": 2979.22,
-      "text": " Și zici, și-o da, ți-am adus mită.",
-      "id_user": 5,
-      "info": "0"
+      "start": 3026.38,
+      "end": 3032.251,
+      "text": "Și părinții oarecum prind la curaj și se simt mai încrezuți să zică nu.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 449,
-      "start": 2979.2999999999997,
-      "end": 2982.98,
-      "text": " Zice, am găsit ceva acolo și eram sigur că o să-ți plac și vin cu mită.",
-      "id_user": 5,
-      "info": "0"
+      "start": 3032.251,
+      "end": 3039.931,
+      "text": "Cum observați? În ultimii ani există o tendință ca părinții să devină mai vocali și să fie cumva mai rezistenți împotriva acestor colectări?",
+      "id_user": 7,
+      "info": "1"
     },
     {
       "id": 450,
-      "start": 2983.2,
-      "end": 2984.14,
-      "text": " Și era o chestie frumoasă.",
-      "id_user": 5,
-      "info": "0"
+      "start": 3039.931,
+      "end": 3041.723,
+      "text": "A fost, știți, ca o curbă.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 451,
-      "start": 2985.04,
-      "end": 2986.7,
-      "text": " Dacă o dai pe metaforă, e frumoasă.",
-      "id_user": 5,
-      "info": "0"
+      "start": 3042.369,
+      "end": 3046.162,
+      "text": "În 2019 era o tendință spre îmbunătățire.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 452,
-      "start": 2986.7799999999997,
-      "end": 2989.7799999999997,
-      "text": " E, dă în așa mod, zice nu.",
-      "id_user": 5,
-      "info": "0"
+      "start": 3046.609,
+      "end": 3050.432,
+      "text": "Adică mă refer la Chișinău, ceea ce am perceput.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 453,
-      "start": 2989.78,
-      "end": 2996.36,
-      "text": " Dacă e să facem comparația între atunci și acum, s-a mai diminuat această tendință.",
-      "id_user": 1,
-      "info": "0"
+      "start": 3051.188,
+      "end": 3053.653,
+      "text": "Era o concurență ceva, știți?",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 454,
-      "start": 2996.6200000000003,
-      "end": 3007.7000000000003,
-      "text": " Părinții nu sunt atât presați, pentru că totuși trăim în era dezvoltării tehnologiilor informaționale,",
-      "id_user": 1,
-      "info": "0"
+      "start": 3053.653,
+      "end": 3054.335,
+      "text": "Nu știu.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 455,
-      "start": 3007.82,
-      "end": 3009.7000000000003,
-      "text": " a căilor de comunicare.",
-      "id_user": 1,
-      "info": "0"
+      "start": 3054.335,
+      "end": 3060.062,
+      "text": "Acuma se înrăutățesc lucrurile, pentru că observ.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 456,
-      "start": 3009.7,
-      "end": 3012.12,
-      "text": " părinții au acces la informație.",
-      "id_user": 1,
-      "info": "0"
+      "start": 3060.062,
+      "end": 3065.702,
+      "text": "Nu mai sunt semnalele acelea clare că, uitați-vă, luptăm cu corupția, nu mai trebuie, știți?",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 457,
-      "start": 3012.62,
-      "end": 3026.2799999999997,
-      "text": " Sectorul civic își face lucrul său, informează, ajută, susține, oferă suport în cazurile în care sunt acte de corupție.",
-      "id_user": 1,
-      "info": "0"
+      "start": 3065.808,
+      "end": 3068.112,
+      "text": "Înainte era parcă mai vizibil, acuma...",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 458,
-      "start": 3026.66,
-      "end": 3031.96,
-      "text": " Și părinții oarecum prind la curaj și se simt mai încrezuți să zică nu.",
-      "id_user": 1,
-      "info": "0"
+      "start": 3068.112,
+      "end": 3075.982,
+      "text": "Și consider din cauză că s-a implicat foarte mult sistemul educației, de învățământ în procesul electoral.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 459,
-      "start": 3031.96,
-      "end": 3039.84,
-      "text": " Cum observați? În ultimii ani există o tendență ca părinții să devină mai vocali și să fie cumva mai rezistenți împotriva acestor colectări?",
-      "id_user": 7,
-      "info": "0"
+      "start": 3075.982,
+      "end": 3083.821,
+      "text": "O mână spală pe alta. Deci ei fac un serviciu ceva electoral și lor li se dă libertate, ceva de genul.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 460,
-      "start": 3040.04,
-      "end": 3041.48,
-      "text": " A fost, știți, ca o curbă.",
+      "start": 3083.821,
+      "end": 3092.031,
+      "text": "Când o să aibă prioritatea sistemul de învățământ, iată acela e acea clasă politică care se orientează spre cetățeni.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 461,
-      "start": 3042.46,
-      "end": 3045.82,
-      "text": " În 2019 era o tendență spre îmbunătățire.",
+      "start": 3092.348,
+      "end": 3095.212,
+      "text": "Indiferent că-i la nivel de țară, că-i local.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 462,
-      "start": 3046.7200000000003,
-      "end": 3050.2400000000002,
-      "text": " Adică mă refer la Chișinău, ceea ce am perceput.",
+      "start": 3095.212,
+      "end": 3105.871,
+      "text": "Odată ce facem parcuri, dar nu facem școli, deci asta nu mă denotă, că ne, ne interesează populismul, dar nu populația.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 463,
-      "start": 3051.38,
-      "end": 3053.6,
-      "text": " Era o concurență ceva, știți?",
+      "start": 3106.359,
+      "end": 3114.741,
+      "text": "Pentru că un copil cât petrece în parc, dar în școală, ce condiții are el, care le-au... așa le-au scurs din părinți bani.",
       "id_user": 3,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 464,
-      "start": 3053.7400000000002,
-      "end": 3054.14,
-      "text": " Nu știu.",
-      "id_user": 3,
-      "info": "0"
+      "start": 3114.741,
+      "end": 3118.892,
+      "text": "Ce soluții credeți că există? De unde ar trebui să pornească schimbarea?",
+      "id_user": 7,
+      "info": "1"
     },
     {
       "id": 465,
-      "start": 3054.38,
-      "end": 3059.4,
-      "text": " Acum se înrăutățesc lucrurile, pentru că observ.",
-      "id_user": 3,
-      "info": "0"
+      "start": 3118.892,
+      "end": 3128.501,
+      "text": "Nu știu, soluții locale, dar reale, care, așa, cărămidă cu cărămidă să reușească să diminueze fenomenul.",
+      "id_user": 7,
+      "info": "1"
     },
     {
       "id": 466,
-      "start": 3059.4,
-      "end": 3065.46,
-      "text": " Nu mai sunt semnalele cele clare că, uitați-vă, luptăm cu corupția, nu mai trebuie, știți?",
-      "id_user": 3,
-      "info": "0"
+      "start": 3128.71,
+      "end": 3140.511,
+      "text": "Poate voi spune un lucru banal, poate mulți vor zâmbi la ceea ce eu voi spune, dar schimbarea începe de la fiecare dintre noi.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 467,
-      "start": 3065.96,
-      "end": 3067.64,
-      "text": " Înainte era parcă mai vizibil, acum.",
-      "id_user": 3,
-      "info": "0"
+      "start": 3140.679,
+      "end": 3147.691,
+      "text": "Fie că suntem noi părinte, fie că suntem cadru didactic, fie că suntem alt funcționar în altă instituție de stat.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 468,
-      "start": 3068.28,
-      "end": 3075.86,
-      "text": " Și consider din cauza că s-a implicat foarte mult stimulul educației, din învățământ în proces electoral.",
-      "id_user": 3,
-      "info": "0"
+      "start": 3147.691,
+      "end": 3151.522,
+      "text": "Calitatea factorului uman, aceasta contează.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 469,
-      "start": 3076.08,
-      "end": 3077.1600000000003,
-      "text": " O mână spală pe alta.",
-      "id_user": 3,
-      "info": "0"
+      "start": 3151.894,
+      "end": 3167.976,
+      "text": "Pentru că dacă noi punem pe primul loc corectitudinea, principiile, bunul simț, etica profesională, nu în ultimul rând, lucrurile se schimbă.",
+      "id_user": 1,
+      "info": "1"
     },
     {
       "id": 470,
-      "start": 3077.32,
-      "end": 3083.6,
-      "text": " Deci ei fac un serviciu ceva electoral și lor îl se dă libertate, ceva de gen.",
-      "id_user": 3,
-      "info": "0"
+      "start": 3167.976,
+      "end": 3171.873,
+      "text": "A fost un tămbălău și un tam-tam foarte mare atunci când s-au pus camere la examen.",
+      "id_user": 5,
+      "info": "1"
     },
     {
       "id": 471,
-      "start": 3083.6,
-      "end": 3091.6,
-      "text": " Când o să aibă prioritatea sistemul de învățământ, iată ce, e acea clasă politică care se orientează spre cetățenii.",
-      "id_user": 3,
-      "info": "0"
+      "start": 3171.873,
+      "end": 3180.491,
+      "text": "Iată, recent s-a decis că și în clasa noua copiii vor merge în centre de examen și vor susține examenul supravegheați de camerele video.",
+      "id_user": 5,
+      "info": "1"
     },
     {
       "id": 472,
-      "start": 3091.6,
-      "end": 3095.0,
-      "text": " Că e la nivel de țară, că e local.",
-      "id_user": 3,
-      "info": "0"
+      "start": 3180.491,
+      "end": 3185.892,
+      "text": "Cred că din deciziile din ultimile decenii asta a fost cea pe care aș pune-o eu pe primul plan.",
+      "id_user": 5,
+      "info": "1"
     },
     {
       "id": 473,
-      "start": 3095.44,
-      "end": 3105.64,
-      "text": " Odată ce facem parcuri, dar nu facem școli, deci asta nu mă dinotă, că ne interesează populismul, dar nu populația.",
-      "id_user": 3,
-      "info": "0"
+      "start": 3186.29,
+      "end": 3207.792,
+      "text": "Pentru că eu sunt membru de comisie de evaluare la bacalaureat și eu am văzut în anii, din momentul în care s-a luat decizia, s-a făcut această reformă, în patru ani deja s-a văzut tendința fenomenală, da, a copiilor care au înțeles că nu există nicio șansă și că unica șansă este să înveți.",
+      "id_user": 5,
+      "info": "1"
     },
     {
       "id": 474,
-      "start": 3105.64,
-      "end": 3114.6,
-      "text": " Pentru că un copil cât petrece în parc, dar în școală, ce condiții are el, care le-au scurs din părinți bani.",
-      "id_user": 3,
+      "start": 3208.139,
+      "end": 3211.812,
+      "text": "Și veneau, spuneau copiii că veneau primul după inerție.",
+      "id_user": 5,
       "info": "0"
     },
     {
       "id": 475,
-      "start": 3114.8599999999997,
-      "end": 3118.8599999999997,
-      "text": " Ce soluții credeți că există? De unde ar trebui să pornească schimbarea?",
-      "id_user": 7,
-      "info": "0"
+      "start": 3211.812,
+      "end": 3213.424,
+      "text": "Dar unde să aranjăm? Dar unde să cumpărăm?",
+      "id_user": 5,
+      "info": "1"
     },
     {
       "id": 476,
-      "start": 3119.02,
-      "end": 3128.3399999999997,
-      "text": " Nu știu, soluții locale, dar reale, care, așa, cărămidă cu cărămidă să reușească să diminueze fenomenul.",
-      "id_user": 7,
-      "info": "0"
+      "start": 3213.424,
+      "end": 3218.693,
+      "text": "Și erau oamenii care se ocupau profesionist cu lucrul ăsta pe timpurile în care nu erau camere.",
+      "id_user": 5,
+      "info": "1"
     },
     {
       "id": 477,
-      "start": 3128.34,
-      "end": 3140.28,
-      "text": " Poate voi spune un lucru banal, poate mulți vor zâmbi la ceea ce eu voi spune, dar schimbarea începe de la fiecare dintre noi.",
-      "id_user": 1,
-      "info": "0"
+      "start": 3221.066,
+      "end": 3222.912,
+      "text": "Nu, chiar, chiar nu este posibil.",
+      "id_user": 5,
+      "info": "1"
     },
     {
       "id": 478,
-      "start": 3141.06,
-      "end": 3147.48,
-      "text": " Fie că suntem noi părinte, fie că suntem cadru didactic, fie că suntem alt funcționar în alte instituții de stat.",
-      "id_user": 1,
-      "info": "0"
+      "start": 3222.901,
+      "end": 3234.011,
+      "text": "Și atunci, aceiași bani pe care i-ai investit corupând pe cineva, îi investești în spațiul cognitiv al minții copilului dumneavoastră și ai, câștigi două ori.",
+      "id_user": 5,
+      "info": "1"
     },
     {
       "id": 479,
-      "start": 3147.9,
-      "end": 3151.3,
-      "text": " Calitatea factorului umană aceasta contează.",
-      "id_user": 1,
-      "info": "0"
+      "start": 3234.289,
+      "end": 3241.181,
+      "text": "Ministerul Educației de Învățământ fac niște legi foarte... nu aspre.",
+      "id_user": 4,
+      "info": "1"
     },
     {
       "id": 480,
-      "start": 3151.3,
-      "end": 3167.86,
-      "text": " Pentru că dacă noi punem pe primul loc corectitudinea, principiile, bunul simț, etica profesională, nu în ultimul rând, lucrurile se schimbă.",
-      "id_user": 1,
-      "info": "0"
+      "start": 3241.181,
+      "end": 3247.792,
+      "text": "Dar nu, nu se pune baza pe învățământul asupra elevilor.",
+      "id_user": 4,
+      "info": "1"
     },
     {
       "id": 481,
-      "start": 3168.04,
-      "end": 3171.82,
-      "text": " A fost un tămbălău și un tam-tam foarte mare atunci când s-au pus camere la examen.",
-      "id_user": 5,
-      "info": "0"
+      "start": 3248.259,
+      "end": 3253.931,
+      "text": "Acuma de exemplu, s-a făcut lege să nu se copie la examen, clasa noua în centre speciale.",
+      "id_user": 4,
+      "info": "1"
     },
     {
       "id": 482,
-      "start": 3171.82,
-      "end": 3180.1400000000003,
-      "text": " Iată, recent s-a decis că și în casa nouă copiii vor merge în centre de examen și vor susține examenul supravieț de camerele video.",
-      "id_user": 5,
-      "info": "0"
+      "start": 3253.931,
+      "end": 3257.871,
+      "text": "Eu nu cred că aș vedea asta ceva normal.",
+      "id_user": 4,
+      "info": "1"
     },
     {
       "id": 483,
-      "start": 3180.14,
-      "end": 3185.7599999999998,
-      "text": " Eu cred că din deciziile din ultimile decenii asta a fost cea pe care aș pune eu pe primul plan.",
-      "id_user": 5,
-      "info": "0"
+      "start": 3258.079,
+      "end": 3264.481,
+      "text": "Adică niciodată nu s-a făcut controale prin școli, să se vadă calitatea, cum predă profesorul.",
+      "id_user": 4,
+      "info": "1"
     },
     {
       "id": 484,
-      "start": 3186.3799999999997,
-      "end": 3196.24,
-      "text": " Pentru că eu sunt membru de comisii evaluare la bacalaureat și eu am văzut în anii, din momentul în care s-a luat decizia, s-a făcut această reformă,",
-      "id_user": 5,
-      "info": "0"
+      "start": 3264.697,
+      "end": 3266.483,
+      "text": "Niciodată nu am văzut chestia asta.",
+      "id_user": 4,
+      "info": "1"
     },
     {
       "id": 485,
-      "start": 3196.24,
-      "end": 3207.62,
-      "text": " în patru ani deja s-a văzut tendința fenomenală a copiilor care au înțeles că nu există nicio șansă și că unica șansă este să înveți.",
-      "id_user": 5,
-      "info": "0"
+      "start": 3266.483,
+      "end": 3269.063,
+      "text": "Și mi-am dorit întotdeauna în colegiu să fie asta.",
+      "id_user": 4,
+      "info": "1"
     },
     {
       "id": 486,
-      "start": 3207.62,
-      "end": 3211.66,
-      "text": " Și spuneau copiii că veneau primul după inerție.",
-      "id_user": 5,
-      "info": "0"
+      "start": 3269.063,
+      "end": 3279.521,
+      "text": "Sunt din domeniu și cunosc codul de etică al cadrului didactic și atunci eu o să... o să fac o schimbare în felul meu în acest domeniu.",
+      "id_user": 2,
+      "info": "1"
     },
     {
       "id": 487,
-      "start": 3211.88,
-      "end": 3213.4,
-      "text": " Dar unde să aranjăm? Dar unde să cumpărăm?",
-      "id_user": 5,
-      "info": "0"
+      "start": 3279.521,
+      "end": 3283.682,
+      "text": "Și am ieșit în online, mi-am făcut un canal de TikTok.",
+      "id_user": 2,
+      "info": "1"
     },
     {
       "id": 488,
-      "start": 3213.64,
-      "end": 3218.66,
-      "text": " Și erau oamenii care se ocupau profesionist cu lucrul ăsta pe timpurile în care nu erau camere.",
-      "id_user": 5,
-      "info": "0"
+      "start": 3284.031,
+      "end": 3307.242,
+      "text": "Am învățat cum să fac video-uri, să le editez și anonim primesc dovezi de la părinți unde se fac aceste strângeri de bani sau cerințe pentru diferite cadouri, penibile, fonduri care nu-și au rostul.",
+      "id_user": 2,
+      "info": "1"
     },
     {
       "id": 489,
-      "start": 3218.7599999999998,
-      "end": 3219.62,
-      "text": " Și au...",
-      "id_user": 5,
-      "info": "0"
+      "start": 3308.04,
+      "end": 3316.721,
+      "text": "Și în momentul când mă conving că acestea sunt dovezi eligibile, eu le public păstrând anonimatul acelor părinți.",
+      "id_user": 2,
+      "info": "2"
     },
     {
       "id": 490,
-      "start": 3220.5,
-      "end": 3220.8399999999997,
-      "text": " Cata!",
-      "id_user": 5,
-      "info": "0"
+      "start": 3316.721,
+      "end": 3323.901,
+      "text": "Continuăm seria video-ului pe tema că cum se fură din unele grădinițe, din alimentația copiilor.",
+      "id_user": 2,
+      "info": "2"
     },
     {
       "id": 491,
-      "start": 3221.24,
-      "end": 3222.7,
-      "text": " Nu, chiar, chiar nu este poțibil.",
-      "id_user": 5,
-      "info": "0"
+      "start": 3323.901,
+      "end": 3328.311,
+      "text": "Se fură alimente de către angajații acestor grădinițe.",
+      "id_user": 2,
+      "info": "2"
     },
     {
       "id": 492,
-      "start": 3222.7,
-      "end": 3233.8399999999997,
-      "text": " Și atunci, aceiași bani pe care i-ai investit corupând pe cineva, investește în spațiul cognitiv al minții copilului dumneavoastră și ai câștigi două ori.",
-      "id_user": 5,
-      "info": "0"
+      "start": 3328.311,
+      "end": 3334.442,
+      "text": "Și cei care mă cheamă să nu-i judec pe toți și să nu-i pun pe toți în aceeași oală, îi rog să se abțină.",
+      "id_user": 2,
+      "info": "2"
     },
     {
       "id": 493,
-      "start": 3234.4199999999996,
-      "end": 3241.0,
-      "text": " Ministerul Educației de Învățământ fac niște legi foarte... nu aspre.",
-      "id_user": 4,
-      "info": "0"
+      "start": 3334.442,
+      "end": 3346.001,
+      "text": "Fiindcă dacă dumneavoastră nu faceți astfel de fapte să furați din alimentația copiilor, bravo vouă, și veniți să-i condamnăm pe cei care fac aceste comportamente.",
+      "id_user": 2,
+      "info": "2"
     },
     {
       "id": 494,
-      "start": 3241.0,
-      "end": 3247.62,
-      "text": " Dar nu se pune baza pe învățământul asupra elevilor.",
-      "id_user": 4,
-      "info": "0"
+      "start": 3346.001,
+      "end": 3352.242,
+      "text": "Și nu încercați să vă alocați atenție în video-urile mele prin comentarii.",
+      "id_user": 2,
+      "info": "2"
     },
     {
       "id": 495,
-      "start": 3248.36,
-      "end": 3253.0,
-      "text": " Acum, de exemplu, s-a făcut legi, s-a nu scopii la examen, clasa nouă în centri speciali.",
-      "id_user": 4,
-      "info": "0"
+      "start": 3352.242,
+      "end": 3358.162,
+      "text": "Care ar fi soluțiile, în perspectiva dumneavoastră, pentru a lupta cu corupția în instituțiile de învățământ?",
+      "id_user": 7,
+      "info": "1"
     },
     {
       "id": 496,
-      "start": 3254.08,
-      "end": 3257.0,
-      "text": " Eu nu cred că aș fi de asta ceva normal.",
-      "id_user": 4,
-      "info": "0"
+      "start": 3358.162,
+      "end": 3368.621,
+      "text": "Să se termine cu sistemul de piramidă, direcția de învățământ, își caută directori comozi și respectiv ei câștigă concursurile.",
+      "id_user": 2,
+      "info": "1"
     },
     {
       "id": 497,
-      "start": 3258.38,
-      "end": 3264.12,
-      "text": " Adică niciodată nu s-a făcut controle pe școli, să vadă calitatea, cum predă profesorul.",
-      "id_user": 4,
-      "info": "0"
+      "start": 3368.621,
+      "end": 3386.104,
+      "text": "În continuare, directorii preferă profesorii comozi sau educatorii comozi, care nu-i deranjează pentru necesități de reparații, utilare a a clasei.",
+      "id_user": 2,
+      "info": "1"
     },
     {
       "id": 498,
-      "start": 3264.12,
-      "end": 3266.16,
-      "text": " Niciodată nu am văzut chestia asta.",
-      "id_user": 4,
-      "info": "0"
+      "start": 3386.104,
+      "end": 3396.911,
+      "text": "Și profesorii sunt nevoiți să caute părinți care să ia în spate aceste sarcini a statului.",
+      "id_user": 2,
+      "info": "1"
     },
     {
       "id": 499,
-      "start": 3266.5,
-      "end": 3268.74,
-      "text": " Și mi-am dorit întotdeauna în colegi să fie asta.",
-      "id_user": 4,
-      "info": "0"
+      "start": 3397.19,
+      "end": 3407.681,
+      "text": "Am un exemplu de un părinte care, la o grădiniță din Chișinău, educătoarea a înaintat cererea de a strânge bani pentru a schimba geamurile.",
+      "id_user": 2,
+      "info": "1"
     },
     {
       "id": 500,
-      "start": 3269.16,
-      "end": 3279.3199999999997,
-      "text": " Sunt din domeniu și cunosc codul de etică al cadrului didactic și atunci eu o să fac o schimbare în felul meu în acest domeniu.",
+      "start": 3408.448,
+      "end": 3413.132,
+      "text": "Și acel părinte întreba directoarea.",
       "id_user": 2,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 501,
-      "start": 3279.3199999999997,
-      "end": 3283.3599999999997,
-      "text": " Și am ieșit în online, am făcut un canal de TikTok.",
+      "start": 3413.531,
+      "end": 3426.691,
+      "text": "Directoarea nu mai știu ce răspuns i-a dat, dar în momentul când a făcut o cerere la direcția de învățământ, erau chiar geamurile undeva stocate în magaziile grădiniței.",
       "id_user": 2,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 502,
-      "start": 3283.36,
-      "end": 3302.36,
-      "text": " Am învățat cum să fac videouri, să le editez și anonim primesc dovezi de la părinți unde se fac aceste strângeri de bani sau cerințe pentru diferite cadouri,",
+      "start": 3426.691,
+      "end": 3441.389,
+      "text": "Deci acele geamuri existau și nu se știe de ce educătoarea era nevoită să ceară părinților să procure acele geamuri, pe când ele erau deja procurate sau... s-au găsit imediat în în urma cererii.",
       "id_user": 2,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 503,
-      "start": 3302.86,
-      "end": 3307.0,
-      "text": " penibile, fonduri care nu și-au rostul.",
+      "start": 3441.526,
+      "end": 3448.562,
+      "text": "Eu aș spune că e destul să fie unul, doi părinți într-o instituție care să aibă voce.",
       "id_user": 2,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 504,
-      "start": 3307.0,
-      "end": 3316.7,
-      "text": " Și în momentul în care mă convinc că acești sunt dovezi elegibile, eu le public păstând anonimatul acelor părinți.",
+      "start": 3448.779,
+      "end": 3452.932,
+      "text": "Și acești doi părinți au o putere destul de mare ca să facă schimbarea.",
       "id_user": 2,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 505,
-      "start": 3317.16,
-      "end": 3323.74,
-      "text": " Continuăm seria videourului pe temă cum se fură din unele grădinițe, din alimentația copiilor.",
-      "id_user": 2,
-      "info": "0"
+      "start": 3452.932,
+      "end": 3458.582,
+      "text": "Ați vedea șansa într-un viitor mai apropiat sau mai îndelungat să vă reîntoarceți în Moldova?",
+      "id_user": 7,
+      "info": "1"
     },
     {
       "id": 506,
-      "start": 3323.74,
-      "end": 3327.74,
-      "text": " Se fură alimente de către angajații acestor grădinițe.",
+      "start": 3458.582,
+      "end": 3465.732,
+      "text": "Eu această șansă o aștept și în momentul când o să apară o să fie a doua zi întoarcerea mea în țară.",
       "id_user": 2,
-      "info": "0"
+      "info": "1"
     },
     {
       "id": 507,
-      "start": 3328.52,
-      "end": 3334.42,
-      "text": " Și cei care mă cheamă să nu-i judec pe toți și să nu-i pun pe toți în aceeași oală, îi rog să se abțină,",
-      "id_user": 2,
-      "info": "0"
+      "start": 3465.999,
+      "end": 3470.212,
+      "text": "Acum, iată, în circumstanțele în care suntem, cum credeți, ce soluție ar fi?",
+      "id_user": 7,
+      "info": "1"
     },
     {
       "id": 508,
-      "start": 3334.42,
-      "end": 3341.2000000000003,
-      "text": " fiindcă dacă dumneavoastră nu faceți astfel de fapte să furați din alimentația copiilor, bravo vouă,",
-      "id_user": 2,
-      "info": "0"
+      "start": 3470.212,
+      "end": 3473.792,
+      "text": "Ce ar putea face părinții la micronivelurile lor?",
+      "id_user": 7,
+      "info": "1"
     },
     {
       "id": 509,
-      "start": 3341.38,
-      "end": 3345.96,
-      "text": " și veniți să-i condamnăm pe cei care fac aceste comportamente.",
-      "id_user": 2,
-      "info": "0"
+      "start": 3473.792,
+      "end": 3484.461,
+      "text": "Să fii informat, în primul rând, pentru că când îți pune sau îți cere bani, trebuie să zici conform cărui ordin sau conform cărui document eu trebuie să vă dau.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 510,
-      "start": 3346.12,
-      "end": 3352.12,
-      "text": " Și nu încercați să vă alocați atenție în videourile mele prin comentarii.",
-      "id_user": 2,
-      "info": "0"
+      "start": 3484.461,
+      "end": 3485.694,
+      "text": "Deci să fii corect.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 511,
-      "start": 3352.12,
-      "end": 3358.1,
-      "text": " Care ar fi soluțiile, în perspectiva dumneavoastră, pentru a lupta cu corupția în instituțiile de învățământ?",
-      "id_user": 7,
-      "info": "0"
+      "start": 3485.694,
+      "end": 3491.412,
+      "text": "Și dacă ți-l dă, îl iei, îl studiezi acasă, să vezi cine ți-a impus banii aceștia să-i dai.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 512,
-      "start": 3358.2200000000003,
-      "end": 3364.32,
-      "text": " Să se termine cu sistemul de piramidă, direcția de învățământ, își caută directori comozi,",
-      "id_user": 2,
-      "info": "0"
+      "start": 3491.412,
+      "end": 3494.403,
+      "text": "Și din start, să fie trasate niște limite.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 513,
-      "start": 3364.42,
-      "end": 3368.34,
-      "text": " și respectiv ei câștigă concursurile.",
-      "id_user": 2,
-      "info": "0"
+      "start": 3494.403,
+      "end": 3502.172,
+      "text": "Pentru că dacă tu accepți din start să dai și apoi nu dai, este foarte dificil, se creează o, o situație de conflict.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 514,
-      "start": 3368.7200000000003,
-      "end": 3375.52,
-      "text": " În continuare, directorii preferă profesorii comozi sau educatorii comozi,",
-      "id_user": 2,
-      "info": "0"
+      "start": 3502.172,
+      "end": 3513.821,
+      "text": "Și știți, cel mai dureros ceea că personalul didactic, care este chiar cu dedicație, are tot de suferit.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 515,
-      "start": 3375.52,
-      "end": 3385.52,
-      "text": " care nu-i deranjează pentru necesități de reparații, utilarea a clasei.",
-      "id_user": 2,
-      "info": "0"
+      "start": 3514.177,
+      "end": 3515.723,
+      "text": "Dar de ce considerați așa?",
+      "id_user": 7,
+      "info": "1"
     },
     {
       "id": 516,
-      "start": 3385.52,
-      "end": 3396.68,
-      "text": " Și profesorii sunt nevoiți să cauti părinți care să ia în spate aceste sarcini a statului.",
-      "id_user": 2,
-      "info": "0"
+      "start": 3515.961,
+      "end": 3525.181,
+      "text": "Pentru că nu poți să lucrezi într-un mediu în care colegii tăi sunt fără un pic de scrupule, știți?",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 517,
-      "start": 3397.3,
-      "end": 3401.68,
-      "text": " Am un exemplu de un părinte care, la o greziță din Chișinău,",
-      "id_user": 2,
-      "info": "0"
+      "start": 3525.917,
+      "end": 3528.392,
+      "text": "Adică profesorul lucrează într-un mediu, nu?",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 518,
-      "start": 3403.04,
-      "end": 3407.46,
-      "text": " educatoarea a înăintat cererea de a strânge bani pentru a schimba geamurile.",
-      "id_user": 2,
-      "info": "0"
+      "start": 3528.392,
+      "end": 3536.822,
+      "text": "Dacă cinci profesori colectează bani și își permit pe lângă salariu asta, îl privesc pe acela ca oaia neagră.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 519,
-      "start": 3407.46,
-      "end": 3412.8,
-      "text": " Și acel părinte întreba directoarea.",
-      "id_user": 2,
-      "info": "0"
+      "start": 3536.822,
+      "end": 3542.432,
+      "text": "Doar niște intervenții radicale la... la nivel central s-ar putea schimba.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 520,
-      "start": 3413.82,
-      "end": 3419.82,
-      "text": " Directoarea nu mai știu ce răspuns i-a dat, dar în momentul când a făcut o cerere la direcție de învățământ,",
-      "id_user": 2,
-      "info": "0"
+      "start": 3542.83,
+      "end": 3554.141,
+      "text": "Deci prima, eu cred că salariul, să fie majorat salariul la cadru didactic și de făcut o selecție foarte drastică.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 521,
-      "start": 3420.66,
-      "end": 3426.6,
-      "text": " erau chiar geamurile undeva stocate în magaziile grăginiței.",
-      "id_user": 2,
-      "info": "0"
+      "start": 3554.141,
+      "end": 3561.481,
+      "text": "Deci să creezi condiții bune personalului ca să creezi o concurență și să-l selectezi foarte riguros.",
+      "id_user": 3,
+      "info": "1"
     },
     {
       "id": 522,
-      "start": 3426.6,
-      "end": 3435.66,
-      "text": " Deci acele geamuri existau și nu se știe de ce educatoarea era nevoită să ceară părinților să procure acele geamuri,",
-      "id_user": 2,
-      "info": "0"
+      "start": 3561.481,
+      "end": 3566.742,
+      "text": "Eu nu știu dacă în în în universitățile din Republica Moldova este corupție.",
+      "id_user": 4,
+      "info": "2"
     },
     {
       "id": 523,
-      "start": 3435.66,
-      "end": 3441.66,
-      "text": " când ele erau deja procurate sau s-au găsit imediat în urma cererii.",
-      "id_user": 2,
-      "info": "0"
+      "start": 3566.742,
+      "end": 3569.352,
+      "text": "Adică încă n-am ajuns acolo ca să...",
+      "id_user": 4,
+      "info": "1"
     },
     {
       "id": 524,
-      "start": 3441.7799999999997,
-      "end": 3448.2999999999997,
-      "text": " Eu aș spune că e destul să fie unul, doi părinți într-o instituție care să aibă voce.",
-      "id_user": 2,
-      "info": "0"
-    },
-    {
-      "id": 525,
-      "start": 3448.7799999999997,
-      "end": 3452.8199999999997,
-      "text": " Și acești doi părinți au o putere destul de mare ca să facă schimbarea.",
-      "id_user": 2,
-      "info": "0"
-    },
-    {
-      "id": 526,
-      "start": 3452.82,
-      "end": 3458.38,
-      "text": " Ați vedea șansa într-un viitor mai apropiat sau mai îndelungat să vă reîntoarceți în Moldova?",
-      "id_user": 7,
-      "info": "0"
-    },
-    {
-      "id": 527,
-      "start": 3458.6800000000003,
-      "end": 3466.04,
-      "text": " Eu această șansă o aștept și în momentul când o să apară o să fie a doua zi întoarcerea mea în țară.",
-      "id_user": 2,
-      "info": "0"
-    },
-    {
-      "id": 528,
-      "start": 3466.06,
-      "end": 3469.94,
-      "text": " Acum, iată, în circunstanțele în care suntem, cum credeți, ce soluție ar fi?",
-      "id_user": 7,
-      "info": "0"
-    },
-    {
-      "id": 529,
-      "start": 3470.32,
-      "end": 3473.54,
-      "text": " Ce ar putea face părinții la micronivelurile lor?",
-      "id_user": 7,
-      "info": "0"
-    },
-    {
-      "id": 530,
-      "start": 3473.54,
-      "end": 3479.1800000000003,
-      "text": " Să fii informat, în primul rând, pentru că când îți pune sau îți cere bani,",
-      "id_user": 3,
-      "info": "0"
-    },
-    {
-      "id": 531,
-      "start": 3479.18,
-      "end": 3484.24,
-      "text": " trebuie să zici cum fără cărui ordini sau cum fără cărui document eu trebuie să vă dau.",
-      "id_user": 3,
-      "info": "0"
-    },
-    {
-      "id": 532,
-      "start": 3484.6,
-      "end": 3485.6,
-      "text": " Deci să fii corect.",
-      "id_user": 3,
-      "info": "0"
-    },
-    {
-      "id": 533,
-      "start": 3485.72,
-      "end": 3491.3599999999997,
-      "text": " Și dacă ți-l dă, îl iai, îl studiezi acasă, să vezi cine ți-a impus banii aceștia să-i dai.",
-      "id_user": 3,
-      "info": "0"
-    },
-    {
-      "id": 534,
-      "start": 3491.58,
-      "end": 3494.2599999999998,
-      "text": " Și din start, să fie trasat în niște limite.",
-      "id_user": 3,
-      "info": "0"
-    },
-    {
-      "id": 535,
-      "start": 3494.4199999999996,
-      "end": 3497.8199999999997,
-      "text": " Pentru că dacă tu accepti din start să dai și apoi nu dai,",
-      "id_user": 3,
-      "info": "0"
-    },
-    {
-      "id": 536,
-      "start": 3497.82,
-      "end": 3501.94,
-      "text": " este foarte dificil să creează o situație de conflict.",
-      "id_user": 3,
-      "info": "0"
-    },
-    {
-      "id": 537,
-      "start": 3502.34,
-      "end": 3507.38,
-      "text": " Și știți, cel mai dureros ce e că personal didactic,",
-      "id_user": 3,
-      "info": "0"
-    },
-    {
-      "id": 538,
-      "start": 3508.38,
-      "end": 3513.6600000000003,
-      "text": " care este chiar cu dedicație, are tot de suferit.",
-      "id_user": 3,
-      "info": "0"
-    },
-    {
-      "id": 539,
-      "start": 3514.2400000000002,
-      "end": 3515.52,
-      "text": " Dar de ce considerați așa?",
-      "id_user": 7,
-      "info": "0"
-    },
-    {
-      "id": 540,
-      "start": 3515.96,
-      "end": 3524.7400000000002,
-      "text": " Pentru că nu poți să lucrezi într-un mediu în care colegii tăi sunt fără un pic de scrupule.",
-      "id_user": 3,
-      "info": "0"
-    },
-    {
-      "id": 541,
-      "start": 3524.74,
-      "end": 3528.14,
-      "text": " Adică profesorul lucrează într-un mediu, nu?",
-      "id_user": 3,
-      "info": "0"
-    },
-    {
-      "id": 542,
-      "start": 3528.56,
-      "end": 3534.04,
-      "text": " Dacă cinci profesori colectează bani și își permiți pe lângă salariul ăsta,",
-      "id_user": 3,
-      "info": "0"
-    },
-    {
-      "id": 543,
-      "start": 3534.16,
-      "end": 3536.7799999999997,
-      "text": " îl privesc pe celălalt ca oaie neagră.",
-      "id_user": 3,
-      "info": "0"
-    },
-    {
-      "id": 544,
-      "start": 3536.9399999999996,
-      "end": 3542.16,
-      "text": " Doar niște intervenții radicale la nivel central s-ar putea schimba.",
-      "id_user": 3,
-      "info": "0"
-    },
-    {
-      "id": 545,
-      "start": 3542.8999999999996,
-      "end": 3549.4799999999996,
-      "text": " Deci prima, eu cred că salariul, să fie majorat salariul la cadru didactic",
-      "id_user": 3,
-      "info": "0"
-    },
-    {
-      "id": 546,
-      "start": 3549.4799999999996,
-      "end": 3553.74,
-      "text": " și de făcut o selecție foarte drastică.",
-      "id_user": 3,
-      "info": "0"
-    },
-    {
-      "id": 547,
-      "start": 3553.74,
-      "end": 3558.66,
-      "text": " Deci să creezi condiții bune personalului ca să creezi o concurență",
-      "id_user": 3,
-      "info": "0"
-    },
-    {
-      "id": 548,
-      "start": 3558.66,
-      "end": 3561.2999999999997,
-      "text": " și să-l selectez foarte riguros.",
-      "id_user": 3,
-      "info": "0"
-    },
-    {
-      "id": 549,
-      "start": 3561.72,
-      "end": 3566.5,
-      "text": " Eu nu știu dacă în universitățile din Republica Moldova este corupție.",
+      "start": 3570.159,
+      "end": 3575.572,
+      "text": "Dar dacă ar exista corupție, cred că mi-aș lua documentele și aș pleca peste hotare.",
       "id_user": 4,
-      "info": "0"
-    },
-    {
-      "id": 550,
-      "start": 3566.9799999999996,
-      "end": 3568.74,
-      "text": " Adică încă n-am ajuns acolo ca să...",
-      "id_user": 4,
-      "info": "0"
-    },
-    {
-      "id": 551,
-      "start": 3570.2,
-      "end": 3575.3799999999997,
-      "text": " Dar dacă ar exista corupție, cred că mi-aș lua documentele și aș pleca peste hotare.",
-      "id_user": 4,
-      "info": "0"
+      "info": "1"
     }
   ]
 }
