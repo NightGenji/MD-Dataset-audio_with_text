@@ -82,3 +82,8 @@ USER 6 - Foreign user that speaks Romanian
 -- celea, ceea, ceia - posibil in unele locuri trebuie -> acelea, aceea, etc... pentru scopuri gramatice
 -- Numerele 0-9 de inlocuit cu litere
 -- Unele segmente pot fi separate (prea multe propozitii in  un segment)
+
+==== TODO Scripts
+-- from subtitles by whisper to update the ID's in manual subtitles to match more
+    or less the ID's from whisper so that i can find them faster(even if ID's get dublicated)
+-- from Create_target_mp3 PY file, move all functions to Scripts FOLDER

@@ -38,10 +38,11 @@ MARGIN = 1.5
 LENGTH_PER_05_SEC = 50  # pixels per 0.5 sec
 # from wich ID to start editing
 
-WORKING_DIR_NUMBER = 9
-START_EDITING = 269
+WORKING_DIR_NUMBER = 8
+START_EDITING = 314
 
-# Done : 1, 2, 3, 4, 5, 6, 7, 8, 
+List_idx = 0
+EDITING_LIST = []
 
 """first arg  -> takes a WORKING_DIR_NUMBER value"""
 """second arg -> takes a START_EDITING value"""
@@ -550,6 +551,53 @@ class Repair_Audio:
 
     def brain(self):
         self.load_segment()
+        # self.find_target_segments()
+
+    def find_target_segments(self):
+        """This function targets certainf segments in EDITING_LIST"""
+        global List_idx
+
+        if len(EDITING_LIST) <= List_idx:
+            self.leave()
+        self.id_curr_seg = EDITING_LIST[List_idx]
+        List_idx += 1
+
+        if not (0 <= self.id_curr_seg < len(self.data[SEGMENTS])):
+            self.leave()
+        item = self.data[SEGMENTS][self.id_curr_seg]
+
+        self.reset_button_sink()
+        self.reset_button_setup()
+
+        # Variables
+        # self.start_var.set(item[START_SEG] if self.last_end_time == -1 else self.last_end_time)
+        self.start_var.set(item[START_SEG])
+
+        self.end_var.set(item[END_SEG])
+        self.info_text.set(f'ID: {item[ID_SEG]}/{len(self.data[SEGMENTS])} | User: {item[ID_USER]} | INFO: {item[INFO_SEG]}')
+        self.select_mark.set(-1)
+
+        self.disp_start = max(self.start_var.get() - MARGIN, 0)
+        self.disp_end = min(self.end_var.get() + MARGIN, self.audio.duration_seconds)
+
+        # Change canvas size
+        width = min(1900, int(((self.disp_end - self.disp_start) / 0.5) * LENGTH_PER_05_SEC))
+        self.canvas.config(width=width)
+
+        # Update Text
+        if self.txt_curr['state'] == 'disabled':
+            self.swich_text_access()
+        self.txt_past.delete("1.0", tk.END)
+        self.txt_past.insert(tk.END, self._return_text_value_or_default(self.id_curr_seg - 1))
+        self.txt_curr.delete("1.0", tk.END)
+        self.txt_curr.insert(tk.END, item[TEXT_SEG])
+        self.txt_next.delete("1.0", tk.END)
+        self.txt_next.insert(tk.END, self._return_text_value_or_default(self.id_curr_seg + 1))
+        # self.swich_text_access()
+
+        self.update_word_links()
+        self.define_markers()
+        self.draw_all()
 
     def load_segment(self):
         """This function dictates wich segments to edit, can be modified to suit the user's needs"""
@@ -570,8 +618,8 @@ class Repair_Audio:
         self.reset_button_setup()
 
         # Variables
-        self.start_var.set(item[START_SEG] if self.last_end_time == -1 else self.last_end_time)
-        # self.start_var.set(item[START_SEG])
+        # self.start_var.set(item[START_SEG] if self.last_end_time == -1 else self.last_end_time)
+        self.start_var.set(item[START_SEG])
 
         self.end_var.set(item[END_SEG])
         self.info_text.set(f'ID: {item[ID_SEG]}/{len(self.data[SEGMENTS])} | User: {item[ID_USER]} | INFO: {item[INFO_SEG]}')
