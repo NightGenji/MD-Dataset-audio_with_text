@@ -3,8 +3,9 @@ import sys
 from data_handling.DataAccess import DataAccess
 
 from filter_func.ManageFiltered import ManageFiltered
-from filter_func.find_numbers import find_numbers
 from filter_func.find_info_text import find_info_text
+from filter_func.find_numbers import find_numbers
+from filter_func.find_words import find_words
 
 from functions.count_time import count_time
 
@@ -37,12 +38,13 @@ def main():
 
         # # 2 ===== Data Processing ============================================================
         # data_coll = find_numbers(dataAccess.data)
-        # manageFiltered.create_filtered_subfolder(dataAccess.data, data_coll, True)
+        data_coll = find_words(dataAccess.data)
+        manageFiltered.create_filtered_subfolder(dataAccess.data, data_coll, True)
         # # 2 ========================================= END
 
         # 2 ===== Data Processing ============================================================
-        data_coll = find_info_text(dataAccess.data)
-        manageFiltered.create_filtered_subfolder(dataAccess.data, data_coll)
+        # data_coll = find_info_text(dataAccess.data)
+        # manageFiltered.create_filtered_subfolder(dataAccess.data, data_coll)
         # 2 ========================================= END
 
         # Total dataset time

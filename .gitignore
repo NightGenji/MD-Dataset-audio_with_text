@@ -2,8 +2,10 @@ v_environment
 **/__pycache__/
 .vscode
 *.webm
+*.mp4
 my_data/*/clips
 my_data/*/*.mp3
 my_good_subs.json
 my_filtered_data/*
 md_dataset/*
+my_data/11.*

@@ -38,8 +38,8 @@ MARGIN = 1.5
 LENGTH_PER_05_SEC = 50  # pixels per 0.5 sec
 # from wich ID to start editing
 
-WORKING_DIR_NUMBER = 8
-START_EDITING = 314
+WORKING_DIR_NUMBER = 0
+START_EDITING = 0
 
 List_idx = 0
 EDITING_LIST = []
@@ -97,9 +97,15 @@ class Changes_Words:
         else:
             self.read_from_disk()
 
+    def sort_dict_dict(self):
+        for category in self.file_data:
+            self.file_data[category] = dict(
+                sorted(self.file_data[category].items(), key=lambda item: item[0])
+            )
+
     def save_to_disk(self):
         with open(self.file_name, 'w', encoding='utf-8') as f:
-            json.dump(self.file_data, f, indent=2)
+            json.dump(self.file_data, f, indent=2, ensure_ascii=False)
 
     def read_from_disk(self):
         with open(self.file_name, 'r', encoding='utf-8') as f:
@@ -117,6 +123,7 @@ class Changes_Words:
                 self.file_data[category][key] = new_value
         else:
             self.file_data[category][key] = value
+        self.sort_dict_dict()
         self.save_to_disk()
 
     def get_related_links(self, txt_curr: str):
@@ -550,8 +557,8 @@ class Repair_Audio:
         return False
 
     def brain(self):
-        self.load_segment()
-        # self.find_target_segments()
+        # self.load_segment()
+        self.find_target_segments()
 
     def find_target_segments(self):
         """This function targets certainf segments in EDITING_LIST"""

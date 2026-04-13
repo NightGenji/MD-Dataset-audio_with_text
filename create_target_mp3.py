@@ -4,7 +4,9 @@ import json
 import math
 import os
 import re
+import shutil
 import subprocess
+import sys
 
 from moviepy import ColorClip
 import whisper
@@ -31,9 +33,9 @@ TEXT_SEG  = "text"
 ID_USER   = "id_user"
 LIST_TIME = "list_time"
 
-WORKING_DIR_NUMBER = 12
+WORKING_DIR_NUMBER = 8
 DIR_NAME_LEN = 30
-URL_NOW = ["..."]
+URL_NOW = ["https://www.youtube.com/watch?v=_hXoNrJ1CMk"]
 
 def get_the_data_in_subtitle_json(folder: str):
     with open(MY_DATA + folder + '/' + SUBTITLES, "r", encoding="utf-8") as file:
@@ -298,41 +300,87 @@ def check_correctness_words():
 
 class Assign_Voices:
     @staticmethod
-    def choose_users(folder: str):  # TODO can be improved
+    def _strip_ansi(text: str) -> str:
+        """Remove ANSI escape codes to get the visible character count."""
+        return re.sub(r'\033\[[0-9;]*m', '', text)
+
+    @staticmethod
+    def _lines_used(text: str, width: int) -> int:
+        """How many terminal rows does this string actually occupy?"""
+        visible = Assign_Voices._strip_ansi(text)
+        # Empty string still occupies 1 row after print()
+        if len(visible) == 0:
+            return 1
+        return math.ceil(len(visible) / width)
+
+    @staticmethod
+    def choose_users(folder: str):
         data = get_the_data_in_subtitle_json(folder)
 
-        # TODO Every time you get one wrong, make it so that
-        # you don't need to exit to correct manually, make a go back option
+        MOVE_UP   = "\033[F"   # Move cursor up one line
+        CLEAR_LINE = "\033[2K" # Clear entire current line (2K is safer than K)
 
-        # Define a list of vibrant colors (Red, Green, Yellow, Blue, Magenta, Cyan)
-        colors = ["\033[91m", "\033[92m", "\033[94m", "\033[95m", "\033[96m"]
-        reset = "\033[0m"
+        colors     = ["\033[91m", "\033[92m", "\033[94m", "\033[95m", "\033[96m"]
+        reset      = "\033[0m"
         yellow_bold = "\033[1;93m"
 
         new_value = -1
-        # for seg in data[SEGMENTS]:
         i = 0
         while i < len(data[SEGMENTS]) and i >= 0:
             seg = data[SEGMENTS][i]
 
             if seg[ID_USER] < 0:
-                current_color = colors[i % len(colors)]
-                print(f"{current_color}Segment ID: {seg[ID_SEG]}{reset}")
-                print(f"{yellow_bold}Text: {seg[TEXT_SEG]}{reset}")
-                read_value = input(f"{current_color}INSERT: New ID || -1 for exit || -2 go back || ENTER for {new_value}: {reset}")
+                # Snapshot terminal width right before printing
+                term_width = shutil.get_terminal_size().columns
 
+                current_color = colors[i % len(colors)]
+
+                line1 = " ========= ========= ========= ========= ========= ========= ========= ========= ========= ========= "
+                line2 = f"{current_color}Segment ID: {seg[ID_SEG]}{reset}"
+                line3 = f"{yellow_bold}Text: {seg[TEXT_SEG]}{reset}"
+                prompt = f"{current_color}INSERT: New ID || -1 for exit || -2 go back || ENTER for {new_value}: {reset}"
+
+                print(line1)
+                print(line2)
+                print(line3)
+                read_value = input(prompt)
+
+                # --- Erase everything that was just printed ---
+                # input() itself occupies: prompt text + whatever the user typed
+                input_visible = Assign_Voices._strip_ansi(prompt) + read_value
+                rows_to_erase = (
+                    Assign_Voices._lines_used(line1,  term_width) +
+                    Assign_Voices._lines_used(line2,  term_width) +
+                    Assign_Voices._lines_used(line3,  term_width) +
+                    math.ceil(len(input_visible) / term_width or 1)
+                )
+
+                # Move up and wipe each row
+                for _ in range(rows_to_erase):
+                    sys.stdout.write(MOVE_UP + CLEAR_LINE)
+                sys.stdout.flush()
+
+                print(line2)
+                print(line3)
+
+                # --- Process input ---
                 if len(read_value) != 0:
                     new_value = int(read_value)
-                    if new_value == -1:
-                        print(" <><><> Exiting PROTOCOL <><><>")
-                        break
-                    if new_value == -2:
-                        print(" <><><> ================================ BACK PROTOCOL ================================ <><><>")
-                        if i - 1 >= 0:
-                            data[SEGMENTS][i-1][ID_USER] = -1
-                        else:
-                            break
-                        i -= 2
+                    print(f"{current_color}NEW  Selected Value User: {new_value}\n{reset}")
+                else:
+                    print(f"{current_color}PAST Selected Value User: {new_value}\n{reset}")
+
+                if new_value == -1:
+                    print(" <><><> Exiting PROTOCOL <><><>")
+                    break
+
+                if new_value == -2:
+                    print(" <><><> ======= BACK PROTOCOL ======= <><><>")
+                    if i - 1 >= 0:
+                        data[SEGMENTS][i - 1][ID_USER] = -1
+                        i -= 1
+                    continue
+
                 seg[ID_USER] = new_value
             i += 1
 
@@ -557,7 +605,7 @@ if __name__ == "__main__":
 
     # STEP Finally: HELPER in checking if users are assigned good
     # --First it downloads the video(it may take a while)
-    # Assign_Voices.check_users_ifGood(name)
+    Assign_Voices.check_users_ifGood(name)
 
     # OPTIONALLY and TODO: Create register.tsv
     # create_Register(name)
