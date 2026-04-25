@@ -10,24 +10,32 @@ pip install -r req_just_edit.txt
 export PS1="\u@\h:\W\$ "   // pentru scurtarea terminalului
 
 
+=====================================================================
 !! IF any video link IS FAULTY, i have the downloaded MP3 in my drive.
 https://drive.google.com/drive/folders/1YFbkr-4xjO1sYK35ZRTHtsThecwgW8-8
 
---DATASET LOGIC - write every word i hear in romanian more or less how i hear it but
-        considering it's right way of writing
 
+=====================================================================
+--DATASET LOGIC - Mainly goes by what the user actually speaks
+"id" - audio segment identification
+"start" - start time of audio segment
+"end" - end time of audio segment
+"text" - The actual sentence the User says
+    --- Contains dublicates like "pe cer mai... mai sus"
+    --- Not normalised: "să-mi dea" not normalised in "să îmi dea"
+    --- Some words normalised(consult changed_words.json)
+"id_user" - ID of user that speaks
+    --- Each Video starts from id_user 1, so all videos will have ID 1, but different speakers
+    --- ID 7 is for THE hosts in the show, so there are multiple persons under ID 7 of the same VIDEO
+"info" - Has values that characterise only the TEXT quality
+    --- can have only 0 or 1 or 2 like: 0..., 1..., 2..., + in combination with others [3-9]
+    --- 0 - BAD, DO NOT USE FOR DATASET
+    --- 1 - Perfect
+    --- 2 - Needs corrections maybe, but still usable
+    --- 9 - Signifies Background NOISE(may affect voice). Placed after 0,1,2. (ex: "09", "19")
 
 
 ======================== Used Video and Notes =======================
-???
-    In All videos there are many persons that acts like the host of the show
-    The ID of the host will be specified here - All those persons under one specific ID -> 7
-???
-    The segment will have type 0,1,2
-        0 - BAD, DO NOT USE FOR DATASET
-        1 - Perfect
-        2 - Needs corrections maybe, but still usable
-
 ========= Video 1 - ONE ==========
 == Data : "https://www.youtube.com/watch?v=mUf8-mQjje4" - Noi toți vrem să fim bogați
 
@@ -39,12 +47,10 @@ https://drive.google.com/drive/folders/1YFbkr-4xjO1sYK35ZRTHtsThecwgW8-8
 
 ========= Video 4 - FOUR =========
 == Data : "https://www.youtube.com/watch?v=7YSXISrL2rs" - De ce ne schimbăm religia?
-Recommend:
-îmbrobezi -> îmbrobodești
 
 ========= Video 5 - FIVE =========
 == Data : "https://www.youtube.com/watch?v=j8Z8vvKg5bA" - Dacă faci o afacere pentru oameni...
-USER 6 - Foreign user that speaks Romanian
+USER - Foreign French user -- DELETED
 
 ========= Video 6 - SIX ==========
 == Data : "https://www.youtube.com/watch?v=epFAoR1RKo8" - Bătaia nu e ruptă din rai.
@@ -63,6 +69,7 @@ USER 6 - Foreign user that speaks Romanian
 
 ========= Video 11 - ELEVEN ======
 == Data : "https://www.youtube.com/watch?v=ggaVblGO-ZI" - Lumea caută ceva WOW.
+USER - Foreign Italian user -- DELETED
 
 ========= Video 12 - TWELVE ======
 == Data : "https://www.youtube.com/watch?v=A5Ssdoq3fXk" - 
@@ -77,11 +84,7 @@ USER 6 - Foreign user that speaks Romanian
 
 ==== TODO
 -- play button customisation
--- add a list for each video to list the bad ID's that may be with problems and maybe a small description of the problem
-
--- celea, ceea, ceia - posibil in unele locuri trebuie -> acelea, aceea, etc... pentru scopuri gramatice
--- Numerele 0-9 de inlocuit cu litere
--- Unele segmente pot fi separate (prea multe propozitii in  un segment)
+-- Unele segmente - separate sau unite pentru a face o propozitie(TODO INCOMPLETE)
 
 ==== TODO Scripts
 -- from subtitles by whisper to update the ID's in manual subtitles to match more

@@ -33,9 +33,44 @@ TEXT_SEG  = "text"
 ID_USER   = "id_user"
 LIST_TIME = "list_time"
 
-WORKING_DIR_NUMBER = 8
+WORKING_DIR_NUMBER = 0
 DIR_NAME_LEN = 30
-URL_NOW = ["https://www.youtube.com/watch?v=_hXoNrJ1CMk"]
+URL_NOW = [
+    "https://www.youtube.com/watch?v=mUf8-mQjje4",  # 1
+    "https://www.youtube.com/watch?v=PduZkR9j79E",  # 2
+    "https://www.youtube.com/watch?v=KSuqabzhxjg",  # 3
+    "https://www.youtube.com/watch?v=7YSXISrL2rs",  # 4
+    "https://www.youtube.com/watch?v=j8Z8vvKg5bA",  # 5
+    "https://www.youtube.com/watch?v=epFAoR1RKo8",  # 6
+    "https://www.youtube.com/watch?v=zGREIEtFMa0",  # 7
+    "https://www.youtube.com/watch?v=_hXoNrJ1CMk",  # 8
+    "https://www.youtube.com/watch?v=d_J17CMh6wM",  # 9
+    "https://www.youtube.com/watch?v=m8aXzMhFooc",  # 10
+    "https://www.youtube.com/watch?v=ggaVblGO-ZI",  # 11
+    "https://www.youtube.com/watch?v=A5Ssdoq3fXk",  # 12
+    "https://www.youtube.com/watch?v=TOFItbQPJvc",  # 13
+    "https://www.youtube.com/watch?v=TGjYC5wj4jQ",  # 14
+    "https://www.youtube.com/watch?v=sTFuAKY0uNw",  # 15
+    "https://www.youtube.com/watch?v=ihC7l9xJfao",  # 16
+    "https://www.youtube.com/watch?v=dB0fbvB939E",  # 17
+    "https://www.youtube.com/watch?v=u0yoPfrqowU",  # 18
+    "https://www.youtube.com/watch?v=bAw0dT6I4Z8",  # 19
+    "https://www.youtube.com/watch?v=5GKSJc0HGJM",  # 20
+    "https://www.youtube.com/watch?v=zsZfeJgQjg0",  # 21
+    "https://www.youtube.com/watch?v=s6GmIiuj7BU",  # 22
+    "https://www.youtube.com/watch?v=aobNizOLLD8",  # 23
+    "https://www.youtube.com/watch?v=xJsyZW_WeRM",  # 24
+    "https://www.youtube.com/watch?v=xWa7p7vKnvw",  # 25
+    "https://www.youtube.com/watch?v=GboPrCWgTNA",  # 26
+    "https://www.youtube.com/watch?v=JrJCsl80rTE",  # 27
+    "https://www.youtube.com/watch?v=mXV7ZpEaLKc",  # 28
+    "https://www.youtube.com/watch?v=5m8Tj5JiFkU",  # 29
+    "https://www.youtube.com/watch?v=1uUelBHc6wE",  # 30
+    "https://www.youtube.com/watch?v=31g-RaP3TQ0",  # 31
+    "https://www.youtube.com/watch?v=c_WozwF9YsU",  # 32  -  27 useri
+    "https://www.youtube.com/watch?v=Rfp7EbYPaxs",  # 33  -  14 useri
+    "https://www.youtube.com/watch?v=nkTXkmAYdcs",  # 34
+]
 
 def get_the_data_in_subtitle_json(folder: str):
     with open(MY_DATA + folder + '/' + SUBTITLES, "r", encoding="utf-8") as file:
@@ -68,7 +103,15 @@ def next_free_working_folder_number() -> int:
         max_number = max(num, max_number)
     return max_number + 1
 
-def download_audio():
+def download_audio(work_dir_number) -> bool:
+    for file in os.listdir(MY_DATA):
+        target_dir = os.path.join(MY_DATA, file)
+        
+        if file.startswith(str(work_dir_number) + ".") and os.path.isdir(target_dir):
+            if any(f.endswith(".mp3") for f in os.listdir(target_dir)):
+                print(f"!!!! Audio in {file} already exists. Skipping download.")
+                return False
+
     opts = {
         "format": "bestaudio",
         "outtmpl": MY_DATA + "%(title)s.%(ext)s",
@@ -79,7 +122,7 @@ def download_audio():
         }],
     }
     with yt_dlp.YoutubeDL(opts) as ydl:
-        ydl.download(URL_NOW)
+        ydl.download([URL_NOW[work_dir_number - 1]])
     # rename the file to a shorter name
     for mp3_file in os.listdir(MY_DATA):
         if not mp3_file.endswith(".mp3"):
@@ -93,6 +136,8 @@ def download_audio():
 
         mp3_file2 = mp3_file2[:DIR_NAME_LEN] + ".mp3"
         os.rename(MY_DATA + mp3_file, path + mp3_file2)
+
+    return True
 
 def get_subtitles(folder: str):
     mp3_file = ".".join(folder.split(".")[1:]) + ".mp3"
@@ -391,7 +436,7 @@ class Assign_Voices:
         vid_extens = ".webm"  # !!! May be prone to changing !!!
         output_file = "vid_" + folder[:min(10, DIR_NAME_LEN)]
         if not os.path.exists(output_file + vid_extens):
-            url = URL_NOW
+            url = [URL_NOW[WORKING_DIR_NUMBER - 1]]
             opts = {
                 "format": "bestvideo[height<=480]+bestaudio/best[height<=480]",
                 "quiet": True,
@@ -573,10 +618,23 @@ def get_youtube_subs(folder, full_url):
     with open(MY_DATA + folder + '/' + output_filename, "w", encoding="utf-8") as f:
         json.dump(dataset, f, ensure_ascii=False, indent=2)
 
+def check_dublicates_url():
+    if len(set(URL_NOW)) != len(URL_NOW):
+        print("<><><> DUPLICATE URL DETECTED <><><>")
+        sys.exit(-1)
+
 
 if __name__ == "__main__":
+    check_dublicates_url()
+
+    # HELPER: FOR quick audio downloads from links(URLs)
+    # for idx, _ in enumerate(URL_NOW):
+    #     work_dir_num = idx + 1
+    #     if not download_audio(work_dir_num):
+    #         continue
+
     # STEP 1: Download mp3 from URL 
-    # download_audio()
+    # download_audio(WORKING_DIR_NUMBER)
 
     # ALWAYS active segment of code------------!!!!!!!!!
     name = get_working_folder_name(WORKING_DIR_NUMBER)
@@ -605,7 +663,7 @@ if __name__ == "__main__":
 
     # STEP Finally: HELPER in checking if users are assigned good
     # --First it downloads the video(it may take a while)
-    Assign_Voices.check_users_ifGood(name)
+    # Assign_Voices.check_users_ifGood(name)
 
     # OPTIONALLY and TODO: Create register.tsv
     # create_Register(name)

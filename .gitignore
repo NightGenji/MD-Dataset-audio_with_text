@@ -8,4 +8,9 @@ my_data/*/*.mp3
 my_good_subs.json
 my_filtered_data/*
 md_dataset/*
-my_data/11.*
+
+my_data/1*.*
+my_data/2*.*
+my_data/3*.*
+
+!my_data/10.*
