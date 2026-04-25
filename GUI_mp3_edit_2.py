@@ -29,17 +29,19 @@ TEXT_SEG  = "text"          # The correct grammatically more or less format
 ID_USER   = "id_user"
 INFO_SEG  = "info"          # How good is it
 LIST_TIME = "list_time"
-# ALT_TEXT_SEG  = "alt_text"  # How i hear it format TODO in future some modifications
 
-SKIPPED = "SKIPPED-- "
-
-# visual audio drawing parameters
+# Visual audio drawing parameters
 MARGIN = 1.5
 LENGTH_PER_05_SEC = 50  # pixels per 0.5 sec
-# from wich ID to start editing
 
-WORKING_DIR_NUMBER = 0
-START_EDITING = 0
+# WORKING_DIR_NUMBER = 2  # From review '1' segments
+# START_EDITING = 358
+
+# Notes: 1-10 with corrected speeck
+#      : 11-... only audio
+
+WORKING_DIR_NUMBER = 18
+START_EDITING = 192
 
 List_idx = 0
 EDITING_LIST = []
@@ -47,6 +49,53 @@ EDITING_LIST = []
 """first arg  -> takes a WORKING_DIR_NUMBER value"""
 """second arg -> takes a START_EDITING value"""
 # TODO frame where it shows problems that chatGPT pinpoints
+
+
+def ask_yes_no_mouse(parent: tk.Tk, title: str, message: str) -> bool:
+    """Custom yes/no dialog: mouse Forward (Button-9) = Yes, mouse Back (Button-8) = No."""
+    result = [False]
+
+    dialog = tk.Toplevel(parent)
+    dialog.title(title)
+    dialog.resizable(False, False)
+    dialog.configure(bg="#1e1e1e")
+    dialog.grab_set()  # modal
+
+    # Center on screen
+    dialog.update_idletasks()
+    w, h = 360, 180
+    sw = dialog.winfo_screenwidth()
+    sh = dialog.winfo_screenheight()
+    x = (sw - w) // 2
+    y = (sh - h) // 2
+    dialog.geometry(f"{w}x{h}+{x}+{y}")
+
+    tk.Label(dialog, text=message, bg="#1e1e1e", fg="#ffb347",
+             font=("Consolas", 13)).pack(pady=(18, 6))
+
+    tk.Label(dialog, text="Mouse  ←Back = No  |  Forward→ = Yes",
+             bg="#1e1e1e", fg="#888888", font=("Consolas", 9)).pack(pady=(0, 10))
+
+    btn_frame = tk.Frame(dialog, bg="#1e1e1e")
+    btn_frame.pack()
+
+    def confirm(value: bool):
+        result[0] = value
+        dialog.destroy()
+
+    tk.Button(btn_frame, text="← No  (Back)",    width=14, bg="#3a3a3a", fg="#ff6b6b",
+              activebackground="#5a2a2a", relief="flat",
+              command=lambda: confirm(False)).pack(side="left", padx=8)
+    tk.Button(btn_frame, text="Yes  (Forward) →", width=14, bg="#3a3a3a", fg="#6bff6b",
+              activebackground="#2a5a2a", relief="flat",
+              command=lambda: confirm(True)).pack(side="left", padx=8)
+
+    dialog.bind("<Button-8>", lambda e: confirm(False))
+    dialog.bind("<Button-9>", lambda e: confirm(True))
+
+    dialog.focus_force()
+    parent.wait_window(dialog)
+    return result[0]
 
 
 def get_the_data_in_subtitle_json(folder: str):
@@ -256,6 +305,7 @@ class Repair_Audio:
         self.button_0: tk.Button
         self.button_1: tk.Button
         self.button_2: tk.Button
+        self.button_9: tk.Button
 
         # Position Tracking
         self.id_curr_seg = start_id
@@ -263,6 +313,7 @@ class Repair_Audio:
         self.last_end_time = -1  # the end time of the previous edited seg
 
         # Info/Variables
+        self.seg_durr  = tk.DoubleVar()
         self.start_var = tk.DoubleVar()
         self.end_var   = tk.DoubleVar()
         self.info_text = tk.StringVar()
@@ -337,6 +388,8 @@ class Repair_Audio:
         tk.Label(frame, textvariable=self.end_var, **label_style)    .grid(row=0, column=3, padx=5)
         tk.Label(frame, text="Idx_Mrk:", **label_style)              .grid(row=0, column=4, padx=10)
         tk.Label(frame, textvariable=self.select_mark, **label_style).grid(row=0, column=5, padx=5)
+        tk.Label(frame, text="Seg_Dur:", **label_style)              .grid(row=0, column=6, padx=10)
+        tk.Label(frame, textvariable=self.seg_durr, **label_style).grid(row=0, column=7, padx=5)
 
         frame_butt_up = tk.Frame(self.root, bg="#1e1e1e")
         frame_butt_up.pack(side="top")
@@ -358,6 +411,7 @@ class Repair_Audio:
         tk.Button(frame_sec_row, text="Play_last 1",   command=lambda: self.play_last(0)).pack(pady=2, side='left')
         tk.Button(frame_sec_row, text="Play x0.7",     command=lambda: self.play_full(0.7)).pack(pady=2, side='left')
         tk.Button(frame_sec_row, text="Play x0.5",     command=lambda: self.play_full(0.5)).pack(pady=2, side='left')
+        tk.Button(frame_sec_row, text="Play SHORT",    command=self.play_short).pack(pady=2, side='left')
         tk.Button(frame_sec_row, text="Play 50%",      command=lambda: self.play_percent(0.5)).pack(pady=2, side='left')
         tk.Button(frame_sec_row, text="Play x1.5",     command=lambda: self.play_full(1.5)).pack(pady=2, side='left')
         tk.Button(frame_sec_row, text="Play_last 1.1", command=lambda: self.play_last(0.1)).pack(pady=2, side='left')
@@ -370,8 +424,7 @@ class Repair_Audio:
         tk.Button(frame_4th_row, text="+2 sec",        command=self.extend_end_by_2_sec).pack(pady=2, side='left')
 
         tk.Button(frame_butt_down, text="Leave(exit)",  command=self.leave, fg="red").pack(pady=2, side='right')
-        tk.Button(frame_butt_down, text="Mark SKIPPED", command=self.mark_skipped, fg="red").pack(pady=2, side='right')
-        tk.Button(frame_butt_down, text="    ҉",         command=self.brain).pack(pady=2, side='left')
+        tk.Button(frame_butt_down, text=" ҉  ",          command=self.brain).pack(pady=2, side='left')
         tk.Button(frame_butt_down, text="Back",         command=self.back).pack(pady=2, side='left')
 
         text_buttons = tk.Frame(self.root)
@@ -473,7 +526,8 @@ class Repair_Audio:
         butt_conf = [
             "0 - Unfinished",
             "1 - Perfect",
-            "2 - Second Sort"
+            "2 - Second Sort",
+            "9 - Backgr. Noise"
         ]
             
         self.button_0 = tk.Button(info_seg_frame, text=butt_conf[0])
@@ -487,6 +541,10 @@ class Repair_Audio:
         self.button_2 = tk.Button(info_seg_frame, text=butt_conf[2])
         self.button_2.grid(row=1, column=0, sticky="ew")
         self.button_2.config(command=lambda: self.button_toggle(self.button_2))
+
+        self.button_9 = tk.Button(info_seg_frame, text=butt_conf[3])
+        self.button_9.grid(row=1, column=1, sticky="ew")
+        self.button_9.config(command=lambda: self.button_individual_toggle(self.button_9))
 
         # 6th button that spans both columns
         clear_btn = tk.Button(
@@ -557,8 +615,8 @@ class Repair_Audio:
         return False
 
     def brain(self):
-        # self.load_segment()
-        self.find_target_segments()
+        self.load_segment()
+        # self.find_target_segments()
 
     def find_target_segments(self):
         """This function targets certainf segments in EDITING_LIST"""
@@ -580,7 +638,11 @@ class Repair_Audio:
         # self.start_var.set(item[START_SEG] if self.last_end_time == -1 else self.last_end_time)
         self.start_var.set(item[START_SEG])
 
-        self.end_var.set(item[END_SEG])
+        if item[END_SEG] <= self.start_var.get():  # Rare case - maybe never
+            self.end_var.set(self.start_var.get() + 1)
+        else:
+            self.end_var.set(round(item[END_SEG], 3))
+        
         self.info_text.set(f'ID: {item[ID_SEG]}/{len(self.data[SEGMENTS])} | User: {item[ID_USER]} | INFO: {item[INFO_SEG]}')
         self.select_mark.set(-1)
 
@@ -612,23 +674,29 @@ class Repair_Audio:
             if not (0 <= self.id_curr_seg < len(self.data[SEGMENTS])):
                 self.leave()
             item = self.data[SEGMENTS][self.id_curr_seg]
-            if str(item[TEXT_SEG]).startswith(SKIPPED):
-                self.id_curr_seg += 1
-                continue
-            if self.last_end_time >= item[END_SEG]:
-                item[TEXT_SEG] = SKIPPED + item[TEXT_SEG]
-                self.id_curr_seg += 1
-                continue
+
+            # if item[INFO_SEG] != "1":
+            #     self.id_curr_seg += 1
+            #     continue
+
+            # if item[ID_USER] != 6:
+            #     self.id_curr_seg += 1
+            #     continue
+
             break
 
         self.reset_button_sink()
         self.reset_button_setup()
 
         # Variables
-        # self.start_var.set(item[START_SEG] if self.last_end_time == -1 else self.last_end_time)
-        self.start_var.set(item[START_SEG])
+        self.start_var.set(round(item[START_SEG], 3) if self.last_end_time == -1 else self.last_end_time)
+        # self.start_var.set(item[START_SEG])
 
-        self.end_var.set(item[END_SEG])
+        if item[END_SEG] <= self.start_var.get():  # Rare case - maybe never
+            self.end_var.set(self.start_var.get() + 1)
+        else:
+            self.end_var.set(round(item[END_SEG], 3))
+
         self.info_text.set(f'ID: {item[ID_SEG]}/{len(self.data[SEGMENTS])} | User: {item[ID_USER]} | INFO: {item[INFO_SEG]}')
         self.select_mark.set(-1)
 
@@ -653,6 +721,9 @@ class Repair_Audio:
         self.update_word_links()
         self.define_markers()
         self.draw_all()
+
+        # time.sleep(0.5)
+        # self.play_full()
 
     def define_markers(self):
         self.markers = [self.start_var, self.end_var]
@@ -684,6 +755,13 @@ class Repair_Audio:
         if self.select_mark.get() != -1:
             self.canvas.itemconfig(f'marker_{self.select_mark.get()}', fill='red')
 
+        self.seg_durr.set(round(self.end_var.get() - self.start_var.get(), 3))
+
+        if self.seg_durr.get() > 28.0 or self.seg_durr.get() < 0.7:
+            self.canvas.config(bg="#c46666")
+        else:
+            self.canvas.config(bg="#7b7b7b")
+
     def draw_all(self):
         self.canvas.update_idletasks()
         self.canvas.delete('drawing')
@@ -698,7 +776,7 @@ class Repair_Audio:
         if display_audio.channels > 1:
             samples = samples.reshape((-1, display_audio.channels)).mean(axis=1)
 
-        # didn't understand pretty much nothing here... for the next time
+        # I don't understand pretty much nothing here... for the next time
         factor = max(1, len(samples) // canvas_width)
         samples = samples[:factor * canvas_width].reshape((canvas_width, factor)).mean(axis=1)
         samples = samples / np.max(np.abs(samples))
@@ -870,17 +948,8 @@ class Repair_Audio:
 
         self.draw_all()
     
-    def mark_skipped(self):
-        if messagebox.askyesno("Mark SKIPPED", f"Mark this segment as {SKIPPED}?"):
-            item = self.data[SEGMENTS][self.id_curr_seg]
-            item[TEXT_SEG] = SKIPPED + item[TEXT_SEG].replace(SKIPPED, "")
-            self.id_curr_seg += 1
-            self.brain()
-    
     def back(self):
         self.id_curr_seg -= 1
-        while str(self.data[SEGMENTS][self.id_curr_seg][TEXT_SEG]).startswith(SKIPPED):
-            self.id_curr_seg -= 1
         self.last_end_time = -1
         self.brain()
 
@@ -936,7 +1005,7 @@ class Repair_Audio:
 
     def join_segments(self):
         """Current segment + next segment => make just one segment"""
-        if not messagebox.askyesno("Confirm Join", "Will you marry me?"):
+        if not ask_yes_no_mouse(self.root, "Confirm Join", "Will you marry me?"):
             return
 
         if not self._within_limits(self.id_curr_seg + 1):
@@ -1108,13 +1177,16 @@ class Repair_Audio:
 
         buttons = {self.button_0 : "0",
                    self.button_1 : "1",
-                   self.button_2 : "2"}
+                   self.button_2 : "2",
+                   self.button_9 : "9"}
+        
         for butt, value in buttons.items():
             if butt.cget('relief') == tk.SUNKEN:
                 item[INFO_SEG] += value
             
-        if item[INFO_SEG] == "":
+        if item[INFO_SEG] == "":  # who the hell knows type of case
             item[INFO_SEG] += "0"
+
         self.info_text.set(f'ID: {item[ID_SEG]}/{len(self.data[SEGMENTS])} | User: {item[ID_USER]} | INFO: {item[INFO_SEG]}')
 
     def reset_button_setup(self):
@@ -1122,7 +1194,8 @@ class Repair_Audio:
         others = {
             self.button_0 : '0',
             self.button_1 : '1',
-            self.button_2 : '2'
+            self.button_2 : '2',
+            self.button_9 : '9'
         }
         for butt in others:
             if others[butt] in data:
@@ -1136,6 +1209,12 @@ class Repair_Audio:
         self.button_2.config(relief=tk.RAISED, bg="#DBDBDB", activebackground="#ECECEC")
 
         button.config(relief=tk.SUNKEN, bg="#7C4B4B", activebackground="#9B5D5D")
+
+    def button_individual_toggle(self, button: tk.Button):
+        if button.cget('relief') == tk.SUNKEN:
+            button.config(relief=tk.RAISED, bg="#DBDBDB", activebackground="#ECECEC")
+        else:
+            button.config(relief=tk.SUNKEN, bg="#7C4B4B", activebackground="#9B5D5D")
 
 
 def main():
