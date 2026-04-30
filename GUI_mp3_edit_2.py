@@ -620,8 +620,8 @@ class Repair_Audio:
         return False
 
     def brain(self):
-        # self.load_segment()
-        self.find_target_segments()
+        self.load_segment()
+        # self.find_target_segments()
 
     def find_target_segments(self):
         """This function targets certainf segments in EDITING_LIST"""
@@ -727,8 +727,8 @@ class Repair_Audio:
         self.define_markers()
         self.draw_all()
 
-        time.sleep(0.4)
-        self.play_full()
+        # time.sleep(0.4)
+        # self.play_full()
 
     def define_markers(self):
         self.markers = [self.start_var, self.end_var]
