@@ -156,14 +156,14 @@
       "id": 19,
       "start": 175.731,
       "end": 180.693,
-      "text": "Deja făceam studii la universitate, am venit, pur și simplu, în ospeție și ea a început să-mi țină morală.",
+      "text": "Deja făceam studii la universitate, am venit, pur și simplu în ospeție și ea a început să-mi țină morală.",
       "id_user": 3,
       "info": "1"
     },
     {
       "id": 20,
-      "start": 180.693,
-      "end": 182.144,
+      "start": 180.756,
+      "end": 181.991,
       "text": "Era seara.",
       "id_user": 3,
       "info": "1"
@@ -254,13 +254,13 @@
       "end": 262.292,
       "text": "Tipul acesta își permite să se ducă și să ia acum niște ghete și lui nu-i trebuie să... să-și facă bani pentru iară să se ducă să consume.",
       "id_user": 4,
-      "info": "0"
+      "info": "2"
     },
     {
       "id": 32,
       "start": 262.292,
       "end": 271.461,
-      "text": "Eu înțelegeam că libertatea mea e, deci e fucked up, e dusă absolut pe apa sâmbetei și eu în momentul ăla am realizat că ceva nu fac corect în viață.",
+      "text": "Eu înțelegeam că libertatea mea e, e deci e fucked up, e dusă absolut pe apa sâmbetei și eu în momentul ăla am realizat că ceva nu fac corect în viață.",
       "id_user": 4,
       "info": "1"
     },
@@ -548,7 +548,7 @@
       "id": 68,
       "start": 488.84,
       "end": 496.152,
-      "text": "Ca și în societatea de aici, noi toți vrem să avem un statut cât mai înalt și așa și-i acolo.",
+      "text": "Ca și în societatea de aici, noi toți vrem să avem un statut cât mai înalt și așa și e acolo.",
       "id_user": 1,
       "info": "1"
     },
@@ -940,7 +940,7 @@
       "id": 117,
       "start": 791.621,
       "end": 801.14,
-      "text": "Pentru mine acum e cu mult mai important să trăiesc o zi demn de a o... de a o trăi și să nu ma... să nu fug de emoțiile pe care le am.",
+      "text": "Pentru mine acum e cu mult mai important să trăiesc o zi demn de a o... de a o trăi și să nu... să nu fug de emoțiile pe care le am.",
       "id_user": 4,
       "info": "0"
     },
@@ -964,9 +964,9 @@
       "id": 120,
       "start": 805.325,
       "end": 810.593,
-      "text": "Libertate e acum, când eu nu mai am nevoie de costeluri sub... sub formă de substanțe ca să mă mișc mai departe.",
+      "text": "Libertate e acum, când eu nu mai am nevoie de cârje sub formă de substanțe ca să mă mișc mai departe.",
       "id_user": 4,
-      "info": "0"
+      "info": "2"
     },
     {
       "id": 121,
@@ -1084,7 +1084,7 @@
       "id": 135,
       "start": 958.663,
       "end": 974.442,
-      "text": "Și sigur că pe data de nouă au venit și la sediul nostru din Durlești, ne-au dat busna peste noi, ne-au pus la perete, au făcut perchezit, au sechestrat toate materiale, video, registrări, telefoane, tot nu... nu puteam lua legătura.",
+      "text": "Și sigur că pe data de nouă au venit și la sediul nostru din Durlești, ne-au dat busna peste noi, ne-au pus la perete, au făcut perchezite, au sechestrat toate materiale, video, registrări, telefoane, tot nu... nu puteam lua legătura.",
       "id_user": 2,
       "info": "0"
     },
@@ -1140,7 +1140,7 @@
       "id": 142,
       "start": 1020.42,
       "end": 1027.941,
-      "text": "Mă durea, eu zâmbeam, spun, da, la mine tot e bine, uite, eu făceam practică pe trac, atunci, ooo ce frumoasă America.",
+      "text": "Mă durea, eu zâmbeam, spun, da, la mine tot e bine, uite, eu făceam practică pe trac, atunci, ooo, ce frumoasă America.",
       "id_user": 5,
       "info": "1"
     },
@@ -1926,7 +1926,7 @@
       "end": 1670.881,
       "text": "Adică când am simțit niște emoții care cred că dacă eram consumat nu puteam să le savurez așa, să le smăcuiesc deplin.",
       "id_user": 4,
-      "info": "0"
+      "info": "2"
     },
     {
       "id": 241,
@@ -1966,7 +1966,7 @@
       "end": 1698.066,
       "text": "Atunci când, cum spuneam, că IQ-ul legislativ încă nu era adus la standardele europene, erau provocări și intervenția pe formă.",
       "id_user": 2,
-      "info": "0"
+      "info": "2"
     },
     {
       "id": 246,
@@ -2476,9 +2476,9 @@
       "id": 309,
       "start": 2028.132,
       "end": 2035.462,
-      "text": "Eu anul trecut, am trăit aproape opt luni în costile pentru că din cauză că fractura e foarte complicată, nu creștea osul.",
+      "text": "Eu anul trecut, am trăit aproape opt luni în cârje pentru că din cauză că fractura e foarte complicată, nu creștea osul.",
       "id_user": 3,
-      "info": "1"
+      "info": "2"
     },
     {
       "id": 310,
@@ -2492,9 +2492,9 @@
       "id": 311,
       "start": 2042.948,
       "end": 2047.112,
-      "text": "Perioada asta în costile deci parcă de parcă... nu-i viața.",
+      "text": "Perioada asta în cârje, deci parcă de parcă-i... nu-i viața.",
       "id_user": 3,
-      "info": "1"
+      "info": "2"
     },
     {
       "id": 312,
@@ -3676,7 +3676,7 @@
       "id": 459,
       "start": 3036.008,
       "end": 3038.245,
-      "text": "După ce a început războiul, eu mi-a schimbat viziunea total.",
+      "text": "După ce-a început războiul, eu mi-am schimbat viziunea total.",
       "id_user": 4,
       "info": "1"
     },
@@ -3700,7 +3700,7 @@
       "id": 462,
       "start": 3042.195,
       "end": 3045.693,
-      "text": "Ăștia care au știut să se discurce și care au știut să... care, care muncesc.",
+      "text": "Ăștia care au știut să se descurce și care au știut să... care, care muncesc.",
       "id_user": 4,
       "info": "1"
     },

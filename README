@@ -1,26 +1,65 @@
-======================== Set Up =====================================
-sudo apt update
-sudo apt install python3-tk ffmpeg python3-venv python3-pip
-python3 -m venv v_environment
-source v_environment/bin/activate
+======================== DATASET VALUE ==============================
+1-10  --  Audio with text
+11-20 --  Audio only
 
-pip install -r requirements.txt
-pip install -r req_just_edit.txt
+======================== DATASET RULES ==============================
+1. Numbers
+--- Change: ('3' -> 'trei')
+--- Always use written form, never digits
 
-export PS1="\u@\h:\W\$ "   // pentru scurtarea terminalului
+2. Repeated words — match what you hear exactly
+--- Hesitation/false start with pause  →  'mai... mai mult'
+--- Emphatic repetition with beat      →  'mai, mai mult'
+--- Fluid rhythmic repetition          →  'mai mai mult'
+--- Never collapse any of these to 'mai mult' — speaker said it
+
+3. Incomplete words
+--- Change: ('deas... deasupra' -> 'deasupra')
+--- Fragments have no value and break tokenizers
+
+4. Correct word mappings
+    a. Phonetic reductions
+    --- Change: ('iestea' -> 'acestea')
+    --- Change: ('sâ meargă' -> 'să meargă')
+    --- Change: ('sâ duce' -> 'se duce')
+    --- Flag ambiguous cases for review
+
+    b. Lexical regionalisms — normalize to standard Romanian
+    --- Change: ('mâca' -> 'bunica')
+    --- Only apply when a clear standard Romanian equivalent exists
+    --- If no clean equivalent exists -> mark with '2' for review
+
+5. Grammatical errors — keep as said
+--- Keep: ('Deja a doilea oară')
+--- <???> Keep: ('s-o dus') and do not force into ('s-a dus') or ('s-au dus')
+--- <???> Write exactly what you hear every time - Given that the word is correct
+
+6. Punctuation - For now no real rules
+
+7. Capitalization
+--- Capitalize sentence starts and proper nouns only
+--- ('moldova' -> 'Moldova', 'chișinău' -> 'Chișinău')
+
+8. Foreign / Russian words
+--- English: keep as spoken, including inflected forms
+    - influencer/influencerii/influencer-ul
+    - Vocalic suffixes: no hyphen ('influencerii', 'influenceri')
+    - Consonantal suffixes: use hyphen ('influencer-ul', 'blogger-ul')
+    - Follow standard Romanian orthography for loanword inflection
+--- Russian: change common used words in Moldova with alternatives in romanian
+    - Change: ('davai' -> 'hai')
+    - Mark with '2' for later review
+--- Other Languages: I avoid other languages.
+
+9. Inaudible or unclear audio
+--- Never guess, never leave blank  -  Mark Segment with '0', as BAD.
 
 
-=====================================================================
-!! IF any video link IS FAULTY, i have the downloaded MP3 in my drive.
-https://drive.google.com/drive/folders/1YFbkr-4xjO1sYK35ZRTHtsThecwgW8-8
-
-
-=====================================================================
---DATASET LOGIC - Mainly goes by what the user actually speaks
-"id" - audio segment identification
+======================== DATASET LOGIC ==============================
+"id"    - audio segment identification
 "start" - start time of audio segment
-"end" - end time of audio segment
-"text" - The actual sentence the User says
+"end"   - end time of audio segment
+"text"  - The actual sentence the User says
     --- Contains dublicates like "pe cer mai... mai sus"
     --- Not normalised: "să-mi dea" not normalised in "să îmi dea"
     --- Some words normalised(consult changed_words.json)
@@ -35,47 +74,17 @@ https://drive.google.com/drive/folders/1YFbkr-4xjO1sYK35ZRTHtsThecwgW8-8
     --- 9 - Signifies Background NOISE(may affect voice). Placed after 0,1,2. (ex: "09", "19")
 
 
-======================== Used Video and Notes =======================
-========= Video 1 - ONE ==========
-== Data : "https://www.youtube.com/watch?v=mUf8-mQjje4" - Noi toți vrem să fim bogați
+======================== Set Up =====================================
+sudo apt update
+sudo apt install python3-tk ffmpeg python3-venv python3-pip
+python3 -m venv v_environment
+source v_environment/bin/activate
 
-========= Video 2 - TWO ==========
-== Data : "https://www.youtube.com/watch?v=PduZkR9j79E" - Voi știți cum e de trăit aici?
+pip install -r requirements.txt
+pip install -r req_just_edit.txt
 
-========= Video 3 - THREE ========
-== Data : "https://www.youtube.com/watch?v=KSuqabzhxjg" - Sunt cei mai bravi - ei fac, dar tac.
-
-========= Video 4 - FOUR =========
-== Data : "https://www.youtube.com/watch?v=7YSXISrL2rs" - De ce ne schimbăm religia?
-
-========= Video 5 - FIVE =========
-== Data : "https://www.youtube.com/watch?v=j8Z8vvKg5bA" - Dacă faci o afacere pentru oameni...
-USER - Foreign French user -- DELETED
-
-========= Video 6 - SIX ==========
-== Data : "https://www.youtube.com/watch?v=epFAoR1RKo8" - Bătaia nu e ruptă din rai.
-
-========= Video 7 - SEVEN ========
-== Data : "https://www.youtube.com/watch?v=zGREIEtFMa0" - Wow,ceexperieninteresant,eusun
-
-========= Video 8 - EIGHT ========
-== Data : "https://www.youtube.com/watch?v=_hXoNrJ1CMk" - Corupția nu distruge atât material,
-
-========= Video 9 - NINE =========
-== Data : "https://www.youtube.com/watch?v=d_J17CMh6wM" - Cinci creatori de conținut
-
-========= Video 10 - TEN =========
-== Data : "https://www.youtube.com/watch?v=m8aXzMhFooc" - Libertatea nu e în fuga de responsabilități
-
-========= Video 11 - ELEVEN ======
-== Data : "https://www.youtube.com/watch?v=ggaVblGO-ZI" - Lumea caută ceva WOW.
-USER - Foreign Italian user -- DELETED
-
-========= Video 12 - TWELVE ======
-== Data : "https://www.youtube.com/watch?v=A5Ssdoq3fXk" - 
-
-========= Video 13 - THIRTEEN ====
-== Data : "https://www.youtube.com/watch?v=TOFItbQPJvc" - 
+!! IF any video link IS FAULTY, i have the downloaded MP3 in my drive.
+https://drive.google.com/drive/folders/1YFbkr-4xjO1sYK35ZRTHtsThecwgW8-8
 
 
 ======================== Use Instructions ===========================
@@ -83,8 +92,15 @@ USER - Foreign Italian user -- DELETED
 
 
 ==== TODO
+-- REDO the whole code at this point to be more abstract and easy to upgrade lol
 -- play button customisation
--- Unele segmente - separate sau unite pentru a face o propozitie(TODO INCOMPLETE)
+-- Change button setup option(setup 1, setup 2, etc...)
+-- Join/Delete/Dublicate - remove ask yes/no check and add a button to block and allow them.
+    (more for convinience really)
+-- Logic with how the segments are processed inside(move next and text changes to previous version
+    problem example)
+-- undo button (back/forward)
+
 
 ==== TODO Scripts
 -- from subtitles by whisper to update the ID's in manual subtitles to match more

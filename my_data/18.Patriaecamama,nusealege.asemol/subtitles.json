@@ -1,0 +1,2868 @@
+{
+  "segments": [
+    {
+      "id": 0,
+      "start": 57.498,
+      "end": 69.892,
+      "text": "Eu sunt Mihai Ungureanu, cu numele de artist sau semnătura de pe lucrări MIHU și sunt pictor. Încerc să fiu o leacă mai mult artist vizual.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 1,
+      "start": 69.892,
+      "end": 74.932,
+      "text": "Mă numesc Diana Grădinaru, sunt jurnalistă comunicatoare.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 2,
+      "start": 74.932,
+      "end": 83.291,
+      "text": "Timp de 23 de ani am executat serviciul militar în Armata Națională, dețin gradul de locutinient colonial în retragere.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 3,
+      "start": 83.291,
+      "end": 86.793,
+      "text": "Momentan lucrez într-un proiect a băniciei mondiale.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 4,
+      "start": 86.922,
+      "end": 100.0,
+      "text": "Sunt Ionie Opce, fostul director al Liceului Lucian Blaga din Teraspol, de pe data de 27 mai 1992 până la 22 iunie 2021.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 5,
+      "start": 100.147,
+      "end": 107.063,
+      "text": "Sunt la Risaturea, sunt de fapt un om care citește și un spectator avizat de teatru și cinema.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 6,
+      "start": 107.261,
+      "end": 116.0,
+      "text": "Eu sunt Maria Virgilia și sunt psihoterapeut în devenire. Jobul meu de zi cu zi este Community Manager la UNG din Chișinău.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 7,
+      "start": 116.0,
+      "end": 124.0,
+      "text": "Mă numesc Valeriu Estrade, sunt antreprenor, activist și promovez turismul ecologic.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 8,
+      "start": 124.178,
+      "end": 137.611,
+      "text": "Timp de 2 ani de zile am fost detășat în Coaliția Multinațională pentru combaterea terorismului, care avea sediu și are și acum, în Tampa, Florida, comandamentul central al Statelor Unitele Americii.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 9,
+      "start": 137.611,
+      "end": 146.0,
+      "text": "Și acolo m-am ocupat de relații media, relații cu comunitatea locală și am mai făcut diverse activități.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 10,
+      "start": 146.077,
+      "end": 154.202,
+      "text": "Când s-a organizat interviul, pentru că am avut un interviu de selectare, deci n-am mers așa pur și simplu în misiuni.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 11,
+      "start": 154.202,
+      "end": 170.794,
+      "text": "Interviul a fost organizat de persoana care urma să-mi fie comandant în Statele Unitele Americii, Major O'Neill, și îmi povestea că atunci când a primit dosarul meu și a auzit de Moldova, ei se uitau pe hartă, se uitau undeva în Africa.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 12,
+      "start": 170.794,
+      "end": 189.586,
+      "text": "Fiind un băiat de oraș, cumva căutam foarte mult satul și tot ce este despre sat, despre viața asta, care cumva tare mulți artiști o descriu ca fiind ceva, ca o vieșnicie, ca ceva extraordinar.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 13,
+      "start": 189.586,
+      "end": 207.825,
+      "text": "Și eu ce pictez? Eu pictez o căutare a identității, o mică Moldovă autentică sau o participă cu ce ar fi frumos să ne identificăm fiecare dintre noi care locuim pe bucățica asta de pământ.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 14,
+      "start": 207.825,
+      "end": 211.1,
+      "text": "Exact cum făceau străstrăbuneii noștri.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 15,
+      "start": 211.339,
+      "end": 228.302,
+      "text": "Tot ce vedeau ei, puneau în... geometrizau, puneau caprele și balega și casele din chirpici și toate astea, le puneau în ornămiant și le puneau după asta pe haină. Ceea ce s-au pierdut, adică cumva ei le codificau.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 16,
+      "start": 228.94,
+      "end": 241.32,
+      "text": "Da, iar ca fiecare dintre noi spuneau ei, ne-am pus câte un brad în curtea case. Iar ca am pus bradul și pe ei asta cu care să mă duc la anunta lui Vaslic sau nu știu care acolo.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 17,
+      "start": 241.525,
+      "end": 261.725,
+      "text": "Și eu cam asta încerc să fac. Adică cumva încerc să rămân cu ideea asta de a codifica o leacă istoria și simțurile neamului nostru și o pun în mândruțile astea și în cămâșile care ele le poartă și ceea ce e peizajul împrejurul lor.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 18,
+      "start": 261.725,
+      "end": 270.042,
+      "text": "Am avut o situație... A doua oară eu am plecat la un curs foarte dificil pentru mine.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 19,
+      "start": 270.042,
+      "end": 280.411,
+      "text": "Cursul era format din 60 de persoane, dintre care 56 erau militari americani și 4 eram internaționali, eu fiind unica femeie.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 20,
+      "start": 280.819,
+      "end": 294.091,
+      "text": "Și atunci directorul cursului a încercat cumva să ne integreze pe noi internaționale, să ne simțim mai bine și m-a ridicat pe mine în picioare, m-a întrebat de unde sunt.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 21,
+      "start": 294.289,
+      "end": 300.312,
+      "text": "Și i-am zis că sunt din Moldova și el zice nu din Moldova, din Ceraiun ești.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 22,
+      "start": 300.63,
+      "end": 309.521,
+      "text": "Și eu eram așa de emoționată și am ortografiat cuvântul Fălești pentru că eu sunt de la Fălești greșit.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 23,
+      "start": 309.521,
+      "end": 314.402,
+      "text": "Și abia după ce a scris pe tablume, îmi dat seama ce am făcut.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 24,
+      "start": 314.402,
+      "end": 326.711,
+      "text": "La final, după ce el a scris numele localității din care eu vin, toată sala, toți colegii mei au rustit în glas numele localității.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 25,
+      "start": 326.711,
+      "end": 336.241,
+      "text": "Și abia atunci mi-am dat seama că eu de fapt am greșit și după ce s-a terminat ședința, numele oricum rămasese scris pe tablă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 26,
+      "start": 336.418,
+      "end": 338.693,
+      "text": "Și eu m-am dus și am corectat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 27,
+      "start": 339.521,
+      "end": 350.0,
+      "text": "Pe data de 4 martie 1992, eu am fost chemat în cinta direcției de învățământ ca să preau această școală.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 28,
+      "start": 350.0,
+      "end": 361.812,
+      "text": "Atunci am primit primul botez, fiindcă numai când am intrat în cinta am văzut foarte, foarte, foarte, foarte mulți oameni paramilitari.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 29,
+      "start": 361.812,
+      "end": 370.0,
+      "text": "Toți erau înarmați, toți erau pregătiți de luptă, fiindcă s-a început ce aici a fost adubăsari, țineți minte.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 30,
+      "start": 370.208,
+      "end": 380.772,
+      "text": "Și numai m-am așezat pe scaun ca să scriu că la propunerea dumneavoastră îmi dau acceptul, accept ca să devin director acestei școli, ca să deschidă ușa.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 31,
+      "start": 381.32,
+      "end": 392.482,
+      "text": "Și în acel birou au intrat doi oameni foarte răutăcioși, s-au adresat la mine și la fostele directoare, a spus cine sunt ies din frontul popular, spun suntem oameni.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 32,
+      "start": 392.759,
+      "end": 398.0,
+      "text": "Și se deschide încă o dată ușa și mai între doi oameni militari cu calașnică.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 33,
+      "start": 398.607,
+      "end": 410.0,
+      "text": "Au strigat, ridicat-vă, m-a pucat, m-a îmbrâncit, ne-a pus țeava automatului în spate, a scos siguranța și nu știam unde ne duce.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 34,
+      "start": 410.687,
+      "end": 420.462,
+      "text": "La parterni am coborât, dar acolo a sunat a vorbit cu cineva și nu înțelează în care parte, ori în subsol, ori spre ieșire.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 35,
+      "start": 420.631,
+      "end": 430.921,
+      "text": "Până la urmă, hotărâd spre ieșire, ne-au dus la ușa de afară, m-a împins, m-a lovit cu patul armii automate și asta a fost ceea ce a fost.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 36,
+      "start": 431.05,
+      "end": 442.841,
+      "text": "Iar pe 27 mai mi-am dat totuși acceptul să preiau această funcție de director când mergea războiul de acum în partea stângă a niestrului.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 37,
+      "start": 442.841,
+      "end": 446.312,
+      "text": "Cum a luat naștere cartea Foametei?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 38,
+      "start": 446.41,
+      "end": 454.701,
+      "text": "Atunci când nu știam că e începutul unei cărți, de fapt este o lucrare care mi-a luat 40 de ani din viață.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 39,
+      "start": 454.701,
+      "end": 458.0,
+      "text": "Este ca un puzzle în care mereu lipsește o piață.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 40,
+      "start": 458.0,
+      "end": 475.095,
+      "text": "Dar prima oară am fost undeva în lunga Prutului și o femeie mi-a povestit că pe timpul secetei, pentru cuvântul Foametei era interzis în spațiu public, a schimbat un covor pe o strachină de cartofi.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 41,
+      "start": 475.333,
+      "end": 486.281,
+      "text": "Și lucrul ăsta l-am pus așa într-un text, cenzura l-a oprit și mi-am dat seama că este un lucru despre care trebuie să vorbim.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 42,
+      "start": 486.281,
+      "end": 491.882,
+      "text": "Pentru că am avut și o istorie personală de la care, de fapt, aș porni totul.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 43,
+      "start": 491.882,
+      "end": 498.532,
+      "text": "Părinții mei erau pedagogi, pentru că am avut rudii deportate, erau transferați dintr-un loc în altul.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 44,
+      "start": 498.949,
+      "end": 503.742,
+      "text": "Și eu am născut, maică-mea era foarte tânără, avea 19 ani.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 45,
+      "start": 503.742,
+      "end": 517.371,
+      "text": "Eu i-au mutat în alt țată în care nu aveam nicio rudă și niciun prieten, nicio cunoștință în satul Cucnești, despre care știu mai multe decât despre satul în care m-am născut, satul Călinești, în lunga Prutului.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 46,
+      "start": 517.44,
+      "end": 519.968,
+      "text": "Și n-aveau cu cine să mă lese.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 47,
+      "start": 520.145,
+      "end": 528.733,
+      "text": "Eu aveam trei luni atunci și a venit o femeie din stradă și a zis că pot să stau eu cu fetița voastră.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 48,
+      "start": 528.911,
+      "end": 537.122,
+      "text": "Au acceptat-o ca peste o săptămână să afle că nenorocită aș mâncase propriul copil, o fetiță pe timpul familiei.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 49,
+      "start": 537.221,
+      "end": 541.167,
+      "text": "Femeia asta se atașase oarecum de mine, o țin minte bine.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 50,
+      "start": 541.167,
+      "end": 551.533,
+      "text": "Era ca o fantomă care se apropia de mine când mergeam la școală, voia să mă cuprindă, să îmi strecoare niște dulciuri și eu mă temeam de ea, mă temeam instinctiv.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 51,
+      "start": 551.891,
+      "end": 563.471,
+      "text": "Și am întrebat-o pe maică-mea de ce femeia asta mă urmărește în asemenea hal și ea n-a vrut să-mi spună la început și abia mai târziu mi-a spus toată povestea asta.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 52,
+      "start": 563.471,
+      "end": 571.761,
+      "text": "Viața de zicu-zis destul de înconjurată de tineri, inclusiv la servici, inclusiv în proiectele de voluntariat în care am fost și sunt implicată.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 53,
+      "start": 572.136,
+      "end": 592.759,
+      "text": "Sunt tineri extrem de fain și conștienți, însă eu foarte tare mă tem că asta este o bulă și de fapt în afara acestei bule în care eu mă simt foarte confortabil pentru că sunt oameni cu care curelăm la idei, se află o altă realitate și se află un alt câmp informațional și se află alte principii și alte valori.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 54,
+      "start": 592.759,
+      "end": 601.382,
+      "text": "Adică cumva, nu știu, e foarte complex în generația mea, generația tânără din Moldova încât să o pun într-o singură categorie.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 55,
+      "start": 601.48,
+      "end": 607.592,
+      "text": "Pentru că există și diferențe în termen de regiunea în care trăiești, în termen de ce rețele de socializare folosești.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 56,
+      "start": 607.592,
+      "end": 614.072,
+      "text": "Dacă folosești Anaclasnici în 2024, probabil alți candidați elești decât cei pe care am ales eu.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 57,
+      "start": 614.072,
+      "end": 630.356,
+      "text": "Eu am aflat de Hai Moldova de la verișoara mea, care a venit entuziasmată, era atunci în liceu și a spus nu o să mă crezi ce inițiativă faină, eu sunt parte din ea, dar iată sunt așa provocări și nevoi de voluntari și eu am zis, na, poate pot să ajut.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 58,
+      "start": 630.356,
+      "end": 635.693,
+      "text": "Și așa am venit la o primă ședință unde mi s-a părut foarte interesant.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 59,
+      "start": 635.693,
+      "end": 640.162,
+      "text": "A fost un rebranding pentru campaniei de salubritate.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 60,
+      "start": 640.162,
+      "end": 648.481,
+      "text": "Și inovația era că ea s-a rezumat la o singură zi, din tot anul, la o singură zi, pentru toată lumea.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 61,
+      "start": 649.22,
+      "end": 665.955,
+      "text": "Și într-o oarecare măsură, pe atunci noi ne gândeam că dacă cumva o să arătăm oamenilor cât e de fantastic arată locurile curățite, adică fără deșeuri, sigur nu o să mai vrea să arunce nimic cu noi.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 62,
+      "start": 666.85,
+      "end": 670.533,
+      "text": "Așa a fost convingerea noastră, cel puțin la mea.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 63,
+      "start": 670.601,
+      "end": 677.552,
+      "text": "Și am reușit să convingem peste 100 de mii de voluntari.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 64,
+      "start": 677.552,
+      "end": 680.513,
+      "text": "Acțiunile mele de voluntariat sunt în domeniu politic.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 65,
+      "start": 680.513,
+      "end": 686.562,
+      "text": "Dorința mea de a mă implica în primul rând a fost în 2020, vara, înainte de prezidențiale.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 66,
+      "start": 686.562,
+      "end": 693.682,
+      "text": "Voiam să mă implic în orice mod posibil. Să dau în zear oricărui om, nu știam de unde să o apuc.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 67,
+      "start": 693.84,
+      "end": 700.672,
+      "text": "Și implicându-mă într-un ONG, era mult mai ușor să fac acțiuni în această direcție.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 68,
+      "start": 700.672,
+      "end": 705.732,
+      "text": "Dar da, am găsit, am întâlnit destul de mulți oameni, pentru că am făcut și acțiuni de dor-todor.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 69,
+      "start": 705.732,
+      "end": 717.051,
+      "text": "Mergeam prin state, vorbeam cu oamenii, inclusiv despre referendum, vorbeam despre integrarea în Unii Europeană și subiecte legate de acest lucru, acest eveniment.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 70,
+      "start": 717.051,
+      "end": 731.536,
+      "text": "Foarte des am fost acuzată că sunt plătită și chiar nu sunt, dar adică din moment ce spui omului că nu, nu sunt, cuvântul meu cât de mult puterea să aibă în fața constructului mental pe care îl are despre oameni care fac asta.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 71,
+      "start": 731.536,
+      "end": 736.86,
+      "text": "Am organizat o curățenie pilot pe malul râului Bâc.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 72,
+      "start": 736.86,
+      "end": 755.07,
+      "text": "Dar cel mai fantastic era că am primit de la departamentul de situații excepționale niște costume din astea albi, de unică folosință și oamenii i-au îmbrăcat. Și asta cumva o adăugat, acum dacă mă uit în urmă, o adăugat o doză de dramatism la toată acțiunea asta.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 73,
+      "start": 755.07,
+      "end": 763.793,
+      "text": "Și acum am în minte o fotografie cu câțiva băieți îmbrăcat în salopetele astea albi, cum scutea un cauciuc de tractor din râul Bâc.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 74,
+      "start": 763.793,
+      "end": 765.724,
+      "text": "E un peisaj așa destul de dramatic.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 75,
+      "start": 765.724,
+      "end": 770.982,
+      "text": "Și într-adevăr, după aia, pentru că un verișor de meu trăia pe strada albișoară, mergeam deas.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 76,
+      "start": 770.982,
+      "end": 776.962,
+      "text": "Și-l vedeam întotdeauna ca o râpă, ca un loc în care totul așa pare de murdar.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 77,
+      "start": 776.962,
+      "end": 785.581,
+      "text": "Și atunci era numai bine așa o iarbă proaspătă, verde și văzusem cumva albia cu alți ochi.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 78,
+      "start": 785.581,
+      "end": 788.703,
+      "text": "Și atunci eu mă gândi, wow, ce potențial aveam.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 79,
+      "start": 788.703,
+      "end": 804.2,
+      "text": "Al doilea moment foarte doreros a fost în 1994, la 25 octombrie, când am auzit la ora 6 dimineață un sunet de telefon și mi-a spus că școala este ocupată.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 80,
+      "start": 804.2,
+      "end": 817.441,
+      "text": "În cinta liceului au intrat foarte mulți studenți de la așa numită Universitate Cooperatist din Tiraspol, rectorul care a fost faimosul Iacovleb.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 81,
+      "start": 817.441,
+      "end": 826.521,
+      "text": "Dacă ați auzit, Vasile Iacovleb a fost deputat în primul parlament și care este ideologul formării acestei republici moldovinești niștrenii, de fapt.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 82,
+      "start": 826.521,
+      "end": 833.282,
+      "text": "Și când am ajuns acolo, copiii, profesori, părinții erau în jurul școlii.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 83,
+      "start": 833.282,
+      "end": 835.543,
+      "text": "Nu puteam intra în școală.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 84,
+      "start": 835.891,
+      "end": 842.962,
+      "text": "Erau lozinci, plăcate, scrisi, doloie latiniță, aici cuibușori de români.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 85,
+      "start": 842.962,
+      "end": 858.07,
+      "text": "Într-un sat de Răianu Criuleni am avut o întâlnire cu cititorii și un preot mi-a povestit că a fost invitat în casa unei bătrânii care nu putea să moară, era oarbă la pat. Părinte, nu poți să mori.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 86,
+      "start": 858.07,
+      "end": 860.973,
+      "text": "Și el a întrebat-o, dar ce păcate așa de grele.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 87,
+      "start": 860.973,
+      "end": 874.321,
+      "text": "Părinte, acum vreau să mărturisesc că eram consumolistă și în 1946 am luat torba cu grăunțe de sub capul unui copil.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 88,
+      "start": 874.321,
+      "end": 883.111,
+      "text": "Pentru că asta era ordenul și oamenii au fost supuși și zici că probabil din cauza asta nu poate muri.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 89,
+      "start": 883.111,
+      "end": 891.841,
+      "text": "Și mai târziu în satul Bravicea, Călăraș, am povestit această istorie și o fetiță din clasa 8-a, a pus o întrebare la care eu nu m-am gândit.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 90,
+      "start": 892.24,
+      "end": 905.933,
+      "text": "Ea zice că eu nu înțeleg cum pot fi manipulați în asemenea hal niște oameni ca să se ducă la vecin și să iei ultima grăunță, ultimul bob de sub capul unui copil muribunt.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 91,
+      "start": 906.119,
+      "end": 908.373,
+      "text": "Lucrul ăsta este neconceput.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 92,
+      "start": 908.574,
+      "end": 925.724,
+      "text": "Păi ăsta este regimul, regimul criminal, regimul canibal care mereu dezbină oamenii, îi învrăjbește, îi face să se considere mai meritoși și să se poziționeze în poziția de dușman.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 93,
+      "start": 925.724,
+      "end": 935.38,
+      "text": "De aici apare și dușmanul de clasa și această mitologie criminală, acest sistem minciunos, pentru că este o minciună, oamenii au fost mințiți.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 94,
+      "start": 935.38,
+      "end": 948.448,
+      "text": "Al treile moment foarte, foarte greu a fost, de cum a fost organizat de însăși, așa numit a conducere a Transnistriei în frunte cu Igor Smirnov, așa numitul primul președinte a Repuș Moldonești Nistrenii.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 95,
+      "start": 948.448,
+      "end": 971.859,
+      "text": "Au intrat la ora 4 dimineața, au spart ușile, au venit cu mașini foarte mari și până la 6-7 dimineața aproape tot mobilierul, tot bunurile materiale au fost scoase din școală și duse într-o direcție necunoscută, încărcau toate bunurile, oameni arestați pe 15 zile.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 96,
+      "start": 971.905,
+      "end": 979.352,
+      "text": "Noi am depus o rezivență foarte mare și până la urmă, totuși, timp de jumătate de an noi am fost în afara școlii.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 97,
+      "start": 979.352,
+      "end": 994.342,
+      "text": "Clădirea aceasta, care a fost distrusă, a fost absolut scoasă din uz, am preluat-o peste jumătate de an și am făcut reparații la 17 ianuarie.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 98,
+      "start": 994.342,
+      "end": 999.162,
+      "text": "Pentru noi a fost 1 septembrie, am început anul școlar la 17 ianuarie.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 99,
+      "start": 999.51,
+      "end": 1006.192,
+      "text": "Dar în perioada aceasta, vă spun, a fost o luptă foarte, foarte dură cu regimul din Tiraspol.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 100,
+      "start": 1006.192,
+      "end": 1016.321,
+      "text": "Foarte interesant a fost când am avut ocazia să mearg în Italia și să studiez o leacă în Veneția.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 101,
+      "start": 1016.321,
+      "end": 1035.79,
+      "text": "Cred că și mai intens a fost momentul ăsta că am ieșit și din realitatea asta de drumuri stricate, trolebuze pline, la magazin te duci și îți cumperi o pâine și nu poți să o cumperi, că tantea și ea vorbește în limba rusă și tu nu cunoști nici o babă în rusă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 102,
+      "start": 1036.016,
+      "end": 1037.823,
+      "text": "Și tot așa mai departe.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 103,
+      "start": 1037.996,
+      "end": 1059.38,
+      "text": "Și când am lăsat scenariul ăsta mai nu de o Moldova foarte, foarte frumoasă și am trăit numai fotografii de astea drăguțe pe Facebook și de astea cu peizajul, cu nu știu ce, cu noana sau numai că creierul nostru are asta, că scapi de situațiile celelalte, ștergi tot negativă și să rămân numai pozitiv.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 104,
+      "start": 1059.38,
+      "end": 1079.312,
+      "text": "Și îți aducem minte că când eram la liceu Igor Vieru cu domnul profesor Victor Cobzac, el ne scotea la Butuceni vara și noi două săptămâni stăteam în sat acolo, mâncam tot ce era prin sat, la Tante Maria și pictam peizajele cele, pe dealurile cele.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 105,
+      "start": 1079.312,
+      "end": 1088.271,
+      "text": "Au rămas numai toate astea și iată fiind în Italia cu tot peizajul ăsta, atunci am parcâns că mă, Moldova, așa e de frumoasă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 106,
+      "start": 1088.271,
+      "end": 1091.303,
+      "text": "Pizajul nostru a rămas specific foarte interesant și foarte plăcut.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 107,
+      "start": 1091.655,
+      "end": 1114.169,
+      "text": "Dar sigur că revenind la strămoșii noștri, nu știu din care ani să îi zic, dar aceia care tot traiu ăsta frumos îl codificau și îl dădeau mai departe, iată noi trebuie cumva să ne întoarcem cred că la dânsii și să ne reamintim și să mănâncă plaiul ăsta noastră natal.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 108,
+      "start": 1114.475,
+      "end": 1120.853,
+      "text": "Pentru că, da, au fost perioade foarte grele în care s-au vrut ca noi să nu ne mai ducem aminte de toată treaba asta.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 109,
+      "start": 1121.291,
+      "end": 1132.131,
+      "text": "Și cumva suntem acum așa ca un fel de, nu știu ce plantă este, care cu rădăcinile pe din afară și unde o pui, acolo trăiești câte lucțâc.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 110,
+      "start": 1132.131,
+      "end": 1136.092,
+      "text": "Adică nu e doamnă ferești, ci de frumoasă, dar ea supraviețuiește.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 111,
+      "start": 1136.092,
+      "end": 1152.617,
+      "text": "Mă simt bine în Moldova, am trăit o perioadă în afara țării și mereu mă gândeam că aș reveni și mereu în capul meu, în viitorul Moldova arată luminos, dar asta doar e în poziția în care Moldova își va mențini parcursul european.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 112,
+      "start": 1152.617,
+      "end": 1165.591,
+      "text": "Și îmi trebuie pentru că îmi dau seama că dacă nu noi sau eu ca om din reprezentanta tinerilor rătului, adică cumva dacă nu eu cine e altcineva.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 113,
+      "start": 1165.591,
+      "end": 1169.512,
+      "text": "Adică sunt alții care fac asta, dar oricum e un număr puțin de oameni.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 114,
+      "start": 1169.81,
+      "end": 1180.761,
+      "text": "Și la noi există oricum destul de puternic gândul acesta că politica e mordară, în general toți ce țin de politică e ceva meschin și în tabu și întunecat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 115,
+      "start": 1180.761,
+      "end": 1190.641,
+      "text": "Politica este Bacu, politica e atunci când mergi la spital, politica sunt ambuteiajele, politica e aeropoloa din Chișinău, politica e efectiv tot.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 116,
+      "start": 1190.641,
+      "end": 1195.822,
+      "text": "Dacă suntem cetățeni într-un stat, atunci nu are cum să nu ne intereseze politica.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 117,
+      "start": 1195.822,
+      "end": 1213.988,
+      "text": "Dacă aș fi la un moment dat în viața mea o expertă sau o specialistă super într-un anumit domeniu și aș fi în punctul în care aș putea să mi-ajut țara în momentul în care la guvernare sunt oameni în care eu am încredere, m-aș implica. Dar să fiu în politică nu este unul din scopurile mele.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 118,
+      "start": 1213.988,
+      "end": 1218.963,
+      "text": "Eu am avut două avansări în grad în America.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 119,
+      "start": 1218.963,
+      "end": 1229.151,
+      "text": "Cel de-al doilea grad și ultimul meu grad din Armata Națională, în gradul de la continent colonel, eu eram la școală, eram la curs. Era un curs foarte dificil pentru mine.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 120,
+      "start": 1229.151,
+      "end": 1241.221,
+      "text": "Și pentru că voiam să reprezint Republica Moldova bine, voiam să fie totul corect, deși mi-era foarte greu, am depus eforturi considerabile.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 121,
+      "start": 1241.221,
+      "end": 1248.061,
+      "text": "În noaptea plângeam în duș și dimineața îmbrăcam uniforma meditară și mergeam la lecții.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 122,
+      "start": 1248.061,
+      "end": 1257.821,
+      "text": "Și la una din lecții, instructorul nostru ne zice că, uitați-vă, astăzi lecția noastră o să doreze mai puțin, pentru că avem o avansare în grad.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 123,
+      "start": 1257.821,
+      "end": 1263.152,
+      "text": "Și în momentul în care am auzit asta, eu mi-am dat seama că e vorba despre mine.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 124,
+      "start": 1263.152,
+      "end": 1269.632,
+      "text": "Deci totul s-a petrecut așa în ceață. Și am început să vorbesc într-amura vocea.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 125,
+      "start": 1269.632,
+      "end": 1275.562,
+      "text": "Și la un moment dat văd că se lasă liniște și lumea încep să se zâmbească.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 126,
+      "start": 1276.468,
+      "end": 1280.142,
+      "text": "Și atunci mi-am dat seama că eu sunt pe drumul ceal dreapt.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 127,
+      "start": 1280.142,
+      "end": 1289.651,
+      "text": "Și am vorbit, am spus, chiar dacă nu eram pregătit, totul din inimă, din suflet, am plâns, cred, pe la final.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 128,
+      "start": 1289.998,
+      "end": 1292.513,
+      "text": "Și a fost o ceremonie, o ceremonie sub iarbă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 129,
+      "start": 1292.576,
+      "end": 1304.751,
+      "text": "M-am trezit după o perioadă de câțiva ani că activitatea mea era în oficiu, în spatele unui ecran, zi de zi, ca să-mi deau seama că nu e pentru mine.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 130,
+      "start": 1304.751,
+      "end": 1309.722,
+      "text": "Așa m-am dus în partea opusă și am ajuns înapoi în sat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 131,
+      "start": 1309.977,
+      "end": 1331.41,
+      "text": "Și atunci, în sat, stând, trăind acolo, am aflat de o fermă de animale, nu doar cai, care nu ducea prea bine în sensul în care caii erau deja mulți, aveau obiceiuri destul de agresive, de a mușca și atunci nu erau foarte ușor de manipulat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 132,
+      "start": 1331.41,
+      "end": 1338.553,
+      "text": "Și plus e o mare problemă în sat cu brațele de muncă, adică nu era cine să aibă grijă de ei.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 133,
+      "start": 1338.86,
+      "end": 1343.942,
+      "text": "Și atunci stăpânul se gândea să renunțe la ei, să-i vândă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 134,
+      "start": 1344.22,
+      "end": 1361.276,
+      "text": "Și eu m-am gândit, poate am putea să-i antrenăm, având cunoștință, fiind din oraș, să aduc careva voluntari care se ocupă cu echitația, ca să-i antrenăm și să poată să fie folosiți în tururi sau activități cu caii.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 135,
+      "start": 1361.276,
+      "end": 1366.942,
+      "text": "Era un vis romantic de-al meu, dar nu neapărat reflecta realitatea.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 136,
+      "start": 1367.408,
+      "end": 1370.103,
+      "text": "Și o parte din ei oricum a ajuns la abător.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 137,
+      "start": 1370.431,
+      "end": 1378.312,
+      "text": "Însă câțiva din ei care rămăsese l-am rugat să mi-i dea miei.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 138,
+      "start": 1378.579,
+      "end": 1382.392,
+      "text": "Și atunci i-am cumpărat cu puțini bani.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 139,
+      "start": 1382.491,
+      "end": 1393.361,
+      "text": "Dar nu-i problemă în a cumpăra un cal de la sat azi, e problema în a-i cumpăra mâncare pentru sezonul de iarnă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 140,
+      "start": 1393.709,
+      "end": 1404.071,
+      "text": "Nu aveam idei unde să-i ținem, să-i întreținem și atunci am apelat la o locație unde făcusem careva training-uri și știam că ei au ceva spațiu.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 141,
+      "start": 1404.368,
+      "end": 1408.572,
+      "text": "Am început să construim în jurul calelor cumva un adăpost.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 142,
+      "start": 1408.76,
+      "end": 1416.221,
+      "text": "Primii ani cea mai mare provocare a fost să avem grijă de ei și să le găsem resursi ca să le cumpărăm hran.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 143,
+      "start": 1417.017,
+      "end": 1420.082,
+      "text": "Asta a durat mult timp.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 144,
+      "start": 1420.479,
+      "end": 1447.219,
+      "text": "M-am gândit atunci că noi ar trebui să aducem și acasă, să-i facem pe militari, să se simte mândri de cei ce fac, de felul cum ei își fac meseria, să vină familiile lor atunci când sunt ceremonii de avansare în grad, să cunoască soția, să cunoască copiii cu ce se ocupă tata, cu ce se ocupă mama, pentru că așa se educă patriotismul.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 145,
+      "start": 1447.219,
+      "end": 1467.456,
+      "text": "E ușor să vorbești cu cuvinte pompoase, să citești fraze, nu știu de care, dar e foarte greu să explici în termeni simple ce înseamnă patriotismul, cum îl trăiești, ce faci tu ca să fii un patriot al țării sau patriotă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 146,
+      "start": 1467.456,
+      "end": 1473.782,
+      "text": "Un adevărat patriot, pentru că din punctul meu de vedere, militarii sunt patrioti, patrioti adevărați.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 147,
+      "start": 1473.782,
+      "end": 1480.912,
+      "text": "Deci nu mai țin minte cât de multe materiale scrise despre ghilimele, un erou a salvat patru cai de la moarte.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 148,
+      "start": 1481.121,
+      "end": 1509.431,
+      "text": "Și câte un pic, realitatea din teren e diferită, deoarece într-adevăr în sat asta nu era văzut ca eroism, era văzut ca o risipă, pentru că până la urmă am avut în sat, oamenii care permanent le tăiau funile sau le furau funile sau le dădeau drumul ca să meargă ei pe câmpuri sau în grădinele oamenilor ca să facă daune, ca după aia eu să am probleme.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 149,
+      "start": 1509.431,
+      "end": 1520.731,
+      "text": "Și în fiecare dată când am avut de afacere cu ei, am plecat atunci când au încetat a vorbi civilizată.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 150,
+      "start": 1521.147,
+      "end": 1523.523,
+      "text": "Am făcut asta odată, de zeci ori.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 151,
+      "start": 1523.523,
+      "end": 1536.621,
+      "text": "Puteau să mă sune, să-mi spună că iată, de ce pui cai aici, mănâncă iarba vacii mele sau dui în partea altă, dă-i în alt sat, vindi, de obiște, eu zici de 40 de ani ce ai venit în satul ăsta.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 152,
+      "start": 1537.329,
+      "end": 1546.671,
+      "text": "Și atât timp cât ei vorbeau civilizat, le răspundeam, atât timp cât ridicau voce sau nu vorbeau civilizat, închideam receptorul.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 153,
+      "start": 1546.671,
+      "end": 1556.931,
+      "text": "Și am făcut asta până când toți au înțeles că dacă vorbesc, omeniaște, eu îi ascult și le dau un răspuns, iar dacă nu, asta nu-i putere.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 154,
+      "start": 1556.931,
+      "end": 1560.342,
+      "text": "Anul acesta la Leger a fost o aventură întreagă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 155,
+      "start": 1560.342,
+      "end": 1564.462,
+      "text": "Deci eu, împreună cu prietenul meu, foarte mult am vrut să mergem la mare vară aceasta.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 156,
+      "start": 1564.462,
+      "end": 1569.742,
+      "text": "Și cumva nu am reușit, nu se prămei din vară motiv, e timp, buget și așa mai departe.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 157,
+      "start": 1570.029,
+      "end": 1574.962,
+      "text": "Și la finalul verii un pic frustrați că încă un an nu a mers la mare.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 158,
+      "start": 1575.26,
+      "end": 1582.521,
+      "text": "Impulsiv ne uitam la bilete accesibile spre zone care sunt calde încă toamna.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 159,
+      "start": 1582.521,
+      "end": 1590.231,
+      "text": "Și am văzut bilete ieftine din București-Tenerife și le-am cumpărat, așa bucuroși, tot grăbit într-un fel.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 160,
+      "start": 1590.231,
+      "end": 1598.241,
+      "text": "Și numai după ce le-am cumpărat, noi ne-am dat seama că perioada pe care am ales-o conține și data de 20 octombrie.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 161,
+      "start": 1598.879,
+      "end": 1606.971,
+      "text": "Și a fost un moment de, ok, am dat peste fereastră banii ăștia ca noi să nu mai mergem și stăm în țară să votăm.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 162,
+      "start": 1606.971,
+      "end": 1611.842,
+      "text": "Sau luăm atitudinea de, ei las că ați treac fără noi, dar n-ați treac.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 163,
+      "start": 1611.842,
+      "end": 1616.002,
+      "text": "Adică bine, ați treac fără noi, dar n-ați treac fără noi.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 164,
+      "start": 1616.279,
+      "end": 1621.032,
+      "text": "Și evident, în Tenerife nu există o secție de votare pentru moldoveni.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 165,
+      "start": 1621.032,
+      "end": 1638.353,
+      "text": "Și noi, cumva, pe hartă ne uitam care ar fi cea mai apropiată secție de votare și am luat bilete din Tenerife în Madrid, fără să știm dacă o să stăm la cineva, o să dormim prin gări și aeropoarte sau, în general, cum ați fi situația.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 166,
+      "start": 1638.353,
+      "end": 1653.783,
+      "text": "Dar, cumva, aveam în plan să intru pe moldovenii în Madrid și scriu: Bună ziua, suntem un cuplu care au fost un pic căscați, dar vrem neapărat să votăm, pentru că este un moment istoric și nu mi-aș fi iertat și nici eu și nici prietenul meu dacă n-am fi votat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 167,
+      "start": 1653.783,
+      "end": 1655.604,
+      "text": "Nu e ceva ce trece.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 168,
+      "start": 1656.161,
+      "end": 1664.332,
+      "text": "Aș fi simțit o vină enormă, nici nu m-aș fi odihnit ok în această vacanță, m-aș fi simțit tot rădătoare.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 169,
+      "start": 1664.8,
+      "end": 1671.112,
+      "text": "Ar fi fost sentimente mult mai grele decât efortul pe care le-am depus ca să mergem să votăm.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 170,
+      "start": 1671.112,
+      "end": 1675.912,
+      "text": "Hai, până la urmă, a ajuns, de fapt, să fie partea familiei.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 171,
+      "start": 1675.912,
+      "end": 1678.86,
+      "text": "Noi cu toții, într-o oarecare măsură, i-am adoptat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 172,
+      "start": 1678.86,
+      "end": 1691.472,
+      "text": "Eu și familia mea am început să dăm seama că nu o să putem trăi fără ei și nu o să renunțăm la ei, indiferent de situația financiară sau ce o să întâmple.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 173,
+      "start": 1691.472,
+      "end": 1700.801,
+      "text": "Apoi s-au alăturat prieteni, s-au alăturat cunoscuți, s-au alăturat oamenii care împărtășesc aceleași valori cu care nu ne-am auzit și nu ne-am văzut niciodată.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 174,
+      "start": 1700.801,
+      "end": 1711.671,
+      "text": "Și împreună acum avem o familie care nu e numai de rudenii, dar o familie de valori, de oameni cu aceleași valori, care mă susțin ca să continui să am grijă de ei.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 175,
+      "start": 1711.671,
+      "end": 1717.902,
+      "text": "Noi, liceul Lucea în Blaga, ca o hârtie de tornisol a fost, de fapt, momentele cele mai grele, cruciale.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 176,
+      "start": 1717.902,
+      "end": 1726.591,
+      "text": "Apoi, noi deja bancarte scrieu ostaci în propria țară, deoarece ne-au folosit ca ostatici, dar ostatici luptători am fost.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 177,
+      "start": 1726.591,
+      "end": 1729.682,
+      "text": "N-am așteptat numai să ne eliberezi cineva.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 178,
+      "start": 1729.682,
+      "end": 1757.076,
+      "text": "Trăind într-un mediu atât veninos și atât împotriva tot ce e a nostru, împotriva limbii, să simța lucrul acesta, nu numai din partea autorităților transnistrene, dar și din cauza mass media, acolo toată mass media în limba rusă și tot timpul se vorbea despre cei că dușman numărul unu este Repulca Moldova și, în primul rând, este România.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 179,
+      "start": 1757.076,
+      "end": 1772.41,
+      "text": "Banchipuie sunt noi acei care luptam și studiam în limba română, vorbeam românești, gândeam românești, aveam simbolica noastră, tricolorul, himnul nostru.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 180,
+      "start": 1772.41,
+      "end": 1782.321,
+      "text": "Clar că era foarte ostil pentru regimul din Teraspol și aproape nu era zica să nu simțăm această presiune.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 181,
+      "start": 1782.57,
+      "end": 1800.268,
+      "text": "Vă închipuiți, bun oară, în timpul lecțiilor, puteți zboare câte o piatră, să spargă geamul, ori vă închipuiți că mă duc într-o bună dimineață la școală și îmi pun mâinile în capă, zic, doamne, cum poate să ajung la așa ceva, așa josnic să fie?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 182,
+      "start": 1800.848,
+      "end": 1824.342,
+      "text": "Aveam o mică bufetă în acea clădire mică în care activăm și astăzi și au spart geamurile, au scos fereastra, au intrat noaptea răufăcătorii, dar cred că la inițiativa cuiva și pe mesele, mă scuzați, pe mesele unde mâncau copiii noștri, s-au murdărit ca animale și au lăsat așa pe mese murdării.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 183,
+      "start": 1824.491,
+      "end": 1837.141,
+      "text": "Când am sunat și am vorbit, am făcut și o adresare la miliția transgență, ne-a dat un răspuns, aici sunt niște jocuri copilării și vă bateți capul, zic, bune jocuri.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 184,
+      "start": 1837.141,
+      "end": 1855.071,
+      "text": "Deja, în prima parte a zilei, anxietatea era destul de înrădăcinată, cumva vedeam prezența la vot, îmi părea mică, ne gândeam că, ei mic deoarece e tineri, mă rog, dimineața, duminica își fac rutina după merg la vot, adică mai au timp.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 185,
+      "start": 1855.071,
+      "end": 1872.28,
+      "text": "Dar semțeam o anxietate destul de mare și eu în același timp mă așteptam să stau în rând, eu voiam să stau în rând, însă n-am stat și mă gândească asta s-a întâmplat deoarece acum sunt mult mai multe secții de votare și cumva lumea nu mai stă în rând, e mai ușor să votezi, deși e romantic să stai în rând, cumva, pentru țara ta.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 186,
+      "start": 1872.914,
+      "end": 1896.64,
+      "text": "Am votat rapid, însă un pic mi-a stricat dispoziția faptul că în momentul în care am pus buletinile de vot în cutiuță, mai pot să vezi, mai pot să tragi cu ochiul la alte buletini de vot care sunt acolo și am văzut un buletin de vot în care era pus, nu, ștampi la întrebarea dacă vrem ca Moldova să adere la Uniunea Europeană.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 187,
+      "start": 1896.64,
+      "end": 1913.52,
+      "text": "Știi că a apărut spectacolul ăsta în 1946 la Luceafăru, Slava Sambre și-a lucrat foarte mult și eu am fost cu spectacol la Volintiri, satul Marie Biașu, într-o sală enormă, o sală mult mai mare cât cea de la Luceafăru, în care oamenii intrau pe furiș.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 188,
+      "start": 1914.089,
+      "end": 1932.681,
+      "text": "Și am văzut cum după spectacol, cu ochii umezi, ieșeau pe furiș de parcă s-ar fi ușurat unii de ceilalți și s-au apropiat de mine și mi-au zis că da, dar știți că la noi în sat încă sunt foarte activi urmașii celor care au strâns până de la oameni.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 189,
+      "start": 1933.139,
+      "end": 1941.211,
+      "text": "Deci a fost un moment în care mi-am dat seama că e nevoie de o idee națională.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 190,
+      "start": 1941.855,
+      "end": 1945.492,
+      "text": "O idee națională precum a fost Holodomorul în Ucraina.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 191,
+      "start": 1945.647,
+      "end": 1949.203,
+      "text": "Oamenii în jurul acestei idei s-au consolidat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 192,
+      "start": 1949.411,
+      "end": 1957.302,
+      "text": "Noi încă la ora actuală n-am făcut din această tragedie o idee națională, poate pentru că am sferit mai mult.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 193,
+      "start": 1957.37,
+      "end": 1963.062,
+      "text": "Eu, timp de trei ani de zile în armata, am realizat emisiunea televizată la datorii.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 194,
+      "start": 1963.062,
+      "end": 1967.612,
+      "text": "Era un proiect al Ministerului Apărării și postului de telepțiune a Moldova 1.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 195,
+      "start": 1967.87,
+      "end": 1977.421,
+      "text": "Și atunci când am realizat emisiunea, am avut foarte multe ocazii să merg, să-i văd pe militari în acțiune.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 196,
+      "start": 1977.46,
+      "end": 1987.181,
+      "text": "Și i-am văzut la inundații în Ungheni, când practic discuți, ajutau oamenii să-și ia lucrurile, cele mai valorațe lucruri.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 197,
+      "start": 1987.181,
+      "end": 1991.242,
+      "text": "I-ajutau să salveze aceste lucruri, le puneau în mașini.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 198,
+      "start": 1991.242,
+      "end": 2002.621,
+      "text": "I-am văzut flămânsi, i-am văzut obosiți, i-am văzut murdari pe față, i-am văzut în situații foarte dificile. Și niciodată nu s-au plâns, niciodată nu s-au jeluit.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 199,
+      "start": 2002.792,
+      "end": 2025.191,
+      "text": "Și atunci când nu cu doar să-i cuprinzi, și să-i pupi, dar îți venea să spui lumii întregi, moldovenilor, concetățenilor noștri, care poate nu întotdeauna înțeleg ce înseamnă viața de militar, ce înseamnă să-ți iubești patria, ce înseamnă să fii în sprijinul oamenilor în fiecare zi.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 200,
+      "start": 2025.329,
+      "end": 2031.612,
+      "text": "Și ei fac asta, nu doar pentru că au depus un jurământ, dar pentru că așa simt ei.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 201,
+      "start": 2031.612,
+      "end": 2035.532,
+      "text": "În pictură eu am zis că am să fiu constant.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 202,
+      "start": 2035.621,
+      "end": 2046.501,
+      "text": "Constant în sens că una dintre colecții are deja peste 2A, e aproape undeva la 300 de lucrări, alte colecții ea, tot așa peste 50 de lucrări.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 203,
+      "start": 2046.501,
+      "end": 2073.399,
+      "text": "Și parcă subiectul e cam tot același, parcă te-ai uitat și ai spune că da, băietul ăsta parcă nu ies o lecțică din răm sau nu știu cum, dar ea ca mie îmi place să fiu constant, pentru că scopul meu e că ca să ajungă subiectul ăsta la cât mai multe persoane, cumva ea ca partea asta de wow, să fie că wow, tapetii mihi au pictat deja o mie de mândri.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 204,
+      "start": 2073.706,
+      "end": 2099.554,
+      "text": "Și ea ca o mie de mândri s-au dus prin toate corțurile pământului și dacă la moment s-au dus prin toate corțurile pământului unde-s ai noștri, la un moment dat se duc prin corțurile și elea unde se povestească despre noi, la cineva străin, sau cumva se aseză ca despre corțșorul ăsta din borta asta în Europa, că el există și el e așa de frumos.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 205,
+      "start": 2099.671,
+      "end": 2104.962,
+      "text": "Mă întorc la perioada când am făcut emisiunea la datorie.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 206,
+      "start": 2105.209,
+      "end": 2110.342,
+      "text": "Eu nu știam dacă emisiunea este populară sau dacă oamenii se uită la ea.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 207,
+      "start": 2110.342,
+      "end": 2114.812,
+      "text": "Pentru mine era o experiență foarte nouă și nu știam cum e ok.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 208,
+      "start": 2115.19,
+      "end": 2125.391,
+      "text": "Și în următorul an am mers la țară, la Blajini și în anul celălalt eu am strâns practic jumătate din pomeni de la cemitir.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 209,
+      "start": 2126.578,
+      "end": 2132.211,
+      "text": "Pentru că toți oamenii se uita la mine cumva cu mândrie cu cineva din satul lor.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 210,
+      "start": 2133.056,
+      "end": 2134.832,
+      "text": "A ajuns la televiziune.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 211,
+      "start": 2135.09,
+      "end": 2144.921,
+      "text": "Și toți îmi spuneau că e foarte bună emisiunea, că ei se uită și cunosc ce se ocupă militarii, că respectă militarii.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 212,
+      "start": 2145.159,
+      "end": 2151.032,
+      "text": "Și eu cred că noi ar trebui și astăzi să vorbim mai mult despre militari.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 213,
+      "start": 2151.17,
+      "end": 2158.242,
+      "text": "Ca oamenii să aibă posibilitatea să se informeze despre cei ce fac militarii cu adevărat din surse demne de încredere.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 214,
+      "start": 2158.242,
+      "end": 2162.292,
+      "text": "Și atunci cred că am avea mai puțină dezinformare în mediul online.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 215,
+      "start": 2162.292,
+      "end": 2169.402,
+      "text": "Nu aveai timp să te gândi la asta că cum să lași copiii, să lași părinți care au încredere în tine.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 216,
+      "start": 2169.509,
+      "end": 2173.052,
+      "text": "Cum poți să lași o fetiță, Oxana Voveco?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 217,
+      "start": 2173.052,
+      "end": 2182.171,
+      "text": "A venit din Dubasari, era în clasa 8-a și mereu o vedeam că e foarte tristă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 218,
+      "start": 2182.349,
+      "end": 2187.522,
+      "text": "Și o chemă în birou și zic Oxana, hai te rog spune, dar a fost foarte tăcut.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 219,
+      "start": 2187.522,
+      "end": 2190.753,
+      "text": "Spune Oxana, ce e aici cu sufletul tău?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 220,
+      "start": 2190.901,
+      "end": 2202.131,
+      "text": "Zică, eu am vorbit acum la telefon cu domnul Ion Druță, scritorul Ion Druță, și el ți-a trimis un pachet, o scurtă de pele, trebuia să o iau din Chișinău.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 221,
+      "start": 2202.217,
+      "end": 2203.224,
+      "text": "Parcă a acceptat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 222,
+      "start": 2203.224,
+      "end": 2207.782,
+      "text": "Eu am luat aceea și zică, hai să spun te rog, ce s-a întâmplat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 223,
+      "start": 2207.782,
+      "end": 2212.982,
+      "text": "O iau, spune, domn director, tata meu a fost brutar.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 224,
+      "start": 2213.17,
+      "end": 2219.002,
+      "text": "Făcea pâine pentru voluntarii care luptau în 92 la Dubasari, la cocieri.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 225,
+      "start": 2219.487,
+      "end": 2221.273,
+      "text": "Mama nu era acasă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 226,
+      "start": 2221.678,
+      "end": 2223.633,
+      "text": "Noi locuiam în Dubasari.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 227,
+      "start": 2223.919,
+      "end": 2227.14,
+      "text": "Eu eram cu surioara mai mică și cu tata acasă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 228,
+      "start": 2228.005,
+      "end": 2233.173,
+      "text": "În momentul acela, bate cineva seara la ușă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 229,
+      "start": 2233.729,
+      "end": 2237.802,
+      "text": "Tata se apropie de o ușă, dar nu descuie și întreabă cine-i acolo.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 230,
+      "start": 2238.099,
+      "end": 2241.173,
+      "text": "Și mai sună odată.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 231,
+      "start": 2241.568,
+      "end": 2243.713,
+      "text": "Tata tace din gorda-i lângă ușă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 232,
+      "start": 2244.898,
+      "end": 2248.042,
+      "text": "Și o rafală de automat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 233,
+      "start": 2248.817,
+      "end": 2250.223,
+      "text": "Împușcă prin ușă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 234,
+      "start": 2250.991,
+      "end": 2260.791,
+      "text": "Deci când nu ne-am dat seama, ne-am speriat că ne-am apropiat, tata a căzut în sânge și ea că tata moare în față acestor doi copii.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 235,
+      "start": 2261.649,
+      "end": 2268.661,
+      "text": "Și apoi ea că tata, spunează vă rog, cum puteai să pleci din școală dacă ea, din Dubasari, mă tu și-a adus-o în școală asta.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 236,
+      "start": 2269.037,
+      "end": 2270.533,
+      "text": "Tu ești să pleci.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 237,
+      "start": 2270.533,
+      "end": 2286.038,
+      "text": "Nu știu cu cine discutam noi la un moment dat și zici că păi dar e ca cui au venit în cap să pună culorile la flagul ăsta noastră, roșu, galben și albastru.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 238,
+      "start": 2286.156,
+      "end": 2299.072,
+      "text": "Este așa, într-un fel, e primitiv cumva, e culorile primare, adică cine au venit în cap să mai amici ceva, cum au văzut roșu, galben și albastru, le-au pus și gata, asta-i tot.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 239,
+      "start": 2299.24,
+      "end": 2306.292,
+      "text": "Și eu de obicei, nu știu, mie îmi place și să contraargumentesc deodată, să zic nu, nu, nu, stați-o leacă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 240,
+      "start": 2306.447,
+      "end": 2307.214,
+      "text": "De ce?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 241,
+      "start": 2307.509,
+      "end": 2309.164,
+      "text": "Deși deodată credeți că e rău.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 242,
+      "start": 2309.382,
+      "end": 2320.921,
+      "text": "Ia încercați voi să vă gândiți la un albastru de voronieț, de exemplu, sau un roșu de maci, sau un galben de grâu copt.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 243,
+      "start": 2321.489,
+      "end": 2332.201,
+      "text": "Și când pui nuanțele estea împreună, apoi vezi un tricolor foarte copios și nu-ți mai trebuie alte culori și alte combinații de culori.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 244,
+      "start": 2332.319,
+      "end": 2337.632,
+      "text": "Și probabil, mă gândesc, poate nouăle nuanțe repotrivit la galben, albastru și roșu.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 245,
+      "start": 2337.847,
+      "end": 2352.978,
+      "text": "Când revenisem din stat, în 2011, am făcut cu verășorul meu și o prietenă o drumeție de vreo câteva săptămâni de la Prud, prin nordul Moldovii, prin Nistru, în vale, spre orcheie veche.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 246,
+      "start": 2353.471,
+      "end": 2355.424,
+      "text": "Și am rămas șocat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 247,
+      "start": 2355.522,
+      "end": 2365.371,
+      "text": "Și motivația mea era că, fiind în Statele Unite, în Alaska, într-o zi, atunci am avut o lună în care i-a plouat cam în fiecare zi.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 248,
+      "start": 2365.537,
+      "end": 2367.463,
+      "text": "Și erau toate hainele umile.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 249,
+      "start": 2367.81,
+      "end": 2372.362,
+      "text": "Și atunci, a unica haină uscată care mai era, era o pereche de shorts și un tricou.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 250,
+      "start": 2372.461,
+      "end": 2385.981,
+      "text": "În zilele mele liberi, le-am îmbrăcat să mă duc să-mi iau ceva de mâncare și pe drum m-am întâlnit un cuplu în vârstă care mi-a zis, Sanat, tu probabil ești din Alaska văzându-mi îmbrăcat cumva în timpul ploii cu tricou și ușor zic, nu vă imaginați, dar nu.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 251,
+      "start": 2386.187,
+      "end": 2387.563,
+      "text": "Zic, da, dar de unde ești?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 252,
+      "start": 2388.531,
+      "end": 2398.441,
+      "text": "De obicei, întrebările despre unde ești când ceri să explici cuiva atât de partea unde e Moldova e destul de lung și încercam să evit întrebarea asta, respectiv le-am spus Europa de Est.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 253,
+      "start": 2398.768,
+      "end": 2403.332,
+      "text": "Și da, dar unde în Europa de Est? Zic, între România și Ucraina.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 254,
+      "start": 2403.509,
+      "end": 2405.025,
+      "text": "Da, unde anume?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 255,
+      "start": 2405.259,
+      "end": 2406.325,
+      "text": "Zic, Moldova.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 256,
+      "start": 2406.822,
+      "end": 2421.358,
+      "text": "Dar noi am fost în Moldova și mirarea mea când am auzit că eu fost în Moldova mai mult eu zis, da, noi am fost în Moldova și am văzut Soroca și am văzut Orhei Vechi și am fost în beciul de la Cricova și eu în un moment acela nu știam niciuna din locațiile.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 257,
+      "start": 2421.358,
+      "end": 2436.71,
+      "text": "După asta mi-am dat seama că eu nu știu nimic și cumva m-am simțit ciudat pentru că niști oameni străini știu mai mult despre țara mea decât eu și atunci am avut dorința de cum revin în țară să mă duc să explorez să văd Moldova.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 258,
+      "start": 2437.047,
+      "end": 2444.101,
+      "text": "Și așa am făcut expediția asta și am văzut multe locuri frumoase și de atunci tot merg în diferite locuri frumoase.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 259,
+      "start": 2444.101,
+      "end": 2465.74,
+      "text": "Anul ăsta chiar așa am simțit că trebuie să pornesc de mult vroiam să fac asta o serie de expoziții dar iarăși niște expoziții cu anturaj artistic care să dă niște stări care să trezească niște emoții care să trezească niște sentimenti față de țară.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 260,
+      "start": 2466.289,
+      "end": 2476.775,
+      "text": "Și cred că lucrul frumos și bun care l-am făcut pentru țara mea e că eu încă sunt aici și vreau să fac asta.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 261,
+      "start": 2476.775,
+      "end": 2494.884,
+      "text": "Iarăși cumva în iunie a fost prima expoziție căsuța cer și urmează să fie și acum în noiembrie o expoziție și cumva e că așa să expunem să ducem să arătăm că noi suntem albași de voroneț noi suntem cu ornament cu lemn cu stejar.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 262,
+      "start": 2494.884,
+      "end": 2505.716,
+      "text": "Lucruri de-astea care nu ele nu sunt așa de în vogă dar trebuie de pus în față ca să cumva să ne înrădăcinăm într-o bază frumoasă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 263,
+      "start": 2505.716,
+      "end": 2527.224,
+      "text": "Despre patriotism eu am crescut totuși cu literatura română și cu televizia română acasă și la bunica mea din neam de mazil din răzeș din lunga prutului la botește în casa cea mare era o lozincă fii tare ca o stâncă nu uita că ești româncă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 264,
+      "start": 2527.508,
+      "end": 2547.135,
+      "text": "Deci un sat care avea anumite tradiții un sat care se respectau care nu era atât de dezvoltat acest simț cum spunea cineva al invidiei și al denunțului pentru că sistemul sovietic a fost și un sistem de denunțare un sistem în care profitai.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 265,
+      "start": 2547.135,
+      "end": 2568.667,
+      "text": "Oamenii au fost deportați și cineva stătea în dosul casei și așteptea ca pe ăștia să-i încarce mașină și să intre să jefuiască sau casa noastră de la țară de la Cuhnești era apreciată pentru că era la marginea satului și oamenii puteau merge de acolo în câmpurile colhozului și să fure.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 266,
+      "start": 2568.667,
+      "end": 2586.974,
+      "text": "La colhoz pe dealul mare cine fură ăla are este o schimbare de mentalitate care mai are și astăzi repercursiuni foarte grave și faptul că putem fi solidari într-o idee îmi pare că este un viitor posibil.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 267,
+      "start": 2586.974,
+      "end": 2596.93,
+      "text": "Pentru mine patriotismul în termeni foarte simple este de a-ți face munca uneastă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 268,
+      "start": 2597.318,
+      "end": 2613.753,
+      "text": "Toți militarii sunt patrioti dar pentru mine patrioti sunt militarii care au dezamursat și-au curățat teritoriul Republicii Moldova de mine, și unii au rămas fără picioare acolo.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 269,
+      "start": 2613.753,
+      "end": 2616.213,
+      "text": "Uite ei sunt patrioti adevărați.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 270,
+      "start": 2616.213,
+      "end": 2620.452,
+      "text": "Este vorba de colonială Smedcoa, Dumnezeu să le ierte, care a murit.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 271,
+      "start": 2621.269,
+      "end": 2625.692,
+      "text": "Eu nu știu dacă asta nu poate fi un mit patriotism.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 272,
+      "start": 2625.692,
+      "end": 2633.734,
+      "text": "După ce am văzut rezultatele primului tur și cumva rezultatele referendumului mi-am descărcat TikTok.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 273,
+      "start": 2634.332,
+      "end": 2646.781,
+      "text": "Eu foarte mult timp mă feream de TikTok și am zis că mai cu zeci urmăritori dacă să am dar bine TikTok-ul cumva are proprietatea asta de a te răspândi super ușor.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 274,
+      "start": 2646.781,
+      "end": 2667.427,
+      "text": "O să fac video-uri în care o să explic pe scurt cum înțeleg eu și de ce e important să votăm într-un anumit mod și nu altul deoarece există așa de multe profili pe TikTok care postează super regulat conținut de dezinformare dar atât de regulat încât nu te gândi că omul ăsta face asta fără un salariu.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 275,
+      "start": 2667.427,
+      "end": 2675.092,
+      "text": "Adică să vede că există o consistență acolo care probabil este achitată și este un conținut vicios de dezinformare.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 276,
+      "start": 2675.59,
+      "end": 2683.193,
+      "text": "Și noi cred că trebuie ca orice cetățen să ne luptăm cu ea și chiar nu cred că e suficient doar să votăm.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 277,
+      "start": 2683.193,
+      "end": 2711.466,
+      "text": "Cel mai important lucru pe care l-am făcut eu în armată e că am dat voce miilor de militari care au fost și sunt în serviciul Republicii Moldova în serviciul oamenilor care fără să se gândească măcar o minută o secundă au mers acolo unde i-a trimis țara, acolo unde a trebuit să-și facă datoria.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 278,
+      "start": 2711.734,
+      "end": 2721.6,
+      "text": "Și niciodată nu s-au plâns niciodată n-au spus că nu pot și pentru mine a fost o onoare să fiu purtătoarea lor de cuvântă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 279,
+      "start": 2721.6,
+      "end": 2732.659,
+      "text": "Nu mai țin minte în ce an doi sau trei ani în urmă a fost o secetă cumplită și având și așa tensiuni cu sătenii dar imașul era uscat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 280,
+      "start": 2733.145,
+      "end": 2745.312,
+      "text": "Și atunci având încă o lună de sezon de toamnă înainte m-am gândit că aș vrea să merg cu cai undeva în altă parte ca să scot impresiunea asupra imașului.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 281,
+      "start": 2745.576,
+      "end": 2760.835,
+      "text": "Dar totodată cumva am ajuns la ideea că uite caii mei îi aveam deja de vreo trei ani în tot timpul ăsta au văzut o singură stradă și un singur loc adică toată viziunea lor despre lume e doar asta.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 282,
+      "start": 2760.965,
+      "end": 2773.47,
+      "text": "Și atunci așa s-a născut ideea de a face am numit-o noi Odiseea a patru cai și am prunit într-o expediție cumva într-o direcție necunoscută în căutarea pageștii ideale.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 283,
+      "start": 2773.47,
+      "end": 2781.489,
+      "text": "Și am început la drum cu patru cai și primele zile au fost oribile pentru că toată Moldova e deal și vale.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 284,
+      "start": 2782.68,
+      "end": 2805.884,
+      "text": "Și doar mergeam un pic în deal erau toți obosit și transpirat și se începea valea și calul trebuia să țină trăsură și iar obosea până când am ajuns câte un pic în mod natural în valea unui râu râu răut ca să-mi dau seama că bucata de drum pe malul râului e incredibil de plăcută.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 285,
+      "start": 2805.884,
+      "end": 2825.169,
+      "text": "Și am continuat drumul ăsta până am ajuns la râu Nistru și câțiva ani mai târziu asta a devenit un traseu de ciclism care conectează orheiei vechi cu râul Nistru și până acum cred că e unul dintre cele mai frumoase trasei de ciclism pe care le avem, care încă e necunoscut.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 286,
+      "start": 2825.169,
+      "end": 2844.522,
+      "text": "Un lucru concret pe care l-am făcut eram în trenul Chișinău-București și un tren la Cușetă și eram în aceeași cameră cu o fată din Transnistria și ea avea lecții de limba română online în momentul în care noi eram împreună în tren și oricum am intrat în vorbă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 287,
+      "start": 2845.178,
+      "end": 2856.691,
+      "text": "Eu am principiul de a vorbi română mereu cu persoanele vorbitoare de rusă de la noi doar în cazuri în care sunt refugiați din Ucraina atunci pot să schimb limba de conversații.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 288,
+      "start": 2856.691,
+      "end": 2864.62,
+      "text": "Și cumva această fată călătoriște călătoriște super mult are un job remote dar călătoriște mult cumva asta e activitatea ei.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 289,
+      "start": 2864.62,
+      "end": 2882.079,
+      "text": "Și vorbind mi-a spus că nu prea crede că va vota fiindcă nu consideră că asta cumva are un efect și eu am spus că la noi în țară încă are un efect votul oamenilor și vocea oamenilor încă contează dar lucrul ăsta e super fragil.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 290,
+      "start": 2882.079,
+      "end": 2897.07,
+      "text": "Și nu mai țin minte exact argumentele pe care le-am dat dar cumva am avut o discuție de cât de important este să exercităm acest drept democratic și faptul că el nu este dat de la sine adică el nu a fost mereu acolo și mereu va fi.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 291,
+      "start": 2897.479,
+      "end": 2904.527,
+      "text": "El nu a fost acolo și el este datorit unor acțiuni concrete și el va fi în continuare dacă noi îl menținem.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 292,
+      "start": 2904.527,
+      "end": 2930.957,
+      "text": "Și în ziua alegerilor ea a făcut o postare pe Instagram noi după asta ne-am schimbat cu contactele și ea a spus că chiar nu mă gândeam să merg la vot dar cumva eram în trenul Chișinău-București și am întâlnit-o și mi-a dat tac și ea mi-a spus fraza care a stat mult timp cu mine că în Moldova votul încă contează și eu pus acolo emojii cu steagul Moldovei și unii europeni și eram wow ce drăguț.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 293,
+      "start": 2930.957,
+      "end": 2937.276,
+      "text": "Patriot nu poți fi mai mare ori mai mic poți fi patriot ori poți să nu fii patriot.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 294,
+      "start": 2937.276,
+      "end": 2941.23,
+      "text": "Patria e ca și mama nu se alege.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 295,
+      "start": 2941.23,
+      "end": 2950.672,
+      "text": "În patria mea nu e bogată poate nu e frumoasă dar e cea mai scumpă că e a mea și eu o iubesc așa cum este.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 296,
+      "start": 2950.9,
+      "end": 2974.506,
+      "text": "Tot timpul la frontiere la o margini de țară tot timpul a fost greu fiindcă suntem un fel de pichet un fel de frontieră un fel de barieră unde nu cu armă dar iarăși prin puterea cuvântului încercăm să apărăm de infecția aceea care vine de la răsărit.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 297,
+      "start": 2974.736,
+      "end": 2981.286,
+      "text": "Și rezultatele chiar alegerilor ați văzut au votat nu mulți au votat 16.000.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 298,
+      "start": 2981.286,
+      "end": 2994.276,
+      "text": "Totuși 35% din transnistri au votat pentru vectorul european deci sunt acei oameni care sunt înțepe pe elea lor ce înseamnă rusii miri ce înseamnă lumea rusă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 299,
+      "start": 2994.342,
+      "end": 2998.004,
+      "text": "Deci acolo nu uitați că este munca noastră.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 300,
+      "start": 2998.004,
+      "end": 3005.056,
+      "text": "Nu știu de ce dar mimi se asociază asta cu armii și război.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 301,
+      "start": 3005.056,
+      "end": 3011.633,
+      "text": "Să fii patriot trebuie să împuști pentru țara ta trebuie să fie gata ca să-ți aperi țara.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 302,
+      "start": 3011.633,
+      "end": 3025.218,
+      "text": "Eu nu știu eu acum dacă să fiu pus în rolul ăsta să-mi pușc pe cineva pentru țara mea e tare dificil pentru mine pentru că eu nu vreau să-mi pușc dar nici nu vreau să să nu-mi apăr țara într-un fel.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 303,
+      "start": 3026.116,
+      "end": 3047.59,
+      "text": "Și mi s-a implantat tare adânc gândul ăsta că băi ce ar fi să fii patriot prin cultură să fii așa patriot prin cultură ca să n-ajungi la arme adică să previe ca momentul ăsta în care tu să ajungi la conflicte care îți duc într-o extrem tare tare urâtă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 304,
+      "start": 3047.59,
+      "end": 3050.265,
+      "text": "A fi patriot înseamnă să-ți iubești țara.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 305,
+      "start": 3050.265,
+      "end": 3052.297,
+      "text": "A fi patriot înseamnă să-i cunoști istoria.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 306,
+      "start": 3052.297,
+      "end": 3054.934,
+      "text": "A fi patriot înseamnă să-i vorbești limba.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 307,
+      "start": 3054.934,
+      "end": 3060.108,
+      "text": "A fi patriot înseamnă să faci bine atât cât atât cât cât trăiești.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 308,
+      "start": 3060.108,
+      "end": 3062.198,
+      "text": "Poate nu în fiecare zi suntem patrioti.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 309,
+      "start": 3063.287,
+      "end": 3074.972,
+      "text": "Dar atunci cum sunt momente în care se hotărăște istoria trebuie să fim demni și să fim patrioti să luăm decizii corecte.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 310,
+      "start": 3074.972,
+      "end": 3084.775,
+      "text": "Patriotism înseamnă Elveția în fiecare din cetățenii acestei țări se simt bine sau țările nordice înseamnă de fapt contract social.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 311,
+      "start": 3084.775,
+      "end": 3097.695,
+      "text": "Când predam la Academie de Studii Economice mai apoi am pornit cu trai stambăți spre Europa și am renunțat la catedră vorbeam foarte mult despre acest contract social.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 312,
+      "start": 3097.695,
+      "end": 3099.353,
+      "text": "Ce înseamnă contract social?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 313,
+      "start": 3099.61,
+      "end": 3100.608,
+      "text": "Foarte simplu.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 314,
+      "start": 3100.608,
+      "end": 3121.055,
+      "text": "Oamenii din perioada tribală mergeau la vânătoare și într-o bună zi unul din șefii tribuli zice că bine noi vânăm fiecare câte o iepure câte o potărniche dar dacă ne asociem vom putea vâna un animal mai mare un băr un zimbru și parcă au căzut cu toții de acord.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 315,
+      "start": 3121.055,
+      "end": 3135.258,
+      "text": "Și când stăteau la pândă așteptând bărul unul a văzut o potărniche altul a văzut un iepure și fiecare dintre ei a ales propria pradă și bărul a trecut pe alături rămânând așa o iluzie.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 316,
+      "start": 3135.258,
+      "end": 3139.222,
+      "text": "Deci patriotism înseamnă să mergem împreună în același scop.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 317,
+      "start": 3139.222,
+      "end": 3151.314,
+      "text": "Succesul oricărei speciei ține nu doar de speciei dar de combinația dintre subiectul dat specie a dat organismul dat și mediul și noi suntem foarte strânsi și legați de mediul.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 318,
+      "start": 3151.314,
+      "end": 3173.426,
+      "text": "Și pentru mine patriotism undeva are foarte mare legătură cu asta pentru că eu m-am născut aici și știu atât de multe căreri crăpături frunze rădăcini anume aici că în orice parte a globului pământeasc mi-ar trebui jumătate de viață ca să aflu atâtea.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 319,
+      "start": 3173.426,
+      "end": 3192.705,
+      "text": "Și iată exact lucrurile astea pe de o parte îmi dau toată puterea și posibilitățile pe de cealaltă parte îmi închid tot restul celorlalte lucruri care nu pot să le fac și dacă ar fi o viață infinită pentru fiecare dintre noi nu cred că ar avea relevanță am putea să fim oriunde și am putea să fim oricine.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 320,
+      "start": 3192.705,
+      "end": 3218.002,
+      "text": "Dar pentru că lucrurile au un termen cred că e important să învățăm foarte bine care ne sunt aturile în ce suntem buni unde ne este talentul și să nu încercăm să fim mici ca să facem spațiu pentru ceilalți ca nu cumva să-i stingerim cu lumina cu înțelepciunea noastră ca să nu sunt cumva ei inferiori.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 321,
+      "start": 3218.002,
+      "end": 3227.028,
+      "text": "Dar din contra să mergem în cealaltă direcție și să folosim cât se poate de bine tot ce avem și în timp ce facem asta să alegem să fim buni.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 322,
+      "start": 3227.028,
+      "end": 3251.43,
+      "text": "Mi se pare că poți fi patriot și în Republica Moldova și poți să nu fii patriot trăind în Republica Moldova și poți să fii patriot trăind peste hotare dar promovând țara și vorbind despre țara ta cu mândrie și făcându-ți munca în așa fel încât oamenii care te cunosc să zică de ce bravo sunt Moldovenii.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 323,
+      "start": 3251.43,
+      "end": 3257.543,
+      "text": "Un alt lucru care îmi place foarte mult e rezistența pe care o avem.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 324,
+      "start": 3257.543,
+      "end": 3270.641,
+      "text": "Nu știu dacă mulți își dau seama dar oamenii de la noi ca și cum vorbeam despre cai au trecut prin multe și au rezistat și asta e un mare lucru și nu cred că mulți o realizează.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 325,
+      "start": 3270.641,
+      "end": 3285.856,
+      "text": "Și cred că trebuie să ne dăm seama despre asta și să ne întrebăm dar de ce am rezistat dar ce ne face așa puternici dar de ce continuăm să fim în pofida la tot și cred că răspunsurile ne-ar ajuta să ne creiem o cale.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 326,
+      "start": 3285.856,
+      "end": 3307.695,
+      "text": "Omul numai când ajunge în condiții extremale grele când înțelege că perde perde ceva foarte important apar niște capacități apare niște o energie care îți funcă în suflet du-te trebuie să faci este un prag roșu dacă l-ai trecut tu mai departe n-ai drept să dai înapoi.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 327,
+      "start": 3307.695,
+      "end": 3309.988,
+      "text": "Pe noi a trecut istoria.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 328,
+      "start": 3310.52,
+      "end": 3317.909,
+      "text": "Noi nu numai am studiat istoria noi acolo am și făcut această istorie.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 329,
+      "start": 3318.158,
+      "end": 3332.907,
+      "text": "Și uitați-vă a trecut de 91 de la 1 septembrie atâția ani 33 de ani au trecut și acum roadele roadele acestei lupte se observă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 330,
+      "start": 3332.907,
+      "end": 3342.434,
+      "text": "Copiii noștri au devenit cetățăni buni specialiști în toate domenile lucrează în Chișinău lucrează în București în țările din Europa.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 331,
+      "start": 3342.434,
+      "end": 3348.651,
+      "text": "Avem în sport avem eu acum să vă numesc și pe personalităța și din liceul ăsta.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 332,
+      "start": 3348.651,
+      "end": 3360.355,
+      "text": "În acea casuță mică care eu o numesc e ca o bisericuță această școală și într-adevăr și în interior e mică dar e mare.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 333,
+      "start": 3360.355,
+      "end": 3365.369,
+      "text": "Eu am fost mândru atunci când s-a prezentat ZDOP și ZDUC prima dată la Eurovision.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 334,
+      "start": 3365.369,
+      "end": 3374.553,
+      "text": "Iată atunci a fost clar că chiar dacă mă rog nu-s chiar hai să zic așa dacă să fiu un distăf nu-s sânge de-a nostru.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 335,
+      "start": 3374.647,
+      "end": 3393.029,
+      "text": "Dar oricum cumva acolo s-a văzut chiar că s-a prezentat Moldova că ei au prezentat un produs destul de bun și o rădicat lumea în picioare nu că hai să aplaudăm săraci și au venit și ei din fundul celălalt de Est și se prezint și ei cumva hai să-i încurajăm.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 336,
+      "start": 3393.029,
+      "end": 3405.292,
+      "text": "Nu, atunci au rupt scenă și s-au văzut și lumea a înțeles și e ca cam așa aș vrea să se prezinte toți moldovenii când se duc în în afara țării.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 337,
+      "start": 3405.292,
+      "end": 3413.235,
+      "text": "Și foarte mândru am fost când de început se prezinte doamna președinte în afara țării și zic doamne în sfârșit.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 338,
+      "start": 3413.235,
+      "end": 3417.685,
+      "text": "Dea nici Macron nu era așa de frumșel pe lângă Maia Sanzo.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 339,
+      "start": 3418.248,
+      "end": 3421.209,
+      "text": "Avem în primul rând o literatură de calitate.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 340,
+      "start": 3421.209,
+      "end": 3434.399,
+      "text": "O urmăresc cu mare interes și o admir pe Tatiana Țibuleac care a luat premiul european pentru literatură și acum avem și un spectacol grădină de stic la Teatru Național.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 341,
+      "start": 3434.622,
+      "end": 3438.309,
+      "text": "Îmi place foarte mult cum scrie Lorina Bălteanu.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 342,
+      "start": 3438.6,
+      "end": 3447.127,
+      "text": "Este romanul ăsta al ei îmi pare foarte interesant și m-a convins că poeții pot face o proză foarte bună.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 343,
+      "start": 3447.518,
+      "end": 3460.491,
+      "text": "Am văzut și antologia Dispariție regizată de Radu Afrim în care sunt și trei secvențe din proza Lorinii și cred că avem cu cine mândrim.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 344,
+      "start": 3460.491,
+      "end": 3472.74,
+      "text": "Îmi place foarte mult filmul Carbon care pentru prima oară pune problema războiului trasnistrean și a patriotismului dacă vreți din punct de vedere metaforic.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 345,
+      "start": 3472.74,
+      "end": 3495.102,
+      "text": "Cred că este filmul cel mai interesant creat în ultimul timp la noi precum și spectacolii dosarele Siberiei care abordează la filmul o temă tragică dar și Siberia de noase al Leontinei Vatamanu și filmele pe care le face Ioana Mărginianu Vatamanu.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 346,
+      "start": 3495.102,
+      "end": 3497.808,
+      "text": "Cred că avem un viitor și în cinema.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 347,
+      "start": 3497.907,
+      "end": 3503.848,
+      "text": "Dar astea și teatru și cinematografia sunt opere colective.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 348,
+      "start": 3503.848,
+      "end": 3508.81,
+      "text": "Aici depinde foarte mult și de bani dar și de echipă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 349,
+      "start": 3508.81,
+      "end": 3510.804,
+      "text": "Sunt opere care costă mult.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 350,
+      "start": 3511.386,
+      "end": 3513.288,
+      "text": "Sper că mergem spre bine.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 351,
+      "start": 3513.288,
+      "end": 3523.735,
+      "text": "A fi patriot înseamnă să îți iubești sincer țara și să faci acțiuni asumate în această direcție.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 352,
+      "start": 3523.735,
+      "end": 3531.323,
+      "text": "Nu e suficient de exemplu să iubești un copil trebuie să și te implici în creșterea lui și educarea lui la fel e și patriotismul.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 353,
+      "start": 3531.576,
+      "end": 3538.315,
+      "text": "Care e cel mai important lucru pe care tu l-ai făcut pentru țara ta și ce a făcut țara ta pentru tine?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 354,
+      "start": 3538.315,
+      "end": 3548.52,
+      "text": "Cel mai important lucru pe care l-am făcut pentru țară a fost în primul rând să votez conștient asumat informat și pentru binele ei.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 355,
+      "start": 3548.52,
+      "end": 3560.997,
+      "text": "Dar ce a făcut țara pentru mine probabil o întrebare pe care mulți moldoveni și-o pun și-o pun într-o spirie din ăsta tot defensiv dar ce a făcut țara asta pentru mine dar deși eu ar trebui să se dau și-o înapoi.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 356,
+      "start": 3560.997,
+      "end": 3568.258,
+      "text": "Țara asta a fost o mamă săracă care te-a crescut așa cum a putut cu școlele pe care le-au avut cu mediul care este.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 357,
+      "start": 3568.258,
+      "end": 3577.29,
+      "text": "Adică cum să nu îți iubești mama care au făcut tot ce a făcut lună în considerare partenerii abuzivi pe care i-au avut pe parcursul vieții.",
+      "id_user": -1,
+      "info": "0"
+    }
+  ]
+}

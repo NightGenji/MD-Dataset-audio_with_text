@@ -36,15 +36,15 @@ def main():
         # 1 ========================================= END
 
 
-        # # 2 ===== Data Processing ============================================================
+        # 2 ===== Data Processing FIND =======================================================
         # data_coll = find_numbers(dataAccess.data)
-        data_coll = find_words(dataAccess.data)
-        manageFiltered.create_filtered_subfolder(dataAccess.data, data_coll, True)
-        # # 2 ========================================= END
+        # data_coll = find_words(dataAccess.data)
+        # manageFiltered.create_filtered_subfolder(dataAccess.data, data_coll, True)
+        # 2 ========================================= END
 
-        # 2 ===== Data Processing ============================================================
-        # data_coll = find_info_text(dataAccess.data)
-        # manageFiltered.create_filtered_subfolder(dataAccess.data, data_coll)
+        # 2 ===== Data Processing SELECT =====================================================
+        data_coll = find_info_text(dataAccess.data)
+        manageFiltered.create_filtered_subfolder(dataAccess.data, data_coll)
         # 2 ========================================= END
 
         # Total dataset time

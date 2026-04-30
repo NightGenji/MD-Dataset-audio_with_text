@@ -5,9 +5,10 @@ from data_handling.DataProcess import DataProcess
 
 
 def main():
-    dirs = list(range(1, 2))   # With what folders i work with
+    dirs_text  = list(range(1, 2))      # from 1 to 10
+    audio_only = list(range(11, 21))    # from 11 to 20
 
-    for dir in dirs:
+    for dir in dirs_text:
         try:
             dataAccess = DataAccess(dir)
         except Exception as e:
@@ -22,6 +23,22 @@ def main():
         except Exception as e:
             print(e, file=sys.stderr)
             continue
+
+    # for dir in audio_only:
+    #     try:
+    #         dataAccess = DataAccess(dir)
+    #     except Exception as e:
+    #         print(e, file=sys.stderr)
+    #         continue
+
+    #     try:
+    #         dataProcess = DataProcess(dataAccess.working_dir_number,
+    #                                   dataAccess.working_dir_name,
+    #                                   dataAccess.data)
+    #         dataProcess.execute()
+    #     except Exception as e:
+    #         print(e, file=sys.stderr)
+    #         continue
 
 
 if __name__ == '__main__':

@@ -69,7 +69,7 @@ from utils.normalize import normalize_romanian
 #     'zecelea', 'zecea',
 # ]
 
-WORDS = []
+WORDS = ["colțun", "pelmeni", "bantik"]
 
 def find_words(data):
     ret = []

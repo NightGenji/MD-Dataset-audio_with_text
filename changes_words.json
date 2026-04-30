@@ -1,14 +1,21 @@
 {
   "Foreign": {
+    "bantik": "fundă",
     "ciuvacul": "tipul",
     "clasna": "fain",
+    "costeluri": "cârje",
+    "costile": "cârje",
+    "devocika": "fetiță",
     "hocetsa": "vrea :: 7 - 380",
+    "imunitet": "imunitate",
     "naglâi": [
       "îndrăzneți",
       "îndrăzneț"
     ],
+    "pelmeni": "colțunași",
     "pâcarne": "brutărie",
-    "sistema": "sistemul"
+    "sistema": "sistemul",
+    "șașlic": "frigărui"
   },
   "Keeping": {
     "etc": ":: use short version",
@@ -27,7 +34,10 @@
     "ceia": "aceia",
     "cela": "acela",
     "celea": "acelea",
+    "chelfănit": "bătut",
+    "colțun": "ciorap",
     "deie": "dea",
+    "dendată": "deodată",
     "iaca": "iată",
     "iacă": "iată",
     "iacătă": "iată",
@@ -39,6 +49,7 @@
     "ista": "acesta",
     "jumate": "jumătate",
     "lora": "lor",
+    "lușuiat": "alunecat",
     "nimica": "nimic",
     "năntuțe": "înalte",
     "prăsade": "pere",
@@ -53,6 +64,7 @@
       "tatăl"
     ],
     "talanca": "talanga",
+    "teu": "mop",
     "vroia": "voia",
     "vroiam": "voiam",
     "vroiau": "voiau",

@@ -1,0 +1,2438 @@
+{
+  "segments": [
+    {
+      "id": 0,
+      "start": 37.967,
+      "end": 46.0,
+      "text": "Eu mă numesc Nicolaas, am 19 ani, sunt un activist și, spunem așa, apăre drepturile omului.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 1,
+      "start": 46.0,
+      "end": 54.492,
+      "text": "Să autări sunt Valeriu Zaporojan, am 42 de ani și sunt tata unui băiat de aproape 16 ani.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 2,
+      "start": 54.492,
+      "end": 62.871,
+      "text": "Mă numesc Evgenie Caminșec, am 36 de ani, sunt specialist în domeniul climei și energiei durabile.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 3,
+      "start": 62.999,
+      "end": 69.752,
+      "text": "Mă numesc Mihail Ceban, sunt om de afaceri și maratonist.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 4,
+      "start": 69.752,
+      "end": 80.661,
+      "text": "Mă numesc Mihail Nesteriuc, eu sunt student la facultatea de jurnalism și la facultatea de arte frumoase din Universitatea de stat din Moldova.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 5,
+      "start": 80.661,
+      "end": 84.622,
+      "text": "Sunt Nathaniel Kovalski, am 28 de ani și sunt expert și fotograf în modă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 6,
+      "start": 84.622,
+      "end": 94.201,
+      "text": "Eu am făcut un mini research despre masculinitate și cum ea a evoluat și, de fapt, noi nu prea știm despre masculinitate.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 7,
+      "start": 94.201,
+      "end": 99.712,
+      "text": "Să studiați foarte mult feminism, dar masculinitatea nu.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 8,
+      "start": 99.712,
+      "end": 118.482,
+      "text": "Ceea ce am citit din istorie, conceptul acesta de masculinitate, el este concept în capurile noastre, în societate, prin care se setează anumite roluri pentru femeie feminitatea și pentru masculinitatea.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 9,
+      "start": 118.8,
+      "end": 128.0,
+      "text": "Sigur, este și aspectul fizic, că băbați au mai mare testosteron și chimic, ei sunt predispuși spre alt comportament.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 10,
+      "start": 128.0,
+      "end": 131.128,
+      "text": "Din copilărie, spasionat de modă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 11,
+      "start": 131.128,
+      "end": 144.812,
+      "text": "Era revista Burda, care noi toți urmăream și mama atunci cosea haină la comandă mai mult, pentru că nu găseai haină în comerț decente, dar mai găseai niște bucăți de stofi, de un stofi naturale, care aveau vecină la tajul 4.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 12,
+      "start": 144.812,
+      "end": 150.882,
+      "text": "Noi trebuie pe dimos și era vecină la tajul 4, doamna Oxana, probabil nu mă înțim cum o chema, dar ea cosea multe haine.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 13,
+      "start": 151.62,
+      "end": 162.701,
+      "text": "Deseori mergeam la ea și mama și cosea acolo haină și eram inspirat de acest proces, cum se inspiră, cum scot le cale, cum tai stofa, cum croiește și așa mai departe, era tare interesant pentru mine.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 14,
+      "start": 162.701,
+      "end": 166.172,
+      "text": "Am simțit că pot lucra în calitate de stilist, când eram chiar mie copil.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 15,
+      "start": 166.172,
+      "end": 171.202,
+      "text": "Ții-mi minte, erau păpușii aceia din hârtie care trebuiau tăiate și hainele tot tăiate, decupați și îmbracate.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 16,
+      "start": 171.45,
+      "end": 177.531,
+      "text": "Păi noi, veșoarele mele, se tăiteam în pod la bunica, tăiam păpuși când mergeam la piață și cumpăram reviste de astea foarte mult.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 17,
+      "start": 177.531,
+      "end": 181.132,
+      "text": "Chiar strângeam bani cu bunică mai de 5 lei pe zi, astea erau foarte mulți bani atunci.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 18,
+      "start": 181.52,
+      "end": 188.311,
+      "text": "Și noi ori cumpăram kinder, ori cumpăram reviste de genul dat. Și atâta tăiam hainele și le asortam pe păpușii acestea din hârtie.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 19,
+      "start": 188.311,
+      "end": 194.132,
+      "text": "Și așa noi am ajuns să asortez atunci, să înțeleg ceva se combină și am viziuni bune în chestia asta.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 20,
+      "start": 194.132,
+      "end": 201.162,
+      "text": "În viața de zi cu zi eu nu spun că sunt transgen, adică eu doresc să fiu văzut pur și simplu ca un băiat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 21,
+      "start": 201.463,
+      "end": 216.321,
+      "text": "Dar să spunem așa, eu cred că asemenea multor persoane transgen, eu am simțit asta din copilărie, însă nu am avut terminologia și de asemenea erau mari stigmă în jurul persoanelor queer pe general.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 22,
+      "start": 216.321,
+      "end": 235.95,
+      "text": "Dar de asemenea persoanelor transgen, deoarece încă dacă este ok cumva să te naști cu un gen și pur și simplu să-ți placă persoanele de celăși gen, să te naști cu un alt gen decât sexul atribuit la naștere este o nouătate sau este ceva văzut greșit sau ceva de genul dat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 23,
+      "start": 235.95,
+      "end": 260.821,
+      "text": "Pornind de la acest lucru, eu aș putea zice că în copilărie eu am simțit că mă sunt altfel decât alți copii, însă odată cu trecerea la școală eu am încercat să represiez chestiile astea și să spun că nu este tot ok, cred că alte persoane tot trec prin același lucru și pur și simplu o să-mi treacă cu vârsta.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 24,
+      "start": 260.821,
+      "end": 271.691,
+      "text": "Însă în perioada de pubertate eu am înțeles că nu, corpul meu se dezvoltă într-un fel care deloc nu coincide cu felul în care eu pe mine mă percep și cum aș vrea să fiu perceput.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 25,
+      "start": 271.914,
+      "end": 290.23,
+      "text": "Iar deja când am început liceul, înainte de a începe liceul, am făcut tranziția socială și de asemenea deja în primul an de liceu am început tranziția medicală, ceea ce presupune deja anumite chestii cum ar fi hormoni.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 26,
+      "start": 290.339,
+      "end": 300.861,
+      "text": "Am început să mă ocup profesional de alergat și de competiție serioasă odată cu apariția Maratonului de Chișinău, 2016.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 27,
+      "start": 300.942,
+      "end": 319.396,
+      "text": "După ce am alergat Maratonul din Chișinău și mi-am demonstrat mie însuși că pot, chiar în aceeași toamnă, în același an, m-am înscris la Maratonul de la Budapesta care s-a desfășurat peste o lună de zile după Maratonul de la Chișinău și l-am alergat cu succes.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 28,
+      "start": 320.016,
+      "end": 335.0,
+      "text": "Și tot în toamna aia, mai târziu, sfârșit de luna noiembrie, am alergat Maratonul în Franța care se dă startul în orașul Nisa și se alergă până în orașul Cannes, 42 de km.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 29,
+      "start": 335.296,
+      "end": 342.282,
+      "text": "Și l-am alergat și pe cesta. Deci într-o toamnă am făcut trei maratoane consecutiv cu diferența între ele de o lună de zile.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 30,
+      "start": 342.441,
+      "end": 356.181,
+      "text": "A alerga distanța de Maraton nu este așa de simplu. Cât de pregătit nu ar fi sportivul, energie pentru a parcurge această distanță ajunge pentru primele două ore.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 31,
+      "start": 356.647,
+      "end": 374.357,
+      "text": "Și iată, de fiecare dată, când ajungi la această barieră unde rămâne ultima treime din distanța de 42 de km, organismul începe a simți că nu mai există energie și el are nevoie de susținere.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 32,
+      "start": 375.228,
+      "end": 396.874,
+      "text": "Și atunci diferite gânduri apar. Poate nu are sens să prelungesc, să nu mă traumez. Foarte des apar așa idei. Însă psihologic trebuie să fie pregătit și trebuie să depășești această criză care apare la moment psihologic.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 33,
+      "start": 396.874,
+      "end": 413.0,
+      "text": "Tata mi-a fost un exemplu și este un exemplu să fiu un bărbat și respectiv tatăl meu în foarte multe chestii, în toate, practic mi-a susținut mereu și da, era un exemplu meu.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 34,
+      "start": 413.088,
+      "end": 423.202,
+      "text": "La taic mi-au există mai multe trăsături care eu le-aș nume pozitive și în primul rând aș spune despre creativitatea.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 35,
+      "start": 423.202,
+      "end": 433.481,
+      "text": "Taic mi-au este un pictor și așa cum dânsul percepe lumea, eu cumva tot am moștenit acest aspect artistic.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 36,
+      "start": 433.481,
+      "end": 441.461,
+      "text": "Îmi place să scriu, chiar și unele poezie am scris și în al doilea rând sunt principii.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 37,
+      "start": 441.461,
+      "end": 449.331,
+      "text": "Deci eu am fost învățat să-mi dezvolt anumite principii care depind de realitate.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 38,
+      "start": 449.331,
+      "end": 458.0,
+      "text": "Faptul că bărbați au crescut cu stereotipuri gen nu plânge și trebuie să răbzi, trebuie să fii bărbat, trebuie să tași și să mergi înainte.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 39,
+      "start": 458.187,
+      "end": 465.0,
+      "text": "Am crescut și eu cu așa tipuri de educație pentru că eu am fost unicul băiat la părinți, de mai am o soră, dar eram unicul băiat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 40,
+      "start": 465.197,
+      "end": 472.512,
+      "text": "Și trebuia să fiu, eram educat ca un soldat și respectiv nu trebuie să plâni, nu trebuie să fac mânzuri, toate aceste chestii am trecut și eu prin asta.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 41,
+      "start": 472.71,
+      "end": 482.221,
+      "text": "Asta a făcut mai mult rău pentru că atunci când eu am văzut foarte multe burnout-uri în care înțelegeam că nu mai pot, dar am nevoie să merg înainte și să nu mă las bătut.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 42,
+      "start": 482.221,
+      "end": 486.522,
+      "text": "Și respectiv, numim burnout-ul dura 2-30 și eu înțelegeam că trebuie să mă ia o mâni și să merg mai departe.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 43,
+      "start": 486.522,
+      "end": 494.0,
+      "text": "Dar câteodată ai nevoie să stai cu tine să analizezi că tu poți să fii slab câteodată, tu ai dreptul.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 44,
+      "start": 494.227,
+      "end": 504.422,
+      "text": "Tu nu neapărat mereu să fii puternic, nu neapărat să ai o poziție puternică, tu poți să simți și tu cuprinți de cineva, să simți și tu un pic mai slab în îmbrătășările cuiva.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 45,
+      "start": 504.82,
+      "end": 511.472,
+      "text": "Dar asta nu ne permite pentru că aveam așa educație și asta cred că mi-a facem multă rău pentru că psihologic te simți destul de îngreunată să treci singur prin toate.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 46,
+      "start": 511.77,
+      "end": 522.0,
+      "text": "Eu cred că nu m-am reclăpatat 100% după bullying-ul de la școală, dat fiind faptul că el s-a început din clasa 1-i până în clasa 12-a.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 47,
+      "start": 522.0,
+      "end": 531.643,
+      "text": "Numai că diferența dintre toate perioadele astea a fost că în timpul liceului bullying-ul a venit de la profesori.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 48,
+      "start": 531.643,
+      "end": 537.533,
+      "text": "Adică eu aveam relații destul de ok cu colegii mei, ei mă acceptau, eu îi acceptam și era totul bine.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 49,
+      "start": 537.533,
+      "end": 541.424,
+      "text": "Pe noi ne unea solidaritatea împotriva profesorilor.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 50,
+      "start": 541.424,
+      "end": 561.565,
+      "text": "Dar profesorii, da, m-au hărățuit destul de mult la școală și sunt multe chestii despre care poate eu nu am spus, dar a fost un bullying destul de intensiv și din partea profesorilor și din partea directoare tot.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 51,
+      "start": 561.565,
+      "end": 569.622,
+      "text": "Adică nu aș putea zice că m-a recuperat 100% după această perioadă traumatizantă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 52,
+      "start": 570.017,
+      "end": 571.0,
+      "text": "Masculinitate?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 53,
+      "start": 572.165,
+      "end": 579.0,
+      "text": "Ei trebuie să aibă aspectul emoțional, da, bărbați trebuie să conecteze cu emoții.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 54,
+      "start": 579.0,
+      "end": 583.563,
+      "text": "Dacă vorbim despre masculinitate, eu cred că statistica arată foarte bine, da?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 55,
+      "start": 583.563,
+      "end": 591.0,
+      "text": "La noi din totaluri suiciduri în Republica Moldova, 89% sunt bărbați.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 56,
+      "start": 593.818,
+      "end": 595.124,
+      "text": "89%",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 57,
+      "start": 595.88,
+      "end": 600.0,
+      "text": "Da, sunt bărbați și în mare parte bărbați din sate.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 58,
+      "start": 600.783,
+      "end": 603.017,
+      "text": "După anii 50-60.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 59,
+      "start": 603.363,
+      "end": 607.115,
+      "text": "Și asta e ca un răspuns, da?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 60,
+      "start": 607.302,
+      "end": 615.23,
+      "text": "Este o lume așa închisă, nimeni sau puțin despre asta vorbesc, dar cifrele arată tot.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 61,
+      "start": 615.23,
+      "end": 625.941,
+      "text": "Noi, bărbați de azi, n-am învățat de la bărbații, părinții, bâniei noștri, cum ar fi bine să fii, sau ce înseamnă să fii bărbat, da?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 62,
+      "start": 626.229,
+      "end": 632.571,
+      "text": "Am fost învățați în felul greșit.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 63,
+      "start": 632.74,
+      "end": 641.432,
+      "text": "Aș povestesc o istorie, am fost în Valea Morelor și merge un fiu și în spate tatăl.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 64,
+      "start": 642.107,
+      "end": 644.792,
+      "text": "Și el plânge ceva încălalt, s-a întâmplat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 65,
+      "start": 645.179,
+      "end": 650.0,
+      "text": "Și el așa s-a apropiat și spune, nu plângi, tu joi ești bărbat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 66,
+      "start": 650.467,
+      "end": 661.222,
+      "text": "Și el plânge și nici nu cuvântul este bărbat, el spunea, nu poate să pronunță, dar el deja a învățat să nu plângă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 67,
+      "start": 661.222,
+      "end": 673.481,
+      "text": "El a avut o emoție care trebuia să fie cumva validată, dar el a fost așa tăiat, nu plângi, tu ești bărbat, tu nu trebuie să plângi.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 68,
+      "start": 673.481,
+      "end": 679.0,
+      "text": "Și gata, și asta de la anii 3-2, el abia plimbă, nu poate spune bărbat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 69,
+      "start": 679.0,
+      "end": 683.264,
+      "text": "Aveți momente când sunteți slab, vă simțiți slab și vulnerabil?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 70,
+      "start": 683.51,
+      "end": 684.868,
+      "text": "Bună întrebare.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 71,
+      "start": 685.54,
+      "end": 686.736,
+      "text": "Cred că da.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 72,
+      "start": 689.431,
+      "end": 695.762,
+      "text": "De pildă, la înmormăntarea părinților, n-am putut să plâng, nu mi-a curs o lacrimă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 73,
+      "start": 696.289,
+      "end": 699.803,
+      "text": "În schimb, la nunta fiicilor miele, am plâns.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 74,
+      "start": 702.865,
+      "end": 703.923,
+      "text": "Paradox, da?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 75,
+      "start": 704.177,
+      "end": 718.24,
+      "text": "Eu mă consider bărbat puternic și fac tot posibil ca nepoții mei să pronunț acest aspect, ca nepoții mei să înțeleagă și să devină și ei așa.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 76,
+      "start": 718.367,
+      "end": 721.482,
+      "text": "Un bărbat trebuie să fie tot timp puternic.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 77,
+      "start": 721.94,
+      "end": 731.401,
+      "text": "Un bărbat puternic înseamnă în spatele său o familie puternică, dar într-un stat, familiile puternici constituie statul puternic.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 78,
+      "start": 732.257,
+      "end": 735.0,
+      "text": "Asta este obligațiunea fiecare bărbat să fie puternic.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 79,
+      "start": 735.0,
+      "end": 740.652,
+      "text": "Majoritatea au condiții pentru a fi puternici.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 80,
+      "start": 740.652,
+      "end": 763.0,
+      "text": "Însă, între bărbați, la fel ca și în societate, în natură mai binezis, sunt bărbați puternici, sunt bărbați leniși, care iubește cineva să o ducă de nas, nu cred că nu e cel mai reușit cuvânt.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 81,
+      "start": 763.513,
+      "end": 782.305,
+      "text": "Bine, sunt bărbați, să-l spunem așa, bătuți de soartă, care într-adevăr nu ar putea să îndeplinească acest rol, dar majoritatea bărbaților pot să fie puternici, numai trebuie să dorească acest lucru și să muncească mult pentru a fi puternici.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 82,
+      "start": 782.402,
+      "end": 788.612,
+      "text": "Orice bărbat care se consideră că este puternic, trebuie să fie corect.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 83,
+      "start": 788.959,
+      "end": 792.542,
+      "text": "Trebuie să își îndeplinească toate obligațiunile care își le asumă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 84,
+      "start": 792.78,
+      "end": 798.822,
+      "text": "Trebuie să fie disciplinat și să ceară ca cei din jurul lui să-l urmeze.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 85,
+      "start": 799.16,
+      "end": 809.441,
+      "text": "Era prima experiență la școală, am bătut sau am fost bătut și am venit, am plâns, am venit la mată, mama a venit, a făcut o gălăgie în școală, adică mi-a protejat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 86,
+      "start": 809.749,
+      "end": 815.272,
+      "text": "Și am venit acasă și tata așa s-a uitat la mine și până acum țin în minte, trebuie singur să te discreci.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 87,
+      "start": 816.017,
+      "end": 818.183,
+      "text": "Dar sper că tata nu o să vadă acest interviu.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 88,
+      "start": 818.349,
+      "end": 820.104,
+      "text": "Societatea educa, da, sigur.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 89,
+      "start": 820.104,
+      "end": 827.021,
+      "text": "Iarăși, aceasta e chestia tare interne la care noi nu le-am prelucrat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 90,
+      "start": 827.021,
+      "end": 831.752,
+      "text": "Și aici eu cred că terapia, fău mai știu cum se zice.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 91,
+      "start": 832.17,
+      "end": 839.862,
+      "text": "Pentru că în terapie noi în mai mulți chestii analizăm, începem să înțelegem chestii foarte finuțe.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 92,
+      "start": 840.76,
+      "end": 853.891,
+      "text": "Și după asta putem să ne dăm seama că când spui unui copil de trei ani, nu plânge, ești bărbat, asta o să-l afecteze 20-30 ani înainte.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 93,
+      "start": 853.891,
+      "end": 861.662,
+      "text": "Și probabil dacă el o să aibă curajul să meargă la terapie, probabil el o să prilucra aceste traume.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 94,
+      "start": 861.93,
+      "end": 869.422,
+      "text": "Probabil nu. Și o să rămână cu dânsul acesta, nu plânge, ești bărbat, pe toată viața.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 95,
+      "start": 870.548,
+      "end": 875.322,
+      "text": "Și noi nu conștientizăm cât de tare copiii sunt afectați.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 96,
+      "start": 875.55,
+      "end": 880.583,
+      "text": "Sau fii femeie, tu ești femeie, trebuie să faci curat sau nu știu.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 97,
+      "start": 880.72,
+      "end": 884.793,
+      "text": "Ca să simți cât discriminat e bărbatul, încearcă să divorțez fiind bărbat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 98,
+      "start": 885.06,
+      "end": 888.753,
+      "text": "Eu nu vorbesc ca mai de persoană, de cuplu, dar vorbesc de sistem.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 99,
+      "start": 889.161,
+      "end": 901.221,
+      "text": "Tu din start ești privit ca motivul, că ai dus la divorț, ești din start vinovat, ești din start pus clișeile astea cu tine. Da, familie s-au distrămadă și nu-i zis bărbatul.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 100,
+      "start": 902.017,
+      "end": 903.624,
+      "text": "Tu te-ai confruntat cu toate astea?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 101,
+      "start": 904.502,
+      "end": 914.852,
+      "text": "Cumva mai puțin, dar am avut alte chestii pe urmă, pe care m-a înciocnit cu sistemul și din start eram privit ca rădicina problemei tu ești.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 102,
+      "start": 915.159,
+      "end": 918.983,
+      "text": "Fără să înțeleagă probleme mea, să mă întrebi, cel puțin să discutăm.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 103,
+      "start": 919.291,
+      "end": 932.822,
+      "text": "Tu ai venit aici, stau niște domni, niște bătrâni care ai trecut prin viață încă nomenclatură de asta sovietică, tot acolo pe la ministeriile astea și ai să uit la tine și hai povestești și te plăniști, că tu oricum ești vinauat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 104,
+      "start": 933.12,
+      "end": 942.271,
+      "text": "Dar și alți prietenii, care sunt o ceocnit cu divorțul, cu partajarea drepturilor pentru copil, dar bărbatul din start este privit ca o problemă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 105,
+      "start": 942.788,
+      "end": 945.704,
+      "text": "Deci tu vii la o instituție să rezolvă o problemă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 106,
+      "start": 947.319,
+      "end": 957.001,
+      "text": "Tu vrei să încerci să explici probleme ta, deci tu ai ajuns în coașa și care problemă aș cum rezolvărți, să vin e ca un domn 260+, care îi dau de mult trebuie să fie la pensie.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 107,
+      "start": 958.589,
+      "end": 977.927,
+      "text": "Deci apie că trebuie să menții familia, dragul meu, nu știi, nu viem uși să îmi spui la nici care ești încerci și aiutii învăța, am ori viață și fără să te întrebi, deci și este în spatele tău el, dar femeile de acolo care sunt tău, doamnele este, care tot deja atât de mult trebuie să pleci pe la pensie, încă mai rău te privesc.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 108,
+      "start": 978.284,
+      "end": 984.823,
+      "text": "Că a venit masculul ăsta cumva care a terrorizat femeile și vine și să plângă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 109,
+      "start": 985.05,
+      "end": 989.703,
+      "text": "Aș putea să încep cu trei avantaje de a fi bărbat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 110,
+      "start": 989.94,
+      "end": 994.422,
+      "text": "În primul rând, persoanele se uită cu mai multă încredere față de tine.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 111,
+      "start": 994.422,
+      "end": 1002.651,
+      "text": "Chiar și dacă nu ești profi în ceva, tu deodată ești bărbat și înseamnă că tu ești mult mai îndemunatic decât femeile.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 112,
+      "start": 1002.651,
+      "end": 1011.321,
+      "text": "A doilea avantaj este faptul că frica de a merge noapte pe stradă este mai mică decât a femeilor.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 113,
+      "start": 1012.14,
+      "end": 1028.95,
+      "text": "Și al treilea este faptul că este o oarecare solidaritate care nu este așa de vizibilă și poate nu este un concept material, dar într-o oarecare măsură este un fel de concept de solidaritate între alți bărbați.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 114,
+      "start": 1028.95,
+      "end": 1034.491,
+      "text": "Și chiar și dacă nu te cunoști bine unul cu altul, cum o să pui un cuvânt fiindcă sunteți bărbați.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 115,
+      "start": 1034.491,
+      "end": 1039.272,
+      "text": "Dar asta cred că se aplică uneori și la femeie, adică în dependență de situația.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 116,
+      "start": 1039.635,
+      "end": 1054.443,
+      "text": "Treile dezavantaje sunt faptul că în primul rând societatea așteaptă că tu totdeauna o să fii puternic, nu ai voie să-ți exprimi emoții care nu sunt agresive.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 117,
+      "start": 1054.861,
+      "end": 1063.601,
+      "text": "Și a treilea dezavantaj ar zice faptul că este o presiune mai mare socială.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 118,
+      "start": 1063.601,
+      "end": 1079.446,
+      "text": "Spre nefericirea mea am făcut serviciu militar în cadrul armatei sovietice în Asia Mijlociei, o bună parte din timp, în niște condiții foarte și foarte dure și grele.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 119,
+      "start": 1079.792,
+      "end": 1084.492,
+      "text": "Este vorba de Turkmenistan.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 120,
+      "start": 1085.508,
+      "end": 1089.0,
+      "text": "După aia am fost trimiși în Afganistan.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 121,
+      "start": 1089.435,
+      "end": 1093.894,
+      "text": "În Afganistan am participat în lupte, război adevărat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 122,
+      "start": 1094.82,
+      "end": 1100.0,
+      "text": "Și acolo așa este situația la război.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 123,
+      "start": 1100.0,
+      "end": 1108.653,
+      "text": "Ori te faci, devii puternic și supraviețuiești, ori cei slabi nu supraviețuiesc.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 124,
+      "start": 1109.255,
+      "end": 1125.734,
+      "text": "Eu m-am întors din Afganistan, colegii mei de clasă erau, nu îi înțelegeam pur și simplu, erau la un nivel de, să spunem așa, de pregătire de viață mult mai slab.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 125,
+      "start": 1126.332,
+      "end": 1138.0,
+      "text": "Și posibil că asta așa a fost cauza că eu, până la momentul de față, prietenii mei care i-am, sunt mai în vârstă ca mine, cu 10, cu 12 ani, cu 8 ani.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 126,
+      "start": 1138.286,
+      "end": 1142.724,
+      "text": "Din punct de vedere fizic, am devenit mai slab.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 127,
+      "start": 1143.559,
+      "end": 1146.0,
+      "text": "Am fost rănit, grav rănit.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 128,
+      "start": 1146.296,
+      "end": 1150.405,
+      "text": "Și consistințele acestor răni le simt și până în ziua de azi.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 129,
+      "start": 1151.081,
+      "end": 1155.143,
+      "text": "Din punctul acesta de vedere, da, am fost mai slab fizic.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 130,
+      "start": 1155.91,
+      "end": 1161.302,
+      "text": "Moral, da, am avut mă mai de câștigat și mă întărit.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 131,
+      "start": 1161.637,
+      "end": 1163.193,
+      "text": "Și asta rămâne pe viață.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 132,
+      "start": 1163.4,
+      "end": 1168.791,
+      "text": "Moda este un instrument de a expune personalitatea pe care o ai tu.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 133,
+      "start": 1169.019,
+      "end": 1174.182,
+      "text": "Pentru că astea, haine, nu sunt despre tendințe, despre ce este mod acum, cine este mod acum.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 134,
+      "start": 1174.182,
+      "end": 1177.013,
+      "text": "Haine sunt despre personalitate și despre cine ești tu ca om.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 135,
+      "start": 1177.221,
+      "end": 1187.161,
+      "text": "Să observăm, chiar și în prezent, bărbați merg la cosmetologi, au grijă de cum arată, au grijă de ce îmbracă, au grijă de că vor să arate tânări și mai mulți, nu doar la 30, de la 60.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 136,
+      "start": 1187.368,
+      "end": 1190.543,
+      "text": "În Moldova este o tendință, ce o spun alții?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 137,
+      "start": 1190.92,
+      "end": 1196.072,
+      "text": "Dacă și o spun alții, dar alții multe o să spună și mereu o să spună ceva, dar noi trăim o viață.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 138,
+      "start": 1196.072,
+      "end": 1205.0,
+      "text": "Și atunci când înțelegi că tu ai doar o viață pe care trebuie să o trăiești așa cum o vrei tu, tu te eliberezi de la stereotipuri și de la preconcepții sociale.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 139,
+      "start": 1205.0,
+      "end": 1212.462,
+      "text": "Și studiile mele în Europa și călătorimele care le fac mereu mi-au scos din cultuța asta că noi trăim pentru cineva.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 140,
+      "start": 1212.629,
+      "end": 1215.673,
+      "text": "Noi în primul rând trăim pentru noi și așa cum vrem noi să trăim.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 141,
+      "start": 1215.673,
+      "end": 1218.253,
+      "text": "Cât de prezent ești în viața copilului tău?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 142,
+      "start": 1218.341,
+      "end": 1227.0,
+      "text": "Consider că este destul de prezent și al puțin cu sunnit, cu întrevederi că el trăiește mai departe, nu chiar zilnic, dar ne vedem foarte des.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 143,
+      "start": 1227.193,
+      "end": 1228.349,
+      "text": "De asta e suficient?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 144,
+      "start": 1228.349,
+      "end": 1236.043,
+      "text": "Nu, nu e suficient și asta deja dă rezultate, fiindcă oricum băietul cum nu ar fi, el are nevoie de tată.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 145,
+      "start": 1236.34,
+      "end": 1242.0,
+      "text": "Și de mamă e de-o încă ar nevoie și de ambea are nevoie, chiar dacă nu trăiesc împreună cumva trebuie să influențeze ambea.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 146,
+      "start": 1242.285,
+      "end": 1245.765,
+      "text": "Dar la o vârstă anumită cred că de tată și al meu multări.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 147,
+      "start": 1246.353,
+      "end": 1257.0,
+      "text": "Eu am observat după fiul meu când a fost o vârstă, când el era până la 10-11 ani, el era tare apropiat de părinț, special de mine, că se deschide mai ușor mie.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 148,
+      "start": 1257.0,
+      "end": 1262.532,
+      "text": "Pe urmă, noi părinți am trecut pe planul 2 și au devenit prieteni pe planul 1.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 149,
+      "start": 1262.532,
+      "end": 1276.171,
+      "text": "Eu mă am alarmat de chestia asta, nu înțelegeam, pe urmă, nu e psihologul și deja multă literatură citită, au explicat că asta e normal, că e că se întâmplă așa, prieteni devin pe planul 2 și pe urmă el revine înapoi la părinți și băietul îmi spă ceal la tată.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 150,
+      "start": 1276.607,
+      "end": 1278.502,
+      "text": "Să fii vulnerabil nu e greșit.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 151,
+      "start": 1278.502,
+      "end": 1295.556,
+      "text": "Tata meu a trecut pentru o... El a avut o afacere foarte profitabilă în care câștiga mult și când se închise exportul în Rusia în 2008, atunci a pierdut foarte mult din afacere și a avut o depresie.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 152,
+      "start": 1295.763,
+      "end": 1302.0,
+      "text": "Majoritatea gândeau în așa cază, au așa depresie și sunt vulnerabil și sunt neputincioși.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 153,
+      "start": 1302.266,
+      "end": 1307.612,
+      "text": "Dar m-am arătat un exemplu că în așa situație trebuie să fii alături de persoane pe care o iubești și trebuie să o susții.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 154,
+      "start": 1307.76,
+      "end": 1315.231,
+      "text": "Și e normal să fii vulnerabil, normal să nu vrei să faci nimic, e normal să vrei să stai tot ziua în pat, să nu-ți găsești locul tău.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 155,
+      "start": 1315.231,
+      "end": 1324.911,
+      "text": "Dar e important să ai oameni care să te susțină. Și iată, m-am arătat că în așa situație tu poți să fii un sprijin pentru un bărbat fiind femeie.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 156,
+      "start": 1324.911,
+      "end": 1336.657,
+      "text": "Cu toate că și unele persoane din comunitatea feministă încearcă să aducă mesajul că este ok pentru bărbat să-și arate emoțiile.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 157,
+      "start": 1336.862,
+      "end": 1359.562,
+      "text": "Eu de asemenea m-am întâlnit cu destul de multe replici din partea persoanelor care se considerau feministe și deschise la minte, cu glume în care bărbatul care plânge este feminizat sau glumele de genul că ele abia așteaptă să strângă în borcan lacrimele bărbaților.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 158,
+      "start": 1359.562,
+      "end": 1380.676,
+      "text": "Adică mai multe chestii în care, deși tu încerci să continui apărarea drepturilor femeilor, tu într-o oară cără măsură ajungi deja în ofensivă, în care faci haz de bărbații care au anumite probleme emoționale sau se confruntă cu anumite dificultăți.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 159,
+      "start": 1380.676,
+      "end": 1396.777,
+      "text": "Și atunci bărbații instant au reacția de ce eu sunt femininzat din cauza că eu plâng, eu atunci nu o să mai plâng și asta din nou ajunge la probleme că bărbații devin mai agresivi, probleme cu inima și așa mai departe.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 160,
+      "start": 1396.777,
+      "end": 1423.0,
+      "text": "Masculinitatea o văd în două feluri, una un pic dusă în partea cea bună când faci abuz de fapt că ești bărbat și alta normală, sănătoasă când tu știi că ești bărbat, ești o firă mai puternică, poți proteja, poți ajuta, poți fi, nu știu, un sprejit pentru cineva, pentru familia ta, pentru oamenii din jur.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 161,
+      "start": 1423.845,
+      "end": 1428.744,
+      "text": "Adică, dar să fii bărbat e bine, e interesant celuții.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 162,
+      "start": 1428.744,
+      "end": 1442.084,
+      "text": "Noi toți trăim într-o bulă, știi, că tu, eu, fiecare din noi avem prieteni, rudii, oameni cu care interacționăm și ești aproximativ de aceeași mentalitate cu noi, că noi ne conjurăm cu aceiași oameni.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 163,
+      "start": 1442.084,
+      "end": 1456.091,
+      "text": "Și când ești păsând din bulă asta tu vezi alte persoane total diferite, care încă mai gândesc așa, care încă sunt stranii la tine dacă tu gândești diferit sau arăți diferit cumva, tatuarul, cerce el acolo, păr lung sau...",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 164,
+      "start": 1456.091,
+      "end": 1458.0,
+      "text": "Asta mai este, nu au rămas în anii 90.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 165,
+      "start": 1458.838,
+      "end": 1472.356,
+      "text": "Eu am crescut într-un oraș mic, unde la noi erau, oare cartierul în care eu trăiem erau melomani, rockeri și tot așa, și partea cei erau așa numiți egopniști din anii 90.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 166,
+      "start": 1473.043,
+      "end": 1480.432,
+      "text": "Și eu credeam că chestia asta, lupta asta, încă a rămas, dar la noi încă ei există și e fix așa există și cu viziunile o săpără masculinității.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 167,
+      "start": 1480.432,
+      "end": 1500.181,
+      "text": "Îmi place să mă conștientizez că eu cunosc și eu cunosc mai multe și vulnerabilitatea aia simt câteodată când, de exemplu, sunt la niște dezbatări sau discuții și eu îmi dau seama că ceva nu cunosc în momentul celor.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 168,
+      "start": 1500.51,
+      "end": 1512.921,
+      "text": "Asta este ca o slăbiciune, dar înțeleg că trebuie să schimb și aici o atitudine pentru că este normal să nu cunosc toate lucrurile la moment.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 169,
+      "start": 1512.921,
+      "end": 1524.729,
+      "text": "Erau și niște situații în care eu voiam să mă simt mai puternic în clipa aceea, chiar și fizic, da?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 170,
+      "start": 1524.729,
+      "end": 1547.0,
+      "text": "Dar eu am fericire că am frate, de vârsta mea frate Geaman, și, respectiv, când noi, de exemplu, eram într-o luptă, afară, undeva și noi ne luptuam împreună, respectiv eram foarte puternici, dat fiind fapt că noi pur și simplu aveam grijă unul de altul.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 171,
+      "start": 1547.0,
+      "end": 1559.342,
+      "text": "Dacă eu pățeam ceva foarte neplăcut sau etc., eu nu mă închideam în mine, eu vorbeam deschis și cu fratele meu și cu taic meu și cu mama mea.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 172,
+      "start": 1559.342,
+      "end": 1565.132,
+      "text": "E niciodată nu mă înțeles afirmația despre bărbat adevărat. Ce înseamnă bărbat adevărat? Capul în familie sunt ambii părinți.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 173,
+      "start": 1565.62,
+      "end": 1574.0,
+      "text": "Și am avut un exemplu foarte frumos de relații într-o familie în care nu era un cap a familiei, în care nu era tata important, mama nu.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 174,
+      "start": 1574.0,
+      "end": 1597.702,
+      "text": "Ambii erau importanți, tata o respecta foarte mult și o respect mama foarte mult și, respectiv, pentru mine, bărbat adevărat este, cred, tatăl meu, care a acceptat așa cum sunt eu, a acceptat că noi avem fiecare viață a lor, că tata m-a ajutat foarte mult, chiar dacă noi cu el necertăm des, pentru că nu ai cum tata cu fiu se ceartă și sunt relații dintre tatări și fiu mai tensionate.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 175,
+      "start": 1597.9,
+      "end": 1606.181,
+      "text": "Dar el m-a ajutat în momente grele, că nu am învățat chestia asta. El m-a sținut chiar și în despărțire și mi-a dat niște sfaturi utile.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 176,
+      "start": 1606.289,
+      "end": 1612.172,
+      "text": "Tot el m-a ajutat să-mi fac reparații în apartament, să-mi construiesc casa, să fac pași și importanță în viață.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 177,
+      "start": 1612.559,
+      "end": 1618.0,
+      "text": "Și, respectiv, pentru mine, asta înseamnă bărbat adevărat, cel care poate să fie responsabil pentru cei care se află în jurul său.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 178,
+      "start": 1618.0,
+      "end": 1633.885,
+      "text": "Eu cred că o problemă foarte mare care o avem în societate legată de bărbați este stigma, general, stigma față de a recunoaște că tu ești vulnerabil, că tu tot poți să ai probleme, că tu tot poți să fii hărțuit pe stradă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 179,
+      "start": 1634.202,
+      "end": 1641.0,
+      "text": "Și eu cred că atât timp cât noi avem stigma aceasta, ea dă niște rezultate foarte nocive.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 180,
+      "start": 1641.0,
+      "end": 1649.083,
+      "text": "Începând de la faptul că bărbații se închid și sunt mai agresivi până la faptul că ei ajung să o moare, să o violeze și așa mai departe.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 181,
+      "start": 1649.083,
+      "end": 1656.471,
+      "text": "Nu știu dacă ați auzit de acest studiu, dar, exemplu, persoanele care plâng mai mult au mai puține probleme cu inimă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 182,
+      "start": 1656.471,
+      "end": 1668.471,
+      "text": "Respectiv, de asta mulți bărbați mor din cauza atacului de cord și, de asemenea, mor mai înainte decât femeile, statistic vorbind.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 183,
+      "start": 1669.968,
+      "end": 1690.11,
+      "text": "Încă o chestie este rata mare de suicid cu succes care au bărbații și eu cred că presiunea asta foarte mare de a fi bărbat, de a fi puternic, ea este, să spunem așa, destul de nocivă uneori.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 184,
+      "start": 1690.287,
+      "end": 1697.143,
+      "text": "Prima dată când mi-e într-adevăr mi-a pus întrebarea cum te simți a fost la terapeut.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 185,
+      "start": 1697.73,
+      "end": 1702.442,
+      "text": "Eu aveam 32 de ani.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 186,
+      "start": 1703.059,
+      "end": 1709.811,
+      "text": "Prima dată când eu țin minte, pe mine într-adevăr cineva a avut grijă de emoții mele.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 187,
+      "start": 1709.99,
+      "end": 1721.661,
+      "text": "Eu nu știam cum eu simt și, iată, la terapie am început să studiem ce înseamnă emoția X.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 188,
+      "start": 1722.218,
+      "end": 1727.172,
+      "text": "Eu cred că la mulți bărbați, X așa ești chestia.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 189,
+      "start": 1727.172,
+      "end": 1729.774,
+      "text": "E normal să mergi la psiholog când ai nevoie să faci chestia asta.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 190,
+      "start": 1729.774,
+      "end": 1733.432,
+      "text": "Bărbaților este greu să recunoască că ei tot pot fi slabi.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 191,
+      "start": 1733.707,
+      "end": 1735.173,
+      "text": "Pentru că educația așa ne-a impus.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 192,
+      "start": 1735.173,
+      "end": 1742.842,
+      "text": "Noi trebuie să fim puternici, nu trebuie să ținem casa și familia în spate și nu trebuie să facem tot și nu putem să arătăm că suntem slabi câteodată.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 193,
+      "start": 1743.189,
+      "end": 1747.432,
+      "text": "Dar e ok să recunoști că ai nevoie de ajutor.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 194,
+      "start": 1747.432,
+      "end": 1753.601,
+      "text": "E ok să mergi la psiholog să întrebe careva lucruri la care ai nevoie de răspuns.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 195,
+      "start": 1753.83,
+      "end": 1766.241,
+      "text": "Să te aprofundezi în curpilărie, să înțelegi de unde apar probleme care le ai în prezent, de ce tu nu poți să faci un pas înainte, de ce tu ai nevoie să schimbi careva lucruri în viață, de ce tu ai un comportament toxic în relație și mai departe.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 196,
+      "start": 1766.241,
+      "end": 1775.0,
+      "text": "Sunt chestii pe care tu le înțelegi la o consultare, nu doar una, care nu văd mai mult consultări la psiholog, ca să înțelegi de unde se trag toate problemele și cum ele pot fi soluționate.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 197,
+      "start": 1775.264,
+      "end": 1778.0,
+      "text": "Eu am fumat 17 ani.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 198,
+      "start": 1779.113,
+      "end": 1782.174,
+      "text": "Eram fumător, fumam când pachete de țigări pe zi.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 199,
+      "start": 1782.621,
+      "end": 1787.0,
+      "text": "Și la un moment dat m-am gândit, dar pentru ce fac eu lucrul ăsta?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 200,
+      "start": 1787.922,
+      "end": 1790.164,
+      "text": "Și am viz pentru mine că de mâine nu mai fumez.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 201,
+      "start": 1790.977,
+      "end": 1791.805,
+      "text": "Lăs fumat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 202,
+      "start": 1791.891,
+      "end": 1795.592,
+      "text": "Asta a fost 15 noiembrie 1998.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 203,
+      "start": 1795.79,
+      "end": 1800.822,
+      "text": "Și atât de atunci până astăzi, eu nu am tras un fum de cigare.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 204,
+      "start": 1801.149,
+      "end": 1805.543,
+      "text": "Adică, despre ce vorbesc faptele?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 205,
+      "start": 1806.041,
+      "end": 1813.0,
+      "text": "Că mulți merg la doctor, la psiholog și ajutați-mă să văd fumatul.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 206,
+      "start": 1813.417,
+      "end": 1824.282,
+      "text": "Ajutați-mă să mă depărasez de alcool și plătesc bani, îi ajută, temporar două, trei săptămâni, o lună, două, să abțin și iar încep.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 207,
+      "start": 1824.71,
+      "end": 1835.191,
+      "text": "Asta vorbește despre slăbiciunea bărbatului. Trebuie să ai și tărie de caracter. Dacă nu ai tărie de caracter, nu ești bărbat pățernic.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 208,
+      "start": 1835.43,
+      "end": 1845.941,
+      "text": "Eu consider că la psiholog și poate de mers numai în cazurile critique, când ajungi într-o situație, când gata, nu mai vezi albul, este tot negru în fața ochilor. Atunci da.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 209,
+      "start": 1845.941,
+      "end": 1861.391,
+      "text": "Eu cred că în momentul în care în viața mea se va întâmpla ceva ce eu n-am să pot explica și n-am să pot controla, eu cu siguranță am să mă duc la un psiholog.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 210,
+      "start": 1861.391,
+      "end": 1865.992,
+      "text": "Dar păcat este că educația psihologică în școală noi nu avem.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 211,
+      "start": 1865.992,
+      "end": 1867.455,
+      "text": "Tu mergi la psiholog?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 212,
+      "start": 1867.633,
+      "end": 1881.719,
+      "text": "Da, am fost de câteva ori. Nu pot să spun că am o experiență tare mare. Am fost. Cu câțiva n-am rezonat deloc și după o sesiune n-am vrut să mai vin. Cu cineva am rezonat, dar am mers puțin.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 213,
+      "start": 1882.406,
+      "end": 1890.793,
+      "text": "Persoana mi-a spus că să nu mai vin, că e ok, adică problema care tu ai avut, tu o poți gestiona singur și sună-mă când nu ați mai trebuiască.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 214,
+      "start": 1891.02,
+      "end": 1904.763,
+      "text": "Și cu copilul am mers cu Vlad când el a ajuns la vârsta de pubertate, era tare complicat cu el și am mers la o doamnă care m-a ghidat pentru o să o lua.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 215,
+      "start": 1905.65,
+      "end": 1911.483,
+      "text": "Da, asta e bună treabă, dar e greu de les un psiholog care să-i rezonezi.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 216,
+      "start": 1911.841,
+      "end": 1918.363,
+      "text": "Adică nu că să rezonezi, nu trebuie să rezonezi cu dânsul, adică nu trebuie să ai așteptări că el să spui și ai și vrei, tu să auzi la dânsul, dar să...",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 217,
+      "start": 1919.27,
+      "end": 1927.291,
+      "text": "Poți discuta, să-ți dăi niște sfaturi, nu pur și simplu, dar utili, bazate pe știință.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 218,
+      "start": 1927.449,
+      "end": 1939.691,
+      "text": "Hai să spunem așa, eu, cu careva prieteni, poate râd am discutat și la multe asociază chestia asta, psihologul, egal cu probleme psihice.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 219,
+      "start": 1941.009,
+      "end": 1950.352,
+      "text": "El încerc să le spui că atunci când te doar omaseaturi, te duci la stomatolog, când te doare, nu știu, alt stomac, te duci la endocrinoglă sau la cine acolo să mai duci cu...",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 220,
+      "start": 1951.159,
+      "end": 1956.762,
+      "text": "Și când ai probleme cu starea ta în interior, te duci la psiholog. Și ei cumva asociază asta cu psihiatru.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 221,
+      "start": 1956.762,
+      "end": 1969.311,
+      "text": "Dacă tu te duci, tu ai probleme ceva cu capul tău. Adică, aș mai este chestia asta că și înseamnă și sângă nu se poate rezolva, nu, și bărbatul ești, că te duci și te plângi acolo.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 222,
+      "start": 1969.55,
+      "end": 1979.303,
+      "text": "Și mă deranjează faptul că ei nu au fost acolo, ei nu știu cum decurge tot procesul acesta, dar se dau cu părere că, uite, acolo e așa, deși tu te duci acolo. Că tu te duci acolo să te plângi.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 223,
+      "start": 1981.868,
+      "end": 1986.002,
+      "text": "De eu subigrame și discuțiile astea îmbarbatească și se rezolvă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 224,
+      "start": 1986.75,
+      "end": 1996.0,
+      "text": "Da, bărbați se confruntă cu presiune socială, că trebuie să corespundă cărorva standarde, dar cum să reacționezi la chestia asta?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 225,
+      "start": 1996.577,
+      "end": 2007.523,
+      "text": "Să accepti că nu poți să faci totul chiar. Eu am un exemplu din viața mea când tu ajungi în un moment dat când ești lider de echipă și ești în situația în care tu iei totul spre la ta.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 226,
+      "start": 2007.523,
+      "end": 2016.261,
+      "text": "Eu nu să fac asta mai ghinic, eu nu să fac asta mai ghinic, tu nu poți să te hălască, fac eu. Și în moment dat tu treci într-un burnout așa de serios și puternic, în care tu înțelegi că nu, eu trebuie să delegezi.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 227,
+      "start": 2016.449,
+      "end": 2023.642,
+      "text": "Și atunci când te înveți a delega careva chestii, tu înțelegi că alții tot pot să o facă și nu poți să faci chiar totul singur.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 228,
+      "start": 2023.642,
+      "end": 2030.222,
+      "text": "Să dai careva task-uri, echipei tale să dai careva task-uri în familie să se întâmple și nu poți să iei tot pasupra ta.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 229,
+      "start": 2030.222,
+      "end": 2043.0,
+      "text": "Am făcut tot posibilul ca în familie să persisti democrație. N-am închis niciodată gura soției. Tot timpul a avut dreptul la opinii și a expus părierea și am ținut cont de părierele ei.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 230,
+      "start": 2043.0,
+      "end": 2049.714,
+      "text": "Da, am fost puțin altfel cum am fost în familie cu părinții.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 231,
+      "start": 2049.714,
+      "end": 2063.857,
+      "text": "Cea mai vizibilă pentru mine situație sau cea mai situație care m-a afectat cel mai mult a fost cu un an în urmă când am trecut printr-o despărțire cu persoana care mă întâlneam.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 232,
+      "start": 2063.857,
+      "end": 2075.495,
+      "text": "Și asta nu din...",
+      "words": [],
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 233,
+      "start": 2075.495,
+      "end": 2092.364,
+      "text": "Și mama ei a început cu...",
+      "words": [],
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 234,
+      "start": 2092.364,
+      "end": 2101.172,
+      "text": "Nu a fost un bullying direct dar au fost foarte multe comentarii ofensatoare care eu le-am primit în adresa mea.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 235,
+      "start": 2101.172,
+      "end": 2111.631,
+      "text": "Eu am fost într-o relație de opt ani de zile și noi recent am dispărțit și eu nu mă dispărțeam pentru că aveam neîncredere în sine că mă tineam de singuretate.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 236,
+      "start": 2112.009,
+      "end": 2120.701,
+      "text": "Și atunci când am dispărțit eu m-am simțit vulnerabil pentru că nu înțelegeam ce se întâmplă mai departe, unde am să merg mai departe, am să fiu singur, nu am să fiu singur, am să mă iubesc, am să mă îndrăgostesc sau nu.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 237,
+      "start": 2121.119,
+      "end": 2131.641,
+      "text": "Și perioada asta de singuretate am trecut-o chiar aproape singur pentru că aveam nevoie de timp să mă gândesc ce vreau să fac mai departe, să analizez cine sunt acum, cine vreau să devin mai departe.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 238,
+      "start": 2131.641,
+      "end": 2148.323,
+      "text": "Și așa întrebări cred că mi le-am pus atunci și a fost un moment decisiv când eu am decis să schimb multe chestii și așa o despărțire după o relație lungă te face să schimbi multe lucruri în viață, să scapi de chestii care nu mai ai nevoie, să arunci din casa ceea ce nu mai folosești.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 239,
+      "start": 2149.06,
+      "end": 2156.511,
+      "text": "Și te liberezi emoțional de multe chestii. Și când te liberezi tu înțelegi că viața merge mai departe și există viitor în continuare.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 240,
+      "start": 2156.511,
+      "end": 2171.715,
+      "text": "M-a ajutat să trec peste această perioadă, cred că și prietenii mei care au fost alături, dar eu nu pot fi alături non-stop. Eu eram ziua cu prietenii, vinem acasă seara într-o casă mare, singur și mă simțeam așa de neputincioși când ești într-un spațiu atât de mare.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 241,
+      "start": 2171.913,
+      "end": 2181.631,
+      "text": "Dar ești singur și îți pare că apartamentul tău e așa de mult spațiu, parcă nu ai nevoie de spațiu, nu ai nevoie de așa, că e mărut să mii cum să te ascunzi să nu te vadă nimeni și să nu știi nimeni de tine.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 242,
+      "start": 2182.175,
+      "end": 2200.39,
+      "text": "Și treci, treci pe această perioadă, nu continui foarte mult, iar treci, începi deja să ai viață socială, să ieși la avirimente și cred că jobul m-a ajutat să ies, m-a ajutat mult lucrul, m-am afăcat de lucru, m-e ias mai departe, m-e ias la avirimente, m-am auzut cu prietenii și câte un pic, un pic treptat, tu treci peste asta.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 243,
+      "start": 2200.758,
+      "end": 2213.0,
+      "text": "Astăzi, bărbații, chiar în unele cazuri le fac observații foarte des, la vârsta de 30 de ani trăiesc cu părinții, ori trăiesc pe seama părinților.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 244,
+      "start": 2214.035,
+      "end": 2220.452,
+      "text": "La vârsta de 30 de ani nu au fost capabili să-și creeze o familie și nici nu au de gând să o creeze.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 245,
+      "start": 2220.786,
+      "end": 2235.651,
+      "text": "Dacă la 30 de ani te căsătorești, ori după 30 de ani, când tu vei avea timp să-ți educi copiii care îi vei avea și să-ți educi nepoții, este un lucru foarte important.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 246,
+      "start": 2235.651,
+      "end": 2245.0,
+      "text": "Când vei avea 70-80 de ani, ei nu se grăbesc, însă ei își vor da seama despre acest lucru când vor avea 50 de ani.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 247,
+      "start": 2245.0,
+      "end": 2249.714,
+      "text": "După 50 de ani vă asigur că ori să regret toți că n-au făcut-o la timp.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 248,
+      "start": 2249.872,
+      "end": 2258.0,
+      "text": "Problema nu e în chestia asta de a părea slab, în chestia că e pur și simplu nu știu ce se întâmplă cu ei.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 249,
+      "start": 2258.0,
+      "end": 2265.873,
+      "text": "Că nu poți identifica emoția, nu poți să o validezi, nu poți să o accepti, nu poți să o păpi.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 250,
+      "start": 2266.291,
+      "end": 2274.271,
+      "text": "Dar dacă nu știi ce se întâmplă cu tine, cum poți să povestești despre asta?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 251,
+      "start": 2274.477,
+      "end": 2289.0,
+      "text": "Eu cred că bărbații la noi cumva într-un fel este așa un mini-terapie, să spunem, când îi ies la berea sau la fotbal sau într-o activitate comună cu alți bărbați.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 252,
+      "start": 2289.236,
+      "end": 2294.874,
+      "text": "Și asta e fain, asta e tare fain, dar asta e cred că superficial.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 253,
+      "start": 2294.874,
+      "end": 2307.181,
+      "text": "Ar fi bine să avem comunități de bărbați în care ei se discută, în care ei au diferite instruiri sau terapie comună.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 254,
+      "start": 2307.181,
+      "end": 2315.471,
+      "text": "Nu știu, dar am văzut, sunt experți în terapie care organizează așa cercuri de bărbați.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 255,
+      "start": 2315.63,
+      "end": 2326.451,
+      "text": "Unde bărbații să-și exprimă emoții și să învețe la diferite aspecte a masculinității.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 256,
+      "start": 2326.619,
+      "end": 2335.121,
+      "text": "Admiți că în viitor ar putea fi creată vreo asociație de protecție a drepturilor bărbaților similară ca celor femeilor?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 257,
+      "start": 2335.4,
+      "end": 2345.871,
+      "text": "Este o chestie destul de interesantă și eu cred că ar fi bine ca bărbații să povestească despre problemele cu care ei se confruntă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 258,
+      "start": 2345.871,
+      "end": 2366.03,
+      "text": "Însă aici sunt două argumente destul de importante și faptul că uneori când bărbații încearcă să vorbească despre problemele lor, asta este interpretat ca un contraargument la feminism, deși asta nu tot timpul este adevărat.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 259,
+      "start": 2366.03,
+      "end": 2378.825,
+      "text": "Adică uneori cu adevărat sunt bărbați care folosesc argumentul de whataboutism, adică faptul că ei aduc alte probleme ale bărbaților, nu ca să rezolve acelea femeilor, dar pur și simplu ca să distragă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 260,
+      "start": 2378.825,
+      "end": 2386.182,
+      "text": "Există și așa chestie, însă eu cred că bărbații încă au o problemă de a recunoaște că ea o problemă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 261,
+      "start": 2386.182,
+      "end": 2392.132,
+      "text": "Eu înțeleg că nu are sens să împingi pe cineva în terapie, pur și simplu nu are sens.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 262,
+      "start": 2392.85,
+      "end": 2402.622,
+      "text": "Pentru că omul trebuie să ajungă la această decizie, cum și eu am ajuns, mi-a luat vreo jumătate de un an să merg la terapiu, să iau această decizie.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 263,
+      "start": 2402.989,
+      "end": 2407.802,
+      "text": "Omul trebuie să ajungă și metoda mea e de a povesti despre asta.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 264,
+      "start": 2407.802,
+      "end": 2420.0,
+      "text": "Eu povestesc despre experiența mea, ce se întâmplă cu mine, ce este terapie și nu știu dacă cineva a mers.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 265,
+      "start": 2420.0,
+      "end": 2429.0,
+      "text": "Probabil oamenii au mers, dar eu nu știu, dar eu încerc cumva să promovez această idee.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 266,
+      "start": 2429.634,
+      "end": 2431.519,
+      "text": "Pe mine mă înțelegă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 267,
+      "start": 2433.392,
+      "end": 2450.0,
+      "text": "Unii ori eu încerc să proiesce ceva prietenilor, să validez emoțiile mele și acestea nu sunt ascultate și într-un fel mi se răspunde, nu plângi ceva genul ăsta.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 268,
+      "start": 2450.137,
+      "end": 2458.282,
+      "text": "Într-un fel, nu cu cuvântul respectiv, dar într-o formă. Și pe mine asta tare mult mă atinge.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 269,
+      "start": 2458.282,
+      "end": 2461.492,
+      "text": "Psihologul poate fi o soluție în situație de criză?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 270,
+      "start": 2461.492,
+      "end": 2470.25,
+      "text": "Poate, dar dacă tu vrei ceva să faci, dacă tu, păși timp, te duci acolo și o ștepți de la din schela, să-ți deai pastila și ai care să-ți o bagi în gură și tu ești de acolo alt om, asta nu se întâmplă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 271,
+      "start": 2470.25,
+      "end": 2479.122,
+      "text": "Adică el te ghidează undeva, el îți vede frustrările și problemele tale și te ghidează într-o parte, dar nu poate lua decizii pentru tine.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 272,
+      "start": 2479.384,
+      "end": 2500.048,
+      "text": "Cunosc un cunosc care frecvent, nu sunt mulți, sunt câțiva, doar nu vreau să pun un clișop și tot pe toate persoanele care merg frecvent la psiholog, dar am câți cunoștințe îndepărtate, s-au mănciucnit cu ei, care permanent îmi și doi din ei erau cei mai instabili emoționali oameni.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 273,
+      "start": 2500.401,
+      "end": 2519.23,
+      "text": "Ei, orice, orice ce se întâmplă, eu mâine am spus că asta și am discut cu psihologul meu, eu am spus că am discut cu psihologul meu, că deja e, nu știu, bolnavicios un pic, că tu singur nu poți fi responsabil sau faci față la probleme când te dai atât de total în influență psihologilor.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 274,
+      "start": 2519.23,
+      "end": 2534.514,
+      "text": "Astăzi, femeile toate îmbracă pantaloni. Au locuri de lucru foarte bine plătite, dar mă refer în primul rând la femeile din mediul de afaceri.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 275,
+      "start": 2535.898,
+      "end": 2555.363,
+      "text": "Dacă o femeie este reușită și a construit o afacere reușită, evident că bărbatul nu poate să pretinde la bărbat lider în familie, dacă el nu poate asigura familia la nivelul cum asigură soția.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 276,
+      "start": 2555.363,
+      "end": 2573.379,
+      "text": "Într-așa situație, bărbații sunt mai slabi și este un lucru normal, un lucru care trebuie luat în considerație și merită atenție.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 277,
+      "start": 2573.504,
+      "end": 2576.085,
+      "text": "Așa bărbați, așa trebuie să fie.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 278,
+      "start": 2576.893,
+      "end": 2587.502,
+      "text": "Foarte rar eu cunosc cazuri când într-o familie să fie și bărbat puternic și soție care generează venituri mari și afaceri mari.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 279,
+      "start": 2587.749,
+      "end": 2592.142,
+      "text": "Nu cunosc aproape pe nimeni la noi în Chișneau.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 280,
+      "start": 2592.29,
+      "end": 2602.151,
+      "text": "Cred că chestia asta, că noi suntem redus și ceva în familie, e prea mult timp să o format, 1000-1000 de ani, ca să dispară așa ușor.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 281,
+      "start": 2602.676,
+      "end": 2604.213,
+      "text": "100 de ani va fi valabilă?",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 282,
+      "start": 2604.213,
+      "end": 2609.272,
+      "text": "Evident, evident. Și toți mulți oameni vor cred că bărbatul e capul familie și tot așa.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 283,
+      "start": 2610.076,
+      "end": 2611.283,
+      "text": "Cred că așa va fi.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 284,
+      "start": 2611.809,
+      "end": 2615.512,
+      "text": "Și presupun că și bărbați vor lua tot decizii vor fi.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 285,
+      "start": 2615.75,
+      "end": 2625.0,
+      "text": "Poate nu atât de ca acum în ceași măsură, dar oricum vor fi încă un top luarea deciziilor.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 286,
+      "start": 2625.0,
+      "end": 2631.773,
+      "text": "Noi, cultural, Biblia e creată de bărbați, Coranul e creată de bărbați, alte cărți e creată.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 287,
+      "start": 2631.773,
+      "end": 2635.0,
+      "text": "E scris, nu că e creat, e creat și e scris pentru bărbați unii.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 288,
+      "start": 2635.226,
+      "end": 2640.572,
+      "text": "Și religiile încă mult timp au să influențeze omenire, dar religiile sunt create de bărbați.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 289,
+      "start": 2641.119,
+      "end": 2645.332,
+      "text": "Și Dumnezeu e care-s acolo, toate bărbați, să aveți vreo în Dumnezeu o femeie să fie.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 290,
+      "start": 2645.799,
+      "end": 2650.902,
+      "text": "Să fie bărbat în anul 2024 înseamnă să fie responsabil.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 291,
+      "start": 2650.902,
+      "end": 2658.892,
+      "text": "Responsabilitatea este despre bărbație, cred că și mine nu sunt responsabile, nu sunt sexist, eu sunt un feminist înrăit și asta promovez peste tot.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 292,
+      "start": 2659.109,
+      "end": 2663.312,
+      "text": "Dar depinde de ce stil de viață îl ai.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 293,
+      "start": 2663.312,
+      "end": 2672.381,
+      "text": "De exemplu, eu sunt foarte liber în gândire și nu mă limitez la careva prejudecăți care se împun la noi societate.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 294,
+      "start": 2672.759,
+      "end": 2678.611,
+      "text": "Și pentru mine, cred că nu este complicat să trăiesc în 2024 pentru că am o viață liberă și fac ceea ce vreau eu să fac.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 295,
+      "start": 2678.819,
+      "end": 2685.112,
+      "text": "Vreau astăzi să-mi fac machiaj, nu fac machiaj, vreau mâine să-mi lipesc ceva pe față să fac chestia asta, vreau să îmi brac roz, o îmbrac roz.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 296,
+      "start": 2685.258,
+      "end": 2687.343,
+      "text": "Chiar nu contează pentru mine părerea cuiva.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 297,
+      "start": 2687.343,
+      "end": 2695.042,
+      "text": "Dar înțeleg că la noi societatea trăiește după părerea cuiva și cei ce promovez chiar și la lecții mei care le fac despre modă, lucrez cu femei.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 298,
+      "start": 2695.042,
+      "end": 2697.363,
+      "text": "Am chiar și bărbați, clienți care își doresc schimbări.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 299,
+      "start": 2697.363,
+      "end": 2708.261,
+      "text": "Chiar ultimul timp, ultimii ani au început să vină bărbați pentru că își doresc să arăt stilat, își doresc să arăt scump, sunt foarte mulți agenți imobiliari, sunt foarte mulți banchiri cu care lucrez, oameni din politică.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 300,
+      "start": 2708.261,
+      "end": 2718.541,
+      "text": "Și ei toți vor să arăte bine pentru că înțeleg că imaginea lor spune foarte mult despre ei și ei vor să transmită imagini de bărbați eleganți, bărbați care se place ce fac.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 301,
+      "start": 2718.541,
+      "end": 2727.701,
+      "text": "Oamenii dacă știu că eu merg la terapie, dar ce s-a întâmplat? Tot ok? Și asta nu mama mea sau nu știu, oamenii mai în vârstă.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 302,
+      "start": 2728.426,
+      "end": 2747.324,
+      "text": "Oamenii de vârsta mea, tot ok? Da, tot ok, să merg la terapie e ok. E must, e obligatoriu. Deoseb pentru noi în care noi trăim în această societate, unde noi nu știm de emoții, practic nimic ca societate.",
+      "id_user": -1,
+      "info": "0"
+    },
+    {
+      "id": 303,
+      "start": 2747.324,
+      "end": 2758.771,
+      "text": "Noi nu le am validat, noi nu le am retrăit la nivel personal și la nivel de societate.",
+      "id_user": -1,
+      "info": "0"
+    }
+  ]
+}

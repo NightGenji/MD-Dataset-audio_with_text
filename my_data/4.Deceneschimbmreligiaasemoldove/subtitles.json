@@ -1764,7 +1764,7 @@
       "id": 220,
       "start": 1437.04,
       "end": 1439.704,
-      "text": "Da păi ce așa se face, dragul meu, sau ceva de tipul acesta.",
+      "text": "Dar păi ce așa se face, dragul meu, sau ceva de tipul acesta.",
       "id_user": 4,
       "info": "0"
     },
@@ -1779,10 +1779,10 @@
     {
       "id": 222,
       "start": 1447.623,
-      "end": 1450.933,
-      "text": "Când te duci acasă, ești îmbrăcat așa cum ești îmbrăcat acum?",
+      "end": 1450.761,
+      "text": "Când te duci acasă, ești îmbrăcat așa cum ești îmbrăcat?",
       "id_user": 7,
-      "info": "0"
+      "info": "2"
     },
     {
       "id": 223,
@@ -1850,9 +1850,9 @@
     },
     {
       "id": 231,
-      "start": 1491.174,
+      "start": 1491.242,
       "end": 1498.09,
-      "text": "Apoi cineva le-a le-a spus și mama mea a avut o reacție un pic negativă.",
+      "text": "Apoi cineva le-a... le-a spus și mama mea a avut o... reacția un pic negativă.",
       "id_user": 5,
       "info": "2"
     },
@@ -2052,7 +2052,7 @@
       "id": 256,
       "start": 1691.985,
       "end": 1703.15,
-      "text": "Și la un moment dat era foarte nemulțumit, dar nemulțumirea și teama lui au trecut pe parcurs când a văzut că credința Bahai chiar mă ajută să mă dezvolt da.",
+      "text": "Și la un moment dat era foarte nemulțumit, dar nemulțumirea și teama lui au trecut pe parcurs când a văzut că credința Bahai chiar mă ajută să mă dezvolt, da?",
       "id_user": 3,
       "info": "2"
     },
@@ -2236,7 +2236,7 @@
       "id": 279,
       "start": 1870.381,
       "end": 1881.391,
-      "text": "De la început, tu trebuie să să ai învățătură spirituală și respectiv învățătură spirituală te ghidează, te ghidează în viață pentru ca să, ca să poți să atingi un anumit scop.",
+      "text": "De la început, tu trebuie să... să ai învățătură spirituală și respectiv învățătură spirituală te... te ghidează în viață pentru ca să, ca să poți să atingi un anumit scop.",
       "id_user": 4,
       "info": "0"
     },
@@ -2700,7 +2700,7 @@
       "id": 337,
       "start": 2256.455,
       "end": 2265.074,
-      "text": "Și deja răspund așa, numai ca să nu mai intru să mai spun mulțumesc și acolo trebuie să spui bodaproste Și eu să mai încep a intra în politică. Tare nu-mi place să intru în așa discuții.",
+      "text": "Și deja răspund așa, numai ca să nu mai intru să mai spun mulțumesc și acolo trebuie să spui bodaproste și eu să mai încep a intra în... tare nu-mi place să intru în așa discuții.",
       "id_user": 1,
       "info": "0"
     },
@@ -3458,9 +3458,9 @@
     },
     {
       "id": 432,
-      "start": 2886.844,
-      "end": 2889.806,
-      "text": "Eu într-o bună zi, ce, o să mă duc și o să mănânc un șașlic.",
+      "start": 2887.129,
+      "end": 2889.691,
+      "text": "Eu într-o bună zi, ce, o să mă duc și o să mănânc un frigărui.",
       "id_user": 4,
       "info": "2"
     },
@@ -3948,7 +3948,7 @@
       "id": 493,
       "start": 3341.079,
       "end": 3348.812,
-      "text": "În dependență de cât o fost micșorată conștiința, în dependență de lucrurile care le-a făcut, el obține un trup de animal.",
+      "text": "În dependență de cât a fost micșorată conștiința, în dependență de lucrurile care le-a făcut, el obține un trup de animal.",
       "id_user": 4,
       "info": "2"
     },

@@ -254,7 +254,7 @@
       "end": 214.264,
       "text": "Atât.",
       "id_user": 2,
-      "info": "1"
+      "info": "0"
     },
     {
       "id": 32,
@@ -1260,9 +1260,9 @@
       "id": 157,
       "start": 836.926,
       "end": 842.98,
-      "text": "Intrați pe la noi! zic, nu, nu, noi avem o misiune aici, trebuie să facem nu știu câte mii de kilo... de pași.",
+      "text": "Intrați pe la noi! zic, nu, nu, noi avem o misiune aici, trebuie să facem nu știu câte mii de... de pași.",
       "id_user": 4,
-      "info": "0"
+      "info": "2"
     },
     {
       "id": 158,
@@ -1270,7 +1270,7 @@
       "end": 844.418,
       "text": "Da.",
       "id_user": 4,
-      "info": "1"
+      "info": "0"
     },
     {
       "id": 159,
@@ -1420,7 +1420,7 @@
       "id": 177,
       "start": 960.166,
       "end": 962.369,
-      "text": "Coadă de teu.",
+      "text": "Coadă de mop.",
       "id_user": 4,
       "info": "1"
     },
@@ -1430,7 +1430,7 @@
       "end": 966.027,
       "text": "Ah, cu coada de la teu în loc de...",
       "id_user": 7,
-      "info": "2"
+      "info": "0"
     },
     {
       "id": 179,
@@ -1652,7 +1652,7 @@
       "id": 206,
       "start": 1158.871,
       "end": 1174.197,
-      "text": "Ideea asta, nu știu de ce, nu mi-a prea plăcut să merg la acest medic și m-am dus mai târziu, când era prea târziu, să-mi mai spună ceva, eu ziceam așa, să-mi spună ceva prostii, ca... ca să-mi strice mie dispoziția.",
+      "text": "Ideea asta, nu știu de ce, nu mi-a prea plăcut să merg la acest medic și m-am dus mai târziu, când era prea târziu, să-mi mai spună ceva, eu ziceam așa, să-mi spună ceva prostii, ca, ca să-mi strică mie dispoziția.",
       "id_user": 5,
       "info": "2"
     },
@@ -2196,7 +2196,7 @@
       "id": 274,
       "start": 1518.313,
       "end": 1530.259,
-      "text": "O anunțat preotul să vină cu corul bisericii și ne-a citit permisul de-a începe restaurarea acestui monument.",
+      "text": "A anunțat preotul să vină cu corul bisericii și ne-a citit permisul de-a începe restaurarea acestui monument.",
       "id_user": 4,
       "info": "1"
     },
@@ -2270,7 +2270,7 @@
       "end": 1574.349,
       "text": "Eu.",
       "id_user": 6,
-      "info": "1"
+      "info": "0"
     },
     {
       "id": 284,
@@ -2356,9 +2356,9 @@
       "id": 294,
       "start": 1626.489,
       "end": 1633.8,
-      "text": "Al doilea la patruzeci de ani. Deci eu cumva voiam, îmi doream doi copii, numaidecât.",
+      "text": "Al doilea la patruzeci de ani, deci eu cumva... îmi doream doi copii, numaidecât.",
       "id_user": 5,
-      "info": "0"
+      "info": "2"
     },
     {
       "id": 295,
@@ -2526,7 +2526,7 @@
       "end": 1757.686,
       "text": "Da.",
       "id_user": 4,
-      "info": "1"
+      "info": "0"
     },
     {
       "id": 316,
@@ -2740,17 +2740,17 @@
       "id": 342,
       "start": 1898.876,
       "end": 1900.423,
-      "text": "Dar ei zic mie devocika, îmi zic.",
+      "text": "Dar ei îmi zic mie fetiță, îmi zic.",
       "id_user": 3,
-      "info": "0"
+      "info": "2"
     },
     {
       "id": 343,
       "start": 1900.569,
       "end": 1903.293,
-      "text": "Eu zic că nu-s devocika, i-am zis că eu sunt baba de acum.",
+      "text": "Dar eu zic că nu-s fetiță, i-am zis că eu sunt baba de acum.",
       "id_user": 3,
-      "info": "0"
+      "info": "2"
     },
     {
       "id": 344,
@@ -2774,7 +2774,7 @@
       "end": 1908.738,
       "text": "Am.",
       "id_user": 3,
-      "info": "1"
+      "info": "0"
     },
     {
       "id": 347,
@@ -3210,14 +3210,6 @@
     },
     {
       "id": 401,
-      "start": 2243.42,
-      "end": 2244.506,
-      "text": "La bătrânețe.",
-      "id_user": 3,
-      "info": "0"
-    },
-    {
-      "id": 402,
       "start": 2244.506,
       "end": 2246.428,
       "text": "Cum se poate vă lămuresc și cum.",
@@ -3225,7 +3217,7 @@
       "info": "1"
     },
     {
-      "id": 403,
+      "id": 402,
       "start": 2246.731,
       "end": 2261.496,
       "text": "Că mă rog ca tineret nu poți să fii dar așa ca să te susții unul pe altul la bătrânețe cu un cuvânt, cu o vorbă, cu un sfat, c-un ajutor, iată acestea poate să fie și la bătrânețe.",
@@ -3233,7 +3225,7 @@
       "info": "1"
     },
     {
-      "id": 404,
+      "id": 403,
       "start": 2261.832,
       "end": 2263.808,
       "text": "Dar n-am încercat de așa fel, nu.",
@@ -3241,7 +3233,7 @@
       "info": "1"
     },
     {
-      "id": 405,
+      "id": 404,
       "start": 2264.67,
       "end": 2266.03,
       "text": "Mie și-n gând nu-mi da.",
@@ -3249,7 +3241,7 @@
       "info": "1"
     },
     {
-      "id": 406,
+      "id": 405,
       "start": 2266.479,
       "end": 2277.59,
       "text": "Tot vine la anii lor, pot să faci ce n-ai face este o vârstă oarecare că noi suntem tinere frumoase dorite văzute acceptate.",
@@ -3257,7 +3249,7 @@
       "info": "1"
     },
     {
-      "id": 407,
+      "id": 406,
       "start": 2277.927,
       "end": 2279.144,
       "text": "Dar de acum am o vârstă a noastră.",
@@ -3265,7 +3257,7 @@
       "info": "1"
     },
     {
-      "id": 408,
+      "id": 407,
       "start": 2279.144,
       "end": 2285.797,
       "text": "Da, toți suntem dorite de copii, de apropiat, dar de ceva, nu.",
@@ -3273,7 +3265,7 @@
       "info": "1"
     },
     {
-      "id": 409,
+      "id": 408,
       "start": 2285.797,
       "end": 2297.59,
       "text": "Eu cred dacă aș vorbi despre persoana mea că la bătrânețe ești mai selectiv.",
@@ -3281,7 +3273,7 @@
       "info": "1"
     },
     {
-      "id": 410,
+      "id": 409,
       "start": 2299.088,
       "end": 2307.17,
       "text": "La bătrânețe nu te aprinzi așa cu, că asta-i îndrăgostire nu-i dragoste adevărată.",
@@ -3289,7 +3281,7 @@
       "info": "1"
     },
     {
-      "id": 411,
+      "id": 410,
       "start": 2307.467,
       "end": 2317.92,
       "text": "Dar sunt persoane care cunosc chiar de vârsta mea s-au recăsătorit după ce au rămas singure, sunt fericite.",
@@ -3297,7 +3289,7 @@
       "info": "2"
     },
     {
-      "id": 412,
+      "id": 411,
       "start": 2318.266,
       "end": 2324.61,
       "text": "Eu fac parte cred că din categoria oamenilor care iubesc o dată.",
@@ -3305,7 +3297,7 @@
       "info": "1"
     },
     {
-      "id": 413,
+      "id": 412,
       "start": 2324.918,
       "end": 2331.16,
       "text": "Dacă vorbim de, din punct de vedere medical inima ca și organ ea tot suferă schimbări.",
@@ -3313,7 +3305,7 @@
       "info": "1"
     },
     {
-      "id": 414,
+      "id": 413,
       "start": 2331.475,
       "end": 2335.81,
       "text": "Adică ea îmbătrânește și inima și vasele și creierul.",
@@ -3321,7 +3313,7 @@
       "info": "1"
     },
     {
-      "id": 415,
+      "id": 414,
       "start": 2336.207,
       "end": 2341.646,
       "text": "Dacă e să explic cântecul popular aici se referă mai degrabă la suflet, da?",
@@ -3329,7 +3321,7 @@
       "info": "1"
     },
     {
-      "id": 416,
+      "id": 415,
       "start": 2341.646,
       "end": 2354.971,
       "text": "Este senzația, senzația de a rămâne tânăr adică dorința de a trăi, buna dispoziție, este ceea ce simte la nivel de emoție.",
@@ -3337,7 +3329,7 @@
       "info": "1"
     },
     {
-      "id": 417,
+      "id": 416,
       "start": 2355.289,
       "end": 2361.31,
       "text": "Dar la nivel de organ din păcate vreau să vă dezamăgesc că inima tot îmbătrânește.",
@@ -3345,7 +3337,7 @@
       "info": "1"
     },
     {
-      "id": 418,
+      "id": 417,
       "start": 2361.31,
       "end": 2372.369,
       "text": "Omul bătrân poate mai puțin pasional dar energia iubirii ea cumva se transformă.",
@@ -3353,7 +3345,7 @@
       "info": "1"
     },
     {
-      "id": 419,
+      "id": 418,
       "start": 2372.369,
       "end": 2377.367,
       "text": "Eu cred că la orice vârstă omul poate iubi.",
@@ -3361,7 +3353,7 @@
       "info": "1"
     },
     {
-      "id": 420,
+      "id": 419,
       "start": 2377.622,
       "end": 2380.239,
       "text": "Dragostea nu are vârstă.",
@@ -3369,7 +3361,7 @@
       "info": "1"
     },
     {
-      "id": 421,
+      "id": 420,
       "start": 2380.239,
       "end": 2382.06,
       "text": "Nu are hotare.",
@@ -3377,7 +3369,7 @@
       "info": "1"
     },
     {
-      "id": 422,
+      "id": 421,
       "start": 2382.487,
       "end": 2393.51,
       "text": "Nu are nici măcar explicație de ce ea rămâne aceeași emoție, aceeași senzație, la orice vârstă, doar cumva este mai matur.",
@@ -3385,7 +3377,7 @@
       "info": "1"
     },
     {
-      "id": 423,
+      "id": 422,
       "start": 2394.139,
       "end": 2406.319,
       "text": "Cred că este de, de aceeași intensitate indiferent de scăderea serotoninei, dopaminei și a altor neurotransmițători.",
@@ -3393,7 +3385,7 @@
       "info": "1"
     },
     {
-      "id": 424,
+      "id": 423,
       "start": 2406.525,
       "end": 2411.92,
       "text": "Nimeni nu este obligat să te facă să te simți mai bine mai tânăr mai frumos sau cumva.",
@@ -3401,7 +3393,7 @@
       "info": "1"
     },
     {
-      "id": 425,
+      "id": 424,
       "start": 2412.088,
       "end": 2417.14,
       "text": "În moment ce eu sunt ok cu mine am și oamenii potriviți.",
@@ -3409,7 +3401,7 @@
       "info": "1"
     },
     {
-      "id": 426,
+      "id": 425,
       "start": 2417.524,
       "end": 2420.37,
       "text": "Am iubitul meu care este alături întotdeauna.",
@@ -3417,7 +3409,7 @@
       "info": "1"
     },
     {
-      "id": 427,
+      "id": 426,
       "start": 2420.917,
       "end": 2423.72,
       "text": "Am familia mea care mă susține.",
@@ -3425,7 +3417,7 @@
       "info": "1"
     },
     {
-      "id": 428,
+      "id": 427,
       "start": 2423.72,
       "end": 2425.63,
       "text": "Am prietenii foarte foarte buni.",
@@ -3433,7 +3425,7 @@
       "info": "1"
     },
     {
-      "id": 429,
+      "id": 428,
       "start": 2425.63,
       "end": 2429.238,
       "text": "Deci niciodată nu m-am simțit singura.",
@@ -3441,7 +3433,7 @@
       "info": "1"
     },
     {
-      "id": 430,
+      "id": 429,
       "start": 2429.325,
       "end": 2435.98,
       "text": "Nici în cele mai negre și mai întunecate momente din viața mea eu nu m-am simțit singura.",
@@ -3449,7 +3441,7 @@
       "info": "1"
     },
     {
-      "id": 431,
+      "id": 430,
       "start": 2436.156,
       "end": 2438.049,
       "text": "Și asta m-a ajutat foarte mult.",
@@ -3457,7 +3449,7 @@
       "info": "1"
     },
     {
-      "id": 432,
+      "id": 431,
       "start": 2439.164,
       "end": 2444.37,
       "text": "Eu întotdeauna am știut că dacă nu mă descurc singură eu am la cine să apelez.",
@@ -3465,7 +3457,7 @@
       "info": "1"
     },
     {
-      "id": 433,
+      "id": 432,
       "start": 2444.37,
       "end": 2447.96,
       "text": "Pe mine are cine să mă ridice și să mă ajute să zbor mai departe.",
@@ -3473,7 +3465,7 @@
       "info": "1"
     },
     {
-      "id": 434,
+      "id": 433,
       "start": 2448.977,
       "end": 2460.492,
       "text": "Și zic zbor pentru că după toată experiența asta cu bufeurile deci e așa un fel de incendiu în interiorul tău.",
@@ -3481,7 +3473,7 @@
       "info": "1"
     },
     {
-      "id": 435,
+      "id": 434,
       "start": 2460.492,
       "end": 2466.009,
       "text": "Da, deci arzi, toată arzi și după asta te renaști ca pasărea Phoenix.",
@@ -3489,7 +3481,7 @@
       "info": "1"
     },
     {
-      "id": 436,
+      "id": 435,
       "start": 2466.562,
       "end": 2468.6,
       "text": "Și asta este despre toate femeile.",
@@ -3497,7 +3489,7 @@
       "info": "1"
     },
     {
-      "id": 437,
+      "id": 436,
       "start": 2468.6,
       "end": 2476.74,
       "text": "Noi când am întâlnit cu soțul da eu la început normal că era bariera asta că eu sunt mai mare.",
@@ -3505,7 +3497,7 @@
       "info": "1"
     },
     {
-      "id": 438,
+      "id": 437,
       "start": 2476.74,
       "end": 2487.96,
       "text": "De obicei lumea niciodată nu observă și nu spune dar atunci când noi ne permitem să să zicem sau uneori chiar și pot nu ca să mă laud dar să mă laud.",
@@ -3513,7 +3505,7 @@
       "info": "1"
     },
     {
-      "id": 439,
+      "id": 438,
       "start": 2487.96,
       "end": 2494.038,
       "text": "Până la urmă diferența este de opt ani adică nici prea mult nici prea puțin, dar este.",
@@ -3521,7 +3513,7 @@
       "info": "1"
     },
     {
-      "id": 440,
+      "id": 439,
       "start": 2494.038,
       "end": 2503.279,
       "text": "Eu cred că nu contează vârsta contează persoana cât poate să-și asume responsabilitățile.",
@@ -3529,7 +3521,7 @@
       "info": "1"
     },
     {
-      "id": 441,
+      "id": 440,
       "start": 2503.279,
       "end": 2509.05,
       "text": "Poate să fie o persoană foarte în vârstă dar foarte neserioasă, copilăroasă.",
@@ -3537,7 +3529,7 @@
       "info": "1"
     },
     {
-      "id": 442,
+      "id": 441,
       "start": 2509.05,
       "end": 2517.371,
       "text": "Dar poate să fie o persoană mai tânără dar să fie foarte serioasă și foarte cu, cu, cu planuri bine puse.",
@@ -3545,7 +3537,7 @@
       "info": "1"
     },
     {
-      "id": 443,
+      "id": 442,
       "start": 2517.371,
       "end": 2521.11,
       "text": "Adică aici cumva nu prea este legat de vârstă, nu tot timpul.",
@@ -3553,15 +3545,15 @@
       "info": "1"
     },
     {
-      "id": 444,
+      "id": 443,
       "start": 2521.11,
-      "end": 2522.836,
-      "text": "Vreau să-l citesc Vâsoțki.",
+      "end": 2522.92,
+      "text": "Vreau să-l citesc Vîsoțki.",
       "id_user": 2,
-      "info": "0"
+      "info": "2"
     },
     {
-      "id": 445,
+      "id": 444,
       "start": 2526.608,
       "end": 2535.21,
       "text": "Adică vârsta cu cât ești mai tânăr și neexperimentat cu atâta e mai interesant, viața.",
@@ -3569,7 +3561,7 @@
       "info": "1"
     },
     {
-      "id": 446,
+      "id": 445,
       "start": 2535.419,
       "end": 2545.73,
       "text": "După ce acumulezi experiență și vârstă te prefaci într-un profesor adică știi ce vrei cum vrei.",
@@ -3577,15 +3569,15 @@
       "info": "1"
     },
     {
-      "id": 447,
+      "id": 446,
       "start": 2545.875,
       "end": 2546.897,
       "text": "Vârsta.",
       "id_user": 2,
-      "info": "1"
+      "info": "0"
     },
     {
-      "id": 448,
+      "id": 447,
       "start": 2547.503,
       "end": 2554.998,
       "text": "Vârsta concentrează cam tot ce ce experiență ai adunat.",
@@ -3593,7 +3585,7 @@
       "info": "1"
     },
     {
-      "id": 449,
+      "id": 448,
       "start": 2555.186,
       "end": 2563.286,
       "text": "Fiindcă cât suntem noi tineri în activitățile noastre de zi de zi foarte des dăm în bară, greșim.",
@@ -3601,7 +3593,7 @@
       "info": "1"
     },
     {
-      "id": 450,
+      "id": 449,
       "start": 2563.53,
       "end": 2565.219,
       "text": "Greșim câteodată amarnic.",
@@ -3609,7 +3601,7 @@
       "info": "1"
     },
     {
-      "id": 451,
+      "id": 450,
       "start": 2565.654,
       "end": 2569.353,
       "text": "Pierdem sănătate, pierdem lucru și așa mai departe.",
@@ -3617,7 +3609,7 @@
       "info": "1"
     },
     {
-      "id": 452,
+      "id": 451,
       "start": 2569.76,
       "end": 2576.049,
       "text": "Dacă ajungem la o vârstă anume cam de la cincizeci în sus oamenii nu prea fac greșeli.",
@@ -3625,7 +3617,7 @@
       "info": "1"
     },
     {
-      "id": 453,
+      "id": 452,
       "start": 2576.245,
       "end": 2581.412,
       "text": "Până acum, cea mai mare realizare, că mi-am văzut copiii sănătoși.",
@@ -3633,7 +3625,7 @@
       "info": "1"
     },
     {
-      "id": 454,
+      "id": 453,
       "start": 2581.716,
       "end": 2582.907,
       "text": "Mă bucur de toți.",
@@ -3641,7 +3633,7 @@
       "info": "1"
     },
     {
-      "id": 455,
+      "id": 454,
       "start": 2582.855,
       "end": 2590.88,
       "text": "Am în Anglia, am în Germania, am în Franța, am în Italia, am Irlanda.",
@@ -3649,7 +3641,7 @@
       "info": "1"
     },
     {
-      "id": 456,
+      "id": 455,
       "start": 2591.086,
       "end": 2592.39,
       "text": "Sunt prin prejur.",
@@ -3657,7 +3649,7 @@
       "info": "1"
     },
     {
-      "id": 457,
+      "id": 456,
       "start": 2592.39,
       "end": 2604.108,
       "text": "Un lucru pe care aș vrea să-l fac în viitorul meu aș vrea să mai fac un bine la vreo mănăstire să mă duc să fac o cum, să fac o jertfă pentru o mănăstire să fac o jertfă.",
@@ -3665,7 +3657,7 @@
       "info": "1"
     },
     {
-      "id": 458,
+      "id": 457,
       "start": 2604.108,
       "end": 2605.335,
       "text": "Iată ce aș dori eu.",
@@ -3673,7 +3665,7 @@
       "info": "1"
     },
     {
-      "id": 459,
+      "id": 458,
       "start": 2605.571,
       "end": 2609.083,
       "text": "Să-mi ajute Dumnezeu să grămădesc să fac un veșmânt pentru un preot.",
@@ -3681,7 +3673,7 @@
       "info": "1"
     },
     {
-      "id": 460,
+      "id": 459,
       "start": 2609.238,
       "end": 2610.748,
       "text": "Iată dorința vieții mele.",
@@ -3689,7 +3681,7 @@
       "info": "1"
     },
     {
-      "id": 461,
+      "id": 460,
       "start": 2610.882,
       "end": 2612.89,
       "text": "Visul tău totuși...",
@@ -3697,7 +3689,7 @@
       "info": "1"
     },
     {
-      "id": 462,
+      "id": 461,
       "start": 2612.89,
       "end": 2614.01,
       "text": "Eu pot să vă povestesc.",
@@ -3705,7 +3697,7 @@
       "info": "1"
     },
     {
-      "id": 463,
+      "id": 462,
       "start": 2614.01,
       "end": 2614.887,
       "text": "Hai spune.",
@@ -3713,7 +3705,7 @@
       "info": "1"
     },
     {
-      "id": 464,
+      "id": 463,
       "start": 2614.887,
       "end": 2620.934,
       "text": "Deci în pandemie noi am făcut cunoștință cu niște copii din sat.",
@@ -3721,7 +3713,7 @@
       "info": "1"
     },
     {
-      "id": 465,
+      "id": 464,
       "start": 2620.934,
       "end": 2622.169,
       "text": "Noi eram în sat acolo.",
@@ -3729,7 +3721,7 @@
       "info": "1"
     },
     {
-      "id": 466,
+      "id": 465,
       "start": 2622.169,
       "end": 2627.1,
       "text": "Așa s-a întâmplat că mama lor a decedat din cauza COVID-ului.",
@@ -3737,7 +3729,7 @@
       "info": "1"
     },
     {
-      "id": 467,
+      "id": 466,
       "start": 2627.1,
       "end": 2629.036,
       "text": "Complicațiilor cauzate de COVID.",
@@ -3745,7 +3737,7 @@
       "info": "1"
     },
     {
-      "id": 468,
+      "id": 467,
       "start": 2629.036,
       "end": 2633.15,
       "text": "Tatăl era decedat de mai înainte într-un accident rutier.",
@@ -3753,7 +3745,7 @@
       "info": "1"
     },
     {
-      "id": 469,
+      "id": 468,
       "start": 2634.038,
       "end": 2641.74,
       "text": "Și acești copii Ionel avea șaptesprezece ani și Mariana avea doisprezece.",
@@ -3761,7 +3753,7 @@
       "info": "1"
     },
     {
-      "id": 470,
+      "id": 469,
       "start": 2644.999,
       "end": 2647.13,
       "text": "Ei nu aveau la cine să apeleze.",
@@ -3769,7 +3761,7 @@
       "info": "1"
     },
     {
-      "id": 471,
+      "id": 470,
       "start": 2648.177,
       "end": 2656.56,
       "text": "Și Ionel era tutorele oficial al Marianei pentru că era fratele mai mare, dar el singur era un copil.",
@@ -3777,7 +3769,7 @@
       "info": "1"
     },
     {
-      "id": 472,
+      "id": 471,
       "start": 2656.907,
       "end": 2666.88,
       "text": "Și atunci noi cu, cu Radu ne-am gândit că poate să-l ajutăm s-o crească pe Mariana și le-am propus dacă vor ca Mariana să trăiască la noi.",
@@ -3785,7 +3777,7 @@
       "info": "1"
     },
     {
-      "id": 473,
+      "id": 472,
       "start": 2667.157,
       "end": 2671.301,
       "text": "Deci să se mute la Chișinău, să meargă la școală aici și să trăiască la noi.",
@@ -3793,7 +3785,7 @@
       "info": "1"
     },
     {
-      "id": 474,
+      "id": 473,
       "start": 2671.301,
       "end": 2677.029,
       "text": "Și noi am făcut toate actele, noi am făcut custodie pentru Mariana.",
@@ -3801,7 +3793,7 @@
       "info": "1"
     },
     {
-      "id": 475,
+      "id": 474,
       "start": 2677.029,
       "end": 2681.907,
       "text": "Ea trăiește acum al treilea an la noi, merge la școală.",
@@ -3809,7 +3801,7 @@
       "info": "1"
     },
     {
-      "id": 476,
+      "id": 475,
       "start": 2682.153,
       "end": 2686.318,
       "text": "Este o adolescentă preferată a mea.",
@@ -3817,7 +3809,7 @@
       "info": "1"
     },
     {
-      "id": 477,
+      "id": 476,
       "start": 2686.318,
       "end": 2688.918,
       "text": "Ne bucură cu succese foarte mari.",
@@ -3825,7 +3817,7 @@
       "info": "1"
     },
     {
-      "id": 478,
+      "id": 477,
       "start": 2689.815,
       "end": 2702.292,
       "text": "Na, foarte mari nu am în vedere că că o să zboare în cosmos mâine dar am în vedere că s-a schimbat foarte mult crește emoțional intelectual crește, se dezvoltă.",
@@ -3833,7 +3825,7 @@
       "info": "1"
     },
     {
-      "id": 479,
+      "id": 478,
       "start": 2702.91,
       "end": 2713.018,
       "text": "Și noi ne-am gândit cu Radu că poate ăsta este rostul nostru să ajutăm alți copii care au nevoie de dragoste pentru că noi avem dragoste de dat.",
@@ -3841,7 +3833,7 @@
       "info": "1"
     },
     {
-      "id": 480,
+      "id": 479,
       "start": 2713.213,
       "end": 2716.15,
       "text": "Și sunt copii care au nevoie de această dragoste, grijă.",
@@ -3849,7 +3841,7 @@
       "info": "1"
     },
     {
-      "id": 481,
+      "id": 480,
       "start": 2716.15,
       "end": 2724.74,
       "text": "Diferența dintr-o mămică mai tinerică la douăzeci de ani și o mămică la patruzeci de ani sigur că este.",
@@ -3857,7 +3849,7 @@
       "info": "1"
     },
     {
-      "id": 482,
+      "id": 481,
       "start": 2725.097,
       "end": 2731.627,
       "text": "Nu pot să spun că copiii sunt mai alintați că nu prea îmi place expresia asta.",
@@ -3865,7 +3857,7 @@
       "info": "1"
     },
     {
-      "id": 483,
+      "id": 482,
       "start": 2731.627,
       "end": 2748.334,
       "text": "Dar cumva tu vrei să, mai multe să să-i dai conștient din punct de vedere că să-l alinți cumva dar nu-i neapărat alintătura aceea așa clasică că el vorbește urât sau ceva.",
@@ -3873,7 +3865,7 @@
       "info": "2"
     },
     {
-      "id": 484,
+      "id": 483,
       "start": 2748.334,
       "end": 2753.431,
       "text": "Dar tu realizezi că vrei uite să, să-i petreci multă atenție.",
@@ -3881,7 +3873,7 @@
       "info": "1"
     },
     {
-      "id": 485,
+      "id": 484,
       "start": 2753.431,
       "end": 2763.362,
       "text": "De exemplu cu siguranță că eu așa cred, mămicile tinere vor poate mai mult să se distreze, să se petreacă.",
@@ -3889,7 +3881,7 @@
       "info": "1"
     },
     {
-      "id": 486,
+      "id": 485,
       "start": 2763.362,
       "end": 2774.751,
       "text": "Sau simt că tinerețea asta cumva uite ele au douăzeci și cinci de ani și vor să se ducă cu fetele la întâlnire la discotecă la plimbare nu știu mai ce.",
@@ -3897,7 +3889,7 @@
       "info": "2"
     },
     {
-      "id": 487,
+      "id": 486,
       "start": 2774.751,
       "end": 2785.247,
       "text": "Dar aici bebelușul acesta mic care te ține și ziua și noaptea douăzeci și patru de ore și tot așa, la douăzeci ei cumva cresc și se educă împreună bănuiesc.",
@@ -3905,7 +3897,7 @@
       "info": "2"
     },
     {
-      "id": 488,
+      "id": 487,
       "start": 2785.247,
       "end": 2789.873,
       "text": "Pe atunci timpul fuge repede și parcă îți pare că timpul stă în loc dacă tu...",
@@ -3913,7 +3905,7 @@
       "info": "1"
     },
     {
-      "id": 489,
+      "id": 488,
       "start": 2789.873,
       "end": 2791.427,
       "text": "La mine nu eu...",
@@ -3921,7 +3913,7 @@
       "info": "1"
     },
     {
-      "id": 490,
+      "id": 489,
       "start": 2791.427,
       "end": 2793.95,
       "text": "Dacă cred că și mai multă treabă am făcut.",
@@ -3929,7 +3921,7 @@
       "info": "1"
     },
     {
-      "id": 491,
+      "id": 490,
       "start": 2793.95,
       "end": 2802.819,
       "text": "Fiind, adică și în carieră și în tot fiind mămică cu copii nu știu cum eu chiar și mai mai mult am putut să-mi organizez.",
@@ -3937,7 +3929,7 @@
       "info": "1"
     },
     {
-      "id": 492,
+      "id": 491,
       "start": 2802.819,
       "end": 2805.3,
       "text": "Fiecare vârstă își are farmecul său.",
@@ -3945,7 +3937,7 @@
       "info": "1"
     },
     {
-      "id": 493,
+      "id": 492,
       "start": 2805.3,
       "end": 2808.812,
       "text": "Nu mă rușinez de riduri nu mă rușinez de cărunțimea mea.",
@@ -3953,7 +3945,7 @@
       "info": "1"
     },
     {
-      "id": 494,
+      "id": 493,
       "start": 2808.812,
       "end": 2811.625,
       "text": "Încerc să fac niște schimbări.",
@@ -3961,7 +3953,7 @@
       "info": "1"
     },
     {
-      "id": 495,
+      "id": 494,
       "start": 2811.625,
       "end": 2821.75,
       "text": "Uitați-vă că chiar sunt uneori poate vor să mă ofenseze sau poate vor să mă umilească.",
@@ -3969,7 +3961,7 @@
       "info": "1"
     },
     {
-      "id": 496,
+      "id": 495,
       "start": 2821.75,
       "end": 2826.03,
       "text": "Doamna Emilia dar ce v-ați vopsit părul albastru.",
@@ -3977,7 +3969,7 @@
       "info": "1"
     },
     {
-      "id": 497,
+      "id": 496,
       "start": 2826.293,
       "end": 2828.385,
       "text": "Dar zic, vreau să am legătură cu cerul.",
@@ -3985,7 +3977,7 @@
       "info": "1"
     },
     {
-      "id": 498,
+      "id": 497,
       "start": 2829.821,
       "end": 2836.61,
       "text": "Fiecare trebuie să tindă să ajungă la această vârstă, fiecare trebuie să știe că această vârstă este frumoasă.",
@@ -3993,7 +3985,7 @@
       "info": "1"
     },
     {
-      "id": 499,
+      "id": 498,
       "start": 2836.828,
       "end": 2841.0,
       "text": "Și depinde doar de spiritul tău organizatoric.",
@@ -4001,7 +3993,7 @@
       "info": "1"
     },
     {
-      "id": 500,
+      "id": 499,
       "start": 2841.435,
       "end": 2845.3,
       "text": "Oricum la bătrânețe dispui de mai mult timp liber.",
@@ -4009,7 +4001,7 @@
       "info": "1"
     },
     {
-      "id": 501,
+      "id": 500,
       "start": 2845.737,
       "end": 2849.18,
       "text": "Poți să-ți permiți să te trezești un pic mai târziu.",
@@ -4017,7 +4009,7 @@
       "info": "1"
     },
     {
-      "id": 502,
+      "id": 501,
       "start": 2849.18,
       "end": 2853.596,
       "text": "Ai posibilitatea să mergi la bibliotecă să citești.",
@@ -4025,7 +4017,7 @@
       "info": "1"
     },
     {
-      "id": 503,
+      "id": 502,
       "start": 2855.965,
       "end": 2857.037,
       "text": "Să te bucuri de viață.",
@@ -4033,7 +4025,7 @@
       "info": "1"
     },
     {
-      "id": 504,
+      "id": 503,
       "start": 2857.037,
       "end": 2858.524,
       "text": "Să te bucuri de viață.",
@@ -4041,7 +4033,7 @@
       "info": "1"
     },
     {
-      "id": 505,
+      "id": 504,
       "start": 2858.611,
       "end": 2862.31,
       "text": "Care sunt avantajele unui om în vârstă?",
@@ -4049,7 +4041,7 @@
       "info": "1"
     },
     {
-      "id": 506,
+      "id": 505,
       "start": 2862.31,
       "end": 2866.48,
       "text": "Avantajele din punct de vedere psihosocial mai degrabă.",
@@ -4057,7 +4049,7 @@
       "info": "1"
     },
     {
-      "id": 507,
+      "id": 506,
       "start": 2866.48,
       "end": 2870.277,
       "text": "Un om în vârstă totdeauna l-am văzut ca un om mai înțelept.",
@@ -4065,7 +4057,7 @@
       "info": "1"
     },
     {
-      "id": 508,
+      "id": 507,
       "start": 2870.277,
       "end": 2877.898,
       "text": "A avut multe experiențe, multe reușite, multe nereușite.",
@@ -4073,7 +4065,7 @@
       "info": "2"
     },
     {
-      "id": 509,
+      "id": 508,
       "start": 2877.898,
       "end": 2883.58,
       "text": "Și de la fiecare vârstnic totdeauna învăț câte ceva.",
@@ -4081,7 +4073,7 @@
       "info": "1"
     },
     {
-      "id": 510,
+      "id": 509,
       "start": 2883.906,
       "end": 2890.73,
       "text": "Eu îi văd mai mai înțelepți chiar și cei care nu au avut școală.",
@@ -4089,7 +4081,7 @@
       "info": "1"
     },
     {
-      "id": 511,
+      "id": 510,
       "start": 2891.207,
       "end": 2901.692,
       "text": "Dacă e să comparăm un om vârstnic înțelept cu un tânăr școlarizat deseori un vârstnic înțelept este cu mult mai interesant.",
@@ -4097,7 +4089,7 @@
       "info": "1"
     },
     {
-      "id": 512,
+      "id": 511,
       "start": 2901.692,
       "end": 2906.49,
       "text": "Și multe situații ne poate povățui și învăța.",
@@ -4105,7 +4097,7 @@
       "info": "1"
     },
     {
-      "id": 513,
+      "id": 512,
       "start": 2906.49,
       "end": 2918.59,
       "text": "Alt moment e cel de a avea posibilitatea de a-și vedea copiii nepoții și strănepoții și de-a participa în viața lor.",
@@ -4113,7 +4105,7 @@
       "info": "1"
     },
     {
-      "id": 514,
+      "id": 513,
       "start": 2918.778,
       "end": 2925.49,
       "text": "A împărtăși din toată experiența care a avut-o cu cei mici care sunt în creștere.",
@@ -4121,7 +4113,7 @@
       "info": "1"
     },
     {
-      "id": 515,
+      "id": 514,
       "start": 2925.49,
       "end": 2929.09,
       "text": "Înțelegeți asta-i bătrânețea tot e un fel de experiență.",
@@ -4129,7 +4121,7 @@
       "info": "1"
     },
     {
-      "id": 516,
+      "id": 515,
       "start": 2929.558,
       "end": 2935.92,
       "text": "Mai ales dacă n-ai prea dat în bară anterior.",
@@ -4137,15 +4129,15 @@
       "info": "1"
     },
     {
-      "id": 517,
+      "id": 516,
       "start": 2937.046,
       "end": 2952.787,
-      "text": "Și vezi că aha am construit o casă am deschis o întreprindere am ajutat pe un copil pe o, pe cineva și mă simt altfel mă simt împlinit.",
+      "text": "Și vezi că, aha, am construit o casă, am deschis o întreprindere, am ajutat pe un copil, pe o... pe cineva și mă simt altfel mă simt împlinit.",
       "id_user": 2,
       "info": "1"
     },
     {
-      "id": 518,
+      "id": 517,
       "start": 2953.64,
       "end": 2955.579,
       "text": "Adică omul se simte împlinit.",
@@ -4153,7 +4145,7 @@
       "info": "1"
     },
     {
-      "id": 519,
+      "id": 518,
       "start": 2955.877,
       "end": 2968.085,
       "text": "Dar dacă ai fost puturos și leneș și n-ai făcut în viața ta nimic și toată vremea te-ai plâns și ai cerut să-ți dea cineva inclusiv copiii, nu, scuzați.",
@@ -4161,7 +4153,7 @@
       "info": "1"
     },
     {
-      "id": 520,
+      "id": 519,
       "start": 2968.421,
       "end": 2972.35,
       "text": "Așa ai trăit așa fii bătrân sau așa îmbătrânește.",
@@ -4169,7 +4161,7 @@
       "info": "1"
     },
     {
-      "id": 521,
+      "id": 520,
       "start": 2972.699,
       "end": 2985.949,
       "text": "Eu văd foarte multe doamne în vârstă că nu pot să le numesc băbuțe care au șaptezeci și cinci, și optzeci și poate hainele sunt vintage de cele retro nu-i neapărat să fie ceva modern.",
@@ -4177,7 +4169,7 @@
       "info": "1"
     },
     {
-      "id": 522,
+      "id": 521,
       "start": 2986.147,
       "end": 2994.52,
       "text": "Dar sunt asortate cu pălărie cu la gât o fundiță sau ceva.",
@@ -4185,7 +4177,7 @@
       "info": "1"
     },
     {
-      "id": 523,
+      "id": 522,
       "start": 2994.52,
       "end": 2999.81,
       "text": "Adică și tu pe, pe această doamnă nici nu poți s-o numești băbuță tu o numești doamnă.",
@@ -4193,7 +4185,7 @@
       "info": "1"
     },
     {
-      "id": 524,
+      "id": 523,
       "start": 2999.81,
       "end": 3010.632,
       "text": "Eu țin minte am făcut stagierea în Germania acolo aveau, era o doamnă de vreo optzeci și ceva de ani și ea venea la lucru doar ca să să comunice cu noi cu, cu fetele tinere.",
@@ -4201,7 +4193,7 @@
       "info": "1"
     },
     {
-      "id": 525,
+      "id": 524,
       "start": 3010.791,
       "end": 3021.272,
       "text": "Și era foarte modernă tot timpul în colorat albastru aprins sau verde tot timpul avea o băsmăluță ceva la gât foarte colorată.",
@@ -4209,23 +4201,15 @@
       "info": "1"
     },
     {
-      "id": 526,
+      "id": 525,
       "start": 3022.708,
-      "end": 3028.338,
-      "text": "Și eu ziceam eu zic Doamne eu vreau să fiu ca ea din punct de vedere pentru că nu poți s-o numești babă cum s-o numești babă.",
-      "id_user": 5,
-      "info": "0"
-    },
-    {
-      "id": 527,
-      "start": 3028.338,
       "end": 3034.177,
-      "text": "Dacă ea tot timpul avea niște bombonele în buzunar și pe ascuns ne dădea nouă la fetele acestea mititele, tinerele.",
+      "text": "Și eu ziceam eu zic Doamne eu vreau să fiu ca ea din punct de vedere pentru nu poți s-o numești babă, cum s-o numești babă, dacă ea tot timpul avea niște bombonele în buzunar și pe ascuns ne dădea nouă la fetele acestea mititele, tinerele.",
       "id_user": 5,
-      "info": "1"
+      "info": "2"
     },
     {
-      "id": 528,
+      "id": 526,
       "start": 3034.177,
       "end": 3039.476,
       "text": "În bătrânețe farmec este când e inima împăcată cu tot.",
@@ -4233,7 +4217,7 @@
       "info": "1"
     },
     {
-      "id": 529,
+      "id": 527,
       "start": 3039.941,
       "end": 3042.57,
       "text": "Că i s-a împlinit toate dorințele.",
@@ -4241,15 +4225,15 @@
       "info": "0"
     },
     {
-      "id": 530,
+      "id": 528,
       "start": 3042.57,
       "end": 3047.039,
-      "text": "Tot ceea ce o dorit în viață în viitor i s-a împlinit.",
+      "text": "Tot ceea ce-a dorit în viață în viitor i s-a împlinit.",
       "id_user": 3,
       "info": "2"
     },
     {
-      "id": 531,
+      "id": 529,
       "start": 3047.344,
       "end": 3051.41,
       "text": "Și cu asta el se împacă și-i bucuros pentru tot restul vieții ce are.",
@@ -4257,7 +4241,7 @@
       "info": "1"
     },
     {
-      "id": 532,
+      "id": 530,
       "start": 3051.41,
       "end": 3056.639,
       "text": "După cum în în viață s-a mișcat omul după cum a mers.",
@@ -4265,7 +4249,7 @@
       "info": "1"
     },
     {
-      "id": 533,
+      "id": 531,
       "start": 3056.984,
       "end": 3060.93,
       "text": "Că dacă aștepți să-ți mai ajute cineva niciodată n-o să-ți ajute.",
@@ -4273,7 +4257,7 @@
       "info": "1"
     },
     {
-      "id": 534,
+      "id": 532,
       "start": 3060.93,
       "end": 3069.768,
       "text": "Tu singur trebuie să te pornești, tu singur trebuie să mergi, tu singur trebuie să, să faci dovadă, pildă, să dai tu, ca să-ți meargă să-ți fie bine în viitorul tău.",
@@ -4281,7 +4265,7 @@
       "info": "1"
     },
     {
-      "id": 535,
+      "id": 533,
       "start": 3070.091,
       "end": 3071.69,
       "text": "Omul trebuie să fie optimist în viață.",
@@ -4289,7 +4273,7 @@
       "info": "1"
     },
     {
-      "id": 536,
+      "id": 534,
       "start": 3071.963,
       "end": 3073.288,
       "text": "Nu trebuie de dat cădere.",
@@ -4297,7 +4281,7 @@
       "info": "1"
     },
     {
-      "id": 537,
+      "id": 535,
       "start": 3073.288,
       "end": 3075.847,
       "text": "Căderea n-are niciun rost.",
@@ -4305,7 +4289,7 @@
       "info": "1"
     },
     {
-      "id": 538,
+      "id": 536,
       "start": 3076.223,
       "end": 3081.6,
       "text": "Omul tot timpul trebuie să fie curajos, energic, puternic.",
@@ -4313,7 +4297,7 @@
       "info": "1"
     },
     {
-      "id": 539,
+      "id": 537,
       "start": 3081.775,
       "end": 3085.29,
       "text": "Tot timpul trebuie să gândească la bun nu la rău.",
@@ -4321,7 +4305,7 @@
       "info": "1"
     },
     {
-      "id": 540,
+      "id": 538,
       "start": 3085.585,
       "end": 3089.44,
       "text": "Că rău este în jur dar dacă te mai gândești la dânsul păi el vine fuga și se vâră în buzunare.",
@@ -4329,7 +4313,7 @@
       "info": "1"
     },
     {
-      "id": 541,
+      "id": 539,
       "start": 3089.721,
       "end": 3090.477,
       "text": "Nu șade.",
@@ -4337,7 +4321,7 @@
       "info": "1"
     },
     {
-      "id": 542,
+      "id": 540,
       "start": 3090.734,
       "end": 3096.78,
       "text": "Omul este lăsat pe acest pământ să, să se bucure de această viață, de acest dar scump.",
@@ -4345,7 +4329,7 @@
       "info": "1"
     },
     {
-      "id": 543,
+      "id": 541,
       "start": 3097.117,
       "end": 3100.839,
       "text": "Nu se dă fiecare, fiecărui o vârstă mai înaintată.",
@@ -4353,7 +4337,7 @@
       "info": "1"
     },
     {
-      "id": 544,
+      "id": 542,
       "start": 3101.097,
       "end": 3107.557,
       "text": "Dacă tu ai fost premiat cu o vârstă mai înaintată bucură-te de această vârstă.",
@@ -4361,7 +4345,7 @@
       "info": "1"
     },
     {
-      "id": 545,
+      "id": 543,
       "start": 3107.557,
       "end": 3113.611,
       "text": "Împartă-te cu cei din preajmă, adunați-vă, trăiți frumos, susțineți-vă.",
@@ -4369,7 +4353,7 @@
       "info": "1"
     },
     {
-      "id": 546,
+      "id": 544,
       "start": 3114.376,
       "end": 3115.783,
       "text": "Eu așa cred.",
@@ -4377,7 +4361,7 @@
       "info": "1"
     },
     {
-      "id": 547,
+      "id": 545,
       "start": 3115.783,
       "end": 3121.34,
       "text": "Asta nu este o pedeapsă, asta este un dar.",
@@ -4385,7 +4369,7 @@
       "info": "1"
     },
     {
-      "id": 548,
+      "id": 546,
       "start": 3121.34,
       "end": 3128.069,
       "text": "Dacă m-ar întreba cineva ce este frumos în procesul de îmbătrânire eu aș răspunde este viața.",
@@ -4393,7 +4377,7 @@
       "info": "1"
     },
     {
-      "id": 549,
+      "id": 547,
       "start": 3128.069,
       "end": 3136.106,
       "text": "Asta este cel mai mare dar care îl avem noi și ea trebuie trăită așa cum noi ne-o dorim.",
@@ -4401,7 +4385,7 @@
       "info": "1"
     },
     {
-      "id": 550,
+      "id": 548,
       "start": 3136.813,
       "end": 3146.63,
       "text": "Pentru că fiecare zi ne aduce bucurie sau tristețe, da, din care învățăm câte ceva.",
@@ -4409,7 +4393,7 @@
       "info": "1"
     },
     {
-      "id": 551,
+      "id": 549,
       "start": 3147.038,
       "end": 3154.347,
       "text": "Si de la fiecare persoană cu care ne întâlnim la fel o părticică din persoana aceea totdeauna rămâne.",
@@ -4417,7 +4401,7 @@
       "info": "1"
     },
     {
-      "id": 552,
+      "id": 550,
       "start": 3154.841,
       "end": 3157.826,
       "text": "Totuși rămâne ca și stereotip.",
@@ -4425,7 +4409,7 @@
       "info": "1"
     },
     {
-      "id": 553,
+      "id": 551,
       "start": 3158.201,
       "end": 3177.51,
       "text": "Că totalitatea problemelor sau bătrânețe haine grele da, acea povară a îmbătrânirii bolile, durerea, neputința, cumva este atribuită totuși îmbătrânirii, da, și acest stereotip rămâne.",
@@ -4433,7 +4417,7 @@
       "info": "1"
     },
     {
-      "id": 554,
+      "id": 552,
       "start": 3177.499,
       "end": 3189.559,
       "text": "Când va fi schimbat eu cred că încet încet pas cu pas într-un timp oarecare noi nu putem să-l determinăm în cât timp zece, douăzeci, treizeci de ani.",
@@ -4441,7 +4425,7 @@
       "info": "1"
     },
     {
-      "id": 555,
+      "id": 553,
       "start": 3189.559,
       "end": 3191.56,
       "text": "Cu schimbarea generațiilor.",
@@ -4449,7 +4433,7 @@
       "info": "1"
     },
     {
-      "id": 556,
+      "id": 554,
       "start": 3191.56,
       "end": 3197.32,
       "text": "Pentru că acest proces cu certitudine este unul inevitabil.",
@@ -4457,7 +4441,7 @@
       "info": "1"
     },
     {
-      "id": 557,
+      "id": 555,
       "start": 3197.667,
       "end": 3200.842,
       "text": "Anumite fenomene sunt ireversibile.",
@@ -4465,7 +4449,7 @@
       "info": "1"
     },
     {
-      "id": 558,
+      "id": 556,
       "start": 3201.32,
       "end": 3209.14,
       "text": "Dar altele noi le putem cumva controla, cumva să oferim acea îmbătrânire sănătoasă.",
@@ -4473,7 +4457,7 @@
       "info": "1"
     },
     {
-      "id": 559,
+      "id": 557,
       "start": 3209.14,
       "end": 3215.899,
       "text": "Aceasta trebuie de explicat populației, da, începând din perioada de copilărie.",
@@ -4481,7 +4465,7 @@
       "info": "1"
     },
     {
-      "id": 560,
+      "id": 558,
       "start": 3216.063,
       "end": 3218.48,
       "text": "Cum ar fi o îmbătrânire sănătoasă.",
@@ -4489,7 +4473,7 @@
       "info": "1"
     },
     {
-      "id": 561,
+      "id": 559,
       "start": 3219.208,
       "end": 3229.54,
       "text": "Și cu timpul eu cred că așa cum se percepe perioada de copilărie așa s-ar percepe și perioada de bătrânețe.",
@@ -4497,7 +4481,7 @@
       "info": "1"
     },
     {
-      "id": 562,
+      "id": 560,
       "start": 3229.798,
       "end": 3233.7,
       "text": "Da, ca o etapă inevitabilă.",
@@ -4505,7 +4489,7 @@
       "info": "1"
     },
     {
-      "id": 563,
+      "id": 561,
       "start": 3233.7,
       "end": 3238.288,
       "text": "Cu vârsta avansez inclusiv și profesional.",
@@ -4513,7 +4497,7 @@
       "info": "1"
     },
     {
-      "id": 564,
+      "id": 562,
       "start": 3238.384,
       "end": 3244.188,
       "text": "Beneficiile care le am eu la patruzeci și... eu nicicum nu puteam să le am la douăzeci.",
@@ -4521,7 +4505,7 @@
       "info": "1"
     },
     {
-      "id": 565,
+      "id": 563,
       "start": 3244.188,
       "end": 3248.995,
       "text": "Și pentru că nu aveam nici cunoștințele nici experiența care o am acum.",
@@ -4529,7 +4513,7 @@
       "info": "1"
     },
     {
-      "id": 566,
+      "id": 564,
       "start": 3248.995,
       "end": 3253.55,
       "text": "Respectiv acel salariu care îl am acum eu nu puteam să-l am la douăzeci și ceva.",
@@ -4537,7 +4521,7 @@
       "info": "1"
     },
     {
-      "id": 567,
+      "id": 565,
       "start": 3253.698,
       "end": 3258.13,
       "text": "Deci da, inclusiv contul meu bancar tot îmi arată că eu îmbătrânesc.",
@@ -4545,7 +4529,7 @@
       "info": "1"
     },
     {
-      "id": 568,
+      "id": 566,
       "start": 3258.349,
       "end": 3270.44,
       "text": "Eu în general văd numai beneficii în procesul de trecere a anilor pentru că voi n-aveți idee cât e de minunat să știi că de fapt îmbătrânești.",
@@ -4553,7 +4537,7 @@
       "info": "1"
     },
     {
-      "id": 569,
+      "id": 567,
       "start": 3270.866,
       "end": 3273.7,
       "text": "Că de fapt tu trăiești.",
@@ -4561,7 +4545,7 @@
       "info": "1"
     },
     {
-      "id": 570,
+      "id": 568,
       "start": 3273.916,
       "end": 3278.56,
       "text": "Că de fapt tu ai supraviețuit cine știe ce provocări.",
@@ -4569,7 +4553,7 @@
       "info": "1"
     },
     {
-      "id": 571,
+      "id": 569,
       "start": 3279.056,
       "end": 3286.52,
       "text": "Da cred că după experiența mea cu cancerul faptul că eu îmbătrânesc credeți-mă pe mine foarte tare mă bucură.",
@@ -4577,7 +4561,7 @@
       "info": "1"
     },
     {
-      "id": 572,
+      "id": 570,
       "start": 3286.667,
       "end": 3288.43,
       "text": "Eu n-am vrut să mor de tânără.",

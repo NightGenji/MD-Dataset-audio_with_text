@@ -34,17 +34,15 @@ LIST_TIME = "list_time"
 MARGIN = 1.5
 LENGTH_PER_05_SEC = 50  # pixels per 0.5 sec
 
-# WORKING_DIR_NUMBER = 2  # From review '1' segments
-# START_EDITING = 358
-
 # Notes: 1-10 with corrected speeck
 #      : 11-... only audio
 
-WORKING_DIR_NUMBER = 18
-START_EDITING = 192
+WORKING_DIR_NUMBER = 0
+START_EDITING = 0
 
 List_idx = 0
-EDITING_LIST = []
+EDITING_LIST = [
+]
 
 """first arg  -> takes a WORKING_DIR_NUMBER value"""
 """second arg -> takes a START_EDITING value"""
@@ -73,7 +71,7 @@ def ask_yes_no_mouse(parent: tk.Tk, title: str, message: str) -> bool:
     tk.Label(dialog, text=message, bg="#1e1e1e", fg="#ffb347",
              font=("Consolas", 13)).pack(pady=(18, 6))
 
-    tk.Label(dialog, text="Mouse  ←Back = No  |  Forward→ = Yes",
+    tk.Label(dialog, text="Mouse  Forward = Yes  |  Back = No",
              bg="#1e1e1e", fg="#888888", font=("Consolas", 9)).pack(pady=(0, 10))
 
     btn_frame = tk.Frame(dialog, bg="#1e1e1e")
@@ -83,15 +81,22 @@ def ask_yes_no_mouse(parent: tk.Tk, title: str, message: str) -> bool:
         result[0] = value
         dialog.destroy()
 
-    tk.Button(btn_frame, text="← No  (Back)",    width=14, bg="#3a3a3a", fg="#ff6b6b",
-              activebackground="#5a2a2a", relief="flat",
-              command=lambda: confirm(False)).pack(side="left", padx=8)
     tk.Button(btn_frame, text="Yes  (Forward) →", width=14, bg="#3a3a3a", fg="#6bff6b",
               activebackground="#2a5a2a", relief="flat",
               command=lambda: confirm(True)).pack(side="left", padx=8)
+    tk.Button(btn_frame, text="← No  (Back)",    width=14, bg="#3a3a3a", fg="#ff6b6b",
+              activebackground="#5a2a2a", relief="flat",
+              command=lambda: confirm(False)).pack(side="left", padx=8)
 
-    dialog.bind("<Button-8>", lambda e: confirm(False))
-    dialog.bind("<Button-9>", lambda e: confirm(True))
+    def _on_mouse_side_button(event: tk.Event):
+        if event.num == 8:
+            confirm(False)
+        elif event.num == 9:
+            confirm(True)
+
+    dialog.bind("<ButtonPress>", _on_mouse_side_button)
+    dialog.bind("<Return>",      lambda e: confirm(True))
+    dialog.bind("<Escape>",      lambda e: confirm(False))
 
     dialog.focus_force()
     parent.wait_window(dialog)
@@ -615,8 +620,8 @@ class Repair_Audio:
         return False
 
     def brain(self):
-        self.load_segment()
-        # self.find_target_segments()
+        # self.load_segment()
+        self.find_target_segments()
 
     def find_target_segments(self):
         """This function targets certainf segments in EDITING_LIST"""
@@ -675,7 +680,7 @@ class Repair_Audio:
                 self.leave()
             item = self.data[SEGMENTS][self.id_curr_seg]
 
-            # if item[INFO_SEG] != "1":
+            # if item[INFO_SEG][0] != '0':
             #     self.id_curr_seg += 1
             #     continue
 
@@ -689,8 +694,8 @@ class Repair_Audio:
         self.reset_button_setup()
 
         # Variables
-        self.start_var.set(round(item[START_SEG], 3) if self.last_end_time == -1 else self.last_end_time)
-        # self.start_var.set(item[START_SEG])
+        # self.start_var.set(round(item[START_SEG], 3) if self.last_end_time == -1 else self.last_end_time)
+        self.start_var.set(item[START_SEG])
 
         if item[END_SEG] <= self.start_var.get():  # Rare case - maybe never
             self.end_var.set(self.start_var.get() + 1)
@@ -722,8 +727,8 @@ class Repair_Audio:
         self.define_markers()
         self.draw_all()
 
-        # time.sleep(0.5)
-        # self.play_full()
+        time.sleep(0.4)
+        self.play_full()
 
     def define_markers(self):
         self.markers = [self.start_var, self.end_var]
@@ -759,6 +764,8 @@ class Repair_Audio:
 
         if self.seg_durr.get() > 28.0 or self.seg_durr.get() < 0.7:
             self.canvas.config(bg="#c46666")
+        elif not self.txt_curr.get("1.0", "end-1c").endswith(('.', '?', '!')):
+            self.canvas.config(bg="#030b74")
         else:
             self.canvas.config(bg="#7b7b7b")
 
