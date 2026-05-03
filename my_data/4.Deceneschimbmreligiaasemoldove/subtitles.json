@@ -316,7 +316,7 @@
       "id": 39,
       "start": 256.722,
       "end": 260.346,
-      "text": "Respectiv am încercat să... să le aprind și era o... un mic scântei.",
+      "text": "Respectiv am încercat să, să le aprind și era o, un mic scântei.",
       "id_user": 4,
       "info": "1"
     },
@@ -332,7 +332,7 @@
       "id": 41,
       "start": 262.845,
       "end": 266.678,
-      "text": "Eram foarte determinat ca să suflu cât se poate mai... mai mult.",
+      "text": "Eram foarte determinat ca să suflu cât se poate mai, mai mult.",
       "id_user": 4,
       "info": "1"
     },
@@ -644,7 +644,7 @@
       "id": 80,
       "start": 445.273,
       "end": 450.778,
-      "text": "Și îmi amintesc și acum, tatăl, și acum e un mare pescar și ne lua cu... mereu cu el.",
+      "text": "Și îmi amintesc și acum, tatăl, și acum e un mare pescar și ne lua cu mereu cu el.",
       "id_user": 6,
       "info": "1"
     },
@@ -1004,7 +1004,7 @@
       "id": 125,
       "start": 768.481,
       "end": 778.502,
-      "text": "Pentru că până la urmă este despre Dumnezeu și fiecare îl vede prin prisma capacităților de de-a... de-a percepe Creatorul.",
+      "text": "Pentru că până la urmă este despre Dumnezeu și fiecare îl vede prin prisma capacităților de de-a, de-a percepe Creatorul.",
       "id_user": 5,
       "info": "1"
     },
@@ -1180,7 +1180,7 @@
       "id": 147,
       "start": 892.945,
       "end": 903.292,
-      "text": "Eram suspectă față de alte religii din cauză că am ascultat foarte multe lecții a diferitor pastori, în... în internet.",
+      "text": "Eram suspectă față de alte religii din cauză că am ascultat foarte multe lecții a diferitor pastori, în, în internet.",
       "id_user": 3,
       "info": "2"
     },
@@ -1852,7 +1852,7 @@
       "id": 231,
       "start": 1491.242,
       "end": 1498.09,
-      "text": "Apoi cineva le-a... le-a spus și mama mea a avut o... reacția un pic negativă.",
+      "text": "Apoi cineva le-a, le-a spus și... mama mea a avut o reacția un pic negativă.",
       "id_user": 5,
       "info": "2"
     },
@@ -2059,7 +2059,7 @@
     {
       "id": 257,
       "start": 1703.15,
-      "end": 1709.902,
+      "end": 1710.045,
       "text": "Nu beau alcool, nu consum droguri, pentru că este interzis strict interzis în credința Bahai și nici nu am așa dorință dar...",
       "id_user": 3,
       "info": "1"
@@ -2236,7 +2236,7 @@
       "id": 279,
       "start": 1870.381,
       "end": 1881.391,
-      "text": "De la început, tu trebuie să... să ai învățătură spirituală și respectiv învățătură spirituală te... te ghidează în viață pentru ca să, ca să poți să atingi un anumit scop.",
+      "text": "De la început, tu trebuie să... să ai învățătură spirituală și respectiv învățătură spirituală te, te ghidează în viață pentru ca să, ca să poți să atingi un anumit scop.",
       "id_user": 4,
       "info": "0"
     },
@@ -2700,7 +2700,7 @@
       "id": 337,
       "start": 2256.455,
       "end": 2265.074,
-      "text": "Și deja răspund așa, numai ca să nu mai intru să mai spun mulțumesc și acolo trebuie să spui bodaproste și eu să mai încep a intra în... tare nu-mi place să intru în așa discuții.",
+      "text": "Și deja răspund așa, numai ca să nu mai intru să mai spun mulțumesc și acolo trebuie să spui bodaproste și eu să mai încep a intra în, tare nu-mi place să intru în așa discuții.",
       "id_user": 1,
       "info": "0"
     },
@@ -3651,8 +3651,8 @@
     {
       "id": 456,
       "start": 3073.067,
-      "end": 3078.371,
-      "text": "Și o fetiță mă întâlnește pe hol, dar sunt foarte dulci, atât de lipicioși să îmbrățișeze, să vă...",
+      "end": 3077.985,
+      "text": "Și o fetiță mă întâlnește pe hol, dar sunt foarte dulci, atât de lipicioși să îmbrățișeze.",
       "id_user": 6,
       "info": "1"
     },
@@ -4059,13 +4059,21 @@
     {
       "id": 507,
       "start": 3414.68,
-      "end": 3423.342,
-      "text": "O să vă explic ce le spun iarăși copiilor mei. Ei... ei m-au chinuit cu multe întrebări la care m-am gândit cum să le răspund simplu. Încep de la iad.",
+      "end": 3417.743,
+      "text": "O să vă explic ce le spun iarăși copiilor mei.",
       "id_user": 6,
       "info": "1"
     },
     {
       "id": 508,
+      "start": 3418.172,
+      "end": 3423.342,
+      "text": "Ei, ei m-au chinuit cu multe întrebări la care m-am gândit cum să le răspund simplu. Încep de la iad.",
+      "id_user": 6,
+      "info": "1"
+    },
+    {
+      "id": 509,
       "start": 3424.019,
       "end": 3428.53,
       "text": "Și copiilor le explic că Dumnezeu va judeca lumea și va carantina răul.",
@@ -4073,7 +4081,7 @@
       "info": "1"
     },
     {
-      "id": 509,
+      "id": 510,
       "start": 3428.53,
       "end": 3438.801,
       "text": "Locul unde va fi carantinat răul ca să nu mai infesteze universul, să nu mai cauzeze suferință și așa mai departe este iadul.",
@@ -4081,7 +4089,7 @@
       "info": "1"
     },
     {
-      "id": 510,
+      "id": 511,
       "start": 3438.801,
       "end": 3441.592,
       "text": "Dar vă spune și Dostoievski că iadul este încuiat pe dinăuntru.",
@@ -4089,7 +4097,7 @@
       "info": "1"
     },
     {
-      "id": 511,
+      "id": 512,
       "start": 3441.592,
       "end": 3451.305,
       "text": "Adică oamenii și ființele respective nu vor să fie ajutate, nu vor să să înceapă să crească, nu vor să ajungă să iubească în mod autentic.",
@@ -4097,7 +4105,7 @@
       "info": "1"
     },
     {
-      "id": 512,
+      "id": 513,
       "start": 3451.305,
       "end": 3458.367,
       "text": "Iar tot restul universului, odată restaurat de către Dumnezeu, va deveni rai.",

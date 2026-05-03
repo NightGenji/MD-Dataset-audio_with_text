@@ -203,7 +203,7 @@
     {
       "id": 25,
       "start": 182.052,
-      "end": 184.846,
+      "end": 184.93,
       "text": "Felcerii m-au ajutat, cu adresele mai greu dar...",
       "id_user": 4,
       "info": "1"
@@ -228,7 +228,7 @@
       "id": 28,
       "start": 207.507,
       "end": 215.005,
-      "text": "Când făceam rezidențiatul eram îndreptat la practică la serviciul de asistență medicală de... de urgență la Căușeni.",
+      "text": "Când făceam rezidențiatul eram îndreptat la practică la serviciul de asistență medicală de, de urgență la Căușeni.",
       "id_user": 3,
       "info": "1"
     },
@@ -316,7 +316,7 @@
       "id": 39,
       "start": 282.74,
       "end": 286.127,
-      "text": "Acolo s-a... s-a înecat tot un scafandru.",
+      "text": "Acolo s-a, s-a înecat tot un scafandru.",
       "id_user": 2,
       "info": "1"
     },
@@ -468,7 +468,7 @@
       "id": 58,
       "start": 399.819,
       "end": 406.733,
-      "text": "Sunt niște momente care te fac așa mai... mai domol, mai liniștit la suflet.",
+      "text": "Sunt niște momente care te fac așa mai... mai domol, mai... liniștit la suflet.",
       "id_user": 3,
       "info": "1"
     },
@@ -812,7 +812,7 @@
       "id": 101,
       "start": 661.536,
       "end": 679.742,
-      "text": "Așa simțim colegul și chiar dacă se întâmplă ceva că podeaua este o gaură sau ceva în podea noi întotdeauna ne ținem de furtun unul de la altul și colegii ne țin pe noi de... de umăr și atunci e mai... suntem mai în siguranță când înaintăm.",
+      "text": "Așa simțim colegul și chiar dacă se întâmplă ceva că podeaua este o gaură sau ceva în podea noi întotdeauna ne ținem de furtun unul de la altul și colegii ne țin pe noi de, de umăr și atunci e mai... suntem mai în siguranță când înaintăm.",
       "id_user": 1,
       "info": "1"
     },
@@ -1172,7 +1172,7 @@
       "id": 146,
       "start": 960.749,
       "end": 970.0,
-      "text": "Atunci, într-adevăr, ești mândru și echipa e mândră de... de sine c-a făcut un lucru bun, am salvat viața cuiva.",
+      "text": "Atunci, într-adevăr, ești mândru și echipa e mândră de, de sine c-a făcut un lucru bun, am salvat viața cuiva.",
       "id_user": 2,
       "info": "1"
     },
@@ -1364,7 +1364,7 @@
       "id": 170,
       "start": 1109.708,
       "end": 1120.435,
-      "text": "Eu când am ajuns cu... cu luminile de la mașină, am văzut-o de acum unde-i și noi, repede, am stopat și toți, toată echipa am ajutat, am primit nașterea ușurel și bine.",
+      "text": "Eu când am ajuns cu, cu luminile de la mașină, am văzut-o de acum unde-i și noi, repede, am stopat și toți, toată echipa am ajutat, am primit nașterea ușurel și bine.",
       "id_user": 4,
       "info": "1"
     },
@@ -1500,7 +1500,7 @@
       "id": 187,
       "start": 1193.621,
       "end": 1204.219,
-      "text": "Atunci, într-adevăr, noi am fost mândri cu... cu echipa, prima intervenție a noastră, unde, într-adevăr, noi am salvat acești copii, doi copii și este o bucurie.",
+      "text": "Atunci, într-adevăr, noi am fost mândri cu, cu echipa, prima intervenție a noastră, unde, într-adevăr, noi am salvat acești copii, doi copii și este o bucurie.",
       "id_user": 2,
       "info": "1"
     },
@@ -1723,7 +1723,7 @@
     {
       "id": 215,
       "start": 1383.485,
-      "end": 1391.216,
+      "end": 1391.368,
       "text": "L-am luat pe tata cu mine chiar în mașină, fiindcă el retrăia tare, dar nu i-am dat voie din urmă cu medicii ca să nu se vâre el acolo să...",
       "id_user": 4,
       "info": "1"
@@ -1739,13 +1739,21 @@
     {
       "id": 217,
       "start": 1401.452,
-      "end": 1414.231,
-      "text": "Ei încep a a se liniști dacă începi a vorbi cu dânșii mai le lămurești, stați așa, iată acum așa, că medicul e bun, medicul așa, medicul o să facă tot posibilul. Și îi pot calma, că altfel trag de ușă...",
+      "end": 1410.764,
+      "text": "Ei încep a a se liniști dacă începi a vorbi cu dânșii mai le lămurești, stați așa, iată acum așa, că medicul e bun, medicul așa, medicul o să facă tot posibilul.",
       "id_user": 4,
       "info": "1"
     },
     {
       "id": 218,
+      "start": 1411.054,
+      "end": 1414.231,
+      "text": "Și îi pot calma, că altfel trag de ușă...",
+      "id_user": 4,
+      "info": "1"
+    },
+    {
+      "id": 219,
       "start": 1414.231,
       "end": 1419.129,
       "text": "Sunt cazuri, da, ei vor să vadă ce face medicul dar nu-i normal să vadă el ce face medicul.",
@@ -1753,7 +1761,7 @@
       "info": "1"
     },
     {
-      "id": 219,
+      "id": 220,
       "start": 1419.239,
       "end": 1421.352,
       "text": "Medicul își face lucrul care trebuie.",
@@ -1761,7 +1769,7 @@
       "info": "1"
     },
     {
-      "id": 220,
+      "id": 221,
       "start": 1421.352,
       "end": 1436.0,
       "text": "Din trei mii patru sute de bazine acvatice din Republica Moldova, așa sunt aproximativ, vizibilitatea e zero în toate bazinele adică tot lucru care se face sub apă se face pe pipăite.",
@@ -1769,7 +1777,7 @@
       "info": "1"
     },
     {
-      "id": 221,
+      "id": 222,
       "start": 1436.355,
       "end": 1440.465,
       "text": "Nu știu de, din ce considerente, apa așa e murdară.",
@@ -1777,7 +1785,7 @@
       "info": "1"
     },
     {
-      "id": 222,
+      "id": 223,
       "start": 1440.465,
       "end": 1449.206,
       "text": "Numai în Nistru când temperatura apei se începe, da, a răci, atunci apare vizibilitate deoarece mor toate moleculele, algele și care sunt.",
@@ -1785,7 +1793,7 @@
       "info": "1"
     },
     {
-      "id": 223,
+      "id": 224,
       "start": 1449.206,
       "end": 1452.422,
       "text": "Dar în bazine, vizibilitatea e zero.",
@@ -1793,7 +1801,7 @@
       "info": "1"
     },
     {
-      "id": 224,
+      "id": 225,
       "start": 1452.838,
       "end": 1458.148,
       "text": "De aceea și foloseam coarda de semnalizare pentru a da semnale, da?",
@@ -1801,7 +1809,7 @@
       "info": "1"
     },
     {
-      "id": 225,
+      "id": 226,
       "start": 1458.148,
       "end": 1459.707,
       "text": "Voi înotați sau mergeți?",
@@ -1809,7 +1817,7 @@
       "info": "1"
     },
     {
-      "id": 226,
+      "id": 227,
       "start": 1459.707,
       "end": 1463.0,
       "text": "Întrebarea e foarte bună dacă înotăm sau mergem.",
@@ -1817,15 +1825,15 @@
       "info": "1"
     },
     {
-      "id": 227,
+      "id": 228,
       "start": 1463.0,
       "end": 1471.84,
-      "text": "Dacă vizibilitatea este, atunci luăm labele de... de înot, reglăm flotabilitatea undeva să fim o jumătate de metru de la fundul apei.",
+      "text": "Dacă vizibilitatea este, atunci luăm labele de, de înot, reglăm flotabilitatea undeva să fim o jumătate de metru de la fundul apei.",
       "id_user": 2,
       "info": "1"
     },
     {
-      "id": 228,
+      "id": 229,
       "start": 1471.84,
       "end": 1477.73,
       "text": "Și pe labe încetişor ne deplasăm în direcțiile unde, unde trebuie să ne ducem, da?",
@@ -1833,7 +1841,7 @@
       "info": "1"
     },
     {
-      "id": 229,
+      "id": 230,
       "start": 1477.73,
       "end": 1492.48,
       "text": "Dar dacă vizibilitatea e e zero, cum de obicei la noi, atunci noi fără de labe mergem pur și simplu practic pe burtă ne punem în picioare, da, așezați și pipăim cu mâinile înainte.",
@@ -1841,7 +1849,7 @@
       "info": "1"
     },
     {
-      "id": 230,
+      "id": 231,
       "start": 1492.48,
       "end": 1505.258,
       "text": "De ce nu luăm labele de înot când vizibilitatea e zero? Deoarece este riscul să intrăm într-o plasă sau să intrăm în careva copaci care sunt înecați sub apă și să ne creăm careva probleme însuși nouă.",
@@ -1849,7 +1857,7 @@
       "info": "1"
     },
     {
-      "id": 231,
+      "id": 232,
       "start": 1505.221,
       "end": 1522.569,
       "text": "Mai sunt cazuri destul de haioase și destul de concomitent să spunem, haios trist pentru că vine doamna la unitatea primiri urgente, dar ea deja știe ce vrea, ea vrea analiză de sânge, analiză de urină, radiografie și picurat obligatoriu să fie copilul meu picurat.",
@@ -1857,7 +1865,7 @@
       "info": "1"
     },
     {
-      "id": 232,
+      "id": 233,
       "start": 1522.569,
       "end": 1524.281,
       "text": "Zic, unde ați văzut dumneavoastră acestea?",
@@ -1865,7 +1873,7 @@
       "info": "1"
     },
     {
-      "id": 233,
+      "id": 234,
       "start": 1524.281,
       "end": 1529.249,
       "text": "Pentru că el trebuie mai întâi examinat să-și facă o părere oarecare medicul despre starea sănătății a lui.",
@@ -1873,7 +1881,7 @@
       "info": "1"
     },
     {
-      "id": 234,
+      "id": 235,
       "start": 1529.239,
       "end": 1530.454,
       "text": "Pe Google.",
@@ -1881,7 +1889,7 @@
       "info": "1"
     },
     {
-      "id": 235,
+      "id": 236,
       "start": 1530.454,
       "end": 1533.332,
       "text": "Eu am pus simptomele și mi-a spus ce trebuie să facem.",
@@ -1889,7 +1897,7 @@
       "info": "1"
     },
     {
-      "id": 236,
+      "id": 237,
       "start": 1533.332,
       "end": 1540.158,
       "text": "Păi bine, dacă în cazul de față, dumneavoastră, vă dați mai mare încredere la Google, tratați-l acasă.",
@@ -1897,15 +1905,15 @@
       "info": "1"
     },
     {
-      "id": 237,
+      "id": 238,
       "start": 1540.517,
       "end": 1555.15,
-      "text": "Noi învățăm câte și... nouă, zece ani, unsprezece ani învățăm și noi nu le știm pe toate, dar alte persoane, adică consultând careva surse necredibile, se dau cu părerea.",
+      "text": "Noi învățăm câte și nouă, zece ani, unsprezece ani învățăm și noi nu le știm pe toate, dar alte persoane, adică consultând careva surse necredibile, se dau cu părerea.",
       "id_user": 3,
       "info": "2"
     },
     {
-      "id": 238,
+      "id": 239,
       "start": 1555.15,
       "end": 1562.121,
       "text": "Este destul de alarmantă situația asta pentru că, mă rog, el ceea ce știe, știe.",
@@ -1913,7 +1921,7 @@
       "info": "1"
     },
     {
-      "id": 239,
+      "id": 240,
       "start": 1562.121,
       "end": 1568.153,
       "text": "Sunt cazuri la noi la urgență, se pun în fața autosanitarei și noi nu vrem încolo, noi vrem acolo să plecăm.",
@@ -1921,7 +1929,7 @@
       "info": "1"
     },
     {
-      "id": 240,
+      "id": 241,
       "start": 1568.32,
       "end": 1571.292,
       "text": "Se pierd zece, cincisprezece, douăzeci de minute pentru a convinge bolnavul.",
@@ -1929,7 +1937,7 @@
       "info": "1"
     },
     {
-      "id": 241,
+      "id": 242,
       "start": 1571.791,
       "end": 1586.624,
       "text": "Este oarecare protocol, este oarecare spital care este de gardă, el ne primește, lămurim, dar asta tot este o resursă, resursă atât psihologică a medicului să lămurească, resursă de timp, în cazul de față că este vorba de o urgență.",
@@ -1937,7 +1945,7 @@
       "info": "1"
     },
     {
-      "id": 242,
+      "id": 243,
       "start": 1586.624,
       "end": 1593.042,
       "text": "Dacă ai solicitat urgența, tu n-ai încontro să te duci, tu soliciți urgența și în așa caz conformează-te.",
@@ -1945,15 +1953,15 @@
       "info": "1"
     },
     {
-      "id": 243,
+      "id": 244,
       "start": 1593.042,
       "end": 1603.181,
-      "text": "Cel mai greu incendiu din punct de vedere psihologic a fost în anul două mii șaisprezece, când la... pe strada uzinelor am stins un depozit.",
+      "text": "Cel mai greu incendiu din punct de vedere psihologic a fost în anul două mii șaisprezece, când la, pe strada uzinelor am stins un depozit.",
       "id_user": 1,
       "info": "2"
     },
     {
-      "id": 244,
+      "id": 245,
       "start": 1603.181,
       "end": 1614.683,
       "text": "Inițial când mergeam spre locul incendiului, am văzut un fum negru și dens și atunci eu deja mi-am dat seama că aici e, avem foarte mult de lucru.",
@@ -1961,7 +1969,7 @@
       "info": "1"
     },
     {
-      "id": 245,
+      "id": 246,
       "start": 1614.683,
       "end": 1620.114,
       "text": "Când am ajuns deja ieșea fum foarte negru pe jumătate de încăpere.",
@@ -1969,7 +1977,7 @@
       "info": "1"
     },
     {
-      "id": 246,
+      "id": 247,
       "start": 1620.339,
       "end": 1624.375,
       "text": "Era ceva strașnic, dar am început să stingem.",
@@ -1977,7 +1985,7 @@
       "info": "1"
     },
     {
-      "id": 247,
+      "id": 248,
       "start": 1625.311,
       "end": 1631.698,
       "text": "Poate și era să stingem incendiul mai repede dacă construcția era să facă față.",
@@ -1985,7 +1993,7 @@
       "info": "1"
     },
     {
-      "id": 248,
+      "id": 249,
       "start": 1631.698,
       "end": 1640.843,
       "text": "Dar la așa temperatură și mult foc cât a fost acolo, construcția a început să se miște, să se modifice.",
@@ -1993,7 +2001,7 @@
       "info": "1"
     },
     {
-      "id": 249,
+      "id": 250,
       "start": 1640.843,
       "end": 1655.14,
       "text": "Și atunci noi am decis să nu ne expunem noi riscului oamenii noștri să nu se prăbușească în orice moment construcția, toți salvatorii și pompierii au fost evacuați din clădire și stingerea incendiului era doar din exterior de pe autoscări.",
@@ -2001,7 +2009,7 @@
       "info": "1"
     },
     {
-      "id": 250,
+      "id": 251,
       "start": 1655.14,
       "end": 1663.704,
       "text": "După o perioadă oarecare niciun pompier nu se afla înăuntru și asta nu ne dădea posibilitate să acționăm nemijlocit în locul unde arde.",
@@ -2009,7 +2017,7 @@
       "info": "1"
     },
     {
-      "id": 251,
+      "id": 252,
       "start": 1663.704,
       "end": 1665.863,
       "text": "De asta și a durat mai multe zile.",
@@ -2017,7 +2025,7 @@
       "info": "1"
     },
     {
-      "id": 252,
+      "id": 253,
       "start": 1665.863,
       "end": 1675.974,
       "text": "Dacă construcția era să reziste la foc și temperatură, atunci noi era să fim nemijlocit la focar și îl lichidam cred că până seara era să fie lichidat da.",
@@ -2025,7 +2033,7 @@
       "info": "1"
     },
     {
-      "id": 253,
+      "id": 254,
       "start": 1675.974,
       "end": 1688.076,
       "text": "Atunci a decedat colegul nostru Ivan și fiind la fața locului și auzind convorbirile pe stația radio toate momentele când băiatul s-a pierdut în fum.",
@@ -2033,7 +2041,7 @@
       "info": "1"
     },
     {
-      "id": 254,
+      "id": 255,
       "start": 1688.076,
       "end": 1697.586,
       "text": "Atunci din punct de vedere psihologic era foarte greu, dar n-am avut încotro și trebuia să înaintăm să continuăm lichidarea focarelor.",
@@ -2041,7 +2049,7 @@
       "info": "1"
     },
     {
-      "id": 255,
+      "id": 256,
       "start": 1697.586,
       "end": 1703.268,
       "text": "Noaptea noi n-am dormit, că noi am rămas acolo până până dimineața.",
@@ -2049,7 +2057,7 @@
       "info": "1"
     },
     {
-      "id": 256,
+      "id": 257,
       "start": 1703.288,
       "end": 1705.784,
       "text": "Dimineața deja am fost schimbați cu alți colegi.",
@@ -2057,7 +2065,7 @@
       "info": "1"
     },
     {
-      "id": 257,
+      "id": 258,
       "start": 1705.784,
       "end": 1717.566,
       "text": "Incendiul a fost de câteva zile, dar după asta nu așa de ușor am putut să revenim la un regim normal de activitate știind că la o sută două sute de metri de tine a decedat colegul tău.",
@@ -2065,7 +2073,7 @@
       "info": "1"
     },
     {
-      "id": 258,
+      "id": 259,
       "start": 1717.566,
       "end": 1725.491,
       "text": "În general într-o activitate de mai mult de douăzeci de ani sunt momente când le înțelegi altfel.",
@@ -2073,7 +2081,7 @@
       "info": "1"
     },
     {
-      "id": 259,
+      "id": 260,
       "start": 1726.009,
       "end": 1733.81,
       "text": "Sunt cazuri care te dezice absolut, uite tot știindu-mă că ești medic.",
@@ -2081,7 +2089,7 @@
       "info": "0"
     },
     {
-      "id": 260,
+      "id": 261,
       "start": 1733.81,
       "end": 1738.887,
       "text": "Și cazurile acestea care dumneavoastră le vreți ca eu să le numerotez, ele sunt multe.",
@@ -2089,7 +2097,7 @@
       "info": "1"
     },
     {
-      "id": 261,
+      "id": 262,
       "start": 1738.994,
       "end": 1739.901,
       "text": "Sunt chiar multe.",
@@ -2097,7 +2105,7 @@
       "info": "1"
     },
     {
-      "id": 262,
+      "id": 263,
       "start": 1739.851,
       "end": 1747.968,
       "text": "Unul care mi s-a întipărit foarte tare a fost într-adevăr un accident rutier cu o hemoragie masivă în artera femurală.",
@@ -2105,7 +2113,7 @@
       "info": "1"
     },
     {
-      "id": 263,
+      "id": 264,
       "start": 1747.968,
       "end": 1759.402,
       "text": "Norocul pacientului până la urmă era faptul că prin apropiere se afla și un lucrător medical și a compresat vasul până la sosirea ambulanței.",
@@ -2113,7 +2121,7 @@
       "info": "1"
     },
     {
-      "id": 264,
+      "id": 265,
       "start": 1759.402,
       "end": 1761.457,
       "text": "Noi deja eram pregătiți.",
@@ -2121,7 +2129,7 @@
       "info": "1"
     },
     {
-      "id": 265,
+      "id": 266,
       "start": 1761.457,
       "end": 1764.72,
       "text": "Ni s-a comunicat pe telefon că este vorba de o hemoragie destul de masivă.",
@@ -2129,7 +2137,7 @@
       "info": "1"
     },
     {
-      "id": 266,
+      "id": 267,
       "start": 1764.72,
       "end": 1769.786,
       "text": "Am acționat prompt, adică ceea ce-i legat de problema pacientului dat.",
@@ -2137,7 +2145,7 @@
       "info": "2"
     },
     {
-      "id": 267,
+      "id": 268,
       "start": 1770.264,
       "end": 1774.338,
       "text": "Și a scăpat, slava Domnului, e în viață, bine mersi, ne vedem.",
@@ -2145,7 +2153,7 @@
       "info": "1"
     },
     {
-      "id": 268,
+      "id": 269,
       "start": 1774.498,
       "end": 1776.096,
       "text": "Da, ne mulțumește.",
@@ -2153,7 +2161,7 @@
       "info": "1"
     },
     {
-      "id": 269,
+      "id": 270,
       "start": 1776.695,
       "end": 1780.0,
       "text": "Da, servim și câte o cafea.",
@@ -2161,7 +2169,7 @@
       "info": "1"
     },
     {
-      "id": 270,
+      "id": 271,
       "start": 1780.136,
       "end": 1781.234,
       "text": "Practic, am rămas prieteni.",
@@ -2169,7 +2177,7 @@
       "info": "1"
     },
     {
-      "id": 271,
+      "id": 272,
       "start": 1781.244,
       "end": 1786.18,
       "text": "Vedeți de la o întâmplare care îi nefericită pentru un om, te leagă pe toată viața.",
@@ -2177,7 +2185,7 @@
       "info": "1"
     },
     {
-      "id": 272,
+      "id": 273,
       "start": 1786.298,
       "end": 1794.418,
       "text": "Am plecat în sub apă fără de cuțit, dar cuțitul, asta-i o piesă care obligatoriu, trebuie să fie pe scafandru.",
@@ -2185,7 +2193,7 @@
       "info": "1"
     },
     {
-      "id": 273,
+      "id": 274,
       "start": 1794.418,
       "end": 1804.0,
       "text": "Atunci era iarnă, era frig, cuțitul din dotare, îl puneam în teacă, că am vrut să-l iau cu mine, dar cuțitul cădea din din teacă.",
@@ -2193,7 +2201,7 @@
       "info": "1"
     },
     {
-      "id": 274,
+      "id": 275,
       "start": 1804.117,
       "end": 1812.083,
       "text": "Că pe teacă s-a pus o pojghiță de gheață și cum nu-i dai bunul statului, costă bani și să nu-l pierd sub apă.",
@@ -2201,7 +2209,7 @@
       "info": "1"
     },
     {
-      "id": 275,
+      "id": 276,
       "start": 1812.431,
       "end": 1821.051,
       "text": "L-am lăsat pe mal, am plecat în misiune sub apă, am căutat dreapta, stânga, dreapta, stânga, până am depistat o o plasă.",
@@ -2209,7 +2217,7 @@
       "info": "1"
     },
     {
-      "id": 276,
+      "id": 277,
       "start": 1821.051,
       "end": 1827.428,
       "text": "Și am vrut atunci în momentul acela să iau plasa, s-o ridic, s-o trec în partea aceea de mine și să plec mai departe.",
@@ -2217,7 +2225,7 @@
       "info": "1"
     },
     {
-      "id": 277,
+      "id": 278,
       "start": 1827.427,
       "end": 1835.2,
       "text": "Și în timpul când am ridicat plasa și am dat-o în partea aceea, deplasându-se mai departe, m-am agățat în altă plasă, încă mai puternică.",
@@ -2225,7 +2233,7 @@
       "info": "1"
     },
     {
-      "id": 278,
+      "id": 279,
       "start": 1835.336,
       "end": 1843.288,
       "text": "Atunci când de acum i-am dat plasa din partea stângă, care deja am trecut ea pe, eu pe sub ea, m-am aninat și de asta bine și de asta bine.",
@@ -2233,7 +2241,7 @@
       "info": "1"
     },
     {
-      "id": 279,
+      "id": 280,
       "start": 1843.456,
       "end": 1853.477,
       "text": "Am tras ca să rup plasa, dar plasa nu era posibil s-o rup, atunci am tăiat mănușile, chiar și mi-am tăiat și degetele, curgea sânge.",
@@ -2241,7 +2249,7 @@
       "info": "1"
     },
     {
-      "id": 280,
+      "id": 281,
       "start": 1853.477,
       "end": 1867.295,
       "text": "Am vrut să ies la suprafață, că noi, este vesta de salvare care o umfli da, chiar el tot e în componența aparatului cu aer comprimat, butelia și-i vesta, atunci am apăsat-o, ea s-a umflat și am ridicat.",
@@ -2249,7 +2257,7 @@
       "info": "1"
     },
     {
-      "id": 281,
+      "id": 282,
       "start": 1867.295,
       "end": 1874.705,
       "text": "Am simțit că am ajuns aproape la suprafața apei, cu mâna eram la suprafață, dar capul era sub apă.",
@@ -2257,15 +2265,15 @@
       "info": "1"
     },
     {
-      "id": 282,
+      "id": 283,
       "start": 1874.923,
       "end": 1884.74,
-      "text": "M-am liniștit, am desumflat vesta, m-am dus sub apă, m-am dezbrăcat sub apă din aparatul cu... cu aer comprimat, detentorul, a doua treaptă o țineam în gură.",
+      "text": "M-am liniștit, am desumflat vesta, m-am dus sub apă, m-am dezbrăcat sub apă din aparatul cu, cu aer comprimat, detentorul, a doua treaptă o țineam în gură.",
       "id_user": 2,
       "info": "1"
     },
     {
-      "id": 283,
+      "id": 284,
       "start": 1884.74,
       "end": 1891.338,
       "text": "Am întors butelia cum cum aveam nevoie, puțin vizibilitate era, m-am liniștit.",
@@ -2273,7 +2281,7 @@
       "info": "1"
     },
     {
-      "id": 284,
+      "id": 285,
       "start": 1891.338,
       "end": 1895.857,
       "text": "Era tot ok că butelia era plină cu... cu aer.",
@@ -2281,7 +2289,7 @@
       "info": "1"
     },
     {
-      "id": 285,
+      "id": 286,
       "start": 1895.846,
       "end": 1900.679,
       "text": "Încetișor am luat și am descâlcit toate plasele, tot ce mă încurca acolo.",
@@ -2289,7 +2297,7 @@
       "info": "1"
     },
     {
-      "id": 286,
+      "id": 287,
       "start": 1900.679,
       "end": 1906.911,
       "text": "Am luat butelia cu mine, nici n-am îmbrăcat-o pe spate și am ieșit la suprafață.",
@@ -2297,7 +2305,7 @@
       "info": "0"
     },
     {
-      "id": 287,
+      "id": 288,
       "start": 1906.911,
       "end": 1919.158,
       "text": "Acela a rămas, până la urmă, secretul nostru, dar deja le spun și la alți scafandri acest lucru să nu mai facă, deoarece eu sunt secretar în Comisia de Calificare a Scafandrilor.",
@@ -2305,7 +2313,7 @@
       "info": "2"
     },
     {
-      "id": 288,
+      "id": 289,
       "start": 1919.158,
       "end": 1924.523,
       "text": "Deja eu instruiesc scafandri pe Republică care vor să vie să facă serviciul la noi.",
@@ -2313,7 +2321,7 @@
       "info": "1"
     },
     {
-      "id": 289,
+      "id": 290,
       "start": 1924.523,
       "end": 1931.157,
       "text": "Chiar dau exemplu pe pe mine, pentru că cuțitul trebuie să fie mereu cu tine.",
@@ -2321,7 +2329,7 @@
       "info": "1"
     },
     {
-      "id": 290,
+      "id": 291,
       "start": 1931.157,
       "end": 1936.671,
       "text": "Cuțit este și în teacă obligatoriu și încă un cuțit este pe mână, adică dublăm lucrurile acestea.",
@@ -2329,7 +2337,7 @@
       "info": "1"
     },
     {
-      "id": 291,
+      "id": 292,
       "start": 1936.871,
       "end": 1939.687,
       "text": "Nu unul, dar două cuțite trebuie să fie cu tine.",
@@ -2337,7 +2345,7 @@
       "info": "1"
     },
     {
-      "id": 292,
+      "id": 293,
       "start": 1939.687,
       "end": 1949.248,
       "text": "Conform regulamentului circulației rutiere, noi dacă am inclus girofarul și sunetele sonore, noi suntem obligați ca să ajungem.",
@@ -2345,7 +2353,7 @@
       "info": "1"
     },
     {
-      "id": 293,
+      "id": 294,
       "start": 1949.26,
       "end": 1957.622,
       "text": "Ne ducem la o chemare unde pacientul e în pericol, noi trebuie să ajungem cât mai repede, să ajutăm pacientul, că ori ce minută contează acum.",
@@ -2353,7 +2361,7 @@
       "info": "1"
     },
     {
-      "id": 294,
+      "id": 295,
       "start": 1957.622,
       "end": 1963.343,
       "text": "Sunt momente când vor să cedeze, dar n-au unde să dea într-o parte, e blocat traseul.",
@@ -2361,7 +2369,7 @@
       "info": "1"
     },
     {
-      "id": 295,
+      "id": 296,
       "start": 1963.593,
       "end": 1970.153,
       "text": "Atunci noi ne gândim cum s-o ies pe partea din față, fac ocolire numai ca să ajungem cât mai repede.",
@@ -2369,7 +2377,7 @@
       "info": "1"
     },
     {
-      "id": 296,
+      "id": 297,
       "start": 1970.153,
       "end": 1984.095,
       "text": "Sunt momente când pe hartă este drum, când ajungem acolo sunt construcții, drumul nu-i mai este și suntem nevoiți cu echipa împreună să luăm tot echipamentul, să plecăm pe jos.",
@@ -2377,7 +2385,7 @@
       "info": "2"
     },
     {
-      "id": 297,
+      "id": 298,
       "start": 1984.223,
       "end": 1988.868,
       "text": "Și la moment când șoferul trebuie să ajute, rămâne mașina, nesupravegheată.",
@@ -2385,7 +2393,7 @@
       "info": "1"
     },
     {
-      "id": 298,
+      "id": 299,
       "start": 1989.047,
       "end": 1995.86,
       "text": "Ajut ducem echipamentul, pe urmă mă întorc la mașină și caut pe unde să pot ajunge la bolnav.",
@@ -2393,7 +2401,7 @@
       "info": "2"
     },
     {
-      "id": 299,
+      "id": 300,
       "start": 1995.86,
       "end": 2004.253,
       "text": "Dar în primul rând trebuie să ajungem să-l salvăm, să-i facem primul ajutor, apoi eu mă întorc și caut loc pe unde să mă vâr cu mașina să ajung la bolnav.",
@@ -2401,7 +2409,7 @@
       "info": "1"
     },
     {
-      "id": 300,
+      "id": 301,
       "start": 2004.431,
       "end": 2008.101,
       "text": "Un domn a uitat mâncarea pe aragaz și a adormit.",
@@ -2409,7 +2417,7 @@
       "info": "1"
     },
     {
-      "id": 301,
+      "id": 302,
       "start": 2008.151,
       "end": 2010.723,
       "text": "Vecinii au chemat salvatorii.",
@@ -2417,7 +2425,7 @@
       "info": "1"
     },
     {
-      "id": 302,
+      "id": 303,
       "start": 2010.832,
       "end": 2015.286,
       "text": "Am intrat în apartament, apartamentul plin cu fum, domnul dormea.",
@@ -2425,7 +2433,7 @@
       "info": "2"
     },
     {
-      "id": 303,
+      "id": 304,
       "start": 2015.286,
       "end": 2028.587,
       "text": "Am început să-l trezim zic, domnule, sculați-vă, sculați-vă, dar noi cum eram în cască, în mască, în haine de luptă, el deschide ochii, ne-a văzut s-a speriat zice că cine sunteți, cine sunteți, dar eu zic cosmonauții, hai, zburăm de aici.",
@@ -2433,7 +2441,7 @@
       "info": "1"
     },
     {
-      "id": 304,
+      "id": 305,
       "start": 2028.587,
       "end": 2039.727,
       "text": "Și două, trei secunde, domnul n-a înțeles ce, ce-a fost pe urmă a dat seama că-i fum și a uitat mâncarea și s-a pornit la bucătărie, zic, gata, hai, hai ieșim din bucătărie, avem grijă noi de mâncarea ta.",
@@ -2441,7 +2449,7 @@
       "info": "1"
     },
     {
-      "id": 305,
+      "id": 306,
       "start": 2040.385,
       "end": 2047.318,
       "text": "Și am evacuat domnul, am deconectat aragazul, am deschis ferestrele să iasă tot fumul, dar a fost vesel.",
@@ -2449,7 +2457,7 @@
       "info": "1"
     },
     {
-      "id": 306,
+      "id": 307,
       "start": 2047.318,
       "end": 2058.739,
       "text": "Au fost cazuri când un dulap cupe cu oglindă și dacă noi toți suntem echipați în haine de luptă identice, căști identice, mască.",
@@ -2457,7 +2465,7 @@
       "info": "1"
     },
     {
-      "id": 307,
+      "id": 308,
       "start": 2058.739,
       "end": 2068.132,
       "text": "Am intrat în apartament și eu m-am dus în dreapta să caut focarul, dar colegul s-a dus în partea stângă și se uită la reflecția lui în oglindă și a crezut că sunt eu.",
@@ -2465,7 +2473,7 @@
       "info": "1"
     },
     {
-      "id": 308,
+      "id": 309,
       "start": 2068.132,
       "end": 2070.638,
       "text": "Și mă întreabă, Eugen, ce ai găsit ce arde?",
@@ -2473,7 +2481,7 @@
       "info": "1"
     },
     {
-      "id": 309,
+      "id": 310,
       "start": 2070.738,
       "end": 2075.096,
       "text": "Eugen tăcea, vorbea singur cu el, eu eram în altă cameră.",
@@ -2481,7 +2489,7 @@
       "info": "1"
     },
     {
-      "id": 310,
+      "id": 311,
       "start": 2075.136,
       "end": 2076.3,
       "text": "Eugen, de ce taci?",
@@ -2489,7 +2497,7 @@
       "info": "1"
     },
     {
-      "id": 311,
+      "id": 312,
       "start": 2076.3,
       "end": 2078.193,
       "text": "Eugen, eugen.",
@@ -2497,7 +2505,7 @@
       "info": "1"
     },
     {
-      "id": 312,
+      "id": 313,
       "start": 2078.193,
       "end": 2082.847,
       "text": "Și eu vin din urmă zic, uite că-s aici, dar el, o, dar păi asta-i oglindă.",
@@ -2505,7 +2513,7 @@
       "info": "1"
     },
     {
-      "id": 313,
+      "id": 314,
       "start": 2082.847,
       "end": 2091.272,
       "text": "Atunci ne-am ne-am râs oleacă, am găsit focarul, ardeau niște hârtii într-un colț, tot era bine.",
@@ -2513,7 +2521,7 @@
       "info": "1"
     },
     {
-      "id": 314,
+      "id": 315,
       "start": 2091.42,
       "end": 2097.0,
       "text": "Doar atunci, după asta, și acum ne aducem aminte cum Eugen, de ce taci? De ce, de ce nu vorbești?",
@@ -2521,7 +2529,7 @@
       "info": "1"
     },
     {
-      "id": 315,
+      "id": 316,
       "start": 2097.0,
       "end": 2101.012,
       "text": "Am avut totodată o misiune neobișnuită.",
@@ -2529,7 +2537,7 @@
       "info": "1"
     },
     {
-      "id": 316,
+      "id": 317,
       "start": 2101.421,
       "end": 2107.0,
       "text": "Am plecat la fața locului, acolo era poliția la fața locului, sătenii.",
@@ -2537,7 +2545,7 @@
       "info": "1"
     },
     {
-      "id": 317,
+      "id": 318,
       "start": 2107.217,
       "end": 2116.3,
       "text": "Dar mai mult am vorbit cu poliția, că la data de ieri s-a înecat o... o persoană gen feminin.",
@@ -2545,7 +2553,7 @@
       "info": "1"
     },
     {
-      "id": 318,
+      "id": 319,
       "start": 2116.3,
       "end": 2121.832,
       "text": "Mi-au spus aproximativ înălțimea, mi-au spus aproximativ cum arată ea.",
@@ -2553,7 +2561,7 @@
       "info": "1"
     },
     {
-      "id": 319,
+      "id": 320,
       "start": 2121.832,
       "end": 2127.88,
       "text": "Noi avem, suntem dotați cu sonor acustic, de multe ori el nouă ne ușurează, adică intervențiile.",
@@ -2561,7 +2569,7 @@
       "info": "1"
     },
     {
-      "id": 320,
+      "id": 321,
       "start": 2127.88,
       "end": 2131.473,
       "text": "Controlam bazinul acvatic pe suprafața apei.",
@@ -2569,7 +2577,7 @@
       "info": "1"
     },
     {
-      "id": 321,
+      "id": 322,
       "start": 2131.891,
       "end": 2142.487,
       "text": "Am luat orientări, am făcut zonele de căutare, am găsit careva obiecte acolo interesante care ar trebui de făcut scufundare ca să concretizăm e cadavru sau nu-i cadavru.",
@@ -2577,7 +2585,7 @@
       "info": "0"
     },
     {
-      "id": 322,
+      "id": 323,
       "start": 2142.487,
       "end": 2150.0,
       "text": "În timpul acesta când noi făceam aceste căutări, din partea opusă a a bazinului, iese o doamnă.",
@@ -2585,15 +2593,15 @@
       "info": "1"
     },
     {
-      "id": 323,
+      "id": 324,
       "start": 2150.137,
       "end": 2158.172,
-      "text": "Ce căutați voi aici? nouă, ne întreabă pe noi, salvatorii, dar noi zic păi avem informații că s-a... s-a înecat o persoană, genul feminin.",
+      "text": "Ce căutați voi aici? Nouă, ne întreabă pe noi, salvatorii, dar noi zic păi avem informații că s-a, s-a înecat o persoană, genul feminin.",
       "id_user": 2,
       "info": "2"
     },
     {
-      "id": 324,
+      "id": 325,
       "start": 2158.172,
       "end": 2162.205,
       "text": "Da acum un coleg de-al meu, păi dar noi nu pe ea o căutăm.",
@@ -2601,7 +2609,7 @@
       "info": "0"
     },
     {
-      "id": 325,
+      "id": 326,
       "start": 2162.205,
       "end": 2170.052,
       "text": "Am plecat în partea aceea, am luat polițistul, l-am luat în barcă, am trecut în partea asta zic domnul polițist îmi pare-se mie că noi pe dumneaei o căutăm.",
@@ -2609,15 +2617,15 @@
       "info": "1"
     },
     {
-      "id": 326,
+      "id": 327,
       "start": 2170.321,
       "end": 2187.16,
-      "text": "Da, așa într-adevăr și a fost, noi o căutăm pe ea, ea... ea a trecut noaptea din compania aceea, a trecut iazul în partea aceea, înotând da și înapoi nu s-a nu s-a întors în companie, a dormit undeva prin stufărișuri pe acolo, nu știu.",
+      "text": "Da, așa într-adevăr și a fost, noi o căutăm pe ea, ea, ea a trecut noaptea din compania aceea, a trecut iazul în partea aceea, înotând da și înapoi nu s-a nu s-a întors în companie, a dormit undeva prin stufărișuri pe acolo, nu știu.",
       "id_user": 2,
       "info": "1"
     },
     {
-      "id": 327,
+      "id": 328,
       "start": 2187.16,
       "end": 2197.747,
       "text": "S-a primit că am avut o o misiune da, o intervenție, dar până la urmă cu final îmbucurător, adică persoana, uite, a stat în, este în viață.",
@@ -2625,7 +2633,7 @@
       "info": "1"
     },
     {
-      "id": 328,
+      "id": 329,
       "start": 2197.934,
       "end": 2203.023,
       "text": "Tot am avut un caz când copilul a înghițit leul, de un leu.",
@@ -2633,7 +2641,7 @@
       "info": "1"
     },
     {
-      "id": 329,
+      "id": 330,
       "start": 2203.31,
       "end": 2210.427,
       "text": "A înghițit, și l-am dus la centrul mamei și al copilului, că acolo trebuie să-i facă investigație de acum, ca să-l scoată.",
@@ -2641,7 +2649,7 @@
       "info": "1"
     },
     {
-      "id": 330,
+      "id": 331,
       "start": 2210.427,
       "end": 2215.42,
       "text": "Majoritatea merg din urma ambulanțelor, părinții care cu copiii.",
@@ -2649,7 +2657,7 @@
       "info": "2"
     },
     {
-      "id": 331,
+      "id": 332,
       "start": 2215.42,
       "end": 2218.675,
       "text": "Retrăiesc toți, fiindcă ca un copil ce mai este.",
@@ -2657,7 +2665,7 @@
       "info": "1"
     },
     {
-      "id": 332,
+      "id": 333,
       "start": 2218.675,
       "end": 2226.179,
       "text": "Eu le spun, băi, n-o să ajuți, că n-ai să intri cu copilul acolo, intră numai mămica, pentru ce mergi tu la roșu la, poți să rămâi fără permis.",
@@ -2665,7 +2673,7 @@
       "info": "1"
     },
     {
-      "id": 333,
+      "id": 334,
       "start": 2226.179,
       "end": 2233.489,
       "text": "Evident că avem și cazuri neobișnuite în profesia noastră, pentru că apelurile care care le primim de la unu unu doi, pe telefon se primesc.",
@@ -2673,7 +2681,7 @@
       "info": "1"
     },
     {
-      "id": 334,
+      "id": 335,
       "start": 2233.489,
       "end": 2241.0,
       "text": "Oamenii care primesc apeluri nu văd cine este în fața telefonului și trimit autosanitarele pentru a deservi populația.",
@@ -2681,7 +2689,7 @@
       "info": "1"
     },
     {
-      "id": 335,
+      "id": 336,
       "start": 2241.0,
       "end": 2249.492,
       "text": "Și a fost un caz tot legat cu un copilaș, un an, un an și vreo două luni, mama a telefonat la o serviciul unu unu doi pentru că copilul este neliniștit.",
@@ -2689,7 +2697,7 @@
       "info": "1"
     },
     {
-      "id": 336,
+      "id": 337,
       "start": 2249.492,
       "end": 2250.599,
       "text": "Intrăm în casă.",
@@ -2697,7 +2705,7 @@
       "info": "1"
     },
     {
-      "id": 337,
+      "id": 338,
       "start": 2251.048,
       "end": 2262.633,
       "text": "Da într-adevăr copilul era neliniștit, examinăm copilul, luăm temperatura, examinăm urechiușile, frecvent fac otite și asta și duce la neliniștea copilului.",
@@ -2705,7 +2713,7 @@
       "info": "1"
     },
     {
-      "id": 338,
+      "id": 339,
       "start": 2262.76,
       "end": 2268.519,
       "text": "Burtica parcă nu vedeam nimic așa ieșit din comun și întrebăm mama, de când e copilul neliniștit?",
@@ -2713,7 +2721,7 @@
       "info": "1"
     },
     {
-      "id": 339,
+      "id": 340,
       "start": 2268.496,
       "end": 2270.379,
       "text": "Cică de vreo două, trei ore, maxim.",
@@ -2721,7 +2729,7 @@
       "info": "1"
     },
     {
-      "id": 340,
+      "id": 341,
       "start": 2270.379,
       "end": 2280.378,
       "text": "Având în vedere că deja în spate este o careva experiență, dați să vedem până la urmă ceea ce este adică îl punem pe copil și scot pampersul.",
@@ -2729,7 +2737,7 @@
       "info": "1"
     },
     {
-      "id": 341,
+      "id": 342,
       "start": 2281.111,
       "end": 2282.606,
       "text": "Pampersul era plin.",
@@ -2737,7 +2745,7 @@
       "info": "1"
     },
     {
-      "id": 342,
+      "id": 343,
       "start": 2282.606,
       "end": 2290.754,
       "text": "Schimbăm pampersul da, facem procedurile corespunzătoare la sanarea feselor, mămică.",
@@ -2745,7 +2753,7 @@
       "info": "1"
     },
     {
-      "id": 343,
+      "id": 344,
       "start": 2291.141,
       "end": 2293.858,
       "text": "Punem alt pampers, copilul peste cinci minute s-a liniștit.",
@@ -2753,7 +2761,7 @@
       "info": "1"
     },
     {
-      "id": 344,
+      "id": 345,
       "start": 2293.886,
       "end": 2302.162,
       "text": "Mai era un caz, eu începeam atunci taman activitatea, fost un apel la unu unu doi că copilul la fel este neliniștit.",
@@ -2761,7 +2769,7 @@
       "info": "1"
     },
     {
-      "id": 345,
+      "id": 346,
       "start": 2302.162,
       "end": 2305.155,
       "text": "Mergem cu asistenta medicală, ne uităm, vedem.",
@@ -2769,7 +2777,7 @@
       "info": "1"
     },
     {
-      "id": 346,
+      "id": 347,
       "start": 2306.034,
       "end": 2307.022,
       "text": "Copilul n-are nimic.",
@@ -2777,7 +2785,7 @@
       "info": "1"
     },
     {
-      "id": 347,
+      "id": 348,
       "start": 2307.0,
       "end": 2312.54,
       "text": "Ceea ce ține de o patologie careva, noi nu o suspectăm, nici nu o putem s-o depistăm.",
@@ -2785,7 +2793,7 @@
       "info": "1"
     },
     {
-      "id": 348,
+      "id": 349,
       "start": 2312.54,
       "end": 2314.691,
       "text": "Și o întrebăm pe mama, care este problema totuși?",
@@ -2793,7 +2801,7 @@
       "info": "1"
     },
     {
-      "id": 349,
+      "id": 350,
       "start": 2314.647,
       "end": 2322.18,
       "text": "Știți, el el are o suzetă a lui preferată și iată noi nu putem s-o găsim pe dânsa și de asta el e neliniștit.",
@@ -2801,7 +2809,7 @@
       "info": "1"
     },
     {
-      "id": 350,
+      "id": 351,
       "start": 2322.18,
       "end": 2325.0,
       "text": "Vă dați seama, noi cum să răspundem la întrebarea dată?",
@@ -2809,7 +2817,7 @@
       "info": "1"
     },
     {
-      "id": 351,
+      "id": 352,
       "start": 2325.0,
       "end": 2328.18,
       "text": "Zic, dați s-o vedem unde este și era suzeta sub pat, era.",
@@ -2817,7 +2825,7 @@
       "info": "1"
     },
     {
-      "id": 352,
+      "id": 353,
       "start": 2328.386,
       "end": 2333.084,
       "text": "S-a găsit, mă rog, a spălat-o, i-a dat-o și copilul s-a, s-a calmat.",
@@ -2825,7 +2833,7 @@
       "info": "1"
     },
     {
-      "id": 353,
+      "id": 354,
       "start": 2333.106,
       "end": 2338.46,
       "text": "Câteodată ne întâlnim la intervenție când persoanele încearcă să te învețe cum corect să faci.",
@@ -2833,7 +2841,7 @@
       "info": "1"
     },
     {
-      "id": 354,
+      "id": 355,
       "start": 2338.947,
       "end": 2342.452,
       "text": "Dar asta este peste tot, așa sunt oamenii.",
@@ -2841,7 +2849,7 @@
       "info": "1"
     },
     {
-      "id": 355,
+      "id": 356,
       "start": 2342.452,
       "end": 2348.774,
       "text": "Învață pe medici cum să lecuiască, învață pe pompieri cum să stingă un incendiu.",
@@ -2849,15 +2857,15 @@
       "info": "1"
     },
     {
-      "id": 356,
+      "id": 357,
       "start": 2348.782,
       "end": 2352.698,
-      "text": "Că ați venit târziu, că...",
+      "text": "Că... ați venit târziu, că...",
       "id_user": 1,
       "info": "1"
     },
     {
-      "id": 357,
+      "id": 358,
       "start": 2352.688,
       "end": 2361.629,
       "text": "Omul când se întâmplă ceva, situație de urgență, pentru dânsul tot timpul merge foarte încet, el crede, el, trece două, trei minute, dar lui i se pare că am fost jumătate de oră.",
@@ -2865,7 +2873,7 @@
       "info": "1"
     },
     {
-      "id": 358,
+      "id": 359,
       "start": 2361.629,
       "end": 2364.14,
       "text": "Câteodată oamenii spun că am venit fără apă.",
@@ -2873,7 +2881,7 @@
       "info": "1"
     },
     {
-      "id": 359,
+      "id": 360,
       "start": 2364.14,
       "end": 2370.0,
       "text": "Dar peste douăzeci de ani lucrez niciodată n-a fost așa ceva ca pompierul să vie fără apă.",
@@ -2881,7 +2889,7 @@
       "info": "1"
     },
     {
-      "id": 360,
+      "id": 361,
       "start": 2370.0,
       "end": 2377.67,
       "text": "Chiar dacă suntem la o intervenție și chiar suntem fără apă, niciodată dispecerii n-o să ne trimită pe noi în altă parte.",
@@ -2889,7 +2897,7 @@
       "info": "2"
     },
     {
-      "id": 361,
+      "id": 362,
       "start": 2377.67,
       "end": 2386.0,
       "text": "Ei o să trimită altă mașină din alt sector, dar noi, până ce cisterna nu este plină cu apă, pe noi, nu ne trimit la intervenție.",
@@ -2897,7 +2905,7 @@
       "info": "1"
     },
     {
-      "id": 362,
+      "id": 363,
       "start": 2386.0,
       "end": 2395.24,
       "text": "Dacă apa se termină repede, e altă întrebare, că pompile noastre poate să dea și patruzeci și cincizeci de litri pe secundă.",
@@ -2905,7 +2913,7 @@
       "info": "1"
     },
     {
-      "id": 363,
+      "id": 364,
       "start": 2395.24,
       "end": 2403.0,
       "text": "Dar rezervorul de patru sau două tone, apa se termină în cinci și-n șapte minute, dacă la maxim să lucrezi.",
@@ -2913,15 +2921,15 @@
       "info": "1"
     },
     {
-      "id": 364,
+      "id": 365,
       "start": 2403.0,
       "end": 2409.533,
-      "text": "Și atunci la om se pare că iată au venit pompierii, au... au dat două minute, trei minute cu apă și gata, s-a terminat apa.",
+      "text": "Și atunci la om se pare că iată au venit pompierii, au, au dat două minute, trei minute cu apă și gata, s-a terminat apa.",
       "id_user": 1,
       "info": "1"
     },
     {
-      "id": 365,
+      "id": 366,
       "start": 2409.74,
       "end": 2415.276,
       "text": "Diferite se întâmplă, dar principalul să ne păstrăm calmul, să arătăm că suntem profesioniști.",
@@ -2929,7 +2937,7 @@
       "info": "2"
     },
     {
-      "id": 366,
+      "id": 367,
       "start": 2415.113,
       "end": 2423.737,
       "text": "Să nu ne sfădim cu oamenii, că atâta timp cât au oamenii nevoie de noi, ne facem meseria, după asta putem să discutăm.",
@@ -2937,7 +2945,7 @@
       "info": "1"
     },
     {
-      "id": 367,
+      "id": 368,
       "start": 2423.713,
       "end": 2434.563,
       "text": "Ajungând la fața locului, părinții, de acum șed disperați, cu lacrimi, psihologic, acolo, situația, atmosfera, la general, e, nu-i plăcută.",
@@ -2945,7 +2953,7 @@
       "info": "1"
     },
     {
-      "id": 368,
+      "id": 369,
       "start": 2434.74,
       "end": 2449.935,
       "text": "Totodată mai sunt vecini, neamuri, săteni, care de multe ori, acuș sunt pe mal și ei vor să ne învețe pe noi cum să lucrăm sau ne spun că voi ați venit, voi nici oxigen, n-aveți în aparatele cu aer comprimat.",
@@ -2953,7 +2961,7 @@
       "info": "1"
     },
     {
-      "id": 369,
+      "id": 370,
       "start": 2450.361,
       "end": 2451.783,
       "text": "Voi nu puteți lucra.",
@@ -2961,7 +2969,7 @@
       "info": "1"
     },
     {
-      "id": 370,
+      "id": 371,
       "start": 2451.771,
       "end": 2454.635,
       "text": "Vouă statul degeaba vă plătește.",
@@ -2969,7 +2977,7 @@
       "info": "1"
     },
     {
-      "id": 371,
+      "id": 372,
       "start": 2454.984,
       "end": 2460.194,
       "text": "Dar noi suntem conștienți că noi știm ce facem și noi știm cum trebuie să facem corect.",
@@ -2977,7 +2985,7 @@
       "info": "1"
     },
     {
-      "id": 372,
+      "id": 373,
       "start": 2460.323,
       "end": 2466.575,
       "text": "Sunt unele momente așa mai mai puțin plăcute în profesia noastră, anume iată anume la solicitările acestea care nu țin de noi.",
@@ -2985,7 +2993,7 @@
       "info": "1"
     },
     {
-      "id": 373,
+      "id": 374,
       "start": 2466.575,
       "end": 2474.961,
       "text": "Niște solicitări care parcă e o urgență, parcă nu-i urgență, din punct de vedere a pacientului e o urgență, din punct de vedere al nostru medical nu este urgență.",
@@ -2993,15 +3001,15 @@
       "info": "0"
     },
     {
-      "id": 374,
+      "id": 375,
       "start": 2474.961,
       "end": 2483.799,
-      "text": "În general eu am așa o... o... o vorbă că când văd că pacientul solicită des asistență medicală de urgență le spun așa.",
+      "text": "În general eu am așa o, o, o vorbă că când văd că pacientul solicită des asistență medicală de urgență le spun așa.",
       "id_user": 3,
       "info": "1"
     },
     {
-      "id": 375,
+      "id": 376,
       "start": 2483.795,
       "end": 2492.573,
       "text": "Uitați-vă urgența este pentru aceea, voi seara v-ați culcat sănătoși, v-ați trezit cu o durere ceva undeva, asta-i pentru o urgență.",
@@ -3009,7 +3017,7 @@
       "info": "1"
     },
     {
-      "id": 376,
+      "id": 377,
       "start": 2492.519,
       "end": 2500.0,
       "text": "Pentru că este acut, ceea ce se întâmplă în șase, opt, maxim douăsprezece ore, dar nu ceea ce se întâmplă două, trei, patru, cinci zile.",
@@ -3017,7 +3025,7 @@
       "info": "1"
     },
     {
-      "id": 377,
+      "id": 378,
       "start": 2500.25,
       "end": 2504.322,
       "text": "La o doamnă, eu m-am solicitat așa bucuros, mândru că eu v-am solicitat feciorul.",
@@ -3025,7 +3033,7 @@
       "info": "1"
     },
     {
-      "id": 378,
+      "id": 379,
       "start": 2504.632,
       "end": 2511.231,
       "text": "Nouă ne-a prescris medicul de familie, niște tratament, puteți să vă uitați cum să beau, cum să de luat pastilele acestea.",
@@ -3033,7 +3041,7 @@
       "info": "1"
     },
     {
-      "id": 379,
+      "id": 380,
       "start": 2512.169,
       "end": 2513.176,
       "text": "Cum să reacționezi.",
@@ -3041,7 +3049,7 @@
       "info": "1"
     },
     {
-      "id": 380,
+      "id": 381,
       "start": 2513.51,
       "end": 2517.674,
       "text": "Paradoxal, nu poți să te enervezi, n-ai dreptul să te enervezi.",
@@ -3049,7 +3057,7 @@
       "info": "1"
     },
     {
-      "id": 381,
+      "id": 382,
       "start": 2517.774,
       "end": 2520.0,
       "text": "Să-i faci observație, n-o să te înțeleagă.",
@@ -3057,7 +3065,7 @@
       "info": "1"
     },
     {
-      "id": 382,
+      "id": 383,
       "start": 2520.94,
       "end": 2523.0,
       "text": "Făcând așa apel, evident că n-o să te înțeleagă.",
@@ -3065,7 +3073,7 @@
       "info": "1"
     },
     {
-      "id": 383,
+      "id": 384,
       "start": 2523.247,
       "end": 2527.78,
       "text": "Luăm în inima în dinți, răbdare, cât mai multă și lămurim.",
@@ -3073,7 +3081,7 @@
       "info": "1"
     },
     {
-      "id": 384,
+      "id": 385,
       "start": 2528.0,
       "end": 2536.583,
       "text": "Știți, ne enervează când ne ducem la pacient și sunt părinți, acolo prin prejur și noi vrem să facem ajutor și ei spun ce să facem.",
@@ -3081,7 +3089,7 @@
       "info": "1"
     },
     {
-      "id": 385,
+      "id": 386,
       "start": 2536.571,
       "end": 2543.48,
       "text": "Sau tăticul, copilul e a lui el da el retrăiește, dar începe să ne învețe ce-i... primul ajutor cum să-l facem.",
@@ -3089,7 +3097,7 @@
       "info": "1"
     },
     {
-      "id": 386,
+      "id": 387,
       "start": 2543.48,
       "end": 2552.29,
       "text": "Și începe a ridica vocea la medic la și ne străduim ca să-l calmăm, să-i lămurim, ca să să nu ajungem la conflict.",
@@ -3097,7 +3105,7 @@
       "info": "1"
     },
     {
-      "id": 387,
+      "id": 388,
       "start": 2552.598,
       "end": 2562.203,
       "text": "Că-i tare greu să-l liniștești pe un părinte când copilul e bolnav grav și el vrea, noi minuni să facem momental să-i treacă boala, s-o luăm, că cu mâna n-o să putem.",
@@ -3105,7 +3113,7 @@
       "info": "1"
     },
     {
-      "id": 388,
+      "id": 389,
       "start": 2562.353,
       "end": 2566.007,
       "text": "Și sunt momente, că ne cheamă și a doua oară, de două ori pe noapte, nu vor la spital.",
@@ -3113,7 +3121,7 @@
       "info": "1"
     },
     {
-      "id": 389,
+      "id": 390,
       "start": 2566.237,
       "end": 2572.279,
       "text": "Se refuză de spitalizare, dar dincoace salvarea să vie să le facă primul ajutor și gata, să refuze.",
@@ -3121,7 +3129,7 @@
       "info": "1"
     },
     {
-      "id": 390,
+      "id": 391,
       "start": 2572.383,
       "end": 2574.996,
       "text": "Și de genul taxi serviciu a fost.",
@@ -3129,7 +3137,7 @@
       "info": "1"
     },
     {
-      "id": 391,
+      "id": 392,
       "start": 2574.956,
       "end": 2580.095,
       "text": "Cheamă la o solicitare că-i fractură, fractură la brațul superior, ora zece seara.",
@@ -3137,7 +3145,7 @@
       "info": "1"
     },
     {
-      "id": 392,
+      "id": 393,
       "start": 2580.095,
       "end": 2590.053,
       "text": "Ajungem la solicitare, acordăm ajutorul medical, punem mobilizare, tinerel, stabil, bine, adică n-are n-are o fractură deschisă, e o fractură simplă, la loc tipic.",
@@ -3145,7 +3153,7 @@
       "info": "1"
     },
     {
-      "id": 393,
+      "id": 394,
       "start": 2590.248,
       "end": 2595.0,
       "text": "Facem imobilizare în ceea ce avem acolo provizorii pentru ca, mă rog, să deplaseze.",
@@ -3153,7 +3161,7 @@
       "info": "2"
     },
     {
-      "id": 394,
+      "id": 395,
       "start": 2595.23,
       "end": 2598.19,
       "text": "Ulterior la un traumatolog să-și facă o radiografie.",
@@ -3161,7 +3169,7 @@
       "info": "1"
     },
     {
-      "id": 395,
+      "id": 396,
       "start": 2598.62,
       "end": 2601.775,
       "text": "Și el îmi spune, voi sunteți datori să mă duceți la spital.",
@@ -3169,7 +3177,7 @@
       "info": "1"
     },
     {
-      "id": 396,
+      "id": 397,
       "start": 2601.847,
       "end": 2607.98,
       "text": "Am încărcat pacientul, l-am îmbarcat în mașină, l-am transportat la înspre spitalul raional Anenii noi spunem așa.",
@@ -3177,7 +3185,7 @@
       "info": "1"
     },
     {
-      "id": 397,
+      "id": 398,
       "start": 2608.329,
       "end": 2612.664,
       "text": "Și pe drum, opriți vă rog aici, iată n-am nimic la mână eu am...",
@@ -3185,7 +3193,7 @@
       "info": "1"
     },
     {
-      "id": 398,
+      "id": 399,
       "start": 2612.753,
       "end": 2621.719,
       "text": "Și până la urmă am înțeles că el o, lui trebuia din punctul A să deplaseze în punctul B numai ca să folosească serviciul unu unu doi ca mijloc de taxi.",
@@ -3193,7 +3201,7 @@
       "info": "0"
     },
     {
-      "id": 399,
+      "id": 400,
       "start": 2621.717,
       "end": 2629.6,
       "text": "Au fost cazuri când persoanele iarăși au venit după un act, după un document și cunoșteau angajații, colegii.",
@@ -3201,7 +3209,7 @@
       "info": "1"
     },
     {
-      "id": 400,
+      "id": 401,
       "start": 2629.802,
       "end": 2634.0,
       "text": "El aha, dar dumneavoastră ați fost la mine acasă și mi-ați stins, da, da, mulțumesc, mulțumesc.",
@@ -3209,7 +3217,7 @@
       "info": "2"
     },
     {
-      "id": 401,
+      "id": 402,
       "start": 2634.0,
       "end": 2649.235,
       "text": "Sunt cazuri de deseori când persoanele după aceste cazuri vin special în schimbul care a fost la ei acasă și au salvat și au stins incendiul și întreabă dar când o să fie băieții care au stins pe data cutare.",
@@ -3217,7 +3225,7 @@
       "info": "1"
     },
     {
-      "id": 402,
+      "id": 403,
       "start": 2649.946,
       "end": 2651.941,
       "text": "Și atunci vin și spun mulțumesc.",
@@ -3225,7 +3233,7 @@
       "info": "1"
     },
     {
-      "id": 403,
+      "id": 404,
       "start": 2652.839,
       "end": 2658.0,
       "text": "Mai fac fotografii, mai fac postări pe Facebook unde exprimă mulțumiri.",
@@ -3233,7 +3241,7 @@
       "info": "1"
     },
     {
-      "id": 404,
+      "id": 405,
       "start": 2658.149,
       "end": 2670.2,
       "text": "Am salvat un pictor dintr-un incendiu și atunci el ca în semn de recunoștință, a primit domnul arsuri, era într-o stare mai gravă.",
@@ -3241,7 +3249,7 @@
       "info": "1"
     },
     {
-      "id": 405,
+      "id": 406,
       "start": 2670.512,
       "end": 2676.7,
       "text": "Dar s-a lecuit și undeva peste un an de zile a venit la noi și cadou mi-a, ne-a făcut gravură.",
@@ -3249,7 +3257,7 @@
       "info": "1"
     },
     {
-      "id": 406,
+      "id": 407,
       "start": 2677.7,
       "end": 2683.0,
       "text": "Avem un monument de pompieri și a făcut gravură, a scris acolo niște versuri foarte frumoase.",
@@ -3257,7 +3265,7 @@
       "info": "1"
     },
     {
-      "id": 407,
+      "id": 408,
       "start": 2683.0,
       "end": 2686.878,
       "text": "Care în semn de recunoștință pentru că i-am salvat viața atunci.",
@@ -3265,7 +3273,7 @@
       "info": "1"
     },
     {
-      "id": 408,
+      "id": 409,
       "start": 2687.0,
       "end": 2698.0,
       "text": "Am avut așa un caz când de la noi, că noi suntem pe teritoriu la Spitalul de Urgență, a fost solicitare din spital că trebuie c-un insult, tare greu era pacientul.",
@@ -3273,7 +3281,7 @@
       "info": "1"
     },
     {
-      "id": 409,
+      "id": 410,
       "start": 2698.267,
       "end": 2705.317,
       "text": "Dar l-am dus tare repede, eu pe dânsul nu l-am văzut la față, știam numai că-i din satul Horotca Ialoveni.",
@@ -3281,7 +3289,7 @@
       "info": "1"
     },
     {
-      "id": 410,
+      "id": 411,
       "start": 2705.317,
       "end": 2709.848,
       "text": "Când ne-am întâlnit am înțeles că iată el e omul în cauză care eu l-am dus și l-am salvat atunci.",
@@ -3289,7 +3297,7 @@
       "info": "1"
     },
     {
-      "id": 411,
+      "id": 412,
       "start": 2709.85,
       "end": 2713.3,
       "text": "Emoții unu în față de altul am avut când i-am văzut.",
@@ -3297,7 +3305,7 @@
       "info": "1"
     },
     {
-      "id": 412,
+      "id": 413,
       "start": 2713.3,
       "end": 2718.088,
       "text": "La orele șase dimineața noi am fost solicitați la o gravidă.",
@@ -3305,7 +3313,7 @@
       "info": "1"
     },
     {
-      "id": 413,
+      "id": 414,
       "start": 2718.431,
       "end": 2722.21,
       "text": "Dar nu ne-a spus că este vorba de travaliu, nu ne-a spus că este vorba de naștere.",
@@ -3313,7 +3321,7 @@
       "info": "1"
     },
     {
-      "id": 414,
+      "id": 415,
       "start": 2722.21,
       "end": 2726.786,
       "text": "Ajungem acolo, doamna de acum era cu gențile pregătite pentru transportarea la spital.",
@@ -3321,7 +3329,7 @@
       "info": "1"
     },
     {
-      "id": 415,
+      "id": 416,
       "start": 2726.913,
       "end": 2732.153,
       "text": "Nu, dați întâi să vă examinez, să vedem care-i situația, ce și cum și pe urmă mergem.",
@@ -3329,7 +3337,7 @@
       "info": "1"
     },
     {
-      "id": 416,
+      "id": 417,
       "start": 2732.153,
       "end": 2734.0,
       "text": "Și o întreb, de când sunt contracțiile?",
@@ -3337,7 +3345,7 @@
       "info": "1"
     },
     {
-      "id": 417,
+      "id": 418,
       "start": 2734.402,
       "end": 2737.738,
       "text": "Ea îmi spune, vreo jumătate de oră în urmă, a câta naștere?",
@@ -3345,7 +3353,7 @@
       "info": "1"
     },
     {
-      "id": 418,
+      "id": 419,
       "start": 2737.847,
       "end": 2742.567,
       "text": "A treia, nu, a treia naștere de acum ca medic îți dai seama că e pe aici.",
@@ -3353,7 +3361,7 @@
       "info": "1"
     },
     {
-      "id": 419,
+      "id": 420,
       "start": 2742.793,
       "end": 2747.82,
       "text": "O examinăm, vedem abdomenul și brusc, oi oi, eu probabil nasc.",
@@ -3361,7 +3369,7 @@
       "info": "2"
     },
     {
-      "id": 420,
+      "id": 421,
       "start": 2748.0,
       "end": 2751.54,
       "text": "Când ne uităm, da, într-adevăr, de acum a apărut căpușorul.",
@@ -3369,7 +3377,7 @@
       "info": "1"
     },
     {
-      "id": 421,
+      "id": 422,
       "start": 2751.63,
       "end": 2755.15,
       "text": "Bine că-i acasă, bine că e în pat.",
@@ -3377,7 +3385,7 @@
       "info": "1"
     },
     {
-      "id": 422,
+      "id": 423,
       "start": 2755.581,
       "end": 2758.349,
       "text": "Vă dați seama când se întâmplă lucrurile acestea în autosanitare.",
@@ -3385,7 +3393,7 @@
       "info": "1"
     },
     {
-      "id": 423,
+      "id": 424,
       "start": 2758.349,
       "end": 2761.097,
       "text": "E cu mult mai greu, e extraordinar de greu.",
@@ -3393,7 +3401,7 @@
       "info": "1"
     },
     {
-      "id": 424,
+      "id": 425,
       "start": 2761.403,
       "end": 2765.407,
       "text": "Tata chiar i-a spus că iată doctorul ți-a primit nașterea, cum vă cheamă?",
@@ -3401,7 +3409,7 @@
       "info": "1"
     },
     {
-      "id": 425,
+      "id": 426,
       "start": 2765.737,
       "end": 2769.104,
       "text": "Oleg îmi spune, o să-l chemăm Oleg. Și recent l-am văzut.",
@@ -3409,7 +3417,7 @@
       "info": "1"
     },
     {
-      "id": 426,
+      "id": 427,
       "start": 2769.489,
       "end": 2773.124,
       "text": "E mare deja, are vreo cinci șase anișori, asta a fost, de mult a fost.",
@@ -3417,7 +3425,7 @@
       "info": "1"
     },
     {
-      "id": 427,
+      "id": 428,
       "start": 2773.26,
       "end": 2782.0,
       "text": "Dar am avut o perioadă când nu mi-era frică de nimic și acum gândindu-mă la asta pot să spun că asta e cel mai rău.",
@@ -3425,7 +3433,7 @@
       "info": "1"
     },
     {
-      "id": 428,
+      "id": 429,
       "start": 2782.0,
       "end": 2788.0,
       "text": "Când nu te temi de nimic, când nu ai frică, atunci poți să faci niște lucruri negândite.",
@@ -3433,7 +3441,7 @@
       "info": "1"
     },
     {
-      "id": 429,
+      "id": 430,
       "start": 2788.0,
       "end": 2794.09,
       "text": "Poți să pui în pericol și viața ta și viața colegilor, asta cred că-i cel mai strașnic lucru.",
@@ -3441,7 +3449,7 @@
       "info": "1"
     },
     {
-      "id": 430,
+      "id": 431,
       "start": 2794.09,
       "end": 2795.479,
       "text": "Ți-a fost vreodată frică?",
@@ -3449,7 +3457,7 @@
       "info": "1"
     },
     {
-      "id": 431,
+      "id": 432,
       "start": 2795.48,
       "end": 2799.365,
       "text": "Eu cred că nu sunt oameni care să nu aibă frică, noi toți avem frică.",
@@ -3457,7 +3465,7 @@
       "info": "1"
     },
     {
-      "id": 432,
+      "id": 433,
       "start": 2799.753,
       "end": 2807.184,
       "text": "Poți să fii cel mai bun scafandru, poți să fii cel mai bun pompier, cel mai bun salvator dar frica undeva trebuie să predomine.",
@@ -3465,7 +3473,7 @@
       "info": "1"
     },
     {
-      "id": 433,
+      "id": 434,
       "start": 2807.224,
       "end": 2811.858,
       "text": "Unde predomină frica, puțin, acolo predomină și atenția.",
@@ -3473,7 +3481,7 @@
       "info": "1"
     },
     {
-      "id": 434,
+      "id": 435,
       "start": 2811.923,
       "end": 2815.388,
       "text": "Au fost cazuri când m-am gândit că prea tare m-am expus riscului.",
@@ -3481,7 +3489,7 @@
       "info": "1"
     },
     {
-      "id": 435,
+      "id": 436,
       "start": 2816.311,
       "end": 2818.459,
       "text": "Am avut și traume, am avut.",
@@ -3489,7 +3497,7 @@
       "info": "1"
     },
     {
-      "id": 436,
+      "id": 437,
       "start": 2820.26,
       "end": 2831.707,
       "text": "Odată am căzut de pe acoperiș la o casă și după asta te gândești că posibil nu merita așa riscuri dar tot e bine, sunt viu, sănătos.",
@@ -3497,15 +3505,15 @@
       "info": "1"
     },
     {
-      "id": 437,
+      "id": 438,
       "start": 2831.707,
       "end": 2849.0,
-      "text": "Mergeam pe... pe strașina casei, ardea acoperișul și era întuneric noaptea și casa era din lut și am călcat, parcă am călcat pe perete, dar lutul era moale de la apă și piciorul s-a alunecat și am căzut jos.",
+      "text": "Mergeam pe... pe... strașina casei, ardea acoperișul și era întuneric noaptea și casa era din lut și am călcat, parcă am călcat pe perete, dar lutul era moale de la apă și piciorul s-a alunecat și am căzut jos.",
       "id_user": 1,
       "info": "2"
     },
     {
-      "id": 438,
+      "id": 439,
       "start": 2849.0,
       "end": 2860.0,
       "text": "În timpul cât cădeam știam că acolo sunt ținte lemne diferite și zic wow, zic acuș o să cad c-o țintă în cap și ca mâța în aer m-am întors și am căzut pe picioare.",
@@ -3513,7 +3521,7 @@
       "info": "1"
     },
     {
-      "id": 439,
+      "id": 440,
       "start": 2860.0,
       "end": 2866.33,
       "text": "Am aterizat, dar oricum de la viteză m-am rostogolit încă o dată și iarăși ca ca gimnastul.",
@@ -3521,7 +3529,7 @@
       "info": "1"
     },
     {
-      "id": 440,
+      "id": 441,
       "start": 2866.33,
       "end": 2870.552,
       "text": "Iar m-am sculat pe picioare și colegii, tot normal tot normal, zic, da, tot e bine, tot e frumos.",
@@ -3529,7 +3537,7 @@
       "info": "1"
     },
     {
-      "id": 441,
+      "id": 442,
       "start": 2870.552,
       "end": 2876.657,
       "text": "Și am continuat mai departe stingerea. Asta așa ca printre urechile acului mi-a, mi-a mers.",
@@ -3537,7 +3545,7 @@
       "info": "1"
     },
     {
-      "id": 442,
+      "id": 443,
       "start": 2876.657,
       "end": 2887.566,
       "text": "Câteodată te gândești, dar posibil nu trebuia așa de tare să acționezi, să te bagi în foc, dar parcă tot e bine.",
@@ -3545,7 +3553,7 @@
       "info": "1"
     },
     {
-      "id": 443,
+      "id": 444,
       "start": 2887.566,
       "end": 2894.494,
       "text": "E prima intervenție a ta, când intri în apă, atunci inima din piept îți pare că o să sară.",
@@ -3553,7 +3561,7 @@
       "info": "1"
     },
     {
-      "id": 444,
+      "id": 445,
       "start": 2894.494,
       "end": 2896.885,
       "text": "Bătăile sunt foarte puternice.",
@@ -3561,15 +3569,15 @@
       "info": "1"
     },
     {
-      "id": 445,
+      "id": 446,
       "start": 2896.885,
       "end": 2903.585,
-      "text": "Deplasându-ți în direcția, da, unde aproximativ s-a... s-a înecat persoana.",
+      "text": "Deplasându-ți în direcția, da, unde aproximativ s-a, s-a înecat persoana.",
       "id_user": 2,
       "info": "1"
     },
     {
-      "id": 446,
+      "id": 447,
       "start": 2903.585,
       "end": 2912.301,
       "text": "Deja când ești sub apă, tot e întuneric, tot legat, e ca cum ai fi legat cu ceva, da c-o batistă la ochi și nu vezi nimic.",
@@ -3577,7 +3585,7 @@
       "info": "1"
     },
     {
-      "id": 447,
+      "id": 448,
       "start": 2912.301,
       "end": 2917.512,
       "text": "Atunci emoțiile sunt... nu pot să le redau.",
@@ -3585,7 +3593,7 @@
       "info": "1"
     },
     {
-      "id": 448,
+      "id": 449,
       "start": 2917.512,
       "end": 2927.48,
       "text": "Acest lucru și ceea ce spun eu pot să înțeleagă numai persoanele care ei sunt scafandri și care s-au întâlnit cu... cu așa ceva.",
@@ -3593,7 +3601,7 @@
       "info": "1"
     },
     {
-      "id": 449,
+      "id": 450,
       "start": 2927.48,
       "end": 2935.181,
       "text": "Prezența arderii profesionale la noi, la medicii de urgență, este foarte prezentă și foarte accentuată.",
@@ -3601,7 +3609,7 @@
       "info": "1"
     },
     {
-      "id": 450,
+      "id": 451,
       "start": 2935.181,
       "end": 2942.183,
       "text": "Având în vedere că personalul este într-adevăr foarte puțin, având în vedere că noi activăm și peste două și peste una se întâmplă cazuri.",
@@ -3609,7 +3617,7 @@
       "info": "1"
     },
     {
-      "id": 451,
+      "id": 452,
       "start": 2942.183,
       "end": 2951.217,
       "text": "E dificil, e dificil. Da, nu ne controlăm, da, sunt cazuri când ne ieșim din sărite dar lucrurile acestea nu trebuie să manifeste la serviciu.",
@@ -3617,7 +3625,7 @@
       "info": "1"
     },
     {
-      "id": 452,
+      "id": 453,
       "start": 2951.217,
       "end": 2958.929,
       "text": "Lucrurile acestea trebuie să fie cântărite, lucrurile acestea trebuie să fie aplanate, lucrurile trebuie să fie aranjate din start.",
@@ -3625,7 +3633,7 @@
       "info": "1"
     },
     {
-      "id": 453,
+      "id": 454,
       "start": 2958.929,
       "end": 2961.266,
       "text": "Ai intrat în serviciu, tu trebuie să uiți de toate problemele care le ai.",
@@ -3633,7 +3641,7 @@
       "info": "1"
     },
     {
-      "id": 454,
+      "id": 455,
       "start": 2961.453,
       "end": 2966.301,
       "text": "Noi ca șoferi răspundem de toată echipa și de bolnav când mergem la volan.",
@@ -3641,7 +3649,7 @@
       "info": "1"
     },
     {
-      "id": 455,
+      "id": 456,
       "start": 2966.301,
       "end": 2969.892,
       "text": "Dacă Doamne ferește se întâmplă ceva, eu răspund nu ei.",
@@ -3649,7 +3657,7 @@
       "info": "1"
     },
     {
-      "id": 456,
+      "id": 457,
       "start": 2969.892,
       "end": 2975.327,
       "text": "Medicul deodată spune, bolnavul este stabil, nu ne grăbim, mergem normal.",
@@ -3657,7 +3665,7 @@
       "info": "1"
     },
     {
-      "id": 457,
+      "id": 458,
       "start": 2975.327,
       "end": 2981.199,
       "text": "Dar când medicul spune, te rog, mergem mai repede, ne străduim cât mai repede să ajungem, să scăpăm bolnavul.",
@@ -3665,7 +3673,7 @@
       "info": "1"
     },
     {
-      "id": 458,
+      "id": 459,
       "start": 2981.199,
       "end": 2984.896,
       "text": "Domn Oleg ați plâns din cauza că nu v-a reușit sau ceva?",
@@ -3673,7 +3681,7 @@
       "info": "1"
     },
     {
-      "id": 459,
+      "id": 460,
       "start": 2984.936,
       "end": 2993.363,
       "text": "Eu, în practica mea, am un caz din păcate care am resucitare nereușită.",
@@ -3681,7 +3689,7 @@
       "info": "1"
     },
     {
-      "id": 460,
+      "id": 461,
       "start": 2993.731,
       "end": 3001.0,
       "text": "Este vorba de o doamnă, destul de tânără doamna, pare-mi-se vreo patruzeci de ani.",
@@ -3689,7 +3697,7 @@
       "info": "1"
     },
     {
-      "id": 461,
+      "id": 462,
       "start": 3001.0,
       "end": 3009.785,
       "text": "Noi am intervenit prompt, foarte repede, nu suspectam absolut nicio patologie legată cu aparatul cardiovascular.",
@@ -3697,7 +3705,7 @@
       "info": "1"
     },
     {
-      "id": 462,
+      "id": 463,
       "start": 3009.785,
       "end": 3014.67,
       "text": "Unica acuză care avea ea, așa, niște dureri în regiunea cordului.",
@@ -3705,7 +3713,7 @@
       "info": "1"
     },
     {
-      "id": 463,
+      "id": 464,
       "start": 3014.67,
       "end": 3017.407,
       "text": "La cardiogramă, nicio suspecție, nimic absolut.",
@@ -3713,7 +3721,7 @@
       "info": "1"
     },
     {
-      "id": 464,
+      "id": 465,
       "start": 3017.407,
       "end": 3019.407,
       "text": "Brusc îmi face stop.",
@@ -3721,7 +3729,7 @@
       "info": "1"
     },
     {
-      "id": 465,
+      "id": 466,
       "start": 3020.253,
       "end": 3023.804,
       "text": "Noi am resucitat-o, țin minte, am resucitat-o cu succes prima dată.",
@@ -3729,7 +3737,7 @@
       "info": "1"
     },
     {
-      "id": 466,
+      "id": 467,
       "start": 3023.804,
       "end": 3030.682,
       "text": "Două minute, început terapia post-resucitară, două minute a trăit, iarăși a făcut stop.",
@@ -3737,7 +3745,7 @@
       "info": "1"
     },
     {
-      "id": 467,
+      "id": 468,
       "start": 3031.2,
       "end": 3038.0,
       "text": "Iarăși am resucitat-o cu succes și a treia oară când a făcut stop, din păcate, n-am putut s-o mai resuscităm.",
@@ -3745,7 +3753,7 @@
       "info": "1"
     },
     {
-      "id": 468,
+      "id": 469,
       "start": 3038.0,
       "end": 3052.662,
       "text": "M-a remarcat foarte tare pentru că știți, când stai deasupra pacientei și că vezi că apare ritmul și îți deschide ochii, și când îți spune că domnul doctor dați-mi pace că eu o să plec, doare.",
@@ -3753,7 +3761,7 @@
       "info": "1"
     },
     {
-      "id": 469,
+      "id": 470,
       "start": 3053.749,
       "end": 3061.0,
       "text": "Orice deces în prezență sau orice deces chiar și până la sosire, orice naștere e un stres, e un stres extraordinar.",
@@ -3761,7 +3769,7 @@
       "info": "1"
     },
     {
-      "id": 470,
+      "id": 471,
       "start": 3061.318,
       "end": 3067.33,
       "text": "Și când postăm noi activitatea noastră cu cazurile acestea reușite, nu-i o simplă postare.",
@@ -3769,7 +3777,7 @@
       "info": "1"
     },
     {
-      "id": 471,
+      "id": 472,
       "start": 3067.33,
       "end": 3070.29,
       "text": "Acolo-i extraordinar ce de multă muncă e.",
@@ -3777,7 +3785,7 @@
       "info": "1"
     },
     {
-      "id": 472,
+      "id": 473,
       "start": 3070.29,
       "end": 3076.614,
       "text": "Pentru că lucrurile acestea, un om care le suferă și-un om care trece prin ele, numai acela poate să înțeleagă.",
@@ -3785,7 +3793,7 @@
       "info": "1"
     },
     {
-      "id": 473,
+      "id": 474,
       "start": 3076.614,
       "end": 3080.67,
       "text": "Avem psihologi în cadrul inspectoratului nostru.",
@@ -3793,7 +3801,7 @@
       "info": "1"
     },
     {
-      "id": 474,
+      "id": 475,
       "start": 3080.67,
       "end": 3088.173,
       "text": "Chiar dacă nu avem nevoie, oricum vin o dată de două ori pe an și fac diferite lecții cu noi.",
@@ -3801,7 +3809,7 @@
       "info": "1"
     },
     {
-      "id": 475,
+      "id": 476,
       "start": 3088.173,
       "end": 3094.518,
       "text": "Sunt persoane mai închiși în sine și atunci el poate să aibă o problemă, dar nimeni din colegi n-o să-și dea seama.",
@@ -3809,7 +3817,7 @@
       "info": "1"
     },
     {
-      "id": 476,
+      "id": 477,
       "start": 3094.518,
       "end": 3101.198,
       "text": "Și atunci psihologii lucrează cu noi, cu fiecare colectiv, în grup, pe urmă cu fiecare separați.",
@@ -3817,7 +3825,7 @@
       "info": "1"
     },
     {
-      "id": 477,
+      "id": 478,
       "start": 3101.198,
       "end": 3104.827,
       "text": "Sunt diferite teste și atunci ei văd dacă este o problemă.",
@@ -3825,7 +3833,7 @@
       "info": "1"
     },
     {
-      "id": 478,
+      "id": 479,
       "start": 3104.827,
       "end": 3112.333,
       "text": "Una din cele mai eficiente metode este discuția, discuția cu colegii, discuția cu familia.",
@@ -3833,7 +3841,7 @@
       "info": "1"
     },
     {
-      "id": 479,
+      "id": 480,
       "start": 3112.333,
       "end": 3117.312,
       "text": "Dar despre cazuri mai grele eu mă stărui să nu, familia să nu cunoască.",
@@ -3841,7 +3849,7 @@
       "info": "1"
     },
     {
-      "id": 480,
+      "id": 481,
       "start": 3117.719,
       "end": 3122.0,
       "text": "Că atunci retrăiesc și ei și asta nu trebuie la nimeni.",
@@ -3849,7 +3857,7 @@
       "info": "1"
     },
     {
-      "id": 481,
+      "id": 482,
       "start": 3122.0,
       "end": 3125.19,
       "text": "Visezi vreodată că participi la misiuni?",
@@ -3857,15 +3865,15 @@
       "info": "1"
     },
     {
-      "id": 482,
+      "id": 483,
       "start": 3125.19,
       "end": 3135.473,
-      "text": "Nu, acum la moment nu, la primele intervenții, când am avut intervenția da și când am extras cadavre atunci era mai... mai greu.",
+      "text": "Nu, acum la moment nu, la primele intervenții, când am avut intervenția da și când am extras cadavre atunci era mai, mai greu.",
       "id_user": 2,
       "info": "1"
     },
     {
-      "id": 483,
+      "id": 484,
       "start": 3135.473,
       "end": 3146.45,
       "text": "Chiar erau zile că puteam să nu mănânc, o zi două aveam grețuri, aveam disconfort pe pe suflet, poate și undeva și-i visam.",
@@ -3873,7 +3881,7 @@
       "info": "1"
     },
     {
-      "id": 484,
+      "id": 485,
       "start": 3146.45,
       "end": 3154.463,
       "text": "Dar acum nu, acum de acum emoțional noi scafandrii ne putem însuși pe noi să să ne liniștim.",
@@ -3881,7 +3889,7 @@
       "info": "1"
     },
     {
-      "id": 485,
+      "id": 486,
       "start": 3154.463,
       "end": 3159.75,
       "text": "Facem un lucru că trebuie să-l facem, dacă n-o să-l facem noi, cine o să-l facă?",
@@ -3889,7 +3897,7 @@
       "info": "1"
     },
     {
-      "id": 486,
+      "id": 487,
       "start": 3159.75,
       "end": 3169.34,
       "text": "Și eu cred că cu timpul de acum îți întărește psihologia însuși a ta și lucrurile vin mai ușor.",
@@ -3897,7 +3905,7 @@
       "info": "1"
     },
     {
-      "id": 487,
+      "id": 488,
       "start": 3169.34,
       "end": 3177.345,
       "text": "Mi-i frică când merg la volan de accidente, fiindcă e tare mare pericolul, că la noi oamenii nu cedează, e greu de mers.",
@@ -3905,7 +3913,7 @@
       "info": "1"
     },
     {
-      "id": 488,
+      "id": 489,
       "start": 3177.852,
       "end": 3183.649,
       "text": "Sunt dacă merg cu muzica sau scriu în telefoane, asta-i cel mai rău că el nu nu aude salvarea el e, sunt ocupați cu telefonul.",
@@ -3913,7 +3921,7 @@
       "info": "1"
     },
     {
-      "id": 489,
+      "id": 490,
       "start": 3183.649,
       "end": 3186.198,
       "text": "Asta mi-i cea mai mare frică să nu fac un accident.",
@@ -3921,7 +3929,7 @@
       "info": "1"
     },
     {
-      "id": 490,
+      "id": 491,
       "start": 3186.198,
       "end": 3189.272,
       "text": "N-am avut așa cazuri ca să mă pierd cu firea încă.",
@@ -3929,7 +3937,7 @@
       "info": "1"
     },
     {
-      "id": 491,
+      "id": 492,
       "start": 3189.538,
       "end": 3195.104,
       "text": "Acolo noi n-ai când să te pierzi, că dacă te-ai pierdut putem să pierdem pacientul.",
@@ -3937,7 +3945,7 @@
       "info": "1"
     },
     {
-      "id": 492,
+      "id": 493,
       "start": 3195.104,
       "end": 3198.67,
       "text": "Trebuie să fii curajos și să mergi cu capul în sus înainte.",
@@ -3945,7 +3953,7 @@
       "info": "1"
     },
     {
-      "id": 493,
+      "id": 494,
       "start": 3200.457,
       "end": 3212.375,
       "text": "Avem superstiții când cineva îmbracă o formă nouă sau o haină nouă, atunci o, dacă e ceva nou, atunci precis c-o să avem ceva intervenții.",
@@ -3953,7 +3961,7 @@
       "info": "2"
     },
     {
-      "id": 494,
+      "id": 495,
       "start": 3212.375,
       "end": 3225.328,
       "text": "Plus la toate, când persoanele care predau schimbul și se duc acasă la odihnă sau alți colegi care au venit în vizită și se duc, întotdeauna spun furtunuri uscate.",
@@ -3961,7 +3969,7 @@
       "info": "1"
     },
     {
-      "id": 495,
+      "id": 496,
       "start": 3225.328,
       "end": 3231.0,
       "text": "Furtunurile dacă sunt uscate înseamnă că printr-însele nu trece apa, dacă nu trece apa înseamnă că nu-s intervenții.",
@@ -3969,7 +3977,7 @@
       "info": "1"
     },
     {
-      "id": 496,
+      "id": 497,
       "start": 3231.0,
       "end": 3241.525,
       "text": "La noi, când scafandrul vine la serviciu, dar asta așa și ... de multe ori și s-a întâmplat când era în lenjeria de corp roșu, anume roșu, culoarea roșu.",
@@ -3977,7 +3985,7 @@
       "info": "0"
     },
     {
-      "id": 497,
+      "id": 498,
       "start": 3241.525,
       "end": 3247.497,
       "text": "Deseori se se primea că cineva care venea cu lenjerie de corp culoarea roșu, atunci avem intervenții.",
@@ -3985,7 +3993,7 @@
       "info": "1"
     },
     {
-      "id": 498,
+      "id": 499,
       "start": 3247.735,
       "end": 3260.0,
       "text": "Nu cred că am superstiții, nu-s om superstițios, unica ce am observat eu, prima solicitare, de exemplu, dacă vine cu nu știu c-o fractură, păi ultima tot o să fie cu fractură.",
@@ -3993,7 +4001,7 @@
       "info": "1"
     },
     {
-      "id": 499,
+      "id": 500,
       "start": 3260.0,
       "end": 3267.887,
       "text": "Nu știu de ce, dar deseori se întâmplă așa, sau altă solicitare, adică începutul ca sfârșitul.",
@@ -4001,7 +4009,7 @@
       "info": "1"
     },
     {
-      "id": 500,
+      "id": 501,
       "start": 3267.887,
       "end": 3272.205,
       "text": "Dacă ar fi să o luați de la început, tot șofer de ambulanță ați deveni?",
@@ -4009,7 +4017,7 @@
       "info": "1"
     },
     {
-      "id": 501,
+      "id": 502,
       "start": 3272.205,
       "end": 3273.412,
       "text": "Nicio problemă.",
@@ -4017,7 +4025,7 @@
       "info": "1"
     },
     {
-      "id": 502,
+      "id": 503,
       "start": 3273.701,
       "end": 3280.112,
       "text": "Îmi iubesc lucru și îmi place să lucrez ca șofer pe ambulanță, m-aș întoarce de la început.",
@@ -4025,7 +4033,7 @@
       "info": "1"
     },
     {
-      "id": 503,
+      "id": 504,
       "start": 3280.112,
       "end": 3297.452,
       "text": "Pericolul întotdeauna persistă dacă să vorbim de butelii de gaz care persoanele mai folosesc despre care noi nu putem să cunoaștem atunci când intervenim să stingem un incendiu într-un apartament sau într-o casă.",
@@ -4033,7 +4041,7 @@
       "info": "1"
     },
     {
-      "id": 504,
+      "id": 505,
       "start": 3297.452,
       "end": 3316.6,
       "text": "Pericolul de electrocutare care permanent există, sunt lucruri care noi nu nu putem să noi putem să ne gândim că ele pot fi acolo dar noi nu știm cu siguranță și nu spun că uite eu nu intru în focar că acolo este pericolul că-i butelie de gaz.",
@@ -4041,7 +4049,7 @@
       "info": "1"
     },
     {
-      "id": 505,
+      "id": 506,
       "start": 3316.6,
       "end": 3326.112,
       "text": "Noi oricum intrăm dar butelia aceea de gaz sau altceva poate să se întâmple în orice moment și atunci nimeni nu este asigurat că n-o se întâmple nimic.",
@@ -4049,7 +4057,7 @@
       "info": "1"
     },
     {
-      "id": 506,
+      "id": 507,
       "start": 3326.0,
       "end": 3330.62,
       "text": "Orice intervenție prezintă un oarecare pericol, de asta venim noi.",
@@ -4057,7 +4065,7 @@
       "info": "1"
     },
     {
-      "id": 507,
+      "id": 508,
       "start": 3330.62,
       "end": 3335.3,
       "text": "Lucrul e specific, e mult diferit, nu-i nu-i nu-i rutina aceea care zi de zi.",
@@ -4065,7 +4073,7 @@
       "info": "1"
     },
     {
-      "id": 508,
+      "id": 509,
       "start": 3335.3,
       "end": 3341.465,
       "text": "Astăzi ninge, sunt automobile blocate care trebuie să-i tractăm.",
@@ -4073,7 +4081,7 @@
       "info": "1"
     },
     {
-      "id": 509,
+      "id": 510,
       "start": 3341.445,
       "end": 3347.52,
       "text": "Mâine plouă, inundă niște apartamente, case, trebuie să ne ducem să pompăm apă.",
@@ -4081,7 +4089,7 @@
       "info": "1"
     },
     {
-      "id": 510,
+      "id": 511,
       "start": 3347.52,
       "end": 3353.075,
       "text": "Suflă vântul e cald, arșiță, ard, arde vegetație, mergem și stingem vegetație.",
@@ -4089,7 +4097,7 @@
       "info": "1"
     },
     {
-      "id": 511,
+      "id": 512,
       "start": 3353.325,
       "end": 3368.0,
       "text": "Se începe sezonul de încălzire, ard sobele, casele, iarăși, e diferit, e ani de zile, una și aceeași, dar mereu e diferit de asta, e foarte interesant și nu ardem profesional.",
@@ -4097,7 +4105,7 @@
       "info": "1"
     },
     {
-      "id": 512,
+      "id": 513,
       "start": 3368.0,
       "end": 3376.82,
       "text": "La noi sunt toți eroi. Dar haide să vorbim așa, care activează în inspectorat, sunt toți eroi, pompierii, salvatorii, scafandri.",
@@ -4105,7 +4113,7 @@
       "info": "1"
     },
     {
-      "id": 513,
+      "id": 514,
       "start": 3377.157,
       "end": 3385.421,
       "text": "De atâta că ei fac lucruri care nu toți le pot face. Și ei fac lucruri, dar nu-i cunosc pe toți eroii noștri.",
@@ -4113,7 +4121,7 @@
       "info": "1"
     },
     {
-      "id": 514,
+      "id": 515,
       "start": 3385.421,
       "end": 3386.778,
       "text": "Pur și simplu nu-i cunosc.",
@@ -4121,7 +4129,7 @@
       "info": "1"
     },
     {
-      "id": 515,
+      "id": 516,
       "start": 3386.918,
       "end": 3393.82,
       "text": "Sunt foarte buni, bine pregătiți, sunt băieți controlați. Eu vorbesc de toți colegii mei că mi-s colegi toți.",
@@ -4129,7 +4137,7 @@
       "info": "1"
     },
     {
-      "id": 516,
+      "id": 517,
       "start": 3394.079,
       "end": 3399.195,
       "text": "Trebuie să faci lucrul, dar să nu vorbești. Că-l fac, dar nu-l poți face.",
@@ -4137,7 +4145,7 @@
       "info": "1"
     },
     {
-      "id": 517,
+      "id": 518,
       "start": 3399.195,
       "end": 3403.44,
       "text": "Trebuie să taci, dar să faci. Și atunci e cel mai bine.",
@@ -4145,7 +4153,7 @@
       "info": "1"
     },
     {
-      "id": 518,
+      "id": 519,
       "start": 3403.44,
       "end": 3406.196,
       "text": "Lucrul nostru e chiar eroic.",
@@ -4153,7 +4161,7 @@
       "info": "1"
     },
     {
-      "id": 519,
+      "id": 520,
       "start": 3406.236,
       "end": 3414.438,
       "text": "Vă dați seama, asta-i o organizație care e cea mai mare, cea mai numeroasă din toate organizațiile spitalicești din Republica Moldova.",
@@ -4161,7 +4169,7 @@
       "info": "1"
     },
     {
-      "id": 520,
+      "id": 521,
       "start": 3415.186,
       "end": 3424.474,
       "text": "Vă dați seama câte cazuri, câți pacienți noi deservim, cât e de complexă deservirea, cât e de diversificată abordarea problemelor.",
@@ -4169,7 +4177,7 @@
       "info": "1"
     },
     {
-      "id": 521,
+      "id": 522,
       "start": 3424.705,
       "end": 3439.575,
       "text": "Eu dacă ne-aș chema pe noi medicii de urgență din Republica Moldova la Hollywood, eu cred că aș face un serial destul de bun și destul de cu un rating, destul de mare, dacă sincer și cu un buget, să spunem așa, destul de mare.",
@@ -4177,7 +4185,7 @@
       "info": "1"
     },
     {
-      "id": 522,
+      "id": 523,
       "start": 3439.575,
       "end": 3446.858,
       "text": "Pentru că noi avem medici foarte buni. Avem asistenți medicali buni și pentru asta chiar îi mulțumesc absolut.",
@@ -4185,7 +4193,7 @@
       "info": "1"
     },
     {
-      "id": 523,
+      "id": 524,
       "start": 3446.935,
       "end": 3454.1,
       "text": "Asistentul medical este mâinile medicului, infirmierul este mâinile medicului și șoferul la fel, pentru că este o echipă unită.",
@@ -4193,7 +4201,7 @@
       "info": "1"
     },
     {
-      "id": 524,
+      "id": 525,
       "start": 3454.407,
       "end": 3458.062,
       "text": "Când se întâmplă un caz dificil, un caz ieșit din comun, se implică absolut toți.",
@@ -4201,7 +4209,7 @@
       "info": "1"
     },
     {
-      "id": 525,
+      "id": 526,
       "start": 3458.062,
       "end": 3464.312,
       "text": "Nu este că eu sunt șofer, eu stau la locul meu, tu ești felcer, tu ești asistent medical, ești medic, ocupă-te. Nu.",
@@ -4209,7 +4217,7 @@
       "info": "1"
     },
     {
-      "id": 526,
+      "id": 527,
       "start": 3464.312,
       "end": 3478.605,
       "text": "Toți se implică absolut. Și anume, îmbinarea asta de o echipă unită aduce așa rezultate frumoase și așa niște cazuri care, la prima vedere, îți pare că băi el nu trebuia să trăiască.",
@@ -4217,7 +4225,7 @@
       "info": "1"
     },
     {
-      "id": 527,
+      "id": 528,
       "start": 3478.605,
       "end": 3479.662,
       "text": "Dar iată el trăiește.",

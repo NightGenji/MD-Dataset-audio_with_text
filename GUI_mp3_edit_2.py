@@ -41,8 +41,7 @@ WORKING_DIR_NUMBER = 0
 START_EDITING = 0
 
 List_idx = 0
-EDITING_LIST = [
-]
+EDITING_LIST = []
 
 """first arg  -> takes a WORKING_DIR_NUMBER value"""
 """second arg -> takes a START_EDITING value"""
@@ -688,6 +687,10 @@ class Repair_Audio:
             #     self.id_curr_seg += 1
             #     continue
 
+            # if str(item[TEXT_SEG]).find("...") == -1:
+            #     self.id_curr_seg += 1
+            #     continue
+
             break
 
         self.reset_button_sink()
@@ -1035,13 +1038,16 @@ class Repair_Audio:
         self.brain()
 
     def delete_segment(self):
-        if not messagebox.askyesno("Confirm Delete", "Kboom Rico?"):
+        if not ask_yes_no_mouse(self.root, "Confirm Delete", "Kboom Rico?"):
             return
 
         self.data[SEGMENTS].pop(self.id_curr_seg)
 
         rewrite_id_segments(self.data)
+        self.last_end_time = self.end_var.get()
         self.brain()
+
+        # self.play_full()
 
     def dublicate_segment(self):
         if not messagebox.askyesno("Confirm Dublicate", "I'd clone your mother if I could"):

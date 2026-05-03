@@ -316,7 +316,7 @@
       "id": 39,
       "start": 389.948,
       "end": 394.633,
-      "text": "Am ținut în secret atâta timp cât am putut, dar mă rog, nu... nu este posibil.",
+      "text": "Am ținut în secret atâta timp cât am putut, dar mă rog, nu, nu este posibil.",
       "id_user": 3,
       "info": "1"
     },
@@ -364,7 +364,7 @@
       "id": 45,
       "start": 445.595,
       "end": 464.434,
-      "text": "Asta a fost simbolul care am zis că anii trec, noi la fel, și trebuie să facem ceva frumos, ceva să lăsăm urmașilor noștri, să lăsăm un... o amprentă pentru satul de baștină.",
+      "text": "Asta a fost simbolul care am zis că anii trec, noi la fel, și trebuie să facem ceva frumos, ceva să lăsăm... urmașilor noștri, să lăsăm un, o amprentă pentru satul de baștină.",
       "id_user": 5,
       "info": "1"
     },
@@ -820,15 +820,15 @@
       "id": 102,
       "start": 1162.917,
       "end": 1172.322,
-      "text": "Să creștem nepoții și să facem ca satul Cobani, să aibă și el o... o bijuterie din asta.",
+      "text": "Să creștem nepoții și să facem ca satul Cobani, să aibă și el o... o... bijuterie din asta.",
       "id_user": 5,
       "info": "1"
     },
     {
       "id": 103,
       "start": 1172.322,
-      "end": 1179.639,
-      "text": "Vara când așa abia răsare soarele, ce ciripit de păsări avem, ce...",
+      "end": 1179.231,
+      "text": "Vara când așa abia răsare soarele, ce ciripit de păsări avem.",
       "id_user": 5,
       "info": "1"
     },
@@ -844,7 +844,7 @@
       "id": 105,
       "start": 1186.789,
       "end": 1191.075,
-      "text": "Numai... numai talanga de la... de la gâtul oițelor acelea se aude.",
+      "text": "Numai, numai talanga de la, de la gâtul oițelor acelea se aude.",
       "id_user": 5,
       "info": "1"
     },
@@ -1444,7 +1444,7 @@
       "id": 180,
       "start": 1788.354,
       "end": 1796.56,
-      "text": "Și asta o... o fac bine, tot timpul am fost foarte calculată, și chibzuită și facem față.",
+      "text": "Și asta o, o fac bine, tot timpul am fost foarte calculată, și chibzuită și facem față.",
       "id_user": 3,
       "info": "1"
     },
@@ -1820,7 +1820,7 @@
       "id": 227,
       "start": 2216.792,
       "end": 2221.126,
-      "text": "Strictul să-l acoperim să nu fim pe... pe minus, să fim pe zero.",
+      "text": "Strictul să-l acoperim să nu fim pe, pe minus, să fim pe zero.",
       "id_user": 5,
       "info": "1"
     },
@@ -2108,7 +2108,7 @@
       "id": 263,
       "start": 2482.344,
       "end": 2492.434,
-      "text": "Oricum are și ea momentele când lasă, vrea să lase total mâinile în jos să renunțe pentru că-i foarte tare obosită de... de toate.",
+      "text": "Oricum are și ea momentele când lasă, vrea să lase total mâinile în jos să renunțe pentru că-i foarte tare obosită de, de toate.",
       "id_user": 2,
       "info": "0"
     },
@@ -3003,7 +3003,7 @@
     {
       "id": 375,
       "start": 3384.035,
-      "end": 3394.645,
+      "end": 3394.647,
       "text": "Și am investit foarte mulți bani în colectarea materialului în depozitarea acestuia ca atunci când am început să procesez să înțeleg că nu-i posibil să procesez material din...",
       "id_user": 4,
       "info": "1"
